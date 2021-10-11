@@ -4,10 +4,12 @@
 - 随缘更新
 - 随缘主题
 
-  
- URL: `https://jieyangxchen.github.io/notes/`
-  
+#### blog地址：
+[博客首页](https://jieyangxchen.github.io/notes/)
 
 
 
-> Powered by docsify~  
+
+> [docsify教程](https://docsify.js.org/#/zh-cn/quickstart)
+
+> <div style="text-align: center;"> Powered by docsify~ </div>  
