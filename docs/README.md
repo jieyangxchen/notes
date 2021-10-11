@@ -1,4 +1,4 @@
-## 阳·Blogs
+# 阳·Blogs
 
 ### 简介
 - 随缘更新
@@ -12,4 +12,4 @@
 
 > [docsify教程](https://docsify.js.org/#/zh-cn/quickstart)
 
-> <div style="text-align: center;"> Powered by docsify~ </div>  
+>  Powered by docsify~  
