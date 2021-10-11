@@ -4,4 +4,4 @@
 
 
 
-[Get Started](#)
+[Get Started](#notes)
