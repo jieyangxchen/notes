@@ -4,4 +4,4 @@
 
 
 [GitHub](https://github.com/jieyangxchen/notes)
-[Get Started](#阳·Blogs)
+[Get Started](README.md)
