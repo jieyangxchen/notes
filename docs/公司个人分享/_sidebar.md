@@ -1,3 +1,4 @@
 * [第一次个人分享与总结](公司个人分享/第一次个人分享.md)
 * [Redisson分布式锁浅析](公司个人分享/Redisson分布式锁浅析.md)
 * [RedLock故事分享](公司个人分享/关于redLock的故事.md)
+* [记一次MyBatis缓存引发的问题](公司个人分享/MyBatis缓存.md)
