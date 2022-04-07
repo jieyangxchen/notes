@@ -1,7 +1,5 @@
 # 消息队列RocketMQ
 
-> <font color = #F46902>**参考** [JavaGuide](https://javaguide.cn/high-performance/message-queue/rocketmq-intro.html)</font>
-
 ## 一. 为什么要用消息队列？
 
 1. 同一个消息，可以由不同的进程同时去处理对应的业务
@@ -236,3 +234,14 @@
 那 `RocketMQ` 为什么要这么做呢？原因是 **提高数据的写入效率** ，不分 `Topic` 意味着我们有更大的几率获取 **成批** 的消息进行数据写入，但也会带来一个麻烦就是读取消息的时候需要遍历整个大文件，这是非常耗时的。
 
 所以，在 `RocketMQ` 中又使用了 `ConsumeQueue` 作为每个队列的索引文件来 **提升读取消息的效率**。我们可以直接根据队列的消息序号，计算出索引的全局位置（索引序号*索引固定⻓度20），然后直接读取这条索引，再根据索引中记录的消息的全局位置，找到消息。
+
+
+
+
+> <font color = #F46902>**参考：**</font>
+>
+>  [JavaGuide](https://javaguide.cn/high-performance/message-queue/rocketmq-intro.html)
+>
+> cc个人分享
+
+
