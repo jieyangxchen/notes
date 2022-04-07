@@ -78,7 +78,6 @@ PX 30000：表示这个锁有一个 30 秒的自动过期时间。当然，这�
 
 到这个问题其实可以直接聊到 Redlock 了。**但是你别慌啊，为了展示你丰富的知识储备（疯狂的刷题准备），你得先自己聊一聊 Redis 的集群**，你可以这样去说：
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/lnCqjsQ6QHc0oq7XZILg4RLlj24kiaeyLr8kX5qtmmESVKlpkIZib1FHW2pRqIURESgaDic21ms8rOSE0zsPWnaHw/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
 
 为了避免节点挂掉导致的问题，我们可以采用Redis集群的方法来实现Redis的高可用。
 
@@ -104,7 +103,6 @@ PX 30000：表示这个锁有一个 30 秒的自动过期时间。当然，这�
 
 锁都被拿了两次了，也就不满足安全性了。**一个安全的锁，不管是不是分布式的，在任意一个时刻，都只有一个客户端持有。**
 
-![图片](https://mmbiz.qpic.cn/mmbiz_gif/lnCqjsQ6QHc0oq7XZILg4RLlj24kiaeyL0vSq8FibVicZ2rjNXVzrzWp20oLg5OwnqibL3KuN2toYRgYpKHXDgkzyw/640?wx_fmt=gif&tp=webp&wxfrom=5&wx_lazy=1)
 
 ### **3.Redlock简介**
 
@@ -153,7 +151,6 @@ PX 30000：表示这个锁有一个 30 秒的自动过期时间。当然，这�
 
 （接下来又得说一说Redis的持久化策略了，全是知识点啊，朋友们）
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/lnCqjsQ6QHc0oq7XZILg4RLlj24kiaeyL4y5PrTxr00DxVr7uMlpwl1ShXXVLbNc6XwlaEhdl7uFV0Oc8drW82w/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
 
 比如，Redis 的 AOF 持久化方式默认情况下是每秒写一次磁盘，即 fsync 操作，因此最坏的情况下可能丢失 1 秒的数据。
 
@@ -161,15 +158,12 @@ PX 30000：表示这个锁有一个 30 秒的自动过期时间。当然，这�
 
 而且，你以为执行了 fsync 就不会丢失数据了？天真，真实的系统环境是复杂的，这都已经脱离 Redis 的范畴了。上升到服务器、系统问题了。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/lnCqjsQ6QHc0oq7XZILg4RLlj24kiaeyLp9YYrqceT4GfysdicE12mDaVl6Y3vJJricC8zBtKk9BeAia3rsxNcPRFA/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
 
 所以，根据墨菲定律，上面举的例子：由于节点重启引发的锁失效问题，总是有可能出现的。
 
 
 
 为了解决这一问题，**Redis 的作者又提出了延迟重启delayed restarts的概念。**
-
-![图片](https://mmbiz.qpic.cn/mmbiz_png/lnCqjsQ6QHcPkhJwWuIs2hApwdu5ibW08sxushm51rCFibzI9GRuhSZtzdcuV0XRwPzfTKNBxQPyaZptarlic346A/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
 
 意思就是说，一个节点崩溃后，不要立即重启它，而是等待一定的时间后再重启。等待的时间应该大于锁的过期时间（TTL）。这样做的目的是保证这个节点在重启前所参与的锁都过期。相当于把以前的帐勾销之后才能参与后面的加锁操作。
 
@@ -207,8 +201,6 @@ Redis 的作者 antirez
 
 有的朋友对英文名字不太敏感，所以后面我就叫他**卷发哥**吧。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/lnCqjsQ6QHdxqdRaOibwib8MqzBergORiaUNyibnrkA5Iia1eYUADElmDYUqSXia3AJlBFynmFpnMlcM88SZFj72YaoA/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
-
 
 
 ##### 神仙二：**长发哥**
@@ -217,19 +209,14 @@ Redis 的作者 antirez
 
 我们叫他**长发哥**吧。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/lnCqjsQ6QHdxqdRaOibwib8MqzBergORiaU7P37YIribjflSE8ibYNK7b7JxIlsic4zhDPGp13LQKBoTmYNe48XIJ3ZA/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
-
 
 
 卷发哥在官网介绍 Redlock 页面的最后写到：如果你也是使用分布式系统的人员，你的观点和意见非常重要，欢迎和我们讨论。
-
-![图片](https://mmbiz.qpic.cn/mmbiz_png/lnCqjsQ6QHdxqdRaOibwib8MqzBergORiaUTia97P4LHKicUoqoKOHkXYYqYq3C6jzBOMhL0JBtZ24kGsLXgHZKLjjA/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
 
 
 
 于是，“求锤得锤”！这一锤，锤出了众多的吃瓜网友，其中不乏在相关领域的专业人士。
 
-![图片](data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==)
 
 ### **5.长发哥出锤**
 
@@ -240,9 +227,6 @@ Redis 的作者 antirez
 > 文章地址：
 >
 > http://martin.kleppmann.com/2016/02/08/how-to-do-distributed-locking.html
-
-![图片](https://mmbiz.qpic.cn/mmbiz_png/lnCqjsQ6QHdxqdRaOibwib8MqzBergORiaUsZ1NjquBaYNZOoSyHvtZH1ldWWS5jK5CFEfGgGTmnD0l8fd5L78vVg/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
-
 
 
 这一部分直接翻译过来就是：
@@ -295,11 +279,7 @@ Redis 的作者 antirez
 
 你继续怼我，如果客户端使用的是没有 GC 的语言呢？
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/lnCqjsQ6QHc0oq7XZILg4RLlj24kiaeyLogadYcA4FkQibNicKnGxZ0lpOsupUAul2Fvmt0jSy4PjEibSJz1Kk3eWw/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
-
 **GC 不是导致线程暂停的唯一原因啊，朋友们。**发生这种情况的原因有很多的，你看看长发哥书里举的例子：
-
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/lnCqjsQ6QHdxqdRaOibwib8MqzBergORiaUg9vucBSTDxrNtDmmic81hEJj0ULt3EHB3uVDqWt5MmSZw3I34qibKcsQ/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)上面的内容总结起来，就是就算锁服务是正常的，但是由于锁是有持有时间的，由于客户端阻塞、长时间的 GC 或者网络原因，导致共享资源被一个以上的客户端同时访问了。
 
 其实上面长发哥在书里直接说了：这是不正确的实现。
 
@@ -316,8 +296,6 @@ Redis 的作者 antirez
 ##### fencing
 
 **长发哥认为使用锁和租约机制来保护资源的并发访问时，必须确保因为异常原因，导致锁过期的那个节点不能影响其他正常的部分，要实现这一目标，可以采用一直相当简单的 fencing（栅栏）。**
-
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/lnCqjsQ6QHc0oq7XZILg4RLlj24kiaeyLH6Tsf1DS1NP1nzQTegrkcOvu2vT550gPNd53Z3gNiagKSW40aCxQb2w/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
 
 假设每次锁服务在授予锁或者租约时，还会同时返回一个 fencing 令牌，该令牌每次授予都会递增。
 
@@ -378,8 +356,6 @@ Redis 的作者 antirez
 
 而对于卷发哥提出的延迟启动方案，长发哥还是一棒子打死：**你延迟启动咋的？延迟启动还不是依赖于合理准确的时间度量。**
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/lnCqjsQ6QHc0oq7XZILg4RLlj24kiaeyLmQTwwfiakSwq5jqAq5yD7BXMLTibkycSHHTX0JfiagQ0GWGPKiaqDHQDDg/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
-
 
 
 可能是长发哥觉得举这个时钟跳跃的例子不够好的，大家都可能认为时钟跳跃是不现实的，因为对正确配置NTP就能摆正时钟非常有信心。
@@ -407,11 +383,7 @@ Redis 的作者 antirez
 
 而随后卷发哥的回击中也提到了这点。
 
-![image-20211230164833204](/Users/chen/Library/Application Support/typora-user-images/image-20211230164833204.png)
-
 但是，细细想来，我觉得长发哥的意图不在于此。抛开上面的问题来讲，他更想突出的是，一个锁在客户端拿到后，还没使用就过期了，这是不好的。**从客户端的角度来看，就是这玩意不靠谱啊，你给我一把锁，我还没用呢，你就过期了？**
-
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/lnCqjsQ6QHc0oq7XZILg4RLlj24kiaeyLyOh4BlQicK95ia2UR7khNRRa7s2IGfic6v4rCVzib2icXqBKBKSocwzAY9w/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
 
 ##### **为什么获取锁**
 
@@ -420,8 +392,6 @@ Redis 的作者 antirez
 **我们获取锁的用途是什么？**
 
 在他看来不外乎两个方面，**效率和正确性**。他分别描述如下：
-
-![图片](https://mmbiz.qpic.cn/mmbiz_png/lnCqjsQ6QHdxqdRaOibwib8MqzBergORiaUNdxiaibxJu2sqfntSpIeEjfNB1Y8OuOx7zZCm7KqNAuHAG28Typ6dFpw/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
 
 如果是为了效率，那么就是要协调各个客户端，避免他们做重复的工作。这种场景下，即使锁偶尔失效了，只是可能出现两个客户端完成了同样的工作，其结果是成本略有增加（您最终向 AWS 支付的费用比原本多5美分），或者带来不便（例如，用户最终两次收到相同的电子邮件通知）。
 
@@ -439,13 +409,9 @@ Redis 的作者 antirez
 
 **对于正确性要求高的场景下，它是依赖于时间的，不是一个足够强的算法。Redlock并没有保住正确性。**
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/lnCqjsQ6QHdxqdRaOibwib8MqzBergORiaUsKgxpccqMR2uaCrFdPX45yUwcAtRRSiajuklW0WFm68q9h0yYofJn8w/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
-
 那应该使用什么技术呢？
 
 长发哥认为，应该考虑类似 Zookeeper 的方案，或者支持事务的数据库。
-
-![图片](https://mmbiz.qpic.cn/mmbiz_png/lnCqjsQ6QHdxqdRaOibwib8MqzBergORiaUgrjYP4cTtFQaKVQwic7wItbpa1Oa6tIiaibDgfAQbG862SFFYWqNH2L7g/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
 
 
 
@@ -507,11 +473,7 @@ Redis 的作者 antirez
 
 文章得出的最终结论是：时钟跳跃是存在的。
 
-![图片](data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==)
-
 其实我们大家应该都经历过时钟跳跃的情况，你还记得2016年的最后一天，当时有个“闰秒”的概念吗？导致2017年1月1日出现了07:59:60的奇观。
-
-![图片](https://mmbiz.qpic.cn/mmbiz_png/lnCqjsQ6QHdxqdRaOibwib8MqzBergORiaUDWZS0vicLMdicLUtjLFpI6MHpKlJbic6pyoSdtSJribfoTO2AicEMsf7X5Q/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
 
 
 
@@ -522,13 +484,9 @@ Redis 的作者 antirez
 
 而对于大延迟给Redlock带来的影响，就是长发哥分析的那样，锁到期了，业务还没执行完。卷发哥认为这种影响不单单针对 Redlock ，其他具有自动释放锁的分布式锁也是存在一样的问题。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/lnCqjsQ6QHdxqdRaOibwib8MqzBergORiaUqIuaGdpjp25mAvnhahY0EcrFPb08IRx58eQTqqJcSPPQrpICNKW6tg/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
-
 
 
 而关于大延迟的问题，我在某社交平台上找到了两位神仙的下面的对话：
-
-![图片](https://mmbiz.qpic.cn/mmbiz_png/lnCqjsQ6QHdxqdRaOibwib8MqzBergORiaUTFTn7RQzHKES6sWfWPRDrd5ianPhcQbn0RgzO39rqkCG4XqtiaPqOMOA/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
 
 卷发哥问：我想知道，在我发文回复之后，我们能否在一点上达成一致，就是大的消息延迟不会给Redlock的运行造成损害。
 
@@ -544,8 +502,6 @@ Redis 的作者 antirez
 
 所以到这里，两位神仙好像又达到了一个平衡，实现了争论上的求同存异。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/lnCqjsQ6QHc0oq7XZILg4RLlj24kiaeyL6hRgpFbF3eM6EzyWh0rByRCOsxgup1JtT9QElATRcDQaJQicwHbZR1Q/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
-
 ## **总结**
 
 作为一个互联网行业的从业者，也是分布式系统的使用者，读完他们的文章以及由此文章衍生出来的知识点后，受益良多，于是写下此文作为学习总结，也与大家分享。本文还有很多不足之处，还请各位海涵。
@@ -553,8 +509,6 @@ Redis 的作者 antirez
 
 
 如同文章开篇说的，这场争论没有最后的赢家。很明显卷发哥是没有说服长发哥的，因为在长发哥2017年出版的《数据密集型应用系统设计》一书中，专门有一小节的名称叫做：**不可靠的时钟**
-
-![图片](https://mmbiz.qpic.cn/mmbiz_png/lnCqjsQ6QHc0oq7XZILg4RLlj24kiaeyLX5ibp3Hphmw0oibfEs3WXpgxY1K042mRdhSeIb05vyCnvmJh0cV4lY0g/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
 
 
 
@@ -571,8 +525,6 @@ Redis 的作者 antirez
 **对于任何想法，务必要详加检验，通过论证以及检查它们是否经得住别人的详细审查。那是学习过程的一部分。但目标应该是为了获得知识，而不应该是为了说服别人相信你自己是对的。有时候，那只不过意味着停下来，好好地想一想。**
 
 
-
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/lnCqjsQ6QHc0oq7XZILg4RLlj24kiaeyLL31k7g7eiaibeZhmS8NmctHH1SD6UctPlN8yZhYDmlN9fSto7MlcNBvQ/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
 
 
 
