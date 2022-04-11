@@ -3,3 +3,4 @@
 * [RedLock故事分享](公司个人分享/关于redLock的故事.md)
 * [记一次MyBatis缓存引发的问题](公司个人分享/MyBatis缓存.md)
 * [消息队列RocketMQ](公司个人分享/RocketMQ.md)
+* [Retrofit使用指南](公司个人分享/Retrofit使用指南.md)
