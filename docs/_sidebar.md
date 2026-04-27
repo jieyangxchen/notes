@@ -6,4 +6,5 @@
 
 * 每日 GitHub TOP3
   * [跟踪说明](github-trending/README.md)
+  * [2026-04-28](github-trending/2026-04-28.md)
   * [2026-04-27](github-trending/2026-04-27.md)
