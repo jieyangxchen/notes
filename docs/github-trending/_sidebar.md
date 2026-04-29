@@ -1,4 +1,5 @@
 * [返回首页](/)
 * [跟踪说明](/github-trending/)
+* [2026-04-29](/github-trending/2026-04-29.md)
 * [2026-04-28](/github-trending/2026-04-28.md)
 * [2026-04-27](/github-trending/2026-04-27.md)
