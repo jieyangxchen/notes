@@ -22,6 +22,7 @@
 
 ## 最近记录
 
+- [2026-06-10](/github-trending/2026-06-10.md)
 - [2026-06-09](/github-trending/2026-06-09.md)
 - [2026-06-08](/github-trending/2026-06-08.md)
 - [2026-06-06](/github-trending/2026-06-06.md)
@@ -41,7 +42,6 @@
 - [2026-05-23](/github-trending/2026-05-23.md)
 - [2026-05-22](/github-trending/2026-05-22.md)
 - [2026-05-21](/github-trending/2026-05-21.md)
-- [2026-05-20](/github-trending/2026-05-20.md)
 
 ## 阅读建议
 
