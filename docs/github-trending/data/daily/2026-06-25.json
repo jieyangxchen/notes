@@ -1,0 +1,151 @@
+{
+  "date": "2026-06-25",
+  "generatedAt": "2026-06-25T15:15:45.825052+08:00",
+  "source": "https://github.com/trending?since=daily",
+  "tags": [
+    "AI Agent",
+    "Video Production",
+    "Open Source",
+    "Dev Tool",
+    "Container",
+    "Apple Silicon"
+  ],
+  "observation": "今日TOP3均属自动化工具，聚焦视频生产、容器化和股票分析，反映开发者对低门槛、高集成度方案的需求。OpenMontage日增3719星，总星突破2万，爆发力强劲，但无正式版本，风险较高；苹果container日增1838星，官方背书与M芯片深度优化使其稳定升温，总星超4.2万，但强依赖macOS 26；每日股票分析日增1468星，总星近5万，Prompt工程驱动金融决策，社区活跃，需谨慎处理合规。三者共性是强调低成本、自动化流水线，但各自面临版权争议、平台锁死和金融监管红线。",
+  "projects": [
+    {
+      "rank": 1,
+      "repo": "calesthio/OpenMontage",
+      "url": "https://github.com/calesthio/OpenMontage",
+      "tags": [
+        "AI Agent",
+        "Video Production",
+        "Open Source"
+      ],
+      "tagsCn": [
+        "AI Agent",
+        "Video Production",
+        "开源"
+      ],
+      "tagline": "首个开源代理驱动视频生产系统，12条管线、500+技能，AI编程助手变身制片厂。",
+      "starsToday": 3719,
+      "totalStars": 20459,
+      "starTodayRatio": 18.18,
+      "rankingStatus": "连续 3 次日报 TOP3",
+      "rankingTrack": "06-23#1 -> 06-24#1 -> 06-25#1",
+      "activity": "1 天前有提交",
+      "license": "AGPL-3.0",
+      "maintainer": "个人项目（维护者资料公司：Microsoft）；有主页/组织资料，可进一步核实官方性",
+      "positioning": "面向独立创作者、小型工作室和AI开发者，解决从创意到成片的全流程自动化问题。能力边界：可生成图像视频与真实素材剪辑，但复杂叙事需人工干预，生成质量受底层模型限制，素材版权需自行核查。",
+      "whyWatch": "日增3719星（star_today_ratio 18.18%），总星突破2万，连续爆发增长；README展示1.33美元皮克斯短片等案例，工程化程度高；近30天PR 57、Issue 32，社区迭代活跃；但无正式Release，存在稳定性风险。",
+      "changedSinceLast": "与上次记录（总星约1.55万、日增3592）相比，总星增至2.04万，日增小幅提升；社区PR从47升至57，Issue从26升至32，开发节奏加快；仍未发布正式Release，风险未消。",
+      "suitableFor": "适合需要快速产出社交媒体视频、产品宣传、教育动画的中小团队或个人；适合探索视频生成流水线的AI开发者；适合预算有限、追求创意测试的初创企业。",
+      "notSuitableFor": "不适合对视频质量要求极高的商业广告（如真人实拍TVC）；不适合对版权和生成内容原创性有严格合规要求的场景；不适合完全无人审核的自动化发布，可能产生伦理或版权争议。",
+      "risk": "底层模型训练数据不透明，可能涉及版权侵权；AGPL-3.0强传染性，商业集成需法律评估；代理生成的视频可能包含事实错误或敏感内容，必须保留人工审核环节；个人维护，长期支持存疑。",
+      "bestPractice": "快速制作产品宣传短片：输入产品描述，代理生成脚本、分镜、素材，人工确认后导出，用于社交媒体广告测试，实现小时内创意到成片。",
+      "trialPlan": {
+        "install": "克隆仓库，安装Python依赖与FFmpeg，按README配置OpenAI/ElevenLabs等API Key，验证命令行可运行。",
+        "pilot": "选取README示例prompt（如产品广告），运行完整流水线，记录脚本、分镜、成片各阶段耗时与资源消耗，检查中间产物。",
+        "evaluation": "评估从prompt到出片的耗时、费用、画面质量及内容准确性；统计人工修正次数，目标成功率≥80%；检查版权风险内容。",
+        "exit": "若3次尝试后成片质量仍不达标，或发现版权风险不可控，则停止使用并回归传统工作流，同时清理API密钥。"
+      },
+      "signals": {
+        "recentCommit": "2026-06-24",
+        "issuesUpdated30d": 32,
+        "prsUpdated30d": 57,
+        "latestRelease": "暂无公开 release",
+        "readmeMaturity": "成熟",
+        "readmeSignals": "28,005 字符 / 43 个标题 / 有安装说明 / 有 Demo/示例 / 有文档入口"
+      }
+    },
+    {
+      "rank": 2,
+      "repo": "apple/container",
+      "url": "https://github.com/apple/container",
+      "tags": [
+        "Dev Tool",
+        "Container",
+        "Apple Silicon"
+      ],
+      "tagsCn": [
+        "Dev Tool",
+        "Container",
+        "Apple Silicon"
+      ],
+      "tagline": "Apple原生轻量虚拟机容器工具，专为M系列芯片优化，无需Docker。",
+      "starsToday": 1838,
+      "totalStars": 42606,
+      "starTodayRatio": 4.31,
+      "rankingStatus": "非连续；上次 06-14 第2",
+      "rankingTrack": "06-14#2 -> 06-25#2",
+      "activity": "2 天前有提交",
+      "license": "Apache-2.0",
+      "maintainer": "组织/公司/社区项目（Apple）；有主页/组织资料，可进一步核实官方性",
+      "positioning": "面向macOS 26+的Apple silicon Mac开发者，解决传统虚拟化开销大、启动慢的问题，提供接近原生的Linux容器运行环境。当前仅支持基础容器运行，编排、持久化存储等功能待完善。",
+      "whyWatch": "日增1838星（star_today_ratio 4.31%），总星超4.2万，Apple官方Apache-2.0开源，1.0.0正式版已发布；README成熟，有安装包和详细文档；近30天PR 154、Issue 117，社区反馈密集，项目迭代活跃。",
+      "changedSinceLast": "与上次记录（2026-06-13，日增1487，总星约3.6万）相比，日增回升至1838，总星突破4.2万，增长势头延续；Issue从320升至384，PR从121升至154，社区活跃度提升；无新Release，仍为1.0.0。",
+      "suitableFor": "适合macOS 26+的M系列Mac用户，需临时或长期编译、测试Linux程序的个人开发者或小团队；适合希望摆脱Docker Desktop资源消耗、追求原生虚拟化密度的尝鲜者。",
+      "notSuitableFor": "不适合非Apple silicon或macOS低于26的设备；不建议用于生产环境容器编排或有持久化存储保障的关键任务；不支持Windows/Linux宿主机；早期版本稳定性不足，不宜用于敏感业务。",
+      "risk": "强依赖macOS 26预发布系统，兼容性风险高；作为新项目，第三方生态和社区插件极少；虚拟化安全隔离未经大规模验证，处理敏感数据需谨慎；苹果未来是否持续维护存不确定性；可能与传统Docker工作流不兼容。",
+      "bestPractice": "在M4 MacBook上搭建Linux交叉编译环境：拉取Ubuntu镜像，挂载项目目录，利用虚拟机直通CPU指令集编译arm64和x86_64二进制，获得接近原生性能。",
+      "trialPlan": {
+        "install": "从GitHub发布页下载最新pkg包安装，输入管理员密码，在macOS 26 Beta上运行`container service start`启动守护进程。",
+        "pilot": "拉取Nginx镜像：`container run -d --name test -p 8080:80 nginx`，用curl验证端口可达；挂载本地目录测试文件共享性能。",
+        "evaluation": "对比Docker Desktop在相同工作负载下的启动延迟、CPU占用和镜像构建速度；检查容器网络和存储卷稳定性；评估缺失功能（如docker-compose）的影响。",
+        "exit": "若连续3次尝试均无法满足核心开发需求，或macOS正式版发布后项目未更新适配，则回退到Docker或Lima等替代方案。"
+      },
+      "signals": {
+        "recentCommit": "2026-06-23",
+        "issuesUpdated30d": 117,
+        "prsUpdated30d": 154,
+        "latestRelease": "1.0.0（2026-06-09）",
+        "readmeMaturity": "成熟",
+        "readmeSignals": "3,467 字符 / 8 个标题 / 有安装说明 / Demo 不明显 / 有文档入口"
+      }
+    },
+    {
+      "rank": 3,
+      "repo": "ZhuLinsen/daily_stock_analysis",
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+      "tags": [
+        "Finance",
+        "AI Agent",
+        "Stock Analysis"
+      ],
+      "tagsCn": [
+        "金融",
+        "AI Agent",
+        "Stock Analysis"
+      ],
+      "tagline": "LLM驱动的多市场股票智能分析系统，零成本定时推送决策仪表盘。",
+      "starsToday": 1468,
+      "totalStars": 49010,
+      "starTodayRatio": 3.0,
+      "rankingStatus": "新进 TOP3",
+      "rankingTrack": "新上榜",
+      "activity": "1 天前有提交",
+      "license": "MIT",
+      "maintainer": "个人项目；官方性未见强信号",
+      "positioning": "面向个人投资者和量化爱好者，解决多市场自选股的每日信息整理、技术分析和决策辅助问题。覆盖A股、港股、美股等，集成LLM生成报告并推送，但不提供实时交易信号，所有结论需人工复核。",
+      "whyWatch": "日增1468星（star_today_ratio 3.0%），总星近5万，MIT许可；最新release v3.23.0（2026-06-20），支持GitHub Actions零成本运行；近30天PR 225、Issue 121，社区贡献活跃；README详细，有Demo和文档，工程化成熟。",
+      "changedSinceLast": "今日新进 TOP3，暂无昨日同榜对比",
+      "suitableFor": "适合有自选股追踪需求的个人投资者，需要每日自动生成多维度分析报告并推送到企业微信/飞书等；适合想无服务器成本运行AI量化初筛的开发者；适合学习Prompt工程在金融场景的应用。",
+      "notSuitableFor": "不适合实时交易决策，系统不提供实时行情和毫秒级分析；不适合合规要求严格的机构投资，分析结果不具备投顾资质；不适合无人工审核的全自动交易，可能因AI幻觉导致误导；数据源稳定性无法保证。",
+      "risk": "金融分析存在合规风险，系统输出不构成投资建议，必须明确告知使用者；AI可能产生不准确判断，需持牌人员复核；数据源（AkShare、YFinance等）可能故障或延迟，影响报告质量；个人维护，长期可用性存疑；GitHub Secrets存储API密钥有泄露风险。",
+      "bestPractice": "每日盘后定时运行：在GitHub Actions中配置自选股列表，抓取当日行情与新闻，由LLM生成包含评分、趋势和风险提示的分析报告，推送到企业微信，作为复盘辅助。",
+      "trialPlan": {
+        "install": "Fork仓库，在Settings添加ANSPIRE_API_KEYS等必要Secret，启用GitHub Actions，按README配置推送机器人（如企业微信Webhook）。",
+        "pilot": "手动触发一次工作流，检查报告是否成功推送到指定渠道，观察日志确认各数据源访问正常，生成内容格式正确。",
+        "evaluation": "连续运行3天，评估报告结论与市场实际走势的一致性，检查AI建议是否合理；统计推送成功率、生成耗时，确认无API超额费用；检查是否有持仓推荐等越权行为。",
+        "exit": "若连续3天报告出现明显误导结论，或数据源频繁故障导致推送失败，则停止使用，撤回API密钥，改用付费专业工具。"
+      },
+      "signals": {
+        "recentCommit": "2026-06-24",
+        "issuesUpdated30d": 121,
+        "prsUpdated30d": 225,
+        "latestRelease": "v3.23.0（2026-06-20）",
+        "readmeMaturity": "成熟",
+        "readmeSignals": "6,601 字符 / 22 个标题 / 有安装说明 / 有 Demo/示例 / 有文档入口"
+      }
+    }
+  ]
+}

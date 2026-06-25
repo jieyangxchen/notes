@@ -1,0 +1,41 @@
+{
+  "generatedAt": "2026-06-25T15:15:45.825052+08:00",
+  "projects": [
+    {
+      "repo": "calesthio/OpenMontage",
+      "url": "https://github.com/calesthio/OpenMontage",
+      "latestDate": "2026-06-25",
+      "latestRank": 1,
+      "tagsCn": [
+        "AI Agent",
+        "Video Production",
+        "开源"
+      ],
+      "lastTagline": "首个开源代理驱动视频生产系统，12条管线、500+技能，AI编程助手变身制片厂。"
+    },
+    {
+      "repo": "apple/container",
+      "url": "https://github.com/apple/container",
+      "latestDate": "2026-06-25",
+      "latestRank": 2,
+      "tagsCn": [
+        "Dev Tool",
+        "Container",
+        "Apple Silicon"
+      ],
+      "lastTagline": "Apple原生轻量虚拟机容器工具，专为M系列芯片优化，无需Docker。"
+    },
+    {
+      "repo": "ZhuLinsen/daily_stock_analysis",
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+      "latestDate": "2026-06-25",
+      "latestRank": 3,
+      "tagsCn": [
+        "金融",
+        "AI Agent",
+        "Stock Analysis"
+      ],
+      "lastTagline": "LLM驱动的多市场股票智能分析系统，零成本定时推送决策仪表盘。"
+    }
+  ]
+}
