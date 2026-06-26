@@ -1,29 +1,44 @@
 {
-  "generatedAt": "2026-06-25T15:15:45.825052+08:00",
+  "generatedAt": "2026-06-26T08:07:01.450268+08:00",
   "projects": [
     {
       "repo": "calesthio/OpenMontage",
       "url": "https://github.com/calesthio/OpenMontage",
-      "latestDate": "2026-06-25",
+      "latestDate": "2026-06-26",
       "latestRank": 1,
       "tagsCn": [
         "AI Agent",
-        "Video Production",
-        "开源"
+        "视频生成",
+        "自动化",
+        "学术研究"
       ],
-      "lastTagline": "首个开源代理驱动视频生产系统，12条管线、500+技能，AI编程助手变身制片厂。"
+      "lastTagline": "首个开源、代理驱动的视频生产系统，将编码助手变为全流程工作室"
+    },
+    {
+      "repo": "google-labs-code/design.md",
+      "url": "https://github.com/google-labs-code/design.md",
+      "latestDate": "2026-06-26",
+      "latestRank": 2,
+      "tagsCn": [
+        "AI Agent",
+        "设计系统",
+        "Dev Tool",
+        "Google Labs"
+      ],
+      "lastTagline": "为编码代理提供持久化设计系统规范，让AI生成一致的视觉界面"
     },
     {
       "repo": "apple/container",
       "url": "https://github.com/apple/container",
-      "latestDate": "2026-06-25",
-      "latestRank": 2,
+      "latestDate": "2026-06-26",
+      "latestRank": 3,
       "tagsCn": [
         "Dev Tool",
-        "Container",
-        "Apple Silicon"
+        "容器",
+        "macOS",
+        "Apple"
       ],
-      "lastTagline": "Apple原生轻量虚拟机容器工具，专为M系列芯片优化，无需Docker。"
+      "lastTagline": "Apple官方推出的macOS轻量级Linux容器工具，优化Apple芯片"
     },
     {
       "repo": "ZhuLinsen/daily_stock_analysis",

@@ -1,31 +1,47 @@
 {
-  "generatedAt": "2026-06-25T15:15:45.825052+08:00",
-  "window": "2026-06-25..2026-06-25",
+  "generatedAt": "2026-06-26T08:07:01.450268+08:00",
+  "window": "2026-06-25..2026-06-26",
   "topProjects": [
     {
       "repo": "calesthio/OpenMontage",
       "url": "https://github.com/calesthio/OpenMontage",
       "tagsCn": [
         "AI Agent",
-        "Video Production",
-        "开源"
+        "视频生成",
+        "自动化",
+        "学术研究"
       ],
-      "appearances": 1,
+      "appearances": 2,
       "bestRank": 1,
-      "latestDate": "2026-06-25",
-      "judgement": "近 7 次记录中出现 1 次，最佳排名第 1，适合优先复盘详情。"
+      "latestDate": "2026-06-26",
+      "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
       "repo": "apple/container",
       "url": "https://github.com/apple/container",
       "tagsCn": [
         "Dev Tool",
-        "Container",
-        "Apple Silicon"
+        "容器",
+        "macOS",
+        "Apple"
+      ],
+      "appearances": 2,
+      "bestRank": 2,
+      "latestDate": "2026-06-26",
+      "judgement": "近 7 次记录中出现 2 次，最佳排名第 2，适合优先复盘详情。"
+    },
+    {
+      "repo": "google-labs-code/design.md",
+      "url": "https://github.com/google-labs-code/design.md",
+      "tagsCn": [
+        "AI Agent",
+        "设计系统",
+        "Dev Tool",
+        "Google Labs"
       ],
       "appearances": 1,
       "bestRank": 2,
-      "latestDate": "2026-06-25",
+      "latestDate": "2026-06-26",
       "judgement": "近 7 次记录中出现 1 次，最佳排名第 2，适合优先复盘详情。"
     },
     {
@@ -42,5 +58,16 @@
       "judgement": "近 7 次记录中出现 1 次，最佳排名第 3，适合优先复盘详情。"
     }
   ],
-  "streaks": []
+  "streaks": [
+    {
+      "repo": "apple/container",
+      "days": 2,
+      "track": "06-25#2 -> 06-26#3"
+    },
+    {
+      "repo": "calesthio/OpenMontage",
+      "days": 2,
+      "track": "06-25#1 -> 06-26#1"
+    }
+  ]
 }
