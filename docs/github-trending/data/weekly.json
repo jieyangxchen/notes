@@ -1,19 +1,33 @@
 {
-  "generatedAt": "2026-06-26T08:07:01.450268+08:00",
-  "window": "2026-06-25..2026-06-26",
+  "generatedAt": "2026-06-27T08:01:34.638135+08:00",
+  "window": "2026-06-25..2026-06-27",
   "topProjects": [
     {
       "repo": "calesthio/OpenMontage",
       "url": "https://github.com/calesthio/OpenMontage",
       "tagsCn": [
         "AI Agent",
-        "视频生成",
-        "自动化",
-        "学术研究"
+        "Video Generation",
+        "Multimedia",
+        "开源"
+      ],
+      "appearances": 3,
+      "bestRank": 1,
+      "latestDate": "2026-06-27",
+      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
+    },
+    {
+      "repo": "google-labs-code/design.md",
+      "url": "https://github.com/google-labs-code/design.md",
+      "tagsCn": [
+        "AI Agent",
+        "Design System",
+        "Specification",
+        "Dev Tool"
       ],
       "appearances": 2,
       "bestRank": 1,
-      "latestDate": "2026-06-26",
+      "latestDate": "2026-06-27",
       "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
@@ -31,20 +45,6 @@
       "judgement": "近 7 次记录中出现 2 次，最佳排名第 2，适合优先复盘详情。"
     },
     {
-      "repo": "google-labs-code/design.md",
-      "url": "https://github.com/google-labs-code/design.md",
-      "tagsCn": [
-        "AI Agent",
-        "设计系统",
-        "Dev Tool",
-        "Google Labs"
-      ],
-      "appearances": 1,
-      "bestRank": 2,
-      "latestDate": "2026-06-26",
-      "judgement": "近 7 次记录中出现 1 次，最佳排名第 2，适合优先复盘详情。"
-    },
-    {
       "repo": "ZhuLinsen/daily_stock_analysis",
       "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
       "tagsCn": [
@@ -56,18 +56,37 @@
       "bestRank": 3,
       "latestDate": "2026-06-25",
       "judgement": "近 7 次记录中出现 1 次，最佳排名第 3，适合优先复盘详情。"
+    },
+    {
+      "repo": "xbtlin/ai-berkshire",
+      "url": "https://github.com/xbtlin/ai-berkshire",
+      "tagsCn": [
+        "金融",
+        "AI Agent",
+        "Value Investing",
+        "Multi-Agent"
+      ],
+      "appearances": 1,
+      "bestRank": 3,
+      "latestDate": "2026-06-27",
+      "judgement": "近 7 次记录中出现 1 次，最佳排名第 3，适合优先复盘详情。"
     }
   ],
   "streaks": [
+    {
+      "repo": "calesthio/OpenMontage",
+      "days": 3,
+      "track": "06-25#1 -> 06-26#1 -> 06-27#2"
+    },
     {
       "repo": "apple/container",
       "days": 2,
       "track": "06-25#2 -> 06-26#3"
     },
     {
-      "repo": "calesthio/OpenMontage",
+      "repo": "google-labs-code/design.md",
       "days": 2,
-      "track": "06-25#1 -> 06-26#1"
+      "track": "06-26#2 -> 06-27#1"
     }
   ]
 }
