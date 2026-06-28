@@ -1,18 +1,43 @@
 {
-  "generatedAt": "2026-06-27T08:01:34.638135+08:00",
+  "generatedAt": "2026-06-28T08:01:07.341120+08:00",
   "projects": [
     {
       "repo": "google-labs-code/design.md",
       "url": "https://github.com/google-labs-code/design.md",
-      "latestDate": "2026-06-27",
+      "latestDate": "2026-06-28",
       "latestRank": 1,
       "tagsCn": [
         "AI Agent",
-        "Design System",
-        "Specification",
-        "Dev Tool"
+        "设计规范",
+        "前端开发"
       ],
-      "lastTagline": "为 AI 编码代理提供结构化设计令牌与准则的机器可读规范"
+      "lastTagline": "DESIGN.md：用结构化设计令牌让 AI 代理生成一致 UI。"
+    },
+    {
+      "repo": "simplex-chat/simplex-chat",
+      "url": "https://github.com/simplex-chat/simplex-chat",
+      "latestDate": "2026-06-28",
+      "latestRank": 2,
+      "tagsCn": [
+        "Security",
+        "加密通讯",
+        "去中心化",
+        "无用户标识"
+      ],
+      "lastTagline": "第一个无任何用户标识符的私密通讯网络，100% 隐私设计。"
+    },
+    {
+      "repo": "topoteretes/cognee",
+      "url": "https://github.com/topoteretes/cognee",
+      "latestDate": "2026-06-28",
+      "latestRank": 3,
+      "tagsCn": [
+        "AI Agent",
+        "记忆平台",
+        "知识图谱",
+        "Graph RAG"
+      ],
+      "lastTagline": "开源 AI 记忆平台，为 Agent 提供跨会话的持久化知识图谱记忆。"
     },
     {
       "repo": "calesthio/OpenMontage",

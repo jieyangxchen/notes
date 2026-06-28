@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-27T08:01:34.638135+08:00",
-  "window": "2026-06-25..2026-06-27",
+  "generatedAt": "2026-06-28T08:01:07.341120+08:00",
+  "window": "2026-06-25..2026-06-28",
   "topProjects": [
     {
       "repo": "calesthio/OpenMontage",
@@ -21,14 +21,13 @@
       "url": "https://github.com/google-labs-code/design.md",
       "tagsCn": [
         "AI Agent",
-        "Design System",
-        "Specification",
-        "Dev Tool"
+        "设计规范",
+        "前端开发"
       ],
-      "appearances": 2,
+      "appearances": 3,
       "bestRank": 1,
-      "latestDate": "2026-06-27",
-      "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
+      "latestDate": "2026-06-28",
+      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
       "repo": "apple/container",
@@ -45,6 +44,20 @@
       "judgement": "近 7 次记录中出现 2 次，最佳排名第 2，适合优先复盘详情。"
     },
     {
+      "repo": "simplex-chat/simplex-chat",
+      "url": "https://github.com/simplex-chat/simplex-chat",
+      "tagsCn": [
+        "Security",
+        "加密通讯",
+        "去中心化",
+        "无用户标识"
+      ],
+      "appearances": 1,
+      "bestRank": 2,
+      "latestDate": "2026-06-28",
+      "judgement": "近 7 次记录中出现 1 次，最佳排名第 2，适合优先复盘详情。"
+    },
+    {
       "repo": "ZhuLinsen/daily_stock_analysis",
       "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
       "tagsCn": [
@@ -56,20 +69,6 @@
       "bestRank": 3,
       "latestDate": "2026-06-25",
       "judgement": "近 7 次记录中出现 1 次，最佳排名第 3，适合优先复盘详情。"
-    },
-    {
-      "repo": "xbtlin/ai-berkshire",
-      "url": "https://github.com/xbtlin/ai-berkshire",
-      "tagsCn": [
-        "金融",
-        "AI Agent",
-        "Value Investing",
-        "Multi-Agent"
-      ],
-      "appearances": 1,
-      "bestRank": 3,
-      "latestDate": "2026-06-27",
-      "judgement": "近 7 次记录中出现 1 次，最佳排名第 3，适合优先复盘详情。"
     }
   ],
   "streaks": [
@@ -79,14 +78,14 @@
       "track": "06-25#1 -> 06-26#1 -> 06-27#2"
     },
     {
+      "repo": "google-labs-code/design.md",
+      "days": 3,
+      "track": "06-26#2 -> 06-27#1 -> 06-28#1"
+    },
+    {
       "repo": "apple/container",
       "days": 2,
       "track": "06-25#2 -> 06-26#3"
-    },
-    {
-      "repo": "google-labs-code/design.md",
-      "days": 2,
-      "track": "06-26#2 -> 06-27#1"
     }
   ]
 }
