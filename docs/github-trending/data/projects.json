@@ -1,6 +1,45 @@
 {
-  "generatedAt": "2026-06-28T08:01:07.341120+08:00",
+  "generatedAt": "2026-06-29T08:18:47.914438+08:00",
   "projects": [
+    {
+      "repo": "DeusData/codebase-memory-mcp",
+      "url": "https://github.com/DeusData/codebase-memory-mcp",
+      "latestDate": "2026-06-29",
+      "latestRank": 1,
+      "tagsCn": [
+        "AI Agent",
+        "Dev Tool",
+        "Knowledge Graph",
+        "MCP"
+      ],
+      "lastTagline": "毫秒级代码知识图谱，为 AI 代理减 99% 语境消耗，158 种语言零依赖。"
+    },
+    {
+      "repo": "xbtlin/ai-berkshire",
+      "url": "https://github.com/xbtlin/ai-berkshire",
+      "latestDate": "2026-06-29",
+      "latestRank": 2,
+      "tagsCn": [
+        "金融",
+        "AI Agent",
+        "Investment",
+        "Multi-Agent"
+      ],
+      "lastTagline": "四大师多 Agent 对抗拆解价值投资，强制输出买卖区间，非纸上谈兵。"
+    },
+    {
+      "repo": "simplex-chat/simplex-chat",
+      "url": "https://github.com/simplex-chat/simplex-chat",
+      "latestDate": "2026-06-29",
+      "latestRank": 3,
+      "tagsCn": [
+        "Security",
+        "隐私",
+        "Messaging",
+        "E2EE"
+      ],
+      "lastTagline": "无任何用户标识符的端到端加密通讯，元数据零泄露，隐私即设计。"
+    },
     {
       "repo": "google-labs-code/design.md",
       "url": "https://github.com/google-labs-code/design.md",
@@ -12,19 +51,6 @@
         "前端开发"
       ],
       "lastTagline": "DESIGN.md：用结构化设计令牌让 AI 代理生成一致 UI。"
-    },
-    {
-      "repo": "simplex-chat/simplex-chat",
-      "url": "https://github.com/simplex-chat/simplex-chat",
-      "latestDate": "2026-06-28",
-      "latestRank": 2,
-      "tagsCn": [
-        "Security",
-        "加密通讯",
-        "去中心化",
-        "无用户标识"
-      ],
-      "lastTagline": "第一个无任何用户标识符的私密通讯网络，100% 隐私设计。"
     },
     {
       "repo": "topoteretes/cognee",
@@ -51,19 +77,6 @@
         "开源"
       ],
       "lastTagline": "首个开源智能视频生产系统，将 AI 编程助手转化为全栈视频制作工作室"
-    },
-    {
-      "repo": "xbtlin/ai-berkshire",
-      "url": "https://github.com/xbtlin/ai-berkshire",
-      "latestDate": "2026-06-27",
-      "latestRank": 3,
-      "tagsCn": [
-        "金融",
-        "AI Agent",
-        "Value Investing",
-        "Multi-Agent"
-      ],
-      "lastTagline": "融合巴菲特等四大师方法论的 Claude Code 多智能体投资研究框架"
     },
     {
       "repo": "apple/container",
