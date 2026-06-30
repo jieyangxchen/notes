@@ -1,6 +1,44 @@
 {
-  "generatedAt": "2026-06-29T08:18:47.914438+08:00",
+  "generatedAt": "2026-06-30T08:01:32.094562+08:00",
   "projects": [
+    {
+      "repo": "ripienaar/free-for-dev",
+      "url": "https://github.com/ripienaar/free-for-dev",
+      "latestDate": "2026-06-30",
+      "latestRank": 1,
+      "tagsCn": [
+        "Dev Tool",
+        "Infrastructure",
+        "Free Tier",
+        "Awesome List"
+      ],
+      "lastTagline": "开发运维利器：收录海量免费SaaS/PaaS/IaaS服务，降低初创成本"
+    },
+    {
+      "repo": "simplex-chat/simplex-chat",
+      "url": "https://github.com/simplex-chat/simplex-chat",
+      "latestDate": "2026-06-30",
+      "latestRank": 2,
+      "tagsCn": [
+        "Security",
+        "隐私",
+        "Messaging",
+        "Encryption"
+      ],
+      "lastTagline": "无标识符通讯协议：SimpleX实现元数据隐藏，极客级隐私保护"
+    },
+    {
+      "repo": "msitarzewski/agency-agents",
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "latestDate": "2026-06-30",
+      "latestRank": 3,
+      "tagsCn": [
+        "AI Agent",
+        "Dev Tool",
+        "Automation"
+      ],
+      "lastTagline": "一键调用AI专家团队：从Reddit运营到前端开发，开箱即用的代理模板"
+    },
     {
       "repo": "DeusData/codebase-memory-mcp",
       "url": "https://github.com/DeusData/codebase-memory-mcp",
@@ -26,19 +64,6 @@
         "Multi-Agent"
       ],
       "lastTagline": "四大师多 Agent 对抗拆解价值投资，强制输出买卖区间，非纸上谈兵。"
-    },
-    {
-      "repo": "simplex-chat/simplex-chat",
-      "url": "https://github.com/simplex-chat/simplex-chat",
-      "latestDate": "2026-06-29",
-      "latestRank": 3,
-      "tagsCn": [
-        "Security",
-        "隐私",
-        "Messaging",
-        "E2EE"
-      ],
-      "lastTagline": "无任何用户标识符的端到端加密通讯，元数据零泄露，隐私即设计。"
     },
     {
       "repo": "google-labs-code/design.md",

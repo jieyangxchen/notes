@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-29T08:18:47.914438+08:00",
-  "window": "2026-06-25..2026-06-29",
+  "generatedAt": "2026-06-30T08:01:32.094562+08:00",
+  "window": "2026-06-25..2026-06-30",
   "topProjects": [
     {
       "repo": "calesthio/OpenMontage",
@@ -30,6 +30,20 @@
       "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
+      "repo": "simplex-chat/simplex-chat",
+      "url": "https://github.com/simplex-chat/simplex-chat",
+      "tagsCn": [
+        "Security",
+        "隐私",
+        "Messaging",
+        "Encryption"
+      ],
+      "appearances": 3,
+      "bestRank": 2,
+      "latestDate": "2026-06-30",
+      "judgement": "近 7 次记录中出现 3 次，最佳排名第 2，适合优先复盘详情。"
+    },
+    {
       "repo": "apple/container",
       "url": "https://github.com/apple/container",
       "tagsCn": [
@@ -41,20 +55,6 @@
       "appearances": 2,
       "bestRank": 2,
       "latestDate": "2026-06-26",
-      "judgement": "近 7 次记录中出现 2 次，最佳排名第 2，适合优先复盘详情。"
-    },
-    {
-      "repo": "simplex-chat/simplex-chat",
-      "url": "https://github.com/simplex-chat/simplex-chat",
-      "tagsCn": [
-        "Security",
-        "隐私",
-        "Messaging",
-        "E2EE"
-      ],
-      "appearances": 2,
-      "bestRank": 2,
-      "latestDate": "2026-06-29",
       "judgement": "近 7 次记录中出现 2 次，最佳排名第 2，适合优先复盘详情。"
     },
     {
@@ -84,14 +84,14 @@
       "track": "06-26#2 -> 06-27#1 -> 06-28#1"
     },
     {
+      "repo": "simplex-chat/simplex-chat",
+      "days": 3,
+      "track": "06-28#2 -> 06-29#3 -> 06-30#2"
+    },
+    {
       "repo": "apple/container",
       "days": 2,
       "track": "06-25#2 -> 06-26#3"
-    },
-    {
-      "repo": "simplex-chat/simplex-chat",
-      "days": 2,
-      "track": "06-28#2 -> 06-29#3"
     }
   ]
 }
