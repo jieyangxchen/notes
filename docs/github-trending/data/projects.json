@@ -1,6 +1,45 @@
 {
-  "generatedAt": "2026-06-30T08:01:32.094562+08:00",
+  "generatedAt": "2026-07-01T08:03:15.391765+08:00",
   "projects": [
+    {
+      "repo": "msitarzewski/agency-agents",
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "latestDate": "2026-07-01",
+      "latestRank": 1,
+      "tagsCn": [
+        "AI Agent",
+        "开发工具",
+        "Productivity",
+        "Cursor"
+      ],
+      "lastTagline": "一键安装到 Cursor/Claude Code 等工具的预置 AI 代理集合，含前端、社区等多角色专家。"
+    },
+    {
+      "repo": "hasaneyldrm/exercises-dataset",
+      "url": "https://github.com/hasaneyldrm/exercises-dataset",
+      "latestDate": "2026-07-01",
+      "latestRank": 2,
+      "tagsCn": [
+        "Fitness",
+        "Dataset",
+        "Multilingual",
+        "开发工具"
+      ],
+      "lastTagline": "含1324个健身动作的多语言结构化数据集与开发者向导，但媒体素材因版权未包含。"
+    },
+    {
+      "repo": "simplex-chat/simplex-chat",
+      "url": "https://github.com/simplex-chat/simplex-chat",
+      "latestDate": "2026-07-01",
+      "latestRank": 3,
+      "tagsCn": [
+        "Security",
+        "Messaging",
+        "隐私",
+        "Encryption"
+      ],
+      "lastTagline": "无用户标识的去中心加密通讯，端到端加密，支持自建节点，跨平台原生客户端。"
+    },
     {
       "repo": "ripienaar/free-for-dev",
       "url": "https://github.com/ripienaar/free-for-dev",
@@ -13,31 +52,6 @@
         "Awesome List"
       ],
       "lastTagline": "开发运维利器：收录海量免费SaaS/PaaS/IaaS服务，降低初创成本"
-    },
-    {
-      "repo": "simplex-chat/simplex-chat",
-      "url": "https://github.com/simplex-chat/simplex-chat",
-      "latestDate": "2026-06-30",
-      "latestRank": 2,
-      "tagsCn": [
-        "Security",
-        "隐私",
-        "Messaging",
-        "Encryption"
-      ],
-      "lastTagline": "无标识符通讯协议：SimpleX实现元数据隐藏，极客级隐私保护"
-    },
-    {
-      "repo": "msitarzewski/agency-agents",
-      "url": "https://github.com/msitarzewski/agency-agents",
-      "latestDate": "2026-06-30",
-      "latestRank": 3,
-      "tagsCn": [
-        "AI Agent",
-        "Dev Tool",
-        "Automation"
-      ],
-      "lastTagline": "一键调用AI专家团队：从Reddit运营到前端开发，开箱即用的代理模板"
     },
     {
       "repo": "DeusData/codebase-memory-mcp",

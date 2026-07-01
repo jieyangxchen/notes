@@ -1,7 +1,21 @@
 {
-  "generatedAt": "2026-06-30T08:01:32.094562+08:00",
-  "window": "2026-06-25..2026-06-30",
+  "generatedAt": "2026-07-01T08:03:15.391765+08:00",
+  "window": "2026-06-25..2026-07-01",
   "topProjects": [
+    {
+      "repo": "simplex-chat/simplex-chat",
+      "url": "https://github.com/simplex-chat/simplex-chat",
+      "tagsCn": [
+        "Security",
+        "Messaging",
+        "隐私",
+        "Encryption"
+      ],
+      "appearances": 4,
+      "bestRank": 2,
+      "latestDate": "2026-07-01",
+      "judgement": "近 7 次记录中出现 4 次，最佳排名第 2，适合优先复盘详情。"
+    },
     {
       "repo": "calesthio/OpenMontage",
       "url": "https://github.com/calesthio/OpenMontage",
@@ -30,18 +44,18 @@
       "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
-      "repo": "simplex-chat/simplex-chat",
-      "url": "https://github.com/simplex-chat/simplex-chat",
+      "repo": "msitarzewski/agency-agents",
+      "url": "https://github.com/msitarzewski/agency-agents",
       "tagsCn": [
-        "Security",
-        "隐私",
-        "Messaging",
-        "Encryption"
+        "AI Agent",
+        "开发工具",
+        "Productivity",
+        "Cursor"
       ],
-      "appearances": 3,
-      "bestRank": 2,
-      "latestDate": "2026-06-30",
-      "judgement": "近 7 次记录中出现 3 次，最佳排名第 2，适合优先复盘详情。"
+      "appearances": 2,
+      "bestRank": 1,
+      "latestDate": "2026-07-01",
+      "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
       "repo": "apple/container",
@@ -56,23 +70,14 @@
       "bestRank": 2,
       "latestDate": "2026-06-26",
       "judgement": "近 7 次记录中出现 2 次，最佳排名第 2，适合优先复盘详情。"
-    },
-    {
-      "repo": "xbtlin/ai-berkshire",
-      "url": "https://github.com/xbtlin/ai-berkshire",
-      "tagsCn": [
-        "金融",
-        "AI Agent",
-        "Investment",
-        "Multi-Agent"
-      ],
-      "appearances": 2,
-      "bestRank": 2,
-      "latestDate": "2026-06-29",
-      "judgement": "近 7 次记录中出现 2 次，最佳排名第 2，适合优先复盘详情。"
     }
   ],
   "streaks": [
+    {
+      "repo": "simplex-chat/simplex-chat",
+      "days": 4,
+      "track": "06-28#2 -> 06-29#3 -> 06-30#2 -> 07-01#3"
+    },
     {
       "repo": "calesthio/OpenMontage",
       "days": 3,
@@ -84,14 +89,14 @@
       "track": "06-26#2 -> 06-27#1 -> 06-28#1"
     },
     {
-      "repo": "simplex-chat/simplex-chat",
-      "days": 3,
-      "track": "06-28#2 -> 06-29#3 -> 06-30#2"
-    },
-    {
       "repo": "apple/container",
       "days": 2,
       "track": "06-25#2 -> 06-26#3"
+    },
+    {
+      "repo": "msitarzewski/agency-agents",
+      "days": 2,
+      "track": "06-30#3 -> 07-01#1"
     }
   ]
 }
