@@ -1,31 +1,43 @@
 {
-  "generatedAt": "2026-07-01T08:03:15.391765+08:00",
+  "generatedAt": "2026-07-02T08:19:37.364700+08:00",
   "projects": [
-    {
-      "repo": "msitarzewski/agency-agents",
-      "url": "https://github.com/msitarzewski/agency-agents",
-      "latestDate": "2026-07-01",
-      "latestRank": 1,
-      "tagsCn": [
-        "AI Agent",
-        "开发工具",
-        "Productivity",
-        "Cursor"
-      ],
-      "lastTagline": "一键安装到 Cursor/Claude Code 等工具的预置 AI 代理集合，含前端、社区等多角色专家。"
-    },
     {
       "repo": "hasaneyldrm/exercises-dataset",
       "url": "https://github.com/hasaneyldrm/exercises-dataset",
-      "latestDate": "2026-07-01",
+      "latestDate": "2026-07-02",
+      "latestRank": 1,
+      "tagsCn": [
+        "数据集",
+        "健身",
+        "多语言",
+        "AI Agent"
+      ],
+      "lastTagline": "1324个健身动作数据集，多语言结构化元数据，媒体版权有待厘清"
+    },
+    {
+      "repo": "msitarzewski/agency-agents",
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "latestDate": "2026-07-02",
       "latestRank": 2,
       "tagsCn": [
-        "Fitness",
-        "Dataset",
-        "Multilingual",
-        "开发工具"
+        "AI 角色库",
+        "开发工具",
+        "AI Agent"
       ],
-      "lastTagline": "含1324个健身动作的多语言结构化数据集与开发者向导，但媒体素材因版权未包含。"
+      "lastTagline": "桌面应用一键部署数十个AI专家角色，加速Cursor等编码工作流"
+    },
+    {
+      "repo": "usestrix/strix",
+      "url": "https://github.com/usestrix/strix",
+      "latestDate": "2026-07-02",
+      "latestRank": 3,
+      "tagsCn": [
+        "安全",
+        "渗透测试",
+        "AI Agent",
+        "CI/CD"
+      ],
+      "lastTagline": "开源AI渗透测试代理，自主发现漏洞并生成修复补丁"
     },
     {
       "repo": "simplex-chat/simplex-chat",
