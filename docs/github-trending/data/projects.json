@@ -1,6 +1,45 @@
 {
-  "generatedAt": "2026-07-02T08:19:37.364700+08:00",
+  "generatedAt": "2026-07-03T08:01:37.873989+08:00",
   "projects": [
+    {
+      "repo": "msitarzewski/agency-agents",
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "latestDate": "2026-07-03",
+      "latestRank": 1,
+      "tagsCn": [
+        "AI Agent",
+        "提示工程",
+        "角色库",
+        "Dev Tool"
+      ],
+      "lastTagline": "AI 角色库，从 Reddit 运营到前端开发，一键注入专业代理。"
+    },
+    {
+      "repo": "usestrix/strix",
+      "url": "https://github.com/usestrix/strix",
+      "latestDate": "2026-07-03",
+      "latestRank": 2,
+      "tagsCn": [
+        "AI Agent",
+        "渗透测试",
+        "安全",
+        "Dev Tool"
+      ],
+      "lastTagline": "开源 AI 渗透测试工具，自主黑客帮您发现并修复漏洞。"
+    },
+    {
+      "repo": "HKUDS/Vibe-Trading",
+      "url": "https://github.com/HKUDS/Vibe-Trading",
+      "latestDate": "2026-07-03",
+      "latestRank": 3,
+      "tagsCn": [
+        "金融",
+        "AI Agent",
+        "定量交易",
+        "Python"
+      ],
+      "lastTagline": "个人 AI 交易代理，一句话开启量化交易与回测。"
+    },
     {
       "repo": "hasaneyldrm/exercises-dataset",
       "url": "https://github.com/hasaneyldrm/exercises-dataset",
@@ -13,31 +52,6 @@
         "AI Agent"
       ],
       "lastTagline": "1324个健身动作数据集，多语言结构化元数据，媒体版权有待厘清"
-    },
-    {
-      "repo": "msitarzewski/agency-agents",
-      "url": "https://github.com/msitarzewski/agency-agents",
-      "latestDate": "2026-07-02",
-      "latestRank": 2,
-      "tagsCn": [
-        "AI 角色库",
-        "开发工具",
-        "AI Agent"
-      ],
-      "lastTagline": "桌面应用一键部署数十个AI专家角色，加速Cursor等编码工作流"
-    },
-    {
-      "repo": "usestrix/strix",
-      "url": "https://github.com/usestrix/strix",
-      "latestDate": "2026-07-02",
-      "latestRank": 3,
-      "tagsCn": [
-        "安全",
-        "渗透测试",
-        "AI Agent",
-        "CI/CD"
-      ],
-      "lastTagline": "开源AI渗透测试代理，自主发现漏洞并生成修复补丁"
     },
     {
       "repo": "simplex-chat/simplex-chat",

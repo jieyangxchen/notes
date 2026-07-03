@@ -1,7 +1,21 @@
 {
-  "generatedAt": "2026-07-02T08:19:37.364700+08:00",
-  "window": "2026-06-26..2026-07-02",
+  "generatedAt": "2026-07-03T08:01:37.873989+08:00",
+  "window": "2026-06-27..2026-07-03",
   "topProjects": [
+    {
+      "repo": "msitarzewski/agency-agents",
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "tagsCn": [
+        "AI Agent",
+        "提示工程",
+        "角色库",
+        "Dev Tool"
+      ],
+      "appearances": 4,
+      "bestRank": 1,
+      "latestDate": "2026-07-03",
+      "judgement": "近 7 次记录中出现 4 次，最佳排名第 1，适合优先复盘详情。"
+    },
     {
       "repo": "simplex-chat/simplex-chat",
       "url": "https://github.com/simplex-chat/simplex-chat",
@@ -24,36 +38,9 @@
         "设计规范",
         "前端开发"
       ],
-      "appearances": 3,
-      "bestRank": 1,
-      "latestDate": "2026-06-28",
-      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
-    },
-    {
-      "repo": "msitarzewski/agency-agents",
-      "url": "https://github.com/msitarzewski/agency-agents",
-      "tagsCn": [
-        "AI 角色库",
-        "开发工具",
-        "AI Agent"
-      ],
-      "appearances": 3,
-      "bestRank": 1,
-      "latestDate": "2026-07-02",
-      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
-    },
-    {
-      "repo": "calesthio/OpenMontage",
-      "url": "https://github.com/calesthio/OpenMontage",
-      "tagsCn": [
-        "AI Agent",
-        "Video Generation",
-        "Multimedia",
-        "开源"
-      ],
       "appearances": 2,
       "bestRank": 1,
-      "latestDate": "2026-06-27",
+      "latestDate": "2026-06-28",
       "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
@@ -69,9 +56,28 @@
       "bestRank": 1,
       "latestDate": "2026-07-02",
       "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
+    },
+    {
+      "repo": "usestrix/strix",
+      "url": "https://github.com/usestrix/strix",
+      "tagsCn": [
+        "AI Agent",
+        "渗透测试",
+        "安全",
+        "Dev Tool"
+      ],
+      "appearances": 2,
+      "bestRank": 2,
+      "latestDate": "2026-07-03",
+      "judgement": "近 7 次记录中出现 2 次，最佳排名第 2，适合优先复盘详情。"
     }
   ],
   "streaks": [
+    {
+      "repo": "msitarzewski/agency-agents",
+      "days": 4,
+      "track": "06-30#3 -> 07-01#1 -> 07-02#2 -> 07-03#1"
+    },
     {
       "repo": "simplex-chat/simplex-chat",
       "days": 4,
@@ -79,23 +85,18 @@
     },
     {
       "repo": "google-labs-code/design.md",
-      "days": 3,
-      "track": "06-26#2 -> 06-27#1 -> 06-28#1"
-    },
-    {
-      "repo": "msitarzewski/agency-agents",
-      "days": 3,
-      "track": "06-30#3 -> 07-01#1 -> 07-02#2"
-    },
-    {
-      "repo": "calesthio/OpenMontage",
       "days": 2,
-      "track": "06-26#1 -> 06-27#2"
+      "track": "06-27#1 -> 06-28#1"
     },
     {
       "repo": "hasaneyldrm/exercises-dataset",
       "days": 2,
       "track": "07-01#2 -> 07-02#1"
+    },
+    {
+      "repo": "usestrix/strix",
+      "days": 2,
+      "track": "07-02#3 -> 07-03#2"
     }
   ]
 }
