@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-03T08:01:37.873989+08:00",
-  "window": "2026-06-27..2026-07-03",
+  "generatedAt": "2026-07-04T08:01:29.532830+08:00",
+  "window": "2026-06-28..2026-07-04",
   "topProjects": [
     {
       "repo": "msitarzewski/agency-agents",
@@ -31,17 +31,18 @@
       "judgement": "近 7 次记录中出现 4 次，最佳排名第 2，适合优先复盘详情。"
     },
     {
-      "repo": "google-labs-code/design.md",
-      "url": "https://github.com/google-labs-code/design.md",
+      "repo": "usestrix/strix",
+      "url": "https://github.com/usestrix/strix",
       "tagsCn": [
         "AI Agent",
-        "设计规范",
-        "前端开发"
+        "Security",
+        "Penetration Testing",
+        "DevSecOps"
       ],
-      "appearances": 2,
-      "bestRank": 1,
-      "latestDate": "2026-06-28",
-      "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
+      "appearances": 3,
+      "bestRank": 2,
+      "latestDate": "2026-07-04",
+      "judgement": "近 7 次记录中出现 3 次，最佳排名第 2，适合优先复盘详情。"
     },
     {
       "repo": "hasaneyldrm/exercises-dataset",
@@ -58,18 +59,18 @@
       "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
-      "repo": "usestrix/strix",
-      "url": "https://github.com/usestrix/strix",
+      "repo": "DeusData/codebase-memory-mcp",
+      "url": "https://github.com/DeusData/codebase-memory-mcp",
       "tagsCn": [
         "AI Agent",
-        "渗透测试",
-        "安全",
-        "Dev Tool"
+        "Dev Tool",
+        "Knowledge Graph",
+        "MCP"
       ],
-      "appearances": 2,
-      "bestRank": 2,
-      "latestDate": "2026-07-03",
-      "judgement": "近 7 次记录中出现 2 次，最佳排名第 2，适合优先复盘详情。"
+      "appearances": 1,
+      "bestRank": 1,
+      "latestDate": "2026-06-29",
+      "judgement": "近 7 次记录中出现 1 次，最佳排名第 1，适合优先复盘详情。"
     }
   ],
   "streaks": [
@@ -84,19 +85,14 @@
       "track": "06-28#2 -> 06-29#3 -> 06-30#2 -> 07-01#3"
     },
     {
-      "repo": "google-labs-code/design.md",
-      "days": 2,
-      "track": "06-27#1 -> 06-28#1"
+      "repo": "usestrix/strix",
+      "days": 3,
+      "track": "07-02#3 -> 07-03#2 -> 07-04#2"
     },
     {
       "repo": "hasaneyldrm/exercises-dataset",
       "days": 2,
       "track": "07-01#2 -> 07-02#1"
-    },
-    {
-      "repo": "usestrix/strix",
-      "days": 2,
-      "track": "07-02#3 -> 07-03#2"
     }
   ]
 }
