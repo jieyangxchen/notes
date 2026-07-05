@@ -1,31 +1,41 @@
 {
-  "generatedAt": "2026-07-04T08:01:29.532830+08:00",
+  "generatedAt": "2026-07-05T08:19:12.047433+08:00",
   "projects": [
-    {
-      "repo": "JuliusBrussee/caveman",
-      "url": "https://github.com/JuliusBrussee/caveman",
-      "latestDate": "2026-07-04",
-      "latestRank": 1,
-      "tagsCn": [
-        "AI Agent",
-        "Prompt Engineering",
-        "Token Optimization",
-        "Dev Tool"
-      ],
-      "lastTagline": "让 AI 编码代理像原始人一样说话，输出 token 直降 65%，脑容量不变嘴变小。"
-    },
     {
       "repo": "usestrix/strix",
       "url": "https://github.com/usestrix/strix",
-      "latestDate": "2026-07-04",
-      "latestRank": 2,
+      "latestDate": "2026-07-05",
+      "latestRank": 1,
       "tagsCn": [
         "AI Agent",
         "Security",
-        "Penetration Testing",
-        "DevSecOps"
+        "Pentesting"
       ],
-      "lastTagline": "开源 AI 渗透测试代理，自主侦察、利用、验证漏洞，输出可修复建议。"
+      "lastTagline": "开源 AI 渗透测试代理，赋能 DevSecOps 自动化漏洞发现与修复"
+    },
+    {
+      "repo": "JuliusBrussee/caveman",
+      "url": "https://github.com/JuliusBrussee/caveman",
+      "latestDate": "2026-07-05",
+      "latestRank": 2,
+      "tagsCn": [
+        "AI Agent",
+        "Dev Tool",
+        "Efficiency"
+      ],
+      "lastTagline": "让 AI 编码代理说“原始人话”，输出 token 节省 65%"
+    },
+    {
+      "repo": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "latestDate": "2026-07-05",
+      "latestRank": 3,
+      "tagsCn": [
+        "AI Agent",
+        "Dev Tool",
+        "Workflow"
+      ],
+      "lastTagline": "真·工程师的代理技能包，前置澄清减少 AI 编码返工"
     },
     {
       "repo": "obra/superpowers",
