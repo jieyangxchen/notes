@@ -1,7 +1,21 @@
 {
-  "generatedAt": "2026-07-05T08:19:12.047433+08:00",
-  "window": "2026-06-29..2026-07-05",
+  "generatedAt": "2026-07-06T08:01:37.748576+08:00",
+  "window": "2026-06-30..2026-07-06",
   "topProjects": [
+    {
+      "repo": "usestrix/strix",
+      "url": "https://github.com/usestrix/strix",
+      "tagsCn": [
+        "AI Agent",
+        "Security",
+        "Penetration Testing",
+        "DevSecOps"
+      ],
+      "appearances": 5,
+      "bestRank": 1,
+      "latestDate": "2026-07-06",
+      "judgement": "近 7 次记录中出现 5 次，最佳排名第 1，适合优先复盘详情。"
+    },
     {
       "repo": "msitarzewski/agency-agents",
       "url": "https://github.com/msitarzewski/agency-agents",
@@ -15,33 +29,6 @@
       "bestRank": 1,
       "latestDate": "2026-07-03",
       "judgement": "近 7 次记录中出现 4 次，最佳排名第 1，适合优先复盘详情。"
-    },
-    {
-      "repo": "usestrix/strix",
-      "url": "https://github.com/usestrix/strix",
-      "tagsCn": [
-        "AI Agent",
-        "Security",
-        "Pentesting"
-      ],
-      "appearances": 4,
-      "bestRank": 1,
-      "latestDate": "2026-07-05",
-      "judgement": "近 7 次记录中出现 4 次，最佳排名第 1，适合优先复盘详情。"
-    },
-    {
-      "repo": "simplex-chat/simplex-chat",
-      "url": "https://github.com/simplex-chat/simplex-chat",
-      "tagsCn": [
-        "Security",
-        "Messaging",
-        "隐私",
-        "Encryption"
-      ],
-      "appearances": 3,
-      "bestRank": 2,
-      "latestDate": "2026-07-01",
-      "judgement": "近 7 次记录中出现 3 次，最佳排名第 2，适合优先复盘详情。"
     },
     {
       "repo": "JuliusBrussee/caveman",
@@ -69,23 +56,32 @@
       "bestRank": 1,
       "latestDate": "2026-07-02",
       "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
+    },
+    {
+      "repo": "simplex-chat/simplex-chat",
+      "url": "https://github.com/simplex-chat/simplex-chat",
+      "tagsCn": [
+        "Security",
+        "Messaging",
+        "隐私",
+        "Encryption"
+      ],
+      "appearances": 2,
+      "bestRank": 2,
+      "latestDate": "2026-07-01",
+      "judgement": "近 7 次记录中出现 2 次，最佳排名第 2，适合优先复盘详情。"
     }
   ],
   "streaks": [
     {
+      "repo": "usestrix/strix",
+      "days": 5,
+      "track": "07-02#3 -> 07-03#2 -> 07-04#2 -> 07-05#1 -> 07-06#3"
+    },
+    {
       "repo": "msitarzewski/agency-agents",
       "days": 4,
       "track": "06-30#3 -> 07-01#1 -> 07-02#2 -> 07-03#1"
-    },
-    {
-      "repo": "usestrix/strix",
-      "days": 4,
-      "track": "07-02#3 -> 07-03#2 -> 07-04#2 -> 07-05#1"
-    },
-    {
-      "repo": "simplex-chat/simplex-chat",
-      "days": 3,
-      "track": "06-29#3 -> 06-30#2 -> 07-01#3"
     },
     {
       "repo": "JuliusBrussee/caveman",
@@ -96,6 +92,11 @@
       "repo": "hasaneyldrm/exercises-dataset",
       "days": 2,
       "track": "07-01#2 -> 07-02#1"
+    },
+    {
+      "repo": "simplex-chat/simplex-chat",
+      "days": 2,
+      "track": "06-30#2 -> 07-01#3"
     }
   ]
 }

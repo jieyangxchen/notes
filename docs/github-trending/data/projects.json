@@ -1,17 +1,44 @@
 {
-  "generatedAt": "2026-07-05T08:19:12.047433+08:00",
+  "generatedAt": "2026-07-06T08:01:37.748576+08:00",
   "projects": [
     {
-      "repo": "usestrix/strix",
-      "url": "https://github.com/usestrix/strix",
-      "latestDate": "2026-07-05",
+      "repo": "openai/codex-plugin-cc",
+      "url": "https://github.com/openai/codex-plugin-cc",
+      "latestDate": "2026-07-06",
       "latestRank": 1,
       "tagsCn": [
         "AI Agent",
-        "Security",
-        "Pentesting"
+        "开发工具",
+        "Code Review",
+        "Claude Code"
       ],
-      "lastTagline": "开源 AI 渗透测试代理，赋能 DevSecOps 自动化漏洞发现与修复"
+      "lastTagline": "在Claude Code中直接调度Codex进行代码审查与任务代理的官方插件"
+    },
+    {
+      "repo": "Zackriya-Solutions/meetily",
+      "url": "https://github.com/Zackriya-Solutions/meetily",
+      "latestDate": "2026-07-06",
+      "latestRank": 2,
+      "tagsCn": [
+        "隐私",
+        "AI Meeting",
+        "Local-first",
+        "Speech-to-Text"
+      ],
+      "lastTagline": "100%本地处理的隐私优先AI会议助手，实时转录与摘要无需云服务"
+    },
+    {
+      "repo": "usestrix/strix",
+      "url": "https://github.com/usestrix/strix",
+      "latestDate": "2026-07-06",
+      "latestRank": 3,
+      "tagsCn": [
+        "AI Agent",
+        "Security",
+        "Penetration Testing",
+        "DevSecOps"
+      ],
+      "lastTagline": "开源AI渗透测试代理，自动发现并验证应用漏洞，提供修复方案"
     },
     {
       "repo": "JuliusBrussee/caveman",
