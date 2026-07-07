@@ -1,6 +1,45 @@
 {
-  "generatedAt": "2026-07-06T08:01:37.748576+08:00",
+  "generatedAt": "2026-07-07T08:01:54.999364+08:00",
   "projects": [
+    {
+      "repo": "Zackriya-Solutions/meetily",
+      "url": "https://github.com/Zackriya-Solutions/meetily",
+      "latestDate": "2026-07-07",
+      "latestRank": 1,
+      "tagsCn": [
+        "AI Agent",
+        "隐私",
+        "Meeting",
+        "Local-first"
+      ],
+      "lastTagline": "完全本地的 AI 会议助手，支持说话人分离与实时摘要，日增 2,494 星"
+    },
+    {
+      "repo": "Leonxlnx/taste-skill",
+      "url": "https://github.com/Leonxlnx/taste-skill",
+      "latestDate": "2026-07-07",
+      "latestRank": 2,
+      "tagsCn": [
+        "Design",
+        "AI Agent",
+        "Frontend",
+        "开源"
+      ],
+      "lastTagline": "为 AI 生成界面注入设计感，拒绝平庸“馊饭”，日增 1,458 星"
+    },
+    {
+      "repo": "asgeirtj/system_prompts_leaks",
+      "url": "https://github.com/asgeirtj/system_prompts_leaks",
+      "latestDate": "2026-07-07",
+      "latestRank": 3,
+      "tagsCn": [
+        "AI Agent",
+        "Security",
+        "学术研究",
+        "Documentation"
+      ],
+      "lastTagline": "提取并公开 Claude、ChatGPT 等主流 AI 的系统提示，日增 1,378 星"
+    },
     {
       "repo": "openai/codex-plugin-cc",
       "url": "https://github.com/openai/codex-plugin-cc",
@@ -13,19 +52,6 @@
         "Claude Code"
       ],
       "lastTagline": "在Claude Code中直接调度Codex进行代码审查与任务代理的官方插件"
-    },
-    {
-      "repo": "Zackriya-Solutions/meetily",
-      "url": "https://github.com/Zackriya-Solutions/meetily",
-      "latestDate": "2026-07-06",
-      "latestRank": 2,
-      "tagsCn": [
-        "隐私",
-        "AI Meeting",
-        "Local-first",
-        "Speech-to-Text"
-      ],
-      "lastTagline": "100%本地处理的隐私优先AI会议助手，实时转录与摘要无需云服务"
     },
     {
       "repo": "usestrix/strix",
