@@ -1,18 +1,44 @@
 {
-  "generatedAt": "2026-07-07T08:01:54.999364+08:00",
+  "generatedAt": "2026-07-08T08:01:55.122198+08:00",
   "projects": [
     {
-      "repo": "Zackriya-Solutions/meetily",
-      "url": "https://github.com/Zackriya-Solutions/meetily",
-      "latestDate": "2026-07-07",
+      "repo": "MadsLorentzen/ai-job-search",
+      "url": "https://github.com/MadsLorentzen/ai-job-search",
+      "latestDate": "2026-07-08",
       "latestRank": 1,
       "tagsCn": [
         "AI Agent",
-        "隐私",
-        "Meeting",
-        "Local-first"
+        "求职",
+        "Claude Code",
+        "自动化"
       ],
-      "lastTagline": "完全本地的 AI 会议助手，支持说话人分离与实时摘要，日增 2,494 星"
+      "lastTagline": "基于 Claude Code 的求职自动化框架，批量评价职位、定制简历与求职信。"
+    },
+    {
+      "repo": "Zackriya-Solutions/meetily",
+      "url": "https://github.com/Zackriya-Solutions/meetily",
+      "latestDate": "2026-07-08",
+      "latestRank": 2,
+      "tagsCn": [
+        "隐私优先",
+        "AI 会议助手",
+        "本地处理",
+        "Rust"
+      ],
+      "lastTagline": "完全本地处理的 AI 会议助理，实时转录、说话人分离并离线摘要，无需云端。"
+    },
+    {
+      "repo": "asgeirtj/system_prompts_leaks",
+      "url": "https://github.com/asgeirtj/system_prompts_leaks",
+      "latestDate": "2026-07-08",
+      "latestRank": 3,
+      "tagsCn": [
+        "AI 系统提示",
+        "安全研究",
+        "提示词工程",
+        "泄漏"
+      ],
+      "lastTagline": "持续收集主流 AI 模型系统提示，用于安全分析、教育与行为对比研究。"
     },
     {
       "repo": "Leonxlnx/taste-skill",
@@ -26,19 +52,6 @@
         "开源"
       ],
       "lastTagline": "为 AI 生成界面注入设计感，拒绝平庸“馊饭”，日增 1,458 星"
-    },
-    {
-      "repo": "asgeirtj/system_prompts_leaks",
-      "url": "https://github.com/asgeirtj/system_prompts_leaks",
-      "latestDate": "2026-07-07",
-      "latestRank": 3,
-      "tagsCn": [
-        "AI Agent",
-        "Security",
-        "学术研究",
-        "Documentation"
-      ],
-      "lastTagline": "提取并公开 Claude、ChatGPT 等主流 AI 的系统提示，日增 1,378 星"
     },
     {
       "repo": "openai/codex-plugin-cc",

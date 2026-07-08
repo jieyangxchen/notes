@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-07T08:01:54.999364+08:00",
-  "window": "2026-07-01..2026-07-07",
+  "generatedAt": "2026-07-08T08:01:55.122198+08:00",
+  "window": "2026-07-02..2026-07-08",
   "topProjects": [
     {
       "repo": "usestrix/strix",
@@ -17,17 +17,17 @@
       "judgement": "近 7 次记录中出现 5 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
-      "repo": "msitarzewski/agency-agents",
-      "url": "https://github.com/msitarzewski/agency-agents",
+      "repo": "Zackriya-Solutions/meetily",
+      "url": "https://github.com/Zackriya-Solutions/meetily",
       "tagsCn": [
-        "AI Agent",
-        "提示工程",
-        "角色库",
-        "Dev Tool"
+        "隐私优先",
+        "AI 会议助手",
+        "本地处理",
+        "Rust"
       ],
       "appearances": 3,
       "bestRank": 1,
-      "latestDate": "2026-07-03",
+      "latestDate": "2026-07-08",
       "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
@@ -44,32 +44,32 @@
       "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
-      "repo": "Zackriya-Solutions/meetily",
-      "url": "https://github.com/Zackriya-Solutions/meetily",
+      "repo": "msitarzewski/agency-agents",
+      "url": "https://github.com/msitarzewski/agency-agents",
       "tagsCn": [
         "AI Agent",
-        "隐私",
-        "Meeting",
-        "Local-first"
+        "提示工程",
+        "角色库",
+        "Dev Tool"
       ],
       "appearances": 2,
       "bestRank": 1,
-      "latestDate": "2026-07-07",
+      "latestDate": "2026-07-03",
       "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
-      "repo": "hasaneyldrm/exercises-dataset",
-      "url": "https://github.com/hasaneyldrm/exercises-dataset",
+      "repo": "asgeirtj/system_prompts_leaks",
+      "url": "https://github.com/asgeirtj/system_prompts_leaks",
       "tagsCn": [
-        "数据集",
-        "健身",
-        "多语言",
-        "AI Agent"
+        "AI 系统提示",
+        "安全研究",
+        "提示词工程",
+        "泄漏"
       ],
       "appearances": 2,
-      "bestRank": 1,
-      "latestDate": "2026-07-02",
-      "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
+      "bestRank": 3,
+      "latestDate": "2026-07-08",
+      "judgement": "近 7 次记录中出现 2 次，最佳排名第 3，适合优先复盘详情。"
     }
   ],
   "streaks": [
@@ -79,9 +79,9 @@
       "track": "07-02#3 -> 07-03#2 -> 07-04#2 -> 07-05#1 -> 07-06#3"
     },
     {
-      "repo": "msitarzewski/agency-agents",
+      "repo": "Zackriya-Solutions/meetily",
       "days": 3,
-      "track": "07-01#1 -> 07-02#2 -> 07-03#1"
+      "track": "07-06#2 -> 07-07#1 -> 07-08#2"
     },
     {
       "repo": "JuliusBrussee/caveman",
@@ -89,14 +89,14 @@
       "track": "07-04#1 -> 07-05#2"
     },
     {
-      "repo": "Zackriya-Solutions/meetily",
+      "repo": "asgeirtj/system_prompts_leaks",
       "days": 2,
-      "track": "07-06#2 -> 07-07#1"
+      "track": "07-07#3 -> 07-08#3"
     },
     {
-      "repo": "hasaneyldrm/exercises-dataset",
+      "repo": "msitarzewski/agency-agents",
       "days": 2,
-      "track": "07-01#2 -> 07-02#1"
+      "track": "07-02#2 -> 07-03#1"
     }
   ]
 }
