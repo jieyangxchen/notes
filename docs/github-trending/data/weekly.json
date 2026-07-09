@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-08T08:01:55.122198+08:00",
-  "window": "2026-07-02..2026-07-08",
+  "generatedAt": "2026-07-09T08:01:32.226790+08:00",
+  "window": "2026-07-03..2026-07-09",
   "topProjects": [
     {
       "repo": "usestrix/strix",
@@ -11,10 +11,10 @@
         "Penetration Testing",
         "DevSecOps"
       ],
-      "appearances": 5,
+      "appearances": 4,
       "bestRank": 1,
       "latestDate": "2026-07-06",
-      "judgement": "近 7 次记录中出现 5 次，最佳排名第 1，适合优先复盘详情。"
+      "judgement": "近 7 次记录中出现 4 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
       "repo": "Zackriya-Solutions/meetily",
@@ -31,6 +31,20 @@
       "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
+      "repo": "asgeirtj/system_prompts_leaks",
+      "url": "https://github.com/asgeirtj/system_prompts_leaks",
+      "tagsCn": [
+        "系统提示",
+        "模型对齐",
+        "安全研究",
+        "泄露"
+      ],
+      "appearances": 3,
+      "bestRank": 3,
+      "latestDate": "2026-07-09",
+      "judgement": "近 7 次记录中出现 3 次，最佳排名第 3，适合优先复盘详情。"
+    },
+    {
       "repo": "JuliusBrussee/caveman",
       "url": "https://github.com/JuliusBrussee/caveman",
       "tagsCn": [
@@ -44,39 +58,25 @@
       "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
-      "repo": "msitarzewski/agency-agents",
-      "url": "https://github.com/msitarzewski/agency-agents",
+      "repo": "MadsLorentzen/ai-job-search",
+      "url": "https://github.com/MadsLorentzen/ai-job-search",
       "tagsCn": [
         "AI Agent",
-        "提示工程",
-        "角色库",
-        "Dev Tool"
+        "求职",
+        "Claude Code",
+        "自动化"
       ],
-      "appearances": 2,
+      "appearances": 1,
       "bestRank": 1,
-      "latestDate": "2026-07-03",
-      "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
-    },
-    {
-      "repo": "asgeirtj/system_prompts_leaks",
-      "url": "https://github.com/asgeirtj/system_prompts_leaks",
-      "tagsCn": [
-        "AI 系统提示",
-        "安全研究",
-        "提示词工程",
-        "泄漏"
-      ],
-      "appearances": 2,
-      "bestRank": 3,
       "latestDate": "2026-07-08",
-      "judgement": "近 7 次记录中出现 2 次，最佳排名第 3，适合优先复盘详情。"
+      "judgement": "近 7 次记录中出现 1 次，最佳排名第 1，适合优先复盘详情。"
     }
   ],
   "streaks": [
     {
       "repo": "usestrix/strix",
-      "days": 5,
-      "track": "07-02#3 -> 07-03#2 -> 07-04#2 -> 07-05#1 -> 07-06#3"
+      "days": 4,
+      "track": "07-03#2 -> 07-04#2 -> 07-05#1 -> 07-06#3"
     },
     {
       "repo": "Zackriya-Solutions/meetily",
@@ -84,19 +84,14 @@
       "track": "07-06#2 -> 07-07#1 -> 07-08#2"
     },
     {
+      "repo": "asgeirtj/system_prompts_leaks",
+      "days": 3,
+      "track": "07-07#3 -> 07-08#3 -> 07-09#3"
+    },
+    {
       "repo": "JuliusBrussee/caveman",
       "days": 2,
       "track": "07-04#1 -> 07-05#2"
-    },
-    {
-      "repo": "asgeirtj/system_prompts_leaks",
-      "days": 2,
-      "track": "07-07#3 -> 07-08#3"
-    },
-    {
-      "repo": "msitarzewski/agency-agents",
-      "days": 2,
-      "track": "07-02#2 -> 07-03#1"
     }
   ]
 }

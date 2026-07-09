@@ -1,6 +1,44 @@
 {
-  "generatedAt": "2026-07-08T08:01:55.122198+08:00",
+  "generatedAt": "2026-07-09T08:01:32.226790+08:00",
   "projects": [
+    {
+      "repo": "iOfficeAI/OfficeCLI",
+      "url": "https://github.com/iOfficeAI/OfficeCLI",
+      "latestDate": "2026-07-09",
+      "latestRank": 1,
+      "tagsCn": [
+        "AI Agent",
+        "Office Automation",
+        "CLI工具"
+      ],
+      "lastTagline": "首个专为AI代理打造的办公套件，无需安装Office即可读写Word/Excel/PPT，免费开源单二进制。"
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "latestDate": "2026-07-09",
+      "latestRank": 2,
+      "tagsCn": [
+        "AI Agent",
+        "工程实践",
+        "编码规范",
+        "开发流程"
+      ],
+      "lastTagline": "22个技能+7个斜杠命令，为AI编码代理提供生产级开发全生命周期规范。"
+    },
+    {
+      "repo": "asgeirtj/system_prompts_leaks",
+      "url": "https://github.com/asgeirtj/system_prompts_leaks",
+      "latestDate": "2026-07-09",
+      "latestRank": 3,
+      "tagsCn": [
+        "系统提示",
+        "模型对齐",
+        "安全研究",
+        "泄露"
+      ],
+      "lastTagline": "从Claude到GPT，数十个模型系统提示被整理对比，揭示AI内部规则与价值取向。"
+    },
     {
       "repo": "MadsLorentzen/ai-job-search",
       "url": "https://github.com/MadsLorentzen/ai-job-search",
@@ -26,19 +64,6 @@
         "Rust"
       ],
       "lastTagline": "完全本地处理的 AI 会议助理，实时转录、说话人分离并离线摘要，无需云端。"
-    },
-    {
-      "repo": "asgeirtj/system_prompts_leaks",
-      "url": "https://github.com/asgeirtj/system_prompts_leaks",
-      "latestDate": "2026-07-08",
-      "latestRank": 3,
-      "tagsCn": [
-        "AI 系统提示",
-        "安全研究",
-        "提示词工程",
-        "泄漏"
-      ],
-      "lastTagline": "持续收集主流 AI 模型系统提示，用于安全分析、教育与行为对比研究。"
     },
     {
       "repo": "Leonxlnx/taste-skill",
