@@ -1,21 +1,7 @@
 {
-  "generatedAt": "2026-07-09T08:01:32.226790+08:00",
-  "window": "2026-07-03..2026-07-09",
+  "generatedAt": "2026-07-10T08:01:34.905289+08:00",
+  "window": "2026-07-04..2026-07-10",
   "topProjects": [
-    {
-      "repo": "usestrix/strix",
-      "url": "https://github.com/usestrix/strix",
-      "tagsCn": [
-        "AI Agent",
-        "Security",
-        "Penetration Testing",
-        "DevSecOps"
-      ],
-      "appearances": 4,
-      "bestRank": 1,
-      "latestDate": "2026-07-06",
-      "judgement": "近 7 次记录中出现 4 次，最佳排名第 1，适合优先复盘详情。"
-    },
     {
       "repo": "Zackriya-Solutions/meetily",
       "url": "https://github.com/Zackriya-Solutions/meetily",
@@ -28,6 +14,20 @@
       "appearances": 3,
       "bestRank": 1,
       "latestDate": "2026-07-08",
+      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
+    },
+    {
+      "repo": "usestrix/strix",
+      "url": "https://github.com/usestrix/strix",
+      "tagsCn": [
+        "AI Agent",
+        "Security",
+        "Penetration Testing",
+        "DevSecOps"
+      ],
+      "appearances": 3,
+      "bestRank": 1,
+      "latestDate": "2026-07-06",
       "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
@@ -66,18 +66,13 @@
         "Claude Code",
         "自动化"
       ],
-      "appearances": 1,
+      "appearances": 2,
       "bestRank": 1,
-      "latestDate": "2026-07-08",
-      "judgement": "近 7 次记录中出现 1 次，最佳排名第 1，适合优先复盘详情。"
+      "latestDate": "2026-07-10",
+      "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
     }
   ],
   "streaks": [
-    {
-      "repo": "usestrix/strix",
-      "days": 4,
-      "track": "07-03#2 -> 07-04#2 -> 07-05#1 -> 07-06#3"
-    },
     {
       "repo": "Zackriya-Solutions/meetily",
       "days": 3,
@@ -89,9 +84,24 @@
       "track": "07-07#3 -> 07-08#3 -> 07-09#3"
     },
     {
+      "repo": "usestrix/strix",
+      "days": 3,
+      "track": "07-04#2 -> 07-05#1 -> 07-06#3"
+    },
+    {
       "repo": "JuliusBrussee/caveman",
       "days": 2,
       "track": "07-04#1 -> 07-05#2"
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "days": 2,
+      "track": "07-09#2 -> 07-10#2"
+    },
+    {
+      "repo": "iOfficeAI/OfficeCLI",
+      "days": 2,
+      "track": "07-09#1 -> 07-10#3"
     }
   ]
 }

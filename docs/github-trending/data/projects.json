@@ -1,30 +1,44 @@
 {
-  "generatedAt": "2026-07-09T08:01:32.226790+08:00",
+  "generatedAt": "2026-07-10T08:01:34.905289+08:00",
   "projects": [
     {
-      "repo": "iOfficeAI/OfficeCLI",
-      "url": "https://github.com/iOfficeAI/OfficeCLI",
-      "latestDate": "2026-07-09",
+      "repo": "MadsLorentzen/ai-job-search",
+      "url": "https://github.com/MadsLorentzen/ai-job-search",
+      "latestDate": "2026-07-10",
       "latestRank": 1,
       "tagsCn": [
         "AI Agent",
-        "Office Automation",
-        "CLI工具"
+        "求职",
+        "Claude Code",
+        "自动化"
       ],
-      "lastTagline": "首个专为AI代理打造的办公套件，无需安装Office即可读写Word/Excel/PPT，免费开源单二进制。"
+      "lastTagline": "AI驱动求职流水线：自动评估职位、适配简历并生成求职信，需人工最终把关。"
     },
     {
       "repo": "addyosmani/agent-skills",
       "url": "https://github.com/addyosmani/agent-skills",
-      "latestDate": "2026-07-09",
+      "latestDate": "2026-07-10",
       "latestRank": 2,
       "tagsCn": [
         "AI Agent",
-        "工程实践",
-        "编码规范",
-        "开发流程"
+        "Dev Tool",
+        "规范",
+        "Claude Code"
       ],
-      "lastTagline": "22个技能+7个斜杠命令，为AI编码代理提供生产级开发全生命周期规范。"
+      "lastTagline": "为AI编程代理提供生产级工程技能，用Markdown规范开发全流程。"
+    },
+    {
+      "repo": "iOfficeAI/OfficeCLI",
+      "url": "https://github.com/iOfficeAI/OfficeCLI",
+      "latestDate": "2026-07-10",
+      "latestRank": 3,
+      "tagsCn": [
+        "AI Agent",
+        "Office",
+        "CLI",
+        "自动化"
+      ],
+      "lastTagline": "首款专为AI代理设计的Office套件，单二进制零依赖，直接读写Word/Excel/PPT。"
     },
     {
       "repo": "asgeirtj/system_prompts_leaks",
@@ -38,19 +52,6 @@
         "泄露"
       ],
       "lastTagline": "从Claude到GPT，数十个模型系统提示被整理对比，揭示AI内部规则与价值取向。"
-    },
-    {
-      "repo": "MadsLorentzen/ai-job-search",
-      "url": "https://github.com/MadsLorentzen/ai-job-search",
-      "latestDate": "2026-07-08",
-      "latestRank": 1,
-      "tagsCn": [
-        "AI Agent",
-        "求职",
-        "Claude Code",
-        "自动化"
-      ],
-      "lastTagline": "基于 Claude Code 的求职自动化框架，批量评价职位、定制简历与求职信。"
     },
     {
       "repo": "Zackriya-Solutions/meetily",
