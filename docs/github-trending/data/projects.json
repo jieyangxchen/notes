@@ -1,6 +1,45 @@
 {
-  "generatedAt": "2026-07-10T08:01:34.905289+08:00",
+  "generatedAt": "2026-07-11T08:26:09.291369+08:00",
   "projects": [
+    {
+      "repo": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "latestDate": "2026-07-11",
+      "latestRank": 1,
+      "tagsCn": [
+        "AI Agent",
+        "工程技能",
+        "代理工作流",
+        "Claude"
+      ],
+      "lastTagline": "Claude配置文件实战技能集，降低代理协作偏差"
+    },
+    {
+      "repo": "iOfficeAI/OfficeCLI",
+      "url": "https://github.com/iOfficeAI/OfficeCLI",
+      "latestDate": "2026-07-11",
+      "latestRank": 2,
+      "tagsCn": [
+        "AI Agent",
+        "Office",
+        "CLI",
+        "办公自动化"
+      ],
+      "lastTagline": "AI代理Office套件，单二进制读写Word/Excel/PPT"
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "latestDate": "2026-07-11",
+      "latestRank": 3,
+      "tagsCn": [
+        "AI Agent",
+        "开发规范",
+        "代码质量",
+        "Claude Code"
+      ],
+      "lastTagline": "生产级工程技能集合，让AI代理遵循开发全生命周期规范"
+    },
     {
       "repo": "MadsLorentzen/ai-job-search",
       "url": "https://github.com/MadsLorentzen/ai-job-search",
@@ -13,32 +52,6 @@
         "自动化"
       ],
       "lastTagline": "AI驱动求职流水线：自动评估职位、适配简历并生成求职信，需人工最终把关。"
-    },
-    {
-      "repo": "addyosmani/agent-skills",
-      "url": "https://github.com/addyosmani/agent-skills",
-      "latestDate": "2026-07-10",
-      "latestRank": 2,
-      "tagsCn": [
-        "AI Agent",
-        "Dev Tool",
-        "规范",
-        "Claude Code"
-      ],
-      "lastTagline": "为AI编程代理提供生产级工程技能，用Markdown规范开发全流程。"
-    },
-    {
-      "repo": "iOfficeAI/OfficeCLI",
-      "url": "https://github.com/iOfficeAI/OfficeCLI",
-      "latestDate": "2026-07-10",
-      "latestRank": 3,
-      "tagsCn": [
-        "AI Agent",
-        "Office",
-        "CLI",
-        "自动化"
-      ],
-      "lastTagline": "首款专为AI代理设计的Office套件，单二进制零依赖，直接读写Word/Excel/PPT。"
     },
     {
       "repo": "asgeirtj/system_prompts_leaks",
@@ -116,18 +129,6 @@
         "Efficiency"
       ],
       "lastTagline": "让 AI 编码代理说“原始人话”，输出 token 节省 65%"
-    },
-    {
-      "repo": "mattpocock/skills",
-      "url": "https://github.com/mattpocock/skills",
-      "latestDate": "2026-07-05",
-      "latestRank": 3,
-      "tagsCn": [
-        "AI Agent",
-        "Dev Tool",
-        "Workflow"
-      ],
-      "lastTagline": "真·工程师的代理技能包，前置澄清减少 AI 编码返工"
     },
     {
       "repo": "obra/superpowers",

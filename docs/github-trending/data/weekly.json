@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-10T08:01:34.905289+08:00",
-  "window": "2026-07-04..2026-07-10",
+  "generatedAt": "2026-07-11T08:26:09.291369+08:00",
+  "window": "2026-07-05..2026-07-11",
   "topProjects": [
     {
       "repo": "Zackriya-Solutions/meetily",
@@ -17,18 +17,32 @@
       "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
-      "repo": "usestrix/strix",
-      "url": "https://github.com/usestrix/strix",
+      "repo": "iOfficeAI/OfficeCLI",
+      "url": "https://github.com/iOfficeAI/OfficeCLI",
       "tagsCn": [
         "AI Agent",
-        "Security",
-        "Penetration Testing",
-        "DevSecOps"
+        "Office",
+        "CLI",
+        "办公自动化"
       ],
       "appearances": 3,
       "bestRank": 1,
-      "latestDate": "2026-07-06",
+      "latestDate": "2026-07-11",
       "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "tagsCn": [
+        "AI Agent",
+        "开发规范",
+        "代码质量",
+        "Claude Code"
+      ],
+      "appearances": 3,
+      "bestRank": 2,
+      "latestDate": "2026-07-11",
+      "judgement": "近 7 次记录中出现 3 次，最佳排名第 2，适合优先复盘详情。"
     },
     {
       "repo": "asgeirtj/system_prompts_leaks",
@@ -43,19 +57,6 @@
       "bestRank": 3,
       "latestDate": "2026-07-09",
       "judgement": "近 7 次记录中出现 3 次，最佳排名第 3，适合优先复盘详情。"
-    },
-    {
-      "repo": "JuliusBrussee/caveman",
-      "url": "https://github.com/JuliusBrussee/caveman",
-      "tagsCn": [
-        "AI Agent",
-        "Dev Tool",
-        "Efficiency"
-      ],
-      "appearances": 2,
-      "bestRank": 1,
-      "latestDate": "2026-07-05",
-      "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
       "repo": "MadsLorentzen/ai-job-search",
@@ -79,29 +80,24 @@
       "track": "07-06#2 -> 07-07#1 -> 07-08#2"
     },
     {
+      "repo": "addyosmani/agent-skills",
+      "days": 3,
+      "track": "07-09#2 -> 07-10#2 -> 07-11#3"
+    },
+    {
       "repo": "asgeirtj/system_prompts_leaks",
       "days": 3,
       "track": "07-07#3 -> 07-08#3 -> 07-09#3"
     },
     {
-      "repo": "usestrix/strix",
-      "days": 3,
-      "track": "07-04#2 -> 07-05#1 -> 07-06#3"
-    },
-    {
-      "repo": "JuliusBrussee/caveman",
-      "days": 2,
-      "track": "07-04#1 -> 07-05#2"
-    },
-    {
-      "repo": "addyosmani/agent-skills",
-      "days": 2,
-      "track": "07-09#2 -> 07-10#2"
-    },
-    {
       "repo": "iOfficeAI/OfficeCLI",
+      "days": 3,
+      "track": "07-09#1 -> 07-10#3 -> 07-11#2"
+    },
+    {
+      "repo": "usestrix/strix",
       "days": 2,
-      "track": "07-09#1 -> 07-10#3"
+      "track": "07-05#1 -> 07-06#3"
     }
   ]
 }
