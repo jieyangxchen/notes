@@ -1,6 +1,45 @@
 {
-  "generatedAt": "2026-07-11T08:26:09.291369+08:00",
+  "generatedAt": "2026-07-12T08:02:05.540621+08:00",
   "projects": [
+    {
+      "repo": "wonderwhy-er/DesktopCommanderMCP",
+      "url": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
+      "latestDate": "2026-07-12",
+      "latestRank": 1,
+      "tagsCn": [
+        "AI Agent",
+        "MCP",
+        "Terminal",
+        "CLI"
+      ],
+      "lastTagline": "让 Claude 拥有终端控制、文件搜索与代码编辑能力的 MCP 服务"
+    },
+    {
+      "repo": "malisper/pgrust",
+      "url": "https://github.com/malisper/pgrust",
+      "latestDate": "2026-07-12",
+      "latestRank": 2,
+      "tagsCn": [
+        "浏览器",
+        "Database",
+        "Rust",
+        "Postgres"
+      ],
+      "lastTagline": "Rust 重写的 PostgreSQL，通过 100% 回归测试，分析负载提速 300 倍"
+    },
+    {
+      "repo": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "latestDate": "2026-07-12",
+      "latestRank": 3,
+      "tagsCn": [
+        "AI Agent",
+        "SDLC",
+        "TDD",
+        "Code Review"
+      ],
+      "lastTagline": "为编码代理注入 TDD 纪律与子代理驱动开发的方法论技能框架"
+    },
     {
       "repo": "mattpocock/skills",
       "url": "https://github.com/mattpocock/skills",
@@ -129,19 +168,6 @@
         "Efficiency"
       ],
       "lastTagline": "让 AI 编码代理说“原始人话”，输出 token 节省 65%"
-    },
-    {
-      "repo": "obra/superpowers",
-      "url": "https://github.com/obra/superpowers",
-      "latestDate": "2026-07-04",
-      "latestRank": 3,
-      "tagsCn": [
-        "AI Agent",
-        "SDLC",
-        "Methodology",
-        "Coding Workflow"
-      ],
-      "lastTagline": "为 AI 编码代理植入工程纪律，将野路子开发流程化为可审查的增量。"
     },
     {
       "repo": "msitarzewski/agency-agents",
