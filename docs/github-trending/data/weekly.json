@@ -1,21 +1,7 @@
 {
-  "generatedAt": "2026-07-12T08:02:05.540621+08:00",
-  "window": "2026-07-06..2026-07-12",
+  "generatedAt": "2026-07-13T08:03:22.362237+08:00",
+  "window": "2026-07-07..2026-07-13",
   "topProjects": [
-    {
-      "repo": "Zackriya-Solutions/meetily",
-      "url": "https://github.com/Zackriya-Solutions/meetily",
-      "tagsCn": [
-        "隐私优先",
-        "AI 会议助手",
-        "本地处理",
-        "Rust"
-      ],
-      "appearances": 3,
-      "bestRank": 1,
-      "latestDate": "2026-07-08",
-      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
-    },
     {
       "repo": "iOfficeAI/OfficeCLI",
       "url": "https://github.com/iOfficeAI/OfficeCLI",
@@ -71,14 +57,23 @@
       "bestRank": 1,
       "latestDate": "2026-07-10",
       "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
+    },
+    {
+      "repo": "Zackriya-Solutions/meetily",
+      "url": "https://github.com/Zackriya-Solutions/meetily",
+      "tagsCn": [
+        "隐私优先",
+        "AI 会议助手",
+        "本地处理",
+        "Rust"
+      ],
+      "appearances": 2,
+      "bestRank": 1,
+      "latestDate": "2026-07-08",
+      "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
     }
   ],
   "streaks": [
-    {
-      "repo": "Zackriya-Solutions/meetily",
-      "days": 3,
-      "track": "07-06#2 -> 07-07#1 -> 07-08#2"
-    },
     {
       "repo": "addyosmani/agent-skills",
       "days": 3,
@@ -93,6 +88,16 @@
       "repo": "iOfficeAI/OfficeCLI",
       "days": 3,
       "track": "07-09#1 -> 07-10#3 -> 07-11#2"
+    },
+    {
+      "repo": "Zackriya-Solutions/meetily",
+      "days": 2,
+      "track": "07-07#1 -> 07-08#2"
+    },
+    {
+      "repo": "malisper/pgrust",
+      "days": 2,
+      "track": "07-12#2 -> 07-13#3"
     }
   ]
 }

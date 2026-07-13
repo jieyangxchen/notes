@@ -1,6 +1,45 @@
 {
-  "generatedAt": "2026-07-12T08:02:05.540621+08:00",
+  "generatedAt": "2026-07-13T08:03:22.362237+08:00",
   "projects": [
+    {
+      "repo": "HKUDS/Vibe-Trading",
+      "url": "https://github.com/HKUDS/Vibe-Trading",
+      "latestDate": "2026-07-13",
+      "latestRank": 1,
+      "tagsCn": [
+        "金融",
+        "AI Agent",
+        "Trading",
+        "Quant"
+      ],
+      "lastTagline": "港大开源AI交易代理v0.1.11发布，新增策略开发管理器，实现因子生命周期自动监控"
+    },
+    {
+      "repo": "k1tbyte/Wand-Enhancer",
+      "url": "https://github.com/k1tbyte/Wand-Enhancer",
+      "latestDate": "2026-07-13",
+      "latestRank": 2,
+      "tagsCn": [
+        "浏览器",
+        "Security",
+        "UX",
+        "Extension"
+      ],
+      "lastTagline": "开源Wand体验增强工具，自编译杜绝恶意软件，内置远程面板与自定义脚本"
+    },
+    {
+      "repo": "malisper/pgrust",
+      "url": "https://github.com/malisper/pgrust",
+      "latestDate": "2026-07-13",
+      "latestRank": 3,
+      "tagsCn": [
+        "Database",
+        "Rust",
+        "Postgres",
+        "AI-assisted"
+      ],
+      "lastTagline": "Rust重写Postgres已通过100%回归测试，未公开版本宣称分析性能提升300倍"
+    },
     {
       "repo": "wonderwhy-er/DesktopCommanderMCP",
       "url": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
@@ -13,19 +52,6 @@
         "CLI"
       ],
       "lastTagline": "让 Claude 拥有终端控制、文件搜索与代码编辑能力的 MCP 服务"
-    },
-    {
-      "repo": "malisper/pgrust",
-      "url": "https://github.com/malisper/pgrust",
-      "latestDate": "2026-07-12",
-      "latestRank": 2,
-      "tagsCn": [
-        "浏览器",
-        "Database",
-        "Rust",
-        "Postgres"
-      ],
-      "lastTagline": "Rust 重写的 PostgreSQL，通过 100% 回归测试，分析负载提速 300 倍"
     },
     {
       "repo": "obra/superpowers",
@@ -181,19 +207,6 @@
         "Dev Tool"
       ],
       "lastTagline": "AI 角色库，从 Reddit 运营到前端开发，一键注入专业代理。"
-    },
-    {
-      "repo": "HKUDS/Vibe-Trading",
-      "url": "https://github.com/HKUDS/Vibe-Trading",
-      "latestDate": "2026-07-03",
-      "latestRank": 3,
-      "tagsCn": [
-        "金融",
-        "AI Agent",
-        "定量交易",
-        "Python"
-      ],
-      "lastTagline": "个人 AI 交易代理，一句话开启量化交易与回测。"
     },
     {
       "repo": "hasaneyldrm/exercises-dataset",
