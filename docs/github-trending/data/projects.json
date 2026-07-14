@@ -1,18 +1,41 @@
 {
-  "generatedAt": "2026-07-13T08:03:22.362237+08:00",
+  "generatedAt": "2026-07-14T08:07:37.660265+08:00",
   "projects": [
+    {
+      "repo": "OpenCut-app/OpenCut",
+      "url": "https://github.com/OpenCut-app/OpenCut",
+      "latestDate": "2026-07-14",
+      "latestRank": 1,
+      "tagsCn": [
+        "开源",
+        "Video Editor",
+        "Cross-platform"
+      ],
+      "lastTagline": "开源跨平台视频编辑器，重塑剪映替代方案"
+    },
     {
       "repo": "HKUDS/Vibe-Trading",
       "url": "https://github.com/HKUDS/Vibe-Trading",
-      "latestDate": "2026-07-13",
-      "latestRank": 1,
+      "latestDate": "2026-07-14",
+      "latestRank": 2,
       "tagsCn": [
-        "金融",
         "AI Agent",
-        "Trading",
-        "Quant"
+        "金融",
+        "Quantitative Trading"
       ],
-      "lastTagline": "港大开源AI交易代理v0.1.11发布，新增策略开发管理器，实现因子生命周期自动监控"
+      "lastTagline": "AI 驱动的个人交易代理，量化策略从论文到回测一站通"
+    },
+    {
+      "repo": "Graphify-Labs/graphify",
+      "url": "https://github.com/Graphify-Labs/graphify",
+      "latestDate": "2026-07-14",
+      "latestRank": 3,
+      "tagsCn": [
+        "Knowledge Graph",
+        "Dev Tool",
+        "学术研究"
+      ],
+      "lastTagline": "将任意项目文件夹转化为可查询知识图谱，告别 grep"
     },
     {
       "repo": "k1tbyte/Wand-Enhancer",

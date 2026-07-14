@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-13T08:03:22.362237+08:00",
-  "window": "2026-07-07..2026-07-13",
+  "generatedAt": "2026-07-14T08:07:37.660265+08:00",
+  "window": "2026-07-08..2026-07-14",
   "topProjects": [
     {
       "repo": "iOfficeAI/OfficeCLI",
@@ -31,18 +31,17 @@
       "judgement": "近 7 次记录中出现 3 次，最佳排名第 2，适合优先复盘详情。"
     },
     {
-      "repo": "asgeirtj/system_prompts_leaks",
-      "url": "https://github.com/asgeirtj/system_prompts_leaks",
+      "repo": "HKUDS/Vibe-Trading",
+      "url": "https://github.com/HKUDS/Vibe-Trading",
       "tagsCn": [
-        "系统提示",
-        "模型对齐",
-        "安全研究",
-        "泄露"
+        "AI Agent",
+        "金融",
+        "Quantitative Trading"
       ],
-      "appearances": 3,
-      "bestRank": 3,
-      "latestDate": "2026-07-09",
-      "judgement": "近 7 次记录中出现 3 次，最佳排名第 3，适合优先复盘详情。"
+      "appearances": 2,
+      "bestRank": 1,
+      "latestDate": "2026-07-14",
+      "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
       "repo": "MadsLorentzen/ai-job-search",
@@ -59,18 +58,18 @@
       "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
-      "repo": "Zackriya-Solutions/meetily",
-      "url": "https://github.com/Zackriya-Solutions/meetily",
+      "repo": "malisper/pgrust",
+      "url": "https://github.com/malisper/pgrust",
       "tagsCn": [
-        "隐私优先",
-        "AI 会议助手",
-        "本地处理",
-        "Rust"
+        "Database",
+        "Rust",
+        "Postgres",
+        "AI-assisted"
       ],
       "appearances": 2,
-      "bestRank": 1,
-      "latestDate": "2026-07-08",
-      "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
+      "bestRank": 2,
+      "latestDate": "2026-07-13",
+      "judgement": "近 7 次记录中出现 2 次，最佳排名第 2，适合优先复盘详情。"
     }
   ],
   "streaks": [
@@ -80,19 +79,19 @@
       "track": "07-09#2 -> 07-10#2 -> 07-11#3"
     },
     {
-      "repo": "asgeirtj/system_prompts_leaks",
-      "days": 3,
-      "track": "07-07#3 -> 07-08#3 -> 07-09#3"
-    },
-    {
       "repo": "iOfficeAI/OfficeCLI",
       "days": 3,
       "track": "07-09#1 -> 07-10#3 -> 07-11#2"
     },
     {
-      "repo": "Zackriya-Solutions/meetily",
+      "repo": "HKUDS/Vibe-Trading",
       "days": 2,
-      "track": "07-07#1 -> 07-08#2"
+      "track": "07-13#1 -> 07-14#2"
+    },
+    {
+      "repo": "asgeirtj/system_prompts_leaks",
+      "days": 2,
+      "track": "07-08#3 -> 07-09#3"
     },
     {
       "repo": "malisper/pgrust",
