@@ -1,17 +1,44 @@
 {
-  "generatedAt": "2026-07-14T08:07:37.660265+08:00",
+  "generatedAt": "2026-07-15T08:01:42.351966+08:00",
   "projects": [
     {
       "repo": "OpenCut-app/OpenCut",
       "url": "https://github.com/OpenCut-app/OpenCut",
-      "latestDate": "2026-07-14",
+      "latestDate": "2026-07-15",
       "latestRank": 1,
       "tagsCn": [
+        "视频编辑",
         "开源",
-        "Video Editor",
-        "Cross-platform"
+        "Rust",
+        "AI Agent"
       ],
-      "lastTagline": "开源跨平台视频编辑器，重塑剪映替代方案"
+      "lastTagline": "免费开源跨平台视频编辑器，正用 Rust 重写，即将支持插件和 AI 代理无头渲染。"
+    },
+    {
+      "repo": "Graphify-Labs/graphify",
+      "url": "https://github.com/Graphify-Labs/graphify",
+      "latestDate": "2026-07-15",
+      "latestRank": 2,
+      "tagsCn": [
+        "知识图谱",
+        "代码理解",
+        "工具",
+        "AI助手"
+      ],
+      "lastTagline": "将任意代码、文档、数据转为可查询的知识图谱，支持 15+ AI 编程助手，本地优先、保护隐私。"
+    },
+    {
+      "repo": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "latestDate": "2026-07-15",
+      "latestRank": 3,
+      "tagsCn": [
+        "AI Agent",
+        "开发工具",
+        "技能库",
+        "TypeScript"
+      ],
+      "lastTagline": "为真实工程师打造的 AI 代理技能集，通过细化需求减少沟通偏差，兼容多种模型。"
     },
     {
       "repo": "HKUDS/Vibe-Trading",
@@ -24,18 +51,6 @@
         "Quantitative Trading"
       ],
       "lastTagline": "AI 驱动的个人交易代理，量化策略从论文到回测一站通"
-    },
-    {
-      "repo": "Graphify-Labs/graphify",
-      "url": "https://github.com/Graphify-Labs/graphify",
-      "latestDate": "2026-07-14",
-      "latestRank": 3,
-      "tagsCn": [
-        "Knowledge Graph",
-        "Dev Tool",
-        "学术研究"
-      ],
-      "lastTagline": "将任意项目文件夹转化为可查询知识图谱，告别 grep"
     },
     {
       "repo": "k1tbyte/Wand-Enhancer",
@@ -88,19 +103,6 @@
         "Code Review"
       ],
       "lastTagline": "为编码代理注入 TDD 纪律与子代理驱动开发的方法论技能框架"
-    },
-    {
-      "repo": "mattpocock/skills",
-      "url": "https://github.com/mattpocock/skills",
-      "latestDate": "2026-07-11",
-      "latestRank": 1,
-      "tagsCn": [
-        "AI Agent",
-        "工程技能",
-        "代理工作流",
-        "Claude"
-      ],
-      "lastTagline": "Claude配置文件实战技能集，降低代理协作偏差"
     },
     {
       "repo": "iOfficeAI/OfficeCLI",

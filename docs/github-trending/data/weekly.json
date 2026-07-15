@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-14T08:07:37.660265+08:00",
-  "window": "2026-07-08..2026-07-14",
+  "generatedAt": "2026-07-15T08:01:42.351966+08:00",
+  "window": "2026-07-09..2026-07-15",
   "topProjects": [
     {
       "repo": "iOfficeAI/OfficeCLI",
@@ -44,32 +44,32 @@
       "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
-      "repo": "MadsLorentzen/ai-job-search",
-      "url": "https://github.com/MadsLorentzen/ai-job-search",
+      "repo": "OpenCut-app/OpenCut",
+      "url": "https://github.com/OpenCut-app/OpenCut",
       "tagsCn": [
-        "AI Agent",
-        "求职",
-        "Claude Code",
-        "自动化"
+        "视频编辑",
+        "开源",
+        "Rust",
+        "AI Agent"
       ],
       "appearances": 2,
       "bestRank": 1,
-      "latestDate": "2026-07-10",
+      "latestDate": "2026-07-15",
       "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
-      "repo": "malisper/pgrust",
-      "url": "https://github.com/malisper/pgrust",
+      "repo": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
       "tagsCn": [
-        "Database",
-        "Rust",
-        "Postgres",
-        "AI-assisted"
+        "AI Agent",
+        "开发工具",
+        "技能库",
+        "TypeScript"
       ],
       "appearances": 2,
-      "bestRank": 2,
-      "latestDate": "2026-07-13",
-      "judgement": "近 7 次记录中出现 2 次，最佳排名第 2，适合优先复盘详情。"
+      "bestRank": 1,
+      "latestDate": "2026-07-15",
+      "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
     }
   ],
   "streaks": [
@@ -84,14 +84,19 @@
       "track": "07-09#1 -> 07-10#3 -> 07-11#2"
     },
     {
+      "repo": "Graphify-Labs/graphify",
+      "days": 2,
+      "track": "07-14#3 -> 07-15#2"
+    },
+    {
       "repo": "HKUDS/Vibe-Trading",
       "days": 2,
       "track": "07-13#1 -> 07-14#2"
     },
     {
-      "repo": "asgeirtj/system_prompts_leaks",
+      "repo": "OpenCut-app/OpenCut",
       "days": 2,
-      "track": "07-08#3 -> 07-09#3"
+      "track": "07-14#1 -> 07-15#1"
     },
     {
       "repo": "malisper/pgrust",
