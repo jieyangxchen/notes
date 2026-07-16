@@ -1,18 +1,44 @@
 {
-  "generatedAt": "2026-07-15T08:01:42.351966+08:00",
+  "generatedAt": "2026-07-16T08:03:39.726255+08:00",
   "projects": [
+    {
+      "repo": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "latestDate": "2026-07-16",
+      "latestRank": 1,
+      "tagsCn": [
+        "AI Agent",
+        "Developer Tools",
+        "Skill Library",
+        "Claude"
+      ],
+      "lastTagline": "专为工程师打造的 Claude 代理技能集，通过前置提问减少返工，让代理更听话。"
+    },
     {
       "repo": "OpenCut-app/OpenCut",
       "url": "https://github.com/OpenCut-app/OpenCut",
-      "latestDate": "2026-07-15",
-      "latestRank": 1,
+      "latestDate": "2026-07-16",
+      "latestRank": 2,
       "tagsCn": [
-        "视频编辑",
+        "浏览器",
+        "Video Editor",
         "开源",
-        "Rust",
-        "AI Agent"
+        "桌面端"
       ],
-      "lastTagline": "免费开源跨平台视频编辑器，正用 Rust 重写，即将支持插件和 AI 代理无头渲染。"
+      "lastTagline": "开源跨平台视频编辑器，正在 Rust 重写，将带来插件与 AI 代理控制。"
+    },
+    {
+      "repo": "Nutlope/hallmark",
+      "url": "https://github.com/Nutlope/hallmark",
+      "latestDate": "2026-07-16",
+      "latestRank": 3,
+      "tagsCn": [
+        "AI Agent",
+        "Design",
+        "Anti-Slop",
+        "Claude"
+      ],
+      "lastTagline": "反 AI 俗套设计技能，让代理生成拥有独特审美指纹的网页，拒绝千篇一律。"
     },
     {
       "repo": "Graphify-Labs/graphify",
@@ -26,19 +52,6 @@
         "AI助手"
       ],
       "lastTagline": "将任意代码、文档、数据转为可查询的知识图谱，支持 15+ AI 编程助手，本地优先、保护隐私。"
-    },
-    {
-      "repo": "mattpocock/skills",
-      "url": "https://github.com/mattpocock/skills",
-      "latestDate": "2026-07-15",
-      "latestRank": 3,
-      "tagsCn": [
-        "AI Agent",
-        "开发工具",
-        "技能库",
-        "TypeScript"
-      ],
-      "lastTagline": "为真实工程师打造的 AI 代理技能集，通过细化需求减少沟通偏差，兼容多种模型。"
     },
     {
       "repo": "HKUDS/Vibe-Trading",

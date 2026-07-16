@@ -1,34 +1,34 @@
 {
-  "generatedAt": "2026-07-15T08:01:42.351966+08:00",
-  "window": "2026-07-09..2026-07-15",
+  "generatedAt": "2026-07-16T08:03:39.726255+08:00",
+  "window": "2026-07-10..2026-07-16",
   "topProjects": [
     {
-      "repo": "iOfficeAI/OfficeCLI",
-      "url": "https://github.com/iOfficeAI/OfficeCLI",
+      "repo": "OpenCut-app/OpenCut",
+      "url": "https://github.com/OpenCut-app/OpenCut",
       "tagsCn": [
-        "AI Agent",
-        "Office",
-        "CLI",
-        "办公自动化"
+        "浏览器",
+        "Video Editor",
+        "开源",
+        "桌面端"
       ],
       "appearances": 3,
       "bestRank": 1,
-      "latestDate": "2026-07-11",
+      "latestDate": "2026-07-16",
       "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
-      "repo": "addyosmani/agent-skills",
-      "url": "https://github.com/addyosmani/agent-skills",
+      "repo": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
       "tagsCn": [
         "AI Agent",
-        "开发规范",
-        "代码质量",
-        "Claude Code"
+        "Developer Tools",
+        "Skill Library",
+        "Claude"
       ],
       "appearances": 3,
-      "bestRank": 2,
-      "latestDate": "2026-07-11",
-      "judgement": "近 7 次记录中出现 3 次，最佳排名第 2，适合优先复盘详情。"
+      "bestRank": 1,
+      "latestDate": "2026-07-16",
+      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
       "repo": "HKUDS/Vibe-Trading",
@@ -44,44 +44,39 @@
       "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
-      "repo": "OpenCut-app/OpenCut",
-      "url": "https://github.com/OpenCut-app/OpenCut",
+      "repo": "Graphify-Labs/graphify",
+      "url": "https://github.com/Graphify-Labs/graphify",
       "tagsCn": [
-        "视频编辑",
-        "开源",
-        "Rust",
-        "AI Agent"
+        "知识图谱",
+        "代码理解",
+        "工具",
+        "AI助手"
       ],
       "appearances": 2,
-      "bestRank": 1,
+      "bestRank": 2,
       "latestDate": "2026-07-15",
-      "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
+      "judgement": "近 7 次记录中出现 2 次，最佳排名第 2，适合优先复盘详情。"
     },
     {
-      "repo": "mattpocock/skills",
-      "url": "https://github.com/mattpocock/skills",
+      "repo": "addyosmani/agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
       "tagsCn": [
         "AI Agent",
-        "开发工具",
-        "技能库",
-        "TypeScript"
+        "开发规范",
+        "代码质量",
+        "Claude Code"
       ],
       "appearances": 2,
-      "bestRank": 1,
-      "latestDate": "2026-07-15",
-      "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
+      "bestRank": 2,
+      "latestDate": "2026-07-11",
+      "judgement": "近 7 次记录中出现 2 次，最佳排名第 2，适合优先复盘详情。"
     }
   ],
   "streaks": [
     {
-      "repo": "addyosmani/agent-skills",
+      "repo": "OpenCut-app/OpenCut",
       "days": 3,
-      "track": "07-09#2 -> 07-10#2 -> 07-11#3"
-    },
-    {
-      "repo": "iOfficeAI/OfficeCLI",
-      "days": 3,
-      "track": "07-09#1 -> 07-10#3 -> 07-11#2"
+      "track": "07-14#1 -> 07-15#1 -> 07-16#2"
     },
     {
       "repo": "Graphify-Labs/graphify",
@@ -94,14 +89,24 @@
       "track": "07-13#1 -> 07-14#2"
     },
     {
-      "repo": "OpenCut-app/OpenCut",
+      "repo": "addyosmani/agent-skills",
       "days": 2,
-      "track": "07-14#1 -> 07-15#1"
+      "track": "07-10#2 -> 07-11#3"
+    },
+    {
+      "repo": "iOfficeAI/OfficeCLI",
+      "days": 2,
+      "track": "07-10#3 -> 07-11#2"
     },
     {
       "repo": "malisper/pgrust",
       "days": 2,
       "track": "07-12#2 -> 07-13#3"
+    },
+    {
+      "repo": "mattpocock/skills",
+      "days": 2,
+      "track": "07-15#3 -> 07-16#1"
     }
   ]
 }
