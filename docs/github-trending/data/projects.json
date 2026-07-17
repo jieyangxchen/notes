@@ -1,44 +1,44 @@
 {
-  "generatedAt": "2026-07-16T08:03:39.726255+08:00",
+  "generatedAt": "2026-07-17T08:19:05.272533+08:00",
   "projects": [
-    {
-      "repo": "mattpocock/skills",
-      "url": "https://github.com/mattpocock/skills",
-      "latestDate": "2026-07-16",
-      "latestRank": 1,
-      "tagsCn": [
-        "AI Agent",
-        "Developer Tools",
-        "Skill Library",
-        "Claude"
-      ],
-      "lastTagline": "专为工程师打造的 Claude 代理技能集，通过前置提问减少返工，让代理更听话。"
-    },
     {
       "repo": "OpenCut-app/OpenCut",
       "url": "https://github.com/OpenCut-app/OpenCut",
-      "latestDate": "2026-07-16",
-      "latestRank": 2,
+      "latestDate": "2026-07-17",
+      "latestRank": 1,
       "tagsCn": [
-        "浏览器",
-        "Video Editor",
         "开源",
-        "桌面端"
+        "视频编辑",
+        "AI Agent",
+        "Rust"
       ],
-      "lastTagline": "开源跨平台视频编辑器，正在 Rust 重写，将带来插件与 AI 代理控制。"
+      "lastTagline": "开源剪映替代，Rust 重写并支持 AI 代理操控的跨平台视频编辑器"
     },
     {
       "repo": "Nutlope/hallmark",
       "url": "https://github.com/Nutlope/hallmark",
-      "latestDate": "2026-07-16",
+      "latestDate": "2026-07-17",
+      "latestRank": 2,
+      "tagsCn": [
+        "AI Agent",
+        "设计",
+        "Anti-Slop",
+        "Claude Code"
+      ],
+      "lastTagline": "拒绝 AI 俗套的设计技能，为编码代理注入 57 道反模式检测与 20 种主题风格"
+    },
+    {
+      "repo": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "latestDate": "2026-07-17",
       "latestRank": 3,
       "tagsCn": [
         "AI Agent",
-        "Design",
-        "Anti-Slop",
-        "Claude"
+        "工程团队",
+        "需求澄清",
+        "Claude Code"
       ],
-      "lastTagline": "反 AI 俗套设计技能，让代理生成拥有独特审美指纹的网页，拒绝千篇一律。"
+      "lastTagline": "真实工程师的技能集，通过前置提问与任务分流，让编码代理对齐真实需求"
     },
     {
       "repo": "Graphify-Labs/graphify",

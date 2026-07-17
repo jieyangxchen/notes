@@ -1,34 +1,34 @@
 {
-  "generatedAt": "2026-07-16T08:03:39.726255+08:00",
-  "window": "2026-07-10..2026-07-16",
+  "generatedAt": "2026-07-17T08:19:05.272533+08:00",
+  "window": "2026-07-11..2026-07-17",
   "topProjects": [
     {
       "repo": "OpenCut-app/OpenCut",
       "url": "https://github.com/OpenCut-app/OpenCut",
       "tagsCn": [
-        "浏览器",
-        "Video Editor",
         "开源",
-        "桌面端"
+        "视频编辑",
+        "AI Agent",
+        "Rust"
       ],
-      "appearances": 3,
+      "appearances": 4,
       "bestRank": 1,
-      "latestDate": "2026-07-16",
-      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
+      "latestDate": "2026-07-17",
+      "judgement": "近 7 次记录中出现 4 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
       "repo": "mattpocock/skills",
       "url": "https://github.com/mattpocock/skills",
       "tagsCn": [
         "AI Agent",
-        "Developer Tools",
-        "Skill Library",
-        "Claude"
+        "工程团队",
+        "需求澄清",
+        "Claude Code"
       ],
-      "appearances": 3,
+      "appearances": 4,
       "bestRank": 1,
-      "latestDate": "2026-07-16",
-      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
+      "latestDate": "2026-07-17",
+      "judgement": "近 7 次记录中出现 4 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
       "repo": "HKUDS/Vibe-Trading",
@@ -58,25 +58,30 @@
       "judgement": "近 7 次记录中出现 2 次，最佳排名第 2，适合优先复盘详情。"
     },
     {
-      "repo": "addyosmani/agent-skills",
-      "url": "https://github.com/addyosmani/agent-skills",
+      "repo": "Nutlope/hallmark",
+      "url": "https://github.com/Nutlope/hallmark",
       "tagsCn": [
         "AI Agent",
-        "开发规范",
-        "代码质量",
+        "设计",
+        "Anti-Slop",
         "Claude Code"
       ],
       "appearances": 2,
       "bestRank": 2,
-      "latestDate": "2026-07-11",
+      "latestDate": "2026-07-17",
       "judgement": "近 7 次记录中出现 2 次，最佳排名第 2，适合优先复盘详情。"
     }
   ],
   "streaks": [
     {
       "repo": "OpenCut-app/OpenCut",
+      "days": 4,
+      "track": "07-14#1 -> 07-15#1 -> 07-16#2 -> 07-17#1"
+    },
+    {
+      "repo": "mattpocock/skills",
       "days": 3,
-      "track": "07-14#1 -> 07-15#1 -> 07-16#2"
+      "track": "07-15#3 -> 07-16#1 -> 07-17#3"
     },
     {
       "repo": "Graphify-Labs/graphify",
@@ -89,24 +94,14 @@
       "track": "07-13#1 -> 07-14#2"
     },
     {
-      "repo": "addyosmani/agent-skills",
+      "repo": "Nutlope/hallmark",
       "days": 2,
-      "track": "07-10#2 -> 07-11#3"
-    },
-    {
-      "repo": "iOfficeAI/OfficeCLI",
-      "days": 2,
-      "track": "07-10#3 -> 07-11#2"
+      "track": "07-16#3 -> 07-17#2"
     },
     {
       "repo": "malisper/pgrust",
       "days": 2,
       "track": "07-12#2 -> 07-13#3"
-    },
-    {
-      "repo": "mattpocock/skills",
-      "days": 2,
-      "track": "07-15#3 -> 07-16#1"
     }
   ]
 }
