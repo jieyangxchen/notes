@@ -1,20 +1,34 @@
 {
-  "generatedAt": "2026-07-17T08:19:05.272533+08:00",
-  "window": "2026-07-11..2026-07-17",
+  "generatedAt": "2026-07-18T08:02:02.889894+08:00",
+  "window": "2026-07-12..2026-07-18",
   "topProjects": [
     {
       "repo": "OpenCut-app/OpenCut",
       "url": "https://github.com/OpenCut-app/OpenCut",
       "tagsCn": [
+        "Video Editor",
         "开源",
-        "视频编辑",
-        "AI Agent",
-        "Rust"
+        "浏览器",
+        "AI Agent"
       ],
-      "appearances": 4,
+      "appearances": 5,
       "bestRank": 1,
-      "latestDate": "2026-07-17",
-      "judgement": "近 7 次记录中出现 4 次，最佳排名第 1，适合优先复盘详情。"
+      "latestDate": "2026-07-18",
+      "judgement": "近 7 次记录中出现 5 次，最佳排名第 1，适合优先复盘详情。"
+    },
+    {
+      "repo": "Nutlope/hallmark",
+      "url": "https://github.com/Nutlope/hallmark",
+      "tagsCn": [
+        "AI Agent",
+        "Design",
+        "Anti-Slop",
+        "Dev Tool"
+      ],
+      "appearances": 3,
+      "bestRank": 1,
+      "latestDate": "2026-07-18",
+      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
       "repo": "mattpocock/skills",
@@ -25,10 +39,10 @@
         "需求澄清",
         "Claude Code"
       ],
-      "appearances": 4,
+      "appearances": 3,
       "bestRank": 1,
       "latestDate": "2026-07-17",
-      "judgement": "近 7 次记录中出现 4 次，最佳排名第 1，适合优先复盘详情。"
+      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
       "repo": "HKUDS/Vibe-Trading",
@@ -56,27 +70,18 @@
       "bestRank": 2,
       "latestDate": "2026-07-15",
       "judgement": "近 7 次记录中出现 2 次，最佳排名第 2，适合优先复盘详情。"
-    },
-    {
-      "repo": "Nutlope/hallmark",
-      "url": "https://github.com/Nutlope/hallmark",
-      "tagsCn": [
-        "AI Agent",
-        "设计",
-        "Anti-Slop",
-        "Claude Code"
-      ],
-      "appearances": 2,
-      "bestRank": 2,
-      "latestDate": "2026-07-17",
-      "judgement": "近 7 次记录中出现 2 次，最佳排名第 2，适合优先复盘详情。"
     }
   ],
   "streaks": [
     {
       "repo": "OpenCut-app/OpenCut",
-      "days": 4,
-      "track": "07-14#1 -> 07-15#1 -> 07-16#2 -> 07-17#1"
+      "days": 5,
+      "track": "07-14#1 -> 07-15#1 -> 07-16#2 -> 07-17#1 -> 07-18#2"
+    },
+    {
+      "repo": "Nutlope/hallmark",
+      "days": 3,
+      "track": "07-16#3 -> 07-17#2 -> 07-18#1"
     },
     {
       "repo": "mattpocock/skills",
@@ -92,11 +97,6 @@
       "repo": "HKUDS/Vibe-Trading",
       "days": 2,
       "track": "07-13#1 -> 07-14#2"
-    },
-    {
-      "repo": "Nutlope/hallmark",
-      "days": 2,
-      "track": "07-16#3 -> 07-17#2"
     },
     {
       "repo": "malisper/pgrust",

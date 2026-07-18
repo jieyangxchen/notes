@@ -1,31 +1,44 @@
 {
-  "generatedAt": "2026-07-17T08:19:05.272533+08:00",
+  "generatedAt": "2026-07-18T08:02:02.889894+08:00",
   "projects": [
-    {
-      "repo": "OpenCut-app/OpenCut",
-      "url": "https://github.com/OpenCut-app/OpenCut",
-      "latestDate": "2026-07-17",
-      "latestRank": 1,
-      "tagsCn": [
-        "开源",
-        "视频编辑",
-        "AI Agent",
-        "Rust"
-      ],
-      "lastTagline": "开源剪映替代，Rust 重写并支持 AI 代理操控的跨平台视频编辑器"
-    },
     {
       "repo": "Nutlope/hallmark",
       "url": "https://github.com/Nutlope/hallmark",
-      "latestDate": "2026-07-17",
-      "latestRank": 2,
+      "latestDate": "2026-07-18",
+      "latestRank": 1,
       "tagsCn": [
         "AI Agent",
-        "设计",
+        "Design",
         "Anti-Slop",
-        "Claude Code"
+        "Dev Tool"
       ],
-      "lastTagline": "拒绝 AI 俗套的设计技能，为编码代理注入 57 道反模式检测与 20 种主题风格"
+      "lastTagline": "为编码代理注入反同质化设计基因，生成风格迥异的静态页面"
+    },
+    {
+      "repo": "OpenCut-app/OpenCut",
+      "url": "https://github.com/OpenCut-app/OpenCut",
+      "latestDate": "2026-07-18",
+      "latestRank": 2,
+      "tagsCn": [
+        "Video Editor",
+        "开源",
+        "浏览器",
+        "AI Agent"
+      ],
+      "lastTagline": "开源跨平台视频编辑器，Rust重写中，支持 AI 代理操控与插件生态"
+    },
+    {
+      "repo": "codecrafters-io/build-your-own-x",
+      "url": "https://github.com/codecrafters-io/build-your-own-x",
+      "latestDate": "2026-07-18",
+      "latestRank": 3,
+      "tagsCn": [
+        "Learning",
+        "Awesome List",
+        "Programming",
+        "Tutorial"
+      ],
+      "lastTagline": "通过从零实现技术来精通编程的实战教程索引库"
     },
     {
       "repo": "mattpocock/skills",
