@@ -1,6 +1,45 @@
 {
-  "generatedAt": "2026-07-18T08:02:02.889894+08:00",
+  "generatedAt": "2026-07-19T08:18:40.258990+08:00",
   "projects": [
+    {
+      "repo": "codecrafters-io/build-your-own-x",
+      "url": "https://github.com/codecrafters-io/build-your-own-x",
+      "latestDate": "2026-07-19",
+      "latestRank": 1,
+      "tagsCn": [
+        "编程学习",
+        "教程聚合",
+        "动手实践",
+        "Awesome List"
+      ],
+      "lastTagline": "通过从零重建数据库、Git、OS 等核心技术，系统理解计算机原理的免费教程合集。"
+    },
+    {
+      "repo": "Robbyant/lingbot-map",
+      "url": "https://github.com/Robbyant/lingbot-map",
+      "latestDate": "2026-07-19",
+      "latestRank": 2,
+      "tagsCn": [
+        "3D 视觉",
+        "基础模型",
+        "流式重建",
+        "学术研究"
+      ],
+      "lastTagline": "前馈式 3D 基础模型，通过几何上下文 Transformer 实现流式数据的实时场景重建。"
+    },
+    {
+      "repo": "tirth8205/code-review-graph",
+      "url": "https://github.com/tirth8205/code-review-graph",
+      "latestDate": "2026-07-19",
+      "latestRank": 3,
+      "tagsCn": [
+        "AI Agent",
+        "Dev Tool",
+        "代码智能",
+        "MCP"
+      ],
+      "lastTagline": "本地优先的代码知识图谱，让 AI 编程工具只读取必要文件，实测降低上下文 90% 以上。"
+    },
     {
       "repo": "Nutlope/hallmark",
       "url": "https://github.com/Nutlope/hallmark",
@@ -26,19 +65,6 @@
         "AI Agent"
       ],
       "lastTagline": "开源跨平台视频编辑器，Rust重写中，支持 AI 代理操控与插件生态"
-    },
-    {
-      "repo": "codecrafters-io/build-your-own-x",
-      "url": "https://github.com/codecrafters-io/build-your-own-x",
-      "latestDate": "2026-07-18",
-      "latestRank": 3,
-      "tagsCn": [
-        "Learning",
-        "Awesome List",
-        "Programming",
-        "Tutorial"
-      ],
-      "lastTagline": "通过从零实现技术来精通编程的实战教程索引库"
     },
     {
       "repo": "mattpocock/skills",

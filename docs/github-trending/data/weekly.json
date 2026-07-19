@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-18T08:02:02.889894+08:00",
-  "window": "2026-07-12..2026-07-18",
+  "generatedAt": "2026-07-19T08:18:40.258990+08:00",
+  "window": "2026-07-13..2026-07-19",
   "topProjects": [
     {
       "repo": "OpenCut-app/OpenCut",
@@ -58,18 +58,18 @@
       "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
-      "repo": "Graphify-Labs/graphify",
-      "url": "https://github.com/Graphify-Labs/graphify",
+      "repo": "codecrafters-io/build-your-own-x",
+      "url": "https://github.com/codecrafters-io/build-your-own-x",
       "tagsCn": [
-        "知识图谱",
-        "代码理解",
-        "工具",
-        "AI助手"
+        "编程学习",
+        "教程聚合",
+        "动手实践",
+        "Awesome List"
       ],
       "appearances": 2,
-      "bestRank": 2,
-      "latestDate": "2026-07-15",
-      "judgement": "近 7 次记录中出现 2 次，最佳排名第 2，适合优先复盘详情。"
+      "bestRank": 1,
+      "latestDate": "2026-07-19",
+      "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
     }
   ],
   "streaks": [
@@ -99,9 +99,9 @@
       "track": "07-13#1 -> 07-14#2"
     },
     {
-      "repo": "malisper/pgrust",
+      "repo": "codecrafters-io/build-your-own-x",
       "days": 2,
-      "track": "07-12#2 -> 07-13#3"
+      "track": "07-18#3 -> 07-19#1"
     }
   ]
 }
