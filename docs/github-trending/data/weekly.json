@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-19T08:18:40.258990+08:00",
-  "window": "2026-07-13..2026-07-19",
+  "generatedAt": "2026-07-20T08:18:58.979572+08:00",
+  "window": "2026-07-14..2026-07-20",
   "topProjects": [
     {
       "repo": "OpenCut-app/OpenCut",
@@ -31,6 +31,20 @@
       "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
+      "repo": "codecrafters-io/build-your-own-x",
+      "url": "https://github.com/codecrafters-io/build-your-own-x",
+      "tagsCn": [
+        "Tutorial",
+        "Programming",
+        "开源",
+        "Learning"
+      ],
+      "appearances": 3,
+      "bestRank": 1,
+      "latestDate": "2026-07-20",
+      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
+    },
+    {
       "repo": "mattpocock/skills",
       "url": "https://github.com/mattpocock/skills",
       "tagsCn": [
@@ -45,31 +59,18 @@
       "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
-      "repo": "HKUDS/Vibe-Trading",
-      "url": "https://github.com/HKUDS/Vibe-Trading",
+      "repo": "Graphify-Labs/graphify",
+      "url": "https://github.com/Graphify-Labs/graphify",
       "tagsCn": [
-        "AI Agent",
-        "金融",
-        "Quantitative Trading"
+        "知识图谱",
+        "代码理解",
+        "工具",
+        "AI助手"
       ],
       "appearances": 2,
-      "bestRank": 1,
-      "latestDate": "2026-07-14",
-      "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
-    },
-    {
-      "repo": "codecrafters-io/build-your-own-x",
-      "url": "https://github.com/codecrafters-io/build-your-own-x",
-      "tagsCn": [
-        "编程学习",
-        "教程聚合",
-        "动手实践",
-        "Awesome List"
-      ],
-      "appearances": 2,
-      "bestRank": 1,
-      "latestDate": "2026-07-19",
-      "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
+      "bestRank": 2,
+      "latestDate": "2026-07-15",
+      "judgement": "近 7 次记录中出现 2 次，最佳排名第 2，适合优先复盘详情。"
     }
   ],
   "streaks": [
@@ -84,6 +85,11 @@
       "track": "07-16#3 -> 07-17#2 -> 07-18#1"
     },
     {
+      "repo": "codecrafters-io/build-your-own-x",
+      "days": 3,
+      "track": "07-18#3 -> 07-19#1 -> 07-20#2"
+    },
+    {
       "repo": "mattpocock/skills",
       "days": 3,
       "track": "07-15#3 -> 07-16#1 -> 07-17#3"
@@ -94,14 +100,9 @@
       "track": "07-14#3 -> 07-15#2"
     },
     {
-      "repo": "HKUDS/Vibe-Trading",
+      "repo": "tirth8205/code-review-graph",
       "days": 2,
-      "track": "07-13#1 -> 07-14#2"
-    },
-    {
-      "repo": "codecrafters-io/build-your-own-x",
-      "days": 2,
-      "track": "07-18#3 -> 07-19#1"
+      "track": "07-19#3 -> 07-20#3"
     }
   ]
 }

@@ -1,18 +1,44 @@
 {
-  "generatedAt": "2026-07-19T08:18:40.258990+08:00",
+  "generatedAt": "2026-07-20T08:18:58.979572+08:00",
   "projects": [
+    {
+      "repo": "bojieli/ai-agent-book",
+      "url": "https://github.com/bojieli/ai-agent-book",
+      "latestDate": "2026-07-20",
+      "latestRank": 1,
+      "tagsCn": [
+        "AI Agent",
+        "Book",
+        "开源",
+        "学术研究"
+      ],
+      "lastTagline": "从理论到实践，全面解析 AI Agent 设计原理与工程实现的开源书籍。"
+    },
     {
       "repo": "codecrafters-io/build-your-own-x",
       "url": "https://github.com/codecrafters-io/build-your-own-x",
-      "latestDate": "2026-07-19",
-      "latestRank": 1,
+      "latestDate": "2026-07-20",
+      "latestRank": 2,
       "tagsCn": [
-        "编程学习",
-        "教程聚合",
-        "动手实践",
-        "Awesome List"
+        "Tutorial",
+        "Programming",
+        "开源",
+        "Learning"
       ],
-      "lastTagline": "通过从零重建数据库、Git、OS 等核心技术，系统理解计算机原理的免费教程合集。"
+      "lastTagline": "从零开始复刻数据库、Git、神经网络等，动手实现你喜爱的技术。"
+    },
+    {
+      "repo": "tirth8205/code-review-graph",
+      "url": "https://github.com/tirth8205/code-review-graph",
+      "latestDate": "2026-07-20",
+      "latestRank": 3,
+      "tagsCn": [
+        "AI Agent",
+        "MCP",
+        "Dev Tool",
+        "Code Review"
+      ],
+      "lastTagline": "为 AI 编程助手生成代码结构图谱，精准裁剪上下文，让 token 消耗下降超 70%。"
     },
     {
       "repo": "Robbyant/lingbot-map",
@@ -26,19 +52,6 @@
         "学术研究"
       ],
       "lastTagline": "前馈式 3D 基础模型，通过几何上下文 Transformer 实现流式数据的实时场景重建。"
-    },
-    {
-      "repo": "tirth8205/code-review-graph",
-      "url": "https://github.com/tirth8205/code-review-graph",
-      "latestDate": "2026-07-19",
-      "latestRank": 3,
-      "tagsCn": [
-        "AI Agent",
-        "Dev Tool",
-        "代码智能",
-        "MCP"
-      ],
-      "lastTagline": "本地优先的代码知识图谱，让 AI 编程工具只读取必要文件，实测降低上下文 90% 以上。"
     },
     {
       "repo": "Nutlope/hallmark",
