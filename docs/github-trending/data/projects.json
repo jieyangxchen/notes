@@ -1,6 +1,45 @@
 {
-  "generatedAt": "2026-07-20T08:18:58.979572+08:00",
+  "generatedAt": "2026-07-21T08:01:33.881674+08:00",
   "projects": [
+    {
+      "repo": "tirth8205/code-review-graph",
+      "url": "https://github.com/tirth8205/code-review-graph",
+      "latestDate": "2026-07-21",
+      "latestRank": 1,
+      "tagsCn": [
+        "AI Agent",
+        "Code Review",
+        "MCP",
+        "本地优先"
+      ],
+      "lastTagline": "基于 Tree-sitter 构建本地代码图谱，为 AI 代码审查提供精准上下文，大幅减少 token 消耗。"
+    },
+    {
+      "repo": "oblien/openship",
+      "url": "https://github.com/oblien/openship",
+      "latestDate": "2026-07-21",
+      "latestRank": 2,
+      "tagsCn": [
+        "自托管",
+        "部署平台",
+        "CI/CD",
+        "Dev Tool"
+      ],
+      "lastTagline": "开源自托管部署平台，零配置推送代码即可构建容器并上云，统一管理域名、SSL 与数据库。"
+    },
+    {
+      "repo": "diegosouzapw/OmniRoute",
+      "url": "https://github.com/diegosouzapw/OmniRoute",
+      "latestDate": "2026-07-21",
+      "latestRank": 3,
+      "tagsCn": [
+        "AI 网关",
+        "免费模型",
+        "MCP",
+        "Token 节省"
+      ],
+      "lastTagline": "免费 MIT 许可的 AI 网关，聚合 268+ 供应商的 500+ 模型，智能故障转移与压缩可节省 15-95% token。"
+    },
     {
       "repo": "bojieli/ai-agent-book",
       "url": "https://github.com/bojieli/ai-agent-book",
@@ -26,19 +65,6 @@
         "Learning"
       ],
       "lastTagline": "从零开始复刻数据库、Git、神经网络等，动手实现你喜爱的技术。"
-    },
-    {
-      "repo": "tirth8205/code-review-graph",
-      "url": "https://github.com/tirth8205/code-review-graph",
-      "latestDate": "2026-07-20",
-      "latestRank": 3,
-      "tagsCn": [
-        "AI Agent",
-        "MCP",
-        "Dev Tool",
-        "Code Review"
-      ],
-      "lastTagline": "为 AI 编程助手生成代码结构图谱，精准裁剪上下文，让 token 消耗下降超 70%。"
     },
     {
       "repo": "Robbyant/lingbot-map",

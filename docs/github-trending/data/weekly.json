@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-20T08:18:58.979572+08:00",
-  "window": "2026-07-14..2026-07-20",
+  "generatedAt": "2026-07-21T08:01:33.881674+08:00",
+  "window": "2026-07-15..2026-07-21",
   "topProjects": [
     {
       "repo": "OpenCut-app/OpenCut",
@@ -11,10 +11,10 @@
         "浏览器",
         "AI Agent"
       ],
-      "appearances": 5,
+      "appearances": 4,
       "bestRank": 1,
       "latestDate": "2026-07-18",
-      "judgement": "近 7 次记录中出现 5 次，最佳排名第 1，适合优先复盘详情。"
+      "judgement": "近 7 次记录中出现 4 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
       "repo": "Nutlope/hallmark",
@@ -59,25 +59,25 @@
       "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
-      "repo": "Graphify-Labs/graphify",
-      "url": "https://github.com/Graphify-Labs/graphify",
+      "repo": "tirth8205/code-review-graph",
+      "url": "https://github.com/tirth8205/code-review-graph",
       "tagsCn": [
-        "知识图谱",
-        "代码理解",
-        "工具",
-        "AI助手"
+        "AI Agent",
+        "Code Review",
+        "MCP",
+        "本地优先"
       ],
-      "appearances": 2,
-      "bestRank": 2,
-      "latestDate": "2026-07-15",
-      "judgement": "近 7 次记录中出现 2 次，最佳排名第 2，适合优先复盘详情。"
+      "appearances": 3,
+      "bestRank": 1,
+      "latestDate": "2026-07-21",
+      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
     }
   ],
   "streaks": [
     {
       "repo": "OpenCut-app/OpenCut",
-      "days": 5,
-      "track": "07-14#1 -> 07-15#1 -> 07-16#2 -> 07-17#1 -> 07-18#2"
+      "days": 4,
+      "track": "07-15#1 -> 07-16#2 -> 07-17#1 -> 07-18#2"
     },
     {
       "repo": "Nutlope/hallmark",
@@ -95,14 +95,9 @@
       "track": "07-15#3 -> 07-16#1 -> 07-17#3"
     },
     {
-      "repo": "Graphify-Labs/graphify",
-      "days": 2,
-      "track": "07-14#3 -> 07-15#2"
-    },
-    {
       "repo": "tirth8205/code-review-graph",
-      "days": 2,
-      "track": "07-19#3 -> 07-20#3"
+      "days": 3,
+      "track": "07-19#3 -> 07-20#3 -> 07-21#1"
     }
   ]
 }
