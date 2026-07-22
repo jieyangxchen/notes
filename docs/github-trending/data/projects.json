@@ -1,18 +1,44 @@
 {
-  "generatedAt": "2026-07-21T08:01:33.881674+08:00",
+  "generatedAt": "2026-07-22T08:01:35.171727+08:00",
   "projects": [
     {
-      "repo": "tirth8205/code-review-graph",
-      "url": "https://github.com/tirth8205/code-review-graph",
-      "latestDate": "2026-07-21",
+      "repo": "bojieli/ai-agent-book",
+      "url": "https://github.com/bojieli/ai-agent-book",
+      "latestDate": "2026-07-22",
       "latestRank": 1,
       "tagsCn": [
         "AI Agent",
-        "Code Review",
-        "MCP",
-        "本地优先"
+        "Book",
+        "Education",
+        "开源"
       ],
-      "lastTagline": "基于 Tree-sitter 构建本地代码图谱，为 AI 代码审查提供精准上下文，大幅减少 token 消耗。"
+      "lastTagline": "开源 AI Agent 设计原理与工程实践全书，配套 88 个可运行实验。"
+    },
+    {
+      "repo": "diegosouzapw/OmniRoute",
+      "url": "https://github.com/diegosouzapw/OmniRoute",
+      "latestDate": "2026-07-22",
+      "latestRank": 2,
+      "tagsCn": [
+        "AI Agent",
+        "Gateway",
+        "Free",
+        "Dev Tool"
+      ],
+      "lastTagline": "免费 AI 网关：统一端点聚合 268+ 家提供商，省 15-95% Token 成本。"
+    },
+    {
+      "repo": "tirth8205/code-review-graph",
+      "url": "https://github.com/tirth8205/code-review-graph",
+      "latestDate": "2026-07-22",
+      "latestRank": 3,
+      "tagsCn": [
+        "AI Agent",
+        "Dev Tool",
+        "Code Review",
+        "Graph"
+      ],
+      "lastTagline": "本地代码智能图谱，让 AI 只读相关上下文，加速大型仓库审查 40%。"
     },
     {
       "repo": "oblien/openship",
@@ -26,32 +52,6 @@
         "Dev Tool"
       ],
       "lastTagline": "开源自托管部署平台，零配置推送代码即可构建容器并上云，统一管理域名、SSL 与数据库。"
-    },
-    {
-      "repo": "diegosouzapw/OmniRoute",
-      "url": "https://github.com/diegosouzapw/OmniRoute",
-      "latestDate": "2026-07-21",
-      "latestRank": 3,
-      "tagsCn": [
-        "AI 网关",
-        "免费模型",
-        "MCP",
-        "Token 节省"
-      ],
-      "lastTagline": "免费 MIT 许可的 AI 网关，聚合 268+ 供应商的 500+ 模型，智能故障转移与压缩可节省 15-95% token。"
-    },
-    {
-      "repo": "bojieli/ai-agent-book",
-      "url": "https://github.com/bojieli/ai-agent-book",
-      "latestDate": "2026-07-20",
-      "latestRank": 1,
-      "tagsCn": [
-        "AI Agent",
-        "Book",
-        "开源",
-        "学术研究"
-      ],
-      "lastTagline": "从理论到实践，全面解析 AI Agent 设计原理与工程实现的开源书籍。"
     },
     {
       "repo": "codecrafters-io/build-your-own-x",
