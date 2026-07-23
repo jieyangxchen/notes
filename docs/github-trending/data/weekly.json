@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-22T08:01:35.171727+08:00",
-  "window": "2026-07-16..2026-07-22",
+  "generatedAt": "2026-07-23T08:01:52.696387+08:00",
+  "window": "2026-07-17..2026-07-23",
   "topProjects": [
     {
       "repo": "tirth8205/code-review-graph",
@@ -17,34 +17,6 @@
       "judgement": "近 7 次记录中出现 4 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
-      "repo": "Nutlope/hallmark",
-      "url": "https://github.com/Nutlope/hallmark",
-      "tagsCn": [
-        "AI Agent",
-        "Design",
-        "Anti-Slop",
-        "Dev Tool"
-      ],
-      "appearances": 3,
-      "bestRank": 1,
-      "latestDate": "2026-07-18",
-      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
-    },
-    {
-      "repo": "OpenCut-app/OpenCut",
-      "url": "https://github.com/OpenCut-app/OpenCut",
-      "tagsCn": [
-        "Video Editor",
-        "开源",
-        "浏览器",
-        "AI Agent"
-      ],
-      "appearances": 3,
-      "bestRank": 1,
-      "latestDate": "2026-07-18",
-      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
-    },
-    {
       "repo": "codecrafters-io/build-your-own-x",
       "url": "https://github.com/codecrafters-io/build-your-own-x",
       "tagsCn": [
@@ -59,17 +31,45 @@
       "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
-      "repo": "bojieli/ai-agent-book",
-      "url": "https://github.com/bojieli/ai-agent-book",
+      "repo": "diegosouzapw/OmniRoute",
+      "url": "https://github.com/diegosouzapw/OmniRoute",
+      "tagsCn": [
+        "AI Gateway",
+        "开发工具",
+        "Free AI",
+        "MCP"
+      ],
+      "appearances": 3,
+      "bestRank": 2,
+      "latestDate": "2026-07-23",
+      "judgement": "近 7 次记录中出现 3 次，最佳排名第 2，适合优先复盘详情。"
+    },
+    {
+      "repo": "Nutlope/hallmark",
+      "url": "https://github.com/Nutlope/hallmark",
       "tagsCn": [
         "AI Agent",
-        "Book",
-        "Education",
-        "开源"
+        "Design",
+        "Anti-Slop",
+        "Dev Tool"
       ],
       "appearances": 2,
       "bestRank": 1,
-      "latestDate": "2026-07-22",
+      "latestDate": "2026-07-18",
+      "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
+    },
+    {
+      "repo": "OpenCut-app/OpenCut",
+      "url": "https://github.com/OpenCut-app/OpenCut",
+      "tagsCn": [
+        "Video Editor",
+        "开源",
+        "浏览器",
+        "AI Agent"
+      ],
+      "appearances": 2,
+      "bestRank": 1,
+      "latestDate": "2026-07-18",
       "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
     }
   ],
@@ -80,29 +80,24 @@
       "track": "07-19#3 -> 07-20#3 -> 07-21#1 -> 07-22#3"
     },
     {
-      "repo": "Nutlope/hallmark",
-      "days": 3,
-      "track": "07-16#3 -> 07-17#2 -> 07-18#1"
-    },
-    {
-      "repo": "OpenCut-app/OpenCut",
-      "days": 3,
-      "track": "07-16#2 -> 07-17#1 -> 07-18#2"
-    },
-    {
       "repo": "codecrafters-io/build-your-own-x",
       "days": 3,
       "track": "07-18#3 -> 07-19#1 -> 07-20#2"
     },
     {
       "repo": "diegosouzapw/OmniRoute",
-      "days": 2,
-      "track": "07-21#3 -> 07-22#2"
+      "days": 3,
+      "track": "07-21#3 -> 07-22#2 -> 07-23#3"
     },
     {
-      "repo": "mattpocock/skills",
+      "repo": "Nutlope/hallmark",
       "days": 2,
-      "track": "07-16#1 -> 07-17#3"
+      "track": "07-17#2 -> 07-18#1"
+    },
+    {
+      "repo": "OpenCut-app/OpenCut",
+      "days": 2,
+      "track": "07-17#1 -> 07-18#2"
     }
   ]
 }
