@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-23T08:01:52.696387+08:00",
-  "window": "2026-07-17..2026-07-23",
+  "generatedAt": "2026-07-24T08:01:16.347495+08:00",
+  "window": "2026-07-18..2026-07-24",
   "topProjects": [
     {
       "repo": "tirth8205/code-review-graph",
@@ -17,6 +17,20 @@
       "judgement": "近 7 次记录中出现 4 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
+      "repo": "diegosouzapw/OmniRoute",
+      "url": "https://github.com/diegosouzapw/OmniRoute",
+      "tagsCn": [
+        "AI Agent",
+        "Dev Tool",
+        "Gateway",
+        "Free"
+      ],
+      "appearances": 4,
+      "bestRank": 2,
+      "latestDate": "2026-07-24",
+      "judgement": "近 7 次记录中出现 4 次，最佳排名第 2，适合优先复盘详情。"
+    },
+    {
       "repo": "codecrafters-io/build-your-own-x",
       "url": "https://github.com/codecrafters-io/build-your-own-x",
       "tagsCn": [
@@ -31,49 +45,40 @@
       "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
-      "repo": "diegosouzapw/OmniRoute",
-      "url": "https://github.com/diegosouzapw/OmniRoute",
-      "tagsCn": [
-        "AI Gateway",
-        "开发工具",
-        "Free AI",
-        "MCP"
-      ],
-      "appearances": 3,
-      "bestRank": 2,
-      "latestDate": "2026-07-23",
-      "judgement": "近 7 次记录中出现 3 次，最佳排名第 2，适合优先复盘详情。"
-    },
-    {
-      "repo": "Nutlope/hallmark",
-      "url": "https://github.com/Nutlope/hallmark",
+      "repo": "bojieli/ai-agent-book",
+      "url": "https://github.com/bojieli/ai-agent-book",
       "tagsCn": [
         "AI Agent",
-        "Design",
-        "Anti-Slop",
-        "Dev Tool"
+        "Book",
+        "Education",
+        "开源"
       ],
       "appearances": 2,
       "bestRank": 1,
-      "latestDate": "2026-07-18",
+      "latestDate": "2026-07-22",
       "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
-      "repo": "OpenCut-app/OpenCut",
-      "url": "https://github.com/OpenCut-app/OpenCut",
+      "repo": "koala73/worldmonitor",
+      "url": "https://github.com/koala73/worldmonitor",
       "tagsCn": [
-        "Video Editor",
-        "开源",
-        "浏览器",
-        "AI Agent"
+        "AI Agent",
+        "OSINT",
+        "Security",
+        "Monitoring"
       ],
       "appearances": 2,
       "bestRank": 1,
-      "latestDate": "2026-07-18",
+      "latestDate": "2026-07-24",
       "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
     }
   ],
   "streaks": [
+    {
+      "repo": "diegosouzapw/OmniRoute",
+      "days": 4,
+      "track": "07-21#3 -> 07-22#2 -> 07-23#3 -> 07-24#3"
+    },
     {
       "repo": "tirth8205/code-review-graph",
       "days": 4,
@@ -85,19 +90,9 @@
       "track": "07-18#3 -> 07-19#1 -> 07-20#2"
     },
     {
-      "repo": "diegosouzapw/OmniRoute",
-      "days": 3,
-      "track": "07-21#3 -> 07-22#2 -> 07-23#3"
-    },
-    {
-      "repo": "Nutlope/hallmark",
+      "repo": "koala73/worldmonitor",
       "days": 2,
-      "track": "07-17#2 -> 07-18#1"
-    },
-    {
-      "repo": "OpenCut-app/OpenCut",
-      "days": 2,
-      "track": "07-17#1 -> 07-18#2"
+      "track": "07-23#1 -> 07-24#1"
     }
   ]
 }

@@ -1,18 +1,44 @@
 {
-  "generatedAt": "2026-07-23T08:01:52.696387+08:00",
+  "generatedAt": "2026-07-24T08:01:16.347495+08:00",
   "projects": [
     {
       "repo": "koala73/worldmonitor",
       "url": "https://github.com/koala73/worldmonitor",
-      "latestDate": "2026-07-23",
+      "latestDate": "2026-07-24",
       "latestRank": 1,
       "tagsCn": [
-        "Dashboard",
         "AI Agent",
         "OSINT",
-        "Geopolitical Monitoring"
+        "Security",
+        "Monitoring"
       ],
-      "lastTagline": "AI 驱动实时全球情报仪表板，统一监控新闻、地缘与基础设施"
+      "lastTagline": "AI 驱动的全球实时情报看板，聚合 500+ 新闻源，支持 MCP 与本地 AI。"
+    },
+    {
+      "repo": "block/buzz",
+      "url": "https://github.com/block/buzz",
+      "latestDate": "2026-07-24",
+      "latestRank": 2,
+      "tagsCn": [
+        "AI Agent",
+        "Collaboration",
+        "开发工具",
+        "Nostr"
+      ],
+      "lastTagline": "人机协作蜂巢式工作台：Agent 共享 Nostr 日志，拥有完整审计轨迹。"
+    },
+    {
+      "repo": "diegosouzapw/OmniRoute",
+      "url": "https://github.com/diegosouzapw/OmniRoute",
+      "latestDate": "2026-07-24",
+      "latestRank": 3,
+      "tagsCn": [
+        "AI Agent",
+        "Dev Tool",
+        "Gateway",
+        "Free"
+      ],
+      "lastTagline": "免费 AI 网关：一个端点聚合 290+ 提供商、500+ 模型，token 压缩省 15-95%。"
     },
     {
       "repo": "ayghri/i-have-adhd",
@@ -26,19 +52,6 @@
         "ADHD"
       ],
       "lastTagline": "让编码助手直击要点，数字步骤、无废话、无‘希望有所帮助’"
-    },
-    {
-      "repo": "diegosouzapw/OmniRoute",
-      "url": "https://github.com/diegosouzapw/OmniRoute",
-      "latestDate": "2026-07-23",
-      "latestRank": 3,
-      "tagsCn": [
-        "AI Gateway",
-        "开发工具",
-        "Free AI",
-        "MCP"
-      ],
-      "lastTagline": "免费 MIT AI 网关，一个端点接入 268+ 提供商 500+ 模型，配额感知自动回退，节省 15-95% token"
     },
     {
       "repo": "bojieli/ai-agent-book",
