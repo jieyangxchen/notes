@@ -1,31 +1,44 @@
 {
-  "generatedAt": "2026-07-24T08:01:16.347495+08:00",
+  "generatedAt": "2026-07-25T08:18:28.646322+08:00",
   "projects": [
-    {
-      "repo": "koala73/worldmonitor",
-      "url": "https://github.com/koala73/worldmonitor",
-      "latestDate": "2026-07-24",
-      "latestRank": 1,
-      "tagsCn": [
-        "AI Agent",
-        "OSINT",
-        "Security",
-        "Monitoring"
-      ],
-      "lastTagline": "AI 驱动的全球实时情报看板，聚合 500+ 新闻源，支持 MCP 与本地 AI。"
-    },
     {
       "repo": "block/buzz",
       "url": "https://github.com/block/buzz",
-      "latestDate": "2026-07-24",
+      "latestDate": "2026-07-25",
+      "latestRank": 1,
+      "tagsCn": [
+        "AI Agent",
+        "协作开发",
+        "Nostr",
+        "审计"
+      ],
+      "lastTagline": "将AI Agent化身团队正式成员，统一审计日志的协作平台"
+    },
+    {
+      "repo": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "latestDate": "2026-07-25",
       "latestRank": 2,
       "tagsCn": [
         "AI Agent",
-        "Collaboration",
-        "开发工具",
-        "Nostr"
+        "技能库",
+        "需求澄清",
+        "Claude Code"
       ],
-      "lastTagline": "人机协作蜂巢式工作台：Agent 共享 Nostr 日志，拥有完整审计轨迹。"
+      "lastTagline": "组合式小技能，在编码前通过结构化提问消除需求模糊"
+    },
+    {
+      "repo": "koala73/worldmonitor",
+      "url": "https://github.com/koala73/worldmonitor",
+      "latestDate": "2026-07-25",
+      "latestRank": 3,
+      "tagsCn": [
+        "AI Agent",
+        "OSINT",
+        "态势感知",
+        "地缘监控"
+      ],
+      "lastTagline": "实时全球情报仪表盘，AI聚合多源新闻与基础设施跟踪"
     },
     {
       "repo": "diegosouzapw/OmniRoute",
@@ -143,19 +156,6 @@
         "AI Agent"
       ],
       "lastTagline": "开源跨平台视频编辑器，Rust重写中，支持 AI 代理操控与插件生态"
-    },
-    {
-      "repo": "mattpocock/skills",
-      "url": "https://github.com/mattpocock/skills",
-      "latestDate": "2026-07-17",
-      "latestRank": 3,
-      "tagsCn": [
-        "AI Agent",
-        "工程团队",
-        "需求澄清",
-        "Claude Code"
-      ],
-      "lastTagline": "真实工程师的技能集，通过前置提问与任务分流，让编码代理对齐真实需求"
     },
     {
       "repo": "Graphify-Labs/graphify",
