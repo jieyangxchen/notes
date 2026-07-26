@@ -1,21 +1,7 @@
 {
-  "generatedAt": "2026-07-25T08:18:28.646322+08:00",
-  "window": "2026-07-19..2026-07-25",
+  "generatedAt": "2026-07-26T08:02:45.049930+08:00",
+  "window": "2026-07-20..2026-07-26",
   "topProjects": [
-    {
-      "repo": "tirth8205/code-review-graph",
-      "url": "https://github.com/tirth8205/code-review-graph",
-      "tagsCn": [
-        "AI Agent",
-        "Dev Tool",
-        "Code Review",
-        "Graph"
-      ],
-      "appearances": 4,
-      "bestRank": 1,
-      "latestDate": "2026-07-22",
-      "judgement": "近 7 次记录中出现 4 次，最佳排名第 1，适合优先复盘详情。"
-    },
     {
       "repo": "diegosouzapw/OmniRoute",
       "url": "https://github.com/diegosouzapw/OmniRoute",
@@ -29,6 +15,20 @@
       "bestRank": 2,
       "latestDate": "2026-07-24",
       "judgement": "近 7 次记录中出现 4 次，最佳排名第 2，适合优先复盘详情。"
+    },
+    {
+      "repo": "block/buzz",
+      "url": "https://github.com/block/buzz",
+      "tagsCn": [
+        "AI Agent",
+        "协作平台",
+        "Nostr",
+        "自托管"
+      ],
+      "appearances": 3,
+      "bestRank": 1,
+      "latestDate": "2026-07-26",
+      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
       "repo": "koala73/worldmonitor",
@@ -45,18 +45,18 @@
       "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
-      "repo": "block/buzz",
-      "url": "https://github.com/block/buzz",
+      "repo": "tirth8205/code-review-graph",
+      "url": "https://github.com/tirth8205/code-review-graph",
       "tagsCn": [
         "AI Agent",
-        "协作开发",
-        "Nostr",
-        "审计"
+        "Dev Tool",
+        "Code Review",
+        "Graph"
       ],
-      "appearances": 2,
+      "appearances": 3,
       "bestRank": 1,
-      "latestDate": "2026-07-25",
-      "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
+      "latestDate": "2026-07-22",
+      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
       "repo": "bojieli/ai-agent-book",
@@ -80,9 +80,9 @@
       "track": "07-21#3 -> 07-22#2 -> 07-23#3 -> 07-24#3"
     },
     {
-      "repo": "tirth8205/code-review-graph",
-      "days": 4,
-      "track": "07-19#3 -> 07-20#3 -> 07-21#1 -> 07-22#3"
+      "repo": "block/buzz",
+      "days": 3,
+      "track": "07-24#2 -> 07-25#1 -> 07-26#1"
     },
     {
       "repo": "koala73/worldmonitor",
@@ -90,14 +90,14 @@
       "track": "07-23#1 -> 07-24#1 -> 07-25#3"
     },
     {
-      "repo": "block/buzz",
-      "days": 2,
-      "track": "07-24#2 -> 07-25#1"
+      "repo": "tirth8205/code-review-graph",
+      "days": 3,
+      "track": "07-20#3 -> 07-21#1 -> 07-22#3"
     },
     {
-      "repo": "codecrafters-io/build-your-own-x",
+      "repo": "mattpocock/skills",
       "days": 2,
-      "track": "07-19#1 -> 07-20#2"
+      "track": "07-25#2 -> 07-26#2"
     }
   ]
 }

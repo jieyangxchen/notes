@@ -1,31 +1,44 @@
 {
-  "generatedAt": "2026-07-25T08:18:28.646322+08:00",
+  "generatedAt": "2026-07-26T08:02:45.049930+08:00",
   "projects": [
     {
       "repo": "block/buzz",
       "url": "https://github.com/block/buzz",
-      "latestDate": "2026-07-25",
+      "latestDate": "2026-07-26",
       "latestRank": 1,
       "tagsCn": [
         "AI Agent",
-        "协作开发",
+        "协作平台",
         "Nostr",
-        "审计"
+        "自托管"
       ],
-      "lastTagline": "将AI Agent化身团队正式成员，统一审计日志的协作平台"
+      "lastTagline": "让人类与AI代理在自托管Nostr日志上平等协作"
     },
     {
       "repo": "mattpocock/skills",
       "url": "https://github.com/mattpocock/skills",
-      "latestDate": "2026-07-25",
+      "latestDate": "2026-07-26",
       "latestRank": 2,
       "tagsCn": [
         "AI Agent",
-        "技能库",
-        "需求澄清",
-        "Claude Code"
+        "技能集",
+        "TypeScript",
+        "需求工程"
       ],
-      "lastTagline": "组合式小技能，在编码前通过结构化提问消除需求模糊"
+      "lastTagline": "一套轻量技能，让代理在编码前通过提问明确需求"
+    },
+    {
+      "repo": "permissionlesstech/bitchat",
+      "url": "https://github.com/permissionlesstech/bitchat",
+      "latestDate": "2026-07-26",
+      "latestRank": 3,
+      "tagsCn": [
+        "去中心化",
+        "蓝牙Mesh",
+        "离线通信",
+        "隐私"
+      ],
+      "lastTagline": "离线蓝牙Mesh聊天，融合IRC风格与Nostr全球网络"
     },
     {
       "repo": "koala73/worldmonitor",
