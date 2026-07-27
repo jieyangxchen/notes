@@ -1,7 +1,21 @@
 {
-  "generatedAt": "2026-07-26T08:02:45.049930+08:00",
-  "window": "2026-07-20..2026-07-26",
+  "generatedAt": "2026-07-27T08:01:08.731275+08:00",
+  "window": "2026-07-21..2026-07-27",
   "topProjects": [
+    {
+      "repo": "block/buzz",
+      "url": "https://github.com/block/buzz",
+      "tagsCn": [
+        "AI Agent",
+        "Nostr",
+        "审计",
+        "协作"
+      ],
+      "appearances": 4,
+      "bestRank": 1,
+      "latestDate": "2026-07-27",
+      "judgement": "近 7 次记录中出现 4 次，最佳排名第 1，适合优先复盘详情。"
+    },
     {
       "repo": "diegosouzapw/OmniRoute",
       "url": "https://github.com/diegosouzapw/OmniRoute",
@@ -15,20 +29,6 @@
       "bestRank": 2,
       "latestDate": "2026-07-24",
       "judgement": "近 7 次记录中出现 4 次，最佳排名第 2，适合优先复盘详情。"
-    },
-    {
-      "repo": "block/buzz",
-      "url": "https://github.com/block/buzz",
-      "tagsCn": [
-        "AI Agent",
-        "协作平台",
-        "Nostr",
-        "自托管"
-      ],
-      "appearances": 3,
-      "bestRank": 1,
-      "latestDate": "2026-07-26",
-      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
       "repo": "koala73/worldmonitor",
@@ -53,36 +53,36 @@
         "Code Review",
         "Graph"
       ],
-      "appearances": 3,
-      "bestRank": 1,
-      "latestDate": "2026-07-22",
-      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
-    },
-    {
-      "repo": "bojieli/ai-agent-book",
-      "url": "https://github.com/bojieli/ai-agent-book",
-      "tagsCn": [
-        "AI Agent",
-        "Book",
-        "Education",
-        "开源"
-      ],
       "appearances": 2,
       "bestRank": 1,
       "latestDate": "2026-07-22",
       "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
+    },
+    {
+      "repo": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "tagsCn": [
+        "AI Agent",
+        "技能集",
+        "TypeScript",
+        "需求工程"
+      ],
+      "appearances": 2,
+      "bestRank": 2,
+      "latestDate": "2026-07-26",
+      "judgement": "近 7 次记录中出现 2 次，最佳排名第 2，适合优先复盘详情。"
     }
   ],
   "streaks": [
     {
+      "repo": "block/buzz",
+      "days": 4,
+      "track": "07-24#2 -> 07-25#1 -> 07-26#1 -> 07-27#1"
+    },
+    {
       "repo": "diegosouzapw/OmniRoute",
       "days": 4,
       "track": "07-21#3 -> 07-22#2 -> 07-23#3 -> 07-24#3"
-    },
-    {
-      "repo": "block/buzz",
-      "days": 3,
-      "track": "07-24#2 -> 07-25#1 -> 07-26#1"
     },
     {
       "repo": "koala73/worldmonitor",
@@ -90,14 +90,19 @@
       "track": "07-23#1 -> 07-24#1 -> 07-25#3"
     },
     {
-      "repo": "tirth8205/code-review-graph",
-      "days": 3,
-      "track": "07-20#3 -> 07-21#1 -> 07-22#3"
-    },
-    {
       "repo": "mattpocock/skills",
       "days": 2,
       "track": "07-25#2 -> 07-26#2"
+    },
+    {
+      "repo": "permissionlesstech/bitchat",
+      "days": 2,
+      "track": "07-26#3 -> 07-27#2"
+    },
+    {
+      "repo": "tirth8205/code-review-graph",
+      "days": 2,
+      "track": "07-21#1 -> 07-22#3"
     }
   ]
 }

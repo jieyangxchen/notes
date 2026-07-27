@@ -1,18 +1,44 @@
 {
-  "generatedAt": "2026-07-26T08:02:45.049930+08:00",
+  "generatedAt": "2026-07-27T08:01:08.731275+08:00",
   "projects": [
     {
       "repo": "block/buzz",
       "url": "https://github.com/block/buzz",
-      "latestDate": "2026-07-26",
+      "latestDate": "2026-07-27",
       "latestRank": 1,
       "tagsCn": [
         "AI Agent",
-        "协作平台",
         "Nostr",
-        "自托管"
+        "审计",
+        "协作"
       ],
-      "lastTagline": "让人类与AI代理在自托管Nostr日志上平等协作"
+      "lastTagline": "基于 Nostr 事件的 AI Agent 协作工作区，让代理与人类共享同一审计日志。"
+    },
+    {
+      "repo": "permissionlesstech/bitchat",
+      "url": "https://github.com/permissionlesstech/bitchat",
+      "latestDate": "2026-07-27",
+      "latestRank": 2,
+      "tagsCn": [
+        "蓝牙Mesh",
+        "Nostr",
+        "端到端加密",
+        "无账户"
+      ],
+      "lastTagline": "双模去中心通信工具，离线用蓝牙 Mesh，在线用 Nostr，无账户、无追踪。"
+    },
+    {
+      "repo": "citrolabs/ego-lite",
+      "url": "https://github.com/citrolabs/ego-lite",
+      "latestDate": "2026-07-27",
+      "latestRank": 3,
+      "tagsCn": [
+        "AI Agent",
+        "浏览器自动化",
+        "零成本",
+        "并行空间"
+      ],
+      "lastTagline": "为 AI Agent 打造的专属浏览器，共享登录态、并行工作，零成本、零配置。"
     },
     {
       "repo": "mattpocock/skills",
@@ -26,19 +52,6 @@
         "需求工程"
       ],
       "lastTagline": "一套轻量技能，让代理在编码前通过提问明确需求"
-    },
-    {
-      "repo": "permissionlesstech/bitchat",
-      "url": "https://github.com/permissionlesstech/bitchat",
-      "latestDate": "2026-07-26",
-      "latestRank": 3,
-      "tagsCn": [
-        "去中心化",
-        "蓝牙Mesh",
-        "离线通信",
-        "隐私"
-      ],
-      "lastTagline": "离线蓝牙Mesh聊天，融合IRC风格与Nostr全球网络"
     },
     {
       "repo": "koala73/worldmonitor",
