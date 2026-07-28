@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-27T08:01:08.731275+08:00",
-  "window": "2026-07-21..2026-07-27",
+  "generatedAt": "2026-07-28T08:19:25.072526+08:00",
+  "window": "2026-07-22..2026-07-28",
   "topProjects": [
     {
       "repo": "block/buzz",
@@ -17,20 +17,6 @@
       "judgement": "近 7 次记录中出现 4 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
-      "repo": "diegosouzapw/OmniRoute",
-      "url": "https://github.com/diegosouzapw/OmniRoute",
-      "tagsCn": [
-        "AI Agent",
-        "Dev Tool",
-        "Gateway",
-        "Free"
-      ],
-      "appearances": 4,
-      "bestRank": 2,
-      "latestDate": "2026-07-24",
-      "judgement": "近 7 次记录中出现 4 次，最佳排名第 2，适合优先复盘详情。"
-    },
-    {
       "repo": "koala73/worldmonitor",
       "url": "https://github.com/koala73/worldmonitor",
       "tagsCn": [
@@ -45,18 +31,32 @@
       "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
-      "repo": "tirth8205/code-review-graph",
-      "url": "https://github.com/tirth8205/code-review-graph",
+      "repo": "permissionlesstech/bitchat",
+      "url": "https://github.com/permissionlesstech/bitchat",
+      "tagsCn": [
+        "Messaging",
+        "隐私",
+        "Bluetooth",
+        "Decentralized"
+      ],
+      "appearances": 3,
+      "bestRank": 1,
+      "latestDate": "2026-07-28",
+      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
+    },
+    {
+      "repo": "diegosouzapw/OmniRoute",
+      "url": "https://github.com/diegosouzapw/OmniRoute",
       "tagsCn": [
         "AI Agent",
         "Dev Tool",
-        "Code Review",
-        "Graph"
+        "Gateway",
+        "Free"
       ],
-      "appearances": 2,
-      "bestRank": 1,
-      "latestDate": "2026-07-22",
-      "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
+      "appearances": 3,
+      "bestRank": 2,
+      "latestDate": "2026-07-24",
+      "judgement": "近 7 次记录中出现 3 次，最佳排名第 2，适合优先复盘详情。"
     },
     {
       "repo": "mattpocock/skills",
@@ -81,8 +81,8 @@
     },
     {
       "repo": "diegosouzapw/OmniRoute",
-      "days": 4,
-      "track": "07-21#3 -> 07-22#2 -> 07-23#3 -> 07-24#3"
+      "days": 3,
+      "track": "07-22#2 -> 07-23#3 -> 07-24#3"
     },
     {
       "repo": "koala73/worldmonitor",
@@ -90,19 +90,14 @@
       "track": "07-23#1 -> 07-24#1 -> 07-25#3"
     },
     {
+      "repo": "permissionlesstech/bitchat",
+      "days": 3,
+      "track": "07-26#3 -> 07-27#2 -> 07-28#1"
+    },
+    {
       "repo": "mattpocock/skills",
       "days": 2,
       "track": "07-25#2 -> 07-26#2"
-    },
-    {
-      "repo": "permissionlesstech/bitchat",
-      "days": 2,
-      "track": "07-26#3 -> 07-27#2"
-    },
-    {
-      "repo": "tirth8205/code-review-graph",
-      "days": 2,
-      "track": "07-21#1 -> 07-22#3"
     }
   ]
 }

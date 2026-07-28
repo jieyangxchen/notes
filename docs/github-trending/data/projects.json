@@ -1,6 +1,44 @@
 {
-  "generatedAt": "2026-07-27T08:01:08.731275+08:00",
+  "generatedAt": "2026-07-28T08:19:25.072526+08:00",
   "projects": [
+    {
+      "repo": "permissionlesstech/bitchat",
+      "url": "https://github.com/permissionlesstech/bitchat",
+      "latestDate": "2026-07-28",
+      "latestRank": 1,
+      "tagsCn": [
+        "Messaging",
+        "隐私",
+        "Bluetooth",
+        "Decentralized"
+      ],
+      "lastTagline": "蓝牙Mesh与Nostr双模，无账户离线群聊工具"
+    },
+    {
+      "repo": "alibaba/open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "latestDate": "2026-07-28",
+      "latestRank": 2,
+      "tagsCn": [
+        "AI Agent",
+        "Code Review",
+        "Dev Tool"
+      ],
+      "lastTagline": "阿里内部验证的AI代码审查，混合架构精准行级批注"
+    },
+    {
+      "repo": "pbakaus/impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "latestDate": "2026-07-28",
+      "latestRank": 3,
+      "tagsCn": [
+        "Design",
+        "AI Agent",
+        "Frontend",
+        "CLI"
+      ],
+      "lastTagline": "集成23命令与60检测器，消除AI设计模板味"
+    },
     {
       "repo": "block/buzz",
       "url": "https://github.com/block/buzz",
@@ -13,19 +51,6 @@
         "协作"
       ],
       "lastTagline": "基于 Nostr 事件的 AI Agent 协作工作区，让代理与人类共享同一审计日志。"
-    },
-    {
-      "repo": "permissionlesstech/bitchat",
-      "url": "https://github.com/permissionlesstech/bitchat",
-      "latestDate": "2026-07-27",
-      "latestRank": 2,
-      "tagsCn": [
-        "蓝牙Mesh",
-        "Nostr",
-        "端到端加密",
-        "无账户"
-      ],
-      "lastTagline": "双模去中心通信工具，离线用蓝牙 Mesh，在线用 Nostr，无账户、无追踪。"
     },
     {
       "repo": "citrolabs/ego-lite",
