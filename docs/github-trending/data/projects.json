@@ -1,6 +1,45 @@
 {
-  "generatedAt": "2026-07-28T08:19:25.072526+08:00",
+  "generatedAt": "2026-07-29T08:07:20.100304+08:00",
   "projects": [
+    {
+      "repo": "bradautomates/claude-video",
+      "url": "https://github.com/bradautomates/claude-video",
+      "latestDate": "2026-07-29",
+      "latestRank": 1,
+      "tagsCn": [
+        "AI Agent",
+        "浏览器",
+        "Video Analysis",
+        "Claude"
+      ],
+      "lastTagline": "让Claude获取“看视频”能力：下载、抽帧、转录，直接分析内容而不只猜标题。"
+    },
+    {
+      "repo": "moeru-ai/airi",
+      "url": "https://github.com/moeru-ai/airi",
+      "latestDate": "2026-07-29",
+      "latestRank": 2,
+      "tagsCn": [
+        "AI Companion",
+        "VTuber",
+        "Self-hosted",
+        "Gaming"
+      ],
+      "lastTagline": "自托管AI虚拟伴侣容器，支持实时语音、Minecraft等游戏互动，复现Neuro-sama体验。"
+    },
+    {
+      "repo": "yorukot/superfile",
+      "url": "https://github.com/yorukot/superfile",
+      "latestDate": "2026-07-29",
+      "latestRank": 3,
+      "tagsCn": [
+        "TUI",
+        "File Manager",
+        "Terminal",
+        "Go"
+      ],
+      "lastTagline": "时尚现代的终端文件管理器，多面板、主题化、插件化，提升命令行操作体验。"
+    },
     {
       "repo": "permissionlesstech/bitchat",
       "url": "https://github.com/permissionlesstech/bitchat",

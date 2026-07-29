@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-28T08:19:25.072526+08:00",
-  "window": "2026-07-22..2026-07-28",
+  "generatedAt": "2026-07-29T08:07:20.100304+08:00",
+  "window": "2026-07-23..2026-07-29",
   "topProjects": [
     {
       "repo": "block/buzz",
@@ -45,20 +45,6 @@
       "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
-      "repo": "diegosouzapw/OmniRoute",
-      "url": "https://github.com/diegosouzapw/OmniRoute",
-      "tagsCn": [
-        "AI Agent",
-        "Dev Tool",
-        "Gateway",
-        "Free"
-      ],
-      "appearances": 3,
-      "bestRank": 2,
-      "latestDate": "2026-07-24",
-      "judgement": "近 7 次记录中出现 3 次，最佳排名第 2，适合优先复盘详情。"
-    },
-    {
       "repo": "mattpocock/skills",
       "url": "https://github.com/mattpocock/skills",
       "tagsCn": [
@@ -71,6 +57,20 @@
       "bestRank": 2,
       "latestDate": "2026-07-26",
       "judgement": "近 7 次记录中出现 2 次，最佳排名第 2，适合优先复盘详情。"
+    },
+    {
+      "repo": "diegosouzapw/OmniRoute",
+      "url": "https://github.com/diegosouzapw/OmniRoute",
+      "tagsCn": [
+        "AI Agent",
+        "Dev Tool",
+        "Gateway",
+        "Free"
+      ],
+      "appearances": 2,
+      "bestRank": 3,
+      "latestDate": "2026-07-24",
+      "judgement": "近 7 次记录中出现 2 次，最佳排名第 3，适合优先复盘详情。"
     }
   ],
   "streaks": [
@@ -78,11 +78,6 @@
       "repo": "block/buzz",
       "days": 4,
       "track": "07-24#2 -> 07-25#1 -> 07-26#1 -> 07-27#1"
-    },
-    {
-      "repo": "diegosouzapw/OmniRoute",
-      "days": 3,
-      "track": "07-22#2 -> 07-23#3 -> 07-24#3"
     },
     {
       "repo": "koala73/worldmonitor",
@@ -93,6 +88,11 @@
       "repo": "permissionlesstech/bitchat",
       "days": 3,
       "track": "07-26#3 -> 07-27#2 -> 07-28#1"
+    },
+    {
+      "repo": "diegosouzapw/OmniRoute",
+      "days": 2,
+      "track": "07-23#3 -> 07-24#3"
     },
     {
       "repo": "mattpocock/skills",
