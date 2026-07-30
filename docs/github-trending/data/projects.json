@@ -1,6 +1,45 @@
 {
-  "generatedAt": "2026-07-29T08:07:20.100304+08:00",
+  "generatedAt": "2026-07-30T08:01:37.241686+08:00",
   "projects": [
+    {
+      "repo": "virgiliojr94/book-to-skill",
+      "url": "https://github.com/virgiliojr94/book-to-skill",
+      "latestDate": "2026-07-30",
+      "latestRank": 1,
+      "tagsCn": [
+        "AI Agent",
+        "知识技能化",
+        "PDF转换",
+        "编程辅助"
+      ],
+      "lastTagline": "将 PDF 技术书转为 AI Agent 技能，按需查询防幻觉。"
+    },
+    {
+      "repo": "pascalorg/editor",
+      "url": "https://github.com/pascalorg/editor",
+      "latestDate": "2026-07-30",
+      "latestRank": 2,
+      "tagsCn": [
+        "3D编辑器",
+        "WebGPU",
+        "React Three Fiber",
+        "建筑可视化"
+      ],
+      "lastTagline": "基于WebGPU的3D建筑编辑器，可嵌入或独立分享项目。"
+    },
+    {
+      "repo": "paperswithbacktest/awesome-systematic-trading",
+      "url": "https://github.com/paperswithbacktest/awesome-systematic-trading",
+      "latestDate": "2026-07-30",
+      "latestRank": 3,
+      "tagsCn": [
+        "量化交易",
+        "资源列表",
+        "策略库",
+        "金融工程"
+      ],
+      "lastTagline": "系统化交易资源大全：97+库、40+策略、55本书籍。"
+    },
     {
       "repo": "bradautomates/claude-video",
       "url": "https://github.com/bradautomates/claude-video",
