@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-30T08:01:37.241686+08:00",
-  "window": "2026-07-24..2026-07-30",
+  "generatedAt": "2026-07-31T08:01:20.474184+08:00",
+  "window": "2026-07-25..2026-07-31",
   "topProjects": [
     {
       "repo": "block/buzz",
@@ -11,10 +11,10 @@
         "审计",
         "协作"
       ],
-      "appearances": 4,
+      "appearances": 3,
       "bestRank": 1,
       "latestDate": "2026-07-27",
-      "judgement": "近 7 次记录中出现 4 次，最佳排名第 1，适合优先复盘详情。"
+      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
       "repo": "permissionlesstech/bitchat",
@@ -29,20 +29,6 @@
       "bestRank": 1,
       "latestDate": "2026-07-28",
       "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
-    },
-    {
-      "repo": "koala73/worldmonitor",
-      "url": "https://github.com/koala73/worldmonitor",
-      "tagsCn": [
-        "AI Agent",
-        "OSINT",
-        "态势感知",
-        "地缘监控"
-      ],
-      "appearances": 2,
-      "bestRank": 1,
-      "latestDate": "2026-07-25",
-      "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
       "repo": "mattpocock/skills",
@@ -71,23 +57,32 @@
       "bestRank": 1,
       "latestDate": "2026-07-29",
       "judgement": "近 7 次记录中出现 1 次，最佳排名第 1，适合优先复盘详情。"
+    },
+    {
+      "repo": "different-ai/openwork",
+      "url": "https://github.com/different-ai/openwork",
+      "tagsCn": [
+        "AI Agent",
+        "工作流共享",
+        "桌面应用",
+        "MCP"
+      ],
+      "appearances": 1,
+      "bestRank": 1,
+      "latestDate": "2026-07-31",
+      "judgement": "近 7 次记录中出现 1 次，最佳排名第 1，适合优先复盘详情。"
     }
   ],
   "streaks": [
     {
       "repo": "block/buzz",
-      "days": 4,
-      "track": "07-24#2 -> 07-25#1 -> 07-26#1 -> 07-27#1"
+      "days": 3,
+      "track": "07-25#1 -> 07-26#1 -> 07-27#1"
     },
     {
       "repo": "permissionlesstech/bitchat",
       "days": 3,
       "track": "07-26#3 -> 07-27#2 -> 07-28#1"
-    },
-    {
-      "repo": "koala73/worldmonitor",
-      "days": 2,
-      "track": "07-24#1 -> 07-25#3"
     },
     {
       "repo": "mattpocock/skills",

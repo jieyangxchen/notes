@@ -1,6 +1,45 @@
 {
-  "generatedAt": "2026-07-30T08:01:37.241686+08:00",
+  "generatedAt": "2026-07-31T08:01:20.474184+08:00",
   "projects": [
+    {
+      "repo": "different-ai/openwork",
+      "url": "https://github.com/different-ai/openwork",
+      "latestDate": "2026-07-31",
+      "latestRank": 1,
+      "tagsCn": [
+        "AI Agent",
+        "工作流共享",
+        "桌面应用",
+        "MCP"
+      ],
+      "lastTagline": "开源跨平台 AI 工作流桌面应用，替代 Claude Cowork，一次创建技能与 MCP 连接即可跨代理多人复用。"
+    },
+    {
+      "repo": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "latestDate": "2026-07-31",
+      "latestRank": 2,
+      "tagsCn": [
+        "AI Agent",
+        "性能优化",
+        "安全扫描",
+        "命令行工具"
+      ],
+      "lastTagline": "面向 Claude Code 等编码代理的统一技能、记忆与安全优化系统，系统化降低 Token 成本并提升输出质量。"
+    },
+    {
+      "repo": "huggingface/speech-to-speech",
+      "url": "https://github.com/huggingface/speech-to-speech",
+      "latestDate": "2026-07-31",
+      "latestRank": 3,
+      "tagsCn": [
+        "AI Agent",
+        "语音代理",
+        "本地运行",
+        "WebSocket API"
+      ],
+      "lastTagline": "使用开源模型构建低延迟本地语音代理，全组件可替换，暴露 OpenAI Realtime 兼容接口。"
+    },
     {
       "repo": "virgiliojr94/book-to-skill",
       "url": "https://github.com/virgiliojr94/book-to-skill",
