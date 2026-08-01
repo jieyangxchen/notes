@@ -16,6 +16,7 @@
 
 ## 月度索引
 
+- [2026-08](/github-trending/2026-08.md)
 - [2026-07](/github-trending/2026-07.md)
 - [2026-06](/github-trending/2026-06.md)
 - [2026-05](/github-trending/2026-05.md)
@@ -23,6 +24,7 @@
 
 ## 最近记录
 
+- [2026-08-01](/github-trending/2026-08-01.md)
 - [2026-07-31](/github-trending/2026-07-31.md)
 - [2026-07-30](/github-trending/2026-07-30.md)
 - [2026-07-29](/github-trending/2026-07-29.md)
@@ -42,7 +44,6 @@
 - [2026-07-15](/github-trending/2026-07-15.md)
 - [2026-07-14](/github-trending/2026-07-14.md)
 - [2026-07-13](/github-trending/2026-07-13.md)
-- [2026-07-12](/github-trending/2026-07-12.md)
 
 ## 阅读建议
 

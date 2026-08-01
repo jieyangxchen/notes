@@ -1,21 +1,7 @@
 {
-  "generatedAt": "2026-07-31T08:01:20.474184+08:00",
-  "window": "2026-07-25..2026-07-31",
+  "generatedAt": "2026-08-01T08:01:50.918870+08:00",
+  "window": "2026-07-26..2026-08-01",
   "topProjects": [
-    {
-      "repo": "block/buzz",
-      "url": "https://github.com/block/buzz",
-      "tagsCn": [
-        "AI Agent",
-        "Nostr",
-        "审计",
-        "协作"
-      ],
-      "appearances": 3,
-      "bestRank": 1,
-      "latestDate": "2026-07-27",
-      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
-    },
     {
       "repo": "permissionlesstech/bitchat",
       "url": "https://github.com/permissionlesstech/bitchat",
@@ -31,18 +17,46 @@
       "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
-      "repo": "mattpocock/skills",
-      "url": "https://github.com/mattpocock/skills",
+      "repo": "block/buzz",
+      "url": "https://github.com/block/buzz",
       "tagsCn": [
         "AI Agent",
-        "技能集",
-        "TypeScript",
-        "需求工程"
+        "Nostr",
+        "审计",
+        "协作"
       ],
       "appearances": 2,
-      "bestRank": 2,
-      "latestDate": "2026-07-26",
-      "judgement": "近 7 次记录中出现 2 次，最佳排名第 2，适合优先复盘详情。"
+      "bestRank": 1,
+      "latestDate": "2026-07-27",
+      "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
+    },
+    {
+      "repo": "different-ai/openwork",
+      "url": "https://github.com/different-ai/openwork",
+      "tagsCn": [
+        "AI Agent",
+        "工作流",
+        "桌面应用",
+        "开源"
+      ],
+      "appearances": 2,
+      "bestRank": 1,
+      "latestDate": "2026-08-01",
+      "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
+    },
+    {
+      "repo": "paperswithbacktest/awesome-systematic-trading",
+      "url": "https://github.com/paperswithbacktest/awesome-systematic-trading",
+      "tagsCn": [
+        "量化交易",
+        "资源列表",
+        "金融",
+        "回测"
+      ],
+      "appearances": 2,
+      "bestRank": 3,
+      "latestDate": "2026-08-01",
+      "judgement": "近 7 次记录中出现 2 次，最佳排名第 3，适合优先复盘详情。"
     },
     {
       "repo": "bradautomates/claude-video",
@@ -57,37 +71,23 @@
       "bestRank": 1,
       "latestDate": "2026-07-29",
       "judgement": "近 7 次记录中出现 1 次，最佳排名第 1，适合优先复盘详情。"
-    },
-    {
-      "repo": "different-ai/openwork",
-      "url": "https://github.com/different-ai/openwork",
-      "tagsCn": [
-        "AI Agent",
-        "工作流共享",
-        "桌面应用",
-        "MCP"
-      ],
-      "appearances": 1,
-      "bestRank": 1,
-      "latestDate": "2026-07-31",
-      "judgement": "近 7 次记录中出现 1 次，最佳排名第 1，适合优先复盘详情。"
     }
   ],
   "streaks": [
-    {
-      "repo": "block/buzz",
-      "days": 3,
-      "track": "07-25#1 -> 07-26#1 -> 07-27#1"
-    },
     {
       "repo": "permissionlesstech/bitchat",
       "days": 3,
       "track": "07-26#3 -> 07-27#2 -> 07-28#1"
     },
     {
-      "repo": "mattpocock/skills",
+      "repo": "block/buzz",
       "days": 2,
-      "track": "07-25#2 -> 07-26#2"
+      "track": "07-26#1 -> 07-27#1"
+    },
+    {
+      "repo": "different-ai/openwork",
+      "days": 2,
+      "track": "07-31#1 -> 08-01#2"
     }
   ]
 }

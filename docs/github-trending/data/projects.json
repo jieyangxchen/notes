@@ -1,18 +1,44 @@
 {
-  "generatedAt": "2026-07-31T08:01:20.474184+08:00",
+  "generatedAt": "2026-08-01T08:01:50.918870+08:00",
   "projects": [
+    {
+      "repo": "microsoft/AI-For-Beginners",
+      "url": "https://github.com/microsoft/AI-For-Beginners",
+      "latestDate": "2026-08-01",
+      "latestRank": 1,
+      "tagsCn": [
+        "AI",
+        "课程",
+        "入门",
+        "微软"
+      ],
+      "lastTagline": "微软官方 12 周 24 课 AI 入门体系，覆盖 CV、NLP 与伦理，附实验与 Quiz。"
+    },
     {
       "repo": "different-ai/openwork",
       "url": "https://github.com/different-ai/openwork",
-      "latestDate": "2026-07-31",
-      "latestRank": 1,
+      "latestDate": "2026-08-01",
+      "latestRank": 2,
       "tagsCn": [
         "AI Agent",
-        "工作流共享",
+        "工作流",
         "桌面应用",
-        "MCP"
+        "开源"
       ],
-      "lastTagline": "开源跨平台 AI 工作流桌面应用，替代 Claude Cowork，一次创建技能与 MCP 连接即可跨代理多人复用。"
+      "lastTagline": "开源 AI 工作流共享桌面应用，跨 Agent 复用技能与连接，替代 Claude Cowork。"
+    },
+    {
+      "repo": "paperswithbacktest/awesome-systematic-trading",
+      "url": "https://github.com/paperswithbacktest/awesome-systematic-trading",
+      "latestDate": "2026-08-01",
+      "latestRank": 3,
+      "tagsCn": [
+        "量化交易",
+        "资源列表",
+        "金融",
+        "回测"
+      ],
+      "lastTagline": "精编量化交易资源大全，涵盖 97+ 库、40+ 策略、55 本书籍，系统性导航地图。"
     },
     {
       "repo": "affaan-m/ECC",
@@ -65,19 +91,6 @@
         "建筑可视化"
       ],
       "lastTagline": "基于WebGPU的3D建筑编辑器，可嵌入或独立分享项目。"
-    },
-    {
-      "repo": "paperswithbacktest/awesome-systematic-trading",
-      "url": "https://github.com/paperswithbacktest/awesome-systematic-trading",
-      "latestDate": "2026-07-30",
-      "latestRank": 3,
-      "tagsCn": [
-        "量化交易",
-        "资源列表",
-        "策略库",
-        "金融工程"
-      ],
-      "lastTagline": "系统化交易资源大全：97+库、40+策略、55本书籍。"
     },
     {
       "repo": "bradautomates/claude-video",
