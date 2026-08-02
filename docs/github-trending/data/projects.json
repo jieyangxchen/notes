@@ -1,18 +1,43 @@
 {
-  "generatedAt": "2026-08-01T08:01:50.918870+08:00",
+  "generatedAt": "2026-08-02T08:07:46.008001+08:00",
   "projects": [
+    {
+      "repo": "zhaoxuya520/reverse-skill",
+      "url": "https://github.com/zhaoxuya520/reverse-skill",
+      "latestDate": "2026-08-02",
+      "latestRank": 1,
+      "tagsCn": [
+        "Security",
+        "AI Agent",
+        "学术研究"
+      ],
+      "lastTagline": "AI 自动路由的逆向工程技能包，按需自举工具链与经验库"
+    },
     {
       "repo": "microsoft/AI-For-Beginners",
       "url": "https://github.com/microsoft/AI-For-Beginners",
-      "latestDate": "2026-08-01",
-      "latestRank": 1,
+      "latestDate": "2026-08-02",
+      "latestRank": 2,
       "tagsCn": [
         "AI",
-        "课程",
-        "入门",
-        "微软"
+        "Education",
+        "Beginner",
+        "Microsoft"
       ],
-      "lastTagline": "微软官方 12 周 24 课 AI 入门体系，覆盖 CV、NLP 与伦理，附实验与 Quiz。"
+      "lastTagline": "12周24课的AI入门官方课程，体系化构建从理论到实验的基础"
+    },
+    {
+      "repo": "usekaneo/kaneo",
+      "url": "https://github.com/usekaneo/kaneo",
+      "latestDate": "2026-08-02",
+      "latestRank": 3,
+      "tagsCn": [
+        "Dev Tool",
+        "Project Management",
+        "Self-Hosted",
+        "开源"
+      ],
+      "lastTagline": "极简开源项目管理工具，自托管看板替代Jira/Linear的轻量之选"
     },
     {
       "repo": "different-ai/openwork",
