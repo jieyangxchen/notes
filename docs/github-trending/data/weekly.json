@@ -1,7 +1,21 @@
 {
-  "generatedAt": "2026-08-02T08:07:46.008001+08:00",
-  "window": "2026-07-27..2026-08-02",
+  "generatedAt": "2026-08-03T08:01:54.314975+08:00",
+  "window": "2026-07-28..2026-08-03",
   "topProjects": [
+    {
+      "repo": "microsoft/AI-For-Beginners",
+      "url": "https://github.com/microsoft/AI-For-Beginners",
+      "tagsCn": [
+        "AI",
+        "教育",
+        "入门",
+        "微软"
+      ],
+      "appearances": 3,
+      "bestRank": 1,
+      "latestDate": "2026-08-03",
+      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
+    },
     {
       "repo": "different-ai/openwork",
       "url": "https://github.com/different-ai/openwork",
@@ -17,31 +31,17 @@
       "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
-      "repo": "microsoft/AI-For-Beginners",
-      "url": "https://github.com/microsoft/AI-For-Beginners",
+      "repo": "zhaoxuya520/reverse-skill",
+      "url": "https://github.com/zhaoxuya520/reverse-skill",
       "tagsCn": [
-        "AI",
-        "Education",
-        "Beginner",
-        "Microsoft"
+        "Security",
+        "AI Agent",
+        "逆向工程",
+        "自动化"
       ],
       "appearances": 2,
       "bestRank": 1,
-      "latestDate": "2026-08-02",
-      "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
-    },
-    {
-      "repo": "permissionlesstech/bitchat",
-      "url": "https://github.com/permissionlesstech/bitchat",
-      "tagsCn": [
-        "Messaging",
-        "隐私",
-        "Bluetooth",
-        "Decentralized"
-      ],
-      "appearances": 2,
-      "bestRank": 1,
-      "latestDate": "2026-07-28",
+      "latestDate": "2026-08-03",
       "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
@@ -59,35 +59,35 @@
       "judgement": "近 7 次记录中出现 2 次，最佳排名第 3，适合优先复盘详情。"
     },
     {
-      "repo": "block/buzz",
-      "url": "https://github.com/block/buzz",
+      "repo": "bradautomates/claude-video",
+      "url": "https://github.com/bradautomates/claude-video",
       "tagsCn": [
         "AI Agent",
-        "Nostr",
-        "审计",
-        "协作"
+        "浏览器",
+        "Video Analysis",
+        "Claude"
       ],
       "appearances": 1,
       "bestRank": 1,
-      "latestDate": "2026-07-27",
+      "latestDate": "2026-07-29",
       "judgement": "近 7 次记录中出现 1 次，最佳排名第 1，适合优先复盘详情。"
     }
   ],
   "streaks": [
+    {
+      "repo": "microsoft/AI-For-Beginners",
+      "days": 3,
+      "track": "08-01#1 -> 08-02#2 -> 08-03#1"
+    },
     {
       "repo": "different-ai/openwork",
       "days": 2,
       "track": "07-31#1 -> 08-01#2"
     },
     {
-      "repo": "microsoft/AI-For-Beginners",
+      "repo": "zhaoxuya520/reverse-skill",
       "days": 2,
-      "track": "08-01#1 -> 08-02#2"
-    },
-    {
-      "repo": "permissionlesstech/bitchat",
-      "days": 2,
-      "track": "07-27#2 -> 07-28#1"
+      "track": "08-02#1 -> 08-03#2"
     }
   ]
 }
