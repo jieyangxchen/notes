@@ -1,19 +1,31 @@
 {
-  "generatedAt": "2026-08-03T08:01:54.314975+08:00",
-  "window": "2026-07-28..2026-08-03",
+  "generatedAt": "2026-08-04T08:03:01.326632+08:00",
+  "window": "2026-07-29..2026-08-04",
   "topProjects": [
     {
       "repo": "microsoft/AI-For-Beginners",
       "url": "https://github.com/microsoft/AI-For-Beginners",
       "tagsCn": [
         "AI",
-        "教育",
-        "入门",
-        "微软"
+        "Education",
+        "Machine Learning"
+      ],
+      "appearances": 4,
+      "bestRank": 1,
+      "latestDate": "2026-08-04",
+      "judgement": "近 7 次记录中出现 4 次，最佳排名第 1，适合优先复盘详情。"
+    },
+    {
+      "repo": "zhaoxuya520/reverse-skill",
+      "url": "https://github.com/zhaoxuya520/reverse-skill",
+      "tagsCn": [
+        "Security",
+        "AI Agent",
+        "Dev Tool"
       ],
       "appearances": 3,
       "bestRank": 1,
-      "latestDate": "2026-08-03",
+      "latestDate": "2026-08-04",
       "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
@@ -28,20 +40,6 @@
       "appearances": 2,
       "bestRank": 1,
       "latestDate": "2026-08-01",
-      "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
-    },
-    {
-      "repo": "zhaoxuya520/reverse-skill",
-      "url": "https://github.com/zhaoxuya520/reverse-skill",
-      "tagsCn": [
-        "Security",
-        "AI Agent",
-        "逆向工程",
-        "自动化"
-      ],
-      "appearances": 2,
-      "bestRank": 1,
-      "latestDate": "2026-08-03",
       "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
@@ -76,18 +74,18 @@
   "streaks": [
     {
       "repo": "microsoft/AI-For-Beginners",
+      "days": 4,
+      "track": "08-01#1 -> 08-02#2 -> 08-03#1 -> 08-04#2"
+    },
+    {
+      "repo": "zhaoxuya520/reverse-skill",
       "days": 3,
-      "track": "08-01#1 -> 08-02#2 -> 08-03#1"
+      "track": "08-02#1 -> 08-03#2 -> 08-04#1"
     },
     {
       "repo": "different-ai/openwork",
       "days": 2,
       "track": "07-31#1 -> 08-01#2"
-    },
-    {
-      "repo": "zhaoxuya520/reverse-skill",
-      "days": 2,
-      "track": "08-02#1 -> 08-03#2"
     }
   ]
 }

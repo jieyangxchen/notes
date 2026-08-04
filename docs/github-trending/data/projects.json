@@ -1,31 +1,41 @@
 {
-  "generatedAt": "2026-08-03T08:01:54.314975+08:00",
+  "generatedAt": "2026-08-04T08:03:01.326632+08:00",
   "projects": [
-    {
-      "repo": "microsoft/AI-For-Beginners",
-      "url": "https://github.com/microsoft/AI-For-Beginners",
-      "latestDate": "2026-08-03",
-      "latestRank": 1,
-      "tagsCn": [
-        "AI",
-        "教育",
-        "入门",
-        "微软"
-      ],
-      "lastTagline": "微软官方12周AI系统入门课程，从零到视觉与NLP实战"
-    },
     {
       "repo": "zhaoxuya520/reverse-skill",
       "url": "https://github.com/zhaoxuya520/reverse-skill",
-      "latestDate": "2026-08-03",
-      "latestRank": 2,
+      "latestDate": "2026-08-04",
+      "latestRank": 1,
       "tagsCn": [
         "Security",
         "AI Agent",
-        "逆向工程",
-        "自动化"
+        "Dev Tool"
       ],
-      "lastTagline": "AI驱动的逆向技能路由，按需自举工具链，适配主流AI客户端"
+      "lastTagline": "AI 安全技能路由包：自动选工具，逆向渗透标准化"
+    },
+    {
+      "repo": "microsoft/AI-For-Beginners",
+      "url": "https://github.com/microsoft/AI-For-Beginners",
+      "latestDate": "2026-08-04",
+      "latestRank": 2,
+      "tagsCn": [
+        "AI",
+        "Education",
+        "Machine Learning"
+      ],
+      "lastTagline": "微软官方12周AI课程：24课实验驱动，零基础友好路径"
+    },
+    {
+      "repo": "firecrawl/pdf-inspector",
+      "url": "https://github.com/firecrawl/pdf-inspector",
+      "latestDate": "2026-08-04",
+      "latestRank": 3,
+      "tagsCn": [
+        "PDF",
+        "Rust",
+        "Dev Tool"
+      ],
+      "lastTagline": "毫秒级 PDF 智能分类：扫描件/文本件按需自动路由"
     },
     {
       "repo": "lyogavin/airllm",
