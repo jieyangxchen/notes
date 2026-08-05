@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-04T08:03:01.326632+08:00",
-  "window": "2026-07-29..2026-08-04",
+  "generatedAt": "2026-08-05T08:01:37.218096+08:00",
+  "window": "2026-07-30..2026-08-05",
   "topProjects": [
     {
       "repo": "microsoft/AI-For-Beginners",
@@ -21,12 +21,13 @@
       "tagsCn": [
         "Security",
         "AI Agent",
-        "Dev Tool"
+        "Reverse Engineering",
+        "Penetration Testing"
       ],
-      "appearances": 3,
+      "appearances": 4,
       "bestRank": 1,
-      "latestDate": "2026-08-04",
-      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
+      "latestDate": "2026-08-05",
+      "judgement": "近 7 次记录中出现 4 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
       "repo": "different-ai/openwork",
@@ -43,32 +44,32 @@
       "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
-      "repo": "paperswithbacktest/awesome-systematic-trading",
-      "url": "https://github.com/paperswithbacktest/awesome-systematic-trading",
+      "repo": "firecrawl/pdf-inspector",
+      "url": "https://github.com/firecrawl/pdf-inspector",
       "tagsCn": [
-        "量化交易",
-        "资源列表",
-        "金融",
-        "回测"
+        "Dev Tool",
+        "PDF",
+        "Rust",
+        "OCR Routing"
+      ],
+      "appearances": 2,
+      "bestRank": 1,
+      "latestDate": "2026-08-05",
+      "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
+    },
+    {
+      "repo": "lyogavin/airllm",
+      "url": "https://github.com/lyogavin/airllm",
+      "tagsCn": [
+        "AI Agent",
+        "LLM",
+        "Inference Optimization",
+        "GPU"
       ],
       "appearances": 2,
       "bestRank": 3,
-      "latestDate": "2026-08-01",
+      "latestDate": "2026-08-05",
       "judgement": "近 7 次记录中出现 2 次，最佳排名第 3，适合优先复盘详情。"
-    },
-    {
-      "repo": "bradautomates/claude-video",
-      "url": "https://github.com/bradautomates/claude-video",
-      "tagsCn": [
-        "AI Agent",
-        "浏览器",
-        "Video Analysis",
-        "Claude"
-      ],
-      "appearances": 1,
-      "bestRank": 1,
-      "latestDate": "2026-07-29",
-      "judgement": "近 7 次记录中出现 1 次，最佳排名第 1，适合优先复盘详情。"
     }
   ],
   "streaks": [
@@ -79,13 +80,18 @@
     },
     {
       "repo": "zhaoxuya520/reverse-skill",
-      "days": 3,
-      "track": "08-02#1 -> 08-03#2 -> 08-04#1"
+      "days": 4,
+      "track": "08-02#1 -> 08-03#2 -> 08-04#1 -> 08-05#2"
     },
     {
       "repo": "different-ai/openwork",
       "days": 2,
       "track": "07-31#1 -> 08-01#2"
+    },
+    {
+      "repo": "firecrawl/pdf-inspector",
+      "days": 2,
+      "track": "08-04#3 -> 08-05#1"
     }
   ]
 }
