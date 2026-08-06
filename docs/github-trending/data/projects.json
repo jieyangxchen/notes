@@ -1,18 +1,44 @@
 {
-  "generatedAt": "2026-08-05T08:01:37.218096+08:00",
+  "generatedAt": "2026-08-06T08:01:49.623322+08:00",
   "projects": [
+    {
+      "repo": "TencentCloud/TencentDB-Agent-Memory",
+      "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+      "latestDate": "2026-08-06",
+      "latestRank": 1,
+      "tagsCn": [
+        "AI Agent",
+        "记忆",
+        "Knowledge Management",
+        "Vector Search"
+      ],
+      "lastTagline": "团队级智能体记忆中枢：对话、文档、代码沉淀为四种可复用资产"
+    },
     {
       "repo": "firecrawl/pdf-inspector",
       "url": "https://github.com/firecrawl/pdf-inspector",
-      "latestDate": "2026-08-05",
-      "latestRank": 1,
+      "latestDate": "2026-08-06",
+      "latestRank": 2,
       "tagsCn": [
-        "Dev Tool",
         "PDF",
+        "Dev Tool",
         "Rust",
         "OCR Routing"
       ],
-      "lastTagline": "PDF智能分类与文本提取，免OCR快速路由"
+      "lastTagline": "本地毫秒级 PDF 分流器：自动区分文本与扫描件并提取 Markdown"
+    },
+    {
+      "repo": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "latestDate": "2026-08-06",
+      "latestRank": 3,
+      "tagsCn": [
+        "AI Agent",
+        "Dev Tool",
+        "Workflow",
+        "TDD"
+      ],
+      "lastTagline": "给编码智能体立规矩：强制先规格、测试与子代理驱动开发"
     },
     {
       "repo": "zhaoxuya520/reverse-skill",
@@ -452,19 +478,6 @@
         "CLI"
       ],
       "lastTagline": "让 Claude 拥有终端控制、文件搜索与代码编辑能力的 MCP 服务"
-    },
-    {
-      "repo": "obra/superpowers",
-      "url": "https://github.com/obra/superpowers",
-      "latestDate": "2026-07-12",
-      "latestRank": 3,
-      "tagsCn": [
-        "AI Agent",
-        "SDLC",
-        "TDD",
-        "Code Review"
-      ],
-      "lastTagline": "为编码代理注入 TDD 纪律与子代理驱动开发的方法论技能框架"
     },
     {
       "repo": "iOfficeAI/OfficeCLI",
