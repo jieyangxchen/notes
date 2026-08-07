@@ -1,7 +1,21 @@
 {
-  "generatedAt": "2026-08-06T08:01:49.623322+08:00",
-  "window": "2026-07-31..2026-08-06",
+  "generatedAt": "2026-08-07T08:05:12.111971+08:00",
+  "window": "2026-08-01..2026-08-07",
   "topProjects": [
+    {
+      "repo": "firecrawl/pdf-inspector",
+      "url": "https://github.com/firecrawl/pdf-inspector",
+      "tagsCn": [
+        "PDF",
+        "Dev Tool",
+        "OCR",
+        "Rust"
+      ],
+      "appearances": 4,
+      "bestRank": 1,
+      "latestDate": "2026-08-07",
+      "judgement": "近 7 次记录中出现 4 次，最佳排名第 1，适合优先复盘详情。"
+    },
     {
       "repo": "microsoft/AI-For-Beginners",
       "url": "https://github.com/microsoft/AI-For-Beginners",
@@ -30,34 +44,6 @@
       "judgement": "近 7 次记录中出现 4 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
-      "repo": "firecrawl/pdf-inspector",
-      "url": "https://github.com/firecrawl/pdf-inspector",
-      "tagsCn": [
-        "PDF",
-        "Dev Tool",
-        "Rust",
-        "OCR Routing"
-      ],
-      "appearances": 3,
-      "bestRank": 1,
-      "latestDate": "2026-08-06",
-      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
-    },
-    {
-      "repo": "different-ai/openwork",
-      "url": "https://github.com/different-ai/openwork",
-      "tagsCn": [
-        "AI Agent",
-        "工作流",
-        "桌面应用",
-        "开源"
-      ],
-      "appearances": 2,
-      "bestRank": 1,
-      "latestDate": "2026-08-01",
-      "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
-    },
-    {
       "repo": "lyogavin/airllm",
       "url": "https://github.com/lyogavin/airllm",
       "tagsCn": [
@@ -70,9 +56,28 @@
       "bestRank": 3,
       "latestDate": "2026-08-05",
       "judgement": "近 7 次记录中出现 2 次，最佳排名第 3，适合优先复盘详情。"
+    },
+    {
+      "repo": "TencentCloud/TencentDB-Agent-Memory",
+      "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+      "tagsCn": [
+        "AI Agent",
+        "记忆",
+        "Knowledge Management",
+        "Vector Search"
+      ],
+      "appearances": 1,
+      "bestRank": 1,
+      "latestDate": "2026-08-06",
+      "judgement": "近 7 次记录中出现 1 次，最佳排名第 1，适合优先复盘详情。"
     }
   ],
   "streaks": [
+    {
+      "repo": "firecrawl/pdf-inspector",
+      "days": 4,
+      "track": "08-04#3 -> 08-05#1 -> 08-06#2 -> 08-07#3"
+    },
     {
       "repo": "microsoft/AI-For-Beginners",
       "days": 4,
@@ -82,16 +87,6 @@
       "repo": "zhaoxuya520/reverse-skill",
       "days": 4,
       "track": "08-02#1 -> 08-03#2 -> 08-04#1 -> 08-05#2"
-    },
-    {
-      "repo": "firecrawl/pdf-inspector",
-      "days": 3,
-      "track": "08-04#3 -> 08-05#1 -> 08-06#2"
-    },
-    {
-      "repo": "different-ai/openwork",
-      "days": 2,
-      "track": "07-31#1 -> 08-01#2"
     }
   ]
 }

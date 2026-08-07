@@ -1,6 +1,45 @@
 {
-  "generatedAt": "2026-08-06T08:01:49.623322+08:00",
+  "generatedAt": "2026-08-07T08:05:12.111971+08:00",
   "projects": [
+    {
+      "repo": "cloudflare/computer",
+      "url": "https://github.com/cloudflare/computer",
+      "latestDate": "2026-08-07",
+      "latestRank": 1,
+      "tagsCn": [
+        "AI Agent",
+        "Cloudflare",
+        "Sandbox",
+        "Preview"
+      ],
+      "lastTagline": "给 AI 代理一个虚拟文件系统和多后端运行环境"
+    },
+    {
+      "repo": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "latestDate": "2026-08-07",
+      "latestRank": 2,
+      "tagsCn": [
+        "AI Agent",
+        "Dev Tool",
+        "Claude Code",
+        "Workflow"
+      ],
+      "lastTagline": "工程师实战技能包，把需求提问和代理工作流标准化"
+    },
+    {
+      "repo": "firecrawl/pdf-inspector",
+      "url": "https://github.com/firecrawl/pdf-inspector",
+      "latestDate": "2026-08-07",
+      "latestRank": 3,
+      "tagsCn": [
+        "PDF",
+        "Dev Tool",
+        "OCR",
+        "Rust"
+      ],
+      "lastTagline": "10-50ms 识别 PDF 类型，按页路由 OCR，避免全量扫描"
+    },
     {
       "repo": "TencentCloud/TencentDB-Agent-Memory",
       "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
@@ -13,19 +52,6 @@
         "Vector Search"
       ],
       "lastTagline": "团队级智能体记忆中枢：对话、文档、代码沉淀为四种可复用资产"
-    },
-    {
-      "repo": "firecrawl/pdf-inspector",
-      "url": "https://github.com/firecrawl/pdf-inspector",
-      "latestDate": "2026-08-06",
-      "latestRank": 2,
-      "tagsCn": [
-        "PDF",
-        "Dev Tool",
-        "Rust",
-        "OCR Routing"
-      ],
-      "lastTagline": "本地毫秒级 PDF 分流器：自动区分文本与扫描件并提取 Markdown"
     },
     {
       "repo": "obra/superpowers",
@@ -271,19 +297,6 @@
         "并行空间"
       ],
       "lastTagline": "为 AI Agent 打造的专属浏览器，共享登录态、并行工作，零成本、零配置。"
-    },
-    {
-      "repo": "mattpocock/skills",
-      "url": "https://github.com/mattpocock/skills",
-      "latestDate": "2026-07-26",
-      "latestRank": 2,
-      "tagsCn": [
-        "AI Agent",
-        "技能集",
-        "TypeScript",
-        "需求工程"
-      ],
-      "lastTagline": "一套轻量技能，让代理在编码前通过提问明确需求"
     },
     {
       "repo": "koala73/worldmonitor",
