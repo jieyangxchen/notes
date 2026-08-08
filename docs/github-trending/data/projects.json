@@ -1,6 +1,44 @@
 {
-  "generatedAt": "2026-08-07T08:05:12.111971+08:00",
+  "generatedAt": "2026-08-08T08:18:42.958617+08:00",
   "projects": [
+    {
+      "repo": "PrimeIntellect-ai/prime-agent",
+      "url": "https://github.com/PrimeIntellect-ai/prime-agent",
+      "latestDate": "2026-08-08",
+      "latestRank": 1,
+      "tagsCn": [
+        "学术研究",
+        "AI Agent",
+        "Dev Tool",
+        "Autonomy"
+      ],
+      "lastTagline": "可自改进的RLM编码代理，面向长期自主任务"
+    },
+    {
+      "repo": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "latestDate": "2026-08-08",
+      "latestRank": 2,
+      "tagsCn": [
+        "AI Agent",
+        "Dev Tool",
+        "Workflow",
+        "Claude Code"
+      ],
+      "lastTagline": "轻量可组合代理技能，聚焦编码前需求澄清与返工抑制"
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "latestDate": "2026-08-08",
+      "latestRank": 3,
+      "tagsCn": [
+        "AI Agent",
+        "Dev Tool",
+        "Workflow"
+      ],
+      "lastTagline": "生产级代理技能集，八条命令贯穿开发到交付"
+    },
     {
       "repo": "cloudflare/computer",
       "url": "https://github.com/cloudflare/computer",
@@ -13,19 +51,6 @@
         "Preview"
       ],
       "lastTagline": "给 AI 代理一个虚拟文件系统和多后端运行环境"
-    },
-    {
-      "repo": "mattpocock/skills",
-      "url": "https://github.com/mattpocock/skills",
-      "latestDate": "2026-08-07",
-      "latestRank": 2,
-      "tagsCn": [
-        "AI Agent",
-        "Dev Tool",
-        "Claude Code",
-        "Workflow"
-      ],
-      "lastTagline": "工程师实战技能包，把需求提问和代理工作流标准化"
     },
     {
       "repo": "firecrawl/pdf-inspector",
@@ -504,19 +529,6 @@
         "办公自动化"
       ],
       "lastTagline": "AI代理Office套件，单二进制读写Word/Excel/PPT"
-    },
-    {
-      "repo": "addyosmani/agent-skills",
-      "url": "https://github.com/addyosmani/agent-skills",
-      "latestDate": "2026-07-11",
-      "latestRank": 3,
-      "tagsCn": [
-        "AI Agent",
-        "开发规范",
-        "代码质量",
-        "Claude Code"
-      ],
-      "lastTagline": "生产级工程技能集合，让AI代理遵循开发全生命周期规范"
     },
     {
       "repo": "MadsLorentzen/ai-job-search",
