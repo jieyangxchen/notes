@@ -1,43 +1,41 @@
 {
-  "generatedAt": "2026-08-08T08:18:42.958617+08:00",
+  "generatedAt": "2026-08-09T08:02:46.864890+08:00",
   "projects": [
     {
       "repo": "PrimeIntellect-ai/prime-agent",
       "url": "https://github.com/PrimeIntellect-ai/prime-agent",
-      "latestDate": "2026-08-08",
+      "latestDate": "2026-08-09",
       "latestRank": 1,
       "tagsCn": [
         "学术研究",
         "AI Agent",
-        "Dev Tool",
-        "Autonomy"
+        "RLM"
       ],
-      "lastTagline": "可自改进的RLM编码代理，面向长期自主任务"
+      "lastTagline": "自改进RLM代理，长时运行研究型编码任务"
     },
     {
       "repo": "mattpocock/skills",
       "url": "https://github.com/mattpocock/skills",
-      "latestDate": "2026-08-08",
+      "latestDate": "2026-08-09",
       "latestRank": 2,
       "tagsCn": [
         "AI Agent",
-        "Dev Tool",
-        "Workflow",
-        "Claude Code"
+        "Claude Code",
+        "Skills"
       ],
-      "lastTagline": "轻量可组合代理技能，聚焦编码前需求澄清与返工抑制"
+      "lastTagline": "轻量可组合技能集，编码前结构化澄清需求"
     },
     {
       "repo": "addyosmani/agent-skills",
       "url": "https://github.com/addyosmani/agent-skills",
-      "latestDate": "2026-08-08",
+      "latestDate": "2026-08-09",
       "latestRank": 3,
       "tagsCn": [
         "AI Agent",
         "Dev Tool",
-        "Workflow"
+        "Skills"
       ],
-      "lastTagline": "生产级代理技能集，八条命令贯穿开发到交付"
+      "lastTagline": "生产级代理技能，从规格到发布的全流程门禁"
     },
     {
       "repo": "cloudflare/computer",
