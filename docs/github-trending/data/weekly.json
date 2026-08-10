@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-09T08:02:46.864890+08:00",
-  "window": "2026-08-03..2026-08-09",
+  "generatedAt": "2026-08-10T08:08:31.178591+08:00",
+  "window": "2026-08-04..2026-08-10",
   "topProjects": [
     {
       "repo": "firecrawl/pdf-inspector",
@@ -17,17 +17,16 @@
       "judgement": "近 7 次记录中出现 4 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
-      "repo": "zhaoxuya520/reverse-skill",
-      "url": "https://github.com/zhaoxuya520/reverse-skill",
+      "repo": "PrimeIntellect-ai/prime-agent",
+      "url": "https://github.com/PrimeIntellect-ai/prime-agent",
       "tagsCn": [
-        "Security",
+        "学术研究",
         "AI Agent",
-        "Reverse Engineering",
-        "Penetration Testing"
+        "Autonomous Coding"
       ],
       "appearances": 3,
       "bestRank": 1,
-      "latestDate": "2026-08-05",
+      "latestDate": "2026-08-10",
       "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
@@ -44,29 +43,30 @@
       "judgement": "近 7 次记录中出现 3 次，最佳排名第 2，适合优先复盘详情。"
     },
     {
-      "repo": "PrimeIntellect-ai/prime-agent",
-      "url": "https://github.com/PrimeIntellect-ai/prime-agent",
+      "repo": "addyosmani/agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
       "tagsCn": [
-        "学术研究",
         "AI Agent",
-        "RLM"
+        "Dev Tool",
+        "Workflow"
       ],
-      "appearances": 2,
-      "bestRank": 1,
-      "latestDate": "2026-08-09",
-      "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
+      "appearances": 3,
+      "bestRank": 3,
+      "latestDate": "2026-08-10",
+      "judgement": "近 7 次记录中出现 3 次，最佳排名第 3，适合优先复盘详情。"
     },
     {
-      "repo": "microsoft/AI-For-Beginners",
-      "url": "https://github.com/microsoft/AI-For-Beginners",
+      "repo": "zhaoxuya520/reverse-skill",
+      "url": "https://github.com/zhaoxuya520/reverse-skill",
       "tagsCn": [
-        "AI",
-        "Education",
-        "Machine Learning"
+        "Security",
+        "AI Agent",
+        "Reverse Engineering",
+        "Penetration Testing"
       ],
       "appearances": 2,
       "bestRank": 1,
-      "latestDate": "2026-08-04",
+      "latestDate": "2026-08-05",
       "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
     }
   ],
@@ -77,29 +77,24 @@
       "track": "08-04#3 -> 08-05#1 -> 08-06#2 -> 08-07#3"
     },
     {
+      "repo": "PrimeIntellect-ai/prime-agent",
+      "days": 3,
+      "track": "08-08#1 -> 08-09#1 -> 08-10#1"
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "days": 3,
+      "track": "08-08#3 -> 08-09#3 -> 08-10#3"
+    },
+    {
       "repo": "mattpocock/skills",
       "days": 3,
       "track": "08-07#2 -> 08-08#2 -> 08-09#2"
     },
     {
       "repo": "zhaoxuya520/reverse-skill",
-      "days": 3,
-      "track": "08-03#2 -> 08-04#1 -> 08-05#2"
-    },
-    {
-      "repo": "PrimeIntellect-ai/prime-agent",
       "days": 2,
-      "track": "08-08#1 -> 08-09#1"
-    },
-    {
-      "repo": "addyosmani/agent-skills",
-      "days": 2,
-      "track": "08-08#3 -> 08-09#3"
-    },
-    {
-      "repo": "microsoft/AI-For-Beginners",
-      "days": 2,
-      "track": "08-03#1 -> 08-04#2"
+      "track": "08-04#1 -> 08-05#2"
     }
   ]
 }

@@ -1,17 +1,41 @@
 {
-  "generatedAt": "2026-08-09T08:02:46.864890+08:00",
+  "generatedAt": "2026-08-10T08:08:31.178591+08:00",
   "projects": [
     {
       "repo": "PrimeIntellect-ai/prime-agent",
       "url": "https://github.com/PrimeIntellect-ai/prime-agent",
-      "latestDate": "2026-08-09",
+      "latestDate": "2026-08-10",
       "latestRank": 1,
       "tagsCn": [
         "学术研究",
         "AI Agent",
-        "RLM"
+        "Autonomous Coding"
       ],
-      "lastTagline": "自改进RLM代理，长时运行研究型编码任务"
+      "lastTagline": "自改进推理模型代理，长时任务自主运行"
+    },
+    {
+      "repo": "msitarzewski/agency-agents",
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "latestDate": "2026-08-10",
+      "latestRank": 2,
+      "tagsCn": [
+        "AI Agent",
+        "Role Library",
+        "Desktop App"
+      ],
+      "lastTagline": "预制专家角色库，一键接入主流编码工具"
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "latestDate": "2026-08-10",
+      "latestRank": 3,
+      "tagsCn": [
+        "AI Agent",
+        "Dev Tool",
+        "Workflow"
+      ],
+      "lastTagline": "生产级编码技能库，规范代理研发全流程"
     },
     {
       "repo": "mattpocock/skills",
@@ -24,18 +48,6 @@
         "Skills"
       ],
       "lastTagline": "轻量可组合技能集，编码前结构化澄清需求"
-    },
-    {
-      "repo": "addyosmani/agent-skills",
-      "url": "https://github.com/addyosmani/agent-skills",
-      "latestDate": "2026-08-09",
-      "latestRank": 3,
-      "tagsCn": [
-        "AI Agent",
-        "Dev Tool",
-        "Skills"
-      ],
-      "lastTagline": "生产级代理技能，从规格到发布的全流程门禁"
     },
     {
       "repo": "cloudflare/computer",
@@ -617,19 +629,6 @@
         "Efficiency"
       ],
       "lastTagline": "让 AI 编码代理说“原始人话”，输出 token 节省 65%"
-    },
-    {
-      "repo": "msitarzewski/agency-agents",
-      "url": "https://github.com/msitarzewski/agency-agents",
-      "latestDate": "2026-07-03",
-      "latestRank": 1,
-      "tagsCn": [
-        "AI Agent",
-        "提示工程",
-        "角色库",
-        "Dev Tool"
-      ],
-      "lastTagline": "AI 角色库，从 Reddit 运营到前端开发，一键注入专业代理。"
     },
     {
       "repo": "hasaneyldrm/exercises-dataset",

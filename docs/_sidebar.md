@@ -8,6 +8,7 @@
   * [跟踪说明](github-trending/README.md)
   * [近 7 次周报](github-trending/weekly.md)
   * [2026-08](github-trending/2026-08.md)
+    * [2026-08-10](github-trending/2026-08-10.md)
     * [2026-08-09](github-trending/2026-08-09.md)
     * [2026-08-08](github-trending/2026-08-08.md)
     * [2026-08-07](github-trending/2026-08-07.md)
