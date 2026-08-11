@@ -1,29 +1,44 @@
 {
-  "generatedAt": "2026-08-10T08:08:31.178591+08:00",
+  "generatedAt": "2026-08-11T08:02:28.056827+08:00",
   "projects": [
     {
       "repo": "PrimeIntellect-ai/prime-agent",
       "url": "https://github.com/PrimeIntellect-ai/prime-agent",
-      "latestDate": "2026-08-10",
+      "latestDate": "2026-08-11",
       "latestRank": 1,
       "tagsCn": [
-        "学术研究",
         "AI Agent",
-        "Autonomous Coding"
+        "学术研究",
+        "Coding",
+        "Self-improving"
       ],
-      "lastTagline": "自改进推理模型代理，长时任务自主运行"
+      "lastTagline": "自改进 RLM 编码代理，长时任务可无人值守"
     },
     {
       "repo": "msitarzewski/agency-agents",
       "url": "https://github.com/msitarzewski/agency-agents",
-      "latestDate": "2026-08-10",
+      "latestDate": "2026-08-11",
       "latestRank": 2,
       "tagsCn": [
         "AI Agent",
-        "Role Library",
-        "Desktop App"
+        "Dev Tool",
+        "Workflow",
+        "Prompt Library"
       ],
-      "lastTagline": "预制专家角色库，一键接入主流编码工具"
+      "lastTagline": "预制 AI 专家角色库，Cursor 一键即插即用"
+    },
+    {
+      "repo": "semantica-agi/semantica",
+      "url": "https://github.com/semantica-agi/semantica",
+      "latestDate": "2026-08-11",
+      "latestRank": 3,
+      "tagsCn": [
+        "AI Agent",
+        "Knowledge Graph",
+        "AI Governance",
+        "Dev Tool"
+      ],
+      "lastTagline": "图原生 AI 上下文基础设施，企业级决策可溯源"
     },
     {
       "repo": "addyosmani/agent-skills",
