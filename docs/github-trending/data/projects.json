@@ -1,44 +1,44 @@
 {
-  "generatedAt": "2026-08-11T08:02:28.056827+08:00",
+  "generatedAt": "2026-08-12T08:02:25.441451+08:00",
   "projects": [
     {
       "repo": "PrimeIntellect-ai/prime-agent",
       "url": "https://github.com/PrimeIntellect-ai/prime-agent",
-      "latestDate": "2026-08-11",
+      "latestDate": "2026-08-12",
       "latestRank": 1,
       "tagsCn": [
-        "AI Agent",
         "学术研究",
-        "Coding",
-        "Self-improving"
+        "AI Agent",
+        "自改进代理",
+        "Python"
       ],
-      "lastTagline": "自改进 RLM 编码代理，长时任务可无人值守"
+      "lastTagline": "自改进 RLM 编码代理，长时自主任务利器"
     },
     {
       "repo": "msitarzewski/agency-agents",
       "url": "https://github.com/msitarzewski/agency-agents",
-      "latestDate": "2026-08-11",
+      "latestDate": "2026-08-12",
       "latestRank": 2,
       "tagsCn": [
         "AI Agent",
         "Dev Tool",
-        "Workflow",
-        "Prompt Library"
+        "角色库",
+        "内容生成"
       ],
-      "lastTagline": "预制 AI 专家角色库，Cursor 一键即插即用"
+      "lastTagline": "预制 AI 专家角色库，快速注入 Cursor 等工具"
     },
     {
       "repo": "semantica-agi/semantica",
       "url": "https://github.com/semantica-agi/semantica",
-      "latestDate": "2026-08-11",
+      "latestDate": "2026-08-12",
       "latestRank": 3,
       "tagsCn": [
         "AI Agent",
         "Knowledge Graph",
         "AI Governance",
-        "Dev Tool"
+        "Graph RAG"
       ],
-      "lastTagline": "图原生 AI 上下文基础设施，企业级决策可溯源"
+      "lastTagline": "开源 Palantir：上下文图+决策溯源"
     },
     {
       "repo": "addyosmani/agent-skills",

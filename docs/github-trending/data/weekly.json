@@ -1,34 +1,20 @@
 {
-  "generatedAt": "2026-08-11T08:02:28.056827+08:00",
-  "window": "2026-08-05..2026-08-11",
+  "generatedAt": "2026-08-12T08:02:25.441451+08:00",
+  "window": "2026-08-06..2026-08-12",
   "topProjects": [
     {
       "repo": "PrimeIntellect-ai/prime-agent",
       "url": "https://github.com/PrimeIntellect-ai/prime-agent",
       "tagsCn": [
-        "AI Agent",
         "学术研究",
-        "Coding",
-        "Self-improving"
+        "AI Agent",
+        "自改进代理",
+        "Python"
       ],
-      "appearances": 4,
+      "appearances": 5,
       "bestRank": 1,
-      "latestDate": "2026-08-11",
-      "judgement": "近 7 次记录中出现 4 次，最佳排名第 1，适合优先复盘详情。"
-    },
-    {
-      "repo": "firecrawl/pdf-inspector",
-      "url": "https://github.com/firecrawl/pdf-inspector",
-      "tagsCn": [
-        "PDF",
-        "Dev Tool",
-        "OCR",
-        "Rust"
-      ],
-      "appearances": 3,
-      "bestRank": 1,
-      "latestDate": "2026-08-07",
-      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
+      "latestDate": "2026-08-12",
+      "judgement": "近 7 次记录中出现 5 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
       "repo": "mattpocock/skills",
@@ -41,6 +27,20 @@
       "appearances": 3,
       "bestRank": 2,
       "latestDate": "2026-08-09",
+      "judgement": "近 7 次记录中出现 3 次，最佳排名第 2，适合优先复盘详情。"
+    },
+    {
+      "repo": "msitarzewski/agency-agents",
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "tagsCn": [
+        "AI Agent",
+        "Dev Tool",
+        "角色库",
+        "内容生成"
+      ],
+      "appearances": 3,
+      "bestRank": 2,
+      "latestDate": "2026-08-12",
       "judgement": "近 7 次记录中出现 3 次，最佳排名第 2，适合优先复盘详情。"
     },
     {
@@ -57,35 +57,30 @@
       "judgement": "近 7 次记录中出现 3 次，最佳排名第 3，适合优先复盘详情。"
     },
     {
-      "repo": "msitarzewski/agency-agents",
-      "url": "https://github.com/msitarzewski/agency-agents",
+      "repo": "firecrawl/pdf-inspector",
+      "url": "https://github.com/firecrawl/pdf-inspector",
       "tagsCn": [
-        "AI Agent",
+        "PDF",
         "Dev Tool",
-        "Workflow",
-        "Prompt Library"
+        "OCR",
+        "Rust"
       ],
       "appearances": 2,
       "bestRank": 2,
-      "latestDate": "2026-08-11",
+      "latestDate": "2026-08-07",
       "judgement": "近 7 次记录中出现 2 次，最佳排名第 2，适合优先复盘详情。"
     }
   ],
   "streaks": [
     {
       "repo": "PrimeIntellect-ai/prime-agent",
-      "days": 4,
-      "track": "08-08#1 -> 08-09#1 -> 08-10#1 -> 08-11#1"
+      "days": 5,
+      "track": "08-08#1 -> 08-09#1 -> 08-10#1 -> 08-11#1 -> 08-12#1"
     },
     {
       "repo": "addyosmani/agent-skills",
       "days": 3,
       "track": "08-08#3 -> 08-09#3 -> 08-10#3"
-    },
-    {
-      "repo": "firecrawl/pdf-inspector",
-      "days": 3,
-      "track": "08-05#1 -> 08-06#2 -> 08-07#3"
     },
     {
       "repo": "mattpocock/skills",
@@ -94,8 +89,18 @@
     },
     {
       "repo": "msitarzewski/agency-agents",
+      "days": 3,
+      "track": "08-10#2 -> 08-11#2 -> 08-12#2"
+    },
+    {
+      "repo": "firecrawl/pdf-inspector",
       "days": 2,
-      "track": "08-10#2 -> 08-11#2"
+      "track": "08-06#2 -> 08-07#3"
+    },
+    {
+      "repo": "semantica-agi/semantica",
+      "days": 2,
+      "track": "08-11#3 -> 08-12#3"
     }
   ]
 }
