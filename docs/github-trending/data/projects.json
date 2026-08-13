@@ -1,6 +1,45 @@
 {
-  "generatedAt": "2026-08-12T08:02:25.441451+08:00",
+  "generatedAt": "2026-08-13T08:05:15.356023+08:00",
   "projects": [
+    {
+      "repo": "cathrynlavery/diagram-design",
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "latestDate": "2026-08-13",
+      "latestRank": 1,
+      "tagsCn": [
+        "AI Agent",
+        "Dev Tool",
+        "Design",
+        "Claude Code"
+      ],
+      "lastTagline": "29 种编辑级图示类型，让 AI 图表告别丑陋与千篇一律"
+    },
+    {
+      "repo": "msitarzewski/agency-agents",
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "latestDate": "2026-08-13",
+      "latestRank": 2,
+      "tagsCn": [
+        "AI Agent",
+        "Dev Tool",
+        "Content",
+        "Role Library"
+      ],
+      "lastTagline": "预制多类型 AI 专家角色库，一键安装进 Cursor 与 Claude Code 等工具"
+    },
+    {
+      "repo": "stablyai/orca",
+      "url": "https://github.com/stablyai/orca",
+      "latestDate": "2026-08-13",
+      "latestRank": 3,
+      "tagsCn": [
+        "AI Agent",
+        "Dev Tool",
+        "Orchestration",
+        "IDE"
+      ],
+      "lastTagline": "多智能体并行编码 IDE，支持手机监控与 SSH 远程运行"
+    },
     {
       "repo": "PrimeIntellect-ai/prime-agent",
       "url": "https://github.com/PrimeIntellect-ai/prime-agent",
@@ -13,19 +52,6 @@
         "Python"
       ],
       "lastTagline": "自改进 RLM 编码代理，长时自主任务利器"
-    },
-    {
-      "repo": "msitarzewski/agency-agents",
-      "url": "https://github.com/msitarzewski/agency-agents",
-      "latestDate": "2026-08-12",
-      "latestRank": 2,
-      "tagsCn": [
-        "AI Agent",
-        "Dev Tool",
-        "角色库",
-        "内容生成"
-      ],
-      "lastTagline": "预制 AI 专家角色库，快速注入 Cursor 等工具"
     },
     {
       "repo": "semantica-agi/semantica",
