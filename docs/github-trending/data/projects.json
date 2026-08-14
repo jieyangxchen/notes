@@ -1,31 +1,41 @@
 {
-  "generatedAt": "2026-08-13T08:05:15.356023+08:00",
+  "generatedAt": "2026-08-14T08:09:07.033735+08:00",
   "projects": [
     {
       "repo": "cathrynlavery/diagram-design",
       "url": "https://github.com/cathrynlavery/diagram-design",
-      "latestDate": "2026-08-13",
+      "latestDate": "2026-08-14",
       "latestRank": 1,
       "tagsCn": [
         "AI Agent",
         "Dev Tool",
-        "Design",
-        "Claude Code"
+        "Diagram"
       ],
-      "lastTagline": "29 种编辑级图示类型，让 AI 图表告别丑陋与千篇一律"
+      "lastTagline": "为智能体编码工具提供二十九种编辑级图表样式"
+    },
+    {
+      "repo": "macro-inc/macro",
+      "url": "https://github.com/macro-inc/macro",
+      "latestDate": "2026-08-14",
+      "latestRank": 2,
+      "tagsCn": [
+        "AI Agent",
+        "Workspace",
+        "Productivity"
+      ],
+      "lastTagline": "统一邮件、文档、任务与智能体的团队工作台"
     },
     {
       "repo": "msitarzewski/agency-agents",
       "url": "https://github.com/msitarzewski/agency-agents",
-      "latestDate": "2026-08-13",
-      "latestRank": 2,
+      "latestDate": "2026-08-14",
+      "latestRank": 3,
       "tagsCn": [
         "AI Agent",
         "Dev Tool",
-        "Content",
-        "Role Library"
+        "Template"
       ],
-      "lastTagline": "预制多类型 AI 专家角色库，一键安装进 Cursor 与 Claude Code 等工具"
+      "lastTagline": "提供整套AI专家角色，从编程到运营一键安装"
     },
     {
       "repo": "stablyai/orca",
