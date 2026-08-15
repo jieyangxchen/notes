@@ -1,17 +1,44 @@
 {
-  "generatedAt": "2026-08-14T08:09:07.033735+08:00",
+  "generatedAt": "2026-08-15T08:03:32.057047+08:00",
   "projects": [
     {
       "repo": "cathrynlavery/diagram-design",
       "url": "https://github.com/cathrynlavery/diagram-design",
-      "latestDate": "2026-08-14",
+      "latestDate": "2026-08-15",
       "latestRank": 1,
       "tagsCn": [
         "AI Agent",
-        "Dev Tool",
-        "Diagram"
+        "Design",
+        "Claude Code",
+        "SVG"
       ],
-      "lastTagline": "为智能体编码工具提供二十九种编辑级图表样式"
+      "lastTagline": "29 种编辑级图示，告别 Mermaid-Slop"
+    },
+    {
+      "repo": "semantica-agi/semantica",
+      "url": "https://github.com/semantica-agi/semantica",
+      "latestDate": "2026-08-15",
+      "latestRank": 2,
+      "tagsCn": [
+        "AI Agent",
+        "AI Governance",
+        "Graph-RAG",
+        "Knowledge Graph"
+      ],
+      "lastTagline": "开源 Palantir，让 AI 决策可溯源"
+    },
+    {
+      "repo": "github/spec-kit",
+      "url": "https://github.com/github/spec-kit",
+      "latestDate": "2026-08-15",
+      "latestRank": 3,
+      "tagsCn": [
+        "AI Agent",
+        "Dev Tool",
+        "Spec-Driven Dev",
+        "GitHub"
+      ],
+      "lastTagline": "规范驱动开发，让 Agent 按 Spec 编程"
     },
     {
       "repo": "macro-inc/macro",
@@ -62,19 +89,6 @@
         "Python"
       ],
       "lastTagline": "自改进 RLM 编码代理，长时自主任务利器"
-    },
-    {
-      "repo": "semantica-agi/semantica",
-      "url": "https://github.com/semantica-agi/semantica",
-      "latestDate": "2026-08-12",
-      "latestRank": 3,
-      "tagsCn": [
-        "AI Agent",
-        "Knowledge Graph",
-        "AI Governance",
-        "Graph RAG"
-      ],
-      "lastTagline": "开源 Palantir：上下文图+决策溯源"
     },
     {
       "repo": "addyosmani/agent-skills",
