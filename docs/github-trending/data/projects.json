@@ -1,18 +1,43 @@
 {
-  "generatedAt": "2026-08-15T08:03:32.057047+08:00",
+  "generatedAt": "2026-08-16T08:02:17.332409+08:00",
   "projects": [
+    {
+      "repo": "public-apis/public-apis",
+      "url": "https://github.com/public-apis/public-apis",
+      "latestDate": "2026-08-16",
+      "latestRank": 1,
+      "tagsCn": [
+        "API",
+        "Resource",
+        "Dev Tool"
+      ],
+      "lastTagline": "免费公共 API 集合，覆盖多领域且社区维护"
+    },
     {
       "repo": "cathrynlavery/diagram-design",
       "url": "https://github.com/cathrynlavery/diagram-design",
-      "latestDate": "2026-08-15",
-      "latestRank": 1,
+      "latestDate": "2026-08-16",
+      "latestRank": 2,
       "tagsCn": [
         "AI Agent",
-        "Design",
+        "Diagram",
         "Claude Code",
         "SVG"
       ],
-      "lastTagline": "29 种编辑级图示，告别 Mermaid-Slop"
+      "lastTagline": "AI 生成 29 种编辑级图示，输出自包含 HTML/SVG"
+    },
+    {
+      "repo": "github/spec-kit",
+      "url": "https://github.com/github/spec-kit",
+      "latestDate": "2026-08-16",
+      "latestRank": 3,
+      "tagsCn": [
+        "AI Agent",
+        "Spec-Driven",
+        "Dev Tool",
+        "CLI"
+      ],
+      "lastTagline": "将 PRD 转为可执行规格，驱动 AI 编码 Agent"
     },
     {
       "repo": "semantica-agi/semantica",
@@ -26,19 +51,6 @@
         "Knowledge Graph"
       ],
       "lastTagline": "开源 Palantir，让 AI 决策可溯源"
-    },
-    {
-      "repo": "github/spec-kit",
-      "url": "https://github.com/github/spec-kit",
-      "latestDate": "2026-08-15",
-      "latestRank": 3,
-      "tagsCn": [
-        "AI Agent",
-        "Dev Tool",
-        "Spec-Driven Dev",
-        "GitHub"
-      ],
-      "lastTagline": "规范驱动开发，让 Agent 按 Spec 编程"
     },
     {
       "repo": "macro-inc/macro",

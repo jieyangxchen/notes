@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-15T08:03:32.057047+08:00",
-  "window": "2026-08-09..2026-08-15",
+  "generatedAt": "2026-08-16T08:02:17.332409+08:00",
+  "window": "2026-08-10..2026-08-16",
   "topProjects": [
     {
       "repo": "msitarzewski/agency-agents",
@@ -16,6 +16,20 @@
       "judgement": "近 7 次记录中出现 5 次，最佳排名第 2，适合优先复盘详情。"
     },
     {
+      "repo": "cathrynlavery/diagram-design",
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "tagsCn": [
+        "AI Agent",
+        "Diagram",
+        "Claude Code",
+        "SVG"
+      ],
+      "appearances": 4,
+      "bestRank": 1,
+      "latestDate": "2026-08-16",
+      "judgement": "近 7 次记录中出现 4 次，最佳排名第 1，适合优先复盘详情。"
+    },
+    {
       "repo": "PrimeIntellect-ai/prime-agent",
       "url": "https://github.com/PrimeIntellect-ai/prime-agent",
       "tagsCn": [
@@ -24,23 +38,9 @@
         "自改进代理",
         "Python"
       ],
-      "appearances": 4,
-      "bestRank": 1,
-      "latestDate": "2026-08-12",
-      "judgement": "近 7 次记录中出现 4 次，最佳排名第 1，适合优先复盘详情。"
-    },
-    {
-      "repo": "cathrynlavery/diagram-design",
-      "url": "https://github.com/cathrynlavery/diagram-design",
-      "tagsCn": [
-        "AI Agent",
-        "Design",
-        "Claude Code",
-        "SVG"
-      ],
       "appearances": 3,
       "bestRank": 1,
-      "latestDate": "2026-08-15",
+      "latestDate": "2026-08-12",
       "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
@@ -58,16 +58,17 @@
       "judgement": "近 7 次记录中出现 3 次，最佳排名第 2，适合优先复盘详情。"
     },
     {
-      "repo": "addyosmani/agent-skills",
-      "url": "https://github.com/addyosmani/agent-skills",
+      "repo": "github/spec-kit",
+      "url": "https://github.com/github/spec-kit",
       "tagsCn": [
         "AI Agent",
+        "Spec-Driven",
         "Dev Tool",
-        "Workflow"
+        "CLI"
       ],
       "appearances": 2,
       "bestRank": 3,
-      "latestDate": "2026-08-10",
+      "latestDate": "2026-08-16",
       "judgement": "近 7 次记录中出现 2 次，最佳排名第 3，适合优先复盘详情。"
     }
   ],
@@ -78,19 +79,19 @@
       "track": "08-10#2 -> 08-11#2 -> 08-12#2 -> 08-13#2 -> 08-14#3"
     },
     {
-      "repo": "PrimeIntellect-ai/prime-agent",
-      "days": 4,
-      "track": "08-09#1 -> 08-10#1 -> 08-11#1 -> 08-12#1"
-    },
-    {
       "repo": "cathrynlavery/diagram-design",
-      "days": 3,
-      "track": "08-13#1 -> 08-14#1 -> 08-15#1"
+      "days": 4,
+      "track": "08-13#1 -> 08-14#1 -> 08-15#1 -> 08-16#2"
     },
     {
-      "repo": "addyosmani/agent-skills",
+      "repo": "PrimeIntellect-ai/prime-agent",
+      "days": 3,
+      "track": "08-10#1 -> 08-11#1 -> 08-12#1"
+    },
+    {
+      "repo": "github/spec-kit",
       "days": 2,
-      "track": "08-09#3 -> 08-10#3"
+      "track": "08-15#3 -> 08-16#3"
     }
   ]
 }
