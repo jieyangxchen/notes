@@ -1,17 +1,41 @@
 {
-  "generatedAt": "2026-08-16T08:02:17.332409+08:00",
+  "generatedAt": "2026-08-17T08:03:17.795141+08:00",
   "projects": [
     {
       "repo": "public-apis/public-apis",
       "url": "https://github.com/public-apis/public-apis",
-      "latestDate": "2026-08-16",
+      "latestDate": "2026-08-17",
       "latestRank": 1,
       "tagsCn": [
         "API",
-        "Resource",
-        "Dev Tool"
+        "Dev Tool",
+        "开源"
       ],
-      "lastTagline": "免费公共 API 集合，覆盖多领域且社区维护"
+      "lastTagline": "免费公开接口大全，帮你快速筛选可用服务"
+    },
+    {
+      "repo": "cordiverse/cordis",
+      "url": "https://github.com/cordiverse/cordis",
+      "latestDate": "2026-08-17",
+      "latestRank": 2,
+      "tagsCn": [
+        "学术研究",
+        "框架",
+        "时空计算"
+      ],
+      "lastTagline": "面向时空可组合性的元框架，论文与文档公开"
+    },
+    {
+      "repo": "unslothai/unsloth",
+      "url": "https://github.com/unslothai/unsloth",
+      "latestDate": "2026-08-17",
+      "latestRank": 3,
+      "tagsCn": [
+        "AI Agent",
+        "LLM",
+        "本地部署"
+      ],
+      "lastTagline": "本地桌面端运行与训练大模型，兼容多系列模型"
     },
     {
       "repo": "cathrynlavery/diagram-design",

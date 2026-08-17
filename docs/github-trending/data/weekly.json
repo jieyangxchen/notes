@@ -1,20 +1,7 @@
 {
-  "generatedAt": "2026-08-16T08:02:17.332409+08:00",
-  "window": "2026-08-10..2026-08-16",
+  "generatedAt": "2026-08-17T08:03:17.795141+08:00",
+  "window": "2026-08-11..2026-08-17",
   "topProjects": [
-    {
-      "repo": "msitarzewski/agency-agents",
-      "url": "https://github.com/msitarzewski/agency-agents",
-      "tagsCn": [
-        "AI Agent",
-        "Dev Tool",
-        "Template"
-      ],
-      "appearances": 5,
-      "bestRank": 2,
-      "latestDate": "2026-08-14",
-      "judgement": "近 7 次记录中出现 5 次，最佳排名第 2，适合优先复盘详情。"
-    },
     {
       "repo": "cathrynlavery/diagram-design",
       "url": "https://github.com/cathrynlavery/diagram-design",
@@ -30,18 +17,17 @@
       "judgement": "近 7 次记录中出现 4 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
-      "repo": "PrimeIntellect-ai/prime-agent",
-      "url": "https://github.com/PrimeIntellect-ai/prime-agent",
+      "repo": "msitarzewski/agency-agents",
+      "url": "https://github.com/msitarzewski/agency-agents",
       "tagsCn": [
-        "学术研究",
         "AI Agent",
-        "自改进代理",
-        "Python"
+        "Dev Tool",
+        "Template"
       ],
-      "appearances": 3,
-      "bestRank": 1,
-      "latestDate": "2026-08-12",
-      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
+      "appearances": 4,
+      "bestRank": 2,
+      "latestDate": "2026-08-14",
+      "judgement": "近 7 次记录中出现 4 次，最佳排名第 2，适合优先复盘详情。"
     },
     {
       "repo": "semantica-agi/semantica",
@@ -58,40 +44,58 @@
       "judgement": "近 7 次记录中出现 3 次，最佳排名第 2，适合优先复盘详情。"
     },
     {
-      "repo": "github/spec-kit",
-      "url": "https://github.com/github/spec-kit",
+      "repo": "PrimeIntellect-ai/prime-agent",
+      "url": "https://github.com/PrimeIntellect-ai/prime-agent",
       "tagsCn": [
+        "学术研究",
         "AI Agent",
-        "Spec-Driven",
-        "Dev Tool",
-        "CLI"
+        "自改进代理",
+        "Python"
       ],
       "appearances": 2,
-      "bestRank": 3,
-      "latestDate": "2026-08-16",
-      "judgement": "近 7 次记录中出现 2 次，最佳排名第 3，适合优先复盘详情。"
+      "bestRank": 1,
+      "latestDate": "2026-08-12",
+      "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
+    },
+    {
+      "repo": "public-apis/public-apis",
+      "url": "https://github.com/public-apis/public-apis",
+      "tagsCn": [
+        "API",
+        "Dev Tool",
+        "开源"
+      ],
+      "appearances": 2,
+      "bestRank": 1,
+      "latestDate": "2026-08-17",
+      "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
     }
   ],
   "streaks": [
-    {
-      "repo": "msitarzewski/agency-agents",
-      "days": 5,
-      "track": "08-10#2 -> 08-11#2 -> 08-12#2 -> 08-13#2 -> 08-14#3"
-    },
     {
       "repo": "cathrynlavery/diagram-design",
       "days": 4,
       "track": "08-13#1 -> 08-14#1 -> 08-15#1 -> 08-16#2"
     },
     {
+      "repo": "msitarzewski/agency-agents",
+      "days": 4,
+      "track": "08-11#2 -> 08-12#2 -> 08-13#2 -> 08-14#3"
+    },
+    {
       "repo": "PrimeIntellect-ai/prime-agent",
-      "days": 3,
-      "track": "08-10#1 -> 08-11#1 -> 08-12#1"
+      "days": 2,
+      "track": "08-11#1 -> 08-12#1"
     },
     {
       "repo": "github/spec-kit",
       "days": 2,
       "track": "08-15#3 -> 08-16#3"
+    },
+    {
+      "repo": "public-apis/public-apis",
+      "days": 2,
+      "track": "08-16#1 -> 08-17#1"
     }
   ]
 }
