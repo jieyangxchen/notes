@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-17T08:03:17.795141+08:00",
-  "window": "2026-08-11..2026-08-17",
+  "generatedAt": "2026-08-18T08:03:07.690995+08:00",
+  "window": "2026-08-12..2026-08-18",
   "topProjects": [
     {
       "repo": "cathrynlavery/diagram-design",
@@ -24,38 +24,10 @@
         "Dev Tool",
         "Template"
       ],
-      "appearances": 4,
-      "bestRank": 2,
-      "latestDate": "2026-08-14",
-      "judgement": "近 7 次记录中出现 4 次，最佳排名第 2，适合优先复盘详情。"
-    },
-    {
-      "repo": "semantica-agi/semantica",
-      "url": "https://github.com/semantica-agi/semantica",
-      "tagsCn": [
-        "AI Agent",
-        "AI Governance",
-        "Graph-RAG",
-        "Knowledge Graph"
-      ],
       "appearances": 3,
       "bestRank": 2,
-      "latestDate": "2026-08-15",
+      "latestDate": "2026-08-14",
       "judgement": "近 7 次记录中出现 3 次，最佳排名第 2，适合优先复盘详情。"
-    },
-    {
-      "repo": "PrimeIntellect-ai/prime-agent",
-      "url": "https://github.com/PrimeIntellect-ai/prime-agent",
-      "tagsCn": [
-        "学术研究",
-        "AI Agent",
-        "自改进代理",
-        "Python"
-      ],
-      "appearances": 2,
-      "bestRank": 1,
-      "latestDate": "2026-08-12",
-      "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
       "repo": "public-apis/public-apis",
@@ -69,6 +41,34 @@
       "bestRank": 1,
       "latestDate": "2026-08-17",
       "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
+    },
+    {
+      "repo": "cordiverse/cordis",
+      "url": "https://github.com/cordiverse/cordis",
+      "tagsCn": [
+        "学术研究",
+        "Meta-Framework",
+        "Spatiotemporal",
+        "Node.js"
+      ],
+      "appearances": 2,
+      "bestRank": 2,
+      "latestDate": "2026-08-18",
+      "judgement": "近 7 次记录中出现 2 次，最佳排名第 2，适合优先复盘详情。"
+    },
+    {
+      "repo": "semantica-agi/semantica",
+      "url": "https://github.com/semantica-agi/semantica",
+      "tagsCn": [
+        "AI Agent",
+        "AI Governance",
+        "Graph-RAG",
+        "Knowledge Graph"
+      ],
+      "appearances": 2,
+      "bestRank": 2,
+      "latestDate": "2026-08-15",
+      "judgement": "近 7 次记录中出现 2 次，最佳排名第 2，适合优先复盘详情。"
     }
   ],
   "streaks": [
@@ -79,13 +79,13 @@
     },
     {
       "repo": "msitarzewski/agency-agents",
-      "days": 4,
-      "track": "08-11#2 -> 08-12#2 -> 08-13#2 -> 08-14#3"
+      "days": 3,
+      "track": "08-12#2 -> 08-13#2 -> 08-14#3"
     },
     {
-      "repo": "PrimeIntellect-ai/prime-agent",
+      "repo": "cordiverse/cordis",
       "days": 2,
-      "track": "08-11#1 -> 08-12#1"
+      "track": "08-17#2 -> 08-18#2"
     },
     {
       "repo": "github/spec-kit",

@@ -1,6 +1,45 @@
 {
-  "generatedAt": "2026-08-17T08:03:17.795141+08:00",
+  "generatedAt": "2026-08-18T08:03:07.690995+08:00",
   "projects": [
+    {
+      "repo": "harry0703/MoneyPrinterTurbo",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "latestDate": "2026-08-18",
+      "latestRank": 1,
+      "tagsCn": [
+        "AI Agent",
+        "Video Generation",
+        "Content Creation",
+        "LLM"
+      ],
+      "lastTagline": "输入主题关键词，自动生成配音字幕齐全的高清短视频"
+    },
+    {
+      "repo": "cordiverse/cordis",
+      "url": "https://github.com/cordiverse/cordis",
+      "latestDate": "2026-08-18",
+      "latestRank": 2,
+      "tagsCn": [
+        "学术研究",
+        "Meta-Framework",
+        "Spatiotemporal",
+        "Node.js"
+      ],
+      "lastTagline": "研究时空组合性的元框架，当前仅适合概念验证"
+    },
+    {
+      "repo": "usestrix/strix",
+      "url": "https://github.com/usestrix/strix",
+      "latestDate": "2026-08-18",
+      "latestRank": 3,
+      "tagsCn": [
+        "AI Agent",
+        "Security",
+        "Penetration Testing",
+        "Dev Tool"
+      ],
+      "lastTagline": "开源AI渗透测试工具，自动发现漏洞并生成PoC"
+    },
     {
       "repo": "public-apis/public-apis",
       "url": "https://github.com/public-apis/public-apis",
@@ -12,18 +51,6 @@
         "开源"
       ],
       "lastTagline": "免费公开接口大全，帮你快速筛选可用服务"
-    },
-    {
-      "repo": "cordiverse/cordis",
-      "url": "https://github.com/cordiverse/cordis",
-      "latestDate": "2026-08-17",
-      "latestRank": 2,
-      "tagsCn": [
-        "学术研究",
-        "框架",
-        "时空计算"
-      ],
-      "lastTagline": "面向时空可组合性的元框架，论文与文档公开"
     },
     {
       "repo": "unslothai/unsloth",
@@ -705,19 +732,6 @@
         "Claude Code"
       ],
       "lastTagline": "在Claude Code中直接调度Codex进行代码审查与任务代理的官方插件"
-    },
-    {
-      "repo": "usestrix/strix",
-      "url": "https://github.com/usestrix/strix",
-      "latestDate": "2026-07-06",
-      "latestRank": 3,
-      "tagsCn": [
-        "AI Agent",
-        "Security",
-        "Penetration Testing",
-        "DevSecOps"
-      ],
-      "lastTagline": "开源AI渗透测试代理，自动发现并验证应用漏洞，提供修复方案"
     },
     {
       "repo": "JuliusBrussee/caveman",
