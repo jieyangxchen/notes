@@ -1,18 +1,41 @@
 {
-  "generatedAt": "2026-08-18T08:03:07.690995+08:00",
+  "generatedAt": "2026-08-19T08:02:04.955051+08:00",
   "projects": [
     {
       "repo": "harry0703/MoneyPrinterTurbo",
       "url": "https://github.com/harry0703/MoneyPrinterTurbo",
-      "latestDate": "2026-08-18",
+      "latestDate": "2026-08-19",
       "latestRank": 1,
       "tagsCn": [
         "AI Agent",
-        "Video Generation",
-        "Content Creation",
+        "短视频生成",
         "LLM"
       ],
-      "lastTagline": "输入主题关键词，自动生成配音字幕齐全的高清短视频"
+      "lastTagline": "AI 一键生成高清短视频，脚本配音字幕全自动"
+    },
+    {
+      "repo": "public-apis/public-apis",
+      "url": "https://github.com/public-apis/public-apis",
+      "latestDate": "2026-08-19",
+      "latestRank": 2,
+      "tagsCn": [
+        "API",
+        "Dev Tool",
+        "Reference"
+      ],
+      "lastTagline": "收录数千免费公开 API 的社区维护清单"
+    },
+    {
+      "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+      "latestDate": "2026-08-19",
+      "latestRank": 3,
+      "tagsCn": [
+        "AI Agent",
+        "Security",
+        "Cybersecurity"
+      ],
+      "lastTagline": "817 项网络安全技能库，覆盖 29 个安全域"
     },
     {
       "repo": "cordiverse/cordis",
@@ -39,18 +62,6 @@
         "Dev Tool"
       ],
       "lastTagline": "开源AI渗透测试工具，自动发现漏洞并生成PoC"
-    },
-    {
-      "repo": "public-apis/public-apis",
-      "url": "https://github.com/public-apis/public-apis",
-      "latestDate": "2026-08-17",
-      "latestRank": 1,
-      "tagsCn": [
-        "API",
-        "Dev Tool",
-        "开源"
-      ],
-      "lastTagline": "免费公开接口大全，帮你快速筛选可用服务"
     },
     {
       "repo": "unslothai/unsloth",

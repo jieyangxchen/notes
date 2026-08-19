@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-18T08:03:07.690995+08:00",
-  "window": "2026-08-12..2026-08-18",
+  "generatedAt": "2026-08-19T08:02:04.955051+08:00",
+  "window": "2026-08-13..2026-08-19",
   "topProjects": [
     {
       "repo": "cathrynlavery/diagram-design",
@@ -17,29 +17,29 @@
       "judgement": "近 7 次记录中出现 4 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
-      "repo": "msitarzewski/agency-agents",
-      "url": "https://github.com/msitarzewski/agency-agents",
-      "tagsCn": [
-        "AI Agent",
-        "Dev Tool",
-        "Template"
-      ],
-      "appearances": 3,
-      "bestRank": 2,
-      "latestDate": "2026-08-14",
-      "judgement": "近 7 次记录中出现 3 次，最佳排名第 2，适合优先复盘详情。"
-    },
-    {
       "repo": "public-apis/public-apis",
       "url": "https://github.com/public-apis/public-apis",
       "tagsCn": [
         "API",
         "Dev Tool",
-        "开源"
+        "Reference"
+      ],
+      "appearances": 3,
+      "bestRank": 1,
+      "latestDate": "2026-08-19",
+      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
+    },
+    {
+      "repo": "harry0703/MoneyPrinterTurbo",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "tagsCn": [
+        "AI Agent",
+        "短视频生成",
+        "LLM"
       ],
       "appearances": 2,
       "bestRank": 1,
-      "latestDate": "2026-08-17",
+      "latestDate": "2026-08-19",
       "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
@@ -57,17 +57,16 @@
       "judgement": "近 7 次记录中出现 2 次，最佳排名第 2，适合优先复盘详情。"
     },
     {
-      "repo": "semantica-agi/semantica",
-      "url": "https://github.com/semantica-agi/semantica",
+      "repo": "msitarzewski/agency-agents",
+      "url": "https://github.com/msitarzewski/agency-agents",
       "tagsCn": [
         "AI Agent",
-        "AI Governance",
-        "Graph-RAG",
-        "Knowledge Graph"
+        "Dev Tool",
+        "Template"
       ],
       "appearances": 2,
       "bestRank": 2,
-      "latestDate": "2026-08-15",
+      "latestDate": "2026-08-14",
       "judgement": "近 7 次记录中出现 2 次，最佳排名第 2，适合优先复盘详情。"
     }
   ],
@@ -76,11 +75,6 @@
       "repo": "cathrynlavery/diagram-design",
       "days": 4,
       "track": "08-13#1 -> 08-14#1 -> 08-15#1 -> 08-16#2"
-    },
-    {
-      "repo": "msitarzewski/agency-agents",
-      "days": 3,
-      "track": "08-12#2 -> 08-13#2 -> 08-14#3"
     },
     {
       "repo": "cordiverse/cordis",
@@ -93,9 +87,14 @@
       "track": "08-15#3 -> 08-16#3"
     },
     {
-      "repo": "public-apis/public-apis",
+      "repo": "harry0703/MoneyPrinterTurbo",
       "days": 2,
-      "track": "08-16#1 -> 08-17#1"
+      "track": "08-18#1 -> 08-19#1"
+    },
+    {
+      "repo": "msitarzewski/agency-agents",
+      "days": 2,
+      "track": "08-13#2 -> 08-14#3"
     }
   ]
 }
