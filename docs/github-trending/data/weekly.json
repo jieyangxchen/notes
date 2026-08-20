@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-19T08:02:04.955051+08:00",
-  "window": "2026-08-13..2026-08-19",
+  "generatedAt": "2026-08-20T08:02:15.142208+08:00",
+  "window": "2026-08-14..2026-08-20",
   "topProjects": [
     {
       "repo": "cathrynlavery/diagram-design",
@@ -11,10 +11,23 @@
         "Claude Code",
         "SVG"
       ],
-      "appearances": 4,
+      "appearances": 3,
       "bestRank": 1,
       "latestDate": "2026-08-16",
-      "judgement": "近 7 次记录中出现 4 次，最佳排名第 1，适合优先复盘详情。"
+      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
+    },
+    {
+      "repo": "harry0703/MoneyPrinterTurbo",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "tagsCn": [
+        "AI Agent",
+        "Video Generation",
+        "Automation"
+      ],
+      "appearances": 3,
+      "bestRank": 1,
+      "latestDate": "2026-08-20",
+      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
       "repo": "public-apis/public-apis",
@@ -28,19 +41,6 @@
       "bestRank": 1,
       "latestDate": "2026-08-19",
       "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
-    },
-    {
-      "repo": "harry0703/MoneyPrinterTurbo",
-      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
-      "tagsCn": [
-        "AI Agent",
-        "短视频生成",
-        "LLM"
-      ],
-      "appearances": 2,
-      "bestRank": 1,
-      "latestDate": "2026-08-19",
-      "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
       "repo": "cordiverse/cordis",
@@ -57,24 +57,30 @@
       "judgement": "近 7 次记录中出现 2 次，最佳排名第 2，适合优先复盘详情。"
     },
     {
-      "repo": "msitarzewski/agency-agents",
-      "url": "https://github.com/msitarzewski/agency-agents",
+      "repo": "github/spec-kit",
+      "url": "https://github.com/github/spec-kit",
       "tagsCn": [
         "AI Agent",
+        "Spec-Driven",
         "Dev Tool",
-        "Template"
+        "CLI"
       ],
       "appearances": 2,
-      "bestRank": 2,
-      "latestDate": "2026-08-14",
-      "judgement": "近 7 次记录中出现 2 次，最佳排名第 2，适合优先复盘详情。"
+      "bestRank": 3,
+      "latestDate": "2026-08-16",
+      "judgement": "近 7 次记录中出现 2 次，最佳排名第 3，适合优先复盘详情。"
     }
   ],
   "streaks": [
     {
       "repo": "cathrynlavery/diagram-design",
-      "days": 4,
-      "track": "08-13#1 -> 08-14#1 -> 08-15#1 -> 08-16#2"
+      "days": 3,
+      "track": "08-14#1 -> 08-15#1 -> 08-16#2"
+    },
+    {
+      "repo": "harry0703/MoneyPrinterTurbo",
+      "days": 3,
+      "track": "08-18#1 -> 08-19#1 -> 08-20#1"
     },
     {
       "repo": "cordiverse/cordis",
@@ -85,16 +91,6 @@
       "repo": "github/spec-kit",
       "days": 2,
       "track": "08-15#3 -> 08-16#3"
-    },
-    {
-      "repo": "harry0703/MoneyPrinterTurbo",
-      "days": 2,
-      "track": "08-18#1 -> 08-19#1"
-    },
-    {
-      "repo": "msitarzewski/agency-agents",
-      "days": 2,
-      "track": "08-13#2 -> 08-14#3"
     }
   ]
 }
