@@ -1,29 +1,42 @@
 {
-  "generatedAt": "2026-08-20T08:02:15.142208+08:00",
+  "generatedAt": "2026-08-21T08:02:01.802274+08:00",
   "projects": [
     {
       "repo": "harry0703/MoneyPrinterTurbo",
       "url": "https://github.com/harry0703/MoneyPrinterTurbo",
-      "latestDate": "2026-08-20",
+      "latestDate": "2026-08-21",
       "latestRank": 1,
       "tagsCn": [
         "AI Agent",
-        "Video Generation",
-        "Automation"
+        "Short Video",
+        "Content Creation"
       ],
-      "lastTagline": "输入关键词自动生成高清短视频，降低内容量产门槛"
+      "lastTagline": "输入关键词，AI 自动生成脚本、配音、字幕并合成高清短视频"
     },
     {
       "repo": "mattpocock/skills",
       "url": "https://github.com/mattpocock/skills",
-      "latestDate": "2026-08-20",
+      "latestDate": "2026-08-21",
       "latestRank": 2,
       "tagsCn": [
         "AI Agent",
         "Dev Tool",
         "Claude Code"
       ],
-      "lastTagline": "可组合的 AI 编码技能，让代理先追问需求再动手"
+      "lastTagline": "工程级 Agent 技能集，用 /grill-me 在编码前澄清需求"
+    },
+    {
+      "repo": "AprilNEA/OpenLogi",
+      "url": "https://github.com/AprilNEA/OpenLogi",
+      "latestDate": "2026-08-21",
+      "latestRank": 3,
+      "tagsCn": [
+        "开发工具",
+        "Rust",
+        "Logitech",
+        "隐私"
+      ],
+      "lastTagline": "本地优先的罗技 Options+ 替代品，Rust 编写、无遥测"
     },
     {
       "repo": "amadeusprotocol/node",
