@@ -1,42 +1,42 @@
 {
-  "generatedAt": "2026-08-21T08:02:01.802274+08:00",
+  "generatedAt": "2026-08-22T08:01:42.483355+08:00",
   "projects": [
-    {
-      "repo": "harry0703/MoneyPrinterTurbo",
-      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
-      "latestDate": "2026-08-21",
-      "latestRank": 1,
-      "tagsCn": [
-        "AI Agent",
-        "Short Video",
-        "Content Creation"
-      ],
-      "lastTagline": "输入关键词，AI 自动生成脚本、配音、字幕并合成高清短视频"
-    },
     {
       "repo": "mattpocock/skills",
       "url": "https://github.com/mattpocock/skills",
-      "latestDate": "2026-08-21",
-      "latestRank": 2,
+      "latestDate": "2026-08-22",
+      "latestRank": 1,
       "tagsCn": [
         "AI Agent",
-        "Dev Tool",
-        "Claude Code"
+        "Skills",
+        "Workflow"
       ],
-      "lastTagline": "工程级 Agent 技能集，用 /grill-me 在编码前澄清需求"
+      "lastTagline": "编码前需求澄清与任务拆解的技能包，降低返工"
     },
     {
       "repo": "AprilNEA/OpenLogi",
       "url": "https://github.com/AprilNEA/OpenLogi",
-      "latestDate": "2026-08-21",
+      "latestDate": "2026-08-22",
+      "latestRank": 2,
+      "tagsCn": [
+        "Dev Tool",
+        "Rust",
+        "Local-first",
+        "Hardware"
+      ],
+      "lastTagline": "罗技外设本地配置工具，Rust 打造，无账号无遥测"
+    },
+    {
+      "repo": "harry0703/MoneyPrinterTurbo",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "latestDate": "2026-08-22",
       "latestRank": 3,
       "tagsCn": [
-        "开发工具",
-        "Rust",
-        "Logitech",
-        "隐私"
+        "AI Agent",
+        "Short Video",
+        "Content Automation"
       ],
-      "lastTagline": "本地优先的罗技 Options+ 替代品，Rust 编写、无遥测"
+      "lastTagline": "一键生成高清短视频，中文运营团队的批量成片利器"
     },
     {
       "repo": "amadeusprotocol/node",
