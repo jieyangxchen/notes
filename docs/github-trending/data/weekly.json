@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-22T08:01:42.483355+08:00",
-  "window": "2026-08-16..2026-08-22",
+  "generatedAt": "2026-08-23T08:01:02.871099+08:00",
+  "window": "2026-08-17..2026-08-23",
   "topProjects": [
     {
       "repo": "harry0703/MoneyPrinterTurbo",
@@ -20,13 +20,26 @@
       "url": "https://github.com/mattpocock/skills",
       "tagsCn": [
         "AI Agent",
-        "Skills",
-        "Workflow"
+        "Dev Tool",
+        "Claude Code"
+      ],
+      "appearances": 4,
+      "bestRank": 1,
+      "latestDate": "2026-08-23",
+      "judgement": "近 7 次记录中出现 4 次，最佳排名第 1，适合优先复盘详情。"
+    },
+    {
+      "repo": "AprilNEA/OpenLogi",
+      "url": "https://github.com/AprilNEA/OpenLogi",
+      "tagsCn": [
+        "Dev Tool",
+        "Rust",
+        "Local-first"
       ],
       "appearances": 3,
-      "bestRank": 1,
-      "latestDate": "2026-08-22",
-      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
+      "bestRank": 2,
+      "latestDate": "2026-08-23",
+      "judgement": "近 7 次记录中出现 3 次，最佳排名第 2，适合优先复盘详情。"
     },
     {
       "repo": "public-apis/public-apis",
@@ -36,24 +49,10 @@
         "Dev Tool",
         "Reference"
       ],
-      "appearances": 3,
+      "appearances": 2,
       "bestRank": 1,
       "latestDate": "2026-08-19",
-      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
-    },
-    {
-      "repo": "AprilNEA/OpenLogi",
-      "url": "https://github.com/AprilNEA/OpenLogi",
-      "tagsCn": [
-        "Dev Tool",
-        "Rust",
-        "Local-first",
-        "Hardware"
-      ],
-      "appearances": 2,
-      "bestRank": 2,
-      "latestDate": "2026-08-22",
-      "judgement": "近 7 次记录中出现 2 次，最佳排名第 2，适合优先复盘详情。"
+      "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
       "repo": "cordiverse/cordis",
@@ -78,13 +77,13 @@
     },
     {
       "repo": "mattpocock/skills",
-      "days": 3,
-      "track": "08-20#2 -> 08-21#2 -> 08-22#1"
+      "days": 4,
+      "track": "08-20#2 -> 08-21#2 -> 08-22#1 -> 08-23#1"
     },
     {
       "repo": "AprilNEA/OpenLogi",
-      "days": 2,
-      "track": "08-21#3 -> 08-22#2"
+      "days": 3,
+      "track": "08-21#3 -> 08-22#2 -> 08-23#3"
     },
     {
       "repo": "cordiverse/cordis",

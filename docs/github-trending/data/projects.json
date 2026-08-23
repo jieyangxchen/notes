@@ -1,30 +1,41 @@
 {
-  "generatedAt": "2026-08-22T08:01:42.483355+08:00",
+  "generatedAt": "2026-08-23T08:01:02.871099+08:00",
   "projects": [
     {
       "repo": "mattpocock/skills",
       "url": "https://github.com/mattpocock/skills",
-      "latestDate": "2026-08-22",
+      "latestDate": "2026-08-23",
       "latestRank": 1,
       "tagsCn": [
         "AI Agent",
-        "Skills",
-        "Workflow"
+        "Dev Tool",
+        "Claude Code"
       ],
-      "lastTagline": "编码前需求澄清与任务拆解的技能包，降低返工"
+      "lastTagline": "工程师代理技能包：让 AI 先问再写"
+    },
+    {
+      "repo": "openai/codex",
+      "url": "https://github.com/openai/codex",
+      "latestDate": "2026-08-23",
+      "latestRank": 2,
+      "tagsCn": [
+        "AI Agent",
+        "Dev Tool",
+        "CLI"
+      ],
+      "lastTagline": "OpenAI 官方终端编码代理，轻量本地运行"
     },
     {
       "repo": "AprilNEA/OpenLogi",
       "url": "https://github.com/AprilNEA/OpenLogi",
-      "latestDate": "2026-08-22",
-      "latestRank": 2,
+      "latestDate": "2026-08-23",
+      "latestRank": 3,
       "tagsCn": [
         "Dev Tool",
         "Rust",
-        "Local-first",
-        "Hardware"
+        "Local-first"
       ],
-      "lastTagline": "罗技外设本地配置工具，Rust 打造，无账号无遥测"
+      "lastTagline": "本地优先的罗技外设配置工具，无账户无遥测"
     },
     {
       "repo": "harry0703/MoneyPrinterTurbo",
