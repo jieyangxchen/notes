@@ -1,29 +1,44 @@
 {
-  "generatedAt": "2026-08-23T08:01:02.871099+08:00",
+  "generatedAt": "2026-08-24T08:02:44.446264+08:00",
   "projects": [
     {
-      "repo": "mattpocock/skills",
-      "url": "https://github.com/mattpocock/skills",
-      "latestDate": "2026-08-23",
+      "repo": "openai/codex",
+      "url": "https://github.com/openai/codex",
+      "latestDate": "2026-08-24",
       "latestRank": 1,
       "tagsCn": [
         "AI Agent",
         "Dev Tool",
-        "Claude Code"
+        "CLI",
+        "Automation"
       ],
-      "lastTagline": "工程师代理技能包：让 AI 先问再写"
+      "lastTagline": "OpenAI 官方轻量编码代理，终端内本地执行并人工授权"
     },
     {
-      "repo": "openai/codex",
-      "url": "https://github.com/openai/codex",
-      "latestDate": "2026-08-23",
+      "repo": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "latestDate": "2026-08-24",
       "latestRank": 2,
       "tagsCn": [
         "AI Agent",
         "Dev Tool",
-        "CLI"
+        "Claude Code",
+        "Skill"
       ],
-      "lastTagline": "OpenAI 官方终端编码代理，轻量本地运行"
+      "lastTagline": "面向真实工程师的可组合技能集，编码前澄清需求"
+    },
+    {
+      "repo": "Alishahryar1/free-claude-code",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "latestDate": "2026-08-24",
+      "latestRank": 3,
+      "tagsCn": [
+        "AI Agent",
+        "API Proxy",
+        "Multi-Model",
+        "Free"
+      ],
+      "lastTagline": "兼容 Claude Code 的免费代理，路由多种模型与本地后端"
     },
     {
       "repo": "AprilNEA/OpenLogi",
