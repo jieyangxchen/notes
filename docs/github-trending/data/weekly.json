@@ -1,20 +1,7 @@
 {
-  "generatedAt": "2026-08-24T08:02:44.446264+08:00",
-  "window": "2026-08-18..2026-08-24",
+  "generatedAt": "2026-08-25T08:18:40.446771+08:00",
+  "window": "2026-08-19..2026-08-25",
   "topProjects": [
-    {
-      "repo": "harry0703/MoneyPrinterTurbo",
-      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
-      "tagsCn": [
-        "AI Agent",
-        "Short Video",
-        "Content Automation"
-      ],
-      "appearances": 5,
-      "bestRank": 1,
-      "latestDate": "2026-08-22",
-      "judgement": "近 7 次记录中出现 5 次，最佳排名第 1，适合优先复盘详情。"
-    },
     {
       "repo": "mattpocock/skills",
       "url": "https://github.com/mattpocock/skills",
@@ -30,17 +17,31 @@
       "judgement": "近 7 次记录中出现 5 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
+      "repo": "harry0703/MoneyPrinterTurbo",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "tagsCn": [
+        "AI Agent",
+        "Short Video",
+        "Content Automation"
+      ],
+      "appearances": 4,
+      "bestRank": 1,
+      "latestDate": "2026-08-22",
+      "judgement": "近 7 次记录中出现 4 次，最佳排名第 1，适合优先复盘详情。"
+    },
+    {
       "repo": "AprilNEA/OpenLogi",
       "url": "https://github.com/AprilNEA/OpenLogi",
       "tagsCn": [
         "Dev Tool",
+        "隐私",
         "Rust",
         "Local-first"
       ],
-      "appearances": 3,
+      "appearances": 4,
       "bestRank": 2,
-      "latestDate": "2026-08-23",
-      "judgement": "近 7 次记录中出现 3 次，最佳排名第 2，适合优先复盘详情。"
+      "latestDate": "2026-08-25",
+      "judgement": "近 7 次记录中出现 4 次，最佳排名第 2，适合优先复盘详情。"
     },
     {
       "repo": "openai/codex",
@@ -48,49 +49,43 @@
       "tagsCn": [
         "AI Agent",
         "Dev Tool",
-        "CLI",
-        "Automation"
+        "CLI"
       ],
-      "appearances": 2,
+      "appearances": 3,
       "bestRank": 1,
-      "latestDate": "2026-08-24",
-      "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
+      "latestDate": "2026-08-25",
+      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
-      "repo": "cordiverse/cordis",
-      "url": "https://github.com/cordiverse/cordis",
+      "repo": "freestylefly/awesome-gpt-image-2",
+      "url": "https://github.com/freestylefly/awesome-gpt-image-2",
       "tagsCn": [
-        "学术研究",
-        "Meta-Framework",
-        "Spatiotemporal",
-        "Node.js"
+        "AI Agent",
+        "Prompt Engineering",
+        "GPT-Image2",
+        "Template"
       ],
       "appearances": 1,
-      "bestRank": 2,
-      "latestDate": "2026-08-18",
-      "judgement": "近 7 次记录中出现 1 次，最佳排名第 2，适合优先复盘详情。"
+      "bestRank": 1,
+      "latestDate": "2026-08-25",
+      "judgement": "近 7 次记录中出现 1 次，最佳排名第 1，适合优先复盘详情。"
     }
   ],
   "streaks": [
-    {
-      "repo": "harry0703/MoneyPrinterTurbo",
-      "days": 5,
-      "track": "08-18#1 -> 08-19#1 -> 08-20#1 -> 08-21#1 -> 08-22#3"
-    },
     {
       "repo": "mattpocock/skills",
       "days": 5,
       "track": "08-20#2 -> 08-21#2 -> 08-22#1 -> 08-23#1 -> 08-24#2"
     },
     {
-      "repo": "AprilNEA/OpenLogi",
-      "days": 3,
-      "track": "08-21#3 -> 08-22#2 -> 08-23#3"
+      "repo": "harry0703/MoneyPrinterTurbo",
+      "days": 4,
+      "track": "08-19#1 -> 08-20#1 -> 08-21#1 -> 08-22#3"
     },
     {
       "repo": "openai/codex",
-      "days": 2,
-      "track": "08-23#2 -> 08-24#1"
+      "days": 3,
+      "track": "08-23#2 -> 08-24#1 -> 08-25#2"
     }
   ]
 }

@@ -1,18 +1,43 @@
 {
-  "generatedAt": "2026-08-24T08:02:44.446264+08:00",
+  "generatedAt": "2026-08-25T08:18:40.446771+08:00",
   "projects": [
     {
-      "repo": "openai/codex",
-      "url": "https://github.com/openai/codex",
-      "latestDate": "2026-08-24",
+      "repo": "freestylefly/awesome-gpt-image-2",
+      "url": "https://github.com/freestylefly/awesome-gpt-image-2",
+      "latestDate": "2026-08-25",
       "latestRank": 1,
       "tagsCn": [
         "AI Agent",
-        "Dev Tool",
-        "CLI",
-        "Automation"
+        "Prompt Engineering",
+        "GPT-Image2",
+        "Template"
       ],
-      "lastTagline": "OpenAI 官方轻量编码代理，终端内本地执行并人工授权"
+      "lastTagline": "GPT-Image2 工业级提示词模板库，530+ 案例逆向工程"
+    },
+    {
+      "repo": "openai/codex",
+      "url": "https://github.com/openai/codex",
+      "latestDate": "2026-08-25",
+      "latestRank": 2,
+      "tagsCn": [
+        "AI Agent",
+        "Dev Tool",
+        "CLI"
+      ],
+      "lastTagline": "OpenAI 终端编码代理，轻量本地执行代码任务"
+    },
+    {
+      "repo": "AprilNEA/OpenLogi",
+      "url": "https://github.com/AprilNEA/OpenLogi",
+      "latestDate": "2026-08-25",
+      "latestRank": 3,
+      "tagsCn": [
+        "Dev Tool",
+        "隐私",
+        "Rust",
+        "Local-first"
+      ],
+      "lastTagline": "罗技外设本地配置工具，免账号免遥测替代 Options+"
     },
     {
       "repo": "mattpocock/skills",
@@ -39,18 +64,6 @@
         "Free"
       ],
       "lastTagline": "兼容 Claude Code 的免费代理，路由多种模型与本地后端"
-    },
-    {
-      "repo": "AprilNEA/OpenLogi",
-      "url": "https://github.com/AprilNEA/OpenLogi",
-      "latestDate": "2026-08-23",
-      "latestRank": 3,
-      "tagsCn": [
-        "Dev Tool",
-        "Rust",
-        "Local-first"
-      ],
-      "lastTagline": "本地优先的罗技外设配置工具，无账户无遥测"
     },
     {
       "repo": "harry0703/MoneyPrinterTurbo",
