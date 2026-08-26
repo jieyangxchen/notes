@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-25T08:18:40.446771+08:00",
-  "window": "2026-08-19..2026-08-25",
+  "generatedAt": "2026-08-26T08:07:40.277702+08:00",
+  "window": "2026-08-20..2026-08-26",
   "topProjects": [
     {
       "repo": "mattpocock/skills",
@@ -17,16 +17,17 @@
       "judgement": "近 7 次记录中出现 5 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
-      "repo": "harry0703/MoneyPrinterTurbo",
-      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "repo": "openai/codex",
+      "url": "https://github.com/openai/codex",
       "tagsCn": [
         "AI Agent",
-        "Short Video",
-        "Content Automation"
+        "Dev Tool",
+        "Coding Agent",
+        "CLI"
       ],
       "appearances": 4,
       "bestRank": 1,
-      "latestDate": "2026-08-22",
+      "latestDate": "2026-08-26",
       "judgement": "近 7 次记录中出现 4 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
@@ -44,16 +45,16 @@
       "judgement": "近 7 次记录中出现 4 次，最佳排名第 2，适合优先复盘详情。"
     },
     {
-      "repo": "openai/codex",
-      "url": "https://github.com/openai/codex",
+      "repo": "harry0703/MoneyPrinterTurbo",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
       "tagsCn": [
         "AI Agent",
-        "Dev Tool",
-        "CLI"
+        "Short Video",
+        "Content Automation"
       ],
       "appearances": 3,
       "bestRank": 1,
-      "latestDate": "2026-08-25",
+      "latestDate": "2026-08-22",
       "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
@@ -62,13 +63,13 @@
       "tagsCn": [
         "AI Agent",
         "Prompt Engineering",
-        "GPT-Image2",
+        "Image Generation",
         "Template"
       ],
-      "appearances": 1,
+      "appearances": 2,
       "bestRank": 1,
-      "latestDate": "2026-08-25",
-      "judgement": "近 7 次记录中出现 1 次，最佳排名第 1，适合优先复盘详情。"
+      "latestDate": "2026-08-26",
+      "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
     }
   ],
   "streaks": [
@@ -78,14 +79,19 @@
       "track": "08-20#2 -> 08-21#2 -> 08-22#1 -> 08-23#1 -> 08-24#2"
     },
     {
-      "repo": "harry0703/MoneyPrinterTurbo",
+      "repo": "openai/codex",
       "days": 4,
-      "track": "08-19#1 -> 08-20#1 -> 08-21#1 -> 08-22#3"
+      "track": "08-23#2 -> 08-24#1 -> 08-25#2 -> 08-26#3"
     },
     {
-      "repo": "openai/codex",
+      "repo": "harry0703/MoneyPrinterTurbo",
       "days": 3,
-      "track": "08-23#2 -> 08-24#1 -> 08-25#2"
+      "track": "08-20#1 -> 08-21#1 -> 08-22#3"
+    },
+    {
+      "repo": "freestylefly/awesome-gpt-image-2",
+      "days": 2,
+      "track": "08-25#1 -> 08-26#1"
     }
   ]
 }
