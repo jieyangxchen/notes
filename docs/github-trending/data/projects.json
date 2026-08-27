@@ -1,31 +1,41 @@
 {
-  "generatedAt": "2026-08-26T08:07:40.277702+08:00",
+  "generatedAt": "2026-08-27T08:03:51.876819+08:00",
   "projects": [
     {
       "repo": "freestylefly/awesome-gpt-image-2",
       "url": "https://github.com/freestylefly/awesome-gpt-image-2",
-      "latestDate": "2026-08-26",
+      "latestDate": "2026-08-27",
       "latestRank": 1,
       "tagsCn": [
         "AI Agent",
         "Prompt Engineering",
-        "Image Generation",
-        "Template"
+        "Image Generation"
       ],
-      "lastTagline": "图像提示词代码化模板库，五百三十案例提炼模板"
+      "lastTagline": "图像提示词工程库：530+案例逆向提炼工业级模板"
+    },
+    {
+      "repo": "DietrichGebert/ponytail",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "latestDate": "2026-08-27",
+      "latestRank": 2,
+      "tagsCn": [
+        "AI Agent",
+        "Dev Tool",
+        "Prompt Engineering"
+      ],
+      "lastTagline": "让 AI 编码助手像最懒的资深工程师：平均少写 54% 代码"
     },
     {
       "repo": "MadsLorentzen/ai-job-search",
       "url": "https://github.com/MadsLorentzen/ai-job-search",
-      "latestDate": "2026-08-26",
-      "latestRank": 2,
+      "latestDate": "2026-08-27",
+      "latestRank": 3,
       "tagsCn": [
         "AI Agent",
         "学术研究",
-        "Career",
-        "Claude Code"
+        "Job Search"
       ],
-      "lastTagline": "本地运行的人工智能求职框架，评估职位定制简历准备面试"
+      "lastTagline": "AI 求职框架：本地运行，自动评估职位并定制申请材料"
     },
     {
       "repo": "openai/codex",

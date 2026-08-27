@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-26T08:07:40.277702+08:00",
-  "window": "2026-08-20..2026-08-26",
+  "generatedAt": "2026-08-27T08:03:51.876819+08:00",
+  "window": "2026-08-21..2026-08-27",
   "topProjects": [
     {
       "repo": "mattpocock/skills",
@@ -11,10 +11,10 @@
         "Claude Code",
         "Skill"
       ],
-      "appearances": 5,
+      "appearances": 4,
       "bestRank": 1,
       "latestDate": "2026-08-24",
-      "judgement": "近 7 次记录中出现 5 次，最佳排名第 1，适合优先复盘详情。"
+      "judgement": "近 7 次记录中出现 4 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
       "repo": "openai/codex",
@@ -45,6 +45,19 @@
       "judgement": "近 7 次记录中出现 4 次，最佳排名第 2，适合优先复盘详情。"
     },
     {
+      "repo": "freestylefly/awesome-gpt-image-2",
+      "url": "https://github.com/freestylefly/awesome-gpt-image-2",
+      "tagsCn": [
+        "AI Agent",
+        "Prompt Engineering",
+        "Image Generation"
+      ],
+      "appearances": 3,
+      "bestRank": 1,
+      "latestDate": "2026-08-27",
+      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
+    },
+    {
       "repo": "harry0703/MoneyPrinterTurbo",
       "url": "https://github.com/harry0703/MoneyPrinterTurbo",
       "tagsCn": [
@@ -52,31 +65,17 @@
         "Short Video",
         "Content Automation"
       ],
-      "appearances": 3,
-      "bestRank": 1,
-      "latestDate": "2026-08-22",
-      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
-    },
-    {
-      "repo": "freestylefly/awesome-gpt-image-2",
-      "url": "https://github.com/freestylefly/awesome-gpt-image-2",
-      "tagsCn": [
-        "AI Agent",
-        "Prompt Engineering",
-        "Image Generation",
-        "Template"
-      ],
       "appearances": 2,
       "bestRank": 1,
-      "latestDate": "2026-08-26",
+      "latestDate": "2026-08-22",
       "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
     }
   ],
   "streaks": [
     {
       "repo": "mattpocock/skills",
-      "days": 5,
-      "track": "08-20#2 -> 08-21#2 -> 08-22#1 -> 08-23#1 -> 08-24#2"
+      "days": 4,
+      "track": "08-21#2 -> 08-22#1 -> 08-23#1 -> 08-24#2"
     },
     {
       "repo": "openai/codex",
@@ -84,14 +83,19 @@
       "track": "08-23#2 -> 08-24#1 -> 08-25#2 -> 08-26#3"
     },
     {
-      "repo": "harry0703/MoneyPrinterTurbo",
+      "repo": "freestylefly/awesome-gpt-image-2",
       "days": 3,
-      "track": "08-20#1 -> 08-21#1 -> 08-22#3"
+      "track": "08-25#1 -> 08-26#1 -> 08-27#1"
     },
     {
-      "repo": "freestylefly/awesome-gpt-image-2",
+      "repo": "MadsLorentzen/ai-job-search",
       "days": 2,
-      "track": "08-25#1 -> 08-26#1"
+      "track": "08-26#2 -> 08-27#3"
+    },
+    {
+      "repo": "harry0703/MoneyPrinterTurbo",
+      "days": 2,
+      "track": "08-21#1 -> 08-22#3"
     }
   ]
 }
