@@ -1,17 +1,41 @@
 {
-  "generatedAt": "2026-08-27T08:03:51.876819+08:00",
+  "generatedAt": "2026-08-28T08:02:15.954643+08:00",
   "projects": [
+    {
+      "repo": "tt-a1i/archify",
+      "url": "https://github.com/tt-a1i/archify",
+      "latestDate": "2026-08-28",
+      "latestRank": 1,
+      "tagsCn": [
+        "AI Agent",
+        "Dev Tool",
+        "Diagrams-as-Code"
+      ],
+      "lastTagline": "把代码库变为可验证的交互式架构图，合并前先对比"
+    },
     {
       "repo": "freestylefly/awesome-gpt-image-2",
       "url": "https://github.com/freestylefly/awesome-gpt-image-2",
-      "latestDate": "2026-08-27",
-      "latestRank": 1,
+      "latestDate": "2026-08-28",
+      "latestRank": 2,
       "tagsCn": [
         "AI Agent",
         "Prompt Engineering",
         "Image Generation"
       ],
-      "lastTagline": "图像提示词工程库：530+案例逆向提炼工业级模板"
+      "lastTagline": "将 GPT-Image2 提示词当代码管理，用模板批量出图"
+    },
+    {
+      "repo": "bilawalsidhu/gods-eye-view",
+      "url": "https://github.com/bilawalsidhu/gods-eye-view",
+      "latestDate": "2026-08-28",
+      "latestRank": 3,
+      "tagsCn": [
+        "浏览器",
+        "Geospatial",
+        "OSINT"
+      ],
+      "lastTagline": "在浏览器里用 3D 地球实时追踪航班、船舶和卫星"
     },
     {
       "repo": "DietrichGebert/ponytail",

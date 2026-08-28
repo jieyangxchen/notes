@@ -1,19 +1,18 @@
 {
-  "generatedAt": "2026-08-27T08:03:51.876819+08:00",
-  "window": "2026-08-21..2026-08-27",
+  "generatedAt": "2026-08-28T08:02:15.954643+08:00",
+  "window": "2026-08-22..2026-08-28",
   "topProjects": [
     {
-      "repo": "mattpocock/skills",
-      "url": "https://github.com/mattpocock/skills",
+      "repo": "freestylefly/awesome-gpt-image-2",
+      "url": "https://github.com/freestylefly/awesome-gpt-image-2",
       "tagsCn": [
         "AI Agent",
-        "Dev Tool",
-        "Claude Code",
-        "Skill"
+        "Prompt Engineering",
+        "Image Generation"
       ],
       "appearances": 4,
       "bestRank": 1,
-      "latestDate": "2026-08-24",
+      "latestDate": "2026-08-28",
       "judgement": "近 7 次记录中出现 4 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
@@ -31,6 +30,20 @@
       "judgement": "近 7 次记录中出现 4 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
+      "repo": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "tagsCn": [
+        "AI Agent",
+        "Dev Tool",
+        "Claude Code",
+        "Skill"
+      ],
+      "appearances": 3,
+      "bestRank": 1,
+      "latestDate": "2026-08-24",
+      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
+    },
+    {
       "repo": "AprilNEA/OpenLogi",
       "url": "https://github.com/AprilNEA/OpenLogi",
       "tagsCn": [
@@ -39,43 +52,30 @@
         "Rust",
         "Local-first"
       ],
-      "appearances": 4,
+      "appearances": 3,
       "bestRank": 2,
       "latestDate": "2026-08-25",
-      "judgement": "近 7 次记录中出现 4 次，最佳排名第 2，适合优先复盘详情。"
+      "judgement": "近 7 次记录中出现 3 次，最佳排名第 2，适合优先复盘详情。"
     },
     {
-      "repo": "freestylefly/awesome-gpt-image-2",
-      "url": "https://github.com/freestylefly/awesome-gpt-image-2",
+      "repo": "MadsLorentzen/ai-job-search",
+      "url": "https://github.com/MadsLorentzen/ai-job-search",
       "tagsCn": [
         "AI Agent",
-        "Prompt Engineering",
-        "Image Generation"
-      ],
-      "appearances": 3,
-      "bestRank": 1,
-      "latestDate": "2026-08-27",
-      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
-    },
-    {
-      "repo": "harry0703/MoneyPrinterTurbo",
-      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
-      "tagsCn": [
-        "AI Agent",
-        "Short Video",
-        "Content Automation"
+        "学术研究",
+        "Job Search"
       ],
       "appearances": 2,
-      "bestRank": 1,
-      "latestDate": "2026-08-22",
-      "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
+      "bestRank": 2,
+      "latestDate": "2026-08-27",
+      "judgement": "近 7 次记录中出现 2 次，最佳排名第 2，适合优先复盘详情。"
     }
   ],
   "streaks": [
     {
-      "repo": "mattpocock/skills",
+      "repo": "freestylefly/awesome-gpt-image-2",
       "days": 4,
-      "track": "08-21#2 -> 08-22#1 -> 08-23#1 -> 08-24#2"
+      "track": "08-25#1 -> 08-26#1 -> 08-27#1 -> 08-28#2"
     },
     {
       "repo": "openai/codex",
@@ -83,19 +83,14 @@
       "track": "08-23#2 -> 08-24#1 -> 08-25#2 -> 08-26#3"
     },
     {
-      "repo": "freestylefly/awesome-gpt-image-2",
+      "repo": "mattpocock/skills",
       "days": 3,
-      "track": "08-25#1 -> 08-26#1 -> 08-27#1"
+      "track": "08-22#1 -> 08-23#1 -> 08-24#2"
     },
     {
       "repo": "MadsLorentzen/ai-job-search",
       "days": 2,
       "track": "08-26#2 -> 08-27#3"
-    },
-    {
-      "repo": "harry0703/MoneyPrinterTurbo",
-      "days": 2,
-      "track": "08-21#1 -> 08-22#3"
     }
   ]
 }
