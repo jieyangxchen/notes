@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-28T08:02:15.954643+08:00",
-  "window": "2026-08-22..2026-08-28",
+  "generatedAt": "2026-08-29T08:02:41.829248+08:00",
+  "window": "2026-08-23..2026-08-29",
   "topProjects": [
     {
       "repo": "freestylefly/awesome-gpt-image-2",
@@ -10,10 +10,10 @@
         "Prompt Engineering",
         "Image Generation"
       ],
-      "appearances": 4,
+      "appearances": 5,
       "bestRank": 1,
-      "latestDate": "2026-08-28",
-      "judgement": "近 7 次记录中出现 4 次，最佳排名第 1，适合优先复盘详情。"
+      "latestDate": "2026-08-29",
+      "judgement": "近 7 次记录中出现 5 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
       "repo": "openai/codex",
@@ -38,24 +38,23 @@
         "Claude Code",
         "Skill"
       ],
-      "appearances": 3,
+      "appearances": 2,
       "bestRank": 1,
       "latestDate": "2026-08-24",
-      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
+      "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
-      "repo": "AprilNEA/OpenLogi",
-      "url": "https://github.com/AprilNEA/OpenLogi",
+      "repo": "tt-a1i/archify",
+      "url": "https://github.com/tt-a1i/archify",
       "tagsCn": [
+        "AI Agent",
         "Dev Tool",
-        "隐私",
-        "Rust",
-        "Local-first"
+        "Architecture"
       ],
-      "appearances": 3,
-      "bestRank": 2,
-      "latestDate": "2026-08-25",
-      "judgement": "近 7 次记录中出现 3 次，最佳排名第 2，适合优先复盘详情。"
+      "appearances": 2,
+      "bestRank": 1,
+      "latestDate": "2026-08-29",
+      "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
       "repo": "MadsLorentzen/ai-job-search",
@@ -74,8 +73,8 @@
   "streaks": [
     {
       "repo": "freestylefly/awesome-gpt-image-2",
-      "days": 4,
-      "track": "08-25#1 -> 08-26#1 -> 08-27#1 -> 08-28#2"
+      "days": 5,
+      "track": "08-25#1 -> 08-26#1 -> 08-27#1 -> 08-28#2 -> 08-29#3"
     },
     {
       "repo": "openai/codex",
@@ -83,14 +82,24 @@
       "track": "08-23#2 -> 08-24#1 -> 08-25#2 -> 08-26#3"
     },
     {
-      "repo": "mattpocock/skills",
-      "days": 3,
-      "track": "08-22#1 -> 08-23#1 -> 08-24#2"
-    },
-    {
       "repo": "MadsLorentzen/ai-job-search",
       "days": 2,
       "track": "08-26#2 -> 08-27#3"
+    },
+    {
+      "repo": "bilawalsidhu/gods-eye-view",
+      "days": 2,
+      "track": "08-28#3 -> 08-29#2"
+    },
+    {
+      "repo": "mattpocock/skills",
+      "days": 2,
+      "track": "08-23#1 -> 08-24#2"
+    },
+    {
+      "repo": "tt-a1i/archify",
+      "days": 2,
+      "track": "08-28#1 -> 08-29#1"
     }
   ]
 }
