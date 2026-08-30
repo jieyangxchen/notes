@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-29T08:02:41.829248+08:00",
-  "window": "2026-08-23..2026-08-29",
+  "generatedAt": "2026-08-30T08:02:48.885718+08:00",
+  "window": "2026-08-24..2026-08-30",
   "topProjects": [
     {
       "repo": "freestylefly/awesome-gpt-image-2",
@@ -24,24 +24,10 @@
         "Coding Agent",
         "CLI"
       ],
-      "appearances": 4,
+      "appearances": 3,
       "bestRank": 1,
       "latestDate": "2026-08-26",
-      "judgement": "近 7 次记录中出现 4 次，最佳排名第 1，适合优先复盘详情。"
-    },
-    {
-      "repo": "mattpocock/skills",
-      "url": "https://github.com/mattpocock/skills",
-      "tagsCn": [
-        "AI Agent",
-        "Dev Tool",
-        "Claude Code",
-        "Skill"
-      ],
-      "appearances": 2,
-      "bestRank": 1,
-      "latestDate": "2026-08-24",
-      "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
+      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
       "repo": "tt-a1i/archify",
@@ -51,10 +37,23 @@
         "Dev Tool",
         "Architecture"
       ],
-      "appearances": 2,
+      "appearances": 3,
       "bestRank": 1,
-      "latestDate": "2026-08-29",
-      "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
+      "latestDate": "2026-08-30",
+      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
+    },
+    {
+      "repo": "bilawalsidhu/gods-eye-view",
+      "url": "https://github.com/bilawalsidhu/gods-eye-view",
+      "tagsCn": [
+        "浏览器",
+        "Geospatial",
+        "OSINT"
+      ],
+      "appearances": 3,
+      "bestRank": 2,
+      "latestDate": "2026-08-30",
+      "judgement": "近 7 次记录中出现 3 次，最佳排名第 2，适合优先复盘详情。"
     },
     {
       "repo": "MadsLorentzen/ai-job-search",
@@ -77,29 +76,24 @@
       "track": "08-25#1 -> 08-26#1 -> 08-27#1 -> 08-28#2 -> 08-29#3"
     },
     {
+      "repo": "bilawalsidhu/gods-eye-view",
+      "days": 3,
+      "track": "08-28#3 -> 08-29#2 -> 08-30#2"
+    },
+    {
       "repo": "openai/codex",
-      "days": 4,
-      "track": "08-23#2 -> 08-24#1 -> 08-25#2 -> 08-26#3"
+      "days": 3,
+      "track": "08-24#1 -> 08-25#2 -> 08-26#3"
+    },
+    {
+      "repo": "tt-a1i/archify",
+      "days": 3,
+      "track": "08-28#1 -> 08-29#1 -> 08-30#1"
     },
     {
       "repo": "MadsLorentzen/ai-job-search",
       "days": 2,
       "track": "08-26#2 -> 08-27#3"
-    },
-    {
-      "repo": "bilawalsidhu/gods-eye-view",
-      "days": 2,
-      "track": "08-28#3 -> 08-29#2"
-    },
-    {
-      "repo": "mattpocock/skills",
-      "days": 2,
-      "track": "08-23#1 -> 08-24#2"
-    },
-    {
-      "repo": "tt-a1i/archify",
-      "days": 2,
-      "track": "08-28#1 -> 08-29#1"
     }
   ]
 }

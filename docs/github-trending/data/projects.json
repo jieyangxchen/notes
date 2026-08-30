@@ -1,29 +1,41 @@
 {
-  "generatedAt": "2026-08-29T08:02:41.829248+08:00",
+  "generatedAt": "2026-08-30T08:02:48.885718+08:00",
   "projects": [
     {
       "repo": "tt-a1i/archify",
       "url": "https://github.com/tt-a1i/archify",
-      "latestDate": "2026-08-29",
+      "latestDate": "2026-08-30",
       "latestRank": 1,
       "tagsCn": [
         "AI Agent",
         "Dev Tool",
         "Architecture"
       ],
-      "lastTagline": "用五类图+快照对比，让编码代理生成可验证架构图"
+      "lastTagline": "AI代理生成可验证架构图，带变更快照对比"
     },
     {
       "repo": "bilawalsidhu/gods-eye-view",
       "url": "https://github.com/bilawalsidhu/gods-eye-view",
-      "latestDate": "2026-08-29",
+      "latestDate": "2026-08-30",
       "latestRank": 2,
       "tagsCn": [
         "浏览器",
         "Geospatial",
         "OSINT"
       ],
-      "lastTagline": "把全球公开信号变成可交互的3D实时地球"
+      "lastTagline": "浏览器里3D地球实时追踪航班船舶卫星等公开信号"
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "latestDate": "2026-08-30",
+      "latestRank": 3,
+      "tagsCn": [
+        "学术研究",
+        "AI Agent",
+        "Science"
+      ],
+      "lastTagline": "科学Agent技能库：为科研工作流提供可复用工具包"
     },
     {
       "repo": "freestylefly/awesome-gpt-image-2",
