@@ -1,17 +1,42 @@
 {
-  "generatedAt": "2026-08-30T08:02:48.885718+08:00",
+  "generatedAt": "2026-08-31T08:01:41.160951+08:00",
   "projects": [
     {
       "repo": "tt-a1i/archify",
       "url": "https://github.com/tt-a1i/archify",
-      "latestDate": "2026-08-30",
+      "latestDate": "2026-08-31",
       "latestRank": 1,
       "tagsCn": [
         "AI Agent",
         "Dev Tool",
         "Architecture"
       ],
-      "lastTagline": "AI代理生成可验证架构图，带变更快照对比"
+      "lastTagline": "生成五类可验证架构图，对比合并前后变化"
+    },
+    {
+      "repo": "THU-MAIC/OpenMAIC",
+      "url": "https://github.com/THU-MAIC/OpenMAIC",
+      "latestDate": "2026-08-31",
+      "latestRank": 2,
+      "tagsCn": [
+        "AI Agent",
+        "Education",
+        "Multi-Agent"
+      ],
+      "lastTagline": "一句话生成可交互课程，多智能体课堂一键开课"
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "latestDate": "2026-08-31",
+      "latestRank": 3,
+      "tagsCn": [
+        "学术研究",
+        "AI Agent",
+        "Bioinformatics",
+        "Dev Tool"
+      ],
+      "lastTagline": "让智能代理化身科研助手，技能经实测可复用"
     },
     {
       "repo": "bilawalsidhu/gods-eye-view",
@@ -24,18 +49,6 @@
         "OSINT"
       ],
       "lastTagline": "浏览器里3D地球实时追踪航班船舶卫星等公开信号"
-    },
-    {
-      "repo": "K-Dense-AI/scientific-agent-skills",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
-      "latestDate": "2026-08-30",
-      "latestRank": 3,
-      "tagsCn": [
-        "学术研究",
-        "AI Agent",
-        "Science"
-      ],
-      "lastTagline": "科学Agent技能库：为科研工作流提供可复用工具包"
     },
     {
       "repo": "freestylefly/awesome-gpt-image-2",
