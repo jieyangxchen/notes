@@ -1,42 +1,40 @@
 {
-  "generatedAt": "2026-08-31T08:01:41.160951+08:00",
+  "generatedAt": "2026-09-01T08:01:09.424575+08:00",
   "projects": [
     {
       "repo": "tt-a1i/archify",
       "url": "https://github.com/tt-a1i/archify",
-      "latestDate": "2026-08-31",
+      "latestDate": "2026-09-01",
       "latestRank": 1,
       "tagsCn": [
         "AI Agent",
         "Dev Tool",
         "Architecture"
       ],
-      "lastTagline": "生成五类可验证架构图，对比合并前后变化"
+      "lastTagline": "用AI代理把代码库生成可验证架构图，并在合并前对比变更"
     },
     {
       "repo": "THU-MAIC/OpenMAIC",
       "url": "https://github.com/THU-MAIC/OpenMAIC",
-      "latestDate": "2026-08-31",
+      "latestDate": "2026-09-01",
       "latestRank": 2,
       "tagsCn": [
         "AI Agent",
-        "Education",
-        "Multi-Agent"
+        "Education"
       ],
-      "lastTagline": "一句话生成可交互课程，多智能体课堂一键开课"
+      "lastTagline": "一句提示生成整门课程，多智能体交互式课堂"
     },
     {
       "repo": "K-Dense-AI/scientific-agent-skills",
       "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
-      "latestDate": "2026-08-31",
+      "latestDate": "2026-09-01",
       "latestRank": 3,
       "tagsCn": [
         "学术研究",
         "AI Agent",
-        "Bioinformatics",
-        "Dev Tool"
+        "Scientific Computing"
       ],
-      "lastTagline": "让智能代理化身科研助手，技能经实测可复用"
+      "lastTagline": "覆盖生物化学医药的160+科研技能库，让代理变身AI科学家"
     },
     {
       "repo": "bilawalsidhu/gods-eye-view",
