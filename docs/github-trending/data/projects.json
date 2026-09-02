@@ -1,6 +1,45 @@
 {
-  "generatedAt": "2026-09-01T08:01:09.424575+08:00",
+  "generatedAt": "2026-09-02T08:02:02.655876+08:00",
   "projects": [
+    {
+      "repo": "THU-MAIC/OpenMAIC",
+      "url": "https://github.com/THU-MAIC/OpenMAIC",
+      "latestDate": "2026-09-02",
+      "latestRank": 1,
+      "tagsCn": [
+        "AI Agent",
+        "教育科技",
+        "多智能体",
+        "自托管"
+      ],
+      "lastTagline": "一键生成多智能体互动课程，专业工作台人机协同备课"
+    },
+    {
+      "repo": "jingyaogong/minimind",
+      "url": "https://github.com/jingyaogong/minimind",
+      "latestDate": "2026-09-02",
+      "latestRank": 2,
+      "tagsCn": [
+        "LLM",
+        "教学",
+        "PyTorch",
+        "Dev Tool"
+      ],
+      "lastTagline": "三元成本两小时从零训练64M参数模型，全流程开源"
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "latestDate": "2026-09-02",
+      "latestRank": 3,
+      "tagsCn": [
+        "学术研究",
+        "AI Agent",
+        "科学计算",
+        "药物发现"
+      ],
+      "lastTagline": "把智能体变成科学家，165个科研技能连接100个数据库"
+    },
     {
       "repo": "tt-a1i/archify",
       "url": "https://github.com/tt-a1i/archify",
@@ -12,29 +51,6 @@
         "Architecture"
       ],
       "lastTagline": "用AI代理把代码库生成可验证架构图，并在合并前对比变更"
-    },
-    {
-      "repo": "THU-MAIC/OpenMAIC",
-      "url": "https://github.com/THU-MAIC/OpenMAIC",
-      "latestDate": "2026-09-01",
-      "latestRank": 2,
-      "tagsCn": [
-        "AI Agent",
-        "Education"
-      ],
-      "lastTagline": "一句提示生成整门课程，多智能体交互式课堂"
-    },
-    {
-      "repo": "K-Dense-AI/scientific-agent-skills",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
-      "latestDate": "2026-09-01",
-      "latestRank": 3,
-      "tagsCn": [
-        "学术研究",
-        "AI Agent",
-        "Scientific Computing"
-      ],
-      "lastTagline": "覆盖生物化学医药的160+科研技能库，让代理变身AI科学家"
     },
     {
       "repo": "bilawalsidhu/gods-eye-view",

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-01T08:01:09.424575+08:00",
-  "window": "2026-08-26..2026-09-01",
+  "generatedAt": "2026-09-02T08:02:02.655876+08:00",
+  "window": "2026-08-27..2026-09-02",
   "topProjects": [
     {
       "repo": "tt-a1i/archify",
@@ -16,6 +16,34 @@
       "judgement": "近 7 次记录中出现 5 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "tagsCn": [
+        "学术研究",
+        "AI Agent",
+        "科学计算",
+        "药物发现"
+      ],
+      "appearances": 4,
+      "bestRank": 3,
+      "latestDate": "2026-09-02",
+      "judgement": "近 7 次记录中出现 4 次，最佳排名第 3，适合优先复盘详情。"
+    },
+    {
+      "repo": "THU-MAIC/OpenMAIC",
+      "url": "https://github.com/THU-MAIC/OpenMAIC",
+      "tagsCn": [
+        "AI Agent",
+        "教育科技",
+        "多智能体",
+        "自托管"
+      ],
+      "appearances": 3,
+      "bestRank": 1,
+      "latestDate": "2026-09-02",
+      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
+    },
+    {
       "repo": "freestylefly/awesome-gpt-image-2",
       "url": "https://github.com/freestylefly/awesome-gpt-image-2",
       "tagsCn": [
@@ -23,10 +51,10 @@
         "Prompt Engineering",
         "Image Generation"
       ],
-      "appearances": 4,
+      "appearances": 3,
       "bestRank": 1,
       "latestDate": "2026-08-29",
-      "judgement": "近 7 次记录中出现 4 次，最佳排名第 1，适合优先复盘详情。"
+      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
       "repo": "bilawalsidhu/gods-eye-view",
@@ -40,32 +68,6 @@
       "bestRank": 2,
       "latestDate": "2026-08-30",
       "judgement": "近 7 次记录中出现 3 次，最佳排名第 2，适合优先复盘详情。"
-    },
-    {
-      "repo": "K-Dense-AI/scientific-agent-skills",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
-      "tagsCn": [
-        "学术研究",
-        "AI Agent",
-        "Scientific Computing"
-      ],
-      "appearances": 3,
-      "bestRank": 3,
-      "latestDate": "2026-09-01",
-      "judgement": "近 7 次记录中出现 3 次，最佳排名第 3，适合优先复盘详情。"
-    },
-    {
-      "repo": "MadsLorentzen/ai-job-search",
-      "url": "https://github.com/MadsLorentzen/ai-job-search",
-      "tagsCn": [
-        "AI Agent",
-        "学术研究",
-        "Job Search"
-      ],
-      "appearances": 2,
-      "bestRank": 2,
-      "latestDate": "2026-08-27",
-      "judgement": "近 7 次记录中出现 2 次，最佳排名第 2，适合优先复盘详情。"
     }
   ],
   "streaks": [
@@ -75,14 +77,14 @@
       "track": "08-28#1 -> 08-29#1 -> 08-30#1 -> 08-31#1 -> 09-01#1"
     },
     {
-      "repo": "freestylefly/awesome-gpt-image-2",
+      "repo": "K-Dense-AI/scientific-agent-skills",
       "days": 4,
-      "track": "08-26#1 -> 08-27#1 -> 08-28#2 -> 08-29#3"
+      "track": "08-30#3 -> 08-31#3 -> 09-01#3 -> 09-02#3"
     },
     {
-      "repo": "K-Dense-AI/scientific-agent-skills",
+      "repo": "THU-MAIC/OpenMAIC",
       "days": 3,
-      "track": "08-30#3 -> 08-31#3 -> 09-01#3"
+      "track": "08-31#2 -> 09-01#2 -> 09-02#1"
     },
     {
       "repo": "bilawalsidhu/gods-eye-view",
@@ -90,14 +92,9 @@
       "track": "08-28#3 -> 08-29#2 -> 08-30#2"
     },
     {
-      "repo": "MadsLorentzen/ai-job-search",
-      "days": 2,
-      "track": "08-26#2 -> 08-27#3"
-    },
-    {
-      "repo": "THU-MAIC/OpenMAIC",
-      "days": 2,
-      "track": "08-31#2 -> 09-01#2"
+      "repo": "freestylefly/awesome-gpt-image-2",
+      "days": 3,
+      "track": "08-27#1 -> 08-28#2 -> 08-29#3"
     }
   ]
 }
