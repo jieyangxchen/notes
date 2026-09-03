@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-02T08:02:02.655876+08:00",
-  "window": "2026-08-27..2026-09-02",
+  "generatedAt": "2026-09-03T08:02:28.413030+08:00",
+  "window": "2026-08-28..2026-09-03",
   "topProjects": [
     {
       "repo": "tt-a1i/archify",
@@ -44,19 +44,6 @@
       "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
-      "repo": "freestylefly/awesome-gpt-image-2",
-      "url": "https://github.com/freestylefly/awesome-gpt-image-2",
-      "tagsCn": [
-        "AI Agent",
-        "Prompt Engineering",
-        "Image Generation"
-      ],
-      "appearances": 3,
-      "bestRank": 1,
-      "latestDate": "2026-08-29",
-      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
-    },
-    {
       "repo": "bilawalsidhu/gods-eye-view",
       "url": "https://github.com/bilawalsidhu/gods-eye-view",
       "tagsCn": [
@@ -68,6 +55,19 @@
       "bestRank": 2,
       "latestDate": "2026-08-30",
       "judgement": "近 7 次记录中出现 3 次，最佳排名第 2，适合优先复盘详情。"
+    },
+    {
+      "repo": "freestylefly/awesome-gpt-image-2",
+      "url": "https://github.com/freestylefly/awesome-gpt-image-2",
+      "tagsCn": [
+        "AI Agent",
+        "Prompt Engineering",
+        "Image Generation"
+      ],
+      "appearances": 2,
+      "bestRank": 2,
+      "latestDate": "2026-08-29",
+      "judgement": "近 7 次记录中出现 2 次，最佳排名第 2，适合优先复盘详情。"
     }
   ],
   "streaks": [
@@ -93,8 +93,8 @@
     },
     {
       "repo": "freestylefly/awesome-gpt-image-2",
-      "days": 3,
-      "track": "08-27#1 -> 08-28#2 -> 08-29#3"
+      "days": 2,
+      "track": "08-28#2 -> 08-29#3"
     }
   ]
 }

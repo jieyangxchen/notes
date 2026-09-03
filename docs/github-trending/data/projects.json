@@ -1,6 +1,44 @@
 {
-  "generatedAt": "2026-09-02T08:02:02.655876+08:00",
+  "generatedAt": "2026-09-03T08:02:28.413030+08:00",
   "projects": [
+    {
+      "repo": "DietrichGebert/ponytail",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "latestDate": "2026-09-03",
+      "latestRank": 1,
+      "tagsCn": [
+        "AI Agent",
+        "Dev Tool",
+        "Agent Skills",
+        "YAGNI"
+      ],
+      "lastTagline": "把 YAGNI 塞进 Agent：默认少写代码，不砍安全护栏"
+    },
+    {
+      "repo": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "latestDate": "2026-09-03",
+      "latestRank": 2,
+      "tagsCn": [
+        "AI Agent",
+        "Dev Tool",
+        "Claude Code"
+      ],
+      "lastTagline": "把资深工程师经验变成可复用的 Agent 澄清技能"
+    },
+    {
+      "repo": "pacifio/atlas",
+      "url": "https://github.com/pacifio/atlas",
+      "latestDate": "2026-09-03",
+      "latestRank": 3,
+      "tagsCn": [
+        "AI Agent",
+        "Dev Tool",
+        "MCP",
+        "Source Control"
+      ],
+      "lastTagline": "给编码 Agent 加 Git 式审计，回看每次改动为何发生"
+    },
     {
       "repo": "THU-MAIC/OpenMAIC",
       "url": "https://github.com/THU-MAIC/OpenMAIC",
@@ -77,18 +115,6 @@
       "lastTagline": "GPT-Image2 工业级提示词模板库"
     },
     {
-      "repo": "DietrichGebert/ponytail",
-      "url": "https://github.com/DietrichGebert/ponytail",
-      "latestDate": "2026-08-27",
-      "latestRank": 2,
-      "tagsCn": [
-        "AI Agent",
-        "Dev Tool",
-        "Prompt Engineering"
-      ],
-      "lastTagline": "让 AI 编码助手像最懒的资深工程师：平均少写 54% 代码"
-    },
-    {
       "repo": "MadsLorentzen/ai-job-search",
       "url": "https://github.com/MadsLorentzen/ai-job-search",
       "latestDate": "2026-08-27",
@@ -125,19 +151,6 @@
         "Local-first"
       ],
       "lastTagline": "罗技外设本地配置工具，免账号免遥测替代 Options+"
-    },
-    {
-      "repo": "mattpocock/skills",
-      "url": "https://github.com/mattpocock/skills",
-      "latestDate": "2026-08-24",
-      "latestRank": 2,
-      "tagsCn": [
-        "AI Agent",
-        "Dev Tool",
-        "Claude Code",
-        "Skill"
-      ],
-      "lastTagline": "面向真实工程师的可组合技能集，编码前澄清需求"
     },
     {
       "repo": "Alishahryar1/free-claude-code",
