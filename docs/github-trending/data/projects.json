@@ -1,18 +1,44 @@
 {
-  "generatedAt": "2026-09-03T08:02:28.413030+08:00",
+  "generatedAt": "2026-09-04T08:19:45.194662+08:00",
   "projects": [
     {
       "repo": "DietrichGebert/ponytail",
       "url": "https://github.com/DietrichGebert/ponytail",
-      "latestDate": "2026-09-03",
+      "latestDate": "2026-09-04",
       "latestRank": 1,
       "tagsCn": [
         "AI Agent",
         "Dev Tool",
-        "Agent Skills",
+        "Claude Code",
         "YAGNI"
       ],
-      "lastTagline": "把 YAGNI 塞进 Agent：默认少写代码，不砍安全护栏"
+      "lastTagline": "给编码 Agent 装“最懒资深开发”技能，让改动最小化"
+    },
+    {
+      "repo": "debpalash/VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "latestDate": "2026-09-04",
+      "latestRank": 2,
+      "tagsCn": [
+        "Voice AI",
+        "Local-first",
+        "TTS",
+        "AI"
+      ],
+      "lastTagline": "本地优先的 ElevenLabs 开源替代：克隆、配音、转写、有声书"
+    },
+    {
+      "repo": "google-research/timesfm",
+      "url": "https://github.com/google-research/timesfm",
+      "latestDate": "2026-09-04",
+      "latestRank": 3,
+      "tagsCn": [
+        "学术研究",
+        "Time Series",
+        "Foundation Model",
+        "Forecasting"
+      ],
+      "lastTagline": "Google 开源时序基础模型，v3.0 新 checkpoint 待复测"
     },
     {
       "repo": "mattpocock/skills",

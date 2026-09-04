@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-03T08:02:28.413030+08:00",
-  "window": "2026-08-28..2026-09-03",
+  "generatedAt": "2026-09-04T08:19:45.194662+08:00",
+  "window": "2026-08-29..2026-09-04",
   "topProjects": [
     {
       "repo": "tt-a1i/archify",
@@ -10,10 +10,10 @@
         "Dev Tool",
         "Architecture"
       ],
-      "appearances": 5,
+      "appearances": 4,
       "bestRank": 1,
       "latestDate": "2026-09-01",
-      "judgement": "近 7 次记录中出现 5 次，最佳排名第 1，适合优先复盘详情。"
+      "judgement": "近 7 次记录中出现 4 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
       "repo": "K-Dense-AI/scientific-agent-skills",
@@ -44,6 +44,20 @@
       "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
+      "repo": "DietrichGebert/ponytail",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "tagsCn": [
+        "AI Agent",
+        "Dev Tool",
+        "Claude Code",
+        "YAGNI"
+      ],
+      "appearances": 2,
+      "bestRank": 1,
+      "latestDate": "2026-09-04",
+      "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
+    },
+    {
       "repo": "bilawalsidhu/gods-eye-view",
       "url": "https://github.com/bilawalsidhu/gods-eye-view",
       "tagsCn": [
@@ -51,35 +65,22 @@
         "Geospatial",
         "OSINT"
       ],
-      "appearances": 3,
-      "bestRank": 2,
-      "latestDate": "2026-08-30",
-      "judgement": "近 7 次记录中出现 3 次，最佳排名第 2，适合优先复盘详情。"
-    },
-    {
-      "repo": "freestylefly/awesome-gpt-image-2",
-      "url": "https://github.com/freestylefly/awesome-gpt-image-2",
-      "tagsCn": [
-        "AI Agent",
-        "Prompt Engineering",
-        "Image Generation"
-      ],
       "appearances": 2,
       "bestRank": 2,
-      "latestDate": "2026-08-29",
+      "latestDate": "2026-08-30",
       "judgement": "近 7 次记录中出现 2 次，最佳排名第 2，适合优先复盘详情。"
     }
   ],
   "streaks": [
     {
-      "repo": "tt-a1i/archify",
-      "days": 5,
-      "track": "08-28#1 -> 08-29#1 -> 08-30#1 -> 08-31#1 -> 09-01#1"
-    },
-    {
       "repo": "K-Dense-AI/scientific-agent-skills",
       "days": 4,
       "track": "08-30#3 -> 08-31#3 -> 09-01#3 -> 09-02#3"
+    },
+    {
+      "repo": "tt-a1i/archify",
+      "days": 4,
+      "track": "08-29#1 -> 08-30#1 -> 08-31#1 -> 09-01#1"
     },
     {
       "repo": "THU-MAIC/OpenMAIC",
@@ -87,14 +88,14 @@
       "track": "08-31#2 -> 09-01#2 -> 09-02#1"
     },
     {
-      "repo": "bilawalsidhu/gods-eye-view",
-      "days": 3,
-      "track": "08-28#3 -> 08-29#2 -> 08-30#2"
+      "repo": "DietrichGebert/ponytail",
+      "days": 2,
+      "track": "09-03#1 -> 09-04#1"
     },
     {
-      "repo": "freestylefly/awesome-gpt-image-2",
+      "repo": "bilawalsidhu/gods-eye-view",
       "days": 2,
-      "track": "08-28#2 -> 08-29#3"
+      "track": "08-29#2 -> 08-30#2"
     }
   ]
 }
