@@ -1,31 +1,44 @@
 {
-  "generatedAt": "2026-09-04T08:19:45.194662+08:00",
+  "generatedAt": "2026-09-05T08:02:07.376898+08:00",
   "projects": [
     {
-      "repo": "DietrichGebert/ponytail",
-      "url": "https://github.com/DietrichGebert/ponytail",
-      "latestDate": "2026-09-04",
+      "repo": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "latestDate": "2026-09-05",
       "latestRank": 1,
       "tagsCn": [
         "AI Agent",
-        "Dev Tool",
         "Claude Code",
-        "YAGNI"
+        "Agent Skills",
+        "Dev Tool"
       ],
-      "lastTagline": "给编码 Agent 装“最懒资深开发”技能，让改动最小化"
+      "lastTagline": "将资深工程师经验编码为可组合的 Markdown Agent 技能"
+    },
+    {
+      "repo": "DietrichGebert/ponytail",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "latestDate": "2026-09-05",
+      "latestRank": 2,
+      "tagsCn": [
+        "AI Agent",
+        "Claude Code",
+        "YAGNI",
+        "Dev Tool"
+      ],
+      "lastTagline": "让 Agent 想到最小实现，用‘最懒’经验减少冗余代码"
     },
     {
       "repo": "debpalash/VoiceStudio",
       "url": "https://github.com/debpalash/VoiceStudio",
-      "latestDate": "2026-09-04",
-      "latestRank": 2,
+      "latestDate": "2026-09-05",
+      "latestRank": 3,
       "tagsCn": [
         "Voice AI",
         "Local-first",
         "TTS",
-        "AI"
+        "Desktop App"
       ],
-      "lastTagline": "本地优先的 ElevenLabs 开源替代：克隆、配音、转写、有声书"
+      "lastTagline": "本地运行的桌面级语音克隆与配音工具箱，自托管 ElevenLabs 替代"
     },
     {
       "repo": "google-research/timesfm",
@@ -39,18 +52,6 @@
         "Forecasting"
       ],
       "lastTagline": "Google 开源时序基础模型，v3.0 新 checkpoint 待复测"
-    },
-    {
-      "repo": "mattpocock/skills",
-      "url": "https://github.com/mattpocock/skills",
-      "latestDate": "2026-09-03",
-      "latestRank": 2,
-      "tagsCn": [
-        "AI Agent",
-        "Dev Tool",
-        "Claude Code"
-      ],
-      "lastTagline": "把资深工程师经验变成可复用的 Agent 澄清技能"
     },
     {
       "repo": "pacifio/atlas",
