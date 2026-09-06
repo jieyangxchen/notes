@@ -1,34 +1,19 @@
 {
-  "generatedAt": "2026-09-05T08:02:07.376898+08:00",
-  "window": "2026-08-30..2026-09-05",
+  "generatedAt": "2026-09-06T08:19:01.595321+08:00",
+  "window": "2026-08-31..2026-09-06",
   "topProjects": [
-    {
-      "repo": "K-Dense-AI/scientific-agent-skills",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
-      "tagsCn": [
-        "学术研究",
-        "AI Agent",
-        "科学计算",
-        "药物发现"
-      ],
-      "appearances": 4,
-      "bestRank": 3,
-      "latestDate": "2026-09-02",
-      "judgement": "近 7 次记录中出现 4 次，最佳排名第 3，适合优先复盘详情。"
-    },
     {
       "repo": "DietrichGebert/ponytail",
       "url": "https://github.com/DietrichGebert/ponytail",
       "tagsCn": [
         "AI Agent",
-        "Claude Code",
-        "YAGNI",
-        "Dev Tool"
+        "Dev Tool",
+        "Claude Code"
       ],
-      "appearances": 3,
+      "appearances": 4,
       "bestRank": 1,
-      "latestDate": "2026-09-05",
-      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
+      "latestDate": "2026-09-06",
+      "judgement": "近 7 次记录中出现 4 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
       "repo": "THU-MAIC/OpenMAIC",
@@ -45,6 +30,33 @@
       "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
+      "repo": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "tagsCn": [
+        "AI Agent",
+        "Dev Tool",
+        "Skills"
+      ],
+      "appearances": 3,
+      "bestRank": 1,
+      "latestDate": "2026-09-06",
+      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "tagsCn": [
+        "学术研究",
+        "AI Agent",
+        "科学计算",
+        "药物发现"
+      ],
+      "appearances": 3,
+      "bestRank": 3,
+      "latestDate": "2026-09-02",
+      "judgement": "近 7 次记录中出现 3 次，最佳排名第 3，适合优先复盘详情。"
+    },
+    {
       "repo": "tt-a1i/archify",
       "url": "https://github.com/tt-a1i/archify",
       "tagsCn": [
@@ -52,36 +64,22 @@
         "Dev Tool",
         "Architecture"
       ],
-      "appearances": 3,
-      "bestRank": 1,
-      "latestDate": "2026-09-01",
-      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
-    },
-    {
-      "repo": "mattpocock/skills",
-      "url": "https://github.com/mattpocock/skills",
-      "tagsCn": [
-        "AI Agent",
-        "Claude Code",
-        "Agent Skills",
-        "Dev Tool"
-      ],
       "appearances": 2,
       "bestRank": 1,
-      "latestDate": "2026-09-05",
+      "latestDate": "2026-09-01",
       "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
     }
   ],
   "streaks": [
     {
-      "repo": "K-Dense-AI/scientific-agent-skills",
+      "repo": "DietrichGebert/ponytail",
       "days": 4,
-      "track": "08-30#3 -> 08-31#3 -> 09-01#3 -> 09-02#3"
+      "track": "09-03#1 -> 09-04#1 -> 09-05#2 -> 09-06#1"
     },
     {
-      "repo": "DietrichGebert/ponytail",
+      "repo": "K-Dense-AI/scientific-agent-skills",
       "days": 3,
-      "track": "09-03#1 -> 09-04#1 -> 09-05#2"
+      "track": "08-31#3 -> 09-01#3 -> 09-02#3"
     },
     {
       "repo": "THU-MAIC/OpenMAIC",
@@ -89,14 +87,19 @@
       "track": "08-31#2 -> 09-01#2 -> 09-02#1"
     },
     {
-      "repo": "tt-a1i/archify",
-      "days": 3,
-      "track": "08-30#1 -> 08-31#1 -> 09-01#1"
-    },
-    {
       "repo": "debpalash/VoiceStudio",
       "days": 2,
       "track": "09-04#2 -> 09-05#3"
+    },
+    {
+      "repo": "mattpocock/skills",
+      "days": 2,
+      "track": "09-05#1 -> 09-06#2"
+    },
+    {
+      "repo": "tt-a1i/archify",
+      "days": 2,
+      "track": "08-31#1 -> 09-01#1"
     }
   ]
 }

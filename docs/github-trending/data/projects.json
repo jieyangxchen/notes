@@ -1,31 +1,41 @@
 {
-  "generatedAt": "2026-09-05T08:02:07.376898+08:00",
+  "generatedAt": "2026-09-06T08:19:01.595321+08:00",
   "projects": [
-    {
-      "repo": "mattpocock/skills",
-      "url": "https://github.com/mattpocock/skills",
-      "latestDate": "2026-09-05",
-      "latestRank": 1,
-      "tagsCn": [
-        "AI Agent",
-        "Claude Code",
-        "Agent Skills",
-        "Dev Tool"
-      ],
-      "lastTagline": "将资深工程师经验编码为可组合的 Markdown Agent 技能"
-    },
     {
       "repo": "DietrichGebert/ponytail",
       "url": "https://github.com/DietrichGebert/ponytail",
-      "latestDate": "2026-09-05",
+      "latestDate": "2026-09-06",
+      "latestRank": 1,
+      "tagsCn": [
+        "AI Agent",
+        "Dev Tool",
+        "Claude Code"
+      ],
+      "lastTagline": "让 AI 像资深懒工程师一样，只写必要代码"
+    },
+    {
+      "repo": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "latestDate": "2026-09-06",
       "latestRank": 2,
       "tagsCn": [
         "AI Agent",
-        "Claude Code",
-        "YAGNI",
-        "Dev Tool"
+        "Dev Tool",
+        "Skills"
       ],
-      "lastTagline": "让 Agent 想到最小实现，用‘最懒’经验减少冗余代码"
+      "lastTagline": "模块化 AI 编码技能集，轻量可组合、适配任意模型"
+    },
+    {
+      "repo": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "latestDate": "2026-09-06",
+      "latestRank": 3,
+      "tagsCn": [
+        "AI Agent",
+        "Dev Tool",
+        "Security"
+      ],
+      "lastTagline": "面向多方 AI 编码 Agent 的统一性能、安全与记忆治理"
     },
     {
       "repo": "debpalash/VoiceStudio",
@@ -507,19 +517,6 @@
         "回测"
       ],
       "lastTagline": "精编量化交易资源大全，涵盖 97+ 库、40+ 策略、55 本书籍，系统性导航地图。"
-    },
-    {
-      "repo": "affaan-m/ECC",
-      "url": "https://github.com/affaan-m/ECC",
-      "latestDate": "2026-07-31",
-      "latestRank": 2,
-      "tagsCn": [
-        "AI Agent",
-        "性能优化",
-        "安全扫描",
-        "命令行工具"
-      ],
-      "lastTagline": "面向 Claude Code 等编码代理的统一技能、记忆与安全优化系统，系统化降低 Token 成本并提升输出质量。"
     },
     {
       "repo": "huggingface/speech-to-speech",
