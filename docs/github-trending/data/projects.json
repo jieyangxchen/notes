@@ -1,41 +1,42 @@
 {
-  "generatedAt": "2026-09-06T08:19:01.595321+08:00",
+  "generatedAt": "2026-09-07T08:02:02.177742+08:00",
   "projects": [
     {
-      "repo": "DietrichGebert/ponytail",
-      "url": "https://github.com/DietrichGebert/ponytail",
-      "latestDate": "2026-09-06",
+      "repo": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "latestDate": "2026-09-07",
       "latestRank": 1,
       "tagsCn": [
         "AI Agent",
         "Dev Tool",
         "Claude Code"
       ],
-      "lastTagline": "让 AI 像资深懒工程师一样，只写必要代码"
+      "lastTagline": "真实工程的小型可组合技能集，靠人审落地"
     },
     {
-      "repo": "mattpocock/skills",
-      "url": "https://github.com/mattpocock/skills",
-      "latestDate": "2026-09-06",
+      "repo": "DietrichGebert/ponytail",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "latestDate": "2026-09-07",
       "latestRank": 2,
       "tagsCn": [
         "AI Agent",
         "Dev Tool",
-        "Skills"
+        "Claude Code"
       ],
-      "lastTagline": "模块化 AI 编码技能集，轻量可组合、适配任意模型"
+      "lastTagline": "让智能体以最小改动完成需求，显著减少冗余代码与成本"
     },
     {
       "repo": "affaan-m/ECC",
       "url": "https://github.com/affaan-m/ECC",
-      "latestDate": "2026-09-06",
+      "latestDate": "2026-09-07",
       "latestRank": 3,
       "tagsCn": [
         "AI Agent",
         "Dev Tool",
-        "Security"
+        "Security",
+        "学术研究"
       ],
-      "lastTagline": "面向多方 AI 编码 Agent 的统一性能、安全与记忆治理"
+      "lastTagline": "面向多智能体工作流的性能、记忆与权限统一治理"
     },
     {
       "repo": "debpalash/VoiceStudio",
