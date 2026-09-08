@@ -1,6 +1,44 @@
 {
-  "generatedAt": "2026-09-07T08:02:02.177742+08:00",
+  "generatedAt": "2026-09-08T08:01:54.606288+08:00",
   "projects": [
+    {
+      "repo": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "latestDate": "2026-09-08",
+      "latestRank": 1,
+      "tagsCn": [
+        "AI Agent",
+        "Agent治理",
+        "开发工具"
+      ],
+      "lastTagline": "为 Claude Code、Codex、Cursor 提供统一技能与安全层"
+    },
+    {
+      "repo": "microsoft/markitdown",
+      "url": "https://github.com/microsoft/markitdown",
+      "latestDate": "2026-09-08",
+      "latestRank": 2,
+      "tagsCn": [
+        "AI Agent",
+        "Dev Tool",
+        "文档转换",
+        "RAG"
+      ],
+      "lastTagline": "把 PDF、Office、图片、音频批量转为 Markdown"
+    },
+    {
+      "repo": "coreyhaines31/marketingskills",
+      "url": "https://github.com/coreyhaines31/marketingskills",
+      "latestDate": "2026-09-08",
+      "latestRank": 3,
+      "tagsCn": [
+        "Marketing",
+        "AI Agent",
+        "Skills",
+        "Growth"
+      ],
+      "lastTagline": "给编码代理装上营销方法论：CRO、SEO 与增长实验"
+    },
     {
       "repo": "mattpocock/skills",
       "url": "https://github.com/mattpocock/skills",
@@ -24,19 +62,6 @@
         "Claude Code"
       ],
       "lastTagline": "让智能体以最小改动完成需求，显著减少冗余代码与成本"
-    },
-    {
-      "repo": "affaan-m/ECC",
-      "url": "https://github.com/affaan-m/ECC",
-      "latestDate": "2026-09-07",
-      "latestRank": 3,
-      "tagsCn": [
-        "AI Agent",
-        "Dev Tool",
-        "Security",
-        "学术研究"
-      ],
-      "lastTagline": "面向多智能体工作流的性能、记忆与权限统一治理"
     },
     {
       "repo": "debpalash/VoiceStudio",

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-07T08:02:02.177742+08:00",
-  "window": "2026-09-01..2026-09-07",
+  "generatedAt": "2026-09-08T08:01:54.606288+08:00",
+  "window": "2026-09-02..2026-09-08",
   "topProjects": [
     {
       "repo": "DietrichGebert/ponytail",
@@ -29,18 +29,17 @@
       "judgement": "近 7 次记录中出现 4 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
-      "repo": "THU-MAIC/OpenMAIC",
-      "url": "https://github.com/THU-MAIC/OpenMAIC",
+      "repo": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
       "tagsCn": [
         "AI Agent",
-        "教育科技",
-        "多智能体",
-        "自托管"
+        "Agent治理",
+        "开发工具"
       ],
-      "appearances": 2,
+      "appearances": 3,
       "bestRank": 1,
-      "latestDate": "2026-09-02",
-      "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
+      "latestDate": "2026-09-08",
+      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
       "repo": "debpalash/VoiceStudio",
@@ -57,18 +56,18 @@
       "judgement": "近 7 次记录中出现 2 次，最佳排名第 2，适合优先复盘详情。"
     },
     {
-      "repo": "K-Dense-AI/scientific-agent-skills",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "repo": "THU-MAIC/OpenMAIC",
+      "url": "https://github.com/THU-MAIC/OpenMAIC",
       "tagsCn": [
-        "学术研究",
         "AI Agent",
-        "科学计算",
-        "药物发现"
+        "教育科技",
+        "多智能体",
+        "自托管"
       ],
-      "appearances": 2,
-      "bestRank": 3,
+      "appearances": 1,
+      "bestRank": 1,
       "latestDate": "2026-09-02",
-      "judgement": "近 7 次记录中出现 2 次，最佳排名第 3，适合优先复盘详情。"
+      "judgement": "近 7 次记录中出现 1 次，最佳排名第 1，适合优先复盘详情。"
     }
   ],
   "streaks": [
@@ -78,24 +77,14 @@
       "track": "09-03#1 -> 09-04#1 -> 09-05#2 -> 09-06#1 -> 09-07#2"
     },
     {
+      "repo": "affaan-m/ECC",
+      "days": 3,
+      "track": "09-06#3 -> 09-07#3 -> 09-08#1"
+    },
+    {
       "repo": "mattpocock/skills",
       "days": 3,
       "track": "09-05#1 -> 09-06#2 -> 09-07#1"
-    },
-    {
-      "repo": "K-Dense-AI/scientific-agent-skills",
-      "days": 2,
-      "track": "09-01#3 -> 09-02#3"
-    },
-    {
-      "repo": "THU-MAIC/OpenMAIC",
-      "days": 2,
-      "track": "09-01#2 -> 09-02#1"
-    },
-    {
-      "repo": "affaan-m/ECC",
-      "days": 2,
-      "track": "09-06#3 -> 09-07#3"
     },
     {
       "repo": "debpalash/VoiceStudio",
