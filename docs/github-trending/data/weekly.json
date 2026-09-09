@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-08T08:01:54.606288+08:00",
-  "window": "2026-09-02..2026-09-08",
+  "generatedAt": "2026-09-09T08:01:46.897679+08:00",
+  "window": "2026-09-03..2026-09-09",
   "topProjects": [
     {
       "repo": "DietrichGebert/ponytail",
@@ -16,6 +16,20 @@
       "judgement": "近 7 次记录中出现 5 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
+      "repo": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "tagsCn": [
+        "AI Agent",
+        "Dev Tool",
+        "Security",
+        "记忆"
+      ],
+      "appearances": 4,
+      "bestRank": 1,
+      "latestDate": "2026-09-09",
+      "judgement": "近 7 次记录中出现 4 次，最佳排名第 1，适合优先复盘详情。"
+    },
+    {
       "repo": "mattpocock/skills",
       "url": "https://github.com/mattpocock/skills",
       "tagsCn": [
@@ -27,19 +41,6 @@
       "bestRank": 1,
       "latestDate": "2026-09-07",
       "judgement": "近 7 次记录中出现 4 次，最佳排名第 1，适合优先复盘详情。"
-    },
-    {
-      "repo": "affaan-m/ECC",
-      "url": "https://github.com/affaan-m/ECC",
-      "tagsCn": [
-        "AI Agent",
-        "Agent治理",
-        "开发工具"
-      ],
-      "appearances": 3,
-      "bestRank": 1,
-      "latestDate": "2026-09-08",
-      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
       "repo": "debpalash/VoiceStudio",
@@ -56,18 +57,18 @@
       "judgement": "近 7 次记录中出现 2 次，最佳排名第 2，适合优先复盘详情。"
     },
     {
-      "repo": "THU-MAIC/OpenMAIC",
-      "url": "https://github.com/THU-MAIC/OpenMAIC",
+      "repo": "microsoft/markitdown",
+      "url": "https://github.com/microsoft/markitdown",
       "tagsCn": [
+        "文档解析",
+        "RAG",
         "AI Agent",
-        "教育科技",
-        "多智能体",
-        "自托管"
+        "Dev Tool"
       ],
-      "appearances": 1,
-      "bestRank": 1,
-      "latestDate": "2026-09-02",
-      "judgement": "近 7 次记录中出现 1 次，最佳排名第 1，适合优先复盘详情。"
+      "appearances": 2,
+      "bestRank": 2,
+      "latestDate": "2026-09-09",
+      "judgement": "近 7 次记录中出现 2 次，最佳排名第 2，适合优先复盘详情。"
     }
   ],
   "streaks": [
@@ -78,8 +79,8 @@
     },
     {
       "repo": "affaan-m/ECC",
-      "days": 3,
-      "track": "09-06#3 -> 09-07#3 -> 09-08#1"
+      "days": 4,
+      "track": "09-06#3 -> 09-07#3 -> 09-08#1 -> 09-09#3"
     },
     {
       "repo": "mattpocock/skills",
@@ -90,6 +91,11 @@
       "repo": "debpalash/VoiceStudio",
       "days": 2,
       "track": "09-04#2 -> 09-05#3"
+    },
+    {
+      "repo": "microsoft/markitdown",
+      "days": 2,
+      "track": "09-08#2 -> 09-09#2"
     }
   ]
 }
