@@ -1,6 +1,43 @@
 {
-  "generatedAt": "2026-09-09T08:01:46.897679+08:00",
+  "generatedAt": "2026-09-10T08:03:32.127573+08:00",
   "projects": [
+    {
+      "repo": "ayghri/i-have-adhd",
+      "url": "https://github.com/ayghri/i-have-adhd",
+      "latestDate": "2026-09-10",
+      "latestRank": 1,
+      "tagsCn": [
+        "AI Agent",
+        "Productivity",
+        "Dev Tool"
+      ],
+      "lastTagline": "让编码助手先给动作与编号步骤，砍掉铺垫和客套话"
+    },
+    {
+      "repo": "cathrynlavery/diagram-design",
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "latestDate": "2026-09-10",
+      "latestRank": 2,
+      "tagsCn": [
+        "AI Agent",
+        "Diagram",
+        "SVG",
+        "Design"
+      ],
+      "lastTagline": "内置三十九种编辑级图示，让 AI 输出干净 HTML 与 SVG，替代 Mermaid 粗制示意图"
+    },
+    {
+      "repo": "liquidslr/system-design-notes",
+      "url": "https://github.com/liquidslr/system-design-notes",
+      "latestDate": "2026-09-10",
+      "latestRank": 3,
+      "tagsCn": [
+        "Dev Tool",
+        "System Design",
+        "Learning"
+      ],
+      "lastTagline": "系统设计面试经典书的分章精读，覆盖两卷要点与扩展阅读"
+    },
     {
       "repo": "heygen-com/hyperframes",
       "url": "https://github.com/heygen-com/hyperframes",
@@ -327,19 +364,6 @@
         "本地部署"
       ],
       "lastTagline": "本地桌面端运行与训练大模型，兼容多系列模型"
-    },
-    {
-      "repo": "cathrynlavery/diagram-design",
-      "url": "https://github.com/cathrynlavery/diagram-design",
-      "latestDate": "2026-08-16",
-      "latestRank": 2,
-      "tagsCn": [
-        "AI Agent",
-        "Diagram",
-        "Claude Code",
-        "SVG"
-      ],
-      "lastTagline": "AI 生成 29 种编辑级图示，输出自包含 HTML/SVG"
     },
     {
       "repo": "github/spec-kit",
@@ -725,19 +749,6 @@
         "Free"
       ],
       "lastTagline": "免费 AI 网关：一个端点聚合 290+ 提供商、500+ 模型，token 压缩省 15-95%。"
-    },
-    {
-      "repo": "ayghri/i-have-adhd",
-      "url": "https://github.com/ayghri/i-have-adhd",
-      "latestDate": "2026-07-23",
-      "latestRank": 2,
-      "tagsCn": [
-        "开发工具",
-        "Productivity",
-        "AI Agent",
-        "ADHD"
-      ],
-      "lastTagline": "让编码助手直击要点，数字步骤、无废话、无‘希望有所帮助’"
     },
     {
       "repo": "bojieli/ai-agent-book",
