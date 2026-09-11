@@ -1,30 +1,42 @@
 {
-  "generatedAt": "2026-09-10T08:03:32.127573+08:00",
+  "generatedAt": "2026-09-11T08:01:25.073351+08:00",
   "projects": [
     {
       "repo": "ayghri/i-have-adhd",
       "url": "https://github.com/ayghri/i-have-adhd",
-      "latestDate": "2026-09-10",
+      "latestDate": "2026-09-11",
       "latestRank": 1,
       "tagsCn": [
         "AI Agent",
-        "Productivity",
-        "Dev Tool"
+        "Dev Tool",
+        "Productivity"
       ],
-      "lastTagline": "让编码助手先给动作与编号步骤，砍掉铺垫和客套话"
+      "lastTagline": "把编码助手的回答压缩成动作优先的编号步骤"
+    },
+    {
+      "repo": "bilawalsidhu/gods-eye-view",
+      "url": "https://github.com/bilawalsidhu/gods-eye-view",
+      "latestDate": "2026-09-11",
+      "latestRank": 2,
+      "tagsCn": [
+        "浏览器",
+        "Geospatial",
+        "OSINT",
+        "Visualization"
+      ],
+      "lastTagline": "浏览器里的开源卫星态势三维地球，数据来自公开源"
     },
     {
       "repo": "cathrynlavery/diagram-design",
       "url": "https://github.com/cathrynlavery/diagram-design",
-      "latestDate": "2026-09-10",
-      "latestRank": 2,
+      "latestDate": "2026-09-11",
+      "latestRank": 3,
       "tagsCn": [
         "AI Agent",
-        "Diagram",
-        "SVG",
-        "Design"
+        "Dev Tool",
+        "Data Visualization"
       ],
-      "lastTagline": "内置三十九种编辑级图示，让 AI 输出干净 HTML 与 SVG，替代 Mermaid 粗制示意图"
+      "lastTagline": "给 AI 编码工具注入 39 种编辑级图表排版规则"
     },
     {
       "repo": "liquidslr/system-design-notes",
@@ -203,18 +215,6 @@
         "Architecture"
       ],
       "lastTagline": "用AI代理把代码库生成可验证架构图，并在合并前对比变更"
-    },
-    {
-      "repo": "bilawalsidhu/gods-eye-view",
-      "url": "https://github.com/bilawalsidhu/gods-eye-view",
-      "latestDate": "2026-08-30",
-      "latestRank": 2,
-      "tagsCn": [
-        "浏览器",
-        "Geospatial",
-        "OSINT"
-      ],
-      "lastTagline": "浏览器里3D地球实时追踪航班船舶卫星等公开信号"
     },
     {
       "repo": "freestylefly/awesome-gpt-image-2",

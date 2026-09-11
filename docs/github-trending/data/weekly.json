@@ -1,20 +1,7 @@
 {
-  "generatedAt": "2026-09-10T08:03:32.127573+08:00",
-  "window": "2026-09-04..2026-09-10",
+  "generatedAt": "2026-09-11T08:01:25.073351+08:00",
+  "window": "2026-09-05..2026-09-11",
   "topProjects": [
-    {
-      "repo": "DietrichGebert/ponytail",
-      "url": "https://github.com/DietrichGebert/ponytail",
-      "tagsCn": [
-        "AI Agent",
-        "Dev Tool",
-        "Claude Code"
-      ],
-      "appearances": 4,
-      "bestRank": 1,
-      "latestDate": "2026-09-07",
-      "judgement": "近 7 次记录中出现 4 次，最佳排名第 1，适合优先复盘详情。"
-    },
     {
       "repo": "affaan-m/ECC",
       "url": "https://github.com/affaan-m/ECC",
@@ -30,6 +17,19 @@
       "judgement": "近 7 次记录中出现 4 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
+      "repo": "DietrichGebert/ponytail",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "tagsCn": [
+        "AI Agent",
+        "Dev Tool",
+        "Claude Code"
+      ],
+      "appearances": 3,
+      "bestRank": 1,
+      "latestDate": "2026-09-07",
+      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
+    },
+    {
       "repo": "mattpocock/skills",
       "url": "https://github.com/mattpocock/skills",
       "tagsCn": [
@@ -43,44 +43,42 @@
       "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
-      "repo": "debpalash/VoiceStudio",
-      "url": "https://github.com/debpalash/VoiceStudio",
+      "repo": "ayghri/i-have-adhd",
+      "url": "https://github.com/ayghri/i-have-adhd",
       "tagsCn": [
-        "Voice AI",
-        "Local-first",
-        "TTS",
-        "Desktop App"
+        "AI Agent",
+        "Dev Tool",
+        "Productivity"
       ],
       "appearances": 2,
-      "bestRank": 2,
-      "latestDate": "2026-09-05",
-      "judgement": "近 7 次记录中出现 2 次，最佳排名第 2，适合优先复盘详情。"
+      "bestRank": 1,
+      "latestDate": "2026-09-11",
+      "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
-      "repo": "microsoft/markitdown",
-      "url": "https://github.com/microsoft/markitdown",
+      "repo": "cathrynlavery/diagram-design",
+      "url": "https://github.com/cathrynlavery/diagram-design",
       "tagsCn": [
-        "文档解析",
-        "RAG",
         "AI Agent",
-        "Dev Tool"
+        "Dev Tool",
+        "Data Visualization"
       ],
       "appearances": 2,
       "bestRank": 2,
-      "latestDate": "2026-09-09",
+      "latestDate": "2026-09-11",
       "judgement": "近 7 次记录中出现 2 次，最佳排名第 2，适合优先复盘详情。"
     }
   ],
   "streaks": [
     {
-      "repo": "DietrichGebert/ponytail",
-      "days": 4,
-      "track": "09-04#1 -> 09-05#2 -> 09-06#1 -> 09-07#2"
-    },
-    {
       "repo": "affaan-m/ECC",
       "days": 4,
       "track": "09-06#3 -> 09-07#3 -> 09-08#1 -> 09-09#3"
+    },
+    {
+      "repo": "DietrichGebert/ponytail",
+      "days": 3,
+      "track": "09-05#2 -> 09-06#1 -> 09-07#2"
     },
     {
       "repo": "mattpocock/skills",
@@ -88,9 +86,14 @@
       "track": "09-05#1 -> 09-06#2 -> 09-07#1"
     },
     {
-      "repo": "debpalash/VoiceStudio",
+      "repo": "ayghri/i-have-adhd",
       "days": 2,
-      "track": "09-04#2 -> 09-05#3"
+      "track": "09-10#1 -> 09-11#1"
+    },
+    {
+      "repo": "cathrynlavery/diagram-design",
+      "days": 2,
+      "track": "09-10#2 -> 09-11#3"
     },
     {
       "repo": "microsoft/markitdown",
