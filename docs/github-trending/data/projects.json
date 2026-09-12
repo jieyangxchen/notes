@@ -1,30 +1,42 @@
 {
-  "generatedAt": "2026-09-11T08:01:25.073351+08:00",
+  "generatedAt": "2026-09-12T08:01:06.803220+08:00",
   "projects": [
+    {
+      "repo": "bilawalsidhu/gods-eye-view",
+      "url": "https://github.com/bilawalsidhu/gods-eye-view",
+      "latestDate": "2026-09-12",
+      "latestRank": 1,
+      "tagsCn": [
+        "浏览器",
+        "Geospatial",
+        "OSINT",
+        "3D Globe"
+      ],
+      "lastTagline": "浏览器内聚合航班、船舶与卫星的实时三维地球"
+    },
     {
       "repo": "ayghri/i-have-adhd",
       "url": "https://github.com/ayghri/i-have-adhd",
-      "latestDate": "2026-09-11",
-      "latestRank": 1,
+      "latestDate": "2026-09-12",
+      "latestRank": 2,
       "tagsCn": [
         "AI Agent",
         "Dev Tool",
         "Productivity"
       ],
-      "lastTagline": "把编码助手的回答压缩成动作优先的编号步骤"
+      "lastTagline": "让编码 Agent 先给动作、不把答案埋在废话里"
     },
     {
-      "repo": "bilawalsidhu/gods-eye-view",
-      "url": "https://github.com/bilawalsidhu/gods-eye-view",
-      "latestDate": "2026-09-11",
-      "latestRank": 2,
+      "repo": "github/spec-kit",
+      "url": "https://github.com/github/spec-kit",
+      "latestDate": "2026-09-12",
+      "latestRank": 3,
       "tagsCn": [
-        "浏览器",
-        "Geospatial",
-        "OSINT",
-        "Visualization"
+        "AI Agent",
+        "Dev Tool",
+        "Spec-Driven"
       ],
-      "lastTagline": "浏览器里的开源卫星态势三维地球，数据来自公开源"
+      "lastTagline": "让 AI 编码 Agent 先写规格、再按规格实现"
     },
     {
       "repo": "cathrynlavery/diagram-design",
@@ -364,19 +376,6 @@
         "本地部署"
       ],
       "lastTagline": "本地桌面端运行与训练大模型，兼容多系列模型"
-    },
-    {
-      "repo": "github/spec-kit",
-      "url": "https://github.com/github/spec-kit",
-      "latestDate": "2026-08-16",
-      "latestRank": 3,
-      "tagsCn": [
-        "AI Agent",
-        "Spec-Driven",
-        "Dev Tool",
-        "CLI"
-      ],
-      "lastTagline": "将 PRD 转为可执行规格，驱动 AI 编码 Agent"
     },
     {
       "repo": "semantica-agi/semantica",
