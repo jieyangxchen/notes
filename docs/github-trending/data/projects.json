@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-13T08:18:28.603702+08:00",
+  "generatedAt": "2026-09-14T08:00:48.230409+08:00",
   "projects": [
     {
       "repo": "bilawalsidhu/gods-eye-view",
       "url": "https://github.com/bilawalsidhu/gods-eye-view",
-      "latestDate": "2026-09-13",
+      "latestDate": "2026-09-14",
       "latestRank": 1,
       "tagsCn": [
         "浏览器",
@@ -12,7 +12,33 @@
         "OSINT",
         "Visualization"
       ],
-      "lastTagline": "浏览器内三维地球叠加航班、船舶、卫星等公开实时信号"
+      "lastTagline": "浏览器里的实时三维地球，叠加公开航班、船舶与卫星图层"
+    },
+    {
+      "repo": "debpalash/VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "latestDate": "2026-09-14",
+      "latestRank": 2,
+      "tagsCn": [
+        "AI",
+        "Voice",
+        "Local-first",
+        "Dev Tool"
+      ],
+      "lastTagline": "本地跑通 16 个 TTS 与 11 个 ASR 引擎的开源语音工作台"
+    },
+    {
+      "repo": "JustVugg/colibri",
+      "url": "https://github.com/JustVugg/colibri",
+      "latestDate": "2026-09-14",
+      "latestRank": 3,
+      "tagsCn": [
+        "学术研究",
+        "Inference Engine",
+        "Local LLM",
+        "MoE"
+      ],
+      "lastTagline": "纯 C 零依赖推理引擎，把 MoE 专家从磁盘流式加载"
     },
     {
       "repo": "melgarafael/DeskcommCRM",
@@ -163,19 +189,6 @@
         "Claude Code"
       ],
       "lastTagline": "让智能体以最小改动完成需求，显著减少冗余代码与成本"
-    },
-    {
-      "repo": "debpalash/VoiceStudio",
-      "url": "https://github.com/debpalash/VoiceStudio",
-      "latestDate": "2026-09-05",
-      "latestRank": 3,
-      "tagsCn": [
-        "Voice AI",
-        "Local-first",
-        "TTS",
-        "Desktop App"
-      ],
-      "lastTagline": "本地运行的桌面级语音克隆与配音工具箱，自托管 ElevenLabs 替代"
     },
     {
       "repo": "google-research/timesfm",

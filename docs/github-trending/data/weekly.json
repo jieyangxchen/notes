@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-09-13T08:18:28.603702+08:00",
-  "window": "2026-09-07..2026-09-13",
+  "generatedAt": "2026-09-14T08:00:48.230409+08:00",
+  "window": "2026-09-08..2026-09-14",
   "topProjects": [
     {
-      "repo": "affaan-m/ECC",
-      "url": "https://github.com/affaan-m/ECC",
+      "repo": "bilawalsidhu/gods-eye-view",
+      "url": "https://github.com/bilawalsidhu/gods-eye-view",
       "tagsCn": [
-        "AI Agent",
-        "Dev Tool",
-        "Security",
-        "记忆"
+        "浏览器",
+        "Geospatial",
+        "OSINT",
+        "Visualization"
       ],
-      "appearances": 3,
+      "appearances": 4,
       "bestRank": 1,
-      "latestDate": "2026-09-09",
-      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
+      "latestDate": "2026-09-14",
+      "judgement": "近 7 次记录中出现 4 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
       "repo": "ayghri/i-have-adhd",
@@ -30,18 +30,18 @@
       "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
-      "repo": "bilawalsidhu/gods-eye-view",
-      "url": "https://github.com/bilawalsidhu/gods-eye-view",
+      "repo": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
       "tagsCn": [
-        "浏览器",
-        "Geospatial",
-        "OSINT",
-        "Visualization"
+        "AI Agent",
+        "Dev Tool",
+        "Security",
+        "记忆"
       ],
-      "appearances": 3,
+      "appearances": 2,
       "bestRank": 1,
-      "latestDate": "2026-09-13",
-      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
+      "latestDate": "2026-09-09",
+      "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
       "repo": "cathrynlavery/diagram-design",
@@ -73,9 +73,9 @@
   ],
   "streaks": [
     {
-      "repo": "affaan-m/ECC",
-      "days": 3,
-      "track": "09-07#3 -> 09-08#1 -> 09-09#3"
+      "repo": "bilawalsidhu/gods-eye-view",
+      "days": 4,
+      "track": "09-11#2 -> 09-12#1 -> 09-13#1 -> 09-14#1"
     },
     {
       "repo": "ayghri/i-have-adhd",
@@ -83,9 +83,9 @@
       "track": "09-10#1 -> 09-11#1 -> 09-12#2"
     },
     {
-      "repo": "bilawalsidhu/gods-eye-view",
-      "days": 3,
-      "track": "09-11#2 -> 09-12#1 -> 09-13#1"
+      "repo": "affaan-m/ECC",
+      "days": 2,
+      "track": "09-08#1 -> 09-09#3"
     },
     {
       "repo": "cathrynlavery/diagram-design",
