@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-14T08:00:48.230409+08:00",
-  "window": "2026-09-08..2026-09-14",
+  "generatedAt": "2026-09-15T08:00:44.880262+08:00",
+  "window": "2026-09-09..2026-09-15",
   "topProjects": [
     {
       "repo": "bilawalsidhu/gods-eye-view",
@@ -30,18 +30,30 @@
       "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
-      "repo": "affaan-m/ECC",
-      "url": "https://github.com/affaan-m/ECC",
+      "repo": "debpalash/VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
       "tagsCn": [
-        "AI Agent",
-        "Dev Tool",
-        "Security",
-        "记忆"
+        "Voice AI",
+        "Local-first",
+        "TTS"
       ],
       "appearances": 2,
       "bestRank": 1,
-      "latestDate": "2026-09-09",
+      "latestDate": "2026-09-15",
       "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
+    },
+    {
+      "repo": "JustVugg/colibri",
+      "url": "https://github.com/JustVugg/colibri",
+      "tagsCn": [
+        "学术研究",
+        "推理引擎",
+        "MoE"
+      ],
+      "appearances": 2,
+      "bestRank": 2,
+      "latestDate": "2026-09-15",
+      "judgement": "近 7 次记录中出现 2 次，最佳排名第 2，适合优先复盘详情。"
     },
     {
       "repo": "cathrynlavery/diagram-design",
@@ -54,20 +66,6 @@
       "appearances": 2,
       "bestRank": 2,
       "latestDate": "2026-09-11",
-      "judgement": "近 7 次记录中出现 2 次，最佳排名第 2，适合优先复盘详情。"
-    },
-    {
-      "repo": "microsoft/markitdown",
-      "url": "https://github.com/microsoft/markitdown",
-      "tagsCn": [
-        "文档解析",
-        "RAG",
-        "AI Agent",
-        "Dev Tool"
-      ],
-      "appearances": 2,
-      "bestRank": 2,
-      "latestDate": "2026-09-09",
       "judgement": "近 7 次记录中出现 2 次，最佳排名第 2，适合优先复盘详情。"
     }
   ],
@@ -83,9 +81,9 @@
       "track": "09-10#1 -> 09-11#1 -> 09-12#2"
     },
     {
-      "repo": "affaan-m/ECC",
+      "repo": "JustVugg/colibri",
       "days": 2,
-      "track": "09-08#1 -> 09-09#3"
+      "track": "09-14#3 -> 09-15#2"
     },
     {
       "repo": "cathrynlavery/diagram-design",
@@ -93,9 +91,9 @@
       "track": "09-10#2 -> 09-11#3"
     },
     {
-      "repo": "microsoft/markitdown",
+      "repo": "debpalash/VoiceStudio",
       "days": 2,
-      "track": "09-08#2 -> 09-09#2"
+      "track": "09-14#2 -> 09-15#1"
     }
   ]
 }

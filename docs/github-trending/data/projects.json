@@ -1,6 +1,42 @@
 {
-  "generatedAt": "2026-09-14T08:00:48.230409+08:00",
+  "generatedAt": "2026-09-15T08:00:44.880262+08:00",
   "projects": [
+    {
+      "repo": "debpalash/VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "latestDate": "2026-09-15",
+      "latestRank": 1,
+      "tagsCn": [
+        "Voice AI",
+        "Local-first",
+        "TTS"
+      ],
+      "lastTagline": "本地桌面端语音克隆、配音与转写，覆盖 646 语言目录"
+    },
+    {
+      "repo": "JustVugg/colibri",
+      "url": "https://github.com/JustVugg/colibri",
+      "latestDate": "2026-09-15",
+      "latestRank": 2,
+      "tagsCn": [
+        "学术研究",
+        "推理引擎",
+        "MoE"
+      ],
+      "lastTagline": "纯 C 零依赖引擎，磁盘流式加载专家跑 744B–2.8T MoE"
+    },
+    {
+      "repo": "alibaba/open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "latestDate": "2026-09-15",
+      "latestRank": 3,
+      "tagsCn": [
+        "AI Agent",
+        "Dev Tool",
+        "代码审查"
+      ],
+      "lastTagline": "阿里开源的混合式审查 CLI：确定性管道＋LLM Agent 行级评论"
+    },
     {
       "repo": "bilawalsidhu/gods-eye-view",
       "url": "https://github.com/bilawalsidhu/gods-eye-view",
@@ -13,32 +49,6 @@
         "Visualization"
       ],
       "lastTagline": "浏览器里的实时三维地球，叠加公开航班、船舶与卫星图层"
-    },
-    {
-      "repo": "debpalash/VoiceStudio",
-      "url": "https://github.com/debpalash/VoiceStudio",
-      "latestDate": "2026-09-14",
-      "latestRank": 2,
-      "tagsCn": [
-        "AI",
-        "Voice",
-        "Local-first",
-        "Dev Tool"
-      ],
-      "lastTagline": "本地跑通 16 个 TTS 与 11 个 ASR 引擎的开源语音工作台"
-    },
-    {
-      "repo": "JustVugg/colibri",
-      "url": "https://github.com/JustVugg/colibri",
-      "latestDate": "2026-09-14",
-      "latestRank": 3,
-      "tagsCn": [
-        "学术研究",
-        "Inference Engine",
-        "Local LLM",
-        "MoE"
-      ],
-      "lastTagline": "纯 C 零依赖推理引擎，把 MoE 专家从磁盘流式加载"
     },
     {
       "repo": "melgarafael/DeskcommCRM",
@@ -710,18 +720,6 @@
         "Decentralized"
       ],
       "lastTagline": "蓝牙Mesh与Nostr双模，无账户离线群聊工具"
-    },
-    {
-      "repo": "alibaba/open-code-review",
-      "url": "https://github.com/alibaba/open-code-review",
-      "latestDate": "2026-07-28",
-      "latestRank": 2,
-      "tagsCn": [
-        "AI Agent",
-        "Code Review",
-        "Dev Tool"
-      ],
-      "lastTagline": "阿里内部验证的AI代码审查，混合架构精准行级批注"
     },
     {
       "repo": "pbakaus/impeccable",
