@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-15T08:00:44.880262+08:00",
-  "window": "2026-09-09..2026-09-15",
+  "generatedAt": "2026-09-16T08:00:49.027801+08:00",
+  "window": "2026-09-10..2026-09-16",
   "topProjects": [
     {
       "repo": "bilawalsidhu/gods-eye-view",
@@ -33,40 +33,43 @@
       "repo": "debpalash/VoiceStudio",
       "url": "https://github.com/debpalash/VoiceStudio",
       "tagsCn": [
-        "Voice AI",
+        "TTS",
+        "Voice Cloning",
         "Local-first",
-        "TTS"
+        "桌面端"
       ],
-      "appearances": 2,
+      "appearances": 3,
       "bestRank": 1,
-      "latestDate": "2026-09-15",
-      "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
+      "latestDate": "2026-09-16",
+      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
       "repo": "JustVugg/colibri",
       "url": "https://github.com/JustVugg/colibri",
       "tagsCn": [
         "学术研究",
-        "推理引擎",
-        "MoE"
+        "Inference",
+        "MoE",
+        "C"
       ],
-      "appearances": 2,
+      "appearances": 3,
       "bestRank": 2,
-      "latestDate": "2026-09-15",
-      "judgement": "近 7 次记录中出现 2 次，最佳排名第 2，适合优先复盘详情。"
+      "latestDate": "2026-09-16",
+      "judgement": "近 7 次记录中出现 3 次，最佳排名第 2，适合优先复盘详情。"
     },
     {
-      "repo": "cathrynlavery/diagram-design",
-      "url": "https://github.com/cathrynlavery/diagram-design",
+      "repo": "alibaba/open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
       "tagsCn": [
         "AI Agent",
         "Dev Tool",
-        "Data Visualization"
+        "Code Review",
+        "Security"
       ],
       "appearances": 2,
-      "bestRank": 2,
-      "latestDate": "2026-09-11",
-      "judgement": "近 7 次记录中出现 2 次，最佳排名第 2，适合优先复盘详情。"
+      "bestRank": 1,
+      "latestDate": "2026-09-16",
+      "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
     }
   ],
   "streaks": [
@@ -76,24 +79,29 @@
       "track": "09-11#2 -> 09-12#1 -> 09-13#1 -> 09-14#1"
     },
     {
+      "repo": "JustVugg/colibri",
+      "days": 3,
+      "track": "09-14#3 -> 09-15#2 -> 09-16#3"
+    },
+    {
       "repo": "ayghri/i-have-adhd",
       "days": 3,
       "track": "09-10#1 -> 09-11#1 -> 09-12#2"
     },
     {
-      "repo": "JustVugg/colibri",
+      "repo": "debpalash/VoiceStudio",
+      "days": 3,
+      "track": "09-14#2 -> 09-15#1 -> 09-16#2"
+    },
+    {
+      "repo": "alibaba/open-code-review",
       "days": 2,
-      "track": "09-14#3 -> 09-15#2"
+      "track": "09-15#3 -> 09-16#1"
     },
     {
       "repo": "cathrynlavery/diagram-design",
       "days": 2,
       "track": "09-10#2 -> 09-11#3"
-    },
-    {
-      "repo": "debpalash/VoiceStudio",
-      "days": 2,
-      "track": "09-14#2 -> 09-15#1"
     }
   ]
 }

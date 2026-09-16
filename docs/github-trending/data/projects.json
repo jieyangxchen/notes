@@ -1,41 +1,44 @@
 {
-  "generatedAt": "2026-09-15T08:00:44.880262+08:00",
+  "generatedAt": "2026-09-16T08:00:49.027801+08:00",
   "projects": [
+    {
+      "repo": "alibaba/open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "latestDate": "2026-09-16",
+      "latestRank": 1,
+      "tagsCn": [
+        "AI Agent",
+        "Dev Tool",
+        "Code Review",
+        "Security"
+      ],
+      "lastTagline": "阿里开源的行级 AI 代码审查 CLI，确定性规则加 LLM Agent 混合"
+    },
     {
       "repo": "debpalash/VoiceStudio",
       "url": "https://github.com/debpalash/VoiceStudio",
-      "latestDate": "2026-09-15",
-      "latestRank": 1,
+      "latestDate": "2026-09-16",
+      "latestRank": 2,
       "tagsCn": [
-        "Voice AI",
+        "TTS",
+        "Voice Cloning",
         "Local-first",
-        "TTS"
+        "桌面端"
       ],
-      "lastTagline": "本地桌面端语音克隆、配音与转写，覆盖 646 语言目录"
+      "lastTagline": "本地运行的开源 ElevenLabs 平替，含克隆、配音、转写与有声书"
     },
     {
       "repo": "JustVugg/colibri",
       "url": "https://github.com/JustVugg/colibri",
-      "latestDate": "2026-09-15",
-      "latestRank": 2,
-      "tagsCn": [
-        "学术研究",
-        "推理引擎",
-        "MoE"
-      ],
-      "lastTagline": "纯 C 零依赖引擎，磁盘流式加载专家跑 744B–2.8T MoE"
-    },
-    {
-      "repo": "alibaba/open-code-review",
-      "url": "https://github.com/alibaba/open-code-review",
-      "latestDate": "2026-09-15",
+      "latestDate": "2026-09-16",
       "latestRank": 3,
       "tagsCn": [
-        "AI Agent",
-        "Dev Tool",
-        "代码审查"
+        "学术研究",
+        "Inference",
+        "MoE",
+        "C"
       ],
-      "lastTagline": "阿里开源的混合式审查 CLI：确定性管道＋LLM Agent 行级评论"
+      "lastTagline": "纯 C 零依赖引擎，把显存、内存、磁盘串成层级流式跑 MoE"
     },
     {
       "repo": "bilawalsidhu/gods-eye-view",
