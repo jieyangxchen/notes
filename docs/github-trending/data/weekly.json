@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-16T08:00:49.027801+08:00",
-  "window": "2026-09-10..2026-09-16",
+  "generatedAt": "2026-09-17T08:00:48.507915+08:00",
+  "window": "2026-09-11..2026-09-17",
   "topProjects": [
     {
       "repo": "bilawalsidhu/gods-eye-view",
@@ -17,16 +17,31 @@
       "judgement": "近 7 次记录中出现 4 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
-      "repo": "ayghri/i-have-adhd",
-      "url": "https://github.com/ayghri/i-have-adhd",
+      "repo": "JustVugg/colibri",
+      "url": "https://github.com/JustVugg/colibri",
+      "tagsCn": [
+        "学术研究",
+        "Inference Engine",
+        "MoE",
+        "Local LLM"
+      ],
+      "appearances": 4,
+      "bestRank": 2,
+      "latestDate": "2026-09-17",
+      "judgement": "近 7 次记录中出现 4 次，最佳排名第 2，适合优先复盘详情。"
+    },
+    {
+      "repo": "alibaba/open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
       "tagsCn": [
         "AI Agent",
         "Dev Tool",
-        "Productivity"
+        "Code Review",
+        "Security"
       ],
       "appearances": 3,
       "bestRank": 1,
-      "latestDate": "2026-09-12",
+      "latestDate": "2026-09-17",
       "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
@@ -44,49 +59,34 @@
       "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
-      "repo": "JustVugg/colibri",
-      "url": "https://github.com/JustVugg/colibri",
-      "tagsCn": [
-        "学术研究",
-        "Inference",
-        "MoE",
-        "C"
-      ],
-      "appearances": 3,
-      "bestRank": 2,
-      "latestDate": "2026-09-16",
-      "judgement": "近 7 次记录中出现 3 次，最佳排名第 2，适合优先复盘详情。"
-    },
-    {
-      "repo": "alibaba/open-code-review",
-      "url": "https://github.com/alibaba/open-code-review",
+      "repo": "ayghri/i-have-adhd",
+      "url": "https://github.com/ayghri/i-have-adhd",
       "tagsCn": [
         "AI Agent",
         "Dev Tool",
-        "Code Review",
-        "Security"
+        "Productivity"
       ],
       "appearances": 2,
       "bestRank": 1,
-      "latestDate": "2026-09-16",
+      "latestDate": "2026-09-12",
       "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
     }
   ],
   "streaks": [
+    {
+      "repo": "JustVugg/colibri",
+      "days": 4,
+      "track": "09-14#3 -> 09-15#2 -> 09-16#3 -> 09-17#2"
+    },
     {
       "repo": "bilawalsidhu/gods-eye-view",
       "days": 4,
       "track": "09-11#2 -> 09-12#1 -> 09-13#1 -> 09-14#1"
     },
     {
-      "repo": "JustVugg/colibri",
+      "repo": "alibaba/open-code-review",
       "days": 3,
-      "track": "09-14#3 -> 09-15#2 -> 09-16#3"
-    },
-    {
-      "repo": "ayghri/i-have-adhd",
-      "days": 3,
-      "track": "09-10#1 -> 09-11#1 -> 09-12#2"
+      "track": "09-15#3 -> 09-16#1 -> 09-17#1"
     },
     {
       "repo": "debpalash/VoiceStudio",
@@ -94,14 +94,9 @@
       "track": "09-14#2 -> 09-15#1 -> 09-16#2"
     },
     {
-      "repo": "alibaba/open-code-review",
+      "repo": "ayghri/i-have-adhd",
       "days": 2,
-      "track": "09-15#3 -> 09-16#1"
-    },
-    {
-      "repo": "cathrynlavery/diagram-design",
-      "days": 2,
-      "track": "09-10#2 -> 09-11#3"
+      "track": "09-11#1 -> 09-12#2"
     }
   ]
 }

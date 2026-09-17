@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-16T08:00:49.027801+08:00",
+  "generatedAt": "2026-09-17T08:00:48.507915+08:00",
   "projects": [
     {
       "repo": "alibaba/open-code-review",
       "url": "https://github.com/alibaba/open-code-review",
-      "latestDate": "2026-09-16",
+      "latestDate": "2026-09-17",
       "latestRank": 1,
       "tagsCn": [
         "AI Agent",
@@ -12,7 +12,33 @@
         "Code Review",
         "Security"
       ],
-      "lastTagline": "阿里开源的行级 AI 代码审查 CLI，确定性规则加 LLM Agent 混合"
+      "lastTagline": "阿里内部实战的行级 AI 代码审查 CLI，精确率优先"
+    },
+    {
+      "repo": "JustVugg/colibri",
+      "url": "https://github.com/JustVugg/colibri",
+      "latestDate": "2026-09-17",
+      "latestRank": 2,
+      "tagsCn": [
+        "学术研究",
+        "Inference Engine",
+        "MoE",
+        "Local LLM"
+      ],
+      "lastTagline": "纯 C 单文件 MoE 推理引擎，从磁盘流式加载专家跑本地大模型"
+    },
+    {
+      "repo": "Tencent/WeKnora",
+      "url": "https://github.com/Tencent/WeKnora",
+      "latestDate": "2026-09-17",
+      "latestRank": 3,
+      "tagsCn": [
+        "AI Agent",
+        "RAG",
+        "Knowledge Base",
+        "Enterprise"
+      ],
+      "lastTagline": "把文档变成可查询 RAG、推理 Agent 与自维护 Wiki 的开源知识平台"
     },
     {
       "repo": "debpalash/VoiceStudio",
@@ -26,19 +52,6 @@
         "桌面端"
       ],
       "lastTagline": "本地运行的开源 ElevenLabs 平替，含克隆、配音、转写与有声书"
-    },
-    {
-      "repo": "JustVugg/colibri",
-      "url": "https://github.com/JustVugg/colibri",
-      "latestDate": "2026-09-16",
-      "latestRank": 3,
-      "tagsCn": [
-        "学术研究",
-        "Inference",
-        "MoE",
-        "C"
-      ],
-      "lastTagline": "纯 C 零依赖引擎，把显存、内存、磁盘串成层级流式跑 MoE"
     },
     {
       "repo": "bilawalsidhu/gods-eye-view",
