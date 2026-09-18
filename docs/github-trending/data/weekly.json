@@ -1,19 +1,18 @@
 {
-  "generatedAt": "2026-09-17T08:00:48.507915+08:00",
-  "window": "2026-09-11..2026-09-17",
+  "generatedAt": "2026-09-18T08:07:03.851568+08:00",
+  "window": "2026-09-12..2026-09-18",
   "topProjects": [
     {
-      "repo": "bilawalsidhu/gods-eye-view",
-      "url": "https://github.com/bilawalsidhu/gods-eye-view",
+      "repo": "alibaba/open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
       "tagsCn": [
-        "浏览器",
-        "Geospatial",
-        "OSINT",
-        "Visualization"
+        "AI Agent",
+        "Dev Tool",
+        "Code Review"
       ],
       "appearances": 4,
       "bestRank": 1,
-      "latestDate": "2026-09-14",
+      "latestDate": "2026-09-18",
       "judgement": "近 7 次记录中出现 4 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
@@ -31,17 +30,17 @@
       "judgement": "近 7 次记录中出现 4 次，最佳排名第 2，适合优先复盘详情。"
     },
     {
-      "repo": "alibaba/open-code-review",
-      "url": "https://github.com/alibaba/open-code-review",
+      "repo": "bilawalsidhu/gods-eye-view",
+      "url": "https://github.com/bilawalsidhu/gods-eye-view",
       "tagsCn": [
-        "AI Agent",
-        "Dev Tool",
-        "Code Review",
-        "Security"
+        "浏览器",
+        "Geospatial",
+        "OSINT",
+        "Visualization"
       ],
       "appearances": 3,
       "bestRank": 1,
-      "latestDate": "2026-09-17",
+      "latestDate": "2026-09-14",
       "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
@@ -59,17 +58,17 @@
       "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
-      "repo": "ayghri/i-have-adhd",
-      "url": "https://github.com/ayghri/i-have-adhd",
+      "repo": "cloudflare/security-audit-skill",
+      "url": "https://github.com/cloudflare/security-audit-skill",
       "tagsCn": [
         "AI Agent",
-        "Dev Tool",
-        "Productivity"
+        "Security",
+        "Dev Tool"
       ],
-      "appearances": 2,
+      "appearances": 1,
       "bestRank": 1,
-      "latestDate": "2026-09-12",
-      "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
+      "latestDate": "2026-09-18",
+      "judgement": "近 7 次记录中出现 1 次，最佳排名第 1，适合优先复盘详情。"
     }
   ],
   "streaks": [
@@ -79,24 +78,19 @@
       "track": "09-14#3 -> 09-15#2 -> 09-16#3 -> 09-17#2"
     },
     {
-      "repo": "bilawalsidhu/gods-eye-view",
+      "repo": "alibaba/open-code-review",
       "days": 4,
-      "track": "09-11#2 -> 09-12#1 -> 09-13#1 -> 09-14#1"
+      "track": "09-15#3 -> 09-16#1 -> 09-17#1 -> 09-18#2"
     },
     {
-      "repo": "alibaba/open-code-review",
+      "repo": "bilawalsidhu/gods-eye-view",
       "days": 3,
-      "track": "09-15#3 -> 09-16#1 -> 09-17#1"
+      "track": "09-12#1 -> 09-13#1 -> 09-14#1"
     },
     {
       "repo": "debpalash/VoiceStudio",
       "days": 3,
       "track": "09-14#2 -> 09-15#1 -> 09-16#2"
-    },
-    {
-      "repo": "ayghri/i-have-adhd",
-      "days": 2,
-      "track": "09-11#1 -> 09-12#2"
     }
   ]
 }

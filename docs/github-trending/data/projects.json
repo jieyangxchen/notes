@@ -1,18 +1,41 @@
 {
-  "generatedAt": "2026-09-17T08:00:48.507915+08:00",
+  "generatedAt": "2026-09-18T08:07:03.851568+08:00",
   "projects": [
     {
-      "repo": "alibaba/open-code-review",
-      "url": "https://github.com/alibaba/open-code-review",
-      "latestDate": "2026-09-17",
+      "repo": "cloudflare/security-audit-skill",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "latestDate": "2026-09-18",
       "latestRank": 1,
       "tagsCn": [
         "AI Agent",
-        "Dev Tool",
-        "Code Review",
-        "Security"
+        "Security",
+        "Dev Tool"
       ],
-      "lastTagline": "阿里内部实战的行级 AI 代码审查 CLI，精确率优先"
+      "lastTagline": "把编码 Agent 变成六阶段安全审计器，产出可校验发现"
+    },
+    {
+      "repo": "alibaba/open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "latestDate": "2026-09-18",
+      "latestRank": 2,
+      "tagsCn": [
+        "AI Agent",
+        "Dev Tool",
+        "Code Review"
+      ],
+      "lastTagline": "阿里开源的行级 AI 代码审查 CLI，精确率优先"
+    },
+    {
+      "repo": "Tencent/BrowserSkill",
+      "url": "https://github.com/Tencent/BrowserSkill",
+      "latestDate": "2026-09-18",
+      "latestRank": 3,
+      "tagsCn": [
+        "浏览器",
+        "AI Agent",
+        "Dev Tool"
+      ],
+      "lastTagline": "让 Agent 借用你已登录的真实浏览器，不打断本人操作"
     },
     {
       "repo": "JustVugg/colibri",
