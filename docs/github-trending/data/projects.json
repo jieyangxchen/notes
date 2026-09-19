@@ -1,41 +1,41 @@
 {
-  "generatedAt": "2026-09-18T08:07:03.851568+08:00",
+  "generatedAt": "2026-09-19T08:01:00.967205+08:00",
   "projects": [
     {
       "repo": "cloudflare/security-audit-skill",
       "url": "https://github.com/cloudflare/security-audit-skill",
-      "latestDate": "2026-09-18",
+      "latestDate": "2026-09-19",
       "latestRank": 1,
       "tagsCn": [
         "AI Agent",
         "Security",
         "Dev Tool"
       ],
-      "lastTagline": "把编码 Agent 变成六阶段安全审计器，产出可校验发现"
+      "lastTagline": "用编码 Agent 跑六阶段安全审计，产出可校验 findings 与报告"
     },
     {
       "repo": "alibaba/open-code-review",
       "url": "https://github.com/alibaba/open-code-review",
-      "latestDate": "2026-09-18",
+      "latestDate": "2026-09-19",
       "latestRank": 2,
       "tagsCn": [
         "AI Agent",
         "Dev Tool",
         "Code Review"
       ],
-      "lastTagline": "阿里开源的行级 AI 代码审查 CLI，精确率优先"
+      "lastTagline": "阿里验证的 AI 代码审查 CLI：流水线加 Agent 行级评论"
     },
     {
       "repo": "Tencent/BrowserSkill",
       "url": "https://github.com/Tencent/BrowserSkill",
-      "latestDate": "2026-09-18",
+      "latestDate": "2026-09-19",
       "latestRank": 3,
       "tagsCn": [
         "浏览器",
         "AI Agent",
-        "Dev Tool"
+        "Security"
       ],
-      "lastTagline": "让 Agent 借用你已登录的真实浏览器，不打断本人操作"
+      "lastTagline": "让任意 shell Agent 复用你已登录浏览器的 bsk CLI 加扩展"
     },
     {
       "repo": "JustVugg/colibri",
