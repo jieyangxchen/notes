@@ -1,17 +1,41 @@
 {
-  "generatedAt": "2026-09-19T08:01:00.967205+08:00",
+  "generatedAt": "2026-09-20T08:00:59.800015+08:00",
   "projects": [
     {
       "repo": "cloudflare/security-audit-skill",
       "url": "https://github.com/cloudflare/security-audit-skill",
-      "latestDate": "2026-09-19",
+      "latestDate": "2026-09-20",
       "latestRank": 1,
       "tagsCn": [
         "AI Agent",
         "Security",
         "Dev Tool"
       ],
-      "lastTagline": "用编码 Agent 跑六阶段安全审计，产出可校验 findings 与报告"
+      "lastTagline": "把编码 Agent 编排成六阶段安全审计流水线"
+    },
+    {
+      "repo": "trycua/cua",
+      "url": "https://github.com/trycua/cua",
+      "latestDate": "2026-09-20",
+      "latestRank": 2,
+      "tagsCn": [
+        "AI Agent",
+        "Computer Use",
+        "Dev Tool"
+      ],
+      "lastTagline": "给 Agent 可用的跨系统桌面与隔离沙箱"
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "latestDate": "2026-09-20",
+      "latestRank": 3,
+      "tagsCn": [
+        "AI Agent",
+        "Dev Tool",
+        "Dev Workflow"
+      ],
+      "lastTagline": "给编码 Agent 装上生产级工程规范与斜杠命令"
     },
     {
       "repo": "alibaba/open-code-review",
@@ -527,18 +551,6 @@
         "Python"
       ],
       "lastTagline": "自改进 RLM 编码代理，长时自主任务利器"
-    },
-    {
-      "repo": "addyosmani/agent-skills",
-      "url": "https://github.com/addyosmani/agent-skills",
-      "latestDate": "2026-08-10",
-      "latestRank": 3,
-      "tagsCn": [
-        "AI Agent",
-        "Dev Tool",
-        "Workflow"
-      ],
-      "lastTagline": "生产级编码技能库，规范代理研发全流程"
     },
     {
       "repo": "cloudflare/computer",

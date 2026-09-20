@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-19T08:01:00.967205+08:00",
-  "window": "2026-09-13..2026-09-19",
+  "generatedAt": "2026-09-20T08:00:59.800015+08:00",
+  "window": "2026-09-14..2026-09-20",
   "topProjects": [
     {
       "repo": "alibaba/open-code-review",
@@ -30,6 +30,19 @@
       "judgement": "近 7 次记录中出现 4 次，最佳排名第 2，适合优先复盘详情。"
     },
     {
+      "repo": "cloudflare/security-audit-skill",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "tagsCn": [
+        "AI Agent",
+        "Security",
+        "Dev Tool"
+      ],
+      "appearances": 3,
+      "bestRank": 1,
+      "latestDate": "2026-09-20",
+      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
+    },
+    {
       "repo": "debpalash/VoiceStudio",
       "url": "https://github.com/debpalash/VoiceStudio",
       "tagsCn": [
@@ -44,31 +57,17 @@
       "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
-      "repo": "bilawalsidhu/gods-eye-view",
-      "url": "https://github.com/bilawalsidhu/gods-eye-view",
+      "repo": "Tencent/BrowserSkill",
+      "url": "https://github.com/Tencent/BrowserSkill",
       "tagsCn": [
         "浏览器",
-        "Geospatial",
-        "OSINT",
-        "Visualization"
-      ],
-      "appearances": 2,
-      "bestRank": 1,
-      "latestDate": "2026-09-14",
-      "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
-    },
-    {
-      "repo": "cloudflare/security-audit-skill",
-      "url": "https://github.com/cloudflare/security-audit-skill",
-      "tagsCn": [
         "AI Agent",
-        "Security",
-        "Dev Tool"
+        "Security"
       ],
       "appearances": 2,
-      "bestRank": 1,
+      "bestRank": 3,
       "latestDate": "2026-09-19",
-      "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
+      "judgement": "近 7 次记录中出现 2 次，最佳排名第 3，适合优先复盘详情。"
     }
   ],
   "streaks": [
@@ -83,6 +82,11 @@
       "track": "09-14#3 -> 09-15#2 -> 09-16#3 -> 09-17#2"
     },
     {
+      "repo": "cloudflare/security-audit-skill",
+      "days": 3,
+      "track": "09-18#1 -> 09-19#1 -> 09-20#1"
+    },
+    {
       "repo": "debpalash/VoiceStudio",
       "days": 3,
       "track": "09-14#2 -> 09-15#1 -> 09-16#2"
@@ -91,16 +95,6 @@
       "repo": "Tencent/BrowserSkill",
       "days": 2,
       "track": "09-18#3 -> 09-19#3"
-    },
-    {
-      "repo": "bilawalsidhu/gods-eye-view",
-      "days": 2,
-      "track": "09-13#1 -> 09-14#1"
-    },
-    {
-      "repo": "cloudflare/security-audit-skill",
-      "days": 2,
-      "track": "09-18#1 -> 09-19#1"
     }
   ]
 }
