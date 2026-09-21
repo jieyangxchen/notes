@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-20T08:00:59.800015+08:00",
-  "window": "2026-09-14..2026-09-20",
+  "generatedAt": "2026-09-21T08:07:41.682699+08:00",
+  "window": "2026-09-15..2026-09-21",
   "topProjects": [
     {
       "repo": "alibaba/open-code-review",
@@ -16,6 +16,19 @@
       "judgement": "近 7 次记录中出现 5 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
+      "repo": "cloudflare/security-audit-skill",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "tagsCn": [
+        "AI Agent",
+        "Security",
+        "Dev Tool"
+      ],
+      "appearances": 4,
+      "bestRank": 1,
+      "latestDate": "2026-09-21",
+      "judgement": "近 7 次记录中出现 4 次，最佳排名第 1，适合优先复盘详情。"
+    },
+    {
       "repo": "JustVugg/colibri",
       "url": "https://github.com/JustVugg/colibri",
       "tagsCn": [
@@ -24,23 +37,10 @@
         "MoE",
         "Local LLM"
       ],
-      "appearances": 4,
+      "appearances": 3,
       "bestRank": 2,
       "latestDate": "2026-09-17",
-      "judgement": "近 7 次记录中出现 4 次，最佳排名第 2，适合优先复盘详情。"
-    },
-    {
-      "repo": "cloudflare/security-audit-skill",
-      "url": "https://github.com/cloudflare/security-audit-skill",
-      "tagsCn": [
-        "AI Agent",
-        "Security",
-        "Dev Tool"
-      ],
-      "appearances": 3,
-      "bestRank": 1,
-      "latestDate": "2026-09-20",
-      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
+      "judgement": "近 7 次记录中出现 3 次，最佳排名第 2，适合优先复盘详情。"
     },
     {
       "repo": "debpalash/VoiceStudio",
@@ -51,23 +51,23 @@
         "Local-first",
         "桌面端"
       ],
-      "appearances": 3,
+      "appearances": 2,
       "bestRank": 1,
       "latestDate": "2026-09-16",
-      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
+      "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
-      "repo": "Tencent/BrowserSkill",
-      "url": "https://github.com/Tencent/BrowserSkill",
+      "repo": "trycua/cua",
+      "url": "https://github.com/trycua/cua",
       "tagsCn": [
-        "浏览器",
         "AI Agent",
-        "Security"
+        "Computer Use",
+        "自动化"
       ],
       "appearances": 2,
-      "bestRank": 3,
-      "latestDate": "2026-09-19",
-      "judgement": "近 7 次记录中出现 2 次，最佳排名第 3，适合优先复盘详情。"
+      "bestRank": 2,
+      "latestDate": "2026-09-21",
+      "judgement": "近 7 次记录中出现 2 次，最佳排名第 2，适合优先复盘详情。"
     }
   ],
   "streaks": [
@@ -77,24 +77,29 @@
       "track": "09-15#3 -> 09-16#1 -> 09-17#1 -> 09-18#2 -> 09-19#2"
     },
     {
-      "repo": "JustVugg/colibri",
-      "days": 4,
-      "track": "09-14#3 -> 09-15#2 -> 09-16#3 -> 09-17#2"
-    },
-    {
       "repo": "cloudflare/security-audit-skill",
-      "days": 3,
-      "track": "09-18#1 -> 09-19#1 -> 09-20#1"
+      "days": 4,
+      "track": "09-18#1 -> 09-19#1 -> 09-20#1 -> 09-21#1"
     },
     {
-      "repo": "debpalash/VoiceStudio",
+      "repo": "JustVugg/colibri",
       "days": 3,
-      "track": "09-14#2 -> 09-15#1 -> 09-16#2"
+      "track": "09-15#2 -> 09-16#3 -> 09-17#2"
     },
     {
       "repo": "Tencent/BrowserSkill",
       "days": 2,
       "track": "09-18#3 -> 09-19#3"
+    },
+    {
+      "repo": "debpalash/VoiceStudio",
+      "days": 2,
+      "track": "09-15#1 -> 09-16#2"
+    },
+    {
+      "repo": "trycua/cua",
+      "days": 2,
+      "track": "09-20#2 -> 09-21#2"
     }
   ]
 }

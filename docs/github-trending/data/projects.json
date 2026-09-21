@@ -1,29 +1,41 @@
 {
-  "generatedAt": "2026-09-20T08:00:59.800015+08:00",
+  "generatedAt": "2026-09-21T08:07:41.682699+08:00",
   "projects": [
     {
       "repo": "cloudflare/security-audit-skill",
       "url": "https://github.com/cloudflare/security-audit-skill",
-      "latestDate": "2026-09-20",
+      "latestDate": "2026-09-21",
       "latestRank": 1,
       "tagsCn": [
         "AI Agent",
         "Security",
         "Dev Tool"
       ],
-      "lastTagline": "把编码 Agent 编排成六阶段安全审计流水线"
+      "lastTagline": "把编码 Agent 编排为六阶段安全审计，产出可复核的机器可读发现"
     },
     {
       "repo": "trycua/cua",
       "url": "https://github.com/trycua/cua",
-      "latestDate": "2026-09-20",
+      "latestDate": "2026-09-21",
       "latestRank": 2,
       "tagsCn": [
         "AI Agent",
         "Computer Use",
-        "Dev Tool"
+        "自动化"
       ],
-      "lastTagline": "给 Agent 可用的跨系统桌面与隔离沙箱"
+      "lastTagline": "给 computer-use Agent 提供隔离云桌面与评测基准"
+    },
+    {
+      "repo": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "latestDate": "2026-09-21",
+      "latestRank": 3,
+      "tagsCn": [
+        "AI Agent",
+        "Dev Tool",
+        "记忆"
+      ],
+      "lastTagline": "给多种编码 Agent 统一技能、记忆与安全扫描的性能优化层"
     },
     {
       "repo": "addyosmani/agent-skills",
@@ -212,19 +224,6 @@
         "Dev Tool"
       ],
       "lastTagline": "PDF/Office 批量转 Markdown，为 Agent/RAG 铺路"
-    },
-    {
-      "repo": "affaan-m/ECC",
-      "url": "https://github.com/affaan-m/ECC",
-      "latestDate": "2026-09-09",
-      "latestRank": 3,
-      "tagsCn": [
-        "AI Agent",
-        "Dev Tool",
-        "Security",
-        "记忆"
-      ],
-      "lastTagline": "统一管理 Claude Code/Codex 等 Agent 的技能、记忆与安全"
     },
     {
       "repo": "coreyhaines31/marketingskills",
