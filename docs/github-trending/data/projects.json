@@ -1,6 +1,42 @@
 {
-  "generatedAt": "2026-09-22T08:01:15.913392+08:00",
+  "generatedAt": "2026-09-23T08:01:09.764082+08:00",
   "projects": [
+    {
+      "repo": "google/ax",
+      "url": "https://github.com/google/ax",
+      "latestDate": "2026-09-23",
+      "latestRank": 1,
+      "tagsCn": [
+        "AI Agent",
+        "Dev Tool",
+        "Orchestration"
+      ],
+      "lastTagline": "用 K8s 式声明清单编排可沙箱化的智能体集群"
+    },
+    {
+      "repo": "mvt-project/mvt",
+      "url": "https://github.com/mvt-project/mvt",
+      "latestDate": "2026-09-23",
+      "latestRank": 2,
+      "tagsCn": [
+        "Security",
+        "Forensics",
+        "Mobile"
+      ],
+      "lastTagline": "用于 iOS/Android 间谍软件取证痕迹采集的命令行工具集"
+    },
+    {
+      "repo": "anthropics/financial-services",
+      "url": "https://github.com/anthropics/financial-services",
+      "latestDate": "2026-09-23",
+      "latestRank": 3,
+      "tagsCn": [
+        "金融",
+        "AI Agent",
+        "Compliance"
+      ],
+      "lastTagline": "面向投行与资管的金融工作流智能体模板与连接器"
+    },
     {
       "repo": "Open-Dev-Society/OpenStock",
       "url": "https://github.com/Open-Dev-Society/OpenStock",
