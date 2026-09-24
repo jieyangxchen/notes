@@ -1,17 +1,44 @@
 {
-  "generatedAt": "2026-09-23T08:01:09.764082+08:00",
+  "generatedAt": "2026-09-24T08:21:41.852577+08:00",
   "projects": [
     {
       "repo": "google/ax",
       "url": "https://github.com/google/ax",
-      "latestDate": "2026-09-23",
+      "latestDate": "2026-09-24",
       "latestRank": 1,
       "tagsCn": [
         "AI Agent",
+        "Kubernetes",
         "Dev Tool",
-        "Orchestration"
+        "编排"
       ],
-      "lastTagline": "用 K8s 式声明清单编排可沙箱化的智能体集群"
+      "lastTagline": "用 K8s 清单声明并沙箱化运行智能体任务的编排运行时"
+    },
+    {
+      "repo": "dream-num/univer",
+      "url": "https://github.com/dream-num/univer",
+      "latestDate": "2026-09-24",
+      "latestRank": 2,
+      "tagsCn": [
+        "Dev Tool",
+        "AI Agent",
+        "Office SDK",
+        "可嵌入"
+      ],
+      "lastTagline": "可嵌入自有产品的开源 Office SDK，浏览器与 Node 共用运行时"
+    },
+    {
+      "repo": "browser-use/video-use",
+      "url": "https://github.com/browser-use/video-use",
+      "latestDate": "2026-09-24",
+      "latestRank": 3,
+      "tagsCn": [
+        "AI Agent",
+        "视频编辑",
+        "Dev Tool",
+        "浏览器"
+      ],
+      "lastTagline": "把原始素材交给编码智能体，聊天式产出成片的视频剪辑技能包"
     },
     {
       "repo": "mvt-project/mvt",

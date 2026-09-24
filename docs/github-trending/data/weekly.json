@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-23T08:01:09.764082+08:00",
-  "window": "2026-09-17..2026-09-23",
+  "generatedAt": "2026-09-24T08:21:41.852577+08:00",
+  "window": "2026-09-18..2026-09-24",
   "topProjects": [
     {
       "repo": "cloudflare/security-audit-skill",
@@ -16,19 +16,6 @@
       "judgement": "近 7 次记录中出现 4 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
-      "repo": "alibaba/open-code-review",
-      "url": "https://github.com/alibaba/open-code-review",
-      "tagsCn": [
-        "AI Agent",
-        "Dev Tool",
-        "Code Review"
-      ],
-      "appearances": 3,
-      "bestRank": 1,
-      "latestDate": "2026-09-19",
-      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
-    },
-    {
       "repo": "trycua/cua",
       "url": "https://github.com/trycua/cua",
       "tagsCn": [
@@ -42,6 +29,33 @@
       "judgement": "近 7 次记录中出现 3 次，最佳排名第 2，适合优先复盘详情。"
     },
     {
+      "repo": "google/ax",
+      "url": "https://github.com/google/ax",
+      "tagsCn": [
+        "AI Agent",
+        "Kubernetes",
+        "Dev Tool",
+        "编排"
+      ],
+      "appearances": 2,
+      "bestRank": 1,
+      "latestDate": "2026-09-24",
+      "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
+    },
+    {
+      "repo": "alibaba/open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "tagsCn": [
+        "AI Agent",
+        "Dev Tool",
+        "Code Review"
+      ],
+      "appearances": 2,
+      "bestRank": 2,
+      "latestDate": "2026-09-19",
+      "judgement": "近 7 次记录中出现 2 次，最佳排名第 2，适合优先复盘详情。"
+    },
+    {
       "repo": "Tencent/BrowserSkill",
       "url": "https://github.com/Tencent/BrowserSkill",
       "tagsCn": [
@@ -53,19 +67,6 @@
       "bestRank": 3,
       "latestDate": "2026-09-19",
       "judgement": "近 7 次记录中出现 2 次，最佳排名第 3，适合优先复盘详情。"
-    },
-    {
-      "repo": "Open-Dev-Society/OpenStock",
-      "url": "https://github.com/Open-Dev-Society/OpenStock",
-      "tagsCn": [
-        "金融",
-        "Dev Tool",
-        "自托管"
-      ],
-      "appearances": 1,
-      "bestRank": 1,
-      "latestDate": "2026-09-22",
-      "judgement": "近 7 次记录中出现 1 次，最佳排名第 1，适合优先复盘详情。"
     }
   ],
   "streaks": [
@@ -73,11 +74,6 @@
       "repo": "cloudflare/security-audit-skill",
       "days": 4,
       "track": "09-18#1 -> 09-19#1 -> 09-20#1 -> 09-21#1"
-    },
-    {
-      "repo": "alibaba/open-code-review",
-      "days": 3,
-      "track": "09-17#1 -> 09-18#2 -> 09-19#2"
     },
     {
       "repo": "trycua/cua",
@@ -88,6 +84,16 @@
       "repo": "Tencent/BrowserSkill",
       "days": 2,
       "track": "09-18#3 -> 09-19#3"
+    },
+    {
+      "repo": "alibaba/open-code-review",
+      "days": 2,
+      "track": "09-18#2 -> 09-19#2"
+    },
+    {
+      "repo": "google/ax",
+      "days": 2,
+      "track": "09-23#1 -> 09-24#1"
     }
   ]
 }
