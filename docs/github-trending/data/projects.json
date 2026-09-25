@@ -1,31 +1,44 @@
 {
-  "generatedAt": "2026-09-24T08:21:41.852577+08:00",
+  "generatedAt": "2026-09-25T08:00:52.652476+08:00",
   "projects": [
+    {
+      "repo": "vectorize-io/hindsight",
+      "url": "https://github.com/vectorize-io/hindsight",
+      "latestDate": "2026-09-25",
+      "latestRank": 1,
+      "tagsCn": [
+        "学术研究",
+        "AI Agent",
+        "记忆",
+        "Dev Tool"
+      ],
+      "lastTagline": "开源 Agent 记忆系统，主打长期记忆基准成绩与多语言客户端"
+    },
     {
       "repo": "google/ax",
       "url": "https://github.com/google/ax",
-      "latestDate": "2026-09-24",
-      "latestRank": 1,
+      "latestDate": "2026-09-25",
+      "latestRank": 2,
       "tagsCn": [
         "AI Agent",
-        "Kubernetes",
         "Dev Tool",
-        "编排"
+        "Kubernetes",
+        "Security"
       ],
-      "lastTagline": "用 K8s 清单声明并沙箱化运行智能体任务的编排运行时"
+      "lastTagline": "在 Kubernetes 上声明式编排智能体任务的运行时，自带沙箱与凭据隔离"
     },
     {
       "repo": "dream-num/univer",
       "url": "https://github.com/dream-num/univer",
-      "latestDate": "2026-09-24",
-      "latestRank": 2,
+      "latestDate": "2026-09-25",
+      "latestRank": 3,
       "tagsCn": [
         "Dev Tool",
-        "AI Agent",
         "Office SDK",
-        "可嵌入"
+        "AI Agent",
+        "Collab"
       ],
-      "lastTagline": "可嵌入自有产品的开源 Office SDK，浏览器与 Node 共用运行时"
+      "lastTagline": "可嵌入的 Office SDK，让智能体在表格文档演示间读写结构化数据"
     },
     {
       "repo": "browser-use/video-use",

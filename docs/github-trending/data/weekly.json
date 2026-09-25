@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-24T08:21:41.852577+08:00",
-  "window": "2026-09-18..2026-09-24",
+  "generatedAt": "2026-09-25T08:00:52.652476+08:00",
+  "window": "2026-09-19..2026-09-25",
   "topProjects": [
     {
       "repo": "cloudflare/security-audit-skill",
@@ -10,10 +10,24 @@
         "Security",
         "Dev Tool"
       ],
-      "appearances": 4,
+      "appearances": 3,
       "bestRank": 1,
       "latestDate": "2026-09-21",
-      "judgement": "近 7 次记录中出现 4 次，最佳排名第 1，适合优先复盘详情。"
+      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
+    },
+    {
+      "repo": "google/ax",
+      "url": "https://github.com/google/ax",
+      "tagsCn": [
+        "AI Agent",
+        "Dev Tool",
+        "Kubernetes",
+        "Security"
+      ],
+      "appearances": 3,
+      "bestRank": 1,
+      "latestDate": "2026-09-25",
+      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
       "repo": "trycua/cua",
@@ -29,51 +43,43 @@
       "judgement": "近 7 次记录中出现 3 次，最佳排名第 2，适合优先复盘详情。"
     },
     {
-      "repo": "google/ax",
-      "url": "https://github.com/google/ax",
+      "repo": "dream-num/univer",
+      "url": "https://github.com/dream-num/univer",
       "tagsCn": [
-        "AI Agent",
-        "Kubernetes",
         "Dev Tool",
-        "编排"
-      ],
-      "appearances": 2,
-      "bestRank": 1,
-      "latestDate": "2026-09-24",
-      "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
-    },
-    {
-      "repo": "alibaba/open-code-review",
-      "url": "https://github.com/alibaba/open-code-review",
-      "tagsCn": [
+        "Office SDK",
         "AI Agent",
-        "Dev Tool",
-        "Code Review"
+        "Collab"
       ],
       "appearances": 2,
       "bestRank": 2,
-      "latestDate": "2026-09-19",
+      "latestDate": "2026-09-25",
       "judgement": "近 7 次记录中出现 2 次，最佳排名第 2，适合优先复盘详情。"
     },
     {
-      "repo": "Tencent/BrowserSkill",
-      "url": "https://github.com/Tencent/BrowserSkill",
+      "repo": "Open-Dev-Society/OpenStock",
+      "url": "https://github.com/Open-Dev-Society/OpenStock",
       "tagsCn": [
-        "浏览器",
-        "AI Agent",
-        "Security"
+        "金融",
+        "Dev Tool",
+        "自托管"
       ],
-      "appearances": 2,
-      "bestRank": 3,
-      "latestDate": "2026-09-19",
-      "judgement": "近 7 次记录中出现 2 次，最佳排名第 3，适合优先复盘详情。"
+      "appearances": 1,
+      "bestRank": 1,
+      "latestDate": "2026-09-22",
+      "judgement": "近 7 次记录中出现 1 次，最佳排名第 1，适合优先复盘详情。"
     }
   ],
   "streaks": [
     {
       "repo": "cloudflare/security-audit-skill",
-      "days": 4,
-      "track": "09-18#1 -> 09-19#1 -> 09-20#1 -> 09-21#1"
+      "days": 3,
+      "track": "09-19#1 -> 09-20#1 -> 09-21#1"
+    },
+    {
+      "repo": "google/ax",
+      "days": 3,
+      "track": "09-23#1 -> 09-24#1 -> 09-25#2"
     },
     {
       "repo": "trycua/cua",
@@ -81,19 +87,9 @@
       "track": "09-20#2 -> 09-21#2 -> 09-22#2"
     },
     {
-      "repo": "Tencent/BrowserSkill",
+      "repo": "dream-num/univer",
       "days": 2,
-      "track": "09-18#3 -> 09-19#3"
-    },
-    {
-      "repo": "alibaba/open-code-review",
-      "days": 2,
-      "track": "09-18#2 -> 09-19#2"
-    },
-    {
-      "repo": "google/ax",
-      "days": 2,
-      "track": "09-23#1 -> 09-24#1"
+      "track": "09-24#2 -> 09-25#3"
     }
   ]
 }
