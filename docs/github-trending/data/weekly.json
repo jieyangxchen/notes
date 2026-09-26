@@ -1,33 +1,19 @@
 {
-  "generatedAt": "2026-09-25T08:00:52.652476+08:00",
-  "window": "2026-09-19..2026-09-25",
+  "generatedAt": "2026-09-26T08:17:54.162327+08:00",
+  "window": "2026-09-20..2026-09-26",
   "topProjects": [
-    {
-      "repo": "cloudflare/security-audit-skill",
-      "url": "https://github.com/cloudflare/security-audit-skill",
-      "tagsCn": [
-        "AI Agent",
-        "Security",
-        "Dev Tool"
-      ],
-      "appearances": 3,
-      "bestRank": 1,
-      "latestDate": "2026-09-21",
-      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
-    },
     {
       "repo": "google/ax",
       "url": "https://github.com/google/ax",
       "tagsCn": [
         "AI Agent",
-        "Dev Tool",
         "Kubernetes",
-        "Security"
+        "编排治理"
       ],
-      "appearances": 3,
+      "appearances": 4,
       "bestRank": 1,
-      "latestDate": "2026-09-25",
-      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
+      "latestDate": "2026-09-26",
+      "judgement": "近 7 次记录中出现 4 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
       "repo": "trycua/cua",
@@ -43,6 +29,32 @@
       "judgement": "近 7 次记录中出现 3 次，最佳排名第 2，适合优先复盘详情。"
     },
     {
+      "repo": "cloudflare/security-audit-skill",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "tagsCn": [
+        "AI Agent",
+        "Security",
+        "Dev Tool"
+      ],
+      "appearances": 2,
+      "bestRank": 1,
+      "latestDate": "2026-09-21",
+      "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
+    },
+    {
+      "repo": "vectorize-io/hindsight",
+      "url": "https://github.com/vectorize-io/hindsight",
+      "tagsCn": [
+        "AI Agent",
+        "记忆",
+        "学术研究"
+      ],
+      "appearances": 2,
+      "bestRank": 1,
+      "latestDate": "2026-09-26",
+      "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
+    },
+    {
       "repo": "dream-num/univer",
       "url": "https://github.com/dream-num/univer",
       "tagsCn": [
@@ -55,31 +67,13 @@
       "bestRank": 2,
       "latestDate": "2026-09-25",
       "judgement": "近 7 次记录中出现 2 次，最佳排名第 2，适合优先复盘详情。"
-    },
-    {
-      "repo": "Open-Dev-Society/OpenStock",
-      "url": "https://github.com/Open-Dev-Society/OpenStock",
-      "tagsCn": [
-        "金融",
-        "Dev Tool",
-        "自托管"
-      ],
-      "appearances": 1,
-      "bestRank": 1,
-      "latestDate": "2026-09-22",
-      "judgement": "近 7 次记录中出现 1 次，最佳排名第 1，适合优先复盘详情。"
     }
   ],
   "streaks": [
     {
-      "repo": "cloudflare/security-audit-skill",
-      "days": 3,
-      "track": "09-19#1 -> 09-20#1 -> 09-21#1"
-    },
-    {
       "repo": "google/ax",
-      "days": 3,
-      "track": "09-23#1 -> 09-24#1 -> 09-25#2"
+      "days": 4,
+      "track": "09-23#1 -> 09-24#1 -> 09-25#2 -> 09-26#3"
     },
     {
       "repo": "trycua/cua",
@@ -87,9 +81,19 @@
       "track": "09-20#2 -> 09-21#2 -> 09-22#2"
     },
     {
+      "repo": "cloudflare/security-audit-skill",
+      "days": 2,
+      "track": "09-20#1 -> 09-21#1"
+    },
+    {
       "repo": "dream-num/univer",
       "days": 2,
       "track": "09-24#2 -> 09-25#3"
+    },
+    {
+      "repo": "vectorize-io/hindsight",
+      "days": 2,
+      "track": "09-25#1 -> 09-26#2"
     }
   ]
 }

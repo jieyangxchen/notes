@@ -1,31 +1,41 @@
 {
-  "generatedAt": "2026-09-25T08:00:52.652476+08:00",
+  "generatedAt": "2026-09-26T08:17:54.162327+08:00",
   "projects": [
+    {
+      "repo": "paperclipai/paperclip",
+      "url": "https://github.com/paperclipai/paperclip",
+      "latestDate": "2026-09-26",
+      "latestRank": 1,
+      "tagsCn": [
+        "AI Agent",
+        "Dev Tool",
+        "编排治理"
+      ],
+      "lastTagline": "把多个智能体当员工来管：目标对齐、预算与审批一屏可见"
+    },
     {
       "repo": "vectorize-io/hindsight",
       "url": "https://github.com/vectorize-io/hindsight",
-      "latestDate": "2026-09-25",
-      "latestRank": 1,
+      "latestDate": "2026-09-26",
+      "latestRank": 2,
       "tagsCn": [
-        "学术研究",
         "AI Agent",
         "记忆",
-        "Dev Tool"
+        "学术研究"
       ],
-      "lastTagline": "开源 Agent 记忆系统，主打长期记忆基准成绩与多语言客户端"
+      "lastTagline": "给智能体一个会学习的记忆层：三步沉淀对话与经验"
     },
     {
       "repo": "google/ax",
       "url": "https://github.com/google/ax",
-      "latestDate": "2026-09-25",
-      "latestRank": 2,
+      "latestDate": "2026-09-26",
+      "latestRank": 3,
       "tagsCn": [
         "AI Agent",
-        "Dev Tool",
         "Kubernetes",
-        "Security"
+        "编排治理"
       ],
-      "lastTagline": "在 Kubernetes 上声明式编排智能体任务的运行时，自带沙箱与凭据隔离"
+      "lastTagline": "把智能体当集群负载调度：声明式任务、沙箱隔离与挂起恢复"
     },
     {
       "repo": "dream-num/univer",
