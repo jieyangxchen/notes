@@ -1,29 +1,41 @@
 {
-  "generatedAt": "2026-09-26T08:17:54.162327+08:00",
+  "generatedAt": "2026-09-27T08:06:21.311425+08:00",
   "projects": [
     {
       "repo": "paperclipai/paperclip",
       "url": "https://github.com/paperclipai/paperclip",
-      "latestDate": "2026-09-26",
+      "latestDate": "2026-09-27",
       "latestRank": 1,
       "tagsCn": [
         "AI Agent",
         "Dev Tool",
-        "编排治理"
+        "Orchestration"
       ],
-      "lastTagline": "把多个智能体当员工来管：目标对齐、预算与审批一屏可见"
+      "lastTagline": "用组织架构、预算与审批关卡统一编排多智能体团队"
     },
     {
       "repo": "vectorize-io/hindsight",
       "url": "https://github.com/vectorize-io/hindsight",
-      "latestDate": "2026-09-26",
+      "latestDate": "2026-09-27",
       "latestRank": 2,
       "tagsCn": [
         "AI Agent",
         "记忆",
-        "学术研究"
+        "Dev Tool"
       ],
-      "lastTagline": "给智能体一个会学习的记忆层：三步沉淀对话与经验"
+      "lastTagline": "让智能体跨会话保留、检索并反思记忆的开源记忆层"
+    },
+    {
+      "repo": "dream-num/univer",
+      "url": "https://github.com/dream-num/univer",
+      "latestDate": "2026-09-27",
+      "latestRank": 3,
+      "tagsCn": [
+        "Dev Tool",
+        "Office SDK",
+        "AI Agent"
+      ],
+      "lastTagline": "可嵌入的表格、文档、演示 SDK，为智能体提供读写"
     },
     {
       "repo": "google/ax",
@@ -36,19 +48,6 @@
         "编排治理"
       ],
       "lastTagline": "把智能体当集群负载调度：声明式任务、沙箱隔离与挂起恢复"
-    },
-    {
-      "repo": "dream-num/univer",
-      "url": "https://github.com/dream-num/univer",
-      "latestDate": "2026-09-25",
-      "latestRank": 3,
-      "tagsCn": [
-        "Dev Tool",
-        "Office SDK",
-        "AI Agent",
-        "Collab"
-      ],
-      "lastTagline": "可嵌入的 Office SDK，让智能体在表格文档演示间读写结构化数据"
     },
     {
       "repo": "browser-use/video-use",

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-26T08:17:54.162327+08:00",
-  "window": "2026-09-20..2026-09-26",
+  "generatedAt": "2026-09-27T08:06:21.311425+08:00",
+  "window": "2026-09-21..2026-09-27",
   "topProjects": [
     {
       "repo": "google/ax",
@@ -16,43 +16,17 @@
       "judgement": "近 7 次记录中出现 4 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
-      "repo": "trycua/cua",
-      "url": "https://github.com/trycua/cua",
-      "tagsCn": [
-        "AI Agent",
-        "Computer Use",
-        "沙箱"
-      ],
-      "appearances": 3,
-      "bestRank": 2,
-      "latestDate": "2026-09-22",
-      "judgement": "近 7 次记录中出现 3 次，最佳排名第 2，适合优先复盘详情。"
-    },
-    {
-      "repo": "cloudflare/security-audit-skill",
-      "url": "https://github.com/cloudflare/security-audit-skill",
-      "tagsCn": [
-        "AI Agent",
-        "Security",
-        "Dev Tool"
-      ],
-      "appearances": 2,
-      "bestRank": 1,
-      "latestDate": "2026-09-21",
-      "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
-    },
-    {
       "repo": "vectorize-io/hindsight",
       "url": "https://github.com/vectorize-io/hindsight",
       "tagsCn": [
         "AI Agent",
         "记忆",
-        "学术研究"
+        "Dev Tool"
       ],
-      "appearances": 2,
+      "appearances": 3,
       "bestRank": 1,
-      "latestDate": "2026-09-26",
-      "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
+      "latestDate": "2026-09-27",
+      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
       "repo": "dream-num/univer",
@@ -60,12 +34,37 @@
       "tagsCn": [
         "Dev Tool",
         "Office SDK",
+        "AI Agent"
+      ],
+      "appearances": 3,
+      "bestRank": 2,
+      "latestDate": "2026-09-27",
+      "judgement": "近 7 次记录中出现 3 次，最佳排名第 2，适合优先复盘详情。"
+    },
+    {
+      "repo": "paperclipai/paperclip",
+      "url": "https://github.com/paperclipai/paperclip",
+      "tagsCn": [
         "AI Agent",
-        "Collab"
+        "Dev Tool",
+        "Orchestration"
+      ],
+      "appearances": 2,
+      "bestRank": 1,
+      "latestDate": "2026-09-27",
+      "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
+    },
+    {
+      "repo": "trycua/cua",
+      "url": "https://github.com/trycua/cua",
+      "tagsCn": [
+        "AI Agent",
+        "Computer Use",
+        "沙箱"
       ],
       "appearances": 2,
       "bestRank": 2,
-      "latestDate": "2026-09-25",
+      "latestDate": "2026-09-22",
       "judgement": "近 7 次记录中出现 2 次，最佳排名第 2，适合优先复盘详情。"
     }
   ],
@@ -76,24 +75,19 @@
       "track": "09-23#1 -> 09-24#1 -> 09-25#2 -> 09-26#3"
     },
     {
-      "repo": "trycua/cua",
-      "days": 3,
-      "track": "09-20#2 -> 09-21#2 -> 09-22#2"
-    },
-    {
-      "repo": "cloudflare/security-audit-skill",
-      "days": 2,
-      "track": "09-20#1 -> 09-21#1"
-    },
-    {
-      "repo": "dream-num/univer",
-      "days": 2,
-      "track": "09-24#2 -> 09-25#3"
-    },
-    {
       "repo": "vectorize-io/hindsight",
+      "days": 3,
+      "track": "09-25#1 -> 09-26#2 -> 09-27#2"
+    },
+    {
+      "repo": "paperclipai/paperclip",
       "days": 2,
-      "track": "09-25#1 -> 09-26#2"
+      "track": "09-26#1 -> 09-27#1"
+    },
+    {
+      "repo": "trycua/cua",
+      "days": 2,
+      "track": "09-21#2 -> 09-22#2"
     }
   ]
 }
