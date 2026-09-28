@@ -1,29 +1,41 @@
 {
-  "generatedAt": "2026-09-27T08:06:21.311425+08:00",
+  "generatedAt": "2026-09-28T08:01:00.805713+08:00",
   "projects": [
-    {
-      "repo": "paperclipai/paperclip",
-      "url": "https://github.com/paperclipai/paperclip",
-      "latestDate": "2026-09-27",
-      "latestRank": 1,
-      "tagsCn": [
-        "AI Agent",
-        "Dev Tool",
-        "Orchestration"
-      ],
-      "lastTagline": "用组织架构、预算与审批关卡统一编排多智能体团队"
-    },
     {
       "repo": "vectorize-io/hindsight",
       "url": "https://github.com/vectorize-io/hindsight",
-      "latestDate": "2026-09-27",
-      "latestRank": 2,
+      "latestDate": "2026-09-28",
+      "latestRank": 1,
       "tagsCn": [
         "AI Agent",
         "记忆",
-        "Dev Tool"
+        "学术研究"
       ],
-      "lastTagline": "让智能体跨会话保留、检索并反思记忆的开源记忆层"
+      "lastTagline": "为智能体做可学习记忆层，跨会话沉淀事实与结论"
+    },
+    {
+      "repo": "debpalash/VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "latestDate": "2026-09-28",
+      "latestRank": 2,
+      "tagsCn": [
+        "AI Agent",
+        "Voice",
+        "Local-first"
+      ],
+      "lastTagline": "本地语音克隆、配音与有声书，全流程不出本机"
+    },
+    {
+      "repo": "paperclipai/paperclip",
+      "url": "https://github.com/paperclipai/paperclip",
+      "latestDate": "2026-09-28",
+      "latestRank": 3,
+      "tagsCn": [
+        "AI Agent",
+        "Orchestration",
+        "学术研究"
+      ],
+      "lastTagline": "像管理公司一样编排多智能体，管目标与预算"
     },
     {
       "repo": "dream-num/univer",
@@ -207,19 +219,6 @@
         "Enterprise"
       ],
       "lastTagline": "把文档变成可查询 RAG、推理 Agent 与自维护 Wiki 的开源知识平台"
-    },
-    {
-      "repo": "debpalash/VoiceStudio",
-      "url": "https://github.com/debpalash/VoiceStudio",
-      "latestDate": "2026-09-16",
-      "latestRank": 2,
-      "tagsCn": [
-        "TTS",
-        "Voice Cloning",
-        "Local-first",
-        "桌面端"
-      ],
-      "lastTagline": "本地运行的开源 ElevenLabs 平替，含克隆、配音、转写与有声书"
     },
     {
       "repo": "bilawalsidhu/gods-eye-view",

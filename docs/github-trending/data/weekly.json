@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-27T08:06:21.311425+08:00",
-  "window": "2026-09-21..2026-09-27",
+  "generatedAt": "2026-09-28T08:01:00.805713+08:00",
+  "window": "2026-09-22..2026-09-28",
   "topProjects": [
     {
       "repo": "google/ax",
@@ -21,11 +21,24 @@
       "tagsCn": [
         "AI Agent",
         "记忆",
-        "Dev Tool"
+        "学术研究"
+      ],
+      "appearances": 4,
+      "bestRank": 1,
+      "latestDate": "2026-09-28",
+      "judgement": "近 7 次记录中出现 4 次，最佳排名第 1，适合优先复盘详情。"
+    },
+    {
+      "repo": "paperclipai/paperclip",
+      "url": "https://github.com/paperclipai/paperclip",
+      "tagsCn": [
+        "AI Agent",
+        "Orchestration",
+        "学术研究"
       ],
       "appearances": 3,
       "bestRank": 1,
-      "latestDate": "2026-09-27",
+      "latestDate": "2026-09-28",
       "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
@@ -42,30 +55,17 @@
       "judgement": "近 7 次记录中出现 3 次，最佳排名第 2，适合优先复盘详情。"
     },
     {
-      "repo": "paperclipai/paperclip",
-      "url": "https://github.com/paperclipai/paperclip",
+      "repo": "Open-Dev-Society/OpenStock",
+      "url": "https://github.com/Open-Dev-Society/OpenStock",
       "tagsCn": [
-        "AI Agent",
+        "金融",
         "Dev Tool",
-        "Orchestration"
+        "自托管"
       ],
-      "appearances": 2,
+      "appearances": 1,
       "bestRank": 1,
-      "latestDate": "2026-09-27",
-      "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
-    },
-    {
-      "repo": "trycua/cua",
-      "url": "https://github.com/trycua/cua",
-      "tagsCn": [
-        "AI Agent",
-        "Computer Use",
-        "沙箱"
-      ],
-      "appearances": 2,
-      "bestRank": 2,
       "latestDate": "2026-09-22",
-      "judgement": "近 7 次记录中出现 2 次，最佳排名第 2，适合优先复盘详情。"
+      "judgement": "近 7 次记录中出现 1 次，最佳排名第 1，适合优先复盘详情。"
     }
   ],
   "streaks": [
@@ -76,18 +76,13 @@
     },
     {
       "repo": "vectorize-io/hindsight",
-      "days": 3,
-      "track": "09-25#1 -> 09-26#2 -> 09-27#2"
+      "days": 4,
+      "track": "09-25#1 -> 09-26#2 -> 09-27#2 -> 09-28#1"
     },
     {
       "repo": "paperclipai/paperclip",
-      "days": 2,
-      "track": "09-26#1 -> 09-27#1"
-    },
-    {
-      "repo": "trycua/cua",
-      "days": 2,
-      "track": "09-21#2 -> 09-22#2"
+      "days": 3,
+      "track": "09-26#1 -> 09-27#1 -> 09-28#3"
     }
   ]
 }
