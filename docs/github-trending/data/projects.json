@@ -1,41 +1,41 @@
 {
-  "generatedAt": "2026-09-29T08:00:59.934336+08:00",
+  "generatedAt": "2026-09-30T08:01:00.031652+08:00",
   "projects": [
-    {
-      "repo": "vectorize-io/hindsight",
-      "url": "https://github.com/vectorize-io/hindsight",
-      "latestDate": "2026-09-29",
-      "latestRank": 1,
-      "tagsCn": [
-        "学术研究",
-        "AI Agent",
-        "记忆"
-      ],
-      "lastTagline": "让智能体跨会话学习的记忆层服务"
-    },
     {
       "repo": "debpalash/VoiceStudio",
       "url": "https://github.com/debpalash/VoiceStudio",
-      "latestDate": "2026-09-29",
+      "latestDate": "2026-09-30",
+      "latestRank": 1,
+      "tagsCn": [
+        "AI Agent",
+        "TTS",
+        "Local-first"
+      ],
+      "lastTagline": "本地优先的开源语音克隆与配音工作台，支持离线批量生产"
+    },
+    {
+      "repo": "vectorize-io/hindsight",
+      "url": "https://github.com/vectorize-io/hindsight",
+      "latestDate": "2026-09-30",
       "latestRank": 2,
       "tagsCn": [
         "AI Agent",
-        "Dev Tool",
-        "Local-first"
+        "记忆",
+        "学术研究"
       ],
-      "lastTagline": "本地语音克隆与配音的开源替代方案"
+      "lastTagline": "让智能体跨会话累积可检索、可反思的长期记忆层"
     },
     {
       "repo": "paperclipai/paperclip",
       "url": "https://github.com/paperclipai/paperclip",
-      "latestDate": "2026-09-29",
+      "latestDate": "2026-09-30",
       "latestRank": 3,
       "tagsCn": [
         "AI Agent",
         "Dev Tool",
         "Orchestration"
       ],
-      "lastTagline": "自托管多智能体编排台，按目标管预算与审批"
+      "lastTagline": "把多个编码智能体当团队管：目标、预算与审批关卡"
     },
     {
       "repo": "dream-num/univer",

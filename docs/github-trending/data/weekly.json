@@ -1,32 +1,19 @@
 {
-  "generatedAt": "2026-09-29T08:00:59.934336+08:00",
-  "window": "2026-09-23..2026-09-29",
+  "generatedAt": "2026-09-30T08:01:00.031652+08:00",
+  "window": "2026-09-24..2026-09-30",
   "topProjects": [
     {
       "repo": "vectorize-io/hindsight",
       "url": "https://github.com/vectorize-io/hindsight",
       "tagsCn": [
-        "学术研究",
         "AI Agent",
-        "记忆"
+        "记忆",
+        "学术研究"
       ],
-      "appearances": 5,
+      "appearances": 6,
       "bestRank": 1,
-      "latestDate": "2026-09-29",
-      "judgement": "近 7 次记录中出现 5 次，最佳排名第 1，适合优先复盘详情。"
-    },
-    {
-      "repo": "google/ax",
-      "url": "https://github.com/google/ax",
-      "tagsCn": [
-        "AI Agent",
-        "Kubernetes",
-        "编排治理"
-      ],
-      "appearances": 4,
-      "bestRank": 1,
-      "latestDate": "2026-09-26",
-      "judgement": "近 7 次记录中出现 4 次，最佳排名第 1，适合优先复盘详情。"
+      "latestDate": "2026-09-30",
+      "judgement": "近 7 次记录中出现 6 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
       "repo": "paperclipai/paperclip",
@@ -36,10 +23,36 @@
         "Dev Tool",
         "Orchestration"
       ],
-      "appearances": 4,
+      "appearances": 5,
       "bestRank": 1,
-      "latestDate": "2026-09-29",
-      "judgement": "近 7 次记录中出现 4 次，最佳排名第 1，适合优先复盘详情。"
+      "latestDate": "2026-09-30",
+      "judgement": "近 7 次记录中出现 5 次，最佳排名第 1，适合优先复盘详情。"
+    },
+    {
+      "repo": "debpalash/VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "tagsCn": [
+        "AI Agent",
+        "TTS",
+        "Local-first"
+      ],
+      "appearances": 3,
+      "bestRank": 1,
+      "latestDate": "2026-09-30",
+      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
+    },
+    {
+      "repo": "google/ax",
+      "url": "https://github.com/google/ax",
+      "tagsCn": [
+        "AI Agent",
+        "Kubernetes",
+        "编排治理"
+      ],
+      "appearances": 3,
+      "bestRank": 1,
+      "latestDate": "2026-09-26",
+      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
       "repo": "dream-num/univer",
@@ -53,41 +66,28 @@
       "bestRank": 2,
       "latestDate": "2026-09-27",
       "judgement": "近 7 次记录中出现 3 次，最佳排名第 2，适合优先复盘详情。"
-    },
-    {
-      "repo": "debpalash/VoiceStudio",
-      "url": "https://github.com/debpalash/VoiceStudio",
-      "tagsCn": [
-        "AI Agent",
-        "Dev Tool",
-        "Local-first"
-      ],
-      "appearances": 2,
-      "bestRank": 2,
-      "latestDate": "2026-09-29",
-      "judgement": "近 7 次记录中出现 2 次，最佳排名第 2，适合优先复盘详情。"
     }
   ],
   "streaks": [
     {
       "repo": "vectorize-io/hindsight",
-      "days": 5,
-      "track": "09-25#1 -> 09-26#2 -> 09-27#2 -> 09-28#1 -> 09-29#1"
-    },
-    {
-      "repo": "google/ax",
-      "days": 4,
-      "track": "09-23#1 -> 09-24#1 -> 09-25#2 -> 09-26#3"
+      "days": 6,
+      "track": "09-25#1 -> 09-26#2 -> 09-27#2 -> 09-28#1 -> 09-29#1 -> 09-30#2"
     },
     {
       "repo": "paperclipai/paperclip",
-      "days": 4,
-      "track": "09-26#1 -> 09-27#1 -> 09-28#3 -> 09-29#3"
+      "days": 5,
+      "track": "09-26#1 -> 09-27#1 -> 09-28#3 -> 09-29#3 -> 09-30#3"
     },
     {
       "repo": "debpalash/VoiceStudio",
-      "days": 2,
-      "track": "09-28#2 -> 09-29#2"
+      "days": 3,
+      "track": "09-28#2 -> 09-29#2 -> 09-30#1"
+    },
+    {
+      "repo": "google/ax",
+      "days": 3,
+      "track": "09-24#1 -> 09-25#2 -> 09-26#3"
     }
   ]
 }
