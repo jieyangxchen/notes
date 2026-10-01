@@ -1,6 +1,8 @@
 * [返回首页](/)
 * [跟踪说明](/github-trending/)
 * [近 7 次周报](/github-trending/weekly.md)
+* [2026-10](/github-trending/2026-10.md)
+  * [2026-10-01](/github-trending/2026-10-01.md)
 * [2026-09](/github-trending/2026-09.md)
   * [2026-09-30](/github-trending/2026-09-30.md)
   * [2026-09-29](/github-trending/2026-09-29.md)

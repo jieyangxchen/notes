@@ -1,17 +1,43 @@
 {
-  "generatedAt": "2026-09-30T08:01:00.031652+08:00",
+  "generatedAt": "2026-10-01T08:01:06.457038+08:00",
   "projects": [
     {
       "repo": "debpalash/VoiceStudio",
       "url": "https://github.com/debpalash/VoiceStudio",
-      "latestDate": "2026-09-30",
+      "latestDate": "2026-10-01",
       "latestRank": 1,
       "tagsCn": [
         "AI Agent",
-        "TTS",
-        "Local-first"
+        "语音克隆",
+        "本地优先"
       ],
-      "lastTagline": "本地优先的开源语音克隆与配音工作台，支持离线批量生产"
+      "lastTagline": "本地 ElevenLabs 替代：克隆、配音、转写与有声书一体化"
+    },
+    {
+      "repo": "NVIDIA/OpenShell",
+      "url": "https://github.com/NVIDIA/OpenShell",
+      "latestDate": "2026-10-01",
+      "latestRank": 2,
+      "tagsCn": [
+        "AI Agent",
+        "Security",
+        "沙箱运行时",
+        "Dev Tool"
+      ],
+      "lastTagline": "agent 沙箱运行时：内核级策略强制与形式化验证"
+    },
+    {
+      "repo": "t8y2/dbx",
+      "url": "https://github.com/t8y2/dbx",
+      "latestDate": "2026-10-01",
+      "latestRank": 3,
+      "tagsCn": [
+        "Dev Tool",
+        "Database",
+        "MCP",
+        "AI Agent"
+      ],
+      "lastTagline": "25MB 跨平台数据库客户端，内置 AI 与 MCP Server"
     },
     {
       "repo": "vectorize-io/hindsight",
