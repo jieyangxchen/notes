@@ -1,6 +1,42 @@
 {
-  "generatedAt": "2026-10-01T08:01:06.457038+08:00",
+  "generatedAt": "2026-10-02T08:01:04.431196+08:00",
   "projects": [
+    {
+      "repo": "NVIDIA/OpenShell",
+      "url": "https://github.com/NVIDIA/OpenShell",
+      "latestDate": "2026-10-02",
+      "latestRank": 1,
+      "tagsCn": [
+        "AI Agent",
+        "Security",
+        "Dev Tool"
+      ],
+      "lastTagline": "给自主 agent 套上内核级策略沙箱，策略变更前先形式化验证"
+    },
+    {
+      "repo": "DietrichGebert/ponytail",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "latestDate": "2026-10-02",
+      "latestRank": 2,
+      "tagsCn": [
+        "AI Agent",
+        "Dev Tool",
+        "Prompt Engineering"
+      ],
+      "lastTagline": "让 agent 像资深懒工程师一样写最小 diff，省代码也省 token"
+    },
+    {
+      "repo": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "latestDate": "2026-10-02",
+      "latestRank": 3,
+      "tagsCn": [
+        "AI Agent",
+        "Dev Tool",
+        "Prompt Engineering"
+      ],
+      "lastTagline": "把需求澄清和任务拆分做成可审计的技能文件，交给 agent 执行"
+    },
     {
       "repo": "debpalash/VoiceStudio",
       "url": "https://github.com/debpalash/VoiceStudio",
@@ -12,19 +48,6 @@
         "本地优先"
       ],
       "lastTagline": "本地 ElevenLabs 替代：克隆、配音、转写与有声书一体化"
-    },
-    {
-      "repo": "NVIDIA/OpenShell",
-      "url": "https://github.com/NVIDIA/OpenShell",
-      "latestDate": "2026-10-01",
-      "latestRank": 2,
-      "tagsCn": [
-        "AI Agent",
-        "Security",
-        "沙箱运行时",
-        "Dev Tool"
-      ],
-      "lastTagline": "agent 沙箱运行时：内核级策略强制与形式化验证"
     },
     {
       "repo": "t8y2/dbx",
@@ -371,30 +394,6 @@
         "Growth"
       ],
       "lastTagline": "给编码代理装上营销方法论：CRO、SEO 与增长实验"
-    },
-    {
-      "repo": "mattpocock/skills",
-      "url": "https://github.com/mattpocock/skills",
-      "latestDate": "2026-09-07",
-      "latestRank": 1,
-      "tagsCn": [
-        "AI Agent",
-        "Dev Tool",
-        "Claude Code"
-      ],
-      "lastTagline": "真实工程的小型可组合技能集，靠人审落地"
-    },
-    {
-      "repo": "DietrichGebert/ponytail",
-      "url": "https://github.com/DietrichGebert/ponytail",
-      "latestDate": "2026-09-07",
-      "latestRank": 2,
-      "tagsCn": [
-        "AI Agent",
-        "Dev Tool",
-        "Claude Code"
-      ],
-      "lastTagline": "让智能体以最小改动完成需求，显著减少冗余代码与成本"
     },
     {
       "repo": "google-research/timesfm",

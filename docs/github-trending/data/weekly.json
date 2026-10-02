@@ -1,20 +1,7 @@
 {
-  "generatedAt": "2026-10-01T08:01:06.457038+08:00",
-  "window": "2026-09-25..2026-10-01",
+  "generatedAt": "2026-10-02T08:01:04.431196+08:00",
+  "window": "2026-09-26..2026-10-02",
   "topProjects": [
-    {
-      "repo": "vectorize-io/hindsight",
-      "url": "https://github.com/vectorize-io/hindsight",
-      "tagsCn": [
-        "AI Agent",
-        "记忆",
-        "学术研究"
-      ],
-      "appearances": 6,
-      "bestRank": 1,
-      "latestDate": "2026-09-30",
-      "judgement": "近 7 次记录中出现 6 次，最佳排名第 1，适合优先复盘详情。"
-    },
     {
       "repo": "paperclipai/paperclip",
       "url": "https://github.com/paperclipai/paperclip",
@@ -22,6 +9,19 @@
         "AI Agent",
         "Dev Tool",
         "Orchestration"
+      ],
+      "appearances": 5,
+      "bestRank": 1,
+      "latestDate": "2026-09-30",
+      "judgement": "近 7 次记录中出现 5 次，最佳排名第 1，适合优先复盘详情。"
+    },
+    {
+      "repo": "vectorize-io/hindsight",
+      "url": "https://github.com/vectorize-io/hindsight",
+      "tagsCn": [
+        "AI Agent",
+        "记忆",
+        "学术研究"
       ],
       "appearances": 5,
       "bestRank": 1,
@@ -42,42 +42,42 @@
       "judgement": "近 7 次记录中出现 4 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
-      "repo": "google/ax",
-      "url": "https://github.com/google/ax",
+      "repo": "NVIDIA/OpenShell",
+      "url": "https://github.com/NVIDIA/OpenShell",
       "tagsCn": [
         "AI Agent",
-        "Kubernetes",
-        "编排治理"
+        "Security",
+        "Dev Tool"
       ],
       "appearances": 2,
-      "bestRank": 2,
-      "latestDate": "2026-09-26",
-      "judgement": "近 7 次记录中出现 2 次，最佳排名第 2，适合优先复盘详情。"
+      "bestRank": 1,
+      "latestDate": "2026-10-02",
+      "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
-      "repo": "dream-num/univer",
-      "url": "https://github.com/dream-num/univer",
+      "repo": "DietrichGebert/ponytail",
+      "url": "https://github.com/DietrichGebert/ponytail",
       "tagsCn": [
+        "AI Agent",
         "Dev Tool",
-        "Office SDK",
-        "AI Agent"
+        "Prompt Engineering"
       ],
-      "appearances": 2,
-      "bestRank": 3,
-      "latestDate": "2026-09-27",
-      "judgement": "近 7 次记录中出现 2 次，最佳排名第 3，适合优先复盘详情。"
+      "appearances": 1,
+      "bestRank": 2,
+      "latestDate": "2026-10-02",
+      "judgement": "近 7 次记录中出现 1 次，最佳排名第 2，适合优先复盘详情。"
     }
   ],
   "streaks": [
     {
-      "repo": "vectorize-io/hindsight",
-      "days": 6,
-      "track": "09-25#1 -> 09-26#2 -> 09-27#2 -> 09-28#1 -> 09-29#1 -> 09-30#2"
-    },
-    {
       "repo": "paperclipai/paperclip",
       "days": 5,
       "track": "09-26#1 -> 09-27#1 -> 09-28#3 -> 09-29#3 -> 09-30#3"
+    },
+    {
+      "repo": "vectorize-io/hindsight",
+      "days": 5,
+      "track": "09-26#2 -> 09-27#2 -> 09-28#1 -> 09-29#1 -> 09-30#2"
     },
     {
       "repo": "debpalash/VoiceStudio",
@@ -85,9 +85,9 @@
       "track": "09-28#2 -> 09-29#2 -> 09-30#1 -> 10-01#1"
     },
     {
-      "repo": "google/ax",
+      "repo": "NVIDIA/OpenShell",
       "days": 2,
-      "track": "09-25#2 -> 09-26#3"
+      "track": "10-01#2 -> 10-02#1"
     }
   ]
 }
