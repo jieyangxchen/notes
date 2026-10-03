@@ -1,6 +1,43 @@
 {
-  "generatedAt": "2026-10-02T08:01:04.431196+08:00",
+  "generatedAt": "2026-10-03T08:01:06.509361+08:00",
   "projects": [
+    {
+      "repo": "DietrichGebert/ponytail",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "latestDate": "2026-10-03",
+      "latestRank": 1,
+      "tagsCn": [
+        "AI Agent",
+        "Dev Tool",
+        "Prompt Engineering"
+      ],
+      "lastTagline": "让 AI 代理像最懒资深工程师一样只写必要代码"
+    },
+    {
+      "repo": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "latestDate": "2026-10-03",
+      "latestRank": 2,
+      "tagsCn": [
+        "AI Agent",
+        "Dev Tool",
+        "Prompt Engineering"
+      ],
+      "lastTagline": "把日常工程技能拆成可组合、可改写的小提示词文件"
+    },
+    {
+      "repo": "pbakaus/impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "latestDate": "2026-10-03",
+      "latestRank": 3,
+      "tagsCn": [
+        "浏览器",
+        "AI Agent",
+        "Dev Tool",
+        "Design"
+      ],
+      "lastTagline": "给 AI 编码代理一套统一设计语言与 61 条确定性检测规则"
+    },
     {
       "repo": "NVIDIA/OpenShell",
       "url": "https://github.com/NVIDIA/OpenShell",
@@ -12,30 +49,6 @@
         "Dev Tool"
       ],
       "lastTagline": "给自主 agent 套上内核级策略沙箱，策略变更前先形式化验证"
-    },
-    {
-      "repo": "DietrichGebert/ponytail",
-      "url": "https://github.com/DietrichGebert/ponytail",
-      "latestDate": "2026-10-02",
-      "latestRank": 2,
-      "tagsCn": [
-        "AI Agent",
-        "Dev Tool",
-        "Prompt Engineering"
-      ],
-      "lastTagline": "让 agent 像资深懒工程师一样写最小 diff，省代码也省 token"
-    },
-    {
-      "repo": "mattpocock/skills",
-      "url": "https://github.com/mattpocock/skills",
-      "latestDate": "2026-10-02",
-      "latestRank": 3,
-      "tagsCn": [
-        "AI Agent",
-        "Dev Tool",
-        "Prompt Engineering"
-      ],
-      "lastTagline": "把需求澄清和任务拆分做成可审计的技能文件，交给 agent 执行"
     },
     {
       "repo": "debpalash/VoiceStudio",
@@ -903,19 +916,6 @@
         "Decentralized"
       ],
       "lastTagline": "蓝牙Mesh与Nostr双模，无账户离线群聊工具"
-    },
-    {
-      "repo": "pbakaus/impeccable",
-      "url": "https://github.com/pbakaus/impeccable",
-      "latestDate": "2026-07-28",
-      "latestRank": 3,
-      "tagsCn": [
-        "Design",
-        "AI Agent",
-        "Frontend",
-        "CLI"
-      ],
-      "lastTagline": "集成23命令与60检测器，消除AI设计模板味"
     },
     {
       "repo": "block/buzz",
