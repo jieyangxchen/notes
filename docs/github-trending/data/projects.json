@@ -1,17 +1,42 @@
 {
-  "generatedAt": "2026-10-03T08:01:06.509361+08:00",
+  "generatedAt": "2026-10-04T08:01:10.806880+08:00",
   "projects": [
+    {
+      "repo": "Panniantong/Agent-Reach",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "latestDate": "2026-10-04",
+      "latestRank": 1,
+      "tagsCn": [
+        "浏览器",
+        "AI Agent",
+        "Dev Tool"
+      ],
+      "lastTagline": "一条 CLI 让 Agent 读取推特、Reddit、B 站与小红书"
+    },
     {
       "repo": "DietrichGebert/ponytail",
       "url": "https://github.com/DietrichGebert/ponytail",
-      "latestDate": "2026-10-03",
-      "latestRank": 1,
+      "latestDate": "2026-10-04",
+      "latestRank": 2,
       "tagsCn": [
         "AI Agent",
         "Dev Tool",
-        "Prompt Engineering"
+        "Prompt"
       ],
-      "lastTagline": "让 AI 代理像最懒资深工程师一样只写必要代码"
+      "lastTagline": "让 AI 代理像最懒的资深工程师那样写最少的代码"
+    },
+    {
+      "repo": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "latestDate": "2026-10-04",
+      "latestRank": 3,
+      "tagsCn": [
+        "AI Agent",
+        "Dev Tool",
+        "Security",
+        "学术研究"
+      ],
+      "lastTagline": "给多套 Agent Harness 统一技能、记忆与安全策略"
     },
     {
       "repo": "mattpocock/skills",
@@ -207,18 +232,6 @@
         "Dev Tool"
       ],
       "lastTagline": "把编码 Agent 编排为六阶段安全审计，产出可复核的机器可读发现"
-    },
-    {
-      "repo": "affaan-m/ECC",
-      "url": "https://github.com/affaan-m/ECC",
-      "latestDate": "2026-09-21",
-      "latestRank": 3,
-      "tagsCn": [
-        "AI Agent",
-        "Dev Tool",
-        "记忆"
-      ],
-      "lastTagline": "给多种编码 Agent 统一技能、记忆与安全扫描的性能优化层"
     },
     {
       "repo": "addyosmani/agent-skills",
