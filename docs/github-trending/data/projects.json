@@ -1,29 +1,41 @@
 {
-  "generatedAt": "2026-10-04T08:01:10.806880+08:00",
+  "generatedAt": "2026-10-05T08:01:07.740999+08:00",
   "projects": [
-    {
-      "repo": "Panniantong/Agent-Reach",
-      "url": "https://github.com/Panniantong/Agent-Reach",
-      "latestDate": "2026-10-04",
-      "latestRank": 1,
-      "tagsCn": [
-        "浏览器",
-        "AI Agent",
-        "Dev Tool"
-      ],
-      "lastTagline": "一条 CLI 让 Agent 读取推特、Reddit、B 站与小红书"
-    },
     {
       "repo": "DietrichGebert/ponytail",
       "url": "https://github.com/DietrichGebert/ponytail",
-      "latestDate": "2026-10-04",
+      "latestDate": "2026-10-05",
+      "latestRank": 1,
+      "tagsCn": [
+        "AI Agent",
+        "Dev Tool",
+        "Code Review"
+      ],
+      "lastTagline": "让 AI 代理像最懒的资深工程师一样少写代码"
+    },
+    {
+      "repo": "pbakaus/impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "latestDate": "2026-10-05",
       "latestRank": 2,
       "tagsCn": [
         "AI Agent",
         "Dev Tool",
-        "Prompt"
+        "Design"
       ],
-      "lastTagline": "让 AI 代理像最懒的资深工程师那样写最少的代码"
+      "lastTagline": "让 AI 编码代理产出不撞款的品牌化前端界面"
+    },
+    {
+      "repo": "Panniantong/Agent-Reach",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "latestDate": "2026-10-05",
+      "latestRank": 3,
+      "tagsCn": [
+        "浏览器",
+        "AI Agent",
+        "CLI"
+      ],
+      "lastTagline": "一条 CLI 让 AI 代理免付费读取多平台内容"
     },
     {
       "repo": "affaan-m/ECC",
@@ -49,19 +61,6 @@
         "Prompt Engineering"
       ],
       "lastTagline": "把日常工程技能拆成可组合、可改写的小提示词文件"
-    },
-    {
-      "repo": "pbakaus/impeccable",
-      "url": "https://github.com/pbakaus/impeccable",
-      "latestDate": "2026-10-03",
-      "latestRank": 3,
-      "tagsCn": [
-        "浏览器",
-        "AI Agent",
-        "Dev Tool",
-        "Design"
-      ],
-      "lastTagline": "给 AI 编码代理一套统一设计语言与 61 条确定性检测规则"
     },
     {
       "repo": "NVIDIA/OpenShell",

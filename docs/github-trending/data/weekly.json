@@ -1,7 +1,20 @@
 {
-  "generatedAt": "2026-10-04T08:01:10.806880+08:00",
-  "window": "2026-09-28..2026-10-04",
+  "generatedAt": "2026-10-05T08:01:07.740999+08:00",
+  "window": "2026-09-29..2026-10-05",
   "topProjects": [
+    {
+      "repo": "DietrichGebert/ponytail",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "tagsCn": [
+        "AI Agent",
+        "Dev Tool",
+        "Code Review"
+      ],
+      "appearances": 4,
+      "bestRank": 1,
+      "latestDate": "2026-10-05",
+      "judgement": "近 7 次记录中出现 4 次，最佳排名第 1，适合优先复盘详情。"
+    },
     {
       "repo": "debpalash/VoiceStudio",
       "url": "https://github.com/debpalash/VoiceStudio",
@@ -10,49 +23,10 @@
         "语音克隆",
         "本地优先"
       ],
-      "appearances": 4,
+      "appearances": 3,
       "bestRank": 1,
       "latestDate": "2026-10-01",
-      "judgement": "近 7 次记录中出现 4 次，最佳排名第 1，适合优先复盘详情。"
-    },
-    {
-      "repo": "DietrichGebert/ponytail",
-      "url": "https://github.com/DietrichGebert/ponytail",
-      "tagsCn": [
-        "AI Agent",
-        "Dev Tool",
-        "Prompt"
-      ],
-      "appearances": 3,
-      "bestRank": 1,
-      "latestDate": "2026-10-04",
       "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
-    },
-    {
-      "repo": "vectorize-io/hindsight",
-      "url": "https://github.com/vectorize-io/hindsight",
-      "tagsCn": [
-        "AI Agent",
-        "记忆",
-        "学术研究"
-      ],
-      "appearances": 3,
-      "bestRank": 1,
-      "latestDate": "2026-09-30",
-      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
-    },
-    {
-      "repo": "paperclipai/paperclip",
-      "url": "https://github.com/paperclipai/paperclip",
-      "tagsCn": [
-        "AI Agent",
-        "Dev Tool",
-        "Orchestration"
-      ],
-      "appearances": 3,
-      "bestRank": 3,
-      "latestDate": "2026-09-30",
-      "judgement": "近 7 次记录中出现 3 次，最佳排名第 3，适合优先复盘详情。"
     },
     {
       "repo": "NVIDIA/OpenShell",
@@ -66,28 +40,44 @@
       "bestRank": 1,
       "latestDate": "2026-10-02",
       "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
+    },
+    {
+      "repo": "Panniantong/Agent-Reach",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "tagsCn": [
+        "浏览器",
+        "AI Agent",
+        "CLI"
+      ],
+      "appearances": 2,
+      "bestRank": 1,
+      "latestDate": "2026-10-05",
+      "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
+    },
+    {
+      "repo": "vectorize-io/hindsight",
+      "url": "https://github.com/vectorize-io/hindsight",
+      "tagsCn": [
+        "AI Agent",
+        "记忆",
+        "学术研究"
+      ],
+      "appearances": 2,
+      "bestRank": 1,
+      "latestDate": "2026-09-30",
+      "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
     }
   ],
   "streaks": [
     {
-      "repo": "debpalash/VoiceStudio",
-      "days": 4,
-      "track": "09-28#2 -> 09-29#2 -> 09-30#1 -> 10-01#1"
-    },
-    {
       "repo": "DietrichGebert/ponytail",
-      "days": 3,
-      "track": "10-02#2 -> 10-03#1 -> 10-04#2"
+      "days": 4,
+      "track": "10-02#2 -> 10-03#1 -> 10-04#2 -> 10-05#1"
     },
     {
-      "repo": "paperclipai/paperclip",
+      "repo": "debpalash/VoiceStudio",
       "days": 3,
-      "track": "09-28#3 -> 09-29#3 -> 09-30#3"
-    },
-    {
-      "repo": "vectorize-io/hindsight",
-      "days": 3,
-      "track": "09-28#1 -> 09-29#1 -> 09-30#2"
+      "track": "09-29#2 -> 09-30#1 -> 10-01#1"
     },
     {
       "repo": "NVIDIA/OpenShell",
@@ -95,9 +85,24 @@
       "track": "10-01#2 -> 10-02#1"
     },
     {
+      "repo": "Panniantong/Agent-Reach",
+      "days": 2,
+      "track": "10-04#1 -> 10-05#3"
+    },
+    {
       "repo": "mattpocock/skills",
       "days": 2,
       "track": "10-02#3 -> 10-03#2"
+    },
+    {
+      "repo": "paperclipai/paperclip",
+      "days": 2,
+      "track": "09-29#3 -> 09-30#3"
+    },
+    {
+      "repo": "vectorize-io/hindsight",
+      "days": 2,
+      "track": "09-29#1 -> 09-30#2"
     }
   ]
 }
