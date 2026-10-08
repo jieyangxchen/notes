@@ -1,18 +1,44 @@
 {
-  "generatedAt": "2026-10-07T08:06:18.187871+08:00",
+  "generatedAt": "2026-10-08T08:00:52.378572+08:00",
   "projects": [
     {
       "repo": "morluto/rea",
       "url": "https://github.com/morluto/rea",
-      "latestDate": "2026-10-07",
+      "latestDate": "2026-10-08",
       "latestRank": 1,
       "tagsCn": [
         "AI Agent",
         "Security",
-        "Dev Tool",
+        "Reverse Engineering",
         "MCP"
       ],
-      "lastTagline": "用 agent 把逆向工程做成 MCP 工具链，从 App 行为追到原生二进制"
+      "lastTagline": "用 MCP 把 Ghidra/Hopper 接进 agent 的逆向调查台"
+    },
+    {
+      "repo": "boykopovar/AnyPS5",
+      "url": "https://github.com/boykopovar/AnyPS5",
+      "latestDate": "2026-10-08",
+      "latestRank": 2,
+      "tagsCn": [
+        "General",
+        "Game Porting",
+        "Vulkan",
+        "Binary Analysis"
+      ],
+      "lastTagline": "把 PS5 可执行文件重链接为 Linux/Windows 原生程序"
+    },
+    {
+      "repo": "DuarteSantos8/openGym",
+      "url": "https://github.com/DuarteSantos8/openGym",
+      "latestDate": "2026-10-08",
+      "latestRank": 3,
+      "tagsCn": [
+        "Self-hosted",
+        "Health",
+        "PWA",
+        "隐私"
+      ],
+      "lastTagline": "自托管健身与体重记录器，Passkey 登录数据自己掌握"
     },
     {
       "repo": "tester-army/e2e",
@@ -26,19 +52,6 @@
         "AI Agent"
       ],
       "lastTagline": "用自然语言驱动 Web/移动端 E2E 测试，验证过的步骤可免模型回放"
-    },
-    {
-      "repo": "DuarteSantos8/openGym",
-      "url": "https://github.com/DuarteSantos8/openGym",
-      "latestDate": "2026-10-07",
-      "latestRank": 3,
-      "tagsCn": [
-        "Self-hosted",
-        "Health",
-        "PWA",
-        "隐私"
-      ],
-      "lastTagline": "自托管的健身与体重记录器，支持 Passkey 登录与历史数据导入"
     },
     {
       "repo": "Panniantong/Agent-Reach",
