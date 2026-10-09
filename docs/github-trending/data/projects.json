@@ -1,31 +1,44 @@
 {
-  "generatedAt": "2026-10-08T08:00:52.378572+08:00",
+  "generatedAt": "2026-10-09T08:00:45.063428+08:00",
   "projects": [
     {
       "repo": "morluto/rea",
       "url": "https://github.com/morluto/rea",
-      "latestDate": "2026-10-08",
+      "latestDate": "2026-10-09",
       "latestRank": 1,
       "tagsCn": [
         "AI Agent",
         "Security",
         "Reverse Engineering",
-        "MCP"
+        "Dev Tool"
       ],
-      "lastTagline": "用 MCP 把 Ghidra/Hopper 接进 agent 的逆向调查台"
+      "lastTagline": "用一个 MCP 把 Ghidra、JS 与二进制逆向接进 agent"
     },
     {
       "repo": "boykopovar/AnyPS5",
       "url": "https://github.com/boykopovar/AnyPS5",
-      "latestDate": "2026-10-08",
+      "latestDate": "2026-10-09",
       "latestRank": 2,
       "tagsCn": [
-        "General",
         "Game Porting",
         "Vulkan",
-        "Binary Analysis"
+        "Graphics",
+        "学术研究"
       ],
       "lastTagline": "把 PS5 可执行文件重链接为 Linux/Windows 原生程序"
+    },
+    {
+      "repo": "storytold/artcraft",
+      "url": "https://github.com/storytold/artcraft",
+      "latestDate": "2026-10-09",
+      "latestRank": 3,
+      "tagsCn": [
+        "开发工具",
+        "AI",
+        "Image Generation",
+        "Filmmaking"
+      ],
+      "lastTagline": "面向创作者的 AI 图像与视频创作 IDE，先搭场景再生成"
     },
     {
       "repo": "DuarteSantos8/openGym",

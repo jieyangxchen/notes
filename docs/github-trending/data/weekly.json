@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-08T08:00:52.378572+08:00",
-  "window": "2026-10-02..2026-10-08",
+  "generatedAt": "2026-10-09T08:00:45.063428+08:00",
+  "window": "2026-10-03..2026-10-09",
   "topProjects": [
     {
       "repo": "DietrichGebert/ponytail",
@@ -10,10 +10,10 @@
         "Dev Tool",
         "Code Review"
       ],
-      "appearances": 4,
+      "appearances": 3,
       "bestRank": 1,
       "latestDate": "2026-10-05",
-      "judgement": "近 7 次记录中出现 4 次，最佳排名第 1，适合优先复盘详情。"
+      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
       "repo": "DuarteSantos8/openGym",
@@ -49,32 +49,33 @@
         "AI Agent",
         "Security",
         "Reverse Engineering",
-        "MCP"
+        "Dev Tool"
       ],
-      "appearances": 2,
+      "appearances": 3,
       "bestRank": 1,
-      "latestDate": "2026-10-08",
-      "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
+      "latestDate": "2026-10-09",
+      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
-      "repo": "mattpocock/skills",
-      "url": "https://github.com/mattpocock/skills",
+      "repo": "boykopovar/AnyPS5",
+      "url": "https://github.com/boykopovar/AnyPS5",
       "tagsCn": [
-        "AI Agent",
-        "Dev Tool",
-        "Prompt Engineering"
+        "Game Porting",
+        "Vulkan",
+        "Graphics",
+        "学术研究"
       ],
       "appearances": 2,
       "bestRank": 2,
-      "latestDate": "2026-10-03",
+      "latestDate": "2026-10-09",
       "judgement": "近 7 次记录中出现 2 次，最佳排名第 2，适合优先复盘详情。"
     }
   ],
   "streaks": [
     {
       "repo": "DietrichGebert/ponytail",
-      "days": 4,
-      "track": "10-02#2 -> 10-03#1 -> 10-04#2 -> 10-05#1"
+      "days": 3,
+      "track": "10-03#1 -> 10-04#2 -> 10-05#1"
     },
     {
       "repo": "DuarteSantos8/openGym",
@@ -87,14 +88,14 @@
       "track": "10-04#1 -> 10-05#3 -> 10-06#3"
     },
     {
-      "repo": "mattpocock/skills",
-      "days": 2,
-      "track": "10-02#3 -> 10-03#2"
+      "repo": "morluto/rea",
+      "days": 3,
+      "track": "10-07#1 -> 10-08#1 -> 10-09#1"
     },
     {
-      "repo": "morluto/rea",
+      "repo": "boykopovar/AnyPS5",
       "days": 2,
-      "track": "10-07#1 -> 10-08#1"
+      "track": "10-08#2 -> 10-09#2"
     },
     {
       "repo": "tester-army/e2e",
