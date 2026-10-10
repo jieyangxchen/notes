@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-10-09T08:00:45.063428+08:00",
-  "window": "2026-10-03..2026-10-09",
+  "generatedAt": "2026-10-10T08:00:42.645313+08:00",
+  "window": "2026-10-04..2026-10-10",
   "topProjects": [
     {
-      "repo": "DietrichGebert/ponytail",
-      "url": "https://github.com/DietrichGebert/ponytail",
+      "repo": "morluto/rea",
+      "url": "https://github.com/morluto/rea",
       "tagsCn": [
         "AI Agent",
-        "Dev Tool",
-        "Code Review"
+        "Security",
+        "Dev Tool"
       ],
-      "appearances": 3,
+      "appearances": 4,
       "bestRank": 1,
-      "latestDate": "2026-10-05",
-      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
+      "latestDate": "2026-10-10",
+      "judgement": "近 7 次记录中出现 4 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
       "repo": "DuarteSantos8/openGym",
@@ -43,39 +43,37 @@
       "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
-      "repo": "morluto/rea",
-      "url": "https://github.com/morluto/rea",
-      "tagsCn": [
-        "AI Agent",
-        "Security",
-        "Reverse Engineering",
-        "Dev Tool"
-      ],
-      "appearances": 3,
-      "bestRank": 1,
-      "latestDate": "2026-10-09",
-      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
-    },
-    {
       "repo": "boykopovar/AnyPS5",
       "url": "https://github.com/boykopovar/AnyPS5",
       "tagsCn": [
         "Game Porting",
         "Vulkan",
-        "Graphics",
-        "学术研究"
+        "Dev Tool"
+      ],
+      "appearances": 3,
+      "bestRank": 2,
+      "latestDate": "2026-10-10",
+      "judgement": "近 7 次记录中出现 3 次，最佳排名第 2，适合优先复盘详情。"
+    },
+    {
+      "repo": "DietrichGebert/ponytail",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "tagsCn": [
+        "AI Agent",
+        "Dev Tool",
+        "Code Review"
       ],
       "appearances": 2,
-      "bestRank": 2,
-      "latestDate": "2026-10-09",
-      "judgement": "近 7 次记录中出现 2 次，最佳排名第 2，适合优先复盘详情。"
+      "bestRank": 1,
+      "latestDate": "2026-10-05",
+      "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
     }
   ],
   "streaks": [
     {
-      "repo": "DietrichGebert/ponytail",
-      "days": 3,
-      "track": "10-03#1 -> 10-04#2 -> 10-05#1"
+      "repo": "morluto/rea",
+      "days": 4,
+      "track": "10-07#1 -> 10-08#1 -> 10-09#1 -> 10-10#1"
     },
     {
       "repo": "DuarteSantos8/openGym",
@@ -88,14 +86,19 @@
       "track": "10-04#1 -> 10-05#3 -> 10-06#3"
     },
     {
-      "repo": "morluto/rea",
+      "repo": "boykopovar/AnyPS5",
       "days": 3,
-      "track": "10-07#1 -> 10-08#1 -> 10-09#1"
+      "track": "10-08#2 -> 10-09#2 -> 10-10#2"
     },
     {
-      "repo": "boykopovar/AnyPS5",
+      "repo": "DietrichGebert/ponytail",
       "days": 2,
-      "track": "10-08#2 -> 10-09#2"
+      "track": "10-04#2 -> 10-05#1"
+    },
+    {
+      "repo": "storytold/artcraft",
+      "days": 2,
+      "track": "10-09#3 -> 10-10#3"
     },
     {
       "repo": "tester-army/e2e",
