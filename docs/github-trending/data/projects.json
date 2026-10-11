@@ -1,41 +1,41 @@
 {
-  "generatedAt": "2026-10-10T08:00:42.645313+08:00",
+  "generatedAt": "2026-10-11T08:00:49.234866+08:00",
   "projects": [
     {
       "repo": "morluto/rea",
       "url": "https://github.com/morluto/rea",
-      "latestDate": "2026-10-10",
+      "latestDate": "2026-10-11",
       "latestRank": 1,
       "tagsCn": [
         "AI Agent",
         "Security",
-        "Dev Tool"
+        "MCP"
       ],
-      "lastTagline": "一个 MCP 把 Ghidra、JS/Electron 与网页逆向接入 agent"
+      "lastTagline": "用统一 MCP 把二进制与应用逆向交给 agent，结论须附证据"
     },
     {
       "repo": "boykopovar/AnyPS5",
       "url": "https://github.com/boykopovar/AnyPS5",
-      "latestDate": "2026-10-10",
+      "latestDate": "2026-10-11",
       "latestRank": 2,
       "tagsCn": [
         "Game Porting",
         "Vulkan",
         "Dev Tool"
       ],
-      "lastTagline": "把 PS5 可执行文件重链接为 Linux/Windows 原生程序"
+      "lastTagline": "把自有 PS5 可执行文件重链接为 Linux/Windows 原生程序"
     },
     {
       "repo": "storytold/artcraft",
       "url": "https://github.com/storytold/artcraft",
-      "latestDate": "2026-10-10",
+      "latestDate": "2026-10-11",
       "latestRank": 3,
       "tagsCn": [
+        "Dev Tool",
         "AI",
-        "AIGC",
-        "Dev Tool"
+        "Video"
       ],
-      "lastTagline": "面向设计与影视的 AI 图像视频创作 IDE，先搭场景再生成"
+      "lastTagline": "为创作者把 2D 合成、3D 摆景与多模型图生视频统一到一个工作台"
     },
     {
       "repo": "DuarteSantos8/openGym",

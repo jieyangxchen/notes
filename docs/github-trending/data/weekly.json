@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-10T08:00:42.645313+08:00",
-  "window": "2026-10-04..2026-10-10",
+  "generatedAt": "2026-10-11T08:00:49.234866+08:00",
+  "window": "2026-10-05..2026-10-11",
   "topProjects": [
     {
       "repo": "morluto/rea",
@@ -8,12 +8,25 @@
       "tagsCn": [
         "AI Agent",
         "Security",
+        "MCP"
+      ],
+      "appearances": 5,
+      "bestRank": 1,
+      "latestDate": "2026-10-11",
+      "judgement": "近 7 次记录中出现 5 次，最佳排名第 1，适合优先复盘详情。"
+    },
+    {
+      "repo": "boykopovar/AnyPS5",
+      "url": "https://github.com/boykopovar/AnyPS5",
+      "tagsCn": [
+        "Game Porting",
+        "Vulkan",
         "Dev Tool"
       ],
       "appearances": 4,
-      "bestRank": 1,
-      "latestDate": "2026-10-10",
-      "judgement": "近 7 次记录中出现 4 次，最佳排名第 1，适合优先复盘详情。"
+      "bestRank": 2,
+      "latestDate": "2026-10-11",
+      "judgement": "近 7 次记录中出现 4 次，最佳排名第 2，适合优先复盘详情。"
     },
     {
       "repo": "DuarteSantos8/openGym",
@@ -30,50 +43,43 @@
       "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
-      "repo": "Panniantong/Agent-Reach",
-      "url": "https://github.com/Panniantong/Agent-Reach",
+      "repo": "storytold/artcraft",
+      "url": "https://github.com/storytold/artcraft",
+      "tagsCn": [
+        "Dev Tool",
+        "AI",
+        "Video"
+      ],
+      "appearances": 3,
+      "bestRank": 3,
+      "latestDate": "2026-10-11",
+      "judgement": "近 7 次记录中出现 3 次，最佳排名第 3，适合优先复盘详情。"
+    },
+    {
+      "repo": "tester-army/e2e",
+      "url": "https://github.com/tester-army/e2e",
       "tagsCn": [
         "浏览器",
-        "AI Agent",
-        "学术研究"
-      ],
-      "appearances": 3,
-      "bestRank": 1,
-      "latestDate": "2026-10-06",
-      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
-    },
-    {
-      "repo": "boykopovar/AnyPS5",
-      "url": "https://github.com/boykopovar/AnyPS5",
-      "tagsCn": [
-        "Game Porting",
-        "Vulkan",
-        "Dev Tool"
-      ],
-      "appearances": 3,
-      "bestRank": 2,
-      "latestDate": "2026-10-10",
-      "judgement": "近 7 次记录中出现 3 次，最佳排名第 2，适合优先复盘详情。"
-    },
-    {
-      "repo": "DietrichGebert/ponytail",
-      "url": "https://github.com/DietrichGebert/ponytail",
-      "tagsCn": [
-        "AI Agent",
         "Dev Tool",
-        "Code Review"
+        "Testing",
+        "AI Agent"
       ],
       "appearances": 2,
-      "bestRank": 1,
-      "latestDate": "2026-10-05",
-      "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
+      "bestRank": 2,
+      "latestDate": "2026-10-07",
+      "judgement": "近 7 次记录中出现 2 次，最佳排名第 2，适合优先复盘详情。"
     }
   ],
   "streaks": [
     {
       "repo": "morluto/rea",
+      "days": 5,
+      "track": "10-07#1 -> 10-08#1 -> 10-09#1 -> 10-10#1 -> 10-11#1"
+    },
+    {
+      "repo": "boykopovar/AnyPS5",
       "days": 4,
-      "track": "10-07#1 -> 10-08#1 -> 10-09#1 -> 10-10#1"
+      "track": "10-08#2 -> 10-09#2 -> 10-10#2 -> 10-11#2"
     },
     {
       "repo": "DuarteSantos8/openGym",
@@ -81,24 +87,14 @@
       "track": "10-06#1 -> 10-07#3 -> 10-08#3"
     },
     {
-      "repo": "Panniantong/Agent-Reach",
-      "days": 3,
-      "track": "10-04#1 -> 10-05#3 -> 10-06#3"
-    },
-    {
-      "repo": "boykopovar/AnyPS5",
-      "days": 3,
-      "track": "10-08#2 -> 10-09#2 -> 10-10#2"
-    },
-    {
-      "repo": "DietrichGebert/ponytail",
-      "days": 2,
-      "track": "10-04#2 -> 10-05#1"
-    },
-    {
       "repo": "storytold/artcraft",
+      "days": 3,
+      "track": "10-09#3 -> 10-10#3 -> 10-11#3"
+    },
+    {
+      "repo": "Panniantong/Agent-Reach",
       "days": 2,
-      "track": "10-09#3 -> 10-10#3"
+      "track": "10-05#3 -> 10-06#3"
     },
     {
       "repo": "tester-army/e2e",
