@@ -1,41 +1,44 @@
 {
-  "generatedAt": "2026-10-11T08:00:49.234866+08:00",
+  "generatedAt": "2026-10-12T08:04:21.247971+08:00",
   "projects": [
     {
       "repo": "morluto/rea",
       "url": "https://github.com/morluto/rea",
-      "latestDate": "2026-10-11",
+      "latestDate": "2026-10-12",
       "latestRank": 1,
       "tagsCn": [
         "AI Agent",
         "Security",
+        "Dev Tool",
         "MCP"
       ],
-      "lastTagline": "用统一 MCP 把二进制与应用逆向交给 agent，结论须附证据"
+      "lastTagline": "以统一 MCP 把二进制、JS 与网页分析接入 agent"
     },
     {
       "repo": "boykopovar/AnyPS5",
       "url": "https://github.com/boykopovar/AnyPS5",
-      "latestDate": "2026-10-11",
+      "latestDate": "2026-10-12",
       "latestRank": 2,
       "tagsCn": [
         "Game Porting",
+        "Reverse Engineering",
         "Vulkan",
-        "Dev Tool"
+        "PS5"
       ],
-      "lastTagline": "把自有 PS5 可执行文件重链接为 Linux/Windows 原生程序"
+      "lastTagline": "把 PS5 可执行文件重链接为原生程序，不走模拟器"
     },
     {
       "repo": "storytold/artcraft",
       "url": "https://github.com/storytold/artcraft",
-      "latestDate": "2026-10-11",
+      "latestDate": "2026-10-12",
       "latestRank": 3,
       "tagsCn": [
         "Dev Tool",
-        "AI",
-        "Video"
+        "3D Graphics",
+        "AI Video",
+        "Filmmaking"
       ],
-      "lastTagline": "为创作者把 2D 合成、3D 摆景与多模型图生视频统一到一个工作台"
+      "lastTagline": "给艺术家与导演的可控 AI 图像与视频创作工作台"
     },
     {
       "repo": "DuarteSantos8/openGym",
