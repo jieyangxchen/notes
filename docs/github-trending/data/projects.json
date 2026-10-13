@@ -1,18 +1,41 @@
 {
-  "generatedAt": "2026-10-12T08:04:21.247971+08:00",
+  "generatedAt": "2026-10-13T08:01:27.850066+08:00",
   "projects": [
     {
       "repo": "morluto/rea",
       "url": "https://github.com/morluto/rea",
-      "latestDate": "2026-10-12",
+      "latestDate": "2026-10-13",
       "latestRank": 1,
       "tagsCn": [
         "AI Agent",
         "Security",
-        "Dev Tool",
-        "MCP"
+        "Reverse Engineering"
       ],
-      "lastTagline": "以统一 MCP 把二进制、JS 与网页分析接入 agent"
+      "lastTagline": "把各类逆向工具统一接入智能体的一条 MCP 通道"
+    },
+    {
+      "repo": "storytold/artcraft",
+      "url": "https://github.com/storytold/artcraft",
+      "latestDate": "2026-10-13",
+      "latestRank": 2,
+      "tagsCn": [
+        "Dev Tool",
+        "Image Generation",
+        "Filmmaking"
+      ],
+      "lastTagline": "为插画与短片创作者提供可复现的二维三维场景编排与出图引擎"
+    },
+    {
+      "repo": "cathrynlavery/diagram-design",
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "latestDate": "2026-10-13",
+      "latestRank": 3,
+      "tagsCn": [
+        "AI Agent",
+        "Dev Tool",
+        "Data Visualization"
+      ],
+      "lastTagline": "让 AI 编码工具按编辑级规范输出自包含的 HTML 与 SVG 图表"
     },
     {
       "repo": "boykopovar/AnyPS5",
@@ -26,19 +49,6 @@
         "PS5"
       ],
       "lastTagline": "把 PS5 可执行文件重链接为原生程序，不走模拟器"
-    },
-    {
-      "repo": "storytold/artcraft",
-      "url": "https://github.com/storytold/artcraft",
-      "latestDate": "2026-10-12",
-      "latestRank": 3,
-      "tagsCn": [
-        "Dev Tool",
-        "3D Graphics",
-        "AI Video",
-        "Filmmaking"
-      ],
-      "lastTagline": "给艺术家与导演的可控 AI 图像与视频创作工作台"
     },
     {
       "repo": "DuarteSantos8/openGym",
@@ -421,18 +431,6 @@
         "Spec-Driven"
       ],
       "lastTagline": "让 AI 编码 Agent 先写规格、再按规格实现"
-    },
-    {
-      "repo": "cathrynlavery/diagram-design",
-      "url": "https://github.com/cathrynlavery/diagram-design",
-      "latestDate": "2026-09-11",
-      "latestRank": 3,
-      "tagsCn": [
-        "AI Agent",
-        "Dev Tool",
-        "Data Visualization"
-      ],
-      "lastTagline": "给 AI 编码工具注入 39 种编辑级图表排版规则"
     },
     {
       "repo": "liquidslr/system-design-notes",

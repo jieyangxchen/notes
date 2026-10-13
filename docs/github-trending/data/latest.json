@@ -1,16 +1,16 @@
 {
-  "date": "2026-10-12",
-  "generatedAt": "2026-10-12T08:04:21.247971+08:00",
+  "date": "2026-10-13",
+  "generatedAt": "2026-10-13T08:01:27.850066+08:00",
   "source": "https://github.com/trending?since=daily",
   "tags": [
     "AI Agent",
     "Security",
+    "Reverse Engineering",
     "Dev Tool",
-    "MCP",
-    "Game Porting",
-    "Reverse Engineering"
+    "Image Generation",
+    "Filmmaking"
   ],
-  "observation": "今日 TOP3 热度占比集体回落：rea 24.75%、AnyPS5 13.15%、ArtCraft 16.59%，不再像昨日占据新增的三四成，说明爆发期后进入消化。共同点是三者 1 天前均有提交、仍在扩张能力边界；差异在成熟度与风险结构。rea 发布 rea-agents-6.4.0，README 近 1.5 万字符，是三者中最工程化的一项；AnyPS5 无新 release，open issues 由 316 反弹至 550，个人维护带宽与积压矛盾突出；ArtCraft 近 30 天 PR 更新由 319 骤降至 81，协作热度明显降温。三者都带强合规边界：授权逆向、主机版权与生成内容版权，落地前均需授权留痕与人工复核。",
+  "observation": "今日 TOP3 延续两条主线：rea 与 diagram-design 都把能力封装成 agent 可调用的工具或 Skill，前者把 Ghidra 等逆向工具接入 MCP，后者把编辑级图表规范固化为 Skill；artcraft 走创作引擎路线，用 2D/3D 场景编排约束生成式模型。共同点是产出都需人工复核，且依赖外部模型、授权或第三方额度。差异在成熟度与风险：rea 星数占比 29.12% 最高但 open issues 升到 367，积压明显；artcraft 安装说明仍缺失、问题仍在堆积；diagram-design 稳定升温却始终无 release，图表类型口径 44/45 仍不一致。",
   "projects": [
     {
       "rank": 1,
@@ -19,138 +19,132 @@
       "tags": [
         "AI Agent",
         "Security",
-        "Dev Tool",
-        "MCP"
+        "Reverse Engineering"
       ],
       "tagsCn": [
         "AI Agent",
         "Security",
-        "Dev Tool",
-        "MCP"
+        "Reverse Engineering"
       ],
-      "tagline": "以统一 MCP 把二进制、JS 与网页分析接入 agent",
-      "starsToday": 25599,
-      "totalStars": 103437,
-      "starTodayRatio": 24.75,
-      "rankingStatus": "连续 6 次日报 TOP3",
-      "rankingTrack": "10-07#1 -> 10-08#1 -> 10-09#1 -> 10-10#1 -> 10-11#1 -> 10-12#1",
+      "tagline": "把各类逆向工具统一接入智能体的一条 MCP 通道",
+      "starsToday": 45327,
+      "totalStars": 155649,
+      "starTodayRatio": 29.12,
+      "rankingStatus": "连续 7 次日报 TOP3",
+      "rankingTrack": "10-07#1 -> 10-08#1 -> 10-09#1 -> 10-10#1 -> 10-11#1 -> 10-12#1 -> 10-13#1",
       "activity": "1 天前有提交",
       "license": "MIT",
       "maintainer": "个人项目；有主页/组织资料，可进一步核实官方性",
-      "positioning": "面向已获书面授权的漏洞研判、CTF 与闭源实现分析工程师：用统一 MCP 把 Ghidra/Hopper、JS/Electron、.NET 与网页分析接入 agent，也可在终端直调，结论须附原始工具证据。边界：分析全在本机执行，遇混淆、加壳或缺符号会明显退化，不承诺绕过任何授权限制。",
-      "whyWatch": "今日新增 25599 星、占总星 24.75%，绝对量仍居首但占比自 35.86% 回落；1 天前有提交，近 30 天 issue 更新 423、PR 更新 1092，协作持续加速；首次出现 rea-agents-6.4.0（2026-10-11）新 release；MIT 许可，README 14,748 字符含安装、Demo 与文档入口，成熟度三项目最高。风险在 open issues 由 121 升至 173，积压需持续观察。",
-      "changedSinceLast": "上次记录为 2026-10-10 第 1 名：总星 71927→103437，今日新增 25793→25599 基本持平，占比 35.86%→24.75% 回落；近 30 天 issue 316→423、PR 864→1092 继续攀升，open issues 121→173；最实质变化是版本从 rea-agents-6.3.0 升到 6.4.0（2026-10-11），README 14,313→14,748 字符，增量集中在工具覆盖。",
+      "positioning": "面向已获书面授权的漏洞研判、CTF 与闭源实现分析工程师：用统一 MCP 把 Ghidra/Hopper、JS/Electron、.NET 与网页分析接入 agent，也可终端直调。边界：分析全在本机执行，遇混淆、加壳或缺符号会明显退化，不承诺绕过任何授权限制，结论需附原始工具证据。",
+      "whyWatch": "今日新增 45327 星、占总星 29.12%，绝对量与占比同步回升，仍居首；1 天前有提交，近 30 天 issue 更新 423→625、PR 1092→1349，协作继续加速；release 仍为 rea-agents-6.4.0（2026-10-11）；README 已达 16,330 字符，含安装、Demo 与文档入口。但 open issues 由 173 升至 367，积压速度明显快于合并，响应能力存在被摊薄的风险。",
+      "changedSinceLast": "上次记录为 2026-10-11 第 1 名：总星 103437→155649，今日新增 25599→45327，占比 24.75%→29.12% 由回落转为回升；近 30 天 issue 更新 423→625、PR 1092→1349；open issues 173→367 近乎翻倍，是最需注意的信号；README 14,748→16,330 字符，增量仍集中在工具覆盖；版本未变，仍为 6.4.0。",
       "suitableFor": "适合已获书面授权的漏洞研判、恶意样本与竞品实现分析团队，把重复的静态排查交给 agent 并保留完整证据链；也适合已有 Ghidra/Hopper 授权环境、希望在隔离环境内辅助定位实现细节的个人研究者与 CTF 选手。",
-      "notSuitableFor": "不适合未获目标授权就想分析他人软件，或期望一键脱壳、免配置即得结论的人；也不适合把逆向结论直接当合规依据的团队，以及禁止把样本送入外部模型、要求结论完全可复现的强合规环境。",
-      "risk": "逆向涉及软件许可、反规避与出口管制，分析前必须确认对目标拥有书面授权并留痕；agent 结论可能看似完整却基于错误推断，关键判断需人工复核原始工具输出。setup 可在授权后改写 agent 配置甚至安装 Hopper，企业需审查写入路径与备份，避免把受限样本送入外部模型上下文。",
+      "notSuitableFor": "不适合未获目标授权就想分析他人软件的人，或期望一键脱壳、免配置即得结论者；也不适合把逆向结论直接当作合规依据的团队，以及禁止样本进入外部模型上下文、要求结论完全可复现的强合规环境。",
+      "risk": "逆向涉及软件许可、反规避与出口管制，分析前必须确认对目标拥有书面授权并留痕；agent 结论可能看似完整却基于错误推断，关键判断须人工复核原始工具输出。setup 可在授权后改写 agent 配置甚至安装 Hopper，企业需审查写入路径与备份，避免受限样本进入外部模型上下文。",
       "bestPractice": "在已授权的自有 App 上做功能还原：先让 agent 从网页与 JS 层定位功能入口，再下沉到二进制确认真实实现，全程保留 Ghidra/Hopper 原始输出作为证据，最后在隔离环境复刻实现并与原行为对照验收。",
       "trialPlan": {
-        "install": "按 README 或官网执行 npx rea-agents 安装，需 Node.js 22+；在隔离机器配置模型与工具链，仅指向已授权样本目录。",
-        "pilot": "选一个自有且已授权的 App，走通网页/JS→二进制分析链路，产出一份带工具原始输出的分析报告。",
-        "evaluation": "看入口定位准确率、人工复核通过率、单样本耗时，以及是否出现无法回溯的幻觉结论，并与纯人工基线对比。",
-        "exit": "若结论无法附原始证据、复核通过率低或需越权访问，即停止，并在隔离环境卸载与清理被改写的配置备份。"
+        "install": "按 README 或官网执行 npx rea-agents 安装，需 Node 环境；仅在已获授权的目标与隔离机器上进行，锁定当前版本并备份 agent 配置。",
+        "pilot": "选一个已授权的自有应用，让 agent 从 JS/网页层定位一个功能入口，再下沉到二进制确认实现，全程留存各工具原始输出。",
+        "evaluation": "看关键结论与原始工具输出的一致率、人工复核耗时、误判数量，以及是否出现越权或擅自改动宿主环境的行为。",
+        "exit": "若出现无授权目标、结论无法回溯到原始证据，或 setup 改写宿主配置且不可控，立即停止并回退到纯人工逆向流程。"
       },
       "signals": {
-        "recentCommit": "2026-10-11",
-        "issuesUpdated30d": 423,
-        "prsUpdated30d": 1092,
+        "recentCommit": "2026-10-12",
+        "issuesUpdated30d": 625,
+        "prsUpdated30d": 1349,
         "latestRelease": "rea-agents-6.4.0（2026-10-11）",
         "readmeMaturity": "成熟",
-        "readmeSignals": "14,748 字符 / 19 个标题 / 有安装说明 / 有 Demo/示例 / 有文档入口"
+        "readmeSignals": "16,330 字符 / 19 个标题 / 有安装说明 / 有 Demo/示例 / 有文档入口"
       }
     },
     {
       "rank": 2,
-      "repo": "boykopovar/AnyPS5",
-      "url": "https://github.com/boykopovar/AnyPS5",
-      "tags": [
-        "Game Porting",
-        "Reverse Engineering",
-        "Vulkan",
-        "PS5"
-      ],
-      "tagsCn": [
-        "Game Porting",
-        "Reverse Engineering",
-        "Vulkan",
-        "PS5"
-      ],
-      "tagline": "把 PS5 可执行文件重链接为原生程序，不走模拟器",
-      "starsToday": 3952,
-      "totalStars": 30053,
-      "starTodayRatio": 13.15,
-      "rankingStatus": "连续 5 次日报 TOP3",
-      "rankingTrack": "10-08#2 -> 10-09#2 -> 10-10#2 -> 10-11#2 -> 10-12#2",
-      "activity": "1 天前有提交",
-      "license": "GPL-2.0",
-      "maintainer": "个人项目；官方性未见强信号",
-      "positioning": "面向游戏保存与移植研究者、想在 Linux/Windows 运行自有 PS5 二进制的开发者：核心 relinker 把可执行文件转为目标系统原生格式，并以 system prx 库做动态链接，不走模拟器。边界：仅极少数游戏通过验证，未支持状态直接抛 std::runtime_error 退出，需自备合法获取的二进制。",
-      "whyWatch": "今日新增 3952 星、占总星 13.15%，总星 30053 仍处高位但占比自 21.69% 回落；1 天前有提交，近 30 天 PR 更新 3530、issue 更新 541 放量明显，需分辨真实贡献与自动化噪音；open issues 由 316 升至 550，远超个人维护带宽；版本仍停在 v0.1.1（2026-09-28），README 仅 2,435 字符且安装说明不明显，整体偏早期。",
-      "changedSinceLast": "上次记录为 2026-10-10 第 2 名：总星 26761→30053，今日新增 5805→3952 明显回落，占比 21.69%→13.15%；近 30 天 issue 更新 347→541、PR 2755→3530 继续放量；上轮 open issues 由 530 清理到 316，本次又反弹至 550，清理未能持续；版本与 README 体量均未变。",
-      "suitableFor": "适合研究 PS5 二进制格式、相对重链接与 SPIR-V 着色器重编译的技术研究者，以及愿意自行构建、只运行自己合法 dump 的保存与移植爱好者，也可作为学习 Vulkan 与动态链接实现的样本。",
-      "notSuitableFor": "不适合想开箱即玩商业大作、期待高兼容与稳定帧数的普通玩家；不适合无法确认二进制合法来源或有分发破解内容意图的场景；也不适合要求清晰安装文档、稳定 API 与可预期修复节奏的团队。",
-      "risk": "涉及主机二进制移植与反规避，版权、许可与出口管制边界须自行确认，仅可使用自有合法 dump，项目方声明不分发固件、密钥或专有库；550 个 open issues 与个人维护意味着问题可能长期悬置；GPL-2.0 具传染性，闭源集成前需法务评估；不承诺任何游戏可运行。",
-      "bestPractice": "以兼容列表中已验证的 Dreaming Sarah 作验收基线：按 docs/dev/BUILD.md 复现构建，跑通输入映射与着色器重编译并记录帧率与崩溃点；再试一个未验证小游戏，仅作问题定位并提交 issue，不据此判断通用可用性。",
-      "trialPlan": {
-        "install": "在隔离机器按 docs/dev/BUILD.md 构建，可按需开启 ANYPS5_ENABLE_SPIRV_TOOLS 做着色器校验，不运行来源不明的在线脚本。",
-        "pilot": "先跑已验证的 Dreaming Sarah，记录帧率与崩溃点；再试一个未验证小游戏，仅用于定位问题并提交 issue。",
-        "evaluation": "看能否稳定启动、帧率表现、SPIR-V 着色器编译成功率，以及崩溃是否可复现并可定位到具体库函数。",
-        "exit": "若二进制合法来源无法确认、构建长期失败或兼容列表长期无新增，即停止并删除本地 dump 与构建产物。"
-      },
-      "signals": {
-        "recentCommit": "2026-10-11",
-        "issuesUpdated30d": 541,
-        "prsUpdated30d": 3530,
-        "latestRelease": "v0.1.1（2026-09-28）",
-        "readmeMaturity": "中等",
-        "readmeSignals": "2,435 字符 / 6 个标题 / 安装说明不明显 / 有 Demo/示例 / 有文档入口"
-      }
-    },
-    {
-      "rank": 3,
       "repo": "storytold/artcraft",
       "url": "https://github.com/storytold/artcraft",
       "tags": [
         "Dev Tool",
-        "3D Graphics",
-        "AI Video",
+        "Image Generation",
         "Filmmaking"
       ],
       "tagsCn": [
         "Dev Tool",
-        "3D Graphics",
-        "AI Video",
+        "Image Generation",
         "Filmmaking"
       ],
-      "tagline": "给艺术家与导演的可控 AI 图像与视频创作工作台",
-      "starsToday": 2957,
-      "totalStars": 17820,
-      "starTodayRatio": 16.59,
-      "rankingStatus": "连续 4 次日报 TOP3",
-      "rankingTrack": "10-09#3 -> 10-10#3 -> 10-11#3 -> 10-12#3",
-      "activity": "1 天前有提交",
+      "tagline": "为插画与短片创作者提供可复现的二维三维场景编排与出图引擎",
+      "starsToday": 4095,
+      "totalStars": 21909,
+      "starTodayRatio": 18.69,
+      "rankingStatus": "连续 5 次日报 TOP3",
+      "rankingTrack": "10-09#3 -> 10-10#3 -> 10-11#3 -> 10-12#3 -> 10-13#2",
+      "activity": "2 天前有提交",
       "license": "Apache-2.0",
       "maintainer": "组织/公司/社区项目（ArtCraft）；有主页/组织资料，可进一步核实官方性",
-      "positioning": "面向插画师、设计师与独立影视创作者：把 2D 图层合成、3D 场景摆位、角色姿态与多模型图生图/图生视频统一到一处工作台，强调先搭场景再生成以提升可复现性。边界：依赖第三方模型与额度，结果仍需人工筛选修图，仓库安装说明仍不清晰，需自行确认部署方式。",
-      "whyWatch": "今日新增 2957 星、占总星 16.59%，总星 17820 稳增；组织账号 storytold 出品，1 天前有提交；Apache-2.0 许可，README 6,647 字符有 Demo 与文档入口但安装说明不明显，release 仍停在 artcraft-v0.41.0（2026-09-26）。需注意近 30 天 PR 更新由 319 降至 81、open issues 148→222，协作热度与问题积压呈反向信号。",
-      "changedSinceLast": "上次记录为 2026-10-10 第 3 名：总星 14430→17820，今日新增 3222→2957，占比 22.33%→16.59% 回落；近 30 天 issue 更新 82→150 上升，但 PR 更新 319→81 骤降，需分辨是合并节奏放缓还是贡献退潮；open issues 148→222 上升；版本与 README 体量均未变，仍为 v0.41.0。",
-      "suitableFor": "适合需要稳定角色形象、可复用场景与多镜头一致性的插画、概念设计与短片创作者，以及想在受控流程内比较不同图像/视频模型效果的小型工作室，用于内部预研与分镜推演。",
+      "positioning": "面向插画师、概念设计师与独立影视创作者：把 2D 图层合成、3D 场景摆位、角色姿态与多模型图生图/图生视频统一到一处工作台，强调先搭场景再生成以提升可复现性。边界：依赖第三方模型与额度，结果仍需人工筛选修图，仓库安装说明仍不清晰，部署方式需自行确认。",
+      "whyWatch": "今日新增 4095 星、占总星 18.69%，总星 21909 稳增；组织账号 storytold 出品，最近提交在 2 天前；Apache-2.0 许可，README 6,647 字符有 Demo 与文档入口但安装说明不明显，release 停在 artcraft-v0.41.0（2026-09-26）。近 30 天 issue 更新 150→194、PR 81→89 略有回暖，但 open issues 222→266 仍在上升，需分辨是贡献回升还是问题堆积。",
+      "changedSinceLast": "上次记录为 2026-10-11 第 3 名：总星 17820→21909，今日新增 2957→4095，占比 16.59%→18.69% 回升；近 30 天 issue 更新 150→194，PR 更新 81→89 由骤降转为小幅回升，仍需观察；open issues 222→266 继续走高；版本与 README 体量均未变，安装说明仍不明显；最近提交由 1 天前变为 2 天前。",
+      "suitableFor": "适合需要稳定角色形象、可复用场景与多镜头一致性的插画、概念设计与短片创作者，也适合想在受控流程内比较不同图像/视频模型效果的小型工作室，用于内部预研与分镜推演。",
       "notSuitableFor": "不适合只想用文字一键出片、不关注构图与一致性的轻量用户；也不适合需要完全离线私有化部署或严格版权归属证明的法务敏感团队，安装路径与第三方模型依赖仍需自行验证。",
       "risk": "许可为 Apache-2.0，仍需核对仓库条款与生成内容版权归属；图像/视频生成涉及训练数据与肖像权争议，使用真人形象或客户素材须取得授权；依赖外部模型与付费额度，成本与可用性受第三方政策影响，产出必须人工审核后方可对外交付。",
       "bestPractice": "为一部短片做角色一致性验证：先用角色姿态与身份迁移固定主角形象，再用 3D 合成搭出同一场景的多个机位，批量出图后人工挑选，并记录可复用的提示词与参数组合，逐步沉淀为团队素材规范。",
       "trialPlan": {
         "install": "从官网或 GitHub Releases 下载客户端，或按仓库说明从源码构建；使用前确认 Apache-2.0 条款、商用范围与所用模型额度。",
-        "pilot": "用一个小型分镜项目走通 2D 合成→3D 摆放→图生视频流程，锁定模型与付费额度，仅做内部验证不作对外交付。",
-        "evaluation": "看角色一致性、镜头可复现性、单张出图成本与人工返修比例，并与现有工作流对比耗时。",
-        "exit": "若角色一致性无法稳定、成本超出预算，或第三方模型政策变化影响可用性，即停止导出提示词与素材存档并结项。"
+        "pilot": "用一个小型分镜项目走通 2D 合成→3D 摆放→图生视频流程，锁定模型与付费额度，仅做内部验证，不作对外交付。",
+        "evaluation": "看角色一致性、镜头可复现性、单张出图成本与人工返修比例，并核对生成内容的版权与素材授权是否可追溯。",
+        "exit": "若模型额度成本超出预算、生成内容授权无法追溯，或工作流无法在团队内稳定复现，则停止扩展并回退到既有工具链。"
       },
       "signals": {
         "recentCommit": "2026-10-11",
-        "issuesUpdated30d": 150,
-        "prsUpdated30d": 81,
+        "issuesUpdated30d": 194,
+        "prsUpdated30d": 89,
         "latestRelease": "artcraft-v0.41.0（2026-09-26）",
         "readmeMaturity": "中等",
         "readmeSignals": "6,647 字符 / 6 个标题 / 安装说明不明显 / 有 Demo/示例 / 有文档入口"
+      }
+    },
+    {
+      "rank": 3,
+      "repo": "cathrynlavery/diagram-design",
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "tags": [
+        "AI Agent",
+        "Dev Tool",
+        "Data Visualization"
+      ],
+      "tagsCn": [
+        "AI Agent",
+        "Dev Tool",
+        "Data Visualization"
+      ],
+      "tagline": "让 AI 编码工具按编辑级规范输出自包含的 HTML 与 SVG 图表",
+      "starsToday": 2081,
+      "totalStars": 52555,
+      "starTodayRatio": 3.96,
+      "rankingStatus": "非连续；上次 09-11 第3",
+      "rankingTrack": "09-11#3 -> 10-13#3",
+      "activity": "1 天前有提交",
+      "license": "MIT",
+      "maintainer": "个人项目；有主页/组织资料，可进一步核实官方性",
+      "positioning": "面向使用 Claude Code、Codex、Copilot、Cursor 等 AI 编码工具的开发者、技术写作者与文档团队：让 AI 按内置编辑级图表规范输出自包含 HTML+SVG，替代默认 Mermaid 风格。边界：不支持 Figma 原生编辑，语义结构与层级由模型临时判断，复杂系统边界仍需人工核对，默认输出为静态图。",
+      "whyWatch": "今日新增 2081 星、占总星 3.96%，总星 52555，热度维持稳定升温；最近提交 1 天前，近 30 天 issue 更新 65→86，open issues 40→46 小幅上升；README 31,389 字符且含安装、Demo 与文档入口。但始终没有公开 release，description 写 44 种、README 写 45 种图表类型，口径仍不统一；本次 PR 数据缺失，社区协作强度不易判断。",
+      "changedSinceLast": "上次记录为 2026-09-10 第 2 名：总星约 3.77 万→52555，今日新增 1294→2081，占比 3.43%→3.96% 温和上行；近 30 天 issue 更新 65→86，open issues 40→46；README 由 30,475 字符/37 个标题变为 31,389 字符/30 个标题，结构有调整；图表类型口径从 38/39 变为 44/45，类型数增加但 description 与 README 仍不一致；仍无 release。",
+      "suitableFor": "适合对文档视觉有要求、想摆脱 Mermaid 默认样式的 AI 重度用户；适合需要统一风格架构图、流程图与用户旅程的文档团队；也适合设计师与工程师以 HTML/SVG 作为中间交付物协作，降低人工调图时间。",
+      "notSuitableFor": "不适合需要复杂交互、动画或数据驱动实时可视化的场景；不适合必须交付 Figma 或 draw.io 源文件供团队二次编辑的流程；也不适合要求官方支持与版本合规采购的企业环境，模型误判系统边界时图会更具迷惑性。",
+      "risk": "无 release，description 44 种与 README 45 种口径不一，规则随时变动，生产采用前应锁定 commit 并自行验证；LLM 生成的图在系统依赖、网络安全边界上一旦出错，比 Mermaid 更难被察觉；HTML/SVG 内嵌脚本在网页发布时需遵守 CSP 等安全策略；MIT 但个人维护，无官方支持承诺。",
+      "bestPractice": "文档站点改版时，让 Claude Code 安装该 Skill，把现有 Mermaid 架构图重绘成统一风格的 HTML/SVG 并嵌入文档；由资深工程师核对层级与依赖连线，把生成的 SVG 纳入代码评审，避免错误图表进入对外文档。",
+      "trialPlan": {
+        "install": "按 README 执行 npx skills add cathrynlavery/diagram-design，安装到 Claude Code 或 Codex 等兼容宿主，先在一个非核心文档仓库试用并锁定当前 commit。",
+        "pilot": "挑 3-5 张已有 Mermaid 图重绘为 HTML/SVG 并嵌入测试文档站点，检查品牌一致性与可读性，暂不替换生产文档。",
+        "evaluation": "看重绘返工率、人工核对发现的结构错误数、渲染兼容性与团队接受度，并以原 Mermaid 版本作对照。",
+        "exit": "若错误图表难以被评审发现、与现有 draw.io/Figma 流程冲突，或需要官方支持与版本合规，则不再推广并回到原工具链。"
+      },
+      "signals": {
+        "recentCommit": "2026-10-12",
+        "issuesUpdated30d": 86,
+        "prsUpdated30d": 0,
+        "latestRelease": "暂无公开 release",
+        "readmeMaturity": "成熟",
+        "readmeSignals": "31,389 字符 / 30 个标题 / 有安装说明 / 有 Demo/示例 / 有文档入口"
       }
     }
   ]

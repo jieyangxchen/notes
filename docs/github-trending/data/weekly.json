@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-12T08:04:21.247971+08:00",
-  "window": "2026-10-06..2026-10-12",
+  "generatedAt": "2026-10-13T08:01:27.850066+08:00",
+  "window": "2026-10-07..2026-10-13",
   "topProjects": [
     {
       "repo": "morluto/rea",
@@ -8,13 +8,12 @@
       "tagsCn": [
         "AI Agent",
         "Security",
-        "Dev Tool",
-        "MCP"
+        "Reverse Engineering"
       ],
-      "appearances": 6,
+      "appearances": 7,
       "bestRank": 1,
-      "latestDate": "2026-10-12",
-      "judgement": "近 7 次记录中出现 6 次，最佳排名第 1，适合优先复盘详情。"
+      "latestDate": "2026-10-13",
+      "judgement": "近 7 次记录中出现 7 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
       "repo": "boykopovar/AnyPS5",
@@ -35,14 +34,13 @@
       "url": "https://github.com/storytold/artcraft",
       "tagsCn": [
         "Dev Tool",
-        "3D Graphics",
-        "AI Video",
+        "Image Generation",
         "Filmmaking"
       ],
-      "appearances": 4,
-      "bestRank": 3,
-      "latestDate": "2026-10-12",
-      "judgement": "近 7 次记录中出现 4 次，最佳排名第 3，适合优先复盘详情。"
+      "appearances": 5,
+      "bestRank": 2,
+      "latestDate": "2026-10-13",
+      "judgement": "近 7 次记录中出现 5 次，最佳排名第 2，适合优先复盘详情。"
     },
     {
       "repo": "DuarteSantos8/openGym",
@@ -53,10 +51,10 @@
         "PWA",
         "隐私"
       ],
-      "appearances": 3,
-      "bestRank": 1,
+      "appearances": 2,
+      "bestRank": 3,
       "latestDate": "2026-10-08",
-      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
+      "judgement": "近 7 次记录中出现 2 次，最佳排名第 3，适合优先复盘详情。"
     },
     {
       "repo": "tester-army/e2e",
@@ -67,17 +65,17 @@
         "Testing",
         "AI Agent"
       ],
-      "appearances": 2,
+      "appearances": 1,
       "bestRank": 2,
       "latestDate": "2026-10-07",
-      "judgement": "近 7 次记录中出现 2 次，最佳排名第 2，适合优先复盘详情。"
+      "judgement": "近 7 次记录中出现 1 次，最佳排名第 2，适合优先复盘详情。"
     }
   ],
   "streaks": [
     {
       "repo": "morluto/rea",
-      "days": 6,
-      "track": "10-07#1 -> 10-08#1 -> 10-09#1 -> 10-10#1 -> 10-11#1 -> 10-12#1"
+      "days": 7,
+      "track": "10-07#1 -> 10-08#1 -> 10-09#1 -> 10-10#1 -> 10-11#1 -> 10-12#1 -> 10-13#1"
     },
     {
       "repo": "boykopovar/AnyPS5",
@@ -86,18 +84,13 @@
     },
     {
       "repo": "storytold/artcraft",
-      "days": 4,
-      "track": "10-09#3 -> 10-10#3 -> 10-11#3 -> 10-12#3"
+      "days": 5,
+      "track": "10-09#3 -> 10-10#3 -> 10-11#3 -> 10-12#3 -> 10-13#2"
     },
     {
       "repo": "DuarteSantos8/openGym",
-      "days": 3,
-      "track": "10-06#1 -> 10-07#3 -> 10-08#3"
-    },
-    {
-      "repo": "tester-army/e2e",
       "days": 2,
-      "track": "10-06#2 -> 10-07#2"
+      "track": "10-07#3 -> 10-08#3"
     }
   ]
 }
