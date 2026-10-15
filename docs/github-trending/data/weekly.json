@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-14T08:06:50.810515+08:00",
-  "window": "2026-10-08..2026-10-14",
+  "generatedAt": "2026-10-15T08:01:09.709391+08:00",
+  "window": "2026-10-09..2026-10-15",
   "topProjects": [
     {
       "repo": "morluto/rea",
@@ -8,11 +8,12 @@
       "tagsCn": [
         "AI Agent",
         "Security",
+        "Reverse Engineering",
         "Dev Tool"
       ],
       "appearances": 7,
       "bestRank": 1,
-      "latestDate": "2026-10-14",
+      "latestDate": "2026-10-15",
       "judgement": "近 7 次记录中出现 7 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
@@ -37,24 +38,24 @@
         "Vulkan",
         "PS5"
       ],
-      "appearances": 5,
+      "appearances": 4,
       "bestRank": 2,
       "latestDate": "2026-10-12",
-      "judgement": "近 7 次记录中出现 5 次，最佳排名第 2，适合优先复盘详情。"
+      "judgement": "近 7 次记录中出现 4 次，最佳排名第 2，适合优先复盘详情。"
     },
     {
-      "repo": "DuarteSantos8/openGym",
-      "url": "https://github.com/DuarteSantos8/openGym",
+      "repo": "debpalash/VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
       "tagsCn": [
-        "Self-hosted",
-        "Health",
-        "PWA",
-        "隐私"
+        "Voice AI",
+        "Local-first",
+        "Content",
+        "AI Agent"
       ],
       "appearances": 1,
-      "bestRank": 3,
-      "latestDate": "2026-10-08",
-      "judgement": "近 7 次记录中出现 1 次，最佳排名第 3，适合优先复盘详情。"
+      "bestRank": 2,
+      "latestDate": "2026-10-15",
+      "judgement": "近 7 次记录中出现 1 次，最佳排名第 2，适合优先复盘详情。"
     },
     {
       "repo": "bilawalsidhu/gods-eye-view",
@@ -75,7 +76,7 @@
     {
       "repo": "morluto/rea",
       "days": 7,
-      "track": "10-08#1 -> 10-09#1 -> 10-10#1 -> 10-11#1 -> 10-12#1 -> 10-13#1 -> 10-14#1"
+      "track": "10-09#1 -> 10-10#1 -> 10-11#1 -> 10-12#1 -> 10-13#1 -> 10-14#1 -> 10-15#1"
     },
     {
       "repo": "storytold/artcraft",
@@ -84,8 +85,8 @@
     },
     {
       "repo": "boykopovar/AnyPS5",
-      "days": 5,
-      "track": "10-08#2 -> 10-09#2 -> 10-10#2 -> 10-11#2 -> 10-12#2"
+      "days": 4,
+      "track": "10-09#2 -> 10-10#2 -> 10-11#2 -> 10-12#2"
     }
   ]
 }
