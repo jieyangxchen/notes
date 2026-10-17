@@ -1,6 +1,44 @@
 {
-  "generatedAt": "2026-10-16T08:01:09.669337+08:00",
+  "generatedAt": "2026-10-17T08:18:14.644143+08:00",
   "projects": [
+    {
+      "repo": "debpalash/VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "latestDate": "2026-10-17",
+      "latestRank": 1,
+      "tagsCn": [
+        "AI Agent",
+        "语音合成",
+        "本地优先"
+      ],
+      "lastTagline": "本地语音克隆与多语言配音工作台，今日增 2301 星"
+    },
+    {
+      "repo": "xerj-org/xerj",
+      "url": "https://github.com/xerj-org/xerj",
+      "latestDate": "2026-10-17",
+      "latestRank": 2,
+      "tagsCn": [
+        "AI Agent",
+        "Dev Tool",
+        "Search",
+        "RAG"
+      ],
+      "lastTagline": "一条命令索引代码与文档，自述比 grep 省 40 倍 token"
+    },
+    {
+      "repo": "anthropics/claude-plugins-official",
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "latestDate": "2026-10-17",
+      "latestRank": 3,
+      "tagsCn": [
+        "AI Agent",
+        "Dev Tool",
+        "插件生态",
+        "供应链"
+      ],
+      "lastTagline": "Anthropic 官方 Claude Code 插件目录，今日增 1552 星"
+    },
     {
       "repo": "morluto/rea",
       "url": "https://github.com/morluto/rea",
@@ -12,18 +50,6 @@
         "Dev Tool"
       ],
       "lastTagline": "统一 Ghidra/Hopper 与网页分析的 MCP 逆向编排层"
-    },
-    {
-      "repo": "debpalash/VoiceStudio",
-      "url": "https://github.com/debpalash/VoiceStudio",
-      "latestDate": "2026-10-16",
-      "latestRank": 2,
-      "tagsCn": [
-        "AI Agent",
-        "Local-first",
-        "Speech"
-      ],
-      "lastTagline": "本地运行的 ElevenLabs 替代：克隆、配音、转写与有声书"
     },
     {
       "repo": "NationalSecurityAgency/ghidra",
