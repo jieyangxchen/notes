@@ -1,17 +1,41 @@
 {
-  "generatedAt": "2026-10-17T08:18:14.644143+08:00",
+  "generatedAt": "2026-10-18T08:01:22.605616+08:00",
   "projects": [
     {
       "repo": "debpalash/VoiceStudio",
       "url": "https://github.com/debpalash/VoiceStudio",
-      "latestDate": "2026-10-17",
+      "latestDate": "2026-10-18",
       "latestRank": 1,
       "tagsCn": [
         "AI Agent",
-        "语音合成",
-        "本地优先"
+        "Voice",
+        "Local-first"
       ],
-      "lastTagline": "本地语音克隆与多语言配音工作台，今日增 2301 星"
+      "lastTagline": "本地克隆声线并批量配音、转写与做有声书"
+    },
+    {
+      "repo": "anthropics/claude-plugins-official",
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "latestDate": "2026-10-18",
+      "latestRank": 2,
+      "tagsCn": [
+        "AI Agent",
+        "Dev Tool",
+        "Security"
+      ],
+      "lastTagline": "官方审核的代码助手插件目录与安装入口"
+    },
+    {
+      "repo": "MadsLorentzen/ai-job-search",
+      "url": "https://github.com/MadsLorentzen/ai-job-search",
+      "latestDate": "2026-10-18",
+      "latestRank": 3,
+      "tagsCn": [
+        "学术研究",
+        "AI Agent",
+        "Career"
+      ],
+      "lastTagline": "本地运行代码助手筛职位、改简历、备面试"
     },
     {
       "repo": "xerj-org/xerj",
@@ -25,19 +49,6 @@
         "RAG"
       ],
       "lastTagline": "一条命令索引代码与文档，自述比 grep 省 40 倍 token"
-    },
-    {
-      "repo": "anthropics/claude-plugins-official",
-      "url": "https://github.com/anthropics/claude-plugins-official",
-      "latestDate": "2026-10-17",
-      "latestRank": 3,
-      "tagsCn": [
-        "AI Agent",
-        "Dev Tool",
-        "插件生态",
-        "供应链"
-      ],
-      "lastTagline": "Anthropic 官方 Claude Code 插件目录，今日增 1552 星"
     },
     {
       "repo": "morluto/rea",
@@ -622,18 +633,6 @@
         "Image Generation"
       ],
       "lastTagline": "GPT-Image2 工业级提示词模板库"
-    },
-    {
-      "repo": "MadsLorentzen/ai-job-search",
-      "url": "https://github.com/MadsLorentzen/ai-job-search",
-      "latestDate": "2026-08-27",
-      "latestRank": 3,
-      "tagsCn": [
-        "AI Agent",
-        "学术研究",
-        "Job Search"
-      ],
-      "lastTagline": "AI 求职框架：本地运行，自动评估职位并定制申请材料"
     },
     {
       "repo": "openai/codex",

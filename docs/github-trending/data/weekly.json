@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-17T08:18:14.644143+08:00",
-  "window": "2026-10-11..2026-10-17",
+  "generatedAt": "2026-10-18T08:01:22.605616+08:00",
+  "window": "2026-10-12..2026-10-18",
   "topProjects": [
     {
       "repo": "morluto/rea",
@@ -10,10 +10,23 @@
         "Security",
         "Dev Tool"
       ],
-      "appearances": 6,
+      "appearances": 5,
       "bestRank": 1,
       "latestDate": "2026-10-16",
-      "judgement": "近 7 次记录中出现 6 次，最佳排名第 1，适合优先复盘详情。"
+      "judgement": "近 7 次记录中出现 5 次，最佳排名第 1，适合优先复盘详情。"
+    },
+    {
+      "repo": "debpalash/VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "tagsCn": [
+        "AI Agent",
+        "Voice",
+        "Local-first"
+      ],
+      "appearances": 4,
+      "bestRank": 1,
+      "latestDate": "2026-10-18",
+      "judgement": "近 7 次记录中出现 4 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
       "repo": "storytold/artcraft",
@@ -23,23 +36,23 @@
         "Image Generation",
         "Filmmaking"
       ],
-      "appearances": 4,
+      "appearances": 3,
       "bestRank": 2,
       "latestDate": "2026-10-14",
-      "judgement": "近 7 次记录中出现 4 次，最佳排名第 2，适合优先复盘详情。"
+      "judgement": "近 7 次记录中出现 3 次，最佳排名第 2，适合优先复盘详情。"
     },
     {
-      "repo": "debpalash/VoiceStudio",
-      "url": "https://github.com/debpalash/VoiceStudio",
+      "repo": "anthropics/claude-plugins-official",
+      "url": "https://github.com/anthropics/claude-plugins-official",
       "tagsCn": [
         "AI Agent",
-        "语音合成",
-        "本地优先"
+        "Dev Tool",
+        "Security"
       ],
-      "appearances": 3,
-      "bestRank": 1,
-      "latestDate": "2026-10-17",
-      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
+      "appearances": 2,
+      "bestRank": 2,
+      "latestDate": "2026-10-18",
+      "judgement": "近 7 次记录中出现 2 次，最佳排名第 2，适合优先复盘详情。"
     },
     {
       "repo": "boykopovar/AnyPS5",
@@ -50,46 +63,32 @@
         "Vulkan",
         "PS5"
       ],
-      "appearances": 2,
-      "bestRank": 2,
-      "latestDate": "2026-10-12",
-      "judgement": "近 7 次记录中出现 2 次，最佳排名第 2，适合优先复盘详情。"
-    },
-    {
-      "repo": "xerj-org/xerj",
-      "url": "https://github.com/xerj-org/xerj",
-      "tagsCn": [
-        "AI Agent",
-        "Dev Tool",
-        "Search",
-        "RAG"
-      ],
       "appearances": 1,
       "bestRank": 2,
-      "latestDate": "2026-10-17",
+      "latestDate": "2026-10-12",
       "judgement": "近 7 次记录中出现 1 次，最佳排名第 2，适合优先复盘详情。"
     }
   ],
   "streaks": [
     {
       "repo": "morluto/rea",
-      "days": 6,
-      "track": "10-11#1 -> 10-12#1 -> 10-13#1 -> 10-14#1 -> 10-15#1 -> 10-16#1"
-    },
-    {
-      "repo": "storytold/artcraft",
-      "days": 4,
-      "track": "10-11#3 -> 10-12#3 -> 10-13#2 -> 10-14#2"
+      "days": 5,
+      "track": "10-12#1 -> 10-13#1 -> 10-14#1 -> 10-15#1 -> 10-16#1"
     },
     {
       "repo": "debpalash/VoiceStudio",
-      "days": 3,
-      "track": "10-15#2 -> 10-16#2 -> 10-17#1"
+      "days": 4,
+      "track": "10-15#2 -> 10-16#2 -> 10-17#1 -> 10-18#1"
     },
     {
-      "repo": "boykopovar/AnyPS5",
+      "repo": "storytold/artcraft",
+      "days": 3,
+      "track": "10-12#3 -> 10-13#2 -> 10-14#2"
+    },
+    {
+      "repo": "anthropics/claude-plugins-official",
       "days": 2,
-      "track": "10-11#2 -> 10-12#2"
+      "track": "10-17#3 -> 10-18#2"
     }
   ]
 }
