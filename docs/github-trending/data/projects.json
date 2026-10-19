@@ -1,17 +1,41 @@
 {
-  "generatedAt": "2026-10-18T08:01:22.605616+08:00",
+  "generatedAt": "2026-10-19T08:06:47.407193+08:00",
   "projects": [
     {
-      "repo": "debpalash/VoiceStudio",
-      "url": "https://github.com/debpalash/VoiceStudio",
-      "latestDate": "2026-10-18",
+      "repo": "MadsLorentzen/ai-job-search",
+      "url": "https://github.com/MadsLorentzen/ai-job-search",
+      "latestDate": "2026-10-19",
       "latestRank": 1,
       "tagsCn": [
         "AI Agent",
-        "Voice",
+        "Career",
+        "Claude Code"
+      ],
+      "lastTagline": "用 Claude Code 在本地筛职位、改简历、写求职信并备面"
+    },
+    {
+      "repo": "debpalash/VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "latestDate": "2026-10-19",
+      "latestRank": 2,
+      "tagsCn": [
+        "AI Agent",
+        "TTS",
         "Local-first"
       ],
-      "lastTagline": "本地克隆声线并批量配音、转写与做有声书"
+      "lastTagline": "本地跑 ElevenLabs 替代：克隆音色、配音、转写与有声书"
+    },
+    {
+      "repo": "anomalyco/opencode",
+      "url": "https://github.com/anomalyco/opencode",
+      "latestDate": "2026-10-19",
+      "latestRank": 3,
+      "tagsCn": [
+        "AI Agent",
+        "Dev Tool",
+        "Coding Agent"
+      ],
+      "lastTagline": "终端里的开源编码 agent，build/plan 双模式可切换"
     },
     {
       "repo": "anthropics/claude-plugins-official",
@@ -24,18 +48,6 @@
         "Security"
       ],
       "lastTagline": "官方审核的代码助手插件目录与安装入口"
-    },
-    {
-      "repo": "MadsLorentzen/ai-job-search",
-      "url": "https://github.com/MadsLorentzen/ai-job-search",
-      "latestDate": "2026-10-18",
-      "latestRank": 3,
-      "tagsCn": [
-        "学术研究",
-        "AI Agent",
-        "Career"
-      ],
-      "lastTagline": "本地运行代码助手筛职位、改简历、备面试"
     },
     {
       "repo": "xerj-org/xerj",

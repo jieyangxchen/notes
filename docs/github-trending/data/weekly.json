@@ -1,7 +1,20 @@
 {
-  "generatedAt": "2026-10-18T08:01:22.605616+08:00",
-  "window": "2026-10-12..2026-10-18",
+  "generatedAt": "2026-10-19T08:06:47.407193+08:00",
+  "window": "2026-10-13..2026-10-19",
   "topProjects": [
+    {
+      "repo": "debpalash/VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "tagsCn": [
+        "AI Agent",
+        "TTS",
+        "Local-first"
+      ],
+      "appearances": 5,
+      "bestRank": 1,
+      "latestDate": "2026-10-19",
+      "judgement": "近 7 次记录中出现 5 次，最佳排名第 1，适合优先复盘详情。"
+    },
     {
       "repo": "morluto/rea",
       "url": "https://github.com/morluto/rea",
@@ -10,36 +23,23 @@
         "Security",
         "Dev Tool"
       ],
-      "appearances": 5,
-      "bestRank": 1,
-      "latestDate": "2026-10-16",
-      "judgement": "近 7 次记录中出现 5 次，最佳排名第 1，适合优先复盘详情。"
-    },
-    {
-      "repo": "debpalash/VoiceStudio",
-      "url": "https://github.com/debpalash/VoiceStudio",
-      "tagsCn": [
-        "AI Agent",
-        "Voice",
-        "Local-first"
-      ],
       "appearances": 4,
       "bestRank": 1,
-      "latestDate": "2026-10-18",
+      "latestDate": "2026-10-16",
       "judgement": "近 7 次记录中出现 4 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
-      "repo": "storytold/artcraft",
-      "url": "https://github.com/storytold/artcraft",
+      "repo": "MadsLorentzen/ai-job-search",
+      "url": "https://github.com/MadsLorentzen/ai-job-search",
       "tagsCn": [
-        "Dev Tool",
-        "Image Generation",
-        "Filmmaking"
+        "AI Agent",
+        "Career",
+        "Claude Code"
       ],
-      "appearances": 3,
-      "bestRank": 2,
-      "latestDate": "2026-10-14",
-      "judgement": "近 7 次记录中出现 3 次，最佳排名第 2，适合优先复盘详情。"
+      "appearances": 2,
+      "bestRank": 1,
+      "latestDate": "2026-10-19",
+      "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
       "repo": "anthropics/claude-plugins-official",
@@ -55,40 +55,44 @@
       "judgement": "近 7 次记录中出现 2 次，最佳排名第 2，适合优先复盘详情。"
     },
     {
-      "repo": "boykopovar/AnyPS5",
-      "url": "https://github.com/boykopovar/AnyPS5",
+      "repo": "storytold/artcraft",
+      "url": "https://github.com/storytold/artcraft",
       "tagsCn": [
-        "Game Porting",
-        "Reverse Engineering",
-        "Vulkan",
-        "PS5"
+        "Dev Tool",
+        "Image Generation",
+        "Filmmaking"
       ],
-      "appearances": 1,
+      "appearances": 2,
       "bestRank": 2,
-      "latestDate": "2026-10-12",
-      "judgement": "近 7 次记录中出现 1 次，最佳排名第 2，适合优先复盘详情。"
+      "latestDate": "2026-10-14",
+      "judgement": "近 7 次记录中出现 2 次，最佳排名第 2，适合优先复盘详情。"
     }
   ],
   "streaks": [
     {
-      "repo": "morluto/rea",
-      "days": 5,
-      "track": "10-12#1 -> 10-13#1 -> 10-14#1 -> 10-15#1 -> 10-16#1"
-    },
-    {
       "repo": "debpalash/VoiceStudio",
-      "days": 4,
-      "track": "10-15#2 -> 10-16#2 -> 10-17#1 -> 10-18#1"
+      "days": 5,
+      "track": "10-15#2 -> 10-16#2 -> 10-17#1 -> 10-18#1 -> 10-19#2"
     },
     {
-      "repo": "storytold/artcraft",
-      "days": 3,
-      "track": "10-12#3 -> 10-13#2 -> 10-14#2"
+      "repo": "morluto/rea",
+      "days": 4,
+      "track": "10-13#1 -> 10-14#1 -> 10-15#1 -> 10-16#1"
+    },
+    {
+      "repo": "MadsLorentzen/ai-job-search",
+      "days": 2,
+      "track": "10-18#3 -> 10-19#1"
     },
     {
       "repo": "anthropics/claude-plugins-official",
       "days": 2,
       "track": "10-17#3 -> 10-18#2"
+    },
+    {
+      "repo": "storytold/artcraft",
+      "days": 2,
+      "track": "10-13#2 -> 10-14#2"
     }
   ]
 }

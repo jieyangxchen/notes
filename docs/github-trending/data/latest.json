@@ -1,150 +1,150 @@
 {
-  "date": "2026-10-18",
-  "generatedAt": "2026-10-18T08:01:22.605616+08:00",
+  "date": "2026-10-19",
+  "generatedAt": "2026-10-19T08:06:47.407193+08:00",
   "source": "https://github.com/trending?since=daily",
   "tags": [
     "AI Agent",
-    "Voice",
+    "Career",
+    "Claude Code",
+    "TTS",
     "Local-first",
-    "Dev Tool",
-    "Security",
-    "Research"
+    "Dev Tool"
   ],
-  "observation": "三项目均连续处于稳定升温且 1 天内有提交，共同指向“本地可控的 AI 工作流”：语音生产留在本机，插件经官方目录分发，求职流程被模板化。差异在治理边界：插件目录面对 1,166 个 open issues 的社区积压，语音克隆受人格权与 AGPL 约束，求职框架要核查材料真实性与平台条款。三者日增占比均较上次回落，热度更偏惯性，后续应看 release 节奏、issue 收敛和权限/人审设计，而非只看 stars today。",
+  "observation": "今日 TOP3 全部是 agent 化工作流，且都强调本地运行、可 fork 自己维护：ai-job-search 把求职拆成可复用命令，VoiceStudio 把音色克隆、配音与转写收进桌面端，opencode 是通用编码 agent 的终端入口。差异在成熟度与合规压力：opencode 总星 21.6 万、日增占比仅 0.65%，属老项目回热，open issues 4,671 显示待处理 issue 积压；VoiceStudio 占比 2.76% 连续回落，语音克隆的人格权风险最重；ai-job-search 占比回升到 4.2%，规模最小也最垂直。三者产出都需人工复核，不能直接对外。",
   "projects": [
     {
       "rank": 1,
+      "repo": "MadsLorentzen/ai-job-search",
+      "url": "https://github.com/MadsLorentzen/ai-job-search",
+      "tags": [
+        "AI Agent",
+        "Career",
+        "Claude Code"
+      ],
+      "tagsCn": [
+        "AI Agent",
+        "Career",
+        "Claude Code"
+      ],
+      "tagline": "用 Claude Code 在本地筛职位、改简历、写求职信并备面",
+      "starsToday": 2232,
+      "totalStars": 53091,
+      "starTodayRatio": 4.2,
+      "rankingStatus": "连续 2 次日报 TOP3",
+      "rankingTrack": "10-18#3 -> 10-19#1",
+      "activity": "1 天前有提交",
+      "license": "MIT",
+      "maintainer": "个人项目；官方性未见强信号",
+      "positioning": "面向熟悉终端、用 Claude Code 的技术型求职者：在本地评估职位匹配度、按 JD 定制简历、生成求职信并做面试准备，用 /scrape、/apply、/interview、/outcome 串成周流程。能力边界是搜索插件偏丹麦市场，依赖 Python、LaTeX 与 Claude Code API，产出只是初稿，事实与本地化必须人工校对，也不替代投递决策。",
+      "whyWatch": "今日新增 2,232、占总星 4.2%，在 5.3 万总星基数上日增占比由上次 2.71% 回升，是三者中唯一升温的；1 天前仍有提交，30 天 PR 154、issue 更新 36，README 26,089 字符、30 个标题，安装/Demo/文档齐备，MIT 许可清晰。隐忧是 open issues 44 小幅累积，release 停在 v1.7.2 已近三周。",
+      "changedSinceLast": "上次记录总星 50,354、日增 1,365、占比 2.71%；本次 53,091、2,232、4.2%，日增与占比同步回升。open issues 41→44 继续增加，30 天 PR 120→154、issue 更新 35→36，协作更活跃；release 仍为 v1.7.2（2026-09-29），README 26,077→26,089 字符基本未变。",
+      "suitableFor": "熟悉终端与 Git、正在求职的开发者或转行者，尤其是目标市场与仓库自带搜索插件相近、愿意用 AI 生成初稿后逐条校对事实与语气的人；想把履历留本机、并能用 /outcome 记录投递效果来迭代关键词的独立求职者。",
+      "notSuitableFor": "不熟悉命令行、不愿安装 Python/LaTeX 的人；期望一键全自动批量投递又不做人工审核的团队；目标市场与内置插件不匹配且不愿改代码者；以及对生成内容零容忍、无专人核对事实的强合规行业。",
+      "risk": "依赖 Claude Code API，速率、条款与费用可能变动；个人维护，长期可持续性待观察；自动生成的简历与求职信易出现事实偏差，必须人工校对；批量申请可能违反招聘平台条款，需自行确认；履历属敏感个人信息，应尽量留在本地，并留意 README 中关于无代币关联与防冒充钓鱼的声明。",
+      "bestPractice": "每周固定一次：用 /scrape 拉新职位，/rank 只取匹配度前 5，逐个跑 /apply 生成简历与求职信初稿，人工核对履历事实、语气与本地化后手动投递，再把结果记进 /outcome 调整关键词；不做群发、不在材料中夸大经历。",
+      "trialPlan": {
+        "install": "克隆仓库，安装 Python 3.10+、Bun 与 LaTeX，运行 /setup 填写个人资料，把履历放进 documents/ 目录，确认命令可被识别。",
+        "pilot": "选 1–2 个真实职位跑 /scrape 与 /apply，产出简历和求职信初稿，逐句核对事实与本地化，记录每处人工修改及耗时。",
+        "evaluation": "统计材料事实准确率、人工修改量、单份耗时、投递回复数与面试邀请数，同时核算 API 费用，并确认目标平台条款是否允许此类申请方式。",
+        "exit": "若事实错误频发、几乎需重写、API 成本或条款不可接受，或维护停滞、open issues 长期无人响应，则停止使用并删除本地履历数据。"
+      },
+      "signals": {
+        "recentCommit": "2026-10-18",
+        "issuesUpdated30d": 36,
+        "prsUpdated30d": 154,
+        "latestRelease": "v1.7.2（2026-09-29）",
+        "readmeMaturity": "成熟",
+        "readmeSignals": "26,089 字符 / 30 个标题 / 有安装说明 / 有 Demo/示例 / 有文档入口"
+      }
+    },
+    {
+      "rank": 2,
       "repo": "debpalash/VoiceStudio",
       "url": "https://github.com/debpalash/VoiceStudio",
       "tags": [
         "AI Agent",
-        "Voice",
+        "TTS",
         "Local-first"
       ],
       "tagsCn": [
         "AI Agent",
-        "Voice",
+        "TTS",
         "Local-first"
       ],
-      "tagline": "本地克隆声线并批量配音、转写与做有声书",
-      "starsToday": 2125,
-      "totalStars": 73302,
-      "starTodayRatio": 2.9,
-      "rankingStatus": "连续 4 次日报 TOP3",
-      "rankingTrack": "10-15#2 -> 10-16#2 -> 10-17#1 -> 10-18#1",
+      "tagline": "本地跑 ElevenLabs 替代：克隆音色、配音、转写与有声书",
+      "starsToday": 2082,
+      "totalStars": 75299,
+      "starTodayRatio": 2.76,
+      "rankingStatus": "连续 5 次日报 TOP3",
+      "rankingTrack": "10-15#2 -> 10-16#2 -> 10-17#1 -> 10-18#1 -> 10-19#2",
       "activity": "1 天前有提交",
       "license": "AGPL-3.0",
       "maintainer": "个人项目（维护者资料公司：@Yupcha）；有主页/组织资料，可进一步核实官方性",
-      "positioning": "面向自备 GPU 或 Apple Silicon、要求音频不出本机的播客、视频本地化与课程制作团队：把克隆、声音设计、配音、转写和有声书收进同一桌面工作流，并提供本地 API 与 MCP；边界是 646 语言为目录而非质量承诺，各引擎沿用上游许可，Electron 重写与 active beta 仍在进行，不能替代授权与人工试听。",
-      "whyWatch": "今日新增 2,125、占总星 2.9%，总星 7.33 万仍居三项目之首，但占比由上次 3.23% 继续下滑，稳定升温偏惯性；1 天前有提交，30 天 PR 493、issue 更新 358 仍活跃；README 5,146 字符且安装/Demo/文档齐备。隐忧是 open issues 208 继续扩大，release 仍停 v0.5.6，版本节奏未加快。",
-      "changedSinceLast": "上次记录总星约 7.12 万、日增 2301、占比 3.23%，本次 7.33 万、2125、2.9%，占比继续回落；open issues 201→208 小幅扩大，30 天 PR 508→493、issue 更新 353→358；README 4,984→5,146 字符；release 仍为 v0.5.6，版本节奏未加快。",
-      "suitableFor": "有本机 GPU 或 Apple Silicon、对音频隐私敏感、需离线批量 TTS/ASR 与有声书的播客、课程制作和视频本地化小团队，愿意自行部署调优。",
-      "notSuitableFor": "无 GPU/Apple Silicon 且不愿用 Docker 的普通用户；要求 SLA 与长期兼容承诺的生产系统；未取得声音所有者明示授权就复刻真人声纹并对外发布的场景。",
-      "risk": "语音克隆与配音处于深度伪造和人格权争议中心，未经授权复刻真人声纹可能触及人格权与欧盟 AI Act 等法规；工具本身不含授权校验，必须取得声音所有者明示同意并标注合成痕迹；AGPL-3.0 对外提供在线服务有传染性合规义务；各引擎与模型沿用上游许可，需逐项确认。",
-      "bestPractice": "用于内部课程或播客后期：先用已获授权的自有录音克隆 1 个音色，离线批量生成章节朗读与片头，人工逐段试听校对并显式标注为合成音，同时保留授权记录、所用引擎版本与模型许可清单，再进入对外发布。",
+      "positioning": "面向自备 GPU 或 Apple Silicon、要求音频不出本机的播客、课程与视频本地化团队：把音色克隆、声音风格设计、配音、听写、转写和有声书收进同一桌面工作流，并提供本地 API 与 MCP。边界是 646 语言是目录而非质量承诺，各引擎沿用上游许可，Electron 版仍标 BETA，产出需人工试听与授权确认。",
+      "whyWatch": "今日新增 2,082、占总星 2.76%，总星 7.53 万居三项目第二但占比连续下滑，热度偏惯性；1 天前有提交，30 天 PR 502、issue 更新 362，README 5,146 字符且安装/Demo/文档齐备。隐忧明确：open issues 已达 247 且继续扩大，release 仍停 v0.5.6（9-23），版本节奏未跟上讨论量。",
+      "changedSinceLast": "上次记录总星约 7.33 万、日增 2,125、占比 2.90%；本次 75,299、2,082、2.76%，占比再度回落。open issues 208→247 明显扩大，30 天 PR 493→502、issue 更新 358→362 仅小幅增长；release 仍为 v0.5.6（2026-09-23），README 5,146 字符未变。",
+      "suitableFor": "有本机 GPU 或 Apple Silicon、对音频隐私敏感、需要离线批量 TTS/ASR、配音与有声书的小团队或个人创作者；愿意自行部署调优，并能为每个克隆音色留存书面授权凭证、主动标注合成痕迹的合规意识较强者。",
+      "notSuitableFor": "没有独立显卡或 Apple Silicon、也不愿用 Docker 的普通用户；需要 SLA、长期兼容承诺与审计能力的生产系统；以及任何未取得声音所有者书面同意就复刻真人声纹并对外发布的场景，即使技术上可行也不应尝试。",
+      "risk": "语音克隆处于深度伪造与人格权争议中心，未经授权复刻真人声纹可能触及人格权与欧盟 AI Act 等法规；工具本身不做授权校验，必须取得明示同意并标注合成；AGPL-3.0 对外提供在线服务有传染性义务；各引擎与模型沿用上游许可，须逐项核对版本与条款。",
+      "bestPractice": "用于内部课程或播客后期：先用已获书面授权的自有录音克隆一个音色，离线批量生成章节朗读与片头，人工逐段试听校对并显式标注为合成音，同时保存授权记录、引擎版本与模型许可清单，再评估是否对外发布。",
       "trialPlan": {
-        "install": "macOS/Linux 用官方一键脚本，Windows 在 PowerShell 执行 irm 命令，或从 Releases 下载 .dmg/.exe/.AppImage/.deb；准备 GPU 或 Apple Silicon 与足够磁盘。",
-        "pilot": "用自有授权录音克隆 1 个音色，离线生成 3 段章节朗读与 1 段视频配音，全程不接远程服务。",
-        "evaluation": "试听自然度与可懂度、批量耗时、显存/内存占用、失败率、授权记录与合成标注是否完整。",
-        "exit": "若无法在目标硬件稳定运行、输出需大量返工，或授权/许可证无法确认，则退出。"
+        "install": "macOS/Linux 用官方一键脚本，Windows 在 PowerShell 执行 irm 命令，或从 Releases 下载 .dmg/.exe/.AppImage/.deb；准备 GPU 或 Apple Silicon 与足够磁盘空间。",
+        "pilot": "用自有授权录音克隆 1 个音色，离线生成 3 段章节朗读与 1 段短视频配音，覆盖中文与一门外语，全部人工试听。",
+        "evaluation": "评估音色相似度与自然度、多语发音准确率、单分钟生成耗时、显存占用、人工返工比例，并确认所用引擎与模型的许可可用于计划场景。",
+        "exit": "若显存或延迟不达预期、多语质量需大量返工、上游许可与 AGPL 义务无法承担，或 issue 积压导致关键缺陷长期未修，则停用并删除音色模型。"
       },
       "signals": {
-        "recentCommit": "2026-10-17",
-        "issuesUpdated30d": 358,
-        "prsUpdated30d": 493,
+        "recentCommit": "2026-10-18",
+        "issuesUpdated30d": 362,
+        "prsUpdated30d": 502,
         "latestRelease": "v0.5.6（2026-09-23）",
         "readmeMaturity": "成熟",
         "readmeSignals": "5,146 字符 / 11 个标题 / 有安装说明 / 有 Demo/示例 / 有文档入口"
       }
     },
     {
-      "rank": 2,
-      "repo": "anthropics/claude-plugins-official",
-      "url": "https://github.com/anthropics/claude-plugins-official",
-      "tags": [
-        "AI Agent",
-        "Dev Tool",
-        "Security"
-      ],
-      "tagsCn": [
-        "AI Agent",
-        "Dev Tool",
-        "Security"
-      ],
-      "tagline": "官方审核的代码助手插件目录与安装入口",
-      "starsToday": 1397,
-      "totalStars": 41721,
-      "starTodayRatio": 3.35,
-      "rankingStatus": "连续 2 次日报 TOP3",
-      "rankingTrack": "10-17#3 -> 10-18#2",
-      "activity": "1 天前有提交",
-      "license": "Apache-2.0",
-      "maintainer": "组织/公司/社区项目（Anthropic）；有主页/组织资料，可进一步核实官方性",
-      "positioning": "面向 Claude Code 用户与插件开发者：官方维护的高质量插件目录，区分 Anthropic 内部与外部/社区提交，缓解插件分散与来源可信问题；边界是只做目录索引与准入审核，不控制插件内含的 MCP server、文件与外部命令，不保证第三方插件可用或不变更，不能把收录当作安全背书。",
-      "whyWatch": "今日新增 1,397、占总星 3.35%，总星 4.17 万，热度由上次 3.83% 继续回落至稳定区间；1 天前有提交，30 天 PR 430、issue 164，目录仍在维护；README 2,843 字符，安装与文档入口齐全。隐忧是 open issues 1,166 积压未解，且仍无公开 release，官方审核的响应能力比日增更值得观察。",
-      "changedSinceLast": "上次记录总星 4.05 万、日增 1552、占比 3.83%，本次 4.17 万、1397、3.35%，热度继续回落；open issues 由上次合计 1,141 增至 1,166，积压未解；30 天 PR 448→430、issue 165→164 略降；仍无公开 release，README 维持 2,843 字符。",
-      "suitableFor": "使用 Claude Code、希望用官方审核插件扩展编码能力的开发者；需要相对可信来源并愿自行做安全复核的企业团队；想通过官方渠道分发的插件团队。",
-      "notSuitableFor": "非 Claude Code 用户；需要私有分发或深度定制、不愿走公开审核的团队；希望 Anthropic 为插件行为兜底、不愿评估第三方代码风险的组织。",
-      "risk": "目录本身 Apache-2.0，但各插件许可证与行为各异；README 明示 Anthropic 不控制插件内 MCP server、文件与软件，无法验证其按预期工作或不会变更，存在恶意或缺陷插件风险；官方审核可能形成中心化瓶颈与更新滞后，1,166 个 open issues 反映响应压力；安装前应权限最小化并人工复核。",
-      "bestPractice": "在受控开发环境只从官方目录安装 1–2 个代码审查插件，先在沙箱仓库试跑，记录工具调用、文件访问与网络权限，确认无越权后小范围纳入团队标准环境，并订阅更新与安全公告。",
-      "trialPlan": {
-        "install": "在 Claude Code 中执行 /plugin install {plugin-name}@claude-plugins-official，或从 /plugin > Discover 浏览安装。",
-        "pilot": "在沙箱仓库只装 1 个代码审查类插件，限定文件与命令权限，记录 MCP 工具调用和网络访问。",
-        "evaluation": "插件是否完成预期审查、越权访问次数、误报/漏报、响应延迟、更新频率与许可证清晰度。",
-        "exit": "若出现未授权文件访问、外部命令执行不可控、维护停滞或许可证不明，立即卸载退出。"
-      },
-      "signals": {
-        "recentCommit": "2026-10-17",
-        "issuesUpdated30d": 164,
-        "prsUpdated30d": 430,
-        "latestRelease": "暂无公开 release",
-        "readmeMaturity": "成熟",
-        "readmeSignals": "2,843 字符 / 11 个标题 / 有安装说明 / 有 Demo/示例 / 有文档入口"
-      }
-    },
-    {
       "rank": 3,
-      "repo": "MadsLorentzen/ai-job-search",
-      "url": "https://github.com/MadsLorentzen/ai-job-search",
+      "repo": "anomalyco/opencode",
+      "url": "https://github.com/anomalyco/opencode",
       "tags": [
-        "Research",
         "AI Agent",
-        "Career"
+        "Dev Tool",
+        "Coding Agent"
       ],
       "tagsCn": [
-        "学术研究",
         "AI Agent",
-        "Career"
+        "Dev Tool",
+        "Coding Agent"
       ],
-      "tagline": "本地运行代码助手筛职位、改简历、备面试",
-      "starsToday": 1365,
-      "totalStars": 50354,
-      "starTodayRatio": 2.71,
-      "rankingStatus": "非连续；上次 08-27 第3",
-      "rankingTrack": "08-27#3 -> 10-18#3",
-      "activity": "1 天前有提交",
+      "tagline": "终端里的开源编码 agent，build/plan 双模式可切换",
+      "starsToday": 1414,
+      "totalStars": 216553,
+      "starTodayRatio": 0.65,
+      "rankingStatus": "新进 TOP3",
+      "rankingTrack": "新上榜",
+      "activity": "0 天前有提交",
       "license": "MIT",
-      "maintainer": "个人项目；官方性未见强信号",
-      "positioning": "面向熟悉终端、用 Claude Code 的技术型求职者：本地评估职位、定制 CV、写求职信并准备面试；边界是搜索插件聚焦丹麦市场，依赖 Python、LaTeX 与 Claude Code API，生成材料必须人工校对，不能替代决策，不适合全自动投递；README 声明其为独立项目、非 Anthropic 官方。",
-      "whyWatch": "今日新增 1,365、占总星 2.71%，总星 5.04 万，日增较上次 1,300 略升但占比因基数扩大而回落；1 天前有提交，30 天 PR 120、issue 35 更活跃；release 已从 v1.6.0 前进到 v1.7.2，README 26,077 字符、30 个标题，成熟度高。隐忧是 open issues 41 较上次合计 7 明显增加。",
-      "changedSinceLast": "上次记录总星 36,447、日增 1300、占比 3.57%，本次 50,354、1365、2.71%，基数扩大后占比回落；open issues 41，较上次的合计 7 显著增加，30 天 issue 27→35、PR 104→120 更活跃；release v1.6.0→v1.7.2，README 25,616→26,077 字符。",
-      "suitableFor": "熟悉终端、正在求职、愿用 AI 生成初稿后人工润色的开发者；需要批量筛选丹麦语职位、本地保护隐私并用 /outcome 追踪效果的人。",
-      "notSuitableFor": "不熟悉终端者；期望全自动投递且无人工审核者；目标市场非丹麦且不会适配搜索插件者；对生成材料准确性零容忍且不愿校对事实的人。",
-      "risk": "依赖 Claude Code API，可能受速率和条款变化影响；个人维护，长期可持续性存疑；自动生成 CV 与求职信可能包含事实错误，必须人工校对；批量申请可能违反招聘平台使用条款；个人履历数据应尽量本地保护；README 声明无加密关联，仍需警惕冒充钓鱼。",
-      "bestPractice": "每周固定抓取新职位，用 /rank 筛出匹配度高的前 5 个再运行 /apply 生成初稿，逐条核对事实、语气与本地化后人工投递，用 /outcome 追踪回复率并调整关键词，不做自动群发。",
+      "maintainer": "组织/公司/社区项目（Anomaly）；有主页/组织资料，可进一步核实官方性",
+      "positioning": "面向习惯终端、需要把读码、改码、跑命令串成一条工作流的开发者：提供 TUI 与标 BETA 的桌面版，内置 build（全权限）与 plan（只读、改文件默认拒绝、跑 bash 前询问）两种 agent，另有 @general 子 agent。边界是它多为模型的前端壳，需自备模型额度与密钥，产物仍必须 code review。",
+      "whyWatch": "今日新增 1,414，但占总星仅 0.65%，属老项目回热而非爆发；0 天前有提交，30 天 PR 4,854、issue 更新 7,216，社区吞吐极高，release 已到 v1.19.3（10-16），MIT 许可、README 多语言且安装/Demo/文档齐备。最大信号也是最大隐忧：open issues 4,671，说明回应速度赶不上讨论量，topics 元数据为空也让外部评估信息偏少。",
+      "changedSinceLast": "今日新进 TOP3，暂无昨日同榜对比；可参考的横向信号是 0 天前有提交、30 天 PR 4,854 与 release v1.19.3（2026-10-16），但日增占总星仅 0.65%，热度更多来自体量而非单日突破。",
+      "suitableFor": "已在用终端、愿意为模型 API 自付费用、需要可审计 agent 权限（如只读 plan 模式）的开发者与小团队；想把编码 agent 接进自有流程、看重 MIT 许可与可自托管，并能接受高频版本变动的工程组织。",
+      "notSuitableFor": "完全依赖图形界面、不熟悉 shell 的用户；希望开箱即用并附带模型额度与 SLA 的商业采购方；对 issue 响应时效要求严格的团队；以及在受监管代码库中不允许把源码发往外部模型 API 的组织。",
+      "risk": "agent 具备执行命令与修改文件能力，权限边界必须靠 plan 模式、仓库白名单与沙箱收紧，否则误删误改风险高；需自备模型 API，代码可能外发，涉及数据合规与密钥管理；open issues 4,671 意味缺陷与需求积压，迭代快也意味着行为可能变动。",
+      "bestPractice": "在陌生代码库先用 plan 只读模式让它梳理调用链与测试入口、产出改动清单；确认后切 build 在独立分支小步提交，跑本地测试与 CI，人工 review diff 再合并，禁止直接在主干或生产目录操作。",
       "trialPlan": {
-        "install": "克隆仓库，安装 Python 3.10+、Bun、LaTeX，运行 /setup 并准备 documents/ 履历目录。",
-        "pilot": "选 1–2 个目标职位运行 /scrape 与 /apply 生成材料，人工逐条核对事实、语气和本地化。",
-        "evaluation": "材料准确率、人工修改量、投递回复率、面试邀请数、每月耗时与隐私泄露风险。",
-        "exit": "若事实错误频发、平台条款不允许批量申请、API 成本或条款不可接受，或维护停滞，则停止使用。"
+        "install": "按 README 用官方脚本安装（注意先清理 0.1.x 之前的旧版本），或下载桌面版；配置自备模型密钥，把安装目录限制在 $XDG_BIN_DIR 或 HOME/bin。",
+        "pilot": "在一个非生产仓库用 plan 模式做代码走读与改动方案，再用 build 完成一个小重构，全程在独立分支并开启测试。",
+        "evaluation": "评估任务一次通过率、人工 review 修改量、命令与文件权限是否可控、token 成本、与现有 CI 的兼容性，以及升级后行为是否回退。",
+        "exit": "若出现越权改文件或误执行命令、成本超出预算、关键缺陷长期未修，或合规不允许源码外发，则停用并回退到锁定版本或自建替代方案。"
       },
       "signals": {
-        "recentCommit": "2026-10-17",
-        "issuesUpdated30d": 35,
-        "prsUpdated30d": 120,
-        "latestRelease": "v1.7.2（2026-09-29）",
+        "recentCommit": "2026-10-19",
+        "issuesUpdated30d": 7216,
+        "prsUpdated30d": 4854,
+        "latestRelease": "v1.19.3（2026-10-16）",
         "readmeMaturity": "成熟",
-        "readmeSignals": "26,077 字符 / 30 个标题 / 有安装说明 / 有 Demo/示例 / 有文档入口"
+        "readmeSignals": "2,479 字符 / 10 个标题 / 有安装说明 / 有 Demo/示例 / 有文档入口"
       }
     }
   ]
