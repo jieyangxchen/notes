@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-19T08:06:47.407193+08:00",
-  "window": "2026-10-13..2026-10-19",
+  "generatedAt": "2026-10-20T08:04:18.029281+08:00",
+  "window": "2026-10-14..2026-10-20",
   "topProjects": [
     {
       "repo": "debpalash/VoiceStudio",
@@ -16,6 +16,19 @@
       "judgement": "近 7 次记录中出现 5 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
+      "repo": "MadsLorentzen/ai-job-search",
+      "url": "https://github.com/MadsLorentzen/ai-job-search",
+      "tagsCn": [
+        "学术研究",
+        "AI Agent",
+        "Career"
+      ],
+      "appearances": 3,
+      "bestRank": 1,
+      "latestDate": "2026-10-20",
+      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
+    },
+    {
       "repo": "morluto/rea",
       "url": "https://github.com/morluto/rea",
       "tagsCn": [
@@ -23,23 +36,10 @@
         "Security",
         "Dev Tool"
       ],
-      "appearances": 4,
+      "appearances": 3,
       "bestRank": 1,
       "latestDate": "2026-10-16",
-      "judgement": "近 7 次记录中出现 4 次，最佳排名第 1，适合优先复盘详情。"
-    },
-    {
-      "repo": "MadsLorentzen/ai-job-search",
-      "url": "https://github.com/MadsLorentzen/ai-job-search",
-      "tagsCn": [
-        "AI Agent",
-        "Career",
-        "Claude Code"
-      ],
-      "appearances": 2,
-      "bestRank": 1,
-      "latestDate": "2026-10-19",
-      "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
+      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
       "repo": "anthropics/claude-plugins-official",
@@ -55,17 +55,17 @@
       "judgement": "近 7 次记录中出现 2 次，最佳排名第 2，适合优先复盘详情。"
     },
     {
-      "repo": "storytold/artcraft",
-      "url": "https://github.com/storytold/artcraft",
+      "repo": "anomalyco/opencode",
+      "url": "https://github.com/anomalyco/opencode",
       "tagsCn": [
+        "AI Agent",
         "Dev Tool",
-        "Image Generation",
-        "Filmmaking"
+        "Terminal"
       ],
       "appearances": 2,
-      "bestRank": 2,
-      "latestDate": "2026-10-14",
-      "judgement": "近 7 次记录中出现 2 次，最佳排名第 2，适合优先复盘详情。"
+      "bestRank": 3,
+      "latestDate": "2026-10-20",
+      "judgement": "近 7 次记录中出现 2 次，最佳排名第 3，适合优先复盘详情。"
     }
   ],
   "streaks": [
@@ -75,24 +75,24 @@
       "track": "10-15#2 -> 10-16#2 -> 10-17#1 -> 10-18#1 -> 10-19#2"
     },
     {
-      "repo": "morluto/rea",
-      "days": 4,
-      "track": "10-13#1 -> 10-14#1 -> 10-15#1 -> 10-16#1"
+      "repo": "MadsLorentzen/ai-job-search",
+      "days": 3,
+      "track": "10-18#3 -> 10-19#1 -> 10-20#1"
     },
     {
-      "repo": "MadsLorentzen/ai-job-search",
+      "repo": "morluto/rea",
+      "days": 3,
+      "track": "10-14#1 -> 10-15#1 -> 10-16#1"
+    },
+    {
+      "repo": "anomalyco/opencode",
       "days": 2,
-      "track": "10-18#3 -> 10-19#1"
+      "track": "10-19#3 -> 10-20#3"
     },
     {
       "repo": "anthropics/claude-plugins-official",
       "days": 2,
       "track": "10-17#3 -> 10-18#2"
-    },
-    {
-      "repo": "storytold/artcraft",
-      "days": 2,
-      "track": "10-13#2 -> 10-14#2"
     }
   ]
 }

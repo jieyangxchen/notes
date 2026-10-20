@@ -1,17 +1,41 @@
 {
-  "generatedAt": "2026-10-19T08:06:47.407193+08:00",
+  "generatedAt": "2026-10-20T08:04:18.029281+08:00",
   "projects": [
     {
       "repo": "MadsLorentzen/ai-job-search",
       "url": "https://github.com/MadsLorentzen/ai-job-search",
-      "latestDate": "2026-10-19",
+      "latestDate": "2026-10-20",
       "latestRank": 1,
       "tagsCn": [
+        "学术研究",
         "AI Agent",
-        "Career",
-        "Claude Code"
+        "Career"
       ],
-      "lastTagline": "用 Claude Code 在本地筛职位、改简历、写求职信并备面"
+      "lastTagline": "用 Claude Code 在本地跑通评估、定制简历与面试准备"
+    },
+    {
+      "repo": "stablyai/orca",
+      "url": "https://github.com/stablyai/orca",
+      "latestDate": "2026-10-20",
+      "latestRank": 2,
+      "tagsCn": [
+        "AI Agent",
+        "Dev Tool",
+        "Orchestration"
+      ],
+      "lastTagline": "把多个编码 Agent 放进隔离 worktree 里并行跑"
+    },
+    {
+      "repo": "anomalyco/opencode",
+      "url": "https://github.com/anomalyco/opencode",
+      "latestDate": "2026-10-20",
+      "latestRank": 3,
+      "tagsCn": [
+        "AI Agent",
+        "Dev Tool",
+        "Terminal"
+      ],
+      "lastTagline": "开源编码 Agent，内置只读 plan 与全权限 build 双模式"
     },
     {
       "repo": "debpalash/VoiceStudio",
@@ -24,18 +48,6 @@
         "Local-first"
       ],
       "lastTagline": "本地跑 ElevenLabs 替代：克隆音色、配音、转写与有声书"
-    },
-    {
-      "repo": "anomalyco/opencode",
-      "url": "https://github.com/anomalyco/opencode",
-      "latestDate": "2026-10-19",
-      "latestRank": 3,
-      "tagsCn": [
-        "AI Agent",
-        "Dev Tool",
-        "Coding Agent"
-      ],
-      "lastTagline": "终端里的开源编码 agent，build/plan 双模式可切换"
     },
     {
       "repo": "anthropics/claude-plugins-official",
@@ -807,19 +819,6 @@
         "Template"
       ],
       "lastTagline": "提供整套AI专家角色，从编程到运营一键安装"
-    },
-    {
-      "repo": "stablyai/orca",
-      "url": "https://github.com/stablyai/orca",
-      "latestDate": "2026-08-13",
-      "latestRank": 3,
-      "tagsCn": [
-        "AI Agent",
-        "Dev Tool",
-        "Orchestration",
-        "IDE"
-      ],
-      "lastTagline": "多智能体并行编码 IDE，支持手机监控与 SSH 远程运行"
     },
     {
       "repo": "PrimeIntellect-ai/prime-agent",
