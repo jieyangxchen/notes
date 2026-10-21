@@ -1,57 +1,57 @@
 {
-  "date": "2026-10-20",
-  "generatedAt": "2026-10-20T08:04:18.029281+08:00",
+  "date": "2026-10-21",
+  "generatedAt": "2026-10-21T08:01:03.356261+08:00",
   "source": "https://github.com/trending?since=daily",
   "tags": [
-    "Research",
     "AI Agent",
-    "Career",
-    "Dev Tool",
-    "Orchestration",
-    "Terminal"
+    "求职流程",
+    "本地优先",
+    "Security",
+    "审计流程",
+    "Dev Tool"
   ],
-  "observation": "三个项目今天都围绕“Agent 干活、人来把关”：ai-job-search 把求职流程搬进本地 Claude Code 工作流，orca 做多 Agent 编排层，opencode 提供只读 plan 与全权限 build 双模式的编码 Agent；共同前提是用户自备模型额度、产出必须人工复核。差异也清楚：前者是个人维护的垂直场景，日增占比 6.75% 最猛但基数最小；orca 总星近 10 万却 issue 积压 8,618，热度靠高频发版支撑；opencode 21.7 万星、占比仅 0.6%，属存量回热。三者都不能把 stars today 直接当质量结论。",
+  "observation": "三个项目都把 Agent 从对话框推进到具体工作流：ai-job-search 用本地 Claude Code 跑求职闭环，security-audit-skill 用六阶段方法论产出可复核的审计产物，orca 则把多个编码 Agent 放进隔离 worktree 并行对比。共同点是人审与产物格式被前置为流程约束，而非事后补救。差异在维护形态：个人项目日增占比最高，但 issue 池薄；Cloudflare 技能方法论成熟，却 37 天无提交；orca 靠存量体量与每日发版维持热度，积压已达 8,603。",
   "projects": [
     {
       "rank": 1,
       "repo": "MadsLorentzen/ai-job-search",
       "url": "https://github.com/MadsLorentzen/ai-job-search",
       "tags": [
-        "Research",
         "AI Agent",
-        "Career"
+        "求职流程",
+        "本地优先"
       ],
       "tagsCn": [
-        "学术研究",
         "AI Agent",
-        "Career"
+        "求职流程",
+        "本地优先"
       ],
-      "tagline": "用 Claude Code 在本地跑通评估、定制简历与面试准备",
-      "starsToday": 3856,
-      "totalStars": 57164,
-      "starTodayRatio": 6.75,
-      "rankingStatus": "连续 3 次日报 TOP3",
-      "rankingTrack": "10-18#3 -> 10-19#1 -> 10-20#1",
+      "tagline": "在本地用 Claude Code 跑职位匹配、简历定制与面试准备",
+      "starsToday": 3861,
+      "totalStars": 60496,
+      "starTodayRatio": 6.38,
+      "rankingStatus": "连续 4 次日报 TOP3",
+      "rankingTrack": "10-18#3 -> 10-19#1 -> 10-20#1 -> 10-21#1",
       "activity": "1 天前有提交",
       "license": "MIT",
       "maintainer": "个人项目；官方性未见强信号",
-      "positioning": "面向熟悉终端、使用 Claude Code 的技术型求职者：在本地评估职位匹配度、按 JD 定制简历、生成求职信并做面试准备，用 /scrape、/apply、/interview、/outcome 串成每周流程。能力边界是搜索插件偏丹麦市场，依赖 Python、LaTeX 与 Claude Code 额度，产出只是初稿，事实、本地化表述与投递决定都必须人工确认，不替代求职者判断。",
-      "whyWatch": "今日新增 3,856、占总星 6.75%，是三者中唯一占比明显走高的；1 天前有提交，release 从 v1.7.2 推进到 v1.7.3（10-19），30 天 PR 175 说明协作密集，README 26,313 字符、安装/Demo/文档齐备，MIT 许可清晰。隐忧是 open issues 仅 26，相对 5.7 万星体量偏小，热度与维护承载力之间存在落差，需持续观察。",
-      "changedSinceLast": "上次记录为 2026-10-18 第 3 名：总星 50,354、日增 1,365、占比 2.71%、open issues 44、release v1.7.2（09-29）。本次总星 57,164、日增 3,856、占比 6.75%，日增约翻 2.8 倍；open issues 降至 26，30 天 PR 154→175，release 升到 v1.7.3（10-19），README 由 26,089 增至 26,313 字符。",
-      "suitableFor": "熟悉终端与 Git、正在求职的开发者或转行者，尤其目标市场与自带搜索插件相近、愿意用 AI 出初稿后逐条校对事实与语气的人；想把履历留在本机、并用 /outcome 记录投递效果来迭代关键词的独立求职者。",
-      "notSuitableFor": "不熟悉命令行、不愿安装 Python 与 LaTeX 的人；期望一键批量投递且不做人工审核的团队；目标市场与内置插件不匹配又不愿改代码者；对生成内容零容忍、无专人核对事实的强合规行业，以及要求企业级 SLA 的采购方。",
-      "risk": "依赖 Claude Code API，速率、条款与费用可能变动；个人维护，长期可持续性与 5.7 万星体量并不匹配；自动生成的简历易出现履历事实偏差，必须逐条人审；批量申请可能违反招聘平台条款；履历属敏感个人信息，应尽量留本地，并留意 README 关于无代币、防冒充的声明。",
-      "bestPractice": "每周固定跑一次：用 /scrape 拉新职位，只对匹配度前 5 个跑 /apply 生成简历与求职信初稿，人工核对履历事实、时间线与本地化表述后手动投递，再把结果记入 /outcome 调整关键词；不群发、不在材料中夸大经历。",
+      "positioning": "面向会用终端和 Git 的求职者与转行者：把 /scrape、/apply、/interview、/outcome 串成每周循环，在本地评估 JD 匹配度、按岗位定制简历与求职信并做面试准备，履历数据留在自己机器上。边界是内置搜索插件偏丹麦市场，依赖 Python、LaTeX 与 Claude Code 额度，产出仅为初稿，事实与投递决定须本人核对。",
+      "whyWatch": "今日新增 3,861、占总星 6.38%，仍是三者中日增占比最高；1 天前有提交，近 30 天 PR 更新 195，v1.7.3（10-19）之后未见新版本，README 26,313 字符且安装、Demo、文档齐备，MIT。隐忧是 open issues 只有 31，相对 6 万星体量偏薄，热度已明显高于维护承载力。",
+      "changedSinceLast": "上次记录（10-19 第 1 名）总星 57,164、日增 3,856、占比 6.75%、open issues 26、PR 175、release v1.7.3。今日总星 60,496（+3,332），日增持平在 3,861，占比回落到 6.38%，说明增长靠存量惯性而非加速；open issues 26 增至 31、PR 175 增至 195，release 未再推进，近两日以协作讨论为主。",
+      "suitableFor": "适合熟悉命令行与 Git、正在求职或转行的开发者：愿意安装 Python 3.10+ 与 LaTeX，用 AI 生成初稿后逐条校对履历时间线、量化指标与语气，并把投递结果记入 /outcome 反推关键词优化；目标市场与内置插件相近者上手最快。",
+      "notSuitableFor": "不适合不熟终端、不愿安装 Python 与 LaTeX 的用户；期望一键群发投递、跳过人工审核的团队；目标市场与内置搜索插件不符又不愿改代码者；对生成内容零容忍、没有专人核对事实的强合规行业，以及要求企业级 SLA 与供应商资质的采购方。",
+      "risk": "依赖 Claude Code 的额度与条款，速率和费用可能变动；项目由个人维护，与 6 万星体量不匹配，长期可持续性存疑；AI 生成简历容易出现履历夸大或事实偏差，必须逐条人工审核；批量投递可能违反招聘平台条款；简历属敏感个人信息，应本地保存，并留意 README 关于无代币、防冒充的声明。",
+      "bestPractice": "每周固定跑一轮：用 /scrape 拉取新职位，只对匹配度前 5 个执行 /apply 生成简历与求职信初稿，人工核对事实、时间线与本地化表述后手动投递，再把结果写入 /outcome 调整关键词；不群发、不夸大经历。",
       "trialPlan": {
-        "install": "克隆仓库，安装 Python 3.10+、Bun 与 LaTeX，运行 /setup 填写个人资料并把履历放进 documents/，先确认 /scrape 在你目标市场能返回结果。",
-        "pilot": "选 3 个真实职位跑 /apply，把 AI 生成的简历与求职信和你的手工版本对照，逐份记录需要人工改动的条数。",
-        "evaluation": "用 3-5 个职位测：匹配度评分与你的判断是否一致、材料事实错误数、单份材料人工修订耗时、投递后回复率变化。",
-        "exit": "若连续 10 份材料事实错误超过 2 处、或插件在目标市场无有效数据、或 Claude Code 额度成本超出预期，则停止并回退到手工流程。"
+        "install": "克隆仓库，配置 Python 3.10+、LaTeX 与 Claude Code 凭证，填好 profile 与环境变量，先在示例 JD 上跑通 /scrape 与 /apply，确认没有多余数据外发。",
+        "pilot": "选 3 个真实目标岗位，只做匹配评估与初稿生成，不投递；对比通用模板与定制版差异，逐条检查事实一致性。",
+        "evaluation": "看重跑成功率、单岗位耗时、人工修改比例、关键事实错误数（应为 0），以及是否越权抓取或外发履历。",
+        "exit": "连续 3 次出现履历事实错误、插件覆盖不到目标市场，或 Claude Code 额度与条款不可控时，停止使用并回归手工流程。"
       },
       "signals": {
-        "recentCommit": "2026-10-19",
-        "issuesUpdated30d": 35,
-        "prsUpdated30d": 175,
+        "recentCommit": "2026-10-20",
+        "issuesUpdated30d": 38,
+        "prsUpdated30d": 195,
         "latestRelease": "v1.7.3（2026-10-19）",
         "readmeMaturity": "成熟",
         "readmeSignals": "26,313 字符 / 30 个标题 / 有安装说明 / 有 Demo/示例 / 有文档入口"
@@ -59,92 +59,92 @@
     },
     {
       "rank": 2,
+      "repo": "cloudflare/security-audit-skill",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "tags": [
+        "Security",
+        "AI Agent",
+        "审计流程"
+      ],
+      "tagsCn": [
+        "Security",
+        "AI Agent",
+        "审计流程"
+      ],
+      "tagline": "把编码 Agent 编排成六阶段安全审计，产出可独立复核的发现",
+      "starsToday": 1712,
+      "totalStars": 34137,
+      "starTodayRatio": 5.02,
+      "rankingStatus": "非连续；上次 09-21 第1",
+      "rankingTrack": "09-21#1 -> 10-21#2",
+      "activity": "37 天前有提交",
+      "license": "MIT",
+      "maintainer": "组织/公司/社区项目（Cloudflare）；有主页/组织资料，可进一步核实官方性",
+      "positioning": "面向已有 SDL、漏洞赏金或红队流程的安全工程师：以 skill 形式固定侦察、覆盖驱动狩猎、候选验证、结构化输出、独立复核与目标中立报告六阶段，产出 findings.json、coverage-ledger.json 与 REPORT.md。边界只是方法论与产物格式，不含漏洞库、托管扫描与自动定级，误报漏报仍需人工判定，且仅限自有或书面授权目标。",
+      "whyWatch": "今日新增 1,712、占总星 5.02%，总星已达 3.41 万；但最近提交停在 37 天前（上次为 7 天前），open issues 由 45 升到 72，30 天 issue 更新仅 15、PR 24，仍无公开 release、文档入口不明显。README 6,536 字符含六阶段说明与示例，MIT。热度尚在，维护节奏与反馈处理能力明显跟不上。",
+      "changedSinceLast": "上次记录（09-20 第 1 名）日增 2,428、占比 13.5%、总星约 1.80 万、7 天前有提交、open issues 45、无 release。今日总星 3.41 万、日增 1,712、占比回落至 5.02%；最值得注意的是提交空闲期由 7 天拉长到 37 天，open issues 45 增至 72，热度与维护投入进一步背离。",
+      "suitableFor": "适合已有安全评审流程的团队与安全工程师：在自有仓库或已获书面授权的目标上，把审计步骤固定为可复现 prompt、覆盖台账与统一产物格式，并愿意投入人力逐条复现 confirmed 记录、整理 needs_validation 待办。",
+      "notSuitableFor": "不适合把 Agent 输出直接当漏洞结论的团队；缺少安全人员、无授权范围或想扫描第三方系统的使用者；也不能替代 SAST/DAST 工具链，或指望开箱得到漏洞库与自动定级。提交长期放缓也意味着不宜作为唯一依赖。",
+      "risk": "授权边界是硬约束：仅可对自有或已获书面授权目标运行，禁止扫描第三方系统；confirmed 与 needs_validation 必须人工复现，不能作为定级、披露或赏金提交的唯一依据。项目 37 天无提交、无 release、文档入口弱，open issues 72 积压；Cloudflare 官方身份应以组织资料核实，README 也自述为内部 harness 的单仓库起点。",
+      "bestPractice": "在自有仓库以只读权限跑完整六阶段：先产出 architecture.md 与 coverage-ledger.json，再让独立 verifier 反证每个候选，confirmed 全部交安全工程师复现后再进内部漏洞平台去重评级。",
+      "trialPlan": {
+        "install": "按 README 把 skill 放入编码 Agent 的 skill 目录（如 Claude Code、Cursor），准备只读目标仓库副本与 report-schema.json，确认 validate 脚本可运行。",
+        "pilot": "选一个自有小型服务，只跑侦察与覆盖台账两阶段，不开启自动修复，所有候选只记录不提交。",
+        "evaluation": "看覆盖台账完整率、confirmed 记录的人工复现率与误报率、needs_validation 收敛速度，以及是否越界访问授权外资产。",
+        "exit": "出现访问授权外目标、confirmed 复现率低且误报居高，或长期无维护更新导致流程不可复现时，退回既有 SAST 与人工审计。"
+      },
+      "signals": {
+        "recentCommit": "2026-09-14",
+        "issuesUpdated30d": 15,
+        "prsUpdated30d": 24,
+        "latestRelease": "暂无公开 release",
+        "readmeMaturity": "成熟",
+        "readmeSignals": "6,536 字符 / 9 个标题 / 有安装说明 / 有 Demo/示例 / 文档入口不明显"
+      }
+    },
+    {
+      "rank": 3,
       "repo": "stablyai/orca",
       "url": "https://github.com/stablyai/orca",
       "tags": [
         "AI Agent",
         "Dev Tool",
-        "Orchestration"
+        "多 Agent 编排"
       ],
       "tagsCn": [
         "AI Agent",
         "Dev Tool",
-        "Orchestration"
+        "多 Agent 编排"
       ],
-      "tagline": "把多个编码 Agent 放进隔离 worktree 里并行跑",
-      "starsToday": 1590,
-      "totalStars": 98235,
-      "starTodayRatio": 1.62,
-      "rankingStatus": "非连续；上次 08-13 第3",
-      "rankingTrack": "08-13#3 -> 10-20#2",
+      "tagline": "在同一处并行调度多个编码 Agent，对比隔离 worktree 结果再合并",
+      "starsToday": 1565,
+      "totalStars": 99705,
+      "starTodayRatio": 1.57,
+      "rankingStatus": "连续 2 次日报 TOP3",
+      "rankingTrack": "10-20#2 -> 10-21#3",
       "activity": "1 天前有提交",
       "license": "MIT",
       "maintainer": "组织/公司/社区项目（Stably）；有主页/组织资料，可进一步核实官方性",
-      "positioning": "面向需同时调度多个编码 Agent 的中高级开发者与团队：Orca 是 ADE，可让 Claude Code、Codex、OpenCode、Pi 各自在独立 git worktree 中并行执行，再对比合并结果；另有移动端监控、SSH 远程 worktree、终端分屏与 Design Mode。边界：需自备各 Agent 订阅，模型额度与费用自理；产品每日发版，工作流形态可能随时变化。",
-      "whyWatch": "今日新增 1,590、占总星 1.62%，v1.4.230 于 10-19 发布、1 天前有提交；近 30 天 PR 7,760、issue 更新 4,001，迭代与社区吞吐都很高，README 有安装、Demo、文档入口与多语言版本。但 open issues 已达 8,618，响应明显跟不上讨论量，热度更多来自存量体量与高频发版，而非单日突破。",
-      "changedSinceLast": "上次记录总星约 4.38 万、日增 1,235、占比 2.82%、open issues/PR 合计 3,670、release v1.4.181（08-12）。本次总星 98,235、日增 1,590、占比 1.62%，体量翻倍但日增占比回落，说明热度靠存量而非脉冲；open issues 增至 8,618，积压显著加重；release 从 v1.4.181 连推到 v1.4.230（10-19）。",
-      "suitableFor": "需要并行评估多个编码 Agent 结果、按实际产出择优的团队；想用手机随时查看进度、下班后继续下指令的开发者；有远程高配机器、希望通过 SSH worktree 跑 Agent 的用户；熟悉 CLI 并能接受每日更新节奏的进阶玩家。",
-      "notSuitableFor": "刚接触 AI 编程的新手，配置与概念门槛偏高；单 Agent 够用的轻量用户；对稳定性要求高、不愿跟随每日版本的生产环境；强合规内网场景，敏感代码需经第三方模型服务与远程执行，凭据管理和授权边界要另行评估。",
-      "risk": "Agent 额度完全自备，多 Agent 并行会显著放大 token 消耗；open issues 8,618，高频发版既可能引入回归又响应滞后；Computer Use、SSH worktree 与移动端同步涉及桌面操作与凭据，需明确授权范围并遵循最小权限；YC 背景来自仓库标签，官方性需自行核实。",
-      "bestPractice": "对同一个重构任务，在 Orca 中把需求同时发给 Claude Code 与 Codex，各自在隔离 worktree 实现，跑完测试后人工对比代码质量、测试覆盖与耗时，仅在评审通过后合并胜出分支；用手机端接收完成通知，对失败任务下发修复指令而不直接合并。",
+      "positioning": "面向需要同时评估多个编码 Agent 的中高级开发者与团队：每个 Agent 跑在独立 git worktree，产物集中对比后择优合并，另有移动端监控、SSH 远程 worktree、终端分屏与 Design Mode。边界是各 Agent 订阅与额度需自备，产品每日发版、工作流形态可能随时变化，敏感代码会流向第三方模型服务。",
+      "whyWatch": "今日新增 1,565、占总星 1.57%，属老项目回热；1 天前有提交，release 从 v1.4.230 推到 v1.4.235（10-20），30 天 PR 7,889、issue 更新 4,059，迭代与社区吞吐极高，README 有安装、Demo、文档入口与多语言版本。但 open issues 仍达 8,603，讨论量远超响应能力，热度更多来自存量体量与高频发版。",
+      "changedSinceLast": "上次记录（10-19 第 3 名）总星 98,235、日增 1,590、占比 1.62%、open issues 合计 8,618、release v1.4.230。今日总星 99,705 逼近 10 万，日增 1,565、占比略降至 1.57%，release 一日内推进到 v1.4.235；open issues 微降至 8,603，积压未见实质缓解，仍是高频发版叠加高积压的结构。",
+      "suitableFor": "适合已熟练使用 CLI 与 git worktree、需要并行比较多个 Agent 产出的开发者与团队；想用手机接收完成通知并远程下指令的人；有远程高配机器可通过 SSH 跑 Agent 的进阶用户；能接受每日版本节奏、愿自行管理订阅与凭据者。",
+      "notSuitableFor": "不适合刚接触 AI 编程的新手，概念与配置门槛偏高；单 Agent 已够用的轻量场景；要求版本稳定、不愿跟随每日更新的生产环境；强合规内网，因为代码与凭据会流向第三方模型服务和远程执行环境，需另行评估授权边界。",
+      "risk": "各 Agent 额度自备，多 Agent 并行会成倍放大 token 成本；每日发版可能引入回归，8,603 个 open issues 说明反馈响应滞后；Computer Use、SSH worktree 与移动端同步涉及桌面操作与凭据，须最小权限与明确授权；YC 背景仅来自仓库标签，官方身份需自行核实，不构成安全合规背书。",
+      "bestPractice": "对同一重构任务，把需求同时发给 Claude Code 与 Codex，各自在隔离 worktree 实现并跑测试，人工对比代码质量、覆盖与耗时，只在评审通过后合并胜出分支；失败任务从手机端下修复指令，而不直接合并。",
       "trialPlan": {
-        "install": "从官网下载桌面版或按文档安装 CLI，登录自有 Claude/Codex 订阅账号，先限定在一个测试 project，创建首个 worktree 并验证 SSH 远程机器可连通。",
-        "pilot": "挑一个中等复杂度 Issue，让两个不同 Agent 并行实现，全程在独立分支，记录各自耗时、失败轮次与人工 review 时长。",
-        "evaluation": "统计并行相对串行的加速比、一次合并成功率、人工 review 分钟数、token 成本增量，以及 30 天内因发版导致的流程中断次数。",
-        "exit": "若 token 成本增量超过节省的工时价值、或 worktree 隔离出现代码串扰、或版本更新导致既有流程两周内两次失效，则退回单 Agent 方案。"
+        "install": "从官网下载对应桌面端（或按 README 安装），登录自备的 Claude Code 与 Codex 订阅，先在一个非敏感仓库验证 worktree 与终端功能。",
+        "pilot": "选一个中等重构任务，两个 Agent 并行跑，限定 token 预算并把敏感目录设为只读，人工评审后只合并一个分支。",
+        "evaluation": "对比两路产出的测试通过率、人工修改量、耗时与 token 成本，并记录发版当天的回归次数。",
+        "exit": "若单任务成本超出人工收益、出现回归或凭据外泄风险，或合规评审不通过，则退回单 Agent 加本地终端流程。"
       },
       "signals": {
-        "recentCommit": "2026-10-19",
-        "issuesUpdated30d": 4001,
-        "prsUpdated30d": 7760,
-        "latestRelease": "v1.4.230（2026-10-19）",
+        "recentCommit": "2026-10-20",
+        "issuesUpdated30d": 4059,
+        "prsUpdated30d": 7889,
+        "latestRelease": "v1.4.235（2026-10-20）",
         "readmeMaturity": "成熟",
         "readmeSignals": "5,848 字符 / 20 个标题 / 有安装说明 / 有 Demo/示例 / 有文档入口"
-      }
-    },
-    {
-      "rank": 3,
-      "repo": "anomalyco/opencode",
-      "url": "https://github.com/anomalyco/opencode",
-      "tags": [
-        "AI Agent",
-        "Dev Tool",
-        "Terminal"
-      ],
-      "tagsCn": [
-        "AI Agent",
-        "Dev Tool",
-        "Terminal"
-      ],
-      "tagline": "开源编码 Agent，内置只读 plan 与全权限 build 双模式",
-      "starsToday": 1311,
-      "totalStars": 217781,
-      "starTodayRatio": 0.6,
-      "rankingStatus": "连续 2 次日报 TOP3",
-      "rankingTrack": "10-19#3 -> 10-20#3",
-      "activity": "1 天前有提交",
-      "license": "MIT",
-      "maintainer": "组织/公司/社区项目（Anomaly）；有主页/组织资料，可进一步核实官方性",
-      "positioning": "面向习惯终端、要把读码、改码、跑命令串成一条工作流的开发者：提供 TUI 与标为 BETA 的桌面版，内置 build（全权限）与 plan（只读、改文件默认拒绝、跑 bash 前询问）两种 agent，另有 @general 子 agent。能力边界是它多为模型的前端壳，需自备额度与密钥，产物仍必须 code review，不能当作可托管的自动化流水线。",
-      "whyWatch": "今日新增 1,311、占总星 0.6%，在 21.7 万总星基数下占比很低，属存量回热而非爆发；1 天前有提交，近 30 天 issue 更新 7,341、PR 4,931，社区吞吐极高，MIT 许可、README 多语言、安装/Demo/文档齐备，release 停在 v1.19.3（10-16）。隐忧是 open issues 4,512 与 topics 字段为空，外部评估信息偏少。",
-      "changedSinceLast": "上次记录日增 1,414、占比 0.65%、open issues/PR 4,671、release v1.19.3、0 天前有提交。本次日增 1,311、占比 0.60%、open issues 4,512，热度小幅回落、积压略降；release 仍为 v1.19.3（10-16）未见新版本，最近提交由 0 天前变为 1 天前，节奏略有放缓。",
-      "suitableFor": "已在用终端、愿为模型 API 自付费用、需要可审计 agent 权限（如只读 plan 模式）的开发者与小团队；想把编码 agent 接进自有流程、看重 MIT 许可与可自托管，并能接受高频版本变动与行为漂移的工程组织。",
-      "notSuitableFor": "完全依赖图形界面、不熟悉 shell 的用户；希望开箱即用并附带模型额度与 SLA 的商业采购方；对 issue 响应时效要求严格的团队；受监管代码库中不允许把源码发往外部模型 API 的组织，以及需要长期稳定 API 契约的集成方。",
-      "risk": "agent 具备执行命令与修改文件能力，权限边界必须靠 plan 模式、仓库白名单与沙箱收紧，否则误删误改风险高；需自备模型 API，代码可能外发，涉及数据合规与密钥管理；open issues 4,512 意味缺陷与需求积压，迭代快也意味行为可能变动，topics 缺失不利于外部审计。",
-      "bestPractice": "在陌生代码库先用 plan 只读模式梳理调用链与测试入口、产出改动清单；确认后切 build 在独立分支小步提交，跑本地测试与 CI，人工 review diff 再合并，禁止直接在主干或生产目录操作。",
-      "trialPlan": {
-        "install": "按 README 脚本安装（先清理 0.1.x 之前的旧版本），把安装目录限制在 $XDG_BIN_DIR 或 $HOME/bin，模型密钥走环境变量，不写入仓库或配置文件。",
-        "pilot": "在一个非生产仓库用 plan 模式完成代码走读与改动方案，再切 build 完成一次小重构，全程独立分支并开启测试与 CI。",
-        "evaluation": "评估任务一次通过率、人工返工比例、测试通过率、单任务 token 成本，以及 plan 模式对越权写文件与执行命令的拦截效果。",
-        "exit": "若出现未经确认的文件删除或主干改动、关键任务一次通过率长期低于人工手写、或合规上不允许外发源码，则立即停用并回退到人工流程。"
-      },
-      "signals": {
-        "recentCommit": "2026-10-19",
-        "issuesUpdated30d": 7341,
-        "prsUpdated30d": 4931,
-        "latestRelease": "v1.19.3（2026-10-16）",
-        "readmeMaturity": "成熟",
-        "readmeSignals": "2,479 字符 / 10 个标题 / 有安装说明 / 有 Demo/示例 / 有文档入口"
       }
     }
   ]

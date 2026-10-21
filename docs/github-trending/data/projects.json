@@ -1,29 +1,41 @@
 {
-  "generatedAt": "2026-10-20T08:04:18.029281+08:00",
+  "generatedAt": "2026-10-21T08:01:03.356261+08:00",
   "projects": [
     {
       "repo": "MadsLorentzen/ai-job-search",
       "url": "https://github.com/MadsLorentzen/ai-job-search",
-      "latestDate": "2026-10-20",
+      "latestDate": "2026-10-21",
       "latestRank": 1,
       "tagsCn": [
-        "学术研究",
         "AI Agent",
-        "Career"
+        "求职流程",
+        "本地优先"
       ],
-      "lastTagline": "用 Claude Code 在本地跑通评估、定制简历与面试准备"
+      "lastTagline": "在本地用 Claude Code 跑职位匹配、简历定制与面试准备"
+    },
+    {
+      "repo": "cloudflare/security-audit-skill",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "latestDate": "2026-10-21",
+      "latestRank": 2,
+      "tagsCn": [
+        "Security",
+        "AI Agent",
+        "审计流程"
+      ],
+      "lastTagline": "把编码 Agent 编排成六阶段安全审计，产出可独立复核的发现"
     },
     {
       "repo": "stablyai/orca",
       "url": "https://github.com/stablyai/orca",
-      "latestDate": "2026-10-20",
-      "latestRank": 2,
+      "latestDate": "2026-10-21",
+      "latestRank": 3,
       "tagsCn": [
         "AI Agent",
         "Dev Tool",
-        "Orchestration"
+        "多 Agent 编排"
       ],
-      "lastTagline": "把多个编码 Agent 放进隔离 worktree 里并行跑"
+      "lastTagline": "在同一处并行调度多个编码 Agent，对比隔离 worktree 结果再合并"
     },
     {
       "repo": "anomalyco/opencode",
@@ -393,18 +405,6 @@
         "React"
       ],
       "lastTagline": "让 Agent 与 UI 共用同一套 action 的 TypeScript 框架"
-    },
-    {
-      "repo": "cloudflare/security-audit-skill",
-      "url": "https://github.com/cloudflare/security-audit-skill",
-      "latestDate": "2026-09-21",
-      "latestRank": 1,
-      "tagsCn": [
-        "AI Agent",
-        "Security",
-        "Dev Tool"
-      ],
-      "lastTagline": "把编码 Agent 编排为六阶段安全审计，产出可复核的机器可读发现"
     },
     {
       "repo": "addyosmani/agent-skills",

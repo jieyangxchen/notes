@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-20T08:04:18.029281+08:00",
-  "window": "2026-10-14..2026-10-20",
+  "generatedAt": "2026-10-21T08:01:03.356261+08:00",
+  "window": "2026-10-15..2026-10-21",
   "topProjects": [
     {
       "repo": "debpalash/VoiceStudio",
@@ -19,14 +19,14 @@
       "repo": "MadsLorentzen/ai-job-search",
       "url": "https://github.com/MadsLorentzen/ai-job-search",
       "tagsCn": [
-        "学术研究",
         "AI Agent",
-        "Career"
+        "求职流程",
+        "本地优先"
       ],
-      "appearances": 3,
+      "appearances": 4,
       "bestRank": 1,
-      "latestDate": "2026-10-20",
-      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
+      "latestDate": "2026-10-21",
+      "judgement": "近 7 次记录中出现 4 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
       "repo": "morluto/rea",
@@ -36,10 +36,10 @@
         "Security",
         "Dev Tool"
       ],
-      "appearances": 3,
+      "appearances": 2,
       "bestRank": 1,
       "latestDate": "2026-10-16",
-      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
+      "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
       "repo": "anthropics/claude-plugins-official",
@@ -55,17 +55,17 @@
       "judgement": "近 7 次记录中出现 2 次，最佳排名第 2，适合优先复盘详情。"
     },
     {
-      "repo": "anomalyco/opencode",
-      "url": "https://github.com/anomalyco/opencode",
+      "repo": "stablyai/orca",
+      "url": "https://github.com/stablyai/orca",
       "tagsCn": [
         "AI Agent",
         "Dev Tool",
-        "Terminal"
+        "多 Agent 编排"
       ],
       "appearances": 2,
-      "bestRank": 3,
-      "latestDate": "2026-10-20",
-      "judgement": "近 7 次记录中出现 2 次，最佳排名第 3，适合优先复盘详情。"
+      "bestRank": 2,
+      "latestDate": "2026-10-21",
+      "judgement": "近 7 次记录中出现 2 次，最佳排名第 2，适合优先复盘详情。"
     }
   ],
   "streaks": [
@@ -76,13 +76,8 @@
     },
     {
       "repo": "MadsLorentzen/ai-job-search",
-      "days": 3,
-      "track": "10-18#3 -> 10-19#1 -> 10-20#1"
-    },
-    {
-      "repo": "morluto/rea",
-      "days": 3,
-      "track": "10-14#1 -> 10-15#1 -> 10-16#1"
+      "days": 4,
+      "track": "10-18#3 -> 10-19#1 -> 10-20#1 -> 10-21#1"
     },
     {
       "repo": "anomalyco/opencode",
@@ -93,6 +88,16 @@
       "repo": "anthropics/claude-plugins-official",
       "days": 2,
       "track": "10-17#3 -> 10-18#2"
+    },
+    {
+      "repo": "morluto/rea",
+      "days": 2,
+      "track": "10-15#1 -> 10-16#1"
+    },
+    {
+      "repo": "stablyai/orca",
+      "days": 2,
+      "track": "10-20#2 -> 10-21#3"
     }
   ]
 }

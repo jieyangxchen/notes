@@ -1,0 +1,151 @@
+{
+  "date": "2026-10-21",
+  "generatedAt": "2026-10-21T08:01:03.356261+08:00",
+  "source": "https://github.com/trending?since=daily",
+  "tags": [
+    "AI Agent",
+    "求职流程",
+    "本地优先",
+    "Security",
+    "审计流程",
+    "Dev Tool"
+  ],
+  "observation": "三个项目都把 Agent 从对话框推进到具体工作流：ai-job-search 用本地 Claude Code 跑求职闭环，security-audit-skill 用六阶段方法论产出可复核的审计产物，orca 则把多个编码 Agent 放进隔离 worktree 并行对比。共同点是人审与产物格式被前置为流程约束，而非事后补救。差异在维护形态：个人项目日增占比最高，但 issue 池薄；Cloudflare 技能方法论成熟，却 37 天无提交；orca 靠存量体量与每日发版维持热度，积压已达 8,603。",
+  "projects": [
+    {
+      "rank": 1,
+      "repo": "MadsLorentzen/ai-job-search",
+      "url": "https://github.com/MadsLorentzen/ai-job-search",
+      "tags": [
+        "AI Agent",
+        "求职流程",
+        "本地优先"
+      ],
+      "tagsCn": [
+        "AI Agent",
+        "求职流程",
+        "本地优先"
+      ],
+      "tagline": "在本地用 Claude Code 跑职位匹配、简历定制与面试准备",
+      "starsToday": 3861,
+      "totalStars": 60496,
+      "starTodayRatio": 6.38,
+      "rankingStatus": "连续 4 次日报 TOP3",
+      "rankingTrack": "10-18#3 -> 10-19#1 -> 10-20#1 -> 10-21#1",
+      "activity": "1 天前有提交",
+      "license": "MIT",
+      "maintainer": "个人项目；官方性未见强信号",
+      "positioning": "面向会用终端和 Git 的求职者与转行者：把 /scrape、/apply、/interview、/outcome 串成每周循环，在本地评估 JD 匹配度、按岗位定制简历与求职信并做面试准备，履历数据留在自己机器上。边界是内置搜索插件偏丹麦市场，依赖 Python、LaTeX 与 Claude Code 额度，产出仅为初稿，事实与投递决定须本人核对。",
+      "whyWatch": "今日新增 3,861、占总星 6.38%，仍是三者中日增占比最高；1 天前有提交，近 30 天 PR 更新 195，v1.7.3（10-19）之后未见新版本，README 26,313 字符且安装、Demo、文档齐备，MIT。隐忧是 open issues 只有 31，相对 6 万星体量偏薄，热度已明显高于维护承载力。",
+      "changedSinceLast": "上次记录（10-19 第 1 名）总星 57,164、日增 3,856、占比 6.75%、open issues 26、PR 175、release v1.7.3。今日总星 60,496（+3,332），日增持平在 3,861，占比回落到 6.38%，说明增长靠存量惯性而非加速；open issues 26 增至 31、PR 175 增至 195，release 未再推进，近两日以协作讨论为主。",
+      "suitableFor": "适合熟悉命令行与 Git、正在求职或转行的开发者：愿意安装 Python 3.10+ 与 LaTeX，用 AI 生成初稿后逐条校对履历时间线、量化指标与语气，并把投递结果记入 /outcome 反推关键词优化；目标市场与内置插件相近者上手最快。",
+      "notSuitableFor": "不适合不熟终端、不愿安装 Python 与 LaTeX 的用户；期望一键群发投递、跳过人工审核的团队；目标市场与内置搜索插件不符又不愿改代码者；对生成内容零容忍、没有专人核对事实的强合规行业，以及要求企业级 SLA 与供应商资质的采购方。",
+      "risk": "依赖 Claude Code 的额度与条款，速率和费用可能变动；项目由个人维护，与 6 万星体量不匹配，长期可持续性存疑；AI 生成简历容易出现履历夸大或事实偏差，必须逐条人工审核；批量投递可能违反招聘平台条款；简历属敏感个人信息，应本地保存，并留意 README 关于无代币、防冒充的声明。",
+      "bestPractice": "每周固定跑一轮：用 /scrape 拉取新职位，只对匹配度前 5 个执行 /apply 生成简历与求职信初稿，人工核对事实、时间线与本地化表述后手动投递，再把结果写入 /outcome 调整关键词；不群发、不夸大经历。",
+      "trialPlan": {
+        "install": "克隆仓库，配置 Python 3.10+、LaTeX 与 Claude Code 凭证，填好 profile 与环境变量，先在示例 JD 上跑通 /scrape 与 /apply，确认没有多余数据外发。",
+        "pilot": "选 3 个真实目标岗位，只做匹配评估与初稿生成，不投递；对比通用模板与定制版差异，逐条检查事实一致性。",
+        "evaluation": "看重跑成功率、单岗位耗时、人工修改比例、关键事实错误数（应为 0），以及是否越权抓取或外发履历。",
+        "exit": "连续 3 次出现履历事实错误、插件覆盖不到目标市场，或 Claude Code 额度与条款不可控时，停止使用并回归手工流程。"
+      },
+      "signals": {
+        "recentCommit": "2026-10-20",
+        "issuesUpdated30d": 38,
+        "prsUpdated30d": 195,
+        "latestRelease": "v1.7.3（2026-10-19）",
+        "readmeMaturity": "成熟",
+        "readmeSignals": "26,313 字符 / 30 个标题 / 有安装说明 / 有 Demo/示例 / 有文档入口"
+      }
+    },
+    {
+      "rank": 2,
+      "repo": "cloudflare/security-audit-skill",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "tags": [
+        "Security",
+        "AI Agent",
+        "审计流程"
+      ],
+      "tagsCn": [
+        "Security",
+        "AI Agent",
+        "审计流程"
+      ],
+      "tagline": "把编码 Agent 编排成六阶段安全审计，产出可独立复核的发现",
+      "starsToday": 1712,
+      "totalStars": 34137,
+      "starTodayRatio": 5.02,
+      "rankingStatus": "非连续；上次 09-21 第1",
+      "rankingTrack": "09-21#1 -> 10-21#2",
+      "activity": "37 天前有提交",
+      "license": "MIT",
+      "maintainer": "组织/公司/社区项目（Cloudflare）；有主页/组织资料，可进一步核实官方性",
+      "positioning": "面向已有 SDL、漏洞赏金或红队流程的安全工程师：以 skill 形式固定侦察、覆盖驱动狩猎、候选验证、结构化输出、独立复核与目标中立报告六阶段，产出 findings.json、coverage-ledger.json 与 REPORT.md。边界只是方法论与产物格式，不含漏洞库、托管扫描与自动定级，误报漏报仍需人工判定，且仅限自有或书面授权目标。",
+      "whyWatch": "今日新增 1,712、占总星 5.02%，总星已达 3.41 万；但最近提交停在 37 天前（上次为 7 天前），open issues 由 45 升到 72，30 天 issue 更新仅 15、PR 24，仍无公开 release、文档入口不明显。README 6,536 字符含六阶段说明与示例，MIT。热度尚在，维护节奏与反馈处理能力明显跟不上。",
+      "changedSinceLast": "上次记录（09-20 第 1 名）日增 2,428、占比 13.5%、总星约 1.80 万、7 天前有提交、open issues 45、无 release。今日总星 3.41 万、日增 1,712、占比回落至 5.02%；最值得注意的是提交空闲期由 7 天拉长到 37 天，open issues 45 增至 72，热度与维护投入进一步背离。",
+      "suitableFor": "适合已有安全评审流程的团队与安全工程师：在自有仓库或已获书面授权的目标上，把审计步骤固定为可复现 prompt、覆盖台账与统一产物格式，并愿意投入人力逐条复现 confirmed 记录、整理 needs_validation 待办。",
+      "notSuitableFor": "不适合把 Agent 输出直接当漏洞结论的团队；缺少安全人员、无授权范围或想扫描第三方系统的使用者；也不能替代 SAST/DAST 工具链，或指望开箱得到漏洞库与自动定级。提交长期放缓也意味着不宜作为唯一依赖。",
+      "risk": "授权边界是硬约束：仅可对自有或已获书面授权目标运行，禁止扫描第三方系统；confirmed 与 needs_validation 必须人工复现，不能作为定级、披露或赏金提交的唯一依据。项目 37 天无提交、无 release、文档入口弱，open issues 72 积压；Cloudflare 官方身份应以组织资料核实，README 也自述为内部 harness 的单仓库起点。",
+      "bestPractice": "在自有仓库以只读权限跑完整六阶段：先产出 architecture.md 与 coverage-ledger.json，再让独立 verifier 反证每个候选，confirmed 全部交安全工程师复现后再进内部漏洞平台去重评级。",
+      "trialPlan": {
+        "install": "按 README 把 skill 放入编码 Agent 的 skill 目录（如 Claude Code、Cursor），准备只读目标仓库副本与 report-schema.json，确认 validate 脚本可运行。",
+        "pilot": "选一个自有小型服务，只跑侦察与覆盖台账两阶段，不开启自动修复，所有候选只记录不提交。",
+        "evaluation": "看覆盖台账完整率、confirmed 记录的人工复现率与误报率、needs_validation 收敛速度，以及是否越界访问授权外资产。",
+        "exit": "出现访问授权外目标、confirmed 复现率低且误报居高，或长期无维护更新导致流程不可复现时，退回既有 SAST 与人工审计。"
+      },
+      "signals": {
+        "recentCommit": "2026-09-14",
+        "issuesUpdated30d": 15,
+        "prsUpdated30d": 24,
+        "latestRelease": "暂无公开 release",
+        "readmeMaturity": "成熟",
+        "readmeSignals": "6,536 字符 / 9 个标题 / 有安装说明 / 有 Demo/示例 / 文档入口不明显"
+      }
+    },
+    {
+      "rank": 3,
+      "repo": "stablyai/orca",
+      "url": "https://github.com/stablyai/orca",
+      "tags": [
+        "AI Agent",
+        "Dev Tool",
+        "多 Agent 编排"
+      ],
+      "tagsCn": [
+        "AI Agent",
+        "Dev Tool",
+        "多 Agent 编排"
+      ],
+      "tagline": "在同一处并行调度多个编码 Agent，对比隔离 worktree 结果再合并",
+      "starsToday": 1565,
+      "totalStars": 99705,
+      "starTodayRatio": 1.57,
+      "rankingStatus": "连续 2 次日报 TOP3",
+      "rankingTrack": "10-20#2 -> 10-21#3",
+      "activity": "1 天前有提交",
+      "license": "MIT",
+      "maintainer": "组织/公司/社区项目（Stably）；有主页/组织资料，可进一步核实官方性",
+      "positioning": "面向需要同时评估多个编码 Agent 的中高级开发者与团队：每个 Agent 跑在独立 git worktree，产物集中对比后择优合并，另有移动端监控、SSH 远程 worktree、终端分屏与 Design Mode。边界是各 Agent 订阅与额度需自备，产品每日发版、工作流形态可能随时变化，敏感代码会流向第三方模型服务。",
+      "whyWatch": "今日新增 1,565、占总星 1.57%，属老项目回热；1 天前有提交，release 从 v1.4.230 推到 v1.4.235（10-20），30 天 PR 7,889、issue 更新 4,059，迭代与社区吞吐极高，README 有安装、Demo、文档入口与多语言版本。但 open issues 仍达 8,603，讨论量远超响应能力，热度更多来自存量体量与高频发版。",
+      "changedSinceLast": "上次记录（10-19 第 3 名）总星 98,235、日增 1,590、占比 1.62%、open issues 合计 8,618、release v1.4.230。今日总星 99,705 逼近 10 万，日增 1,565、占比略降至 1.57%，release 一日内推进到 v1.4.235；open issues 微降至 8,603，积压未见实质缓解，仍是高频发版叠加高积压的结构。",
+      "suitableFor": "适合已熟练使用 CLI 与 git worktree、需要并行比较多个 Agent 产出的开发者与团队；想用手机接收完成通知并远程下指令的人；有远程高配机器可通过 SSH 跑 Agent 的进阶用户；能接受每日版本节奏、愿自行管理订阅与凭据者。",
+      "notSuitableFor": "不适合刚接触 AI 编程的新手，概念与配置门槛偏高；单 Agent 已够用的轻量场景；要求版本稳定、不愿跟随每日更新的生产环境；强合规内网，因为代码与凭据会流向第三方模型服务和远程执行环境，需另行评估授权边界。",
+      "risk": "各 Agent 额度自备，多 Agent 并行会成倍放大 token 成本；每日发版可能引入回归，8,603 个 open issues 说明反馈响应滞后；Computer Use、SSH worktree 与移动端同步涉及桌面操作与凭据，须最小权限与明确授权；YC 背景仅来自仓库标签，官方身份需自行核实，不构成安全合规背书。",
+      "bestPractice": "对同一重构任务，把需求同时发给 Claude Code 与 Codex，各自在隔离 worktree 实现并跑测试，人工对比代码质量、覆盖与耗时，只在评审通过后合并胜出分支；失败任务从手机端下修复指令，而不直接合并。",
+      "trialPlan": {
+        "install": "从官网下载对应桌面端（或按 README 安装），登录自备的 Claude Code 与 Codex 订阅，先在一个非敏感仓库验证 worktree 与终端功能。",
+        "pilot": "选一个中等重构任务，两个 Agent 并行跑，限定 token 预算并把敏感目录设为只读，人工评审后只合并一个分支。",
+        "evaluation": "对比两路产出的测试通过率、人工修改量、耗时与 token 成本，并记录发版当天的回归次数。",
+        "exit": "若单任务成本超出人工收益、出现回归或凭据外泄风险，或合规评审不通过，则退回单 Agent 加本地终端流程。"
+      },
+      "signals": {
+        "recentCommit": "2026-10-20",
+        "issuesUpdated30d": 4059,
+        "prsUpdated30d": 7889,
+        "latestRelease": "v1.4.235（2026-10-20）",
+        "readmeMaturity": "成熟",
+        "readmeSignals": "5,848 字符 / 20 个标题 / 有安装说明 / 有 Demo/示例 / 有文档入口"
+      }
+    }
+  ]
+}
