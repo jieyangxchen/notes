@@ -1,6 +1,42 @@
 {
-  "generatedAt": "2026-10-21T08:01:03.356261+08:00",
+  "generatedAt": "2026-10-22T08:18:02.364285+08:00",
   "projects": [
+    {
+      "repo": "DietrichGebert/ponytail",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "latestDate": "2026-10-22",
+      "latestRank": 1,
+      "tagsCn": [
+        "AI Agent",
+        "Dev Tool",
+        "Prompt Engineering"
+      ],
+      "lastTagline": "用技能约束编码代理少写代码、压缩 diff 与 token 成本"
+    },
+    {
+      "repo": "cloudflare/security-audit-skill",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "latestDate": "2026-10-22",
+      "latestRank": 2,
+      "tagsCn": [
+        "AI Agent",
+        "Security",
+        "Dev Tool"
+      ],
+      "lastTagline": "把编码代理变成六阶段安全审计员，产出可复核的 findings.json"
+    },
+    {
+      "repo": "stablyai/orca",
+      "url": "https://github.com/stablyai/orca",
+      "latestDate": "2026-10-22",
+      "latestRank": 3,
+      "tagsCn": [
+        "AI Agent",
+        "Dev Tool",
+        "Multi-Agent"
+      ],
+      "lastTagline": "多代理编排桌面端，每个代理独立 worktree 并行对比择优"
+    },
     {
       "repo": "MadsLorentzen/ai-job-search",
       "url": "https://github.com/MadsLorentzen/ai-job-search",
@@ -12,30 +48,6 @@
         "本地优先"
       ],
       "lastTagline": "在本地用 Claude Code 跑职位匹配、简历定制与面试准备"
-    },
-    {
-      "repo": "cloudflare/security-audit-skill",
-      "url": "https://github.com/cloudflare/security-audit-skill",
-      "latestDate": "2026-10-21",
-      "latestRank": 2,
-      "tagsCn": [
-        "Security",
-        "AI Agent",
-        "审计流程"
-      ],
-      "lastTagline": "把编码 Agent 编排成六阶段安全审计，产出可独立复核的发现"
-    },
-    {
-      "repo": "stablyai/orca",
-      "url": "https://github.com/stablyai/orca",
-      "latestDate": "2026-10-21",
-      "latestRank": 3,
-      "tagsCn": [
-        "AI Agent",
-        "Dev Tool",
-        "多 Agent 编排"
-      ],
-      "lastTagline": "在同一处并行调度多个编码 Agent，对比隔离 worktree 结果再合并"
     },
     {
       "repo": "anomalyco/opencode",
@@ -210,18 +222,6 @@
         "学术研究"
       ],
       "lastTagline": "一条 CLI 让 AI 代理读推特、Reddit、B 站与小红书，免付费 API"
-    },
-    {
-      "repo": "DietrichGebert/ponytail",
-      "url": "https://github.com/DietrichGebert/ponytail",
-      "latestDate": "2026-10-05",
-      "latestRank": 1,
-      "tagsCn": [
-        "AI Agent",
-        "Dev Tool",
-        "Code Review"
-      ],
-      "lastTagline": "让 AI 代理像最懒的资深工程师一样少写代码"
     },
     {
       "repo": "pbakaus/impeccable",

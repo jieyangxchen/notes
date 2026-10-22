@@ -1,0 +1,150 @@
+{
+  "date": "2026-10-22",
+  "generatedAt": "2026-10-22T08:18:02.364285+08:00",
+  "source": "https://github.com/trending?since=daily",
+  "tags": [
+    "AI Agent",
+    "Dev Tool",
+    "Prompt Engineering",
+    "Security",
+    "Multi-Agent"
+  ],
+  "observation": "今日 TOP3 全是 AI Agent 工作流项目，但切入角度分化明显：ponytail 用技能约束代理少写代码，主打 diff 与 token 压缩；Cloudflare 的安全审计技能把漏洞挖掘拆成六阶段，强调独立复核与机器可读产物；orca 则是多代理编排桌面端，把并行 worktree 与手机端监控做成产品。共同点是把代理产出收敛为可验证产物与人工复核环节；差异在前两者是轻量规则/技能、可自托管，orca 是重客户端、订阅自备、每日发版。数据上 ponytail 与 orca 均为老项目回热、量级破十万星；安全审计技能占比 5.52% 最高，但 38 天无提交，热度与维护投入背离。",
+  "projects": [
+    {
+      "rank": 1,
+      "repo": "DietrichGebert/ponytail",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "tags": [
+        "AI Agent",
+        "Dev Tool",
+        "Prompt Engineering"
+      ],
+      "tagsCn": [
+        "AI Agent",
+        "Dev Tool",
+        "Prompt Engineering"
+      ],
+      "tagline": "用技能约束编码代理少写代码、压缩 diff 与 token 成本",
+      "starsToday": 2079,
+      "totalStars": 171598,
+      "starTodayRatio": 1.21,
+      "rankingStatus": "非连续；上次 10-05 第1",
+      "rankingTrack": "10-05#1 -> 10-22#1",
+      "activity": "4 天前有提交",
+      "license": "MIT",
+      "maintainer": "个人项目；官方性未见强信号",
+      "positioning": "面向已用 Claude Code、被 AI 冗余生成拖慢评审的工程团队：以技能或 rules 形式挂载，让代理先看仓库已有能力，倾向最小可行改动，压缩 diff、token 与复核成本。边界是它只是提示约束，不负责需求澄清与架构取舍；省码数据来自同一仓库的小样本基准，不能外推；不挂载技能的环境完全不生效，必要校验与防御仍需人工兜底。",
+      "whyWatch": "今日新增 2,079、占总星 1.21%，总星约 17.16 万，属老项目回热；release 已到 v5.3.2（10-16），近 30 天 PR 更新 400、issue 更新 199，open issues 由 178 降到 69，积压明显收窄；README 重写为 7,592 字符/14 标题，附 V5 基准（39 任务、含 6 个安全任务 30 次全过）与中英日韩西多语入口，MIT。隐忧是最近提交退到 4 天前，核心指标仍为作者自测。",
+      "changedSinceLast": "上次记录为 2026-10-04：总星 15.48 万→17.16 万，release 从 v4.11.0 跳到 v5.3.2（10-16，标注重构），open issues 178→69；README 由 19,197 字符/29 标题压缩重写为 7,592 字符/14 标题，基准任务从 12 个扩到 39 个并新增六个安全任务、30 次全过声明；但最近提交由 1 天前退到 4 天前。",
+      "suitableFor": "适合已有单元测试与评审流程、希望代理不过度设计的团队；适合使用 Claude Code、想压低生成规模与 token 成本的开发者；也适合愿用小样本 A/B 量化 diff 行数、时长与用例通过率，再决定是否长期挂载的工程组。",
+      "notSuitableFor": "不适合支付、医疗等需要显式防御与强合规审计的场景；不适合让代理自行做架构取舍或需求澄清的任务；基准未覆盖你的技术栈时效果未知；不使用 Claude Code 或无法挂载技能/规则的团队装上无效。",
+      "risk": "“-53% 代码、98% 高风险逻辑带测试”等数字来自作者自建基准（39 任务、5 次运行），样本与运行方均单一，不能当普遍安全证据；把“少写代码”当硬约束可能诱导代理删掉防御、校验与错误处理，必须靠人工 review diff 与既有测试兜底；个人维护、版本已跳到 v5 存在兼容变动；第三方重打包未经审计，务必从官方来源安装并锁定版本或 commit。",
+      "bestPractice": "在一个测试覆盖良好的 FastAPI+React 仓库里，把 ponytail 作为 Claude Code 技能挂载，先选 3–5 个中等功能任务（表单、分页、日期选择器）做同日对照，只统计 diff 行数、测试通过率与评审意见数，胜出做法再推广到全组规则。",
+      "trialPlan": {
+        "install": "按 README 从官方仓库/站点安装对应版本技能，固定 tag v5.3.2，不引入第三方重打包。",
+        "pilot": "选 1 个有测试的仓库、3–5 个中等任务，同日分开关闭/开启技能各跑一遍，保留全部 diff 与 CI 结果。",
+        "evaluation": "对比 diff 行数、单测通过率、新增校验/错误处理条数、人工评审返工次数与 token 成本，任一安全性指标下降即判失败。",
+        "exit": "出现删除校验、吞异常、测试覆盖率下降或评审返工上升，即停用并回滚到未挂载状态。"
+      },
+      "signals": {
+        "recentCommit": "2026-10-18",
+        "issuesUpdated30d": 199,
+        "prsUpdated30d": 400,
+        "latestRelease": "v5.3.2（2026-10-16）",
+        "readmeMaturity": "成熟",
+        "readmeSignals": "7,592 字符 / 14 个标题 / 有安装说明 / 有 Demo/示例 / 文档入口不明显"
+      }
+    },
+    {
+      "rank": 2,
+      "repo": "cloudflare/security-audit-skill",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "tags": [
+        "AI Agent",
+        "Security",
+        "Dev Tool"
+      ],
+      "tagsCn": [
+        "AI Agent",
+        "Security",
+        "Dev Tool"
+      ],
+      "tagline": "把编码代理变成六阶段安全审计员，产出可复核的 findings.json",
+      "starsToday": 2012,
+      "totalStars": 36424,
+      "starTodayRatio": 5.52,
+      "rankingStatus": "连续 2 次日报 TOP3",
+      "rankingTrack": "10-21#2 -> 10-22#2",
+      "activity": "38 天前有提交",
+      "license": "MIT",
+      "maintainer": "组织/公司/社区项目（Cloudflare）；有主页/组织资料，可进一步核实官方性",
+      "positioning": "面向已有 SDL、漏洞赏金或红队流程的安全工程师：以 skill 固定侦察、覆盖驱动狩猎、候选验证、结构化输出、独立记录复核、目标中立报告六阶段，产出 architecture.md、coverage-ledger.json、findings.json 与 REPORT.md。边界只是方法论与产物格式，不含漏洞库、托管扫描与自动定级，误报漏报仍需人工判定，且仅限自有或书面授权目标。",
+      "whyWatch": "今日新增 2,012、占总星 5.52%，是三者中占比最高的；总星约 3.64 万，README 6,536 字符含六阶段说明、report-schema 与示例，MIT。但最近提交停在 38 天前，open issues 由 72 升至 78，30 天 issue 更新仅 16、PR 28，仍无公开 release、文档入口不明显，热度回升与维护投入继续背离。",
+      "changedSinceLast": "上次记录为 2026-09-21：总星 3.41 万→3.64 万，日增 1,712→2,012、占比 5.02%→5.52% 回升；但提交空闲期由 37 天延到 38 天，open issues 72→78，仍无公开 release、文档入口弱；Cloudflare 身份依旧只凭组织账号，README 自述为内部 harness 的单仓库起点，非成熟产品。",
+      "suitableFor": "适合已有安全评审流程的团队与安全工程师：在自有仓库或已获书面授权的目标上，把审计步骤固化为可复现 prompt、覆盖台账与统一产物格式，并愿意投入人力逐条复现 confirmed 记录、整理 needs_validation 待办。",
+      "notSuitableFor": "不适合把代理输出直接当漏洞结论的团队；缺少安全人员、无明确授权范围或想扫描第三方系统者；也不能替代 SAST/DAST 工具链，或指望开箱拿到漏洞库与自动定级；提交长期放缓也不宜作为唯一依赖。",
+      "risk": "授权边界是硬约束：只能对自有或已获书面授权的目标运行，禁止扫描第三方系统；confirmed 与 needs_validation 必须人工复现，不能作为定级、对外披露或赏金提交的唯一依据；项目 38 天无提交、无 release、open issues 78 积压；组织账号与 Cloudflare 品牌不等于对你的目标或使用方式背书，合规责任仍在使用者。",
+      "bestPractice": "在自有仓库以只读权限跑完整六阶段：先生成 architecture.md 与 coverage-ledger.json，再让独立 verifier 反证每个候选，confirmed 全部交安全工程师复现后，才进入内部漏洞平台去重评级。",
+      "trialPlan": {
+        "install": "按 README 将 skill 放入代理技能目录，仅授予对目标仓库的只读权限，隔离网络与生产凭据。",
+        "pilot": "选一个内部自有服务，跑一遍六阶段审计，保留 coverage-ledger.json、findings.json 与全部 agent 日志。",
+        "evaluation": "统计 confirmed 中人工复现为真的比例、needs_validation 清理成本、覆盖单元遗漏数与误报率，与现有 SAST 结果比对。",
+        "exit": "若 confirmed 复现率低、出现越权扫描或无法产出可审计记录，停止使用并删除生成产物。"
+      },
+      "signals": {
+        "recentCommit": "2026-09-14",
+        "issuesUpdated30d": 16,
+        "prsUpdated30d": 28,
+        "latestRelease": "暂无公开 release",
+        "readmeMaturity": "成熟",
+        "readmeSignals": "6,536 字符 / 9 个标题 / 有安装说明 / 有 Demo/示例 / 文档入口不明显"
+      }
+    },
+    {
+      "rank": 3,
+      "repo": "stablyai/orca",
+      "url": "https://github.com/stablyai/orca",
+      "tags": [
+        "AI Agent",
+        "Dev Tool",
+        "Multi-Agent"
+      ],
+      "tagsCn": [
+        "AI Agent",
+        "Dev Tool",
+        "Multi-Agent"
+      ],
+      "tagline": "多代理编排桌面端，每个代理独立 worktree 并行对比择优",
+      "starsToday": 1541,
+      "totalStars": 101224,
+      "starTodayRatio": 1.52,
+      "rankingStatus": "连续 3 次日报 TOP3",
+      "rankingTrack": "10-20#2 -> 10-21#3 -> 10-22#3",
+      "activity": "0 天前有提交",
+      "license": "MIT",
+      "maintainer": "组织/公司/社区项目（Stably）；有主页/组织资料，可进一步核实官方性",
+      "positioning": "面向需要同时评估多个编码代理的中高级开发者与团队：把同一需求分发给多个代理，各自在独立 git worktree 实现并跑测试，产物集中对比后择优合并；另有手机端监控、SSH 远程 worktree、终端分屏与 Design Mode。边界是各代理订阅与额度需自备，产品每日发版、工作流形态易变，代码与凭据会流向第三方模型服务与远程执行环境。",
+      "whyWatch": "今日新增 1,541、占总星 1.52%，总星约 10.12 万首次破十万；0 天前有提交，release 由 v1.4.235 推到 v1.4.237（10-21），30 天 PR 8,127、issue 更新 4,215，迭代吞吐极高；README 20 个标题，含安装、Demo、文档入口与六语版本，MIT。但 open issues 仍达 8,591，讨论量远超响应能力。",
+      "changedSinceLast": "上次记录为 2026-10-20 第 2 名：总星 99,705→101,224 正式破十万，release 前进到 v1.4.237（10-21），最近提交由 1 天前变为当日；日增 1,565→1,541、占比 1.57%→1.52% 小幅回落，open issues 8,603→8,591 基本持平，仍是“高频发版＋高积压”结构，未见响应能力改善。",
+      "suitableFor": "适合已熟练使用 CLI 与 git worktree、需要并行比较多个代理产出的开发者与团队；想用手机接收完成通知并远程下指令的人；有远程高配机器可走 SSH 跑代理的进阶用户；能接受每日版本节奏、自行管理订阅与凭据者。",
+      "notSuitableFor": "不适合刚接触 AI 编程的新手，概念与配置门槛偏高；单代理已够用的轻量场景；要求版本稳定、不愿跟随每日更新的生产环境；强合规内网，因为代码与凭据会流向第三方模型服务和远程执行环境，需另行评估授权边界。",
+      "risk": "多代理并行会成倍放大 token 成本与额度消耗；每日发版可能引入回归，8,591 个 open issues 说明反馈响应滞后；SSH worktree、手机端同步与 Design Mode 涉及桌面操作与凭据，须最小权限与明确授权；仓库标签中的 YC 背景仅来自自述，不构成安全或合规背书。",
+      "bestPractice": "对同一重构任务，把需求同时发给 Claude Code 与另一编码代理，各自在隔离 worktree 实现并跑同一测试集，人工对比代码质量、覆盖与耗时，只在评审通过后合并胜出分支；失败任务从手机端补指令而非直接合并。",
+      "trialPlan": {
+        "install": "从官网下载对应桌面端或使用发布包，先用一个非核心仓库，避免挂载生产凭据。",
+        "pilot": "选 1 个中等重构任务，开 2–3 个 worktree 并行实现，全部跑既有测试并保留 diff 与花费记录。",
+        "evaluation": "对比各代理的测试通过率、评审返工次数、耗时与 token 成本，并记录一次发版周期内是否出现回归。",
+        "exit": "若出现费用超预算、合并后回归或凭据流向不可接受的环境，即停止并行并回退到单代理工作流。"
+      },
+      "signals": {
+        "recentCommit": "2026-10-22",
+        "issuesUpdated30d": 4215,
+        "prsUpdated30d": 8127,
+        "latestRelease": "v1.4.237（2026-10-21）",
+        "readmeMaturity": "成熟",
+        "readmeSignals": "5,848 字符 / 20 个标题 / 有安装说明 / 有 Demo/示例 / 有文档入口"
+      }
+    }
+  ]
+}
