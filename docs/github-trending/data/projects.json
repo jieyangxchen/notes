@@ -1,29 +1,41 @@
 {
-  "generatedAt": "2026-10-22T08:18:02.364285+08:00",
+  "generatedAt": "2026-10-23T08:01:04.960962+08:00",
   "projects": [
-    {
-      "repo": "DietrichGebert/ponytail",
-      "url": "https://github.com/DietrichGebert/ponytail",
-      "latestDate": "2026-10-22",
-      "latestRank": 1,
-      "tagsCn": [
-        "AI Agent",
-        "Dev Tool",
-        "Prompt Engineering"
-      ],
-      "lastTagline": "用技能约束编码代理少写代码、压缩 diff 与 token 成本"
-    },
     {
       "repo": "cloudflare/security-audit-skill",
       "url": "https://github.com/cloudflare/security-audit-skill",
-      "latestDate": "2026-10-22",
-      "latestRank": 2,
+      "latestDate": "2026-10-23",
+      "latestRank": 1,
       "tagsCn": [
         "AI Agent",
         "Security",
         "Dev Tool"
       ],
-      "lastTagline": "把编码代理变成六阶段安全审计员，产出可复核的 findings.json"
+      "lastTagline": "用六阶段技能把编码代理变成可复核的安全审计员"
+    },
+    {
+      "repo": "DietrichGebert/ponytail",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "latestDate": "2026-10-23",
+      "latestRank": 2,
+      "tagsCn": [
+        "AI Agent",
+        "Dev Tool",
+        "Prompt Engineering"
+      ],
+      "lastTagline": "让编码代理先看已有代码，只写任务必需的最小改动"
+    },
+    {
+      "repo": "Graphify-Labs/graphify",
+      "url": "https://github.com/Graphify-Labs/graphify",
+      "latestDate": "2026-10-23",
+      "latestRank": 3,
+      "tagsCn": [
+        "AI Agent",
+        "Dev Tool",
+        "学术研究"
+      ],
+      "lastTagline": "把代码库与文档解析成边可解释的本地知识图谱"
     },
     {
       "repo": "stablyai/orca",
@@ -1195,19 +1207,6 @@
         "AI Agent"
       ],
       "lastTagline": "开源跨平台视频编辑器，Rust重写中，支持 AI 代理操控与插件生态"
-    },
-    {
-      "repo": "Graphify-Labs/graphify",
-      "url": "https://github.com/Graphify-Labs/graphify",
-      "latestDate": "2026-07-15",
-      "latestRank": 2,
-      "tagsCn": [
-        "知识图谱",
-        "代码理解",
-        "工具",
-        "AI助手"
-      ],
-      "lastTagline": "将任意代码、文档、数据转为可查询的知识图谱，支持 15+ AI 编程助手，本地优先、保护隐私。"
     },
     {
       "repo": "HKUDS/Vibe-Trading",
