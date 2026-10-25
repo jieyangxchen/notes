@@ -1,17 +1,41 @@
 {
-  "generatedAt": "2026-10-23T08:01:04.960962+08:00",
+  "generatedAt": "2026-10-25T08:07:12.634965+08:00",
   "projects": [
     {
       "repo": "cloudflare/security-audit-skill",
       "url": "https://github.com/cloudflare/security-audit-skill",
-      "latestDate": "2026-10-23",
+      "latestDate": "2026-10-25",
       "latestRank": 1,
+      "tagsCn": [
+        "Security",
+        "AI Agent",
+        "代码审计"
+      ],
+      "lastTagline": "把编码代理变成六阶段安全审计员，产出可复核的机器可读发现"
+    },
+    {
+      "repo": "NVIDIA/OpenShell",
+      "url": "https://github.com/NVIDIA/OpenShell",
+      "latestDate": "2026-10-25",
+      "latestRank": 2,
       "tagsCn": [
         "AI Agent",
         "Security",
-        "Dev Tool"
+        "Runtime"
       ],
-      "lastTagline": "用六阶段技能把编码代理变成可复核的安全审计员"
+      "lastTagline": "为自主 agent 加上内核级策略沙箱与策略变更形式化预检"
+    },
+    {
+      "repo": "pbakaus/impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "latestDate": "2026-10-25",
+      "latestRank": 3,
+      "tagsCn": [
+        "Dev Tool",
+        "AI Agent",
+        "前端设计"
+      ],
+      "lastTagline": "用 24 条命令和 62 条确定性规则约束 AI 生成前端的设计语言"
     },
     {
       "repo": "DietrichGebert/ponytail",
@@ -236,18 +260,6 @@
       "lastTagline": "一条 CLI 让 AI 代理读推特、Reddit、B 站与小红书，免付费 API"
     },
     {
-      "repo": "pbakaus/impeccable",
-      "url": "https://github.com/pbakaus/impeccable",
-      "latestDate": "2026-10-05",
-      "latestRank": 2,
-      "tagsCn": [
-        "AI Agent",
-        "Dev Tool",
-        "Design"
-      ],
-      "lastTagline": "让 AI 编码代理产出不撞款的品牌化前端界面"
-    },
-    {
       "repo": "affaan-m/ECC",
       "url": "https://github.com/affaan-m/ECC",
       "latestDate": "2026-10-04",
@@ -271,18 +283,6 @@
         "Prompt Engineering"
       ],
       "lastTagline": "把日常工程技能拆成可组合、可改写的小提示词文件"
-    },
-    {
-      "repo": "NVIDIA/OpenShell",
-      "url": "https://github.com/NVIDIA/OpenShell",
-      "latestDate": "2026-10-02",
-      "latestRank": 1,
-      "tagsCn": [
-        "AI Agent",
-        "Security",
-        "Dev Tool"
-      ],
-      "lastTagline": "给自主 agent 套上内核级策略沙箱，策略变更前先形式化验证"
     },
     {
       "repo": "t8y2/dbx",
