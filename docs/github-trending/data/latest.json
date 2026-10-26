@@ -1,57 +1,57 @@
 {
-  "date": "2026-10-25",
-  "generatedAt": "2026-10-25T08:07:12.634965+08:00",
+  "date": "2026-10-26",
+  "generatedAt": "2026-10-26T08:01:27.476911+08:00",
   "source": "https://github.com/trending?since=daily",
   "tags": [
-    "Security",
     "AI Agent",
-    "代码审计",
-    "Runtime",
+    "Security",
     "Dev Tool",
-    "前端设计"
+    "Voice AI",
+    "本地部署",
+    "Design"
   ],
-  "observation": "三个项目都在补 agent 的边界，而不是补模型本身：cloudflare 把安全审计流程固化成技能，NVIDIA 用内核策略限制 agent 的文件、系统调用与出网，impeccable 用规则约束 AI 的前端设计输出。差异在维护节奏：OpenShell 有 1 天内提交和 v0.1.5 迭代，impeccable 老项目回热且 open issues 下降，cloudflare 热度仍居首但提交已空转 41 天、无 public release。三者今日新增占比都低于上次记录，关注正从爆发转向观察。",
+  "observation": "今日 TOP3 全部是「代理技能 + 本地能力」形态，AI Agent 标签占满三席，但定位差别明显：Cloudflare 的安全审计技能把六阶段审计固化为可机器校验的产物，偏流程与合规；VoiceStudio 用本地 GPU 承载克隆、配音与转写，资源与许可负担更重；hallmark 用主题库和浏览器 lint 压制 AI 生成页面的同质化，偏审美约束。共同点是都不提供云端服务与 SLA，最终判断都要交回人。差别在成熟度：只有 VoiceStudio 有版本发布和高频 PR，另两者无 release 且 issue 响应偏慢，热度回升并不等于质量提升。",
   "projects": [
     {
       "rank": 1,
       "repo": "cloudflare/security-audit-skill",
       "url": "https://github.com/cloudflare/security-audit-skill",
       "tags": [
-        "Security",
         "AI Agent",
-        "代码审计"
+        "Security",
+        "Dev Tool"
       ],
       "tagsCn": [
-        "Security",
         "AI Agent",
-        "代码审计"
+        "Security",
+        "Dev Tool"
       ],
-      "tagline": "把编码代理变成六阶段安全审计员，产出可复核的机器可读发现",
-      "starsToday": 2264,
-      "totalStars": 44514,
-      "starTodayRatio": 5.09,
-      "rankingStatus": "连续 4 次日报 TOP3",
-      "rankingTrack": "10-21#2 -> 10-22#2 -> 10-23#1 -> 10-25#1",
-      "activity": "41 天前有提交",
+      "tagline": "把安全审计拆成六阶段的代理技能，输出可校验漏洞台账",
+      "starsToday": 2874,
+      "totalStars": 46833,
+      "starTodayRatio": 6.14,
+      "rankingStatus": "连续 5 次日报 TOP3",
+      "rankingTrack": "10-21#2 -> 10-22#2 -> 10-23#1 -> 10-25#1 -> 10-26#1",
+      "activity": "42 天前有提交",
       "license": "MIT",
       "maintainer": "组织/公司/社区项目（Cloudflare）；有主页/组织资料，可进一步核实官方性",
-      "positioning": "面向已有 SDL 或漏洞赏金流程的安全工程师：把侦察、覆盖驱动狩猎、候选反证、结构化产物、独立复核、目标中立报告六阶段固化为代理技能，产出 architecture.md、coverage-ledger.json、findings.json 与 REPORT.md。边界仅是方法论与产物格式，不含漏洞库、托管扫描与自动定级，误报漏报仍由人判定。",
-      "whyWatch": "今日新增 2,264、占比 5.09%，仍是三者最高，但较上次 2,979/7.54% 明显回落；总星 4.45 万，MIT，README 6,536 字符含六阶段说明与 report-schema 示例。隐忧是最近提交停在 41 天前，open issues 升到 86，30 天 issue 更新仅 15、PR 37，仍无公开 release、文档入口不明显。",
-      "changedSinceLast": "总星 3.95 万→4.45 万，但日增 2,979→2,264、占比 7.54%→5.09%，热度回落；提交空闲期由 39 天延至 41 天，open issues 80→86，30 天 PR 更新 37 而 issue 仅 15，仍未发 release、文档入口依旧缺失。",
-      "suitableFor": "适合已有安全评审流程的团队：在自有仓库或已获书面授权的目标上，把审计步骤固化为可复现 prompt、覆盖台账与统一产物格式，并安排安全工程师逐条复现 confirmed、整理 needs_validation 待办。",
-      "notSuitableFor": "不适合把代理输出直接当漏洞结论、缺少安全人员或授权范围不明的团队；不能替代 SAST/DAST 工具链，也拿不到现成漏洞库与自动定级；项目已 41 天无提交、无 release，不宜作为唯一依赖。",
-      "risk": "授权是硬约束，只能对自有或已获书面授权的目标运行，禁止扫描第三方系统；confirmed 与 needs_validation 必须人工复现，不得作为定级、对外披露或赏金提交的唯一依据；41 天无提交、86 个 open issues 积压，组织账号与 Cloudflare 品牌不构成对你使用方式的合规背书。",
-      "bestPractice": "在自有仓库以只读凭证跑完整六阶段：先生成 architecture.md 与 coverage-ledger.json 固定覆盖范围，再由独立 verifier 反证每个候选，confirmed 全部经安全工程师复现后，才进入内部漏洞平台去重评级。",
+      "positioning": "面向已有 SDL 或漏洞赏金流程的安全工程师：把侦察、覆盖驱动狩猎、候选反证、结构化产物、独立复核、目标中立报告六步固化为代理技能，产出 architecture.md、coverage-ledger.json、findings.json 与 REPORT.md。边界仅是方法论与产物格式，不含漏洞库、托管扫描与自动定级，误报漏报仍由人判定。",
+      "whyWatch": "今日新增 2,874、占比 6.14%，为三者最高且较上次回升，总星 4.68 万，MIT，README 6,536 字符含六阶段说明与 schema 示例。隐忧同样明显：最近提交停在 42 天前，open issues 由 86 升至 96，近 30 天 issue 更新仅 16 而 PR 46，讨论多集中在上游而非修复，仍无公开 release、文档入口不明显。",
+      "changedSinceLast": "上次记录为 2026-10-23 第 1 名：日增 2,264→2,874、占比 5.09%→6.14%，总星 4.45 万→4.68 万，热度止跌回升；但提交空闲由 41 天延至 42 天，open issues 86→96 继续积压，近 30 天 PR 更新 37→46 而 issue 仅 15→16，仍无 release、文档入口缺失。",
+      "suitableFor": "适合已有安全评审流程的团队：在自有或已获书面授权的仓库上，把审计步骤固化为可复现的 prompt、覆盖台账与统一产物格式，并由安全工程师逐条复现 confirmed、把 needs_validation 转为待办。",
+      "notSuitableFor": "不适合把代理输出直接当漏洞结论、缺少安全人员或授权范围不明的团队；也不能替代 SAST/DAST 工具链，拿不到现成漏洞库与自动定级；项目已 42 天无提交、无 release，不宜作为唯一依赖。",
+      "risk": "授权是硬性前提：只能对自有或获书面授权的目标运行，禁止扫描第三方系统；confirmed 必须人工复现，不得作为定级、对外披露或赏金提交的唯一依据；42 天无提交、96 个 open issues 积压，Cloudflare 组织账号与品牌不构成对你具体使用方式的合规背书，MIT 许可也不含任何安全保证。",
+      "bestPractice": "在自有仓库用只读凭证跑完整六阶段：先产出 architecture.md 与 coverage-ledger.json 锁定覆盖范围，再让独立 verifier 反证每个候选，confirmed 经安全工程师复现后才进入内部漏洞平台去重评级，全程留存审计日志。",
       "trialPlan": {
-        "install": "按 README 把 skill 放入代理的 skills 目录，锁定到具体 commit，避免跟随移动分支。",
-        "pilot": "选一个内部非生产仓库，只给只读权限，限定时长与 token 预算跑一次完整六阶段。",
-        "evaluation": "看六阶段产物是否齐全、confirmed 的人工复现率、误报比例、覆盖台账是否可审计。",
-        "exit": "若产物缺失、误报率过高或无法在约定工时内完成人工复现，则回退到纯人工评审流程。"
+        "install": "按 README 把 skill 放入代理 skills 目录并锁定具体 commit，不跟随移动分支；准备只读凭证与非生产仓库。",
+        "pilot": "选一个内部非生产仓库，限定时间与扫描范围，跑完六阶段并检查 findings.json 是否符合 report-schema.json。",
+        "evaluation": "统计 confirmed、needs_validation、rejected 的比例，人工复现成功率、误报率与耗时，并与现有 SAST 结果交叉比对。",
+        "exit": "若误报率高于现有工具、需要写入权限、或上游 60 天无提交，即停止试点并回退到既有流程。"
       },
       "signals": {
         "recentCommit": "2026-09-14",
-        "issuesUpdated30d": 15,
-        "prsUpdated30d": 37,
+        "issuesUpdated30d": 16,
+        "prsUpdated30d": 46,
         "latestRelease": "暂无公开 release",
         "readmeMaturity": "成熟",
         "readmeSignals": "6,536 字符 / 9 个标题 / 有安装说明 / 有 Demo/示例 / 文档入口不明显"
@@ -59,92 +59,92 @@
     },
     {
       "rank": 2,
-      "repo": "NVIDIA/OpenShell",
-      "url": "https://github.com/NVIDIA/OpenShell",
+      "repo": "debpalash/VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
       "tags": [
         "AI Agent",
-        "Security",
-        "Runtime"
+        "Voice AI",
+        "本地部署"
       ],
       "tagsCn": [
         "AI Agent",
-        "Security",
-        "Runtime"
+        "Voice AI",
+        "本地部署"
       ],
-      "tagline": "为自主 agent 加上内核级策略沙箱与策略变更形式化预检",
-      "starsToday": 896,
-      "totalStars": 19468,
-      "starTodayRatio": 4.6,
-      "rankingStatus": "非连续；上次 10-02 第1",
-      "rankingTrack": "10-02#1 -> 10-25#2",
+      "tagline": "本地运行的 ElevenLabs 替代：克隆、配音、转写与有声书",
+      "starsToday": 1588,
+      "totalStars": 86762,
+      "starTodayRatio": 1.83,
+      "rankingStatus": "非连续；上次 10-19 第2",
+      "rankingTrack": "10-19#2 -> 10-26#2",
       "activity": "1 天前有提交",
-      "license": "Apache-2.0",
-      "maintainer": "组织/公司/社区项目（NVIDIA Corporation）；有主页/组织资料，可进一步核实官方性",
-      "positioning": "面向在生产环境批量运行自主 agent 的平台、安全与基础设施团队：把每个 agent 可访问的文件、系统调用、网络出口与凭证写成策略，由内核强制执行，并在策略变更前做形式化预检。边界：依赖 Linux、Apple Silicon macOS 或 WSL2 与 Docker/Podman 或主机虚拟化；默认沙箱镜像不含 agent；0.1.x 隔离原语与 API 仍可能调整。",
-      "whyWatch": "今日新增 896、占比 4.6%，较上次 2,456/17.55% 明显降温但仍在上榜；1 天内有提交，30 天 issue 更新 930、PR 762 为三者最高，release 已从 v0.1.2 推进到 v0.1.5（2026-10-20）。隐忧是 open issues 升到 577，对 0.1.x 偏多，隔离与验证能力仍需外部独立检验。",
-      "changedSinceLast": "热度从 2,456/17.55% 回落到 896/4.6%，属爆发后降温；release 由 v0.1.2 推进到 v0.1.5，30 天 issue 更新 720→930、PR 748→762，open issues 515→577，最近提交仍是 1 天内。",
-      "suitableFor": "适合需要让第三方或自研 agent 在受控环境读写仓库、调用外部 API，却对凭证外泄、越权文件访问和出网敏感的平台、安全与基础设施团队，且已有容器或虚拟化基础，愿意维护策略文件并保留人工审批。",
-      "notSuitableFor": "不适合只跑单机脚本、没有沙箱与合规诉求的个人开发者；缺少 Linux、Apple Silicon macOS 或 WSL2 环境又不愿引入网关组件的团队；期望装上即得完整 agent 应用的用户——默认镜像不含 agent。",
-      "risk": "不能把「装上即安全」当成结论：策略遗漏、验证器未覆盖的执行路径、宿主内核或容器逃逸仍可能造成越权，必须保留人工审批、出网白名单与最小权限凭证；0.1.x 隔离原语与扩展面可能变动，577 个 open issues 说明边界情况多；进生产前应做独立渗透测试与合规评审，品牌身份不等于对你的用法背书。",
-      "bestPractice": "给需要读仓库又要调外部 API 的编码 agent 建独立沙箱：默认拒绝全部网络与文件路径，只放行指定仓库目录和少数域名，凭证按端点注入；每次策略变更先跑形式化验证，新增出网行为一律走人工审批并留痕。",
+      "license": "AGPL-3.0",
+      "maintainer": "个人项目（维护者资料公司：@Yupcha）；有主页/组织资料，可进一步核实官方性",
+      "positioning": "面向自备 GPU 或 Apple Silicon、要求音频不出本机的播客、课程与本地化团队：把音色克隆、声音设计、视频配音、听写转写与有声书收进同一桌面工作流，并提供本地 API 与 MCP。边界是 646 语言只是目录而非质量承诺，各引擎沿用上游许可，Electron 版仍标 BETA，产出需人工试听与授权确认。",
+      "whyWatch": "今日新增 1,588、占比 1.83%，总星 8.68 万为三者最高，但占比连续下滑，热度偏惯性；1 天前有提交，近 30 天 PR 692、issue 更新 388，README 由 5,146 增至 6,165 字符、标题由 11 增至 14，安装、Demo、文档齐备。相对亮点是 open issues 由 247 收敛到 184；隐忧是 release 仍停在 v0.5.6（9-23），版本节奏落后于讨论量。",
+      "changedSinceLast": "上次记录为 2026-10-18 第 1 名：总星 7.53 万→8.68 万，但日增 2,082→1,588、占比 2.76%→1.83% 继续摊薄；open issues 247→184 明显收敛，近 30 天 PR 502→692、issue 更新 362→388，活跃度提升；README 扩到 6,165 字符、14 个标题，仍无新 release（v0.5.6，2026-09-23）。",
+      "suitableFor": "有本机 GPU 或 Apple Silicon、对音频隐私敏感、需要离线批量 TTS/ASR、配音与有声书的小团队或创作者；愿意自行部署调优，并能为每个克隆音色留存书面授权、主动标注合成痕迹。",
+      "notSuitableFor": "没有独立显卡或 Apple Silicon、也不愿用 Docker 的普通用户；需要 SLA、长期兼容承诺与审计能力的生产系统；以及未取得声音所有者书面同意就复刻真人声纹并对外发布的任何场景。",
+      "risk": "语音克隆处于深度伪造与人格权争议中心，未经授权复刻真人声纹可能触及人格权与欧盟 AI Act 等法规；工具本身不做授权校验，须取得明示同意并标注合成。AGPL-3.0 对外提供在线服务存在传染性义务；646 语言与各引擎质量差异大，模型许可须逐项核对版本条款。",
+      "bestPractice": "用于内部课程或播客后期：先用已获书面授权的自有录音克隆一个音色，离线批量生成章节朗读与片头，人工逐段试听校对并显式标注为合成音，同时保存授权记录、引擎版本与模型许可清单，再评估是否对外发布。",
       "trialPlan": {
-        "install": "按官方文档装 PyPI 包或容器镜像，选 Linux 或 Apple Silicon macOS，先跑内置示例确认策略真的生效。",
-        "pilot": "选一个非生产仓库的编码 agent，默认拒绝出网，只放行该仓库目录与一两个内部 API。",
-        "evaluation": "验证越权文件读取与未授权出网是否被拦截、策略预检能否提前暴露过度放量变更、审计日志是否可追溯。",
-        "exit": "若发现绕过路径、策略预检漏报，或沙箱性能明显影响交付节奏，则退回容器级隔离方案重评。"
+        "install": "macOS/Linux 用官方一键脚本，Windows 用 irm 命令或下载 .dmg/.exe/.AppImage/.deb；准备 GPU 或 Apple Silicon 与足够显存。",
+        "pilot": "先做单音色闭环：一份授权录音→克隆→生成 3 分钟朗读→人工试听；全程断网验证音频不出本机。",
+        "evaluation": "看自然度与发音错误率、每分钟生成耗时、显存占用、断网可用性，以及许可清单是否覆盖所用引擎与模型。",
+        "exit": "若必须上传云端才能达到可用质量、或无法为克隆音色取得书面授权、或 AGPL 义务与你的分发方式冲突，即退出。"
       },
       "signals": {
-        "recentCommit": "2026-10-24",
-        "issuesUpdated30d": 930,
-        "prsUpdated30d": 762,
-        "latestRelease": "v0.1.5（2026-10-20）",
+        "recentCommit": "2026-10-25",
+        "issuesUpdated30d": 388,
+        "prsUpdated30d": 692,
+        "latestRelease": "v0.5.6（2026-09-23）",
         "readmeMaturity": "成熟",
-        "readmeSignals": "7,432 字符 / 9 个标题 / 有安装说明 / 有 Demo/示例 / 有文档入口"
+        "readmeSignals": "6,165 字符 / 14 个标题 / 有安装说明 / 有 Demo/示例 / 有文档入口"
       }
     },
     {
       "rank": 3,
-      "repo": "pbakaus/impeccable",
-      "url": "https://github.com/pbakaus/impeccable",
+      "repo": "Nutlope/hallmark",
+      "url": "https://github.com/Nutlope/hallmark",
       "tags": [
-        "Dev Tool",
         "AI Agent",
-        "前端设计"
+        "Design",
+        "Dev Tool"
       ],
       "tagsCn": [
-        "Dev Tool",
         "AI Agent",
-        "前端设计"
+        "Design",
+        "Dev Tool"
       ],
-      "tagline": "用 24 条命令和 62 条确定性规则约束 AI 生成前端的设计语言",
-      "starsToday": 619,
-      "totalStars": 86388,
-      "starTodayRatio": 0.72,
-      "rankingStatus": "非连续；上次 10-05 第2",
-      "rankingTrack": "10-05#2 -> 10-25#3",
-      "activity": "1 天前有提交",
-      "license": "Apache-2.0",
-      "maintainer": "个人项目（维护者资料公司：Google）；有主页/组织资料，可进一步核实官方性",
-      "positioning": "面向用 AI 助手写前端、又被模板化 UI 困扰的开发者与小团队：用一条 skill、24 条命令、浏览器扩展与 CLI 确定性规则约束代理产出，并把受众、约束与品牌事实写入 PRODUCT.md。边界：规则偏向 Web 前端，移动原生支持有限；效果强依赖代理遵守命令；检测器存在误报，需设计负责人判断。",
-      "whyWatch": "今日新增 619、占比 0.72%，占比为三者最低但存量最大（8.64 万星），属老项目回热而非新爆发；1 天内有提交，release 从 skill-v4.5.0 换到 engine-v0.1.17（2026-10-23），README 扩到 24,751 字符/51 标题、规则增至 62 条；30 天 issue 131、PR 230 双升，open issues 由 61 降到 39。",
-      "changedSinceLast": "日增 1,171→619、占比 1.54%→0.72%，存量 7.63 万→8.64 万；release 由 skill-v4.5.0 换为 engine-v0.1.17（2026-10-23），README 由 50→51 个标题、规则 61→62 条；open issues 61→39 积压改善，30 天 PR 更新 115→230、issue 104→131。",
-      "suitableFor": "适合用 AI 助手生成前端代码的独立开发者与小团队，希望用统一设计语言替代 Inter 字体加紫蓝渐变这类模板套路；也适合把确定性规则检测接入 CI、由设计负责人复核误报的前端工程组。",
-      "notSuitableFor": "不适合完全手工编码、不用 AI 助手的项目；命令只在特定 AI 工具内生效，换用其他代理可能失效；规则偏通用 Web 前端，移动原生或非 Web 界面支持有限；追求完全自由视觉表达的团队会觉得受限。",
-      "risk": "设计规范过度依赖代理遵循，可能压制创意并造成风格趋同；62 条检测器存在误报，只能作为参考信号，不能当设计质量唯一标准；浏览器扩展会接触页面数据，安装前须核查权限与隐私范围，涉及真实用户数据须取得授权并遵守站点条款，结果需设计负责人复核。",
-      "bestPractice": "用 Vite 新建前端项目，npx impeccable install 后执行 /impeccable init 写入品牌色、字体与产品事实，先让代理生成普通版本，再用 shape/craft 重做同一页面，最后用 CLI 确定性规则跑 audit，把误报人工标注后沉淀为项目规则并接入 CI。",
+      "tagline": "反 AI 味的页面设计技能：48 套主题加浏览器内规则校验",
+      "starsToday": 1359,
+      "totalStars": 33709,
+      "starTodayRatio": 4.03,
+      "rankingStatus": "非连续；上次 07-18 第1",
+      "rankingTrack": "07-18#1 -> 10-26#3",
+      "activity": "4 天前有提交",
+      "license": "MIT",
+      "maintainer": "个人项目；有主页/组织资料，可进一步核实官方性",
+      "positioning": "面向使用 Claude Code、Cursor、Codex 的设计师与前端：从 48 套主题里随机选取，围绕访客任务搭建自包含 HTML+CSS 页面，再用真实浏览器按「机器味」清单（每段标题上方的小标签、彩色单词、空框、假表单等）分层 lint，最后由新上下文评审把关。边界是只产出静态页面，不处理复杂交互、数据与后端逻辑，仍需人工定稿。",
+      "whyWatch": "今日新增 1,359、占比 4.03%，总星 3.37 万，MIT，README 由 3,045 增至 5,667 字符、标题 6→8，新增 v2 四十八套主题与 Floor/Reflex/Finish 三层门槛说明，官网 usehallmark.com 提供主题演示。信号分化：4 天前有提交、热度未散，但近 30 天 issue 更新仅 2、PR 14，open issues 却由 20 升到 58，新增反馈基本未被回应。",
+      "changedSinceLast": "上次记录为 2026-07-17 第 2 名：日增 1,485→1,359、占比 12.39%→4.03%（基数由约 1.2 万增至 3.37 万，属摊薄而非失速）；提交空闲由 22 天缩到 4 天，README 3,045→5,667 字符、标题 6→8，上线 v2 与官方网站；但 open issues 20→58、近 30 天 issue 更新仅 2，仍无 release。",
+      "suitableFor": "需要快速产出风格独特的营销页、着陆页或做创意探索的设计师；希望代理输出不再千篇一律的 AI 辅助开发流程；前端新人可用 audit/redesign 反向拆解参考站的配色、排版与结构做学习。",
+      "notSuitableFor": "需要复杂交互、表单验证、状态管理或后端集成的应用；缺乏设计判断力、打算直接对客发布的团队；需要明确维护承诺与 SLA 的生产站点——README 自述由 Together AI 制作，但仓库挂在个人账号下，官方支持范围需自行核实。",
+      "risk": "个人账号项目维护承诺有限，58 个 open issues 而近 30 天仅 2 次 issue 更新，反馈响应偏慢；生成 HTML/CSS 未经安全扫描，直接部署存在 XSS、第三方字体与图片版权风险；48 套主题与「机器味」检测清单未经独立美学验证，可能产出怪异布局；README 提及 Together AI 属自述，不构成官方背书。",
+      "bestPractice": "内部评审新页面方案时，先用 audit 对现有页面或参考站出问题清单，再用 build 生成 2-3 个不同主题初稿，跑浏览器 lint 与人工无障碍检查，设计师筛选微调后才进入开发，不直接把 AI 初稿对客交付。",
       "trialPlan": {
-        "install": "在项目根目录运行 npx impeccable install，再在所用 AI 编码工具内执行 /impeccable init，锁定 engine-v0.1.17 版本。",
-        "pilot": "选一个内部非对客页面，让代理分别用默认方式与 shape/craft 生成同一页面做对照。",
-        "evaluation": "看确定性规则告警数、误报比例、代理对命令的遵循率，以及页面是否真的摆脱模板化套路。",
-        "exit": "若告警多为误报、代理不遵循命令，或团队不接受这套设计语言，则退出并保留原有手工设计流程。"
+        "install": "把 SKILL.md 与 references/ 复制到代理技能目录（如 ~/.claude/skills/hallmark/），重载代理；锁定 commit，避免跟随主线。",
+        "pilot": "用一个内部落地页需求（如活动报名页）生成两个主题版本，并跑一遍 audit 与浏览器 lint，记录耗时与人工改动量。",
+        "evaluation": "看与普通 AI 生成页的视觉差异度、lint 违规数、对比度与焦点等无障碍检查通过率、人工返工时间占比。",
+        "exit": "若人工返工时间超过手写、lint 门槛被频繁绕过、或仓库 60 天无提交，即停止在正式项目中使用。"
       },
       "signals": {
-        "recentCommit": "2026-10-24",
-        "issuesUpdated30d": 131,
-        "prsUpdated30d": 230,
-        "latestRelease": "engine-v0.1.17（2026-10-23）",
+        "recentCommit": "2026-10-22",
+        "issuesUpdated30d": 2,
+        "prsUpdated30d": 14,
+        "latestRelease": "暂无公开 release",
         "readmeMaturity": "成熟",
-        "readmeSignals": "24,751 字符 / 51 个标题 / 有安装说明 / 有 Demo/示例 / 有文档入口"
+        "readmeSignals": "5,667 字符 / 8 个标题 / 有安装说明 / 有 Demo/示例 / 有文档入口"
       }
     }
   ]

@@ -1,7 +1,20 @@
 {
-  "generatedAt": "2026-10-25T08:07:12.634965+08:00",
-  "window": "2026-10-18..2026-10-25",
+  "generatedAt": "2026-10-26T08:01:27.476911+08:00",
+  "window": "2026-10-19..2026-10-26",
   "topProjects": [
+    {
+      "repo": "cloudflare/security-audit-skill",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "tagsCn": [
+        "AI Agent",
+        "Security",
+        "Dev Tool"
+      ],
+      "appearances": 5,
+      "bestRank": 1,
+      "latestDate": "2026-10-26",
+      "judgement": "近 7 次记录中出现 5 次，最佳排名第 1，适合优先复盘详情。"
+    },
     {
       "repo": "MadsLorentzen/ai-job-search",
       "url": "https://github.com/MadsLorentzen/ai-job-search",
@@ -10,23 +23,10 @@
         "求职流程",
         "本地优先"
       ],
-      "appearances": 4,
+      "appearances": 3,
       "bestRank": 1,
       "latestDate": "2026-10-21",
-      "judgement": "近 7 次记录中出现 4 次，最佳排名第 1，适合优先复盘详情。"
-    },
-    {
-      "repo": "cloudflare/security-audit-skill",
-      "url": "https://github.com/cloudflare/security-audit-skill",
-      "tagsCn": [
-        "Security",
-        "AI Agent",
-        "代码审计"
-      ],
-      "appearances": 4,
-      "bestRank": 1,
-      "latestDate": "2026-10-25",
-      "judgement": "近 7 次记录中出现 4 次，最佳排名第 1，适合优先复盘详情。"
+      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
       "repo": "stablyai/orca",
@@ -59,25 +59,25 @@
       "url": "https://github.com/debpalash/VoiceStudio",
       "tagsCn": [
         "AI Agent",
-        "TTS",
-        "Local-first"
+        "Voice AI",
+        "本地部署"
       ],
       "appearances": 2,
-      "bestRank": 1,
-      "latestDate": "2026-10-19",
-      "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
+      "bestRank": 2,
+      "latestDate": "2026-10-26",
+      "judgement": "近 7 次记录中出现 2 次，最佳排名第 2，适合优先复盘详情。"
     }
   ],
   "streaks": [
     {
-      "repo": "MadsLorentzen/ai-job-search",
-      "days": 4,
-      "track": "10-18#3 -> 10-19#1 -> 10-20#1 -> 10-21#1"
+      "repo": "cloudflare/security-audit-skill",
+      "days": 5,
+      "track": "10-21#2 -> 10-22#2 -> 10-23#1 -> 10-25#1 -> 10-26#1"
     },
     {
-      "repo": "cloudflare/security-audit-skill",
-      "days": 4,
-      "track": "10-21#2 -> 10-22#2 -> 10-23#1 -> 10-25#1"
+      "repo": "MadsLorentzen/ai-job-search",
+      "days": 3,
+      "track": "10-19#1 -> 10-20#1 -> 10-21#1"
     },
     {
       "repo": "stablyai/orca",
@@ -93,11 +93,6 @@
       "repo": "anomalyco/opencode",
       "days": 2,
       "track": "10-19#3 -> 10-20#3"
-    },
-    {
-      "repo": "debpalash/VoiceStudio",
-      "days": 2,
-      "track": "10-18#1 -> 10-19#2"
     }
   ]
 }

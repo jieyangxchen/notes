@@ -1,0 +1,151 @@
+{
+  "date": "2026-10-26",
+  "generatedAt": "2026-10-26T08:01:27.476911+08:00",
+  "source": "https://github.com/trending?since=daily",
+  "tags": [
+    "AI Agent",
+    "Security",
+    "Dev Tool",
+    "Voice AI",
+    "本地部署",
+    "Design"
+  ],
+  "observation": "今日 TOP3 全部是「代理技能 + 本地能力」形态，AI Agent 标签占满三席，但定位差别明显：Cloudflare 的安全审计技能把六阶段审计固化为可机器校验的产物，偏流程与合规；VoiceStudio 用本地 GPU 承载克隆、配音与转写，资源与许可负担更重；hallmark 用主题库和浏览器 lint 压制 AI 生成页面的同质化，偏审美约束。共同点是都不提供云端服务与 SLA，最终判断都要交回人。差别在成熟度：只有 VoiceStudio 有版本发布和高频 PR，另两者无 release 且 issue 响应偏慢，热度回升并不等于质量提升。",
+  "projects": [
+    {
+      "rank": 1,
+      "repo": "cloudflare/security-audit-skill",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "tags": [
+        "AI Agent",
+        "Security",
+        "Dev Tool"
+      ],
+      "tagsCn": [
+        "AI Agent",
+        "Security",
+        "Dev Tool"
+      ],
+      "tagline": "把安全审计拆成六阶段的代理技能，输出可校验漏洞台账",
+      "starsToday": 2874,
+      "totalStars": 46833,
+      "starTodayRatio": 6.14,
+      "rankingStatus": "连续 5 次日报 TOP3",
+      "rankingTrack": "10-21#2 -> 10-22#2 -> 10-23#1 -> 10-25#1 -> 10-26#1",
+      "activity": "42 天前有提交",
+      "license": "MIT",
+      "maintainer": "组织/公司/社区项目（Cloudflare）；有主页/组织资料，可进一步核实官方性",
+      "positioning": "面向已有 SDL 或漏洞赏金流程的安全工程师：把侦察、覆盖驱动狩猎、候选反证、结构化产物、独立复核、目标中立报告六步固化为代理技能，产出 architecture.md、coverage-ledger.json、findings.json 与 REPORT.md。边界仅是方法论与产物格式，不含漏洞库、托管扫描与自动定级，误报漏报仍由人判定。",
+      "whyWatch": "今日新增 2,874、占比 6.14%，为三者最高且较上次回升，总星 4.68 万，MIT，README 6,536 字符含六阶段说明与 schema 示例。隐忧同样明显：最近提交停在 42 天前，open issues 由 86 升至 96，近 30 天 issue 更新仅 16 而 PR 46，讨论多集中在上游而非修复，仍无公开 release、文档入口不明显。",
+      "changedSinceLast": "上次记录为 2026-10-23 第 1 名：日增 2,264→2,874、占比 5.09%→6.14%，总星 4.45 万→4.68 万，热度止跌回升；但提交空闲由 41 天延至 42 天，open issues 86→96 继续积压，近 30 天 PR 更新 37→46 而 issue 仅 15→16，仍无 release、文档入口缺失。",
+      "suitableFor": "适合已有安全评审流程的团队：在自有或已获书面授权的仓库上，把审计步骤固化为可复现的 prompt、覆盖台账与统一产物格式，并由安全工程师逐条复现 confirmed、把 needs_validation 转为待办。",
+      "notSuitableFor": "不适合把代理输出直接当漏洞结论、缺少安全人员或授权范围不明的团队；也不能替代 SAST/DAST 工具链，拿不到现成漏洞库与自动定级；项目已 42 天无提交、无 release，不宜作为唯一依赖。",
+      "risk": "授权是硬性前提：只能对自有或获书面授权的目标运行，禁止扫描第三方系统；confirmed 必须人工复现，不得作为定级、对外披露或赏金提交的唯一依据；42 天无提交、96 个 open issues 积压，Cloudflare 组织账号与品牌不构成对你具体使用方式的合规背书，MIT 许可也不含任何安全保证。",
+      "bestPractice": "在自有仓库用只读凭证跑完整六阶段：先产出 architecture.md 与 coverage-ledger.json 锁定覆盖范围，再让独立 verifier 反证每个候选，confirmed 经安全工程师复现后才进入内部漏洞平台去重评级，全程留存审计日志。",
+      "trialPlan": {
+        "install": "按 README 把 skill 放入代理 skills 目录并锁定具体 commit，不跟随移动分支；准备只读凭证与非生产仓库。",
+        "pilot": "选一个内部非生产仓库，限定时间与扫描范围，跑完六阶段并检查 findings.json 是否符合 report-schema.json。",
+        "evaluation": "统计 confirmed、needs_validation、rejected 的比例，人工复现成功率、误报率与耗时，并与现有 SAST 结果交叉比对。",
+        "exit": "若误报率高于现有工具、需要写入权限、或上游 60 天无提交，即停止试点并回退到既有流程。"
+      },
+      "signals": {
+        "recentCommit": "2026-09-14",
+        "issuesUpdated30d": 16,
+        "prsUpdated30d": 46,
+        "latestRelease": "暂无公开 release",
+        "readmeMaturity": "成熟",
+        "readmeSignals": "6,536 字符 / 9 个标题 / 有安装说明 / 有 Demo/示例 / 文档入口不明显"
+      }
+    },
+    {
+      "rank": 2,
+      "repo": "debpalash/VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "tags": [
+        "AI Agent",
+        "Voice AI",
+        "本地部署"
+      ],
+      "tagsCn": [
+        "AI Agent",
+        "Voice AI",
+        "本地部署"
+      ],
+      "tagline": "本地运行的 ElevenLabs 替代：克隆、配音、转写与有声书",
+      "starsToday": 1588,
+      "totalStars": 86762,
+      "starTodayRatio": 1.83,
+      "rankingStatus": "非连续；上次 10-19 第2",
+      "rankingTrack": "10-19#2 -> 10-26#2",
+      "activity": "1 天前有提交",
+      "license": "AGPL-3.0",
+      "maintainer": "个人项目（维护者资料公司：@Yupcha）；有主页/组织资料，可进一步核实官方性",
+      "positioning": "面向自备 GPU 或 Apple Silicon、要求音频不出本机的播客、课程与本地化团队：把音色克隆、声音设计、视频配音、听写转写与有声书收进同一桌面工作流，并提供本地 API 与 MCP。边界是 646 语言只是目录而非质量承诺，各引擎沿用上游许可，Electron 版仍标 BETA，产出需人工试听与授权确认。",
+      "whyWatch": "今日新增 1,588、占比 1.83%，总星 8.68 万为三者最高，但占比连续下滑，热度偏惯性；1 天前有提交，近 30 天 PR 692、issue 更新 388，README 由 5,146 增至 6,165 字符、标题由 11 增至 14，安装、Demo、文档齐备。相对亮点是 open issues 由 247 收敛到 184；隐忧是 release 仍停在 v0.5.6（9-23），版本节奏落后于讨论量。",
+      "changedSinceLast": "上次记录为 2026-10-18 第 1 名：总星 7.53 万→8.68 万，但日增 2,082→1,588、占比 2.76%→1.83% 继续摊薄；open issues 247→184 明显收敛，近 30 天 PR 502→692、issue 更新 362→388，活跃度提升；README 扩到 6,165 字符、14 个标题，仍无新 release（v0.5.6，2026-09-23）。",
+      "suitableFor": "有本机 GPU 或 Apple Silicon、对音频隐私敏感、需要离线批量 TTS/ASR、配音与有声书的小团队或创作者；愿意自行部署调优，并能为每个克隆音色留存书面授权、主动标注合成痕迹。",
+      "notSuitableFor": "没有独立显卡或 Apple Silicon、也不愿用 Docker 的普通用户；需要 SLA、长期兼容承诺与审计能力的生产系统；以及未取得声音所有者书面同意就复刻真人声纹并对外发布的任何场景。",
+      "risk": "语音克隆处于深度伪造与人格权争议中心，未经授权复刻真人声纹可能触及人格权与欧盟 AI Act 等法规；工具本身不做授权校验，须取得明示同意并标注合成。AGPL-3.0 对外提供在线服务存在传染性义务；646 语言与各引擎质量差异大，模型许可须逐项核对版本条款。",
+      "bestPractice": "用于内部课程或播客后期：先用已获书面授权的自有录音克隆一个音色，离线批量生成章节朗读与片头，人工逐段试听校对并显式标注为合成音，同时保存授权记录、引擎版本与模型许可清单，再评估是否对外发布。",
+      "trialPlan": {
+        "install": "macOS/Linux 用官方一键脚本，Windows 用 irm 命令或下载 .dmg/.exe/.AppImage/.deb；准备 GPU 或 Apple Silicon 与足够显存。",
+        "pilot": "先做单音色闭环：一份授权录音→克隆→生成 3 分钟朗读→人工试听；全程断网验证音频不出本机。",
+        "evaluation": "看自然度与发音错误率、每分钟生成耗时、显存占用、断网可用性，以及许可清单是否覆盖所用引擎与模型。",
+        "exit": "若必须上传云端才能达到可用质量、或无法为克隆音色取得书面授权、或 AGPL 义务与你的分发方式冲突，即退出。"
+      },
+      "signals": {
+        "recentCommit": "2026-10-25",
+        "issuesUpdated30d": 388,
+        "prsUpdated30d": 692,
+        "latestRelease": "v0.5.6（2026-09-23）",
+        "readmeMaturity": "成熟",
+        "readmeSignals": "6,165 字符 / 14 个标题 / 有安装说明 / 有 Demo/示例 / 有文档入口"
+      }
+    },
+    {
+      "rank": 3,
+      "repo": "Nutlope/hallmark",
+      "url": "https://github.com/Nutlope/hallmark",
+      "tags": [
+        "AI Agent",
+        "Design",
+        "Dev Tool"
+      ],
+      "tagsCn": [
+        "AI Agent",
+        "Design",
+        "Dev Tool"
+      ],
+      "tagline": "反 AI 味的页面设计技能：48 套主题加浏览器内规则校验",
+      "starsToday": 1359,
+      "totalStars": 33709,
+      "starTodayRatio": 4.03,
+      "rankingStatus": "非连续；上次 07-18 第1",
+      "rankingTrack": "07-18#1 -> 10-26#3",
+      "activity": "4 天前有提交",
+      "license": "MIT",
+      "maintainer": "个人项目；有主页/组织资料，可进一步核实官方性",
+      "positioning": "面向使用 Claude Code、Cursor、Codex 的设计师与前端：从 48 套主题里随机选取，围绕访客任务搭建自包含 HTML+CSS 页面，再用真实浏览器按「机器味」清单（每段标题上方的小标签、彩色单词、空框、假表单等）分层 lint，最后由新上下文评审把关。边界是只产出静态页面，不处理复杂交互、数据与后端逻辑，仍需人工定稿。",
+      "whyWatch": "今日新增 1,359、占比 4.03%，总星 3.37 万，MIT，README 由 3,045 增至 5,667 字符、标题 6→8，新增 v2 四十八套主题与 Floor/Reflex/Finish 三层门槛说明，官网 usehallmark.com 提供主题演示。信号分化：4 天前有提交、热度未散，但近 30 天 issue 更新仅 2、PR 14，open issues 却由 20 升到 58，新增反馈基本未被回应。",
+      "changedSinceLast": "上次记录为 2026-07-17 第 2 名：日增 1,485→1,359、占比 12.39%→4.03%（基数由约 1.2 万增至 3.37 万，属摊薄而非失速）；提交空闲由 22 天缩到 4 天，README 3,045→5,667 字符、标题 6→8，上线 v2 与官方网站；但 open issues 20→58、近 30 天 issue 更新仅 2，仍无 release。",
+      "suitableFor": "需要快速产出风格独特的营销页、着陆页或做创意探索的设计师；希望代理输出不再千篇一律的 AI 辅助开发流程；前端新人可用 audit/redesign 反向拆解参考站的配色、排版与结构做学习。",
+      "notSuitableFor": "需要复杂交互、表单验证、状态管理或后端集成的应用；缺乏设计判断力、打算直接对客发布的团队；需要明确维护承诺与 SLA 的生产站点——README 自述由 Together AI 制作，但仓库挂在个人账号下，官方支持范围需自行核实。",
+      "risk": "个人账号项目维护承诺有限，58 个 open issues 而近 30 天仅 2 次 issue 更新，反馈响应偏慢；生成 HTML/CSS 未经安全扫描，直接部署存在 XSS、第三方字体与图片版权风险；48 套主题与「机器味」检测清单未经独立美学验证，可能产出怪异布局；README 提及 Together AI 属自述，不构成官方背书。",
+      "bestPractice": "内部评审新页面方案时，先用 audit 对现有页面或参考站出问题清单，再用 build 生成 2-3 个不同主题初稿，跑浏览器 lint 与人工无障碍检查，设计师筛选微调后才进入开发，不直接把 AI 初稿对客交付。",
+      "trialPlan": {
+        "install": "把 SKILL.md 与 references/ 复制到代理技能目录（如 ~/.claude/skills/hallmark/），重载代理；锁定 commit，避免跟随主线。",
+        "pilot": "用一个内部落地页需求（如活动报名页）生成两个主题版本，并跑一遍 audit 与浏览器 lint，记录耗时与人工改动量。",
+        "evaluation": "看与普通 AI 生成页的视觉差异度、lint 违规数、对比度与焦点等无障碍检查通过率、人工返工时间占比。",
+        "exit": "若人工返工时间超过手写、lint 门槛被频繁绕过、或仓库 60 天无提交，即停止在正式项目中使用。"
+      },
+      "signals": {
+        "recentCommit": "2026-10-22",
+        "issuesUpdated30d": 2,
+        "prsUpdated30d": 14,
+        "latestRelease": "暂无公开 release",
+        "readmeMaturity": "成熟",
+        "readmeSignals": "5,667 字符 / 8 个标题 / 有安装说明 / 有 Demo/示例 / 有文档入口"
+      }
+    }
+  ]
+}

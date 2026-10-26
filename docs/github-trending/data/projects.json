@@ -1,17 +1,41 @@
 {
-  "generatedAt": "2026-10-25T08:07:12.634965+08:00",
+  "generatedAt": "2026-10-26T08:01:27.476911+08:00",
   "projects": [
     {
       "repo": "cloudflare/security-audit-skill",
       "url": "https://github.com/cloudflare/security-audit-skill",
-      "latestDate": "2026-10-25",
+      "latestDate": "2026-10-26",
       "latestRank": 1,
       "tagsCn": [
-        "Security",
         "AI Agent",
-        "代码审计"
+        "Security",
+        "Dev Tool"
       ],
-      "lastTagline": "把编码代理变成六阶段安全审计员，产出可复核的机器可读发现"
+      "lastTagline": "把安全审计拆成六阶段的代理技能，输出可校验漏洞台账"
+    },
+    {
+      "repo": "debpalash/VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "latestDate": "2026-10-26",
+      "latestRank": 2,
+      "tagsCn": [
+        "AI Agent",
+        "Voice AI",
+        "本地部署"
+      ],
+      "lastTagline": "本地运行的 ElevenLabs 替代：克隆、配音、转写与有声书"
+    },
+    {
+      "repo": "Nutlope/hallmark",
+      "url": "https://github.com/Nutlope/hallmark",
+      "latestDate": "2026-10-26",
+      "latestRank": 3,
+      "tagsCn": [
+        "AI Agent",
+        "Design",
+        "Dev Tool"
+      ],
+      "lastTagline": "反 AI 味的页面设计技能：48 套主题加浏览器内规则校验"
     },
     {
       "repo": "NVIDIA/OpenShell",
@@ -96,18 +120,6 @@
         "Terminal"
       ],
       "lastTagline": "开源编码 Agent，内置只读 plan 与全权限 build 双模式"
-    },
-    {
-      "repo": "debpalash/VoiceStudio",
-      "url": "https://github.com/debpalash/VoiceStudio",
-      "latestDate": "2026-10-19",
-      "latestRank": 2,
-      "tagsCn": [
-        "AI Agent",
-        "TTS",
-        "Local-first"
-      ],
-      "lastTagline": "本地跑 ElevenLabs 替代：克隆音色、配音、转写与有声书"
     },
     {
       "repo": "anthropics/claude-plugins-official",
@@ -1181,19 +1193,6 @@
         "学术研究"
       ],
       "lastTagline": "前馈式 3D 基础模型，通过几何上下文 Transformer 实现流式数据的实时场景重建。"
-    },
-    {
-      "repo": "Nutlope/hallmark",
-      "url": "https://github.com/Nutlope/hallmark",
-      "latestDate": "2026-07-18",
-      "latestRank": 1,
-      "tagsCn": [
-        "AI Agent",
-        "Design",
-        "Anti-Slop",
-        "Dev Tool"
-      ],
-      "lastTagline": "为编码代理注入反同质化设计基因，生成风格迥异的静态页面"
     },
     {
       "repo": "OpenCut-app/OpenCut",
