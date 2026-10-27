@@ -1,6 +1,42 @@
 {
-  "generatedAt": "2026-10-26T08:01:27.476911+08:00",
+  "generatedAt": "2026-10-27T08:01:14.328805+08:00",
   "projects": [
+    {
+      "repo": "debpalash/VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "latestDate": "2026-10-27",
+      "latestRank": 1,
+      "tagsCn": [
+        "AI 语音",
+        "本地优先",
+        "AGPL"
+      ],
+      "lastTagline": "本地跑语音克隆、配音与转写，自带 API 与 MCP 接入"
+    },
+    {
+      "repo": "Nutlope/hallmark",
+      "url": "https://github.com/Nutlope/hallmark",
+      "latestDate": "2026-10-27",
+      "latestRank": 2,
+      "tagsCn": [
+        "Dev Tool",
+        "AI Agent",
+        "前端设计"
+      ],
+      "lastTagline": "给 Claude Code、Cursor 等代理装上反 AI 味页面技能"
+    },
+    {
+      "repo": "pbakaus/impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "latestDate": "2026-10-27",
+      "latestRank": 3,
+      "tagsCn": [
+        "Dev Tool",
+        "AI Agent",
+        "设计规范"
+      ],
+      "lastTagline": "一条技能、24 条命令、62 条规则约束 AI 前端设计"
+    },
     {
       "repo": "cloudflare/security-audit-skill",
       "url": "https://github.com/cloudflare/security-audit-skill",
@@ -14,30 +50,6 @@
       "lastTagline": "把安全审计拆成六阶段的代理技能，输出可校验漏洞台账"
     },
     {
-      "repo": "debpalash/VoiceStudio",
-      "url": "https://github.com/debpalash/VoiceStudio",
-      "latestDate": "2026-10-26",
-      "latestRank": 2,
-      "tagsCn": [
-        "AI Agent",
-        "Voice AI",
-        "本地部署"
-      ],
-      "lastTagline": "本地运行的 ElevenLabs 替代：克隆、配音、转写与有声书"
-    },
-    {
-      "repo": "Nutlope/hallmark",
-      "url": "https://github.com/Nutlope/hallmark",
-      "latestDate": "2026-10-26",
-      "latestRank": 3,
-      "tagsCn": [
-        "AI Agent",
-        "Design",
-        "Dev Tool"
-      ],
-      "lastTagline": "反 AI 味的页面设计技能：48 套主题加浏览器内规则校验"
-    },
-    {
       "repo": "NVIDIA/OpenShell",
       "url": "https://github.com/NVIDIA/OpenShell",
       "latestDate": "2026-10-25",
@@ -48,18 +60,6 @@
         "Runtime"
       ],
       "lastTagline": "为自主 agent 加上内核级策略沙箱与策略变更形式化预检"
-    },
-    {
-      "repo": "pbakaus/impeccable",
-      "url": "https://github.com/pbakaus/impeccable",
-      "latestDate": "2026-10-25",
-      "latestRank": 3,
-      "tagsCn": [
-        "Dev Tool",
-        "AI Agent",
-        "前端设计"
-      ],
-      "lastTagline": "用 24 条命令和 62 条确定性规则约束 AI 生成前端的设计语言"
     },
     {
       "repo": "DietrichGebert/ponytail",
