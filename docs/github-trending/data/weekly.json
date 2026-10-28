@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-27T08:01:14.328805+08:00",
-  "window": "2026-10-20..2026-10-27",
+  "generatedAt": "2026-10-28T08:00:59.182055+08:00",
+  "window": "2026-10-21..2026-10-28",
   "topProjects": [
     {
       "repo": "cloudflare/security-audit-skill",
@@ -16,17 +16,17 @@
       "judgement": "近 7 次记录中出现 5 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
-      "repo": "stablyai/orca",
-      "url": "https://github.com/stablyai/orca",
+      "repo": "Nutlope/hallmark",
+      "url": "https://github.com/Nutlope/hallmark",
       "tagsCn": [
-        "AI Agent",
         "Dev Tool",
-        "Multi-Agent"
+        "AI Agent",
+        "Design"
       ],
       "appearances": 3,
-      "bestRank": 2,
-      "latestDate": "2026-10-22",
-      "judgement": "近 7 次记录中出现 3 次，最佳排名第 2，适合优先复盘详情。"
+      "bestRank": 1,
+      "latestDate": "2026-10-28",
+      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
       "repo": "DietrichGebert/ponytail",
@@ -42,19 +42,6 @@
       "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
-      "repo": "MadsLorentzen/ai-job-search",
-      "url": "https://github.com/MadsLorentzen/ai-job-search",
-      "tagsCn": [
-        "AI Agent",
-        "求职流程",
-        "本地优先"
-      ],
-      "appearances": 2,
-      "bestRank": 1,
-      "latestDate": "2026-10-21",
-      "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
-    },
-    {
       "repo": "debpalash/VoiceStudio",
       "url": "https://github.com/debpalash/VoiceStudio",
       "tagsCn": [
@@ -66,6 +53,19 @@
       "bestRank": 1,
       "latestDate": "2026-10-27",
       "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
+    },
+    {
+      "repo": "pbakaus/impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "tagsCn": [
+        "Dev Tool",
+        "AI Agent",
+        "设计规范"
+      ],
+      "appearances": 2,
+      "bestRank": 3,
+      "latestDate": "2026-10-27",
+      "judgement": "近 7 次记录中出现 2 次，最佳排名第 3，适合优先复盘详情。"
     }
   ],
   "streaks": [
@@ -75,9 +75,9 @@
       "track": "10-21#2 -> 10-22#2 -> 10-23#1 -> 10-25#1 -> 10-26#1"
     },
     {
-      "repo": "stablyai/orca",
+      "repo": "Nutlope/hallmark",
       "days": 3,
-      "track": "10-20#2 -> 10-21#3 -> 10-22#3"
+      "track": "10-26#3 -> 10-27#2 -> 10-28#1"
     },
     {
       "repo": "DietrichGebert/ponytail",
@@ -85,19 +85,14 @@
       "track": "10-22#1 -> 10-23#2"
     },
     {
-      "repo": "MadsLorentzen/ai-job-search",
-      "days": 2,
-      "track": "10-20#1 -> 10-21#1"
-    },
-    {
-      "repo": "Nutlope/hallmark",
-      "days": 2,
-      "track": "10-26#3 -> 10-27#2"
-    },
-    {
       "repo": "debpalash/VoiceStudio",
       "days": 2,
       "track": "10-26#2 -> 10-27#1"
+    },
+    {
+      "repo": "stablyai/orca",
+      "days": 2,
+      "track": "10-21#3 -> 10-22#3"
     }
   ]
 }
