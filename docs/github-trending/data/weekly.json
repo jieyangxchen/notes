@@ -1,7 +1,20 @@
 {
-  "generatedAt": "2026-10-28T08:00:59.182055+08:00",
-  "window": "2026-10-21..2026-10-28",
+  "generatedAt": "2026-10-29T08:18:22.359973+08:00",
+  "window": "2026-10-22..2026-10-29",
   "topProjects": [
+    {
+      "repo": "Nutlope/hallmark",
+      "url": "https://github.com/Nutlope/hallmark",
+      "tagsCn": [
+        "AI Agent",
+        "Dev Tool",
+        "浏览器"
+      ],
+      "appearances": 4,
+      "bestRank": 1,
+      "latestDate": "2026-10-29",
+      "judgement": "近 7 次记录中出现 4 次，最佳排名第 1，适合优先复盘详情。"
+    },
     {
       "repo": "cloudflare/security-audit-skill",
       "url": "https://github.com/cloudflare/security-audit-skill",
@@ -10,23 +23,10 @@
         "Security",
         "Dev Tool"
       ],
-      "appearances": 5,
+      "appearances": 4,
       "bestRank": 1,
       "latestDate": "2026-10-26",
-      "judgement": "近 7 次记录中出现 5 次，最佳排名第 1，适合优先复盘详情。"
-    },
-    {
-      "repo": "Nutlope/hallmark",
-      "url": "https://github.com/Nutlope/hallmark",
-      "tagsCn": [
-        "Dev Tool",
-        "AI Agent",
-        "Design"
-      ],
-      "appearances": 3,
-      "bestRank": 1,
-      "latestDate": "2026-10-28",
-      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
+      "judgement": "近 7 次记录中出现 4 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
       "repo": "DietrichGebert/ponytail",
@@ -42,6 +42,19 @@
       "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
+      "repo": "HKUDS/DeepTutor",
+      "url": "https://github.com/HKUDS/DeepTutor",
+      "tagsCn": [
+        "学术研究",
+        "AI Agent",
+        "教育"
+      ],
+      "appearances": 2,
+      "bestRank": 1,
+      "latestDate": "2026-10-29",
+      "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
+    },
+    {
       "repo": "debpalash/VoiceStudio",
       "url": "https://github.com/debpalash/VoiceStudio",
       "tagsCn": [
@@ -53,31 +66,18 @@
       "bestRank": 1,
       "latestDate": "2026-10-27",
       "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
-    },
-    {
-      "repo": "pbakaus/impeccable",
-      "url": "https://github.com/pbakaus/impeccable",
-      "tagsCn": [
-        "Dev Tool",
-        "AI Agent",
-        "设计规范"
-      ],
-      "appearances": 2,
-      "bestRank": 3,
-      "latestDate": "2026-10-27",
-      "judgement": "近 7 次记录中出现 2 次，最佳排名第 3，适合优先复盘详情。"
     }
   ],
   "streaks": [
     {
-      "repo": "cloudflare/security-audit-skill",
-      "days": 5,
-      "track": "10-21#2 -> 10-22#2 -> 10-23#1 -> 10-25#1 -> 10-26#1"
+      "repo": "Nutlope/hallmark",
+      "days": 4,
+      "track": "10-26#3 -> 10-27#2 -> 10-28#1 -> 10-29#3"
     },
     {
-      "repo": "Nutlope/hallmark",
-      "days": 3,
-      "track": "10-26#3 -> 10-27#2 -> 10-28#1"
+      "repo": "cloudflare/security-audit-skill",
+      "days": 4,
+      "track": "10-22#2 -> 10-23#1 -> 10-25#1 -> 10-26#1"
     },
     {
       "repo": "DietrichGebert/ponytail",
@@ -85,14 +85,14 @@
       "track": "10-22#1 -> 10-23#2"
     },
     {
+      "repo": "HKUDS/DeepTutor",
+      "days": 2,
+      "track": "10-28#2 -> 10-29#1"
+    },
+    {
       "repo": "debpalash/VoiceStudio",
       "days": 2,
       "track": "10-26#2 -> 10-27#1"
-    },
-    {
-      "repo": "stablyai/orca",
-      "days": 2,
-      "track": "10-21#3 -> 10-22#3"
     }
   ]
 }

@@ -1,0 +1,151 @@
+{
+  "date": "2026-10-29",
+  "generatedAt": "2026-10-29T08:18:22.359973+08:00",
+  "source": "https://github.com/trending?since=daily",
+  "tags": [
+    "Research",
+    "AI Agent",
+    "教育",
+    "Dev Tool",
+    "Design",
+    "Browser"
+  ],
+  "observation": "今日 TOP3 的共同点集中在 AI 编码代理的「技能与规则」层：DeepTutor 把多智能体做成教学闭环，另外两个项目都在给 Claude Code、Cursor 这类工具制定页面设计规则。三者都以 Markdown 规则文件为交付物，上手门槛低，并依靠社区传播。差异在成熟度：DeepTutor 有 arXiv 论文、正式 release 与近 400 次月内 PR，走工程化路线；ai-design-skills 目前只公开一个技能，README 约一千八百字符，日增占比却达 19.27%，是典型爆发式热度；hallmark 用 50 套主题与真实浏览器 lint 建立可验证检查层，但日增与占比双双回落，open issues 仍在增加。",
+  "projects": [
+    {
+      "rank": 1,
+      "repo": "HKUDS/DeepTutor",
+      "url": "https://github.com/HKUDS/DeepTutor",
+      "tags": [
+        "Research",
+        "AI Agent",
+        "教育"
+      ],
+      "tagsCn": [
+        "学术研究",
+        "AI Agent",
+        "教育"
+      ],
+      "tagline": "多智能体把讲义转成可追踪的学习路径与练习",
+      "starsToday": 2371,
+      "totalStars": 47941,
+      "starTodayRatio": 4.95,
+      "rankingStatus": "连续 2 次日报 TOP3",
+      "rankingTrack": "10-28#2 -> 10-29#1",
+      "activity": "1 天前有提交",
+      "license": "Apache-2.0",
+      "maintainer": "组织/公司/社区项目（✨Data Intelligence Lab@HKU✨）；有主页/组织资料，可进一步核实官方性",
+      "positioning": "面向高校教研团队、课程助教与自学者：把自有讲义、论文、视频汇成知识库，由多智能体生成学习路径、分组练习与讲评，并保留学习记录。边界是辅导与检索增强，不替教师判定成绩，也不保证生成的引用与答案事实正确；模型与检索后端需自备，需一定部署运维能力。",
+      "whyWatch": "日增 2,371、占比 4.95%，总星 4.79 万仍为三者最高；v1.7.0 于 2026-10-28 发布，README 由 8.3 万字符增至 8.7 万，30 天内 issue 更新 222、PR 更新 396，维护强度远超同榜；但 open issues 已达 209，密集迭代下需锁定标签自行验证回归。",
+      "changedSinceLast": "上次记录为第 3 名（2026-10-27）：日增 1,598→2,371、占比 3.49%→4.95%、总星 4.58→4.79 万，热度回升；release 从 v1.6.15（10-18）升到 v1.7.0（10-28）；README 增至 8.7 万字符，30 天 issue/PR 更新 208/374→222/396，open issues 由 217 降至 209。",
+      "suitableFor": "需要把自有讲义、论文、视频整理成可追踪学习路径的高校教研团队与课程助教；做检索增强或多智能体教学实验的研究者；愿意自建模型与知识库、并接受逐条人工批注的自学者。",
+      "notSuitableFor": "要求开箱即用、无技术运维的 K12 课堂；需替代正式考试或给出权威结论的评估场景；对数据出境、未成年人信息有严格限制且无法自建部署的机构；没有助教人力核对引用的团队。",
+      "risk": "教育场景须明确人工审核边界：生成的讲评、引用与题目可能失真，不能直接作为成绩或学术依据；open issues 209 且迭代密集，存在回归风险；收录教材、视频与题库涉及版权与许可；arXiv 论文为团队自述成果，效果未经独立复现。",
+      "bestPractice": "研究生课程助教试点：把课程 PDF 与习题导入知识库，让系统生成周学习路径与分组练习，助教逐条核对引用与答案后再发给学生，并把错例回流成评估集，形成可复用的批改基线。",
+      "trialPlan": {
+        "install": "按 README 用 Python 3.11+ 与 Next.js 16 环境部署，锁定 v1.7.0 标签；模型与检索后端先用内部可控服务，不接外部付费订阅。",
+        "pilot": "选一门 4-6 周课程的一个章节，导入 20-30 份自有材料，跑学习路径生成与题库练习，安排助教逐条批注并记录耗时。",
+        "evaluation": "统计引用可核验率、答案正确率、助教平均批注时长与学生路径完成率，并与人工备课基线对比。",
+        "exit": "若引用错误率高于 10%、批注耗时超过人工撰写，或升级后出现知识库索引回归，则停用并回退到原始材料流程。"
+      },
+      "signals": {
+        "recentCommit": "2026-10-28",
+        "issuesUpdated30d": 222,
+        "prsUpdated30d": 396,
+        "latestRelease": "v1.7.0（2026-10-28）",
+        "readmeMaturity": "成熟",
+        "readmeSignals": "87,068 字符 / 24 个标题 / 有安装说明 / 有 Demo/示例 / 有文档入口"
+      }
+    },
+    {
+      "rank": 2,
+      "repo": "elayadesign/ai-design-skills",
+      "url": "https://github.com/elayadesign/ai-design-skills",
+      "tags": [
+        "AI Agent",
+        "Dev Tool",
+        "Design"
+      ],
+      "tagsCn": [
+        "AI Agent",
+        "Dev Tool",
+        "Design"
+      ],
+      "tagline": "给编码代理一份 Markdown 设计规则，落地页按技能产出",
+      "starsToday": 2139,
+      "totalStars": 11098,
+      "starTodayRatio": 19.27,
+      "rankingStatus": "新进 TOP3",
+      "rankingTrack": "新上榜",
+      "activity": "2 天前有提交",
+      "license": "MIT",
+      "maintainer": "个人项目；官方性未见强信号",
+      "positioning": "面向用 Claude Code、Cursor、Codex、Windsurf 写页面的设计师与前端：每个技能是自包含文件夹，目前主推 landing-page-design，按提问收需求、搭页面结构、写转化文案，并给出字体、间距、圆角、动效的设计变量。边界是单页静态稿与提示规则，不含组件库、交互逻辑与后端，效果高度依赖模型与人工定稿。",
+      "whyWatch": "日增 2,139、占比 19.27%，总星 1.11 万，属典型新项目爆发；2 天前有提交，MIT 许可，安装说明完整，open issues 仅 7，近期 PR 更新 4。但内容量是最弱信号：README 仅 1,866 字符、6 个标题，公开技能只有 landing-page-design 一个，无 demo、无文档站、无 release，热度与交付物明显不匹配，需观察后续技能补充。",
+      "changedSinceLast": "今日新进 TOP3，暂无昨日同榜对比",
+      "suitableFor": "想给 AI 编码工具立统一页面规范的个人设计师与前端；需要快速出落地页结构、文案与视觉变量的独立开发者和小团队；愿意读完规则、自行改字体配色后再交付的人。",
+      "notSuitableFor": "需要复杂交互、表单校验、状态管理与后端集成的产品；指望装上就能产出可直接面向客户发布页面的团队；缺少设计判断力、无法人工复核排版与可访问性的团队；要求明确维护承诺与 SLA 的生产站点。",
+      "risk": "个人项目，官方性未见强信号；公开技能仅一个，README 约一千八百字符，无 demo 与文档站、也无 release，star 增速远超可核验内容；提示规则产出的 HTML/CSS 未做安全与可访问性检查，直接上线存在 XSS 与字体、图片版权风险；后续是否持续扩充技能尚不确定。",
+      "bestPractice": "内部活动页起草：把 landing-page-design 装进团队统一的技能目录，让代理先输出页面结构与转化文案，再按技能末尾的设计变量表统一字体与间距，人工过一遍对比度与移动端后交前端实现。",
+      "trialPlan": {
+        "install": "按 README 把 SKILL.md 复制到所用工具的技能目录（Claude Code 技能目录、Cursor Rules、AGENTS.md 或 .windsurfrules），无额外后端依赖。",
+        "pilot": "挑一个内部活动页，生成 2-3 稿不同文案与视觉变量方案，同题对比结构与人工返工点。",
+        "evaluation": "看人工返工次数、从初稿到可开发稿的耗时、移动端与对比度缺陷数量，是否优于团队现有模板。",
+        "exit": "若产出仍高度模板化、返工次数不低于手写，或技能目录后续不再更新，则停用并保留原有设计规范。"
+      },
+      "signals": {
+        "recentCommit": "2026-10-27",
+        "issuesUpdated30d": 2,
+        "prsUpdated30d": 4,
+        "latestRelease": "暂无公开 release",
+        "readmeMaturity": "中等",
+        "readmeSignals": "1,866 字符 / 6 个标题 / 有安装说明 / Demo 不明显 / 文档入口不明显"
+      }
+    },
+    {
+      "rank": 3,
+      "repo": "Nutlope/hallmark",
+      "url": "https://github.com/Nutlope/hallmark",
+      "tags": [
+        "AI Agent",
+        "Dev Tool",
+        "Browser"
+      ],
+      "tagsCn": [
+        "AI Agent",
+        "Dev Tool",
+        "浏览器"
+      ],
+      "tagline": "用 50 套主题与浏览器 lint 挡住机器味页面",
+      "starsToday": 2110,
+      "totalStars": 40680,
+      "starTodayRatio": 5.19,
+      "rankingStatus": "连续 4 次日报 TOP3",
+      "rankingTrack": "10-26#3 -> 10-27#2 -> 10-28#1 -> 10-29#3",
+      "activity": "1 天前有提交",
+      "license": "MIT",
+      "maintainer": "个人项目；有主页/组织资料，可进一步核实官方性",
+      "positioning": "面向用 Claude Code、Cursor、Codex、OpenCode 生成落地页的设计师与前端：从 50 套「材质」主题抽三套，围绕访客任务搭页，再用真实浏览器按分层门禁 lint 机器味痕迹，最后由新上下文评审收口。边界是静态页面与提示规则，不含交互、后端与数据，定稿仍靠人工判断。",
+      "whyWatch": "总星 4.07 万、日增 2,110，MIT，README 6,261 字符、9 个标题，安装与 Demo 齐备，1 天前有提交；30 天 PR 更新 26、issue 更新 7。但热度较上次回落（日增 2,830→2,110、占比 7.27%→5.19%），open issues 由 64 升至 67，仍无公开 release，反馈主要靠社区自行消化。",
+      "changedSinceLast": "上次记录为第 2 名（2026-10-27）：日增 2,830→2,110、占比 7.27%→5.19%，总星 3.90→4.07 万，增速放缓；README 5,654→6,261 字符（8→9 个标题），30 天 PR 24→26、issue 5→7，open issues 64→67；仍无公开 release，v2 的 50 套主题与分层门禁表述延续。",
+      "suitableFor": "需要快速产出风格独特落地页、营销页的设计师与前端；想给代理立明确禁则、避免千篇一律输出的团队；也可用 audit/redesign 拆解参考站的配色与排版，作为学习基线。",
+      "notSuitableFor": "需要复杂交互、表单验证、状态管理或后端集成的应用；缺设计判断力、打算把初稿直接面向客户发布的团队；要求明确维护承诺、SLA 与安全审计的生产站点；不接受「机器味」清单这类主观标准的团队。",
+      "risk": "个人账号项目，open issues 67 而 30 天 issue 更新仅 7，响应偏慢；无公开 release，升级只能跟随主分支；生成 HTML/CSS 未经安全扫描，直接上线存在 XSS 与第三方字体、图片版权风险；50 套主题与 lint 门禁为作者自定标准，未经独立美学或无障碍验证；README 自述由 Together AI 制作，属自述而非官方背书。",
+      "bestPractice": "内部方案评审：先用 audit 对现有页或参考站出问题清单，再用 build 生成 2-3 套不同主题初稿，跑浏览器 lint 并补人工检查对比度、键盘焦点与移动端，设计师筛选微调后才进开发。",
+      "trialPlan": {
+        "install": "按 README 把技能文件复制进所用 AI 编码工具的技能目录，无额外后端；先在演示仓库验证代理是否会真正抽主题并触发浏览器 lint。",
+        "pilot": "挑一个内部活动页，生成 3 套主题初稿，同题对比机器味清单命中项与人工评审结论，记录返工次数。",
+        "evaluation": "看 lint 通过率、人工问题单数量、从初稿到可开发稿的耗时，以及移动端与对比度缺陷密度是否低于团队现状。",
+        "exit": "若三套初稿均被人工判定为不可用、返工耗时超过自研，或主分支出现破坏性变更且无 release 可回滚，则停用。"
+      },
+      "signals": {
+        "recentCommit": "2026-10-28",
+        "issuesUpdated30d": 7,
+        "prsUpdated30d": 26,
+        "latestRelease": "暂无公开 release",
+        "readmeMaturity": "成熟",
+        "readmeSignals": "6,261 字符 / 9 个标题 / 有安装说明 / 有 Demo/示例 / 有文档入口"
+      }
+    }
+  ]
+}

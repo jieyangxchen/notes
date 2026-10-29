@@ -1,29 +1,41 @@
 {
-  "generatedAt": "2026-10-28T08:00:59.182055+08:00",
+  "generatedAt": "2026-10-29T08:18:22.359973+08:00",
   "projects": [
-    {
-      "repo": "Nutlope/hallmark",
-      "url": "https://github.com/Nutlope/hallmark",
-      "latestDate": "2026-10-28",
-      "latestRank": 1,
-      "tagsCn": [
-        "Dev Tool",
-        "AI Agent",
-        "Design"
-      ],
-      "lastTagline": "用浏览器 lint 拦住 AI 味页面，只产出静态 HTML/CSS"
-    },
     {
       "repo": "HKUDS/DeepTutor",
       "url": "https://github.com/HKUDS/DeepTutor",
-      "latestDate": "2026-10-28",
-      "latestRank": 2,
+      "latestDate": "2026-10-29",
+      "latestRank": 1,
       "tagsCn": [
         "学术研究",
         "AI Agent",
-        "Education"
+        "教育"
       ],
-      "lastTagline": "带学习路径、检索与评估的个性化 AI 导师系统"
+      "lastTagline": "多智能体把讲义转成可追踪的学习路径与练习"
+    },
+    {
+      "repo": "elayadesign/ai-design-skills",
+      "url": "https://github.com/elayadesign/ai-design-skills",
+      "latestDate": "2026-10-29",
+      "latestRank": 2,
+      "tagsCn": [
+        "AI Agent",
+        "Dev Tool",
+        "Design"
+      ],
+      "lastTagline": "给编码代理一份 Markdown 设计规则，落地页按技能产出"
+    },
+    {
+      "repo": "Nutlope/hallmark",
+      "url": "https://github.com/Nutlope/hallmark",
+      "latestDate": "2026-10-29",
+      "latestRank": 3,
+      "tagsCn": [
+        "AI Agent",
+        "Dev Tool",
+        "浏览器"
+      ],
+      "lastTagline": "用 50 套主题与浏览器 lint 挡住机器味页面"
     },
     {
       "repo": "makecindy/cindy",
