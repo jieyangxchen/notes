@@ -1,0 +1,151 @@
+{
+  "date": "2026-10-30",
+  "generatedAt": "2026-10-30T08:01:08.530481+08:00",
+  "source": "https://github.com/trending?since=daily",
+  "tags": [
+    "AI Agent",
+    "Dev Tool",
+    "Frontend",
+    "Research",
+    "Education",
+    "Security"
+  ],
+  "observation": "今日 TOP3 是三种 AI 使用边界的对照：Impeccable 用设计词汇与确定性规则约束编码代理的输出，DeepTutor 把多智能体放进教学场景并保留学习记录，jailbreaks 则反向展示人格锁定与指令层级如何覆盖模型策略。前两者都有 Apache-2.0、安装文档与发布节奏，属可持续追踪的工程向项目；第三名无许可证、无 release，日增占比 17.93% 属新项目爆发，热度与可用性明显脱节。共同点是 star 增速都不等于质量，三者都需要人工复核与明确的授权边界。",
+  "projects": [
+    {
+      "rank": 1,
+      "repo": "pbakaus/impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "tags": [
+        "AI Agent",
+        "Dev Tool",
+        "Frontend"
+      ],
+      "tagsCn": [
+        "AI Agent",
+        "Dev Tool",
+        "Frontend"
+      ],
+      "tagline": "给编码代理装上设计词汇表，用命令审查并修正 AI 生成的界面",
+      "starsToday": 2881,
+      "totalStars": 95263,
+      "starTodayRatio": 3.02,
+      "rankingStatus": "非连续；上次 10-27 第3",
+      "rankingTrack": "10-27#3 -> 10-30#1",
+      "activity": "1 天前有提交",
+      "license": "Apache-2.0",
+      "maintainer": "个人项目（维护者资料公司：Google）；有主页/组织资料，可进一步核实官方性",
+      "positioning": "面向用 Claude Code、Cursor 等代理生成前端页面的独立开发者与小型前端组，解决 AI 默认审美导致的模板化配色与排版问题：先运行 /impeccable init 把受众、约束与品牌事实写进 PRODUCT.md，再用 polish、critique、audit 等命令与 62 条确定性规则做检测与重塑。边界是仅覆盖 Web 前端，移动原生与非 Web 界面支持有限，规则检测存在误报，最终仍需设计负责人判断。",
+      "whyWatch": "日增 2,881、占总 Star 3.02%，较上次 1,551/1.74% 明显升温；1 天前仍有提交，release 停在 cli-v4.8.0（2026-10-26）；30 天 issue 更新 147、PR 更新 265，工程侧持续在推进；open issues 43→45 微升。README 由 24,820 字符/53 标题变为 13,800 字符/17 标题，需要确认这是文档重构还是内容缩水，不能只看 star 涨幅就判断质量提升。",
+      "changedSinceLast": "上次记录为 2026-10-25 第 3 名：日增 1,551→2,881、占比 1.74%→3.02%，热度接近翻倍并升至第 1；30 天 issue/PR 更新 136/247→147/265；open issues 43→45；README 结构由 53 个标题压缩为 17 个、字符数近乎减半，疑似文档重构；release 仍为 cli-v4.8.0，未见新版本。",
+      "suitableFor": "适合已在用 Claude Code、Cursor、Codex CLI 等代理批量生成前端代码的独立开发者与小团队，希望用统一设计语言替代 Inter 字体加紫蓝渐变的默认审美；也适合把确定性规则接入 CI、由设计负责人逐条复核误报的前端工程组。",
+      "notSuitableFor": "完全手工编码、不使用 AI 助手的项目收益有限；换用 README 未列出的代理时命令可能失效；规则偏通用 Web 前端，移动原生与非 Web 界面覆盖不足；追求完全自由视觉表达、不愿被规则约束的创意团队会觉得束手。",
+      "risk": "设计规范依赖代理遵循，可能压制创意并造成项目间风格趋同；62 条确定性规则存在误报，只能作为参考信号而非质量唯一标准；浏览器扩展会接触页面数据，安装前须核查权限与隐私范围；处理真实用户数据须取得授权并遵守站点条款，结论应由设计负责人复核。",
+      "bestPractice": "Vite 新建前端项目后执行 npx impeccable install 与 /impeccable init，写入品牌色、字体与产品事实；先用代理生成基线页面，再用 polish、craft 重做同一页面，最后跑 CLI audit 把误报人工标注为项目规则并接入 CI。",
+      "trialPlan": {
+        "install": "在项目根目录执行 npx impeccable install，于所用 AI 编码工具内运行 /impeccable init 生成 PRODUCT.md，并锁定 cli-v4.8.0 版本。",
+        "pilot": "选一个已有落地页，用同一 prompt 分别生成无规范与有规范两版，由 2 名前端交叉评审，记录命令成功率。",
+        "evaluation": "统计 audit 规则命中率与误报率、评审认为可上线的版本比例、单页改造耗时，并与纯手工设计基线对比。",
+        "exit": "若误报率超过三成，或评审无法区分两版差异，则停止接入 CI，回退到人工设计评审流程。"
+      },
+      "signals": {
+        "recentCommit": "2026-10-29",
+        "issuesUpdated30d": 147,
+        "prsUpdated30d": 265,
+        "latestRelease": "cli-v4.8.0（2026-10-26）",
+        "readmeMaturity": "成熟",
+        "readmeSignals": "13,800 字符 / 17 个标题 / 有安装说明 / 有 Demo/示例 / 有文档入口"
+      }
+    },
+    {
+      "rank": 2,
+      "repo": "HKUDS/DeepTutor",
+      "url": "https://github.com/HKUDS/DeepTutor",
+      "tags": [
+        "Research",
+        "AI Agent",
+        "Education"
+      ],
+      "tagsCn": [
+        "学术研究",
+        "AI Agent",
+        "Education"
+      ],
+      "tagline": "把自有讲义论文汇成知识库，多智能体生成学习路径与讲评",
+      "starsToday": 1926,
+      "totalStars": 49991,
+      "starTodayRatio": 3.85,
+      "rankingStatus": "连续 3 次日报 TOP3",
+      "rankingTrack": "10-28#2 -> 10-29#1 -> 10-30#2",
+      "activity": "1 天前有提交",
+      "license": "Apache-2.0",
+      "maintainer": "组织/公司/社区项目（✨Data Intelligence Lab@HKU✨）；有主页/组织资料，可进一步核实官方性",
+      "positioning": "面向高校教研团队、课程助教与自学者：把自有讲义、论文、视频汇成知识库，由多智能体生成学习路径、分组练习与讲评，并保留学习记录。边界是辅导与检索增强，不替代教师评分，也不保证生成的引用与答案事实正确；模型与检索后端需自备，要求一定的部署与运维能力。",
+      "whyWatch": "日增 1,926、占比 3.85%，存量近 5 万星，仍是同榜工程成熟度最高者之一；v1.7.0（2026-10-28）发布后 1 天仍有提交，30 天 issue 更新 233、PR 更新 423，迭代强度大；但 open issues 由 209 升至 235，积压与回归风险同步上升，README 达 8.7 万字符，文档虽全但上手成本不低。",
+      "changedSinceLast": "上次记录为 2026-10-28 第 2 名：日增 2,371→1,926、占比 4.95%→3.85%，热度回落；open issues 209→235 继续攀升；30 天 issue/PR 更新 222/396→233/423；release 仍为 v1.7.0（2026-10-28），README 体量未变。今日主要变化是增速降温而待办积压增加，需观察响应速度是否受影响。",
+      "suitableFor": "需要把自有讲义、论文、视频整理成可追踪学习路径的高校教研团队与课程助教；做检索增强或多智能体教学实验的研究者；愿意自建模型与知识库、并能投入助教人力逐条批注引用与答案的自学者与小机构。",
+      "notSuitableFor": "要求开箱即用、无技术运维的 K12 课堂；需要替代正式考试评分或给出权威结论的评估场景；对数据出境与未成年人信息有严格限制且无法自建部署的机构；没有人手核对生成引用与题目的团队。",
+      "risk": "教育场景必须明确人工审核边界：生成的讲评、引用与题目可能失真，不能直接作为成绩或学术依据；open issues 235 且迭代密集，存在回归风险；收录教材、视频与题库涉及版权与许可；arXiv 论文为团队自述成果，效果未经独立复现。",
+      "bestPractice": "研究生课程助教试点：导入课程 PDF 与习题建成知识库，让系统生成周学习路径与分组练习，助教逐条核对引用与答案后再发给学生，并把错例回流为评估集，形成可复用的批改基线。",
+      "trialPlan": {
+        "install": "按 README 用 Python 3.11+ 与 Next.js 16 部署，锁定 v1.7.0 标签，模型与检索后端先用内部可控服务，不接外部付费订阅。",
+        "pilot": "选一门 4-6 周课程的一个章节，导入 20-30 份自有材料，跑学习路径与题库练习，安排助教逐条批注并记录耗时。",
+        "evaluation": "统计引用可核验率、答案正确率、助教平均批注时长与学生路径完成率，并与人工备课基线对比。",
+        "exit": "若引用错误率超过两成，或助教批注耗时高于人工备课，则暂停推广并缩减到单章节内部使用。"
+      },
+      "signals": {
+        "recentCommit": "2026-10-29",
+        "issuesUpdated30d": 233,
+        "prsUpdated30d": 423,
+        "latestRelease": "v1.7.0（2026-10-28）",
+        "readmeMaturity": "成熟",
+        "readmeSignals": "87,068 字符 / 24 个标题 / 有安装说明 / 有 Demo/示例 / 有文档入口"
+      }
+    },
+    {
+      "rank": 3,
+      "repo": "togg53192-cmd/jailbreaks",
+      "url": "https://github.com/togg53192-cmd/jailbreaks",
+      "tags": [
+        "Security",
+        "AI Agent",
+        "Prompt Engineering"
+      ],
+      "tagsCn": [
+        "Security",
+        "AI Agent",
+        "Prompt Engineering"
+      ],
+      "tagline": "收集 32 条越狱与人格锁定提示词，覆盖 26+ 个闭源与开源模型",
+      "starsToday": 1610,
+      "totalStars": 8978,
+      "starTodayRatio": 17.93,
+      "rankingStatus": "新进 TOP3",
+      "rankingTrack": "新上榜",
+      "activity": "2 天前有提交",
+      "license": "未声明",
+      "maintainer": "个人项目；官方性未见强信号",
+      "positioning": "面向做提示注入防御、红队评估与模型行为研究的 AI 安全研究者：仓库提供整份可粘贴的系统提示、人格锁、AGENTS.md 与 Ollama Modelfile 样本，用于观察指令层级、角色框架与策略覆盖如何影响模型行为。边界是研究素材而非生产工具，作者自述仅供研究与教育，且未声明许可证，商用与再分发缺乏法律依据。",
+      "whyWatch": "今日新进 TOP3，日增 1,610、占比 17.93%，属新项目爆发型信号，热度远高于同榜两位；但总量仅 8,978 星、无 release、无 topics、许可证未声明，2 天前有提交；30 天 issue 更新 24、PR 仅 8，社区协作薄弱。README 8,294 字符含使用说明与风险提示，但内容性质决定其安全风险高于工程价值，不能按热度直接采信。",
+      "changedSinceLast": "今日新进 TOP3，暂无昨日同榜对比。",
+      "suitableFor": "适合从事提示注入与越狱防御研究的安全团队、做模型行为与策略对齐评估的研究者，以及需要在隔离环境中复现攻击样例、完善检测规则的红队人员；前提是已获授权，并限定在自建或书面许可的模型与环境中测试，全程留存审计记录。",
+      "notSuitableFor": "不适合在生产环境或面向真实用户的产品中直接使用，也不应用于绕过模型与平台服务条款、法律法规或他人授权边界；无安全评审流程的团队、涉及未成年人的产品、需合规审计的金融医疗场景均不应引入；许可证未声明也意味着不可直接商用或再分发。",
+      "risk": "内容本质是绕过模型安全策略的提示词集合，可能违反模型与平台服务条款，一旦被滥用即产生实际危害；仓库未声明许可证，复用与分发缺乏法律依据；无 release、issue/PR 活跃度低，样本正确性与维护持续性无法保证。仅可作防御研究素材，测试须限定在授权沙箱内并由安全负责人复核，不得对外提供可用越狱产物。",
+      "bestPractice": "在隔离沙箱与自建模型上复现若干条样本，把触发模式转写为输入检测规则与系统提示加固项，再将规则接入上线前的提示注入回归集，全程不对外发布可用的越狱成品。",
+      "trialPlan": {
+        "install": "不直接安装或部署：先将仓库克隆到隔离环境，逐条阅读并标注来源与许可状态，禁止接入任何生产账号或客户环境。",
+        "pilot": "安全团队选取 3-5 条样本，在已获授权的模型上做对照测试，记录行为差异、触发条件与平台条款约束。",
+        "evaluation": "统计检测规则对样本的拦截率与误拦率、加固后模型行为偏移量，并保留完整审计日志与审批记录。",
+        "exit": "若样本涉及违法内容、无法确认授权或缺乏许可证依据，立即停止测试、清理环境并上报安全负责人。"
+      },
+      "signals": {
+        "recentCommit": "2026-10-28",
+        "issuesUpdated30d": 24,
+        "prsUpdated30d": 8,
+        "latestRelease": "暂无公开 release",
+        "readmeMaturity": "成熟",
+        "readmeSignals": "8,294 字符 / 20 个标题 / 有安装说明 / 有 Demo/示例 / 有文档入口"
+      }
+    }
+  ]
+}

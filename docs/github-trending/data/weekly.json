@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-29T08:18:22.359973+08:00",
-  "window": "2026-10-22..2026-10-29",
+  "generatedAt": "2026-10-30T08:01:08.530481+08:00",
+  "window": "2026-10-23..2026-10-30",
   "topProjects": [
     {
       "repo": "Nutlope/hallmark",
@@ -16,6 +16,19 @@
       "judgement": "近 7 次记录中出现 4 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
+      "repo": "HKUDS/DeepTutor",
+      "url": "https://github.com/HKUDS/DeepTutor",
+      "tagsCn": [
+        "学术研究",
+        "AI Agent",
+        "Education"
+      ],
+      "appearances": 3,
+      "bestRank": 1,
+      "latestDate": "2026-10-30",
+      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
+    },
+    {
       "repo": "cloudflare/security-audit-skill",
       "url": "https://github.com/cloudflare/security-audit-skill",
       "tagsCn": [
@@ -23,36 +36,23 @@
         "Security",
         "Dev Tool"
       ],
-      "appearances": 4,
+      "appearances": 3,
       "bestRank": 1,
       "latestDate": "2026-10-26",
-      "judgement": "近 7 次记录中出现 4 次，最佳排名第 1，适合优先复盘详情。"
+      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
-      "repo": "DietrichGebert/ponytail",
-      "url": "https://github.com/DietrichGebert/ponytail",
+      "repo": "pbakaus/impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
       "tagsCn": [
         "AI Agent",
         "Dev Tool",
-        "Prompt Engineering"
+        "Frontend"
       ],
-      "appearances": 2,
+      "appearances": 3,
       "bestRank": 1,
-      "latestDate": "2026-10-23",
-      "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
-    },
-    {
-      "repo": "HKUDS/DeepTutor",
-      "url": "https://github.com/HKUDS/DeepTutor",
-      "tagsCn": [
-        "学术研究",
-        "AI Agent",
-        "教育"
-      ],
-      "appearances": 2,
-      "bestRank": 1,
-      "latestDate": "2026-10-29",
-      "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
+      "latestDate": "2026-10-30",
+      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
       "repo": "debpalash/VoiceStudio",
@@ -75,19 +75,14 @@
       "track": "10-26#3 -> 10-27#2 -> 10-28#1 -> 10-29#3"
     },
     {
-      "repo": "cloudflare/security-audit-skill",
-      "days": 4,
-      "track": "10-22#2 -> 10-23#1 -> 10-25#1 -> 10-26#1"
-    },
-    {
-      "repo": "DietrichGebert/ponytail",
-      "days": 2,
-      "track": "10-22#1 -> 10-23#2"
-    },
-    {
       "repo": "HKUDS/DeepTutor",
-      "days": 2,
-      "track": "10-28#2 -> 10-29#1"
+      "days": 3,
+      "track": "10-28#2 -> 10-29#1 -> 10-30#2"
+    },
+    {
+      "repo": "cloudflare/security-audit-skill",
+      "days": 3,
+      "track": "10-23#1 -> 10-25#1 -> 10-26#1"
     },
     {
       "repo": "debpalash/VoiceStudio",
