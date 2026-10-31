@@ -1,41 +1,41 @@
 {
-  "generatedAt": "2026-10-30T08:01:08.530481+08:00",
+  "generatedAt": "2026-10-31T08:01:00.925298+08:00",
   "projects": [
     {
       "repo": "pbakaus/impeccable",
       "url": "https://github.com/pbakaus/impeccable",
-      "latestDate": "2026-10-30",
+      "latestDate": "2026-10-31",
       "latestRank": 1,
       "tagsCn": [
         "AI Agent",
         "Dev Tool",
-        "Frontend"
+        "Design"
       ],
-      "lastTagline": "给编码代理装上设计词汇表，用命令审查并修正 AI 生成的界面"
+      "lastTagline": "给编码代理一套设计词汇，用规则拦下模板化的 AI 审美"
     },
     {
       "repo": "HKUDS/DeepTutor",
       "url": "https://github.com/HKUDS/DeepTutor",
-      "latestDate": "2026-10-30",
+      "latestDate": "2026-10-31",
       "latestRank": 2,
       "tagsCn": [
         "学术研究",
         "AI Agent",
         "Education"
       ],
-      "lastTagline": "把自有讲义论文汇成知识库，多智能体生成学习路径与讲评"
+      "lastTagline": "把自有讲义变成知识库，多智能体生成学习路径与分组练习"
     },
     {
       "repo": "togg53192-cmd/jailbreaks",
       "url": "https://github.com/togg53192-cmd/jailbreaks",
-      "latestDate": "2026-10-30",
+      "latestDate": "2026-10-31",
       "latestRank": 3,
       "tagsCn": [
         "Security",
         "AI Agent",
-        "Prompt Engineering"
+        "Red Team"
       ],
-      "lastTagline": "收集 32 条越狱与人格锁定提示词，覆盖 26+ 个闭源与开源模型"
+      "lastTagline": "32 条越狱提示样本，供提示注入防御与红队研究"
     },
     {
       "repo": "elayadesign/ai-design-skills",

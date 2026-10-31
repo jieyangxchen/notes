@@ -1,7 +1,20 @@
 {
-  "generatedAt": "2026-10-30T08:01:08.530481+08:00",
-  "window": "2026-10-23..2026-10-30",
+  "generatedAt": "2026-10-31T08:01:00.925298+08:00",
+  "window": "2026-10-25..2026-10-31",
   "topProjects": [
+    {
+      "repo": "HKUDS/DeepTutor",
+      "url": "https://github.com/HKUDS/DeepTutor",
+      "tagsCn": [
+        "学术研究",
+        "AI Agent",
+        "Education"
+      ],
+      "appearances": 4,
+      "bestRank": 1,
+      "latestDate": "2026-10-31",
+      "judgement": "近 7 次记录中出现 4 次，最佳排名第 1，适合优先复盘详情。"
+    },
     {
       "repo": "Nutlope/hallmark",
       "url": "https://github.com/Nutlope/hallmark",
@@ -16,17 +29,17 @@
       "judgement": "近 7 次记录中出现 4 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
-      "repo": "HKUDS/DeepTutor",
-      "url": "https://github.com/HKUDS/DeepTutor",
+      "repo": "pbakaus/impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
       "tagsCn": [
-        "学术研究",
         "AI Agent",
-        "Education"
+        "Dev Tool",
+        "Design"
       ],
-      "appearances": 3,
+      "appearances": 4,
       "bestRank": 1,
-      "latestDate": "2026-10-30",
-      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
+      "latestDate": "2026-10-31",
+      "judgement": "近 7 次记录中出现 4 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
       "repo": "cloudflare/security-audit-skill",
@@ -36,23 +49,10 @@
         "Security",
         "Dev Tool"
       ],
-      "appearances": 3,
+      "appearances": 2,
       "bestRank": 1,
       "latestDate": "2026-10-26",
-      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
-    },
-    {
-      "repo": "pbakaus/impeccable",
-      "url": "https://github.com/pbakaus/impeccable",
-      "tagsCn": [
-        "AI Agent",
-        "Dev Tool",
-        "Frontend"
-      ],
-      "appearances": 3,
-      "bestRank": 1,
-      "latestDate": "2026-10-30",
-      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
+      "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
       "repo": "debpalash/VoiceStudio",
@@ -70,24 +70,34 @@
   ],
   "streaks": [
     {
+      "repo": "HKUDS/DeepTutor",
+      "days": 4,
+      "track": "10-28#2 -> 10-29#1 -> 10-30#2 -> 10-31#2"
+    },
+    {
       "repo": "Nutlope/hallmark",
       "days": 4,
       "track": "10-26#3 -> 10-27#2 -> 10-28#1 -> 10-29#3"
     },
     {
-      "repo": "HKUDS/DeepTutor",
-      "days": 3,
-      "track": "10-28#2 -> 10-29#1 -> 10-30#2"
-    },
-    {
       "repo": "cloudflare/security-audit-skill",
-      "days": 3,
-      "track": "10-23#1 -> 10-25#1 -> 10-26#1"
+      "days": 2,
+      "track": "10-25#1 -> 10-26#1"
     },
     {
       "repo": "debpalash/VoiceStudio",
       "days": 2,
       "track": "10-26#2 -> 10-27#1"
+    },
+    {
+      "repo": "pbakaus/impeccable",
+      "days": 2,
+      "track": "10-30#1 -> 10-31#1"
+    },
+    {
+      "repo": "togg53192-cmd/jailbreaks",
+      "days": 2,
+      "track": "10-30#3 -> 10-31#3"
     }
   ]
 }
