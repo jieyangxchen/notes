@@ -1,17 +1,41 @@
 {
-  "generatedAt": "2026-10-31T08:01:00.925298+08:00",
+  "generatedAt": "2026-11-01T08:00:57.387173+08:00",
   "projects": [
+    {
+      "repo": "thedotmack/claude-mem",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "latestDate": "2026-11-01",
+      "latestRank": 1,
+      "tagsCn": [
+        "AI Agent",
+        "记忆",
+        "Dev Tool"
+      ],
+      "lastTagline": "跨会话捕获代理操作并压缩成记忆，再注入后续会话"
+    },
     {
       "repo": "pbakaus/impeccable",
       "url": "https://github.com/pbakaus/impeccable",
-      "latestDate": "2026-10-31",
-      "latestRank": 1,
+      "latestDate": "2026-11-01",
+      "latestRank": 2,
       "tagsCn": [
         "AI Agent",
         "Dev Tool",
         "Design"
       ],
-      "lastTagline": "给编码代理一套设计词汇，用规则拦下模板化的 AI 审美"
+      "lastTagline": "给编码代理一套设计词汇，压掉模板化的 AI 视觉味"
+    },
+    {
+      "repo": "milind-soni/OpenMausBot",
+      "url": "https://github.com/milind-soni/OpenMausBot",
+      "latestDate": "2026-11-01",
+      "latestRank": 3,
+      "tagsCn": [
+        "AI Agent",
+        "Computer Use",
+        "Self-hosted"
+      ],
+      "lastTagline": "把多个编码代理做成聊天联系人，各自配一台虚拟机"
     },
     {
       "repo": "HKUDS/DeepTutor",

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-31T08:01:00.925298+08:00",
-  "window": "2026-10-25..2026-10-31",
+  "generatedAt": "2026-11-01T08:00:57.387173+08:00",
+  "window": "2026-10-26..2026-11-01",
   "topProjects": [
     {
       "repo": "HKUDS/DeepTutor",
@@ -38,21 +38,8 @@
       ],
       "appearances": 4,
       "bestRank": 1,
-      "latestDate": "2026-10-31",
+      "latestDate": "2026-11-01",
       "judgement": "近 7 次记录中出现 4 次，最佳排名第 1，适合优先复盘详情。"
-    },
-    {
-      "repo": "cloudflare/security-audit-skill",
-      "url": "https://github.com/cloudflare/security-audit-skill",
-      "tagsCn": [
-        "AI Agent",
-        "Security",
-        "Dev Tool"
-      ],
-      "appearances": 2,
-      "bestRank": 1,
-      "latestDate": "2026-10-26",
-      "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
       "repo": "debpalash/VoiceStudio",
@@ -66,6 +53,19 @@
       "bestRank": 1,
       "latestDate": "2026-10-27",
       "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
+    },
+    {
+      "repo": "togg53192-cmd/jailbreaks",
+      "url": "https://github.com/togg53192-cmd/jailbreaks",
+      "tagsCn": [
+        "Security",
+        "AI Agent",
+        "Red Team"
+      ],
+      "appearances": 2,
+      "bestRank": 3,
+      "latestDate": "2026-10-31",
+      "judgement": "近 7 次记录中出现 2 次，最佳排名第 3，适合优先复盘详情。"
     }
   ],
   "streaks": [
@@ -80,19 +80,14 @@
       "track": "10-26#3 -> 10-27#2 -> 10-28#1 -> 10-29#3"
     },
     {
-      "repo": "cloudflare/security-audit-skill",
-      "days": 2,
-      "track": "10-25#1 -> 10-26#1"
+      "repo": "pbakaus/impeccable",
+      "days": 3,
+      "track": "10-30#1 -> 10-31#1 -> 11-01#2"
     },
     {
       "repo": "debpalash/VoiceStudio",
       "days": 2,
       "track": "10-26#2 -> 10-27#1"
-    },
-    {
-      "repo": "pbakaus/impeccable",
-      "days": 2,
-      "track": "10-30#1 -> 10-31#1"
     },
     {
       "repo": "togg53192-cmd/jailbreaks",

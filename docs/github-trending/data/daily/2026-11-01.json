@@ -1,0 +1,151 @@
+{
+  "date": "2026-11-01",
+  "generatedAt": "2026-11-01T08:00:57.387173+08:00",
+  "source": "https://github.com/trending?since=daily",
+  "tags": [
+    "AI Agent",
+    "Memory",
+    "Dev Tool",
+    "Design",
+    "Computer Use",
+    "Self-hosted"
+  ],
+  "observation": "今日 TOP3 同属 AI Agent，但分别补不同短板：claude-mem 补充跨会话上下文连续性，impeccable 用设计词汇和规则约束代理产出，OpenMausBot 则重做交互形态兼执行环境（云桌面、隔离虚拟机）。前两者是十万星量级老项目回热，日增占比只有 1.6% 和 1.36%，属于已有大量关注的项目继续升温；OpenMausBot 总星仅 9,588，占比却达 13.59%，是小基数快速破圈，但 611 个 open issue 暴露成熟度差距。三者共同风险集中在工具权限、会话数据外发与人工复核边界。",
+  "projects": [
+    {
+      "rank": 1,
+      "repo": "thedotmack/claude-mem",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "tags": [
+        "AI Agent",
+        "Memory",
+        "Dev Tool"
+      ],
+      "tagsCn": [
+        "AI Agent",
+        "记忆",
+        "Dev Tool"
+      ],
+      "tagline": "跨会话捕获代理操作并压缩成记忆，再注入后续会话",
+      "starsToday": 1723,
+      "totalStars": 107834,
+      "starTodayRatio": 1.6,
+      "rankingStatus": "新进 TOP3",
+      "rankingTrack": "新上榜",
+      "activity": "1 天前有提交",
+      "license": "Apache-2.0",
+      "maintainer": "个人项目；官方性未见强信号",
+      "positioning": "面向长期使用 Claude Code、Codex、Gemini、Copilot 等 CLI 代理、多会话推进项目的个人开发者与小组，解决每次新开会话都要重述背景的问题：自动记录工具调用观察、生成语义摘要，再按需检索回注。能力边界是记忆质量取决于摘要与检索策略，属于有损压缩，不替代仓库文档、代码注释与 PR 记录。",
+      "whyWatch": "日增 1723、占比 1.6%，是十万星存量项目的回热，不是新爆款；1 天前仍有提交，30 天 issue 更新 233、PR 更新 750，PR 量远高于 issue，说明外部贡献涌入但评审合并压力大；当前 157 个 open issue；最新版本 v15.7.0（2026-10-30）；README 14,526 字符、20 个标题，含安装、Demo、文档入口与多语言版本，上手路径较清楚。",
+      "changedSinceLast": "今日新进 TOP3，暂无昨日同榜对比",
+      "suitableFor": "适合同时维护多个仓库、经常中断再续的独立开发者与 2 到 10 人小队，尤其是已在用 Claude Code、希望代理记住历史决策与 bugfix 思路的人；也适合把记忆层当可检索知识库、愿意先在小仓库验证召回准确率的工程组。",
+      "notSuitableFor": "不适合一次性脚本或单会话即可完成的任务；对有代码与日志不得离开本机硬性合规要求的团队，需先确认托管记忆与第三方模型链路；也不适合期望零配置即精准的初学者，以及无法接受旧结论被误召回当事实的团队。",
+      "risk": "默认流程会引导登录，并可选择托管记忆服务（含免费试用与到期回落到自有额度），意味着会话内容可能经第三方压缩与存储，使用前须核对数据流向、留存与删除策略；记忆是对 AI 摘要而非原文，存在误召回与陈旧结论风险，安全告警、密钥等敏感信息不应依赖自动注入，关键决策仍须人工复核与代码评审。",
+      "bestPractice": "在一个中等规模内部仓库试点一个月：先积累记忆，再针对“上次为什么改这个配置”“某 bug 的修复思路”检索，人工比对记忆摘要与 git log、PR 描述是否一致，把确认可用的条目沉淀进仓库文档，形成记忆与文档双轨。",
+      "trialPlan": {
+        "install": "在单个测试仓库按 README 的官方命令接入 Claude Code 插件，显式选择记忆 provider，关闭不需要的在线选项，确认写入目录与卸载方式后再继续。",
+        "pilot": "连续 5 个工作日正常开发，每天新开会话后检查自动注入的上下文，记录有效召回、误召回与需人工纠正的条数。",
+        "evaluation": "看有效召回率、错误记忆条数、每会话节省的背景重述时间、额外 token 与磁盘开销；误召回率超过两成或出现敏感信息出库即停。",
+        "exit": "卸载插件、删除本地记忆目录并申请删除账号数据；若托管链路无法满足合规或成本不可控，退回仓库文档加 PR 模板方案。"
+      },
+      "signals": {
+        "recentCommit": "2026-10-31",
+        "issuesUpdated30d": 233,
+        "prsUpdated30d": 750,
+        "latestRelease": "v15.7.0（2026-10-30）",
+        "readmeMaturity": "成熟",
+        "readmeSignals": "14,526 字符 / 20 个标题 / 有安装说明 / 有 Demo/示例 / 有文档入口"
+      }
+    },
+    {
+      "rank": 2,
+      "repo": "pbakaus/impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "tags": [
+        "AI Agent",
+        "Dev Tool",
+        "Design"
+      ],
+      "tagsCn": [
+        "AI Agent",
+        "Dev Tool",
+        "Design"
+      ],
+      "tagline": "给编码代理一套设计词汇，压掉模板化的 AI 视觉味",
+      "starsToday": 1338,
+      "totalStars": 98250,
+      "starTodayRatio": 1.36,
+      "rankingStatus": "连续 3 次日报 TOP3",
+      "rankingTrack": "10-30#1 -> 10-31#1 -> 11-01#2",
+      "activity": "1 天前有提交",
+      "license": "Apache-2.0",
+      "maintainer": "个人项目（维护者资料公司：Google）；有主页/组织资料，可进一步核实官方性",
+      "positioning": "面向用 Claude Code、Cursor、Codex CLI 等代理批量生成 Web 页面的独立开发者与小型前端组：把受众与品牌事实写进 PRODUCT.md，再用 polish、bolder、critique、audit 等指令配合确定性规则检测并重塑默认配色与排版。边界是只覆盖 Web 前端，规则存在误报，最终审美仍由设计负责人拍板。",
+      "whyWatch": "日增 1338、占比 1.36%，仍是十万星量级项目但热度比上次记录继续回落；1 天前有提交，30 天 issue 更新 163、PR 更新 262，工程侧仍在推进；open issues 63，与上次 62 基本持平，未见积压恶化；release 仍为 cli-v4.8.0（2026-10-26），两周多没有新版；README 维持 13,800 字符、17 个标题，含前后对照图与案例，成熟度没有退步。",
+      "changedSinceLast": "上次记录为第 1 名，日增 2300、占比 2.37%；今天退到第 2 名，日增 1338、占比 1.36%，热度明显降温。open issues 62 增至 63 基本持平，30 天 issue 更新 159 增至 163、PR 262 未变；release 仍停在 cli-v4.8.0，未观察到新版或文档结构变化。",
+      "suitableFor": "适合用代理成批产出落地页、活动页的独立开发者与小前端组，希望摆脱默认字体加紫蓝渐变的模板味；也适合把确定性规则接进提交前检查、由设计负责人逐条复核误报的前端工程团队。",
+      "notSuitableFor": "纯手工编码、不借力 AI 的项目收益有限；换用 README 未列出的代理，命令可能直接失效；规则偏通用 Web 前端，移动原生与非 Web 界面覆盖不足；追求完全自由视觉表达、不愿被规则约束的创意团队会觉得束手。",
+      "risk": "设计规范能否生效取决于代理是否遵循，可能压缩创意并造成跨项目风格趋同；内置规则存在误报，只能作参考信号而非质量唯一标准；若以浏览器扩展或页面抓取方式工作，会接触页面数据，安装前须核查权限与隐私范围；使用真实品牌素材与用户内容须获授权并遵守站点条款，结论应由设计负责人复核。",
+      "bestPractice": "Vite 新建项目后执行安装与 /impeccable init，写入品牌色、字体与产品事实；先让代理生成基线页面，跑 critique、audit 得到问题清单，人工剔除误报后用 polish 重排关键页，把确认过的规则固化到提交前检查。",
+      "trialPlan": {
+        "install": "在单个前端仓库执行 npx impeccable install，按 README 支持的代理列表选定一个，重载工具后运行 /impeccable init。",
+        "pilot": "选一个真实落地页，用同一提示词分别跑无规范与有规范两版，固定由一名前端与一名设计同事盲评。",
+        "evaluation": "看盲评偏好比例、返工轮次、规则报错中确认为误报的比例、单页生成到定稿的耗时；误报占多数则只保留 critique 作参考。",
+        "exit": "移除项目内规则文件与代理配置；若规则导致风格趋同或误报成本高于收益，退回自有设计系统与人工评审流程。"
+      },
+      "signals": {
+        "recentCommit": "2026-10-31",
+        "issuesUpdated30d": 163,
+        "prsUpdated30d": 262,
+        "latestRelease": "cli-v4.8.0（2026-10-26）",
+        "readmeMaturity": "成熟",
+        "readmeSignals": "13,800 字符 / 17 个标题 / 有安装说明 / 有 Demo/示例 / 有文档入口"
+      }
+    },
+    {
+      "rank": 3,
+      "repo": "milind-soni/OpenMausBot",
+      "url": "https://github.com/milind-soni/OpenMausBot",
+      "tags": [
+        "AI Agent",
+        "Computer Use",
+        "Self-hosted"
+      ],
+      "tagsCn": [
+        "AI Agent",
+        "Computer Use",
+        "Self-hosted"
+      ],
+      "tagline": "把多个编码代理做成聊天联系人，各自配一台虚拟机",
+      "starsToday": 1303,
+      "totalStars": 9588,
+      "starTodayRatio": 13.59,
+      "rankingStatus": "新进 TOP3",
+      "rankingTrack": "新上榜",
+      "activity": "1 天前有提交",
+      "license": "Apache-2.0",
+      "maintainer": "个人项目；官方性未见强信号",
+      "positioning": "面向想在本地自建“代理团队”的个人开发者与小团队：每个机器人对应本机 claude、codex、grok CLI，拥有独立人设、模型、线程记忆，以及一台云 Linux 桌面或隔离本地虚拟机，可接数百个应用，关键动作由人在聊天里审批。边界是仍在 0.1.x 早期版本，电脑操作受平台安全边界限制，稳定性与权限控制仍在演进。",
+      "whyWatch": "日增 1303、占比 13.59%，总星只有 9,588，属于小基数快速破圈而非成熟项目；1 天前有提交，30 天 issue 更新 403、PR 更新 1705，迭代极其密集，但 611 个 open issue 相对星数偏高，说明需求与缺陷同时涌入；最新版本 v0.1.136（2026-10-31）仍是 0.1 系列；README 27,224 字符、27 个标题，含下载安装、Demo 与竞品对比，文档投入明显。",
+      "changedSinceLast": "今日新进 TOP3，暂无昨日同榜对比",
+      "suitableFor": "适合已在本地登录 Claude、Codex 等 CLI、想用聊天式界面管理多个长任务代理的开发者；也适合愿意在隔离虚拟机里做计算机操作实验、能接受每周跟版本升级的技术爱好者与做内部验证的小团队。",
+      "notSuitableFor": "不适合需要稳定 API、SLA 与长期兼容承诺的生产系统；处理客户数据的团队必须先完成合规与数据流向评估；不熟悉 Electron 桌面端、虚拟机与密钥管理的用户门槛偏高；期望开箱即用、不愿读两万多字符文档的人容易受挫。",
+      "risk": "处于 0.1.x 早期版本，配置与接口可能频繁变动；机器人可操作云桌面乃至本机（README 称仅在已认证的平台安全边界内），一旦误操作或遭遇提示注入，可能改动本地文件、账号与已连接应用，必须限定隔离环境、最小权限与人工审批；项目与 Grok Bot、Meta、OpenAI、Manus 均无隶属关系，README 也提示同名代币与项目无关，需警惕借名钓鱼与代币骗局；611 个开放 issue 意味着不少问题尚未闭环。",
+      "bestPractice": "在一台独立测试机或本地虚拟机上部署，只接一个低风险仓库加只读型应用，让机器人整理 issue、起草改动但禁止直接推送；所有写操作走人工审批，观察一周后再决定是否放开更多权限。",
+      "trialPlan": {
+        "install": "从官网或 release 页下载对应平台安装包，装在独立测试机；复用已有 CLI 登录，不新开账号，确认配置目录 ~/.openmausbot 的权限。",
+        "pilot": "配 1 到 2 个机器人，限定本地虚拟机与单一测试仓库，任务只到“整理 issue、出改动草案”，禁止直接 push 与访问生产账号。",
+        "evaluation": "记录任务成功率、需人工接管次数、误操作或越权尝试次数、每任务耗时与 token 成本；出现任何未经审批的写操作即视为不可接受。",
+        "exit": "停用机器人并卸载应用，撤销其连接的应用授权与密钥，删除本地数据目录；若版本升级频繁导致配置反复失效，改用单一 CLI 代理加人工流程。"
+      },
+      "signals": {
+        "recentCommit": "2026-10-31",
+        "issuesUpdated30d": 403,
+        "prsUpdated30d": 1705,
+        "latestRelease": "v0.1.136（2026-10-31）",
+        "readmeMaturity": "成熟",
+        "readmeSignals": "27,224 字符 / 27 个标题 / 有安装说明 / 有 Demo/示例 / 有文档入口"
+      }
+    }
+  ]
+}
