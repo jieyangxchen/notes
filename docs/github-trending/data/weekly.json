@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-01T08:00:57.387173+08:00",
-  "window": "2026-10-26..2026-11-01",
+  "generatedAt": "2026-11-02T08:01:12.379452+08:00",
+  "window": "2026-10-27..2026-11-02",
   "topProjects": [
     {
       "repo": "HKUDS/DeepTutor",
@@ -13,19 +13,6 @@
       "appearances": 4,
       "bestRank": 1,
       "latestDate": "2026-10-31",
-      "judgement": "近 7 次记录中出现 4 次，最佳排名第 1，适合优先复盘详情。"
-    },
-    {
-      "repo": "Nutlope/hallmark",
-      "url": "https://github.com/Nutlope/hallmark",
-      "tagsCn": [
-        "AI Agent",
-        "Dev Tool",
-        "浏览器"
-      ],
-      "appearances": 4,
-      "bestRank": 1,
-      "latestDate": "2026-10-29",
       "judgement": "近 7 次记录中出现 4 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
@@ -42,16 +29,29 @@
       "judgement": "近 7 次记录中出现 4 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
-      "repo": "debpalash/VoiceStudio",
-      "url": "https://github.com/debpalash/VoiceStudio",
+      "repo": "Nutlope/hallmark",
+      "url": "https://github.com/Nutlope/hallmark",
       "tagsCn": [
-        "AI 语音",
-        "本地优先",
-        "AGPL"
+        "AI Agent",
+        "Dev Tool",
+        "浏览器"
+      ],
+      "appearances": 3,
+      "bestRank": 1,
+      "latestDate": "2026-10-29",
+      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
+    },
+    {
+      "repo": "thedotmack/claude-mem",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "tagsCn": [
+        "AI Agent",
+        "记忆",
+        "Dev Tool"
       ],
       "appearances": 2,
       "bestRank": 1,
-      "latestDate": "2026-10-27",
+      "latestDate": "2026-11-02",
       "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
@@ -76,8 +76,8 @@
     },
     {
       "repo": "Nutlope/hallmark",
-      "days": 4,
-      "track": "10-26#3 -> 10-27#2 -> 10-28#1 -> 10-29#3"
+      "days": 3,
+      "track": "10-27#2 -> 10-28#1 -> 10-29#3"
     },
     {
       "repo": "pbakaus/impeccable",
@@ -85,9 +85,9 @@
       "track": "10-30#1 -> 10-31#1 -> 11-01#2"
     },
     {
-      "repo": "debpalash/VoiceStudio",
+      "repo": "thedotmack/claude-mem",
       "days": 2,
-      "track": "10-26#2 -> 10-27#1"
+      "track": "11-01#1 -> 11-02#2"
     },
     {
       "repo": "togg53192-cmd/jailbreaks",

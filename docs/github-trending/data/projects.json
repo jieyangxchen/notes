@@ -1,17 +1,41 @@
 {
-  "generatedAt": "2026-11-01T08:00:57.387173+08:00",
+  "generatedAt": "2026-11-02T08:01:12.379452+08:00",
   "projects": [
+    {
+      "repo": "pingdotgg/t3code",
+      "url": "https://github.com/pingdotgg/t3code",
+      "latestDate": "2026-11-02",
+      "latestRank": 1,
+      "tagsCn": [
+        "AI Agent",
+        "Dev Tool",
+        "远程控制"
+      ],
+      "lastTagline": "用手机远程操控本机 Claude Code 等编码代理的控制台"
+    },
     {
       "repo": "thedotmack/claude-mem",
       "url": "https://github.com/thedotmack/claude-mem",
-      "latestDate": "2026-11-01",
-      "latestRank": 1,
+      "latestDate": "2026-11-02",
+      "latestRank": 2,
       "tagsCn": [
         "AI Agent",
         "记忆",
         "Dev Tool"
       ],
-      "lastTagline": "跨会话捕获代理操作并压缩成记忆，再注入后续会话"
+      "lastTagline": "为 Claude Code 等代理做跨会话记忆压缩与按需回注"
+    },
+    {
+      "repo": "patchy631/ai-engineering-hub",
+      "url": "https://github.com/patchy631/ai-engineering-hub",
+      "latestDate": "2026-11-02",
+      "latestRank": 3,
+      "tagsCn": [
+        "学术研究",
+        "教程",
+        "RAG"
+      ],
+      "lastTagline": "93+ 个 LLM、RAG 与 Agent 实战项目教程合集"
     },
     {
       "repo": "pbakaus/impeccable",
