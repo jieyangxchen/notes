@@ -1,29 +1,41 @@
 {
-  "generatedAt": "2026-11-02T08:01:12.379452+08:00",
+  "generatedAt": "2026-11-03T08:04:16.230735+08:00",
   "projects": [
     {
       "repo": "pingdotgg/t3code",
       "url": "https://github.com/pingdotgg/t3code",
-      "latestDate": "2026-11-02",
+      "latestDate": "2026-11-03",
       "latestRank": 1,
       "tagsCn": [
         "AI Agent",
         "Dev Tool",
         "远程控制"
       ],
-      "lastTagline": "用手机远程操控本机 Claude Code 等编码代理的控制台"
+      "lastTagline": "把本机 Claude Code 等 CLI 代理接到手机与桌面继续跑长任务"
+    },
+    {
+      "repo": "vercel-labs/agent-desktop",
+      "url": "https://github.com/vercel-labs/agent-desktop",
+      "latestDate": "2026-11-03",
+      "latestRank": 2,
+      "tagsCn": [
+        "AI Agent",
+        "Computer Use",
+        "Dev Tool"
+      ],
+      "lastTagline": "用系统无障碍树读写桌面应用，让代理按 ref 操作而非像素匹配"
     },
     {
       "repo": "thedotmack/claude-mem",
       "url": "https://github.com/thedotmack/claude-mem",
-      "latestDate": "2026-11-02",
-      "latestRank": 2,
+      "latestDate": "2026-11-03",
+      "latestRank": 3,
       "tagsCn": [
         "AI Agent",
         "记忆",
         "Dev Tool"
       ],
-      "lastTagline": "为 Claude Code 等代理做跨会话记忆压缩与按需回注"
+      "lastTagline": "跨会话捕获代理工具调用并压缩回注，让新会话记得旧决策"
     },
     {
       "repo": "patchy631/ai-engineering-hub",
