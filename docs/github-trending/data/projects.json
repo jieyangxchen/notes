@@ -1,6 +1,42 @@
 {
-  "generatedAt": "2026-11-03T08:04:16.230735+08:00",
+  "generatedAt": "2026-11-04T08:00:53.293628+08:00",
   "projects": [
+    {
+      "repo": "vercel-labs/agent-desktop",
+      "url": "https://github.com/vercel-labs/agent-desktop",
+      "latestDate": "2026-11-04",
+      "latestRank": 1,
+      "tagsCn": [
+        "AI Agent",
+        "Computer Use",
+        "CLI"
+      ],
+      "lastTagline": "用无障碍树给代理加桌面操作能力，按 ref 点击后回读校验"
+    },
+    {
+      "repo": "D4Vinci/Scrapling",
+      "url": "https://github.com/D4Vinci/Scrapling",
+      "latestDate": "2026-11-04",
+      "latestRank": 2,
+      "tagsCn": [
+        "浏览器",
+        "Crawler",
+        "Python"
+      ],
+      "lastTagline": "Python 爬虫框架：自适应解析、隐身抓取与 MCP 接入"
+    },
+    {
+      "repo": "Donchitos/Claude-Code-Game-Studios",
+      "url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
+      "latestDate": "2026-11-04",
+      "latestRank": 3,
+      "tagsCn": [
+        "AI Agent",
+        "Game Dev",
+        "Workflow"
+      ],
+      "lastTagline": "49 个 agent 加 74 个技能，套上工作室流程做游戏"
+    },
     {
       "repo": "pingdotgg/t3code",
       "url": "https://github.com/pingdotgg/t3code",
@@ -12,18 +48,6 @@
         "远程控制"
       ],
       "lastTagline": "把本机 Claude Code 等 CLI 代理接到手机与桌面继续跑长任务"
-    },
-    {
-      "repo": "vercel-labs/agent-desktop",
-      "url": "https://github.com/vercel-labs/agent-desktop",
-      "latestDate": "2026-11-03",
-      "latestRank": 2,
-      "tagsCn": [
-        "AI Agent",
-        "Computer Use",
-        "Dev Tool"
-      ],
-      "lastTagline": "用系统无障碍树读写桌面应用，让代理按 ref 操作而非像素匹配"
     },
     {
       "repo": "thedotmack/claude-mem",

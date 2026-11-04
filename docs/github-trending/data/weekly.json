@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-03T08:04:16.230735+08:00",
-  "window": "2026-10-28..2026-11-03",
+  "generatedAt": "2026-11-04T08:00:53.293628+08:00",
+  "window": "2026-10-29..2026-11-04",
   "topProjects": [
     {
       "repo": "HKUDS/DeepTutor",
@@ -10,10 +10,10 @@
         "AI Agent",
         "Education"
       ],
-      "appearances": 4,
+      "appearances": 3,
       "bestRank": 1,
       "latestDate": "2026-10-31",
-      "judgement": "近 7 次记录中出现 4 次，最佳排名第 1，适合优先复盘详情。"
+      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
       "repo": "pbakaus/impeccable",
@@ -42,19 +42,6 @@
       "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
-      "repo": "Nutlope/hallmark",
-      "url": "https://github.com/Nutlope/hallmark",
-      "tagsCn": [
-        "AI Agent",
-        "Dev Tool",
-        "浏览器"
-      ],
-      "appearances": 2,
-      "bestRank": 1,
-      "latestDate": "2026-10-29",
-      "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
-    },
-    {
       "repo": "pingdotgg/t3code",
       "url": "https://github.com/pingdotgg/t3code",
       "tagsCn": [
@@ -66,13 +53,26 @@
       "bestRank": 1,
       "latestDate": "2026-11-03",
       "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
+    },
+    {
+      "repo": "vercel-labs/agent-desktop",
+      "url": "https://github.com/vercel-labs/agent-desktop",
+      "tagsCn": [
+        "AI Agent",
+        "Computer Use",
+        "CLI"
+      ],
+      "appearances": 2,
+      "bestRank": 1,
+      "latestDate": "2026-11-04",
+      "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
     }
   ],
   "streaks": [
     {
       "repo": "HKUDS/DeepTutor",
-      "days": 4,
-      "track": "10-28#2 -> 10-29#1 -> 10-30#2 -> 10-31#2"
+      "days": 3,
+      "track": "10-29#1 -> 10-30#2 -> 10-31#2"
     },
     {
       "repo": "pbakaus/impeccable",
@@ -85,11 +85,6 @@
       "track": "11-01#1 -> 11-02#2 -> 11-03#3"
     },
     {
-      "repo": "Nutlope/hallmark",
-      "days": 2,
-      "track": "10-28#1 -> 10-29#3"
-    },
-    {
       "repo": "pingdotgg/t3code",
       "days": 2,
       "track": "11-02#1 -> 11-03#1"
@@ -98,6 +93,11 @@
       "repo": "togg53192-cmd/jailbreaks",
       "days": 2,
       "track": "10-30#3 -> 10-31#3"
+    },
+    {
+      "repo": "vercel-labs/agent-desktop",
+      "days": 2,
+      "track": "11-03#2 -> 11-04#1"
     }
   ]
 }

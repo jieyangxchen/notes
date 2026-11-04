@@ -2,6 +2,7 @@
 * [跟踪说明](/github-trending/)
 * [近 7 次周报](/github-trending/weekly.md)
 * [2026-11](/github-trending/2026-11.md)
+  * [2026-11-04](/github-trending/2026-11-04.md)
   * [2026-11-03](/github-trending/2026-11-03.md)
   * [2026-11-02](/github-trending/2026-11-02.md)
   * [2026-11-01](/github-trending/2026-11-01.md)
