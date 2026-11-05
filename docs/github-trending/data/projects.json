@@ -1,29 +1,42 @@
 {
-  "generatedAt": "2026-11-04T08:00:53.293628+08:00",
+  "generatedAt": "2026-11-05T08:07:06.574900+08:00",
   "projects": [
     {
       "repo": "vercel-labs/agent-desktop",
       "url": "https://github.com/vercel-labs/agent-desktop",
-      "latestDate": "2026-11-04",
+      "latestDate": "2026-11-05",
       "latestRank": 1,
       "tagsCn": [
         "AI Agent",
-        "Computer Use",
-        "CLI"
+        "Dev Tool",
+        "Desktop Automation"
       ],
-      "lastTagline": "用无障碍树给代理加桌面操作能力，按 ref 点击后回读校验"
+      "lastTagline": "把桌面应用的无障碍树变成代理可点击的 ref"
+    },
+    {
+      "repo": "NVIDIA/auto-ontology",
+      "url": "https://github.com/NVIDIA/auto-ontology",
+      "latestDate": "2026-11-05",
+      "latestRank": 2,
+      "tagsCn": [
+        "AI Agent",
+        "Data",
+        "MCP"
+      ],
+      "lastTagline": "用企业元数据搭语义本体，让 agent 查数有据可依"
     },
     {
       "repo": "D4Vinci/Scrapling",
       "url": "https://github.com/D4Vinci/Scrapling",
-      "latestDate": "2026-11-04",
-      "latestRank": 2,
+      "latestDate": "2026-11-05",
+      "latestRank": 3,
       "tagsCn": [
         "浏览器",
-        "Crawler",
-        "Python"
+        "Scraping",
+        "Python",
+        "MCP"
       ],
-      "lastTagline": "Python 爬虫框架：自适应解析、隐身抓取与 MCP 接入"
+      "lastTagline": "一个库打通 HTTP 请求、隐身浏览器与全站爬取"
     },
     {
       "repo": "Donchitos/Claude-Code-Game-Studios",

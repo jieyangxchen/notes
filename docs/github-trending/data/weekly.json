@@ -1,20 +1,7 @@
 {
-  "generatedAt": "2026-11-04T08:00:53.293628+08:00",
-  "window": "2026-10-29..2026-11-04",
+  "generatedAt": "2026-11-05T08:07:06.574900+08:00",
+  "window": "2026-10-30..2026-11-05",
   "topProjects": [
-    {
-      "repo": "HKUDS/DeepTutor",
-      "url": "https://github.com/HKUDS/DeepTutor",
-      "tagsCn": [
-        "学术研究",
-        "AI Agent",
-        "Education"
-      ],
-      "appearances": 3,
-      "bestRank": 1,
-      "latestDate": "2026-10-31",
-      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
-    },
     {
       "repo": "pbakaus/impeccable",
       "url": "https://github.com/pbakaus/impeccable",
@@ -42,6 +29,19 @@
       "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
+      "repo": "vercel-labs/agent-desktop",
+      "url": "https://github.com/vercel-labs/agent-desktop",
+      "tagsCn": [
+        "AI Agent",
+        "Dev Tool",
+        "Desktop Automation"
+      ],
+      "appearances": 3,
+      "bestRank": 1,
+      "latestDate": "2026-11-05",
+      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
+    },
+    {
       "repo": "pingdotgg/t3code",
       "url": "https://github.com/pingdotgg/t3code",
       "tagsCn": [
@@ -55,25 +55,21 @@
       "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
-      "repo": "vercel-labs/agent-desktop",
-      "url": "https://github.com/vercel-labs/agent-desktop",
+      "repo": "D4Vinci/Scrapling",
+      "url": "https://github.com/D4Vinci/Scrapling",
       "tagsCn": [
-        "AI Agent",
-        "Computer Use",
-        "CLI"
+        "浏览器",
+        "Scraping",
+        "Python",
+        "MCP"
       ],
       "appearances": 2,
-      "bestRank": 1,
-      "latestDate": "2026-11-04",
-      "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
+      "bestRank": 2,
+      "latestDate": "2026-11-05",
+      "judgement": "近 7 次记录中出现 2 次，最佳排名第 2，适合优先复盘详情。"
     }
   ],
   "streaks": [
-    {
-      "repo": "HKUDS/DeepTutor",
-      "days": 3,
-      "track": "10-29#1 -> 10-30#2 -> 10-31#2"
-    },
     {
       "repo": "pbakaus/impeccable",
       "days": 3,
@@ -85,6 +81,21 @@
       "track": "11-01#1 -> 11-02#2 -> 11-03#3"
     },
     {
+      "repo": "vercel-labs/agent-desktop",
+      "days": 3,
+      "track": "11-03#2 -> 11-04#1 -> 11-05#1"
+    },
+    {
+      "repo": "D4Vinci/Scrapling",
+      "days": 2,
+      "track": "11-04#2 -> 11-05#3"
+    },
+    {
+      "repo": "HKUDS/DeepTutor",
+      "days": 2,
+      "track": "10-30#2 -> 10-31#2"
+    },
+    {
       "repo": "pingdotgg/t3code",
       "days": 2,
       "track": "11-02#1 -> 11-03#1"
@@ -93,11 +104,6 @@
       "repo": "togg53192-cmd/jailbreaks",
       "days": 2,
       "track": "10-30#3 -> 10-31#3"
-    },
-    {
-      "repo": "vercel-labs/agent-desktop",
-      "days": 2,
-      "track": "11-03#2 -> 11-04#1"
     }
   ]
 }

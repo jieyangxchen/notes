@@ -1,16 +1,16 @@
 {
-  "date": "2026-11-04",
-  "generatedAt": "2026-11-04T08:00:53.293628+08:00",
+  "date": "2026-11-05",
+  "generatedAt": "2026-11-05T08:07:06.574900+08:00",
   "source": "https://github.com/trending?since=daily",
   "tags": [
     "AI Agent",
-    "Computer Use",
-    "CLI",
-    "Browser",
-    "Crawler",
-    "Python"
+    "Dev Tool",
+    "Desktop Automation",
+    "Data",
+    "MCP",
+    "Browser"
   ],
-  "observation": "三个项目同处“给 agent 装能力”这条线上，但所处层级不同：agent-desktop 是 Rust 写的底层动作层，把桌面无障碍树变成可点击的 ref；Scrapling 是成熟的 Python 抓取栈，用自适应解析和 MCP 把网页数据喂给 agent；Claude-Code-Game-Studios 则是纯提示与流程资产，用几十个角色约束游戏开发。共同点是不自带模型、都靠“执行—回读—校验”闭环来收敛错误；差异在权限敏感度与可验证性：桌面操作最难以回滚，爬虫合规压力最大，游戏流程最容易复制却最难衡量产出。",
+  "observation": "三个项目都在给 agent 补“手脚与依据”：agent-desktop 把桌面无障碍树变成可点击的 ref，auto-ontology 用企业元数据把指标定义变成可校验本体，Scrapling 把网页变成可抓取的结构化数据，都以 MCP/CLI 作接入面。差异在成熟度：agent-desktop 高位摊薄且 issue 积压上涨；auto-ontology 单日占比 41.77% 最陡，但无公开 release 且声明不接受外部贡献；Scrapling 老项目稳定升温、积压最少。共同底线是私人数据外泄与操作授权边界。",
   "projects": [
     {
       "rank": 1,
@@ -18,40 +18,40 @@
       "url": "https://github.com/vercel-labs/agent-desktop",
       "tags": [
         "AI Agent",
-        "Computer Use",
-        "CLI"
+        "Dev Tool",
+        "Desktop Automation"
       ],
       "tagsCn": [
         "AI Agent",
-        "Computer Use",
-        "CLI"
+        "Dev Tool",
+        "Desktop Automation"
       ],
-      "tagline": "用无障碍树给代理加桌面操作能力，按 ref 点击后回读校验",
-      "starsToday": 3791,
-      "totalStars": 12666,
-      "starTodayRatio": 29.93,
-      "rankingStatus": "连续 2 次日报 TOP3",
-      "rankingTrack": "11-03#2 -> 11-04#1",
+      "tagline": "把桌面应用的无障碍树变成代理可点击的 ref",
+      "starsToday": 2470,
+      "totalStars": 15034,
+      "starTodayRatio": 16.43,
+      "rankingStatus": "连续 3 次日报 TOP3",
+      "rankingTrack": "11-03#2 -> 11-04#1 -> 11-05#1",
       "activity": "1 天前有提交",
       "license": "Apache-2.0",
       "maintainer": "组织/公司/社区项目（Vercel Labs）；有主页/组织资料，可进一步核实官方性",
-      "positioning": "面向需要让代理直接操作桌面软件的自动化工程师：它把 macOS/Windows/Linux 的无障碍树快照成 JSON，每个可操作元素带 ref，代理按 ref 点击输入后重新快照校验。它不含模型，只提供 CLI 与 C 库；边界是无节点界面（画布、游戏、自绘 UI）无法操作。",
-      "whyWatch": "单日 +3791 星、占总量 29.93%，是三者中最陡的曲线；1 天前仍有提交，版本从 v1.0.2 升到 v1.1.0（11-03），近 30 天 PR 更新 222 次、issue 更新 79 次，README 写明 STALE_REF / AMBIGUOUS_TARGET 错误语义，说明维护跟得上。但 open issue 已到 147，积压也在同步上涨。",
-      "changedSinceLast": "与上次记录相比，日增从 2275 升到 3791 星、占比从 23.76% 升到 29.93%；版本由 v1.0.2 迭代到 v1.1.0，30 天 PR 更新从 203 升到 222，但 open issue/PR 从 122 增至 147；README 正文反而从 6,932 字符收缩到 5,535 字符，疑似把细节迁到了外部文档站。",
-      "suitableFor": "适合要让代理操作 ERP 客户端、旧版后台等内部桌面软件的自动化团队，以及想用 CLI 或 C 库给自家 agent 补桌面动作、并愿意处理辅助功能授权与 ref 失效重试的工程师。",
-      "notSuitableFor": "不适合目标界面是画布、游戏或自绘 UI 的场景，无障碍树没有节点就无从下手；也不适合会把截图、剪贴板、快照写进公共日志的团队，以及需要物理鼠标轨迹做测试的场景。",
-      "risk": "快照、剪贴板与截图都可能带出私人桌面内容，README 明确要求不外传；可选 JEV helper 会把屏幕描述发给模型提供方。这等于把键鼠权限交给代理，须设应用白名单与人工复核；金融、医疗等敏感终端不建议直连，并需符合内部数据合规要求。",
-      "bestPractice": "在隔离测试账号里让代理操作内部工单客户端：先用 snapshot --skeleton 摸清结构，按 ref 填表提交，再重新快照核对结果；所有输出写本地临时目录而非日志系统，高风险提交由人工抽查。",
+      "positioning": "面向要让代理操作 ERP 客户端、旧版后台等内部桌面软件的自动化团队：它把无障碍树快照成 JSON，每个可操作元素带 ref，代理按 ref 点击输入后重新快照校验，本身不含模型。边界是无节点界面（画布、游戏、自绘 UI）无从操作，界面一变 ref 就失效需重试。",
+      "whyWatch": "单日 +2470 星、占比 16.43%，从昨日第 2 升到第 1，但绝对增量较上次 3791 明显回落，呈高位摊薄；1 天前仍有提交，版本停在 v1.1.0 无新 release；30 天 PR 更新 226 说明维护活跃，open issue/PR 由 147 增至 163，积压同步上涨；README 5,535 字符写明 STALE_REF/AMBIGUOUS_TARGET 语义，细节似迁至外部文档站。",
+      "changedSinceLast": "上次记录为 2026-11-03 第 2 名：日增从 3791 回落到 2470、占比由 29.93% 降到 16.43%，排名升至第 1 但热度在摊薄；版本仍为 v1.1.0 未见新 release，open issue/PR 由 147 增至 163，积压继续上涨，README 正文维持 5,535 字符未再扩张。",
+      "suitableFor": "适合要让代理跑内部工单客户端、财务或 ERP 桌面端等重复录入流程的自动化团队，以及愿意处理辅助功能授权、ref 失效重试与快照校验的工程师；有 C 库或 CLI 集成需求、能自建隔离测试机的团队收益最大。",
+      "notSuitableFor": "不适合目标是画布、游戏、自绘 UI 或远程桌面画面的场景，无障碍树没有节点就无从下手；也不适合会把快照、截图、剪贴板写进公共日志的团队，以及需要物理鼠标轨迹做兼容性测试的场景。",
+      "risk": "快照、剪贴板与截图都可能带出私人桌面内容，README 明确要求不外传；可选 JEV helper 会把屏幕描述发给模型提供方。这等于把键鼠权限交给代理，须设应用白名单与人工复核；金融、医疗等敏感终端不建议直连，需先过内部数据合规与审计。",
+      "bestPractice": "在隔离测试账号里让代理操作内部工单客户端：先用 snapshot --skeleton 摸清结构，按带快照 id 的 ref 填表提交，再重新快照核对结果；所有输出写本地临时目录而非日志系统，高风险提交由人工抽查并保留操作流水。",
       "trialPlan": {
-        "install": "在测试机用 npm/pnpm 安装或 brew install agent-desktop；macOS 先跑 permissions --guide 授予辅助功能权限，Linux 确认 at-spi2-core 与图形会话，记录版本与卸载方式。",
-        "pilot": "选一个非敏感桌面应用，写“快照—按 ref 操作—再快照”的最小脚本，连续一周只做查询与填表类低风险动作，全程留痕。",
-        "evaluation": "统计单任务成功步数、STALE_REF/AMBIGUOUS_TARGET 出现频率与重试是否收敛，并检查快照与截图中是否出现不该外传的内容。",
-        "exit": "若无法限定应用白名单、STALE_REF 频繁导致误操作，或出现敏感数据外流迹象，立即停用并回到全人工操作。"
+        "install": "测试机用 pnpm 安装或 brew install agent-desktop；macOS 先跑 permissions --guide 授予辅助功能权限，Linux 确认 at-spi2-core 与图形会话，记录版本与卸载方式。",
+        "pilot": "选一个非敏感桌面应用，写“快照—按 ref 操作—再快照”的最小脚本，连续一周只跑只读或可回滚动作。",
+        "evaluation": "统计动作成功率、STALE_REF 重试率、单步耗时与人工复核驳回率；对比手工操作时间是否真有收益。",
+        "exit": "若关键界面无无障碍节点、重试率长期偏高，或无法保证快照不进入共享日志，即停止并回退到人工流程。"
       },
       "signals": {
-        "recentCommit": "2026-11-03",
-        "issuesUpdated30d": 79,
-        "prsUpdated30d": 222,
+        "recentCommit": "2026-11-04",
+        "issuesUpdated30d": 65,
+        "prsUpdated30d": 226,
         "latestRelease": "v1.1.0（2026-11-03）",
         "readmeMaturity": "成熟",
         "readmeSignals": "5,535 字符 / 12 个标题 / 有安装说明 / 有 Demo/示例 / 有文档入口"
@@ -59,92 +59,94 @@
     },
     {
       "rank": 2,
-      "repo": "D4Vinci/Scrapling",
-      "url": "https://github.com/D4Vinci/Scrapling",
+      "repo": "NVIDIA/auto-ontology",
+      "url": "https://github.com/NVIDIA/auto-ontology",
       "tags": [
-        "Browser",
-        "Crawler",
-        "Python"
+        "AI Agent",
+        "Data",
+        "MCP"
       ],
       "tagsCn": [
-        "浏览器",
-        "Crawler",
-        "Python"
+        "AI Agent",
+        "Data",
+        "MCP"
       ],
-      "tagline": "Python 爬虫框架：自适应解析、隐身抓取与 MCP 接入",
-      "starsToday": 1658,
-      "totalStars": 94781,
-      "starTodayRatio": 1.75,
-      "rankingStatus": "非连续；上次 06-02 第3",
-      "rankingTrack": "06-02#3 -> 11-04#2",
+      "tagline": "用企业元数据搭语义本体，让 agent 查数有据可依",
+      "starsToday": 2050,
+      "totalStars": 4908,
+      "starTodayRatio": 41.77,
+      "rankingStatus": "新进 TOP3",
+      "rankingTrack": "新上榜",
       "activity": "1 天前有提交",
-      "license": "BSD-3-Clause",
-      "maintainer": "个人项目；官方性未见强信号",
-      "positioning": "面向要长期维护抓取管道的 Python 开发者与数据/AI 喂养团队：从单次请求到全站爬取都在一个库内，含 HTTP 抓取、隐身浏览器、自适应选择器、代理轮换与 JSON/CSV 导出。边界是必须遵守 robots.txt 与目标站点条款，反检测不保证绕过所有 WAF，大规模抓取需自备合规代理。",
-      "whyWatch": "总星 94,781 已是三者中体量最大的，单日 +1658 但占比仅 1.75%，属老项目回热而非新爆发；1 天前有提交，v0.5（10-17）已发布，30 天 PR 更新 65 次而 open issue 仅 6 个，积压很轻；README 16,713 字符含 36 个标题，覆盖抓取、解析、爬虫、CLI 与 MCP。",
-      "changedSinceLast": "上次记录时版本为 v0.4.8（5-11）、README 13,012 字符、open issue/PR 合计 18；如今升到 v0.5（10-17），README 扩到 16,713 字符并新增 MCP server 与 Agent Skill 章节，30 天 PR 更新从 27 增至 65、open 积压降到 6。日增绝对量从 1486 升到 1658，占比却从 2.56% 回落到 1.75%，属体量变大后的正常摊薄。",
-      "suitableFor": "适合需要长期维护爬虫、频繁应对目标站改版的团队，用自适应元素跟踪减少修选择器的时间；也适合要把网页内容整理成 Markdown 喂给 AI 管道、希望用 MCP 让 agent 直接抓取的开发者。",
-      "notSuitableFor": "不适合想无视 robots.txt 或绕过访问控制拿数据的用法；也不适合指望开箱即绕过所有 WAF 的关键任务，以及不愿配置合规代理、无法承担被封后重试成本的轻量脚本。",
-      "risk": "合规是第一位：抓取范围、频率与用途必须符合目标站点条款与当地法律，反检测能力被滥用会带来法律与声誉风险，代理池来源也需合法。技术上隐身模式不等于不被识别，高频请求仍可能封 IP，误抓个人数据还需脱敏。",
-      "bestPractice": "做电商竞品价格监控：定时抓列表页，用自适应解析跟上页面改版，配 AutoThrottle 与合规代理控制频率，数据落库生成趋势报表，并保留抓取日志以备合规审计。",
+      "license": "Apache-2.0",
+      "maintainer": "组织/公司/社区项目（NVIDIA Corporation）；有主页/组织资料，可进一步核实官方性",
+      "positioning": "面向已有数仓与语义模型、想让 agent 稳定回答指标问题的数据平台团队：它从企业元数据生成本体、对齐跨系统定义，再经 MCP/CLI/API 暴露给 agent，用于校验生成的 SQL 并回传血缘。边界是依赖 NVIDIA NIM 推理与 Postgres+pgvector 部署，仓库声明暂不接受外部贡献。",
+      "whyWatch": "单日 +2050 星却占总星 41.77%，是三者中最陡的新爆发曲线；1 天前有提交，30 天 PR 更新 72、issue 更新 29，open 42 相对可控；README 17,523 字符 20 个标题，含安装、Demo 与文档入口。但暂无公开 release，且明示不接收外部贡献，生成本体的准确率只能靠自带评测仓库自验。",
+      "changedSinceLast": "今日新进 TOP3，暂无昨日同榜对比",
+      "suitableFor": "适合已有指标字典或语义层、正被 agent 答数不准困扰的数据团队，用来给 SQL 生成加定义校验与血缘；也适合需要在 Kubernetes 或本地 Docker 栈内自托管的平台组，前提是已有 NVIDIA NIM 推理资源。",
+      "notSuitableFor": "不适合想开箱即用、不愿维护 Postgres、pgvector 与 NIM 端点的轻量团队；也不适合指望给上游提 PR 修 bug 的用户——项目明确不接受外部贡献，以及依赖非 NVIDIA 推理栈、要求完全离线小模型的环境。",
+      "risk": "本体与指标对齐由 LLM 生成，定义错了比没有答案更危险，必须用认证定义与人工复核兜底；README 明示 not accepting external contributions，issue 修复速度不可控，需锁版本或自建 fork；NIM 端点会把 schema 与查询发出，金融、医疗须走自托管 NIM 并做脱敏。",
+      "bestPractice": "在只读副本上搭语义目录，挑 20 个已认证指标问题做回归：让 agent 生成 SQL 后按本体校验并返回血缘，错答人工标注回灌本体，形成“问—验—纠”闭环，再逐步放开到受控业务用户。",
       "trialPlan": {
-        "install": "pip install scrapling 并按需安装 Playwright 浏览器；先用本地 IP 与低并发试跑，代理池等确有需要再接入，记录版本与依赖。",
-        "pilot": "选一个允许抓取、结构会变的公开站点，写最小爬虫抓列表页字段，观察页面改版后自适应解析是否仍能定位元素。",
-        "evaluation": "连续 7 天看成功率是否高于 95%、是否被封 IP、改版后多久能恢复，以及自适应回退时的数据准确率。",
-        "exit": "若收到站点警告、多次封 IP 且合规代理无法解决，或抓取内容涉及受限数据，立即停爬并改走官方 API。"
+        "install": "用 Docker Compose 拉起 Next.js、FastAPI、worker 与 Postgres+pgvector，在 .env 填 NIM 端点；先接一个只读业务库，记录版本与依赖清单。",
+        "pilot": "选一个业务域（如订单收入）建最小本体，接入 20–30 条已认证的问题与正确 SQL 作为基准集。",
+        "evaluation": "看答案准确率、生成 SQL 与认证定义的一致率、血缘可追溯比例、端到端延迟，并与现有语义层人工口径对比。",
+        "exit": "若准确率低于现有语义层、无法自托管 NIM 或 schema 不能出内网，即停用并保留既有 BI 口径。"
       },
       "signals": {
-        "recentCommit": "2026-11-03",
-        "issuesUpdated30d": 18,
-        "prsUpdated30d": 65,
-        "latestRelease": "v0.5（2026-10-17）",
+        "recentCommit": "2026-11-04",
+        "issuesUpdated30d": 29,
+        "prsUpdated30d": 72,
+        "latestRelease": "暂无公开 release",
         "readmeMaturity": "成熟",
-        "readmeSignals": "16,713 字符 / 36 个标题 / 有安装说明 / 有 Demo/示例 / 有文档入口"
+        "readmeSignals": "17,523 字符 / 20 个标题 / 有安装说明 / 有 Demo/示例 / 有文档入口"
       }
     },
     {
       "rank": 3,
-      "repo": "Donchitos/Claude-Code-Game-Studios",
-      "url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
+      "repo": "D4Vinci/Scrapling",
+      "url": "https://github.com/D4Vinci/Scrapling",
       "tags": [
-        "AI Agent",
-        "Game Dev",
-        "Workflow"
+        "Browser",
+        "Scraping",
+        "Python",
+        "MCP"
       ],
       "tagsCn": [
-        "AI Agent",
-        "Game Dev",
-        "Workflow"
+        "浏览器",
+        "Scraping",
+        "Python",
+        "MCP"
       ],
-      "tagline": "49 个 agent 加 74 个技能，套上工作室流程做游戏",
-      "starsToday": 1182,
-      "totalStars": 34638,
-      "starTodayRatio": 3.41,
-      "rankingStatus": "新进 TOP3",
-      "rankingTrack": "新上榜",
-      "activity": "16 天前有提交",
-      "license": "MIT",
-      "maintainer": "个人项目；官方性未见强信号",
-      "positioning": "面向用 Claude Code 做独立游戏、但缺流程约束的开发者：把一次会话拆成导演、部门主管、专才三层角色，配 74 个斜杠命令、15 个 hooks、14 条路径规则与 62 个文档模板，覆盖 GDD、史诗、故事、QA 到发版。边界是它产出结构化流程与文档，不是可玩游戏本身。",
-      "whyWatch": "单日 +1182 星、占比 3.41%，总星 34,638 说明不是一次性爆发；README 19,700 字符、26 个标题，列清代理层级、Godot 4/Unity/UE5 引擎专才与命令表，还专门回答“产出是游戏还是文档”。但最近提交已是 16 天前，30 天仅 10 个 issue 更新对 93 个 open issue，维护节奏偏慢；描述写 72 个技能、README 写 74 个，细节有不一致。",
-      "changedSinceLast": "今日新进 TOP3，暂无昨日同榜对比",
-      "suitableFor": "适合用 Claude Code 做 Godot/Unity/UE5 独立游戏、苦于单人开发没有评审与 QA 环节的开发者，把它当流程模板与提问清单，强制自己写设计文档、拆故事、过质量门。",
-      "notSuitableFor": "不适合指望一句话生成可玩游戏的团队，它给的是角色与流程而非运行时能力；也不适合已有多人协作与 CI 规范的成熟工作室，额外角色层会增加提示维护成本，新手还容易只跑命令不见产出。",
-      "risk": "维护主体为个人账号、无官方身份，MIT 可商用但需自行评估；93 个 open issue 对 30 天仅 10 次更新、16 天无提交，长期维护存疑；大量角色与 hooks 会推高 token 与上下文负担，代理评审也可能只是“看起来专业”，关键设计决策仍须人审。",
-      "bestPractice": "在一个小型 Godot 原型上先用 /start 与 /design-system 固定愿景和系统边界，再让 lead-programmer 拆故事、按路径规则写代码，每次提交前让 QA 角色按模板出检查清单，人只做取舍。",
+      "tagline": "一个库打通 HTTP 请求、隐身浏览器与全站爬取",
+      "starsToday": 2005,
+      "totalStars": 96499,
+      "starTodayRatio": 2.08,
+      "rankingStatus": "连续 2 次日报 TOP3",
+      "rankingTrack": "11-04#2 -> 11-05#3",
+      "activity": "1 天前有提交",
+      "license": "BSD-3-Clause",
+      "maintainer": "个人项目（维护者资料公司：Infatica）；有主页/组织资料，可进一步核实官方性",
+      "positioning": "面向长期维护抓取管道的 Python 开发者与数据/AI 喂养团队：从单次请求到全站爬取在同一库内完成，含快速 HTTP、隐身浏览器、自适应选择器、代理轮换与 JSON/CSV 导出。边界是必须遵守 robots.txt 与目标站点条款，反检测不保证绕过所有 WAF，大规模抓取需自备合规代理。",
+      "whyWatch": "总星 96,499 已是三者最大体量，单日 +2005 但占比仅 2.08%，属稳定升温而非爆发；1 天前有提交，v0.5（10-17）之后于 11-04 发出 v0.5.1；30 天 PR 更新 72 而 open issue 仅 7，积压极低；README 16,909 字符 36 个标题，覆盖抓取、自适应解析、爬虫、CLI 与 MCP server。",
+      "changedSinceLast": "上次记录为 2026-06-02 第 3 名：版本由 v0.4.8 经 v0.5 升到 v0.5.1（11-04），README 从 16,713 扩到 16,909 字符并保留 MCP 与 Agent Skill 章节；30 天 PR 更新由 65 增至 72，open issue 由 6 微增到 7，日增 1658→2005 而占比仍在低位，属体量摊薄后的稳定升温。",
+      "suitableFor": "适合需要长期维护爬虫、频繁应对目标站改版的团队，用自适应元素跟踪减少修选择器的时间；也适合要把网页整理成 Markdown 喂给 AI 管道、希望用 MCP 让 agent 直接抓取的开发者，且能自备合规代理与限速。",
+      "notSuitableFor": "不适合想无视 robots.txt 或绕过访问控制取数的用法；也不适合指望开箱即绕过所有 WAF 的关键任务，以及无法承担被封后重试成本、不愿配置合规代理与审计日志的轻量一次性脚本。",
+      "risk": "合规是第一位的：抓取范围、频率与用途须符合目标站点条款与当地法律，处理 Cloudflare Turnstile 等能力被滥用会带来法律与声誉风险，代理池来源亦须合法。隐身不等于不被识别，高频仍会封 IP；误抓个人数据须脱敏，并保留审计日志。项目为个人账号维护，长期治理需评估。",
+      "bestPractice": "做电商竞品价格监控：定时抓列表页，用自适应解析跟上改版，配 AutoThrottle 与合规代理控制频率，数据落库生成趋势报表，同时保留抓取日志与站点条款依据以备合规审计。",
       "trialPlan": {
-        "install": "在已有 Claude Code 环境中按 README 克隆仓库，把 agents/skills/hooks 复制到项目配置目录，先只启用 Godot 一套，记录版本与回滚方式。",
-        "pilot": "用一个两周内能完成的小原型跑通 /start → /design-system → /create-stories → /dev-story 全链路，只在一台机器、一个分支上做。",
-        "evaluation": "看是否真产出可评审的 GDD 与故事、hooks 拦下多少无效提交、代理评审意见的采纳率，以及会话 token 成本是否可接受。",
-        "exit": "若代理输出多为泛泛文档、hooks 频繁误拦或 token 成本超预算，退回只保留命令与模板，不再启用全套角色。"
+        "install": "pip 安装 Scrapling 并按需装 Playwright 浏览器；先用本地 IP 与低并发试跑，代理池确有需要再接入，记录版本与依赖。",
+        "pilot": "选一个明确允许抓取、结构会变的公开站点，写最小爬虫抓列表页字段，观察改版后自适应解析能否仍定位元素。",
+        "evaluation": "连续 7 天看成功率是否高于 95%、是否被限流封 IP、改版后多久恢复、回退时的字段准确率与单页耗时。",
+        "exit": "若目标站点条款禁止、频繁触发封禁或自适应回退导致数据准确率不达标，即停止并改用官方 API 或授权数据源。"
       },
       "signals": {
-        "recentCommit": "2026-10-19",
-        "issuesUpdated30d": 10,
-        "prsUpdated30d": 26,
-        "latestRelease": "v1.2.0（2026-10-19）",
+        "recentCommit": "2026-11-04",
+        "issuesUpdated30d": 20,
+        "prsUpdated30d": 72,
+        "latestRelease": "v0.5.1（2026-11-04）",
         "readmeMaturity": "成熟",
-        "readmeSignals": "19,700 字符 / 26 个标题 / 有安装说明 / 有 Demo/示例 / 有文档入口"
+        "readmeSignals": "16,909 字符 / 36 个标题 / 有安装说明 / 有 Demo/示例 / 有文档入口"
       }
     }
   ]
