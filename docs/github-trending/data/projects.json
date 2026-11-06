@@ -1,29 +1,41 @@
 {
-  "generatedAt": "2026-11-05T08:07:06.574900+08:00",
+  "generatedAt": "2026-11-06T08:18:10.040813+08:00",
   "projects": [
-    {
-      "repo": "vercel-labs/agent-desktop",
-      "url": "https://github.com/vercel-labs/agent-desktop",
-      "latestDate": "2026-11-05",
-      "latestRank": 1,
-      "tagsCn": [
-        "AI Agent",
-        "Dev Tool",
-        "Desktop Automation"
-      ],
-      "lastTagline": "把桌面应用的无障碍树变成代理可点击的 ref"
-    },
     {
       "repo": "NVIDIA/auto-ontology",
       "url": "https://github.com/NVIDIA/auto-ontology",
-      "latestDate": "2026-11-05",
+      "latestDate": "2026-11-06",
+      "latestRank": 1,
+      "tagsCn": [
+        "AI Agent",
+        "Semantic Layer",
+        "Dev Tool"
+      ],
+      "lastTagline": "从企业元数据生成本体，为 agent 的 SQL 生成加定义校验与血缘"
+    },
+    {
+      "repo": "vercel-labs/agent-desktop",
+      "url": "https://github.com/vercel-labs/agent-desktop",
+      "latestDate": "2026-11-06",
       "latestRank": 2,
       "tagsCn": [
         "AI Agent",
-        "Data",
-        "MCP"
+        "Computer Use",
+        "Dev Tool"
       ],
-      "lastTagline": "用企业元数据搭语义本体，让 agent 查数有据可依"
+      "lastTagline": "把桌面应用的无障碍树读成 JSON，让 agent 按 ref 点击输入"
+    },
+    {
+      "repo": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "latestDate": "2026-11-06",
+      "latestRank": 3,
+      "tagsCn": [
+        "AI Agent",
+        "Dev Tool",
+        "Skills"
+      ],
+      "lastTagline": "一组可改写的轻量技能文件，把需求澄清与拆解固定在编码前"
     },
     {
       "repo": "D4Vinci/Scrapling",
@@ -428,18 +440,6 @@
         "学术研究"
       ],
       "lastTagline": "给多套 Agent Harness 统一技能、记忆与安全策略"
-    },
-    {
-      "repo": "mattpocock/skills",
-      "url": "https://github.com/mattpocock/skills",
-      "latestDate": "2026-10-03",
-      "latestRank": 2,
-      "tagsCn": [
-        "AI Agent",
-        "Dev Tool",
-        "Prompt Engineering"
-      ],
-      "lastTagline": "把日常工程技能拆成可组合、可改写的小提示词文件"
     },
     {
       "repo": "t8y2/dbx",

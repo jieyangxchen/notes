@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-11-05T08:07:06.574900+08:00",
-  "window": "2026-10-30..2026-11-05",
+  "generatedAt": "2026-11-06T08:18:10.040813+08:00",
+  "window": "2026-10-31..2026-11-06",
   "topProjects": [
     {
-      "repo": "pbakaus/impeccable",
-      "url": "https://github.com/pbakaus/impeccable",
+      "repo": "vercel-labs/agent-desktop",
+      "url": "https://github.com/vercel-labs/agent-desktop",
       "tagsCn": [
         "AI Agent",
-        "Dev Tool",
-        "Design"
+        "Computer Use",
+        "Dev Tool"
       ],
-      "appearances": 3,
+      "appearances": 4,
       "bestRank": 1,
-      "latestDate": "2026-11-01",
-      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
+      "latestDate": "2026-11-06",
+      "judgement": "近 7 次记录中出现 4 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
       "repo": "thedotmack/claude-mem",
@@ -29,17 +29,30 @@
       "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
-      "repo": "vercel-labs/agent-desktop",
-      "url": "https://github.com/vercel-labs/agent-desktop",
+      "repo": "NVIDIA/auto-ontology",
+      "url": "https://github.com/NVIDIA/auto-ontology",
+      "tagsCn": [
+        "AI Agent",
+        "Semantic Layer",
+        "Dev Tool"
+      ],
+      "appearances": 2,
+      "bestRank": 1,
+      "latestDate": "2026-11-06",
+      "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
+    },
+    {
+      "repo": "pbakaus/impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
       "tagsCn": [
         "AI Agent",
         "Dev Tool",
-        "Desktop Automation"
+        "Design"
       ],
-      "appearances": 3,
+      "appearances": 2,
       "bestRank": 1,
-      "latestDate": "2026-11-05",
-      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
+      "latestDate": "2026-11-01",
+      "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
       "repo": "pingdotgg/t3code",
@@ -53,27 +66,13 @@
       "bestRank": 1,
       "latestDate": "2026-11-03",
       "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
-    },
-    {
-      "repo": "D4Vinci/Scrapling",
-      "url": "https://github.com/D4Vinci/Scrapling",
-      "tagsCn": [
-        "浏览器",
-        "Scraping",
-        "Python",
-        "MCP"
-      ],
-      "appearances": 2,
-      "bestRank": 2,
-      "latestDate": "2026-11-05",
-      "judgement": "近 7 次记录中出现 2 次，最佳排名第 2，适合优先复盘详情。"
     }
   ],
   "streaks": [
     {
-      "repo": "pbakaus/impeccable",
-      "days": 3,
-      "track": "10-30#1 -> 10-31#1 -> 11-01#2"
+      "repo": "vercel-labs/agent-desktop",
+      "days": 4,
+      "track": "11-03#2 -> 11-04#1 -> 11-05#1 -> 11-06#2"
     },
     {
       "repo": "thedotmack/claude-mem",
@@ -81,29 +80,24 @@
       "track": "11-01#1 -> 11-02#2 -> 11-03#3"
     },
     {
-      "repo": "vercel-labs/agent-desktop",
-      "days": 3,
-      "track": "11-03#2 -> 11-04#1 -> 11-05#1"
-    },
-    {
       "repo": "D4Vinci/Scrapling",
       "days": 2,
       "track": "11-04#2 -> 11-05#3"
     },
     {
-      "repo": "HKUDS/DeepTutor",
+      "repo": "NVIDIA/auto-ontology",
       "days": 2,
-      "track": "10-30#2 -> 10-31#2"
+      "track": "11-05#2 -> 11-06#1"
+    },
+    {
+      "repo": "pbakaus/impeccable",
+      "days": 2,
+      "track": "10-31#1 -> 11-01#2"
     },
     {
       "repo": "pingdotgg/t3code",
       "days": 2,
       "track": "11-02#1 -> 11-03#1"
-    },
-    {
-      "repo": "togg53192-cmd/jailbreaks",
-      "days": 2,
-      "track": "10-30#3 -> 10-31#3"
     }
   ]
 }

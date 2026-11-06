@@ -1,0 +1,150 @@
+{
+  "date": "2026-11-06",
+  "generatedAt": "2026-11-06T08:18:10.040813+08:00",
+  "source": "https://github.com/trending?since=daily",
+  "tags": [
+    "AI Agent",
+    "Semantic Layer",
+    "Dev Tool",
+    "Computer Use",
+    "Skills"
+  ],
+  "observation": "三个项目同属 AI Agent，但落点明显不同：auto-ontology 补「可信上下文」，从元数据生成本体、校验生成的 SQL 并回传血缘，依赖 NIM 与 pgvector 自托管，仍未发首个 release 且明示不接受外部贡献；agent-desktop 补「手」，走无障碍树 ref 而非截图，今日发出 v1.2.0 结束版本停滞，但日增与占比继续摊薄；skills 是提示词层方法论，日增翻倍、release 连跳至 v1.3.2、open issues 从 544 降到 216。共同趋势是从「能跑」转向「可核验、可审计、可回滚」，热度之外更该看版本与积压信号。",
+  "projects": [
+    {
+      "rank": 1,
+      "repo": "NVIDIA/auto-ontology",
+      "url": "https://github.com/NVIDIA/auto-ontology",
+      "tags": [
+        "AI Agent",
+        "Semantic Layer",
+        "Dev Tool"
+      ],
+      "tagsCn": [
+        "AI Agent",
+        "Semantic Layer",
+        "Dev Tool"
+      ],
+      "tagline": "从企业元数据生成本体，为 agent 的 SQL 生成加定义校验与血缘",
+      "starsToday": 2679,
+      "totalStars": 7283,
+      "starTodayRatio": 36.78,
+      "rankingStatus": "连续 2 次日报 TOP3",
+      "rankingTrack": "11-05#2 -> 11-06#1",
+      "activity": "1 天前有提交",
+      "license": "Apache-2.0",
+      "maintainer": "组织/公司/社区项目（NVIDIA Corporation）；有主页/组织资料，可进一步核实官方性",
+      "positioning": "面向已有数仓与语义层、想让 agent 答数可核验的数据平台团队：从元数据生成本体并跨系统对齐指标定义，经 MCP/CLI/API 把上下文交给 agent，对生成的 SQL 做校验并回传血缘。边界是它只提供上下文与校验层，不替代既有语义模型；本体由 LLM 生成，仍需人工认证；部署依赖 Postgres+pgvector 与 NIM，且仓库声明暂不接受外部贡献。",
+      "whyWatch": "今日 +2679 星、占总星 36.78%，绝对增量较上次 2050 抬升，但占比由 41.77% 回落，说明基数变大后仍在加速；1 天前有提交，30 天 PR 更新 72→81、issue 更新 35，open issue/PR 合计 57，活跃与积压同涨；README 17,523 字符、20 个标题，含安装、示例与文档入口。隐忧是首个公开 release 仍为空，只能锁 commit。",
+      "changedSinceLast": "上次记录为 2026-11-04（当日 2050 星、占比 41.77%、总星约 4.9k）。今日 +2679、总星 7283，日增抬升而占比降至 36.78%；30 天 PR 更新由 72 增至 81，open issue/PR 由 42 增至 57，积压随曝光上涨；release 仍无，版本锁定方式不变。",
+      "suitableFor": "已有指标字典或语义层、正被 agent 答数不准困扰的数据团队；能在自有 Kubernetes 或 Docker 内自托管、且已具备 NIM 推理资源的平台组；愿意用 20–30 条认证问题做回归、并接受人工复核的工程师。",
+      "notSuitableFor": "想开箱即用、不愿维护 Postgres、pgvector 与 NIM 端点的轻量团队；指望向上游提 PR 修 bug 的使用者，仓库明示不接受外部贡献；要求完全离线小模型或非 NVIDIA 推理栈的环境。",
+      "risk": "本体与指标对齐由 LLM 生成，定义错了比没有答案更危险，必须用认证定义与人工复核兜底；暂无 release 只能锁 commit，不接收外部贡献意味着修复依赖上游节奏，必要时自建 fork；NIM 端点会发出 schema 与查询，金融、医疗须自托管 NIM 并脱敏，保留人工审批与回滚路径。",
+      "bestPractice": "在只读副本上搭最小语义目录，挑 20–30 条已认证的指标问题与标准 SQL 作基准集：让 agent 生成 SQL 后按本体校验并返回血缘，错答由分析师标注回灌本体，形成「问—验—纠」闭环，再逐步放开到受控业务用户。",
+      "trialPlan": {
+        "install": "用 Docker Compose 拉起 Next.js、FastAPI、worker 与 Postgres+pgvector，在 .env 填自托管 NIM 端点，先接一个只读业务库，记录镜像与依赖版本便于回滚。",
+        "pilot": "选一个业务域（如订单收入）建最小本体，准备 20–30 条已认证问题与标准 SQL 作基准集，跑通生成—校验—血缘的完整链路。",
+        "evaluation": "看答案准确率、生成 SQL 与认证定义的一致率、血缘可追溯比例、端到端延迟，并与现有语义层的人工口径逐条对比。",
+        "exit": "若准确率低于现有语义层、NIM 无法自托管或 schema 不能出内网，即停用并清理已灌入的数据与端点配置。"
+      },
+      "signals": {
+        "recentCommit": "2026-11-05",
+        "issuesUpdated30d": 35,
+        "prsUpdated30d": 81,
+        "latestRelease": "暂无公开 release",
+        "readmeMaturity": "成熟",
+        "readmeSignals": "17,523 字符 / 20 个标题 / 有安装说明 / 有 Demo/示例 / 有文档入口"
+      }
+    },
+    {
+      "rank": 2,
+      "repo": "vercel-labs/agent-desktop",
+      "url": "https://github.com/vercel-labs/agent-desktop",
+      "tags": [
+        "AI Agent",
+        "Computer Use",
+        "Dev Tool"
+      ],
+      "tagsCn": [
+        "AI Agent",
+        "Computer Use",
+        "Dev Tool"
+      ],
+      "tagline": "把桌面应用的无障碍树读成 JSON，让 agent 按 ref 点击输入",
+      "starsToday": 2173,
+      "totalStars": 16815,
+      "starTodayRatio": 12.92,
+      "rankingStatus": "连续 4 次日报 TOP3",
+      "rankingTrack": "11-03#2 -> 11-04#1 -> 11-05#1 -> 11-06#2",
+      "activity": "1 天前有提交",
+      "license": "Apache-2.0",
+      "maintainer": "组织/公司/社区项目（Vercel Labs）；有主页/组织资料，可进一步核实官方性",
+      "positioning": "面向要让代理操作 ERP 客户端、旧版后台等内部桌面软件的自动化团队：它把无障碍树快照成 JSON，每个可操作元素带 ref，代理按 ref 点击输入后重新快照校验，自身不含模型。边界是无节点界面（画布、游戏、自绘 UI）无从操作，界面一变 ref 即失效需重试；它也不负责权限授予与合规审查。",
+      "whyWatch": "今日 +2173、占总星 12.92%，增量与占比继续回落（上次 2470/16.43%），热度在高位摊薄；关键正向信号是发布 v1.2.0（2026-11-05），从 v1.1.0 迈出版本台阶；1 天前有提交，30 天 PR 更新 226→239、issue 更新 69，维护仍密；但 open issue/PR 由 163 增至 168，README 6,585 字符，操作细节多在外站文档。",
+      "changedSinceLast": "上次为 2026-11-04 第 1 名（2470 星、占比 16.43%、open 163、版本 v1.1.0）。今日日增降至 2173、占比 12.92%、排名回落至第 2；最值得注意的是发出 v1.2.0，结束版本停滞；open issue/PR 由 163 增至 168，积压随活跃同步上涨。",
+      "suitableFor": "需要代理在内部工单、ERP 或财务桌面端做重复录入的自动化团队；能处理辅助功能授权、STALE_REF 重试与快照校验的工程师；愿意先在隔离测试机上跑通、再谈上生产的平台组。",
+      "notSuitableFor": "目标是画布、游戏、自绘 UI 或远程桌面画面的场景，无障碍树没有节点就无从下手；会把快照、截图、剪贴板写进公共日志的团队；只需浏览器页面自动化、不必碰桌面客户端的项目；需要像素级视觉兼容性验证的场景。",
+      "risk": "快照、剪贴板与截图可能带出私人桌面内容，README 明确要求不外传；可选 helper 会把屏幕描述发给模型提供方，等于把键鼠权限交给代理。须设应用白名单、最小权限账号、操作流水与人工复核；金融、医疗等敏感终端不建议直连，须先过内部合规与审计，并明确代理授权边界。",
+      "bestPractice": "在隔离测试账号里让代理填写内部工单：先用 snapshot --skeleton 摸清结构，用带快照 id 的 ref 填表提交，再重新快照核对结果；所有输出写本地临时目录而非日志系统，高风险提交人工抽查并保留操作流水以便回滚。",
+      "trialPlan": {
+        "install": "在隔离测试机用 pnpm 安装或 brew install agent-desktop；macOS 先跑 permissions --guide 授予辅助功能权限，Linux 确认 at-spi2-core 与图形会话，记录版本与卸载方式。",
+        "pilot": "选一个内部工单客户端，用 snapshot --skeleton 摸底，按 ref 完成一条完整填单流程，并重新快照与人工核对结果一致性。",
+        "evaluation": "统计单流程成功率、STALE_REF/AMBIGUOUS_TARGET 触发率与平均重试次数、人工干预比例，并检查快照与剪贴板是否有敏感内容外泄迹象。",
+        "exit": "若目标界面没有可用无障碍节点、ref 频繁失效导致重试失控，或无法保证快照不外传，即停用并回收测试机权限与账号。"
+      },
+      "signals": {
+        "recentCommit": "2026-11-05",
+        "issuesUpdated30d": 69,
+        "prsUpdated30d": 239,
+        "latestRelease": "v1.2.0（2026-11-05）",
+        "readmeMaturity": "成熟",
+        "readmeSignals": "6,585 字符 / 12 个标题 / 有安装说明 / 有 Demo/示例 / 有文档入口"
+      }
+    },
+    {
+      "rank": 3,
+      "repo": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "tags": [
+        "AI Agent",
+        "Dev Tool",
+        "Skills"
+      ],
+      "tagsCn": [
+        "AI Agent",
+        "Dev Tool",
+        "Skills"
+      ],
+      "tagline": "一组可改写的轻量技能文件，把需求澄清与拆解固定在编码前",
+      "starsToday": 2071,
+      "totalStars": 315185,
+      "starTodayRatio": 0.66,
+      "rankingStatus": "非连续；上次 10-03 第2",
+      "rankingTrack": "10-03#2 -> 11-06#3",
+      "activity": "1 天前有提交",
+      "license": "MIT",
+      "maintainer": "个人项目（维护者资料公司：AI Hero）；有主页/组织资料，可进一步核实官方性",
+      "positioning": "面向使用 Claude Code、Codex、Copilot 等代理的工程团队：提供一组小巧、可组合、可自行改写的技能文件，在编码前澄清需求、拆分任务并沉淀团队规范，替代 Spec-Kit/BMAD 对流程的独占。边界是技能本质为提示词，不内嵌强制流程，效果取决于模型指令遵循与团队审阅；不支持 skill/plugin 的代理环境无法使用。",
+      "whyWatch": "今日 +2071 星，较上次 955 翻倍，但占总星仅 0.66%（总星 31.5 万），属老项目回热而非新爆发；正向变化明显：release 由 v1.2.3 推进到 v1.3.2（2026-10-29），30 天 PR 更新 12→44，吸收速度改善；open issues 由 544 降至 216，积压被清理，但 30 天 issue 更新 403 说明需求仍汹涌；1 天前有提交，README 14,718 字符。",
+      "changedSinceLast": "上次记录为 2026-10-02 第 3 名（955 星、占比 0.35%、open 544、release v1.2.3、30 天 PR 仅 12）。今日日增翻倍至 2071、总星 31.5 万、占比 0.66%；最大变化是版本连跳至 v1.3.2、PR 更新 12→44，open issues 544→216 明显清理，最近提交由 4 天前回到 1 天前。",
+      "suitableFor": "已有 Claude Code/Codex/Copilot 工作流、习惯用 git 管理规范的团队；能接受把技能当提示词逐条审计、有 code review 文化的组织；想用 2–3 个轻量文件替代重型流程、愿意小步试错的工程组。",
+      "notSuitableFor": "期待开箱即用、无人审阅的个人开发者；所用代理不支持 skill/plugin 的环境；涉密或强合规场景直接外发提示词风险偏高；需要把它当关键路径依赖、对个人维护者响应速度有硬要求的团队。",
+      "risk": "技能本质是提示词，仓库被污染或版本未锁定可能诱导代理越权执行命令，须固定 commit 并从官方渠道获取；维护者为个人，本次 release 与 PR 吸收虽改善，长期演进仍不确定；技能可能引导代理读写外部 API 与数据库，权限需使用方自理并保留人工兜底与版本回滚。",
+      "bestPractice": "把团队评审通过的 2–3 个技能复制进自有 git 仓库并锁定 commit：在下一个迭代先用需求澄清技能产出结论，再让代理拆任务，最后按团队规范检查清单复核改动，同时记录哪些技能真正减少了返工，淘汰无效项。",
+      "trialPlan": {
+        "install": "用 Claude Code 插件或 npx skills 只选一条安装路径（两者同装会出现重复技能），将选定技能从锁定 commit 复制进自有 git 仓库，记录版本与更新时间。",
+        "pilot": "在一个真实小迭代中取 2–3 个技能（需求澄清 + 任务拆分）试用，团队对每次技能变更做 review，不直接连生产 API 与数据库。",
+        "evaluation": "看需求返工次数、任务拆解被采纳比例、评审提出的问题数，以及代理越权操作或误改文件的次数，与未使用技能的对照迭代比较。",
+        "exit": "若出现越权操作、返工未下降或模型指令遵循明显不稳定，即回滚到旧 commit 或停用相关技能，保留原有评审流程。"
+      },
+      "signals": {
+        "recentCommit": "2026-11-05",
+        "issuesUpdated30d": 403,
+        "prsUpdated30d": 44,
+        "latestRelease": "v1.3.2（2026-10-29）",
+        "readmeMaturity": "成熟",
+        "readmeSignals": "14,718 字符 / 14 个标题 / 有安装说明 / 有 Demo/示例 / 有文档入口"
+      }
+    }
+  ]
+}
