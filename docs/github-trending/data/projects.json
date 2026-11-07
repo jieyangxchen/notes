@@ -1,17 +1,41 @@
 {
-  "generatedAt": "2026-11-06T08:18:10.040813+08:00",
+  "generatedAt": "2026-11-07T08:01:16.422168+08:00",
   "projects": [
+    {
+      "repo": "cloudflare/security-audit-skill",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "latestDate": "2026-11-07",
+      "latestRank": 1,
+      "tagsCn": [
+        "Security",
+        "AI Agent",
+        "Dev Tool"
+      ],
+      "lastTagline": "把编码代理变成可复核的六阶段安全审计流程"
+    },
+    {
+      "repo": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "latestDate": "2026-11-07",
+      "latestRank": 2,
+      "tagsCn": [
+        "AI Agent",
+        "Dev Tool",
+        "Prompt"
+      ],
+      "lastTagline": "可自行改写的代理技能集，替代重型流程框架"
+    },
     {
       "repo": "NVIDIA/auto-ontology",
       "url": "https://github.com/NVIDIA/auto-ontology",
-      "latestDate": "2026-11-06",
-      "latestRank": 1,
+      "latestDate": "2026-11-07",
+      "latestRank": 3,
       "tagsCn": [
         "AI Agent",
-        "Semantic Layer",
-        "Dev Tool"
+        "Data",
+        "学术研究"
       ],
-      "lastTagline": "从企业元数据生成本体，为 agent 的 SQL 生成加定义校验与血缘"
+      "lastTagline": "用企业本体为 agent 搭建可校验的语义层"
     },
     {
       "repo": "vercel-labs/agent-desktop",
@@ -24,18 +48,6 @@
         "Dev Tool"
       ],
       "lastTagline": "把桌面应用的无障碍树读成 JSON，让 agent 按 ref 点击输入"
-    },
-    {
-      "repo": "mattpocock/skills",
-      "url": "https://github.com/mattpocock/skills",
-      "latestDate": "2026-11-06",
-      "latestRank": 3,
-      "tagsCn": [
-        "AI Agent",
-        "Dev Tool",
-        "Skills"
-      ],
-      "lastTagline": "一组可改写的轻量技能文件，把需求澄清与拆解固定在编码前"
     },
     {
       "repo": "D4Vinci/Scrapling",
@@ -193,18 +205,6 @@
         "AGPL"
       ],
       "lastTagline": "本地跑语音克隆、配音与转写，自带 API 与 MCP 接入"
-    },
-    {
-      "repo": "cloudflare/security-audit-skill",
-      "url": "https://github.com/cloudflare/security-audit-skill",
-      "latestDate": "2026-10-26",
-      "latestRank": 1,
-      "tagsCn": [
-        "AI Agent",
-        "Security",
-        "Dev Tool"
-      ],
-      "lastTagline": "把安全审计拆成六阶段的代理技能，输出可校验漏洞台账"
     },
     {
       "repo": "NVIDIA/OpenShell",

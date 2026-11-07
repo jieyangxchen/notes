@@ -1,149 +1,150 @@
 {
-  "date": "2026-11-06",
-  "generatedAt": "2026-11-06T08:18:10.040813+08:00",
+  "date": "2026-11-07",
+  "generatedAt": "2026-11-07T08:01:16.422168+08:00",
   "source": "https://github.com/trending?since=daily",
   "tags": [
+    "Security",
     "AI Agent",
-    "Semantic Layer",
     "Dev Tool",
-    "Computer Use",
-    "Skills"
+    "Prompt",
+    "Data",
+    "Research"
   ],
-  "observation": "三个项目同属 AI Agent，但落点明显不同：auto-ontology 补「可信上下文」，从元数据生成本体、校验生成的 SQL 并回传血缘，依赖 NIM 与 pgvector 自托管，仍未发首个 release 且明示不接受外部贡献；agent-desktop 补「手」，走无障碍树 ref 而非截图，今日发出 v1.2.0 结束版本停滞，但日增与占比继续摊薄；skills 是提示词层方法论，日增翻倍、release 连跳至 v1.3.2、open issues 从 544 降到 216。共同趋势是从「能跑」转向「可核验、可审计、可回滚」，热度之外更该看版本与积压信号。",
+  "observation": "今日 TOP3 全部落在 AI Agent 赛道，但各自关注的层面不同：Cloudflare 把安全审计固化为可复核的六阶段技能与结构化产物，mattpocock/skills 提供可改写的轻量提示词以替代重型流程框架，NVIDIA/auto-ontology 则在数据侧补充本体、指标对齐与血缘校验。共同点是都不开箱即用：第一个要求书面授权并人工复现，第二个依赖团队审阅与版本锁定，第三个仍需认证指标与自托管推理。差异在热度性质——第一个稳定升温，但积压加重；第二个是老项目回热，但需求侧降温；第三个是新项目爆发，但单日增速已从峰值回落。",
   "projects": [
     {
       "rank": 1,
-      "repo": "NVIDIA/auto-ontology",
-      "url": "https://github.com/NVIDIA/auto-ontology",
+      "repo": "cloudflare/security-audit-skill",
+      "url": "https://github.com/cloudflare/security-audit-skill",
       "tags": [
+        "Security",
         "AI Agent",
-        "Semantic Layer",
         "Dev Tool"
       ],
       "tagsCn": [
+        "Security",
         "AI Agent",
-        "Semantic Layer",
         "Dev Tool"
       ],
-      "tagline": "从企业元数据生成本体，为 agent 的 SQL 生成加定义校验与血缘",
-      "starsToday": 2679,
-      "totalStars": 7283,
-      "starTodayRatio": 36.78,
-      "rankingStatus": "连续 2 次日报 TOP3",
-      "rankingTrack": "11-05#2 -> 11-06#1",
-      "activity": "1 天前有提交",
-      "license": "Apache-2.0",
-      "maintainer": "组织/公司/社区项目（NVIDIA Corporation）；有主页/组织资料，可进一步核实官方性",
-      "positioning": "面向已有数仓与语义层、想让 agent 答数可核验的数据平台团队：从元数据生成本体并跨系统对齐指标定义，经 MCP/CLI/API 把上下文交给 agent，对生成的 SQL 做校验并回传血缘。边界是它只提供上下文与校验层，不替代既有语义模型；本体由 LLM 生成，仍需人工认证；部署依赖 Postgres+pgvector 与 NIM，且仓库声明暂不接受外部贡献。",
-      "whyWatch": "今日 +2679 星、占总星 36.78%，绝对增量较上次 2050 抬升，但占比由 41.77% 回落，说明基数变大后仍在加速；1 天前有提交，30 天 PR 更新 72→81、issue 更新 35，open issue/PR 合计 57，活跃与积压同涨；README 17,523 字符、20 个标题，含安装、示例与文档入口。隐忧是首个公开 release 仍为空，只能锁 commit。",
-      "changedSinceLast": "上次记录为 2026-11-04（当日 2050 星、占比 41.77%、总星约 4.9k）。今日 +2679、总星 7283，日增抬升而占比降至 36.78%；30 天 PR 更新由 72 增至 81，open issue/PR 由 42 增至 57，积压随曝光上涨；release 仍无，版本锁定方式不变。",
-      "suitableFor": "已有指标字典或语义层、正被 agent 答数不准困扰的数据团队；能在自有 Kubernetes 或 Docker 内自托管、且已具备 NIM 推理资源的平台组；愿意用 20–30 条认证问题做回归、并接受人工复核的工程师。",
-      "notSuitableFor": "想开箱即用、不愿维护 Postgres、pgvector 与 NIM 端点的轻量团队；指望向上游提 PR 修 bug 的使用者，仓库明示不接受外部贡献；要求完全离线小模型或非 NVIDIA 推理栈的环境。",
-      "risk": "本体与指标对齐由 LLM 生成，定义错了比没有答案更危险，必须用认证定义与人工复核兜底；暂无 release 只能锁 commit，不接收外部贡献意味着修复依赖上游节奏，必要时自建 fork；NIM 端点会发出 schema 与查询，金融、医疗须自托管 NIM 并脱敏，保留人工审批与回滚路径。",
-      "bestPractice": "在只读副本上搭最小语义目录，挑 20–30 条已认证的指标问题与标准 SQL 作基准集：让 agent 生成 SQL 后按本体校验并返回血缘，错答由分析师标注回灌本体，形成「问—验—纠」闭环，再逐步放开到受控业务用户。",
+      "tagline": "把编码代理变成可复核的六阶段安全审计流程",
+      "starsToday": 2548,
+      "totalStars": 63939,
+      "starTodayRatio": 3.99,
+      "rankingStatus": "非连续；上次 10-26 第1",
+      "rankingTrack": "10-26#1 -> 11-07#1",
+      "activity": "54 天前有提交",
+      "license": "MIT",
+      "maintainer": "组织/公司/社区项目（Cloudflare）；有主页/组织资料，可进一步核实官方性",
+      "positioning": "面向已有 SDL 或漏洞赏金流程的安全工程师：把侦察、覆盖驱动狩猎、候选反证、结构化产物、独立复核、目标中立报告六步固化为代理技能，产出 architecture.md、coverage-ledger.json、findings.json 与 REPORT.md。边界仅是方法论与产物格式，不含漏洞库、托管扫描与自动定级，误报与漏报仍由人判定。",
+      "whyWatch": "今日 +2548、占总星 3.99%，虽然绝对增量仍高，但比上次记录的 2874 有所下降；总星从 4.68 万增至 6.39 万，MIT 许可，README 6,536 字符含六阶段说明与 schema 示例。反向信号更明显：最近提交由 42 天前延至 54 天前，open issues 从 96 增至 115，近 30 天 PR 更新 50 而 issue 仅 30，讨论多积压在上游；仍无公开 release，文档入口不明显。",
+      "changedSinceLast": "上次记录为 2026-10-25 第 1 名：日增 2874→2548、占比 6.14%→3.99%、总星 4.68 万→6.39 万；提交空闲 42→54 天继续拉长，open issues 96→115 积压加重，近 30 天 issue 更新 16→30、PR 46→50，仍无 release 与文档入口。",
+      "suitableFor": "适合已有安全评审流程的团队：在自有或已获书面授权的仓库上，把审计步骤固化为可复现的 prompt、覆盖台账与统一产物格式，并由安全工程师逐条复现 confirmed 记录、把 needs_validation 转为待办事项。",
+      "notSuitableFor": "不适合把代理输出直接当作漏洞结论、缺少安全人员或授权范围不明的团队；也不能替代 SAST/DAST 工具链，拿不到现成漏洞库与自动定级；项目已 54 天没有提交、没有 release，不宜作为唯一依赖。",
+      "risk": "授权是硬性前提：只能对自有或获书面授权的目标运行，禁止扫描第三方系统；confirmed 必须人工复现，不得作为定级、对外披露或赏金提交的唯一依据；54 天没有提交、115 个 open issues 积压，Cloudflare 组织账号与品牌不构成对你具体使用方式的合规背书，MIT 许可也不含任何安全保证。",
+      "bestPractice": "在自有仓库用只读凭证跑完整六阶段：先产出 architecture.md 与 coverage-ledger.json 锁定覆盖范围，再让独立 verifier 反证每个候选，confirmed 经安全工程师复现后才进入内部漏洞平台去重评级，全程留存审计日志与回滚点。",
       "trialPlan": {
-        "install": "用 Docker Compose 拉起 Next.js、FastAPI、worker 与 Postgres+pgvector，在 .env 填自托管 NIM 端点，先接一个只读业务库，记录镜像与依赖版本便于回滚。",
-        "pilot": "选一个业务域（如订单收入）建最小本体，准备 20–30 条已认证问题与标准 SQL 作基准集，跑通生成—校验—血缘的完整链路。",
-        "evaluation": "看答案准确率、生成 SQL 与认证定义的一致率、血缘可追溯比例、端到端延迟，并与现有语义层的人工口径逐条对比。",
-        "exit": "若准确率低于现有语义层、NIM 无法自托管或 schema 不能出内网，即停用并清理已灌入的数据与端点配置。"
+        "install": "按 README 把 skill 放入代理 skills 目录，锁定具体 commit，不使用浮动分支；准备只读凭证与隔离测试仓库。",
+        "pilot": "选一个内部小服务跑完整六阶段，只产出 findings.json 与覆盖台账，不对外披露任何结论，记录误报与漏报。",
+        "evaluation": "看三件事：覆盖台账是否真能定位盲区、confirmed 经人工复现的准确率、单次审计所需人工工时是否低于现有流程。",
+        "exit": "若人工复现准确率低于可接受阈值，或提交持续停滞导致关键缺陷无法修复，则退回人工审计流程，仅保留产物格式作为模板。"
       },
       "signals": {
-        "recentCommit": "2026-11-05",
-        "issuesUpdated30d": 35,
-        "prsUpdated30d": 81,
+        "recentCommit": "2026-09-14",
+        "issuesUpdated30d": 30,
+        "prsUpdated30d": 50,
         "latestRelease": "暂无公开 release",
         "readmeMaturity": "成熟",
-        "readmeSignals": "17,523 字符 / 20 个标题 / 有安装说明 / 有 Demo/示例 / 有文档入口"
+        "readmeSignals": "6,536 字符 / 9 个标题 / 有安装说明 / 有 Demo/示例 / 文档入口不明显"
       }
     },
     {
       "rank": 2,
-      "repo": "vercel-labs/agent-desktop",
-      "url": "https://github.com/vercel-labs/agent-desktop",
-      "tags": [
-        "AI Agent",
-        "Computer Use",
-        "Dev Tool"
-      ],
-      "tagsCn": [
-        "AI Agent",
-        "Computer Use",
-        "Dev Tool"
-      ],
-      "tagline": "把桌面应用的无障碍树读成 JSON，让 agent 按 ref 点击输入",
-      "starsToday": 2173,
-      "totalStars": 16815,
-      "starTodayRatio": 12.92,
-      "rankingStatus": "连续 4 次日报 TOP3",
-      "rankingTrack": "11-03#2 -> 11-04#1 -> 11-05#1 -> 11-06#2",
-      "activity": "1 天前有提交",
-      "license": "Apache-2.0",
-      "maintainer": "组织/公司/社区项目（Vercel Labs）；有主页/组织资料，可进一步核实官方性",
-      "positioning": "面向要让代理操作 ERP 客户端、旧版后台等内部桌面软件的自动化团队：它把无障碍树快照成 JSON，每个可操作元素带 ref，代理按 ref 点击输入后重新快照校验，自身不含模型。边界是无节点界面（画布、游戏、自绘 UI）无从操作，界面一变 ref 即失效需重试；它也不负责权限授予与合规审查。",
-      "whyWatch": "今日 +2173、占总星 12.92%，增量与占比继续回落（上次 2470/16.43%），热度在高位摊薄；关键正向信号是发布 v1.2.0（2026-11-05），从 v1.1.0 迈出版本台阶；1 天前有提交，30 天 PR 更新 226→239、issue 更新 69，维护仍密；但 open issue/PR 由 163 增至 168，README 6,585 字符，操作细节多在外站文档。",
-      "changedSinceLast": "上次为 2026-11-04 第 1 名（2470 星、占比 16.43%、open 163、版本 v1.1.0）。今日日增降至 2173、占比 12.92%、排名回落至第 2；最值得注意的是发出 v1.2.0，结束版本停滞；open issue/PR 由 163 增至 168，积压随活跃同步上涨。",
-      "suitableFor": "需要代理在内部工单、ERP 或财务桌面端做重复录入的自动化团队；能处理辅助功能授权、STALE_REF 重试与快照校验的工程师；愿意先在隔离测试机上跑通、再谈上生产的平台组。",
-      "notSuitableFor": "目标是画布、游戏、自绘 UI 或远程桌面画面的场景，无障碍树没有节点就无从下手；会把快照、截图、剪贴板写进公共日志的团队；只需浏览器页面自动化、不必碰桌面客户端的项目；需要像素级视觉兼容性验证的场景。",
-      "risk": "快照、剪贴板与截图可能带出私人桌面内容，README 明确要求不外传；可选 helper 会把屏幕描述发给模型提供方，等于把键鼠权限交给代理。须设应用白名单、最小权限账号、操作流水与人工复核；金融、医疗等敏感终端不建议直连，须先过内部合规与审计，并明确代理授权边界。",
-      "bestPractice": "在隔离测试账号里让代理填写内部工单：先用 snapshot --skeleton 摸清结构，用带快照 id 的 ref 填表提交，再重新快照核对结果；所有输出写本地临时目录而非日志系统，高风险提交人工抽查并保留操作流水以便回滚。",
-      "trialPlan": {
-        "install": "在隔离测试机用 pnpm 安装或 brew install agent-desktop；macOS 先跑 permissions --guide 授予辅助功能权限，Linux 确认 at-spi2-core 与图形会话，记录版本与卸载方式。",
-        "pilot": "选一个内部工单客户端，用 snapshot --skeleton 摸底，按 ref 完成一条完整填单流程，并重新快照与人工核对结果一致性。",
-        "evaluation": "统计单流程成功率、STALE_REF/AMBIGUOUS_TARGET 触发率与平均重试次数、人工干预比例，并检查快照与剪贴板是否有敏感内容外泄迹象。",
-        "exit": "若目标界面没有可用无障碍节点、ref 频繁失效导致重试失控，或无法保证快照不外传，即停用并回收测试机权限与账号。"
-      },
-      "signals": {
-        "recentCommit": "2026-11-05",
-        "issuesUpdated30d": 69,
-        "prsUpdated30d": 239,
-        "latestRelease": "v1.2.0（2026-11-05）",
-        "readmeMaturity": "成熟",
-        "readmeSignals": "6,585 字符 / 12 个标题 / 有安装说明 / 有 Demo/示例 / 有文档入口"
-      }
-    },
-    {
-      "rank": 3,
       "repo": "mattpocock/skills",
       "url": "https://github.com/mattpocock/skills",
       "tags": [
         "AI Agent",
         "Dev Tool",
-        "Skills"
+        "Prompt"
       ],
       "tagsCn": [
         "AI Agent",
         "Dev Tool",
-        "Skills"
+        "Prompt"
       ],
-      "tagline": "一组可改写的轻量技能文件，把需求澄清与拆解固定在编码前",
-      "starsToday": 2071,
-      "totalStars": 315185,
-      "starTodayRatio": 0.66,
-      "rankingStatus": "非连续；上次 10-03 第2",
-      "rankingTrack": "10-03#2 -> 11-06#3",
-      "activity": "1 天前有提交",
+      "tagline": "可自行改写的代理技能集，替代重型流程框架",
+      "starsToday": 2070,
+      "totalStars": 316687,
+      "starTodayRatio": 0.65,
+      "rankingStatus": "连续 2 次日报 TOP3",
+      "rankingTrack": "11-06#3 -> 11-07#2",
+      "activity": "2 天前有提交",
       "license": "MIT",
       "maintainer": "个人项目（维护者资料公司：AI Hero）；有主页/组织资料，可进一步核实官方性",
       "positioning": "面向使用 Claude Code、Codex、Copilot 等代理的工程团队：提供一组小巧、可组合、可自行改写的技能文件，在编码前澄清需求、拆分任务并沉淀团队规范，替代 Spec-Kit/BMAD 对流程的独占。边界是技能本质为提示词，不内嵌强制流程，效果取决于模型指令遵循与团队审阅；不支持 skill/plugin 的代理环境无法使用。",
-      "whyWatch": "今日 +2071 星，较上次 955 翻倍，但占总星仅 0.66%（总星 31.5 万），属老项目回热而非新爆发；正向变化明显：release 由 v1.2.3 推进到 v1.3.2（2026-10-29），30 天 PR 更新 12→44，吸收速度改善；open issues 由 544 降至 216，积压被清理，但 30 天 issue 更新 403 说明需求仍汹涌；1 天前有提交，README 14,718 字符。",
-      "changedSinceLast": "上次记录为 2026-10-02 第 3 名（955 星、占比 0.35%、open 544、release v1.2.3、30 天 PR 仅 12）。今日日增翻倍至 2071、总星 31.5 万、占比 0.66%；最大变化是版本连跳至 v1.3.2、PR 更新 12→44，open issues 544→216 明显清理，最近提交由 4 天前回到 1 天前。",
+      "whyWatch": "今日 +2070、占总星 0.65%，总星 31.67 万，属老项目回热而非新爆发；2 天前有提交，README 14,718 字符且有文档入口与安装说明，版本为 v1.3.2（2026-10-29）。需要留意的是需求侧降温：近 30 天 issue 更新由 403 回落至 175、PR 由 44 降至 34，open issues 216→217 基本持平，积压未见进一步清理。",
+      "changedSinceLast": "上次记录为 2026-11-05 第 2 名：日增 2071→2070 基本持平，占比 0.66%→0.65%，总星 31.5 万→31.67 万；主要变化是交互热度下滑——30 天 issue 更新 403→175、PR 44→34，open issues 仍 217，最近提交由 1 天前回到 2 天前，版本停在 v1.3.2。",
       "suitableFor": "已有 Claude Code/Codex/Copilot 工作流、习惯用 git 管理规范的团队；能接受把技能当提示词逐条审计、有 code review 文化的组织；想用 2–3 个轻量文件替代重型流程、愿意小步试错的工程组。",
       "notSuitableFor": "期待开箱即用、无人审阅的个人开发者；所用代理不支持 skill/plugin 的环境；涉密或强合规场景直接外发提示词风险偏高；需要把它当关键路径依赖、对个人维护者响应速度有硬要求的团队。",
-      "risk": "技能本质是提示词，仓库被污染或版本未锁定可能诱导代理越权执行命令，须固定 commit 并从官方渠道获取；维护者为个人，本次 release 与 PR 吸收虽改善，长期演进仍不确定；技能可能引导代理读写外部 API 与数据库，权限需使用方自理并保留人工兜底与版本回滚。",
+      "risk": "技能本质是提示词，仓库被污染或版本未锁定可能诱导代理越权执行命令，须固定 commit 并从官方渠道获取；维护者为个人账号，版本更新与 PR 吸收虽然有所改善，长期演进仍不确定；技能可能引导代理读写外部 API 与数据库，权限需使用方自理，并保留人工兜底与版本回滚。",
       "bestPractice": "把团队评审通过的 2–3 个技能复制进自有 git 仓库并锁定 commit：在下一个迭代先用需求澄清技能产出结论，再让代理拆任务，最后按团队规范检查清单复核改动，同时记录哪些技能真正减少了返工，淘汰无效项。",
       "trialPlan": {
-        "install": "用 Claude Code 插件或 npx skills 只选一条安装路径（两者同装会出现重复技能），将选定技能从锁定 commit 复制进自有 git 仓库，记录版本与更新时间。",
-        "pilot": "在一个真实小迭代中取 2–3 个技能（需求澄清 + 任务拆分）试用，团队对每次技能变更做 review，不直接连生产 API 与数据库。",
-        "evaluation": "看需求返工次数、任务拆解被采纳比例、评审提出的问题数，以及代理越权操作或误改文件的次数，与未使用技能的对照迭代比较。",
-        "exit": "若出现越权操作、返工未下降或模型指令遵循明显不稳定，即回滚到旧 commit 或停用相关技能，保留原有评审流程。"
+        "install": "只选一条安装路径（插件或 npx skills 二选一，两者同装会出现重复技能），安装后核对技能清单，并把选定版本固定到自有仓库。",
+        "pilot": "在一个非关键迭代中启用需求澄清与任务拆分两个技能，其余技能先不启用，避免一次性引入不可控流程。",
+        "evaluation": "对比试点迭代与对照组：返工次数、review 意见数量、需求澄清遗漏项，以及代理是否越权读写外部系统。",
+        "exit": "若技能导致重复提示、代理执行越权命令或返工率上升，则回滚到上一 commit，只保留经审阅的单条技能。"
       },
       "signals": {
         "recentCommit": "2026-11-05",
-        "issuesUpdated30d": 403,
-        "prsUpdated30d": 44,
+        "issuesUpdated30d": 175,
+        "prsUpdated30d": 34,
         "latestRelease": "v1.3.2（2026-10-29）",
         "readmeMaturity": "成熟",
         "readmeSignals": "14,718 字符 / 14 个标题 / 有安装说明 / 有 Demo/示例 / 有文档入口"
+      }
+    },
+    {
+      "rank": 3,
+      "repo": "NVIDIA/auto-ontology",
+      "url": "https://github.com/NVIDIA/auto-ontology",
+      "tags": [
+        "AI Agent",
+        "Data",
+        "Research"
+      ],
+      "tagsCn": [
+        "AI Agent",
+        "Data",
+        "学术研究"
+      ],
+      "tagline": "用企业本体为 agent 搭建可校验的语义层",
+      "starsToday": 2015,
+      "totalStars": 8988,
+      "starTodayRatio": 22.42,
+      "rankingStatus": "连续 3 次日报 TOP3",
+      "rankingTrack": "11-05#2 -> 11-06#1 -> 11-07#3",
+      "activity": "1 天前有提交",
+      "license": "Apache-2.0",
+      "maintainer": "组织/公司/社区项目（NVIDIA Corporation）；有主页/组织资料，可进一步核实官方性",
+      "positioning": "面向已有数仓与语义层、希望让代理回答数据问题时可核验的数据平台团队：从元数据生成本体并跨系统对齐指标定义，经 MCP/CLI/API 把上下文交给代理，对生成的 SQL 做校验并回传血缘。边界是只提供上下文与校验层，不替代既有语义模型；本体由 LLM 生成，仍需人工认证；部署依赖 Postgres+pgvector 与 NIM，且仓库声明暂不接受外部贡献。",
+      "whyWatch": "今日 +2015、占总星 22.42%，连续多日进入 TOP3 且 1 天前有提交，30 天 PR 更新 79、issue 更新 37，README 17,523 字符含安装、示例与文档入口，Apache-2.0。隐忧是没有任何 release 只能锁定 commit、不接受外部贡献，且 open issue/PR 由 57 微增至 62，曝光上涨后维护压力同步上升。",
+      "changedSinceLast": "上次记录为 2026-11-05 第 2 名：日增 2679→2015、占比 36.78%→22.42% 双降，但总星 7283→8988 说明基数扩大后绝对规模仍在涨；open issue/PR 57→62 微增，30 天 issue 35→37、PR 81→79；首个公开 release 仍为空，不接受外部贡献的声明未变。",
+      "suitableFor": "已有指标字典或语义层、正被代理回答数据不准困扰的数据团队；能在自有 Kubernetes 或 Docker 内自托管、且已具备 NIM 推理资源的平台组；愿意用 20–30 条认证问题做回归、并接受人工复核的工程师。",
+      "notSuitableFor": "想开箱即用、不愿维护 Postgres、pgvector 与 NIM 端点的轻量团队；指望向上游提 PR 修 bug 的使用者，仓库明示不接受外部贡献；要求完全离线小模型或非 NVIDIA 推理栈的环境。",
+      "risk": "本体与指标对齐由 LLM 生成，定义错了比没有答案更危险，必须用认证定义与人工复核兜底；没有 release 只能锁 commit，不接收外部贡献意味着修复依赖上游节奏，必要时自建 fork；NIM 端点会发出 schema 与查询，金融、医疗等场景须自托管 NIM 并脱敏，保留人工审批与回滚路径。",
+      "bestPractice": "在只读副本上搭最小语义目录，挑 20–30 条已认证的指标问题与标准 SQL 作基准集：让代理生成 SQL 后按本体校验并返回血缘，错答由分析师标注回灌本体，形成问—验—纠闭环，再逐步放开到受控业务用户。",
+      "trialPlan": {
+        "install": "用 Docker Compose 拉起 Next.js、FastAPI、worker 与 Postgres/pgvector，NIM 端点优先走自托管，锁定 commit 而非分支。",
+        "pilot": "在只读副本与单一业务域内建最小本体，只接 2–3 个内部用户，所有生成 SQL 先由分析师复核后再执行。",
+        "evaluation": "用认证问题集统计正确率、血缘可追溯比例、人工纠错耗时，以及错答是否可定位到具体指标定义。",
+        "exit": "若认证问题准确率长期低于现有语义层、或自托管推理成本超出预算，则停用并保留本体文档作为指标治理输入。"
+      },
+      "signals": {
+        "recentCommit": "2026-11-06",
+        "issuesUpdated30d": 37,
+        "prsUpdated30d": 79,
+        "latestRelease": "暂无公开 release",
+        "readmeMaturity": "成熟",
+        "readmeSignals": "17,523 字符 / 20 个标题 / 有安装说明 / 有 Demo/示例 / 有文档入口"
       }
     }
   ]
