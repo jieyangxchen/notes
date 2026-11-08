@@ -1,17 +1,41 @@
 {
-  "generatedAt": "2026-11-07T08:01:16.422168+08:00",
+  "generatedAt": "2026-11-08T08:01:08.654026+08:00",
   "projects": [
     {
       "repo": "cloudflare/security-audit-skill",
       "url": "https://github.com/cloudflare/security-audit-skill",
-      "latestDate": "2026-11-07",
+      "latestDate": "2026-11-08",
       "latestRank": 1,
       "tagsCn": [
-        "Security",
         "AI Agent",
-        "Dev Tool"
+        "Security",
+        "Code Audit"
       ],
-      "lastTagline": "把编码代理变成可复核的六阶段安全审计流程"
+      "lastTagline": "把编码代理变成六阶段安全审计流程，产出可校验的结构化发现"
+    },
+    {
+      "repo": "milind-soni/OpenMausBot",
+      "url": "https://github.com/milind-soni/OpenMausBot",
+      "latestDate": "2026-11-08",
+      "latestRank": 2,
+      "tagsCn": [
+        "AI Agent",
+        "Computer Use",
+        "Self-hosted"
+      ],
+      "lastTagline": "本地自建多机器人桌面代理，每个带虚拟机、关键操作人工审批"
+    },
+    {
+      "repo": "sherlock-project/sherlock",
+      "url": "https://github.com/sherlock-project/sherlock",
+      "latestDate": "2026-11-08",
+      "latestRank": 3,
+      "tagsCn": [
+        "Security",
+        "OSINT",
+        "CLI"
+      ],
+      "lastTagline": "按用户名在 400+ 社交网络批量比对账号是否存在"
     },
     {
       "repo": "mattpocock/skills",
@@ -121,18 +145,6 @@
         "Design"
       ],
       "lastTagline": "给编码代理一套设计词汇，压掉模板化的 AI 视觉味"
-    },
-    {
-      "repo": "milind-soni/OpenMausBot",
-      "url": "https://github.com/milind-soni/OpenMausBot",
-      "latestDate": "2026-11-01",
-      "latestRank": 3,
-      "tagsCn": [
-        "AI Agent",
-        "Computer Use",
-        "Self-hosted"
-      ],
-      "lastTagline": "把多个编码代理做成聊天联系人，各自配一台虚拟机"
     },
     {
       "repo": "HKUDS/DeepTutor",

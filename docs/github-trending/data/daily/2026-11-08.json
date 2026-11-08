@@ -1,0 +1,151 @@
+{
+  "date": "2026-11-08",
+  "generatedAt": "2026-11-08T08:01:08.654026+08:00",
+  "source": "https://github.com/trending?since=daily",
+  "tags": [
+    "AI Agent",
+    "Security",
+    "Code Audit",
+    "Computer Use",
+    "Self-hosted",
+    "OSINT"
+  ],
+  "observation": "今日 TOP3 合计日增约 5,800 星，两个 AI Agent 项目加一个安全 OSINT 老项目。共同点是自动化能力正被固化成可复现的工作流，强调结构化产物与人工复核。差异在结构：Cloudflare 审计技能有组织背书，但热度在高位减速、提交已停顿 55 天；OpenMausBot 是个人项目，基数小，日增占总星 11.54%，快速破圈，迭代密集却积压 821 个 issue；Sherlock 十万星回热，日增占比仅 1.76%，靠长期维护与真实调查需求支撑。三者都属双用途工具，授权与合规边界比功能本身更值得先看。",
+  "projects": [
+    {
+      "rank": 1,
+      "repo": "cloudflare/security-audit-skill",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "tags": [
+        "AI Agent",
+        "Security",
+        "Code Audit"
+      ],
+      "tagsCn": [
+        "AI Agent",
+        "Security",
+        "Code Audit"
+      ],
+      "tagline": "把编码代理变成六阶段安全审计流程，产出可校验的结构化发现",
+      "starsToday": 2085,
+      "totalStars": 65684,
+      "starTodayRatio": 3.17,
+      "rankingStatus": "连续 2 次日报 TOP3",
+      "rankingTrack": "11-07#1 -> 11-08#1",
+      "activity": "55 天前有提交",
+      "license": "MIT",
+      "maintainer": "组织/公司/社区项目（Cloudflare）；有主页/组织资料，可进一步核实官方性",
+      "positioning": "面向已有 SDL 或漏洞赏金流程的安全工程师：把侦察、覆盖驱动狩猎、独立反证、结构化产物与中立报告固化为代理技能，输出 architecture.md、coverage-ledger.json、findings.json。能力边界仅是方法论与 schema，不含漏洞库、托管扫描与自动定级，误报漏报仍由人判定。",
+      "whyWatch": "今日 +2085、占总星 3.17%，绝对增量仍高，但比上次记录的 2548 继续回落，属高位减速；README 6,536 字符含六阶段说明与 schema 示例，MIT 可读可改。反向信号同样明显：提交停在 55 天前，118 个 open issues 积压，近 30 天 PR 更新 54 而 issue 仅 31，仍无公开 release 与明显文档入口。",
+      "changedSinceLast": "相比上次记录（当时排名第 1，日增 2548、占比 3.99%、总星 6.39 万）：日增降至 2085、占比 3.17%，总星升至 6.57 万；提交空闲 54→55 天继续拉长，open issues 115→118 积压加重，近 30 天 issue 更新 30→31、PR 更新 50→54，仍无 release。",
+      "suitableFor": "适合已有安全评审流程的团队：在自有或已获书面授权的仓库上，把审计步骤固化为可复现的提示、覆盖台账与统一 findings 格式，并由安全工程师逐条复现 confirmed 记录，再把 needs_validation 转成待办。",
+      "notSuitableFor": "不适合把代理输出直接当作漏洞结论、缺少安全人员或授权范围不明的团队；它也不能替代 SAST/DAST 工具链，拿不到现成漏洞库与自动定级；项目已 55 天没有提交、没有 release，不宜作为唯一依赖。",
+      "risk": "授权是硬前提：只能对自有或已获书面授权的目标运行，禁止扫描第三方系统。confirmed 必须人工复现，不得作为定级、对外披露或赏金提交的唯一依据。55 天无提交、118 个 open issues 积压，Cloudflare 组织账号与 MIT 许可不构成对具体使用方式的合规背书或安全保证。",
+      "bestPractice": "在自有仓库用只读凭证跑完整六阶段：先产出 architecture.md 与 coverage-ledger.json 锁定覆盖范围，再由独立 verifier 反证每个候选，confirmed 经安全工程师复现后才进入内部漏洞平台去重评级，全程留存审计日志与回滚点。",
+      "trialPlan": {
+        "install": "按 README 把 skill 目录放入代理的 skills 路径，复用已有 CLI 登录，确认使用只读凭证并锁定工作目录权限，先在隔离机器上运行。",
+        "pilot": "选一个自有测试仓库，只跑侦察与覆盖台账两个阶段，产物仅写入本地 audit 目录，不指向任何外部目标。",
+        "evaluation": "看覆盖单元是否可追溯到台账、needs_validation 与 rejected 的比例、人工复现成功率、单次审计耗时与 token 成本。",
+        "exit": "出现任何越权访问、产物无法通过 report-schema 校验，或维护提交继续停摆，即停用并回退到人工审计 checklist。"
+      },
+      "signals": {
+        "recentCommit": "2026-09-14",
+        "issuesUpdated30d": 31,
+        "prsUpdated30d": 54,
+        "latestRelease": "暂无公开 release",
+        "readmeMaturity": "成熟",
+        "readmeSignals": "6,536 字符 / 9 个标题 / 有安装说明 / 有 Demo/示例 / 文档入口不明显"
+      }
+    },
+    {
+      "rank": 2,
+      "repo": "milind-soni/OpenMausBot",
+      "url": "https://github.com/milind-soni/OpenMausBot",
+      "tags": [
+        "AI Agent",
+        "Computer Use",
+        "Self-hosted"
+      ],
+      "tagsCn": [
+        "AI Agent",
+        "Computer Use",
+        "Self-hosted"
+      ],
+      "tagline": "本地自建多机器人桌面代理，每个带虚拟机、关键操作人工审批",
+      "starsToday": 1955,
+      "totalStars": 16948,
+      "starTodayRatio": 11.54,
+      "rankingStatus": "非连续；上次 11-01 第3",
+      "rankingTrack": "11-01#3 -> 11-08#2",
+      "activity": "1 天前有提交",
+      "license": "Apache-2.0",
+      "maintainer": "个人项目；官方性未见强信号",
+      "positioning": "面向想在本地自建“代理团队”的个人开发者与小团队：每个机器人绑定本机 Claude/Codex CLI，拥有独立人设、模型、线程记忆和一台云桌面或隔离虚拟机，可连接数百个应用，写操作由人在聊天中审批。边界是仍处 0.1.x，电脑操作受平台安全边界限制，权限控制仍在演进。",
+      "whyWatch": "今日 +1955、占总星 11.54%，总星从 9,588 涨到 16,948，仍属小基数快速破圈；1 天前有提交，近 30 天 issue 更新 589、PR 更新 1,868，11 月 7 日发布 v0.1.148，README 27,632 字符含安装、Demo 与竞品对比。但 821 个 open issue 相对星数偏高，需求与缺陷同时涌入。",
+      "changedSinceLast": "相比上次记录：日增 1303→1955，占比 13.59%→11.54%（总星翻倍摊薄），总星 9,588→16,948；open issues 611→821，近 30 天 issue 更新 403→589、PR 1,705→1,868；release 从 v0.1.136 推进到 v0.1.148，仍是 0.1 系列高频小版本。",
+      "suitableFor": "适合已在本地登录 Claude、Codex 等 CLI、想用聊天式界面管理多个长任务代理的开发者；也适合愿意在隔离虚拟机里做计算机操作实验、能接受每周跟版本升级并自行排障的技术爱好者与小团队。",
+      "notSuitableFor": "不适合需要稳定 API、SLA 与长期兼容承诺的生产系统；处理客户数据前必须完成合规与数据流向评估；不熟 Electron、虚拟机与密钥管理的用户门槛偏高；指望开箱即用、不愿读两万多字符文档的人容易受挫。",
+      "risk": "0.1.x 早期版本，配置与接口可能频繁变动；机器人可操作云桌面乃至本机，误操作或提示注入可能改动文件、账号与已连接应用，必须限定隔离环境、最小权限与人工审批。项目与 xAI、Meta、OpenAI、Manus 均无隶属关系，README 也提示同名代币与项目无关，需警惕借名钓鱼。",
+      "bestPractice": "在一台独立测试机或本地虚拟机上部署，只接一个低风险仓库加只读型应用，让机器人整理 issue、起草改动但禁止直接推送；所有写操作走人工审批，并保留操作日志，观察一周再决定是否放开权限。",
+      "trialPlan": {
+        "install": "从官网或 release 页下载对应平台安装包，装在独立测试机；复用已有 CLI 登录不新开账号，检查配置目录 ~/.openmausbot 的权限。",
+        "pilot": "配 1–2 个机器人，限定本地虚拟机与单一测试仓库，任务只到“整理 issue、出改动草案”，禁用 push 与生产账号访问。",
+        "evaluation": "记录任务成功率、人工接管次数、越权或误操作尝试次数、每任务耗时与 token 成本，并跟踪版本升级是否破坏既有配置。",
+        "exit": "出现任何未经审批的写操作、密钥外泄迹象，或升级后配置不可迁移，立即停用、清空虚拟机并回退到纯本地 CLI 流程。"
+      },
+      "signals": {
+        "recentCommit": "2026-11-07",
+        "issuesUpdated30d": 589,
+        "prsUpdated30d": 1868,
+        "latestRelease": "v0.1.148（2026-11-07）",
+        "readmeMaturity": "成熟",
+        "readmeSignals": "27,632 字符 / 27 个标题 / 有安装说明 / 有 Demo/示例 / 有文档入口"
+      }
+    },
+    {
+      "rank": 3,
+      "repo": "sherlock-project/sherlock",
+      "url": "https://github.com/sherlock-project/sherlock",
+      "tags": [
+        "Security",
+        "OSINT",
+        "CLI"
+      ],
+      "tagsCn": [
+        "Security",
+        "OSINT",
+        "CLI"
+      ],
+      "tagline": "按用户名在 400+ 社交网络批量比对账号是否存在",
+      "starsToday": 1766,
+      "totalStars": 100411,
+      "starTodayRatio": 1.76,
+      "rankingStatus": "新进 TOP3",
+      "rankingTrack": "新上榜",
+      "activity": "1 天前有提交",
+      "license": "MIT",
+      "maintainer": "组织/公司/社区项目（Sherlock Project）；有主页/组织资料，可进一步核实官方性",
+      "positioning": "面向做授权渗透、CTI 与数字取证的安全人员：一条 CLI 命令按用户名批量比对 400+ 站点是否注册，输出命中清单。能力边界只是“账号存在性”线索，不做身份确认、内容抓取或跨站关联，同名账号与误报仍需人工核验。",
+      "whyWatch": "总星破 10 万，今日 +1766、占比仅 1.76%，是老项目回热而非新爆发；1 天前有提交，v0.16.2（2026-09-08）仍在维护，README 明确提示 ParrotOS 与 Ubuntu 24.04 第三方包损坏、建议改用 uv/pipx/Docker。近 30 天 issue 更新仅 9、PR 25，讨论较平稳，363 个 open issues 多为站点适配。",
+      "changedSinceLast": "今日新进 TOP3，暂无昨日同榜对比。",
+      "suitableFor": "适合红队、CTI 与取证人员在授权范围内做账号面收敛：批量确认目标用户名在哪些平台存在，为后续人工核查与报告提供线索清单；也适合安全教学演示 OSINT 流程与工单闭环。",
+      "notSuitableFor": "不适合对第三方个人做无授权的批量画像或骚扰式追踪；不能用于身份认定、内容抓取与自动举报；期望开箱即得准确结果的人会失望，部分发行版第三方包已损坏，需自行改用 pipx 或 Docker。",
+      "risk": "高风险双用途工具：只可在授权、合法目的与最小必要范围内使用，个人信息处理与跨境查询需符合当地法律；命中结果只代表“疑似注册”，不得作为身份认定或对外指控依据；README 提示 ParrotOS/Ubuntu 24.04 第三方包损坏，非官方渠道安装存在供应链风险。",
+      "bestPractice": "在授权项目的隔离环境中用 Docker 固定版本运行，对已获书面许可的目标用户名做一次小批量比对，结果仅作线索导入工单，由分析员逐条人工核验，并留存授权记录与查询日志备查。",
+      "trialPlan": {
+        "install": "优先用 docker run -it --rm sherlock/sherlock 或 pipx install sherlock-project 固定版本，避免使用发行版第三方包。",
+        "pilot": "选 1–2 个已授权目标用户名，限定少量站点、单次运行，输出写入独立目录，不并发高频请求。",
+        "evaluation": "抽样人工核验命中准确率、统计误报来源、记录单次运行耗时与请求频率是否触发目标站点限流。",
+        "exit": "若抽样误报率过高、目标站点出现封禁或投诉，或授权范围发生变化，立即停止并删除结果文件与日志。"
+      },
+      "signals": {
+        "recentCommit": "2026-11-07",
+        "issuesUpdated30d": 9,
+        "prsUpdated30d": 25,
+        "latestRelease": "v0.16.2（2026-09-08）",
+        "readmeMaturity": "成熟",
+        "readmeSignals": "1,396 字符 / 5 个标题 / 有安装说明 / 有 Demo/示例 / 有文档入口"
+      }
+    }
+  ]
+}

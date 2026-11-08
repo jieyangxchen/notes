@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-07T08:01:16.422168+08:00",
-  "window": "2026-11-01..2026-11-07",
+  "generatedAt": "2026-11-08T08:01:08.654026+08:00",
+  "window": "2026-11-02..2026-11-08",
   "topProjects": [
     {
       "repo": "vercel-labs/agent-desktop",
@@ -29,17 +29,17 @@
       "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
-      "repo": "thedotmack/claude-mem",
-      "url": "https://github.com/thedotmack/claude-mem",
+      "repo": "cloudflare/security-audit-skill",
+      "url": "https://github.com/cloudflare/security-audit-skill",
       "tagsCn": [
         "AI Agent",
-        "记忆",
-        "Dev Tool"
+        "Security",
+        "Code Audit"
       ],
-      "appearances": 3,
+      "appearances": 2,
       "bestRank": 1,
-      "latestDate": "2026-11-03",
-      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
+      "latestDate": "2026-11-08",
+      "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
       "repo": "pingdotgg/t3code",
@@ -81,14 +81,14 @@
       "track": "11-05#2 -> 11-06#1 -> 11-07#3"
     },
     {
-      "repo": "thedotmack/claude-mem",
-      "days": 3,
-      "track": "11-01#1 -> 11-02#2 -> 11-03#3"
-    },
-    {
       "repo": "D4Vinci/Scrapling",
       "days": 2,
       "track": "11-04#2 -> 11-05#3"
+    },
+    {
+      "repo": "cloudflare/security-audit-skill",
+      "days": 2,
+      "track": "11-07#1 -> 11-08#1"
     },
     {
       "repo": "mattpocock/skills",
@@ -99,6 +99,11 @@
       "repo": "pingdotgg/t3code",
       "days": 2,
       "track": "11-02#1 -> 11-03#1"
+    },
+    {
+      "repo": "thedotmack/claude-mem",
+      "days": 2,
+      "track": "11-02#2 -> 11-03#3"
     }
   ]
 }
