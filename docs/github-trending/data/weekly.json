@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-08T08:01:08.654026+08:00",
-  "window": "2026-11-02..2026-11-08",
+  "generatedAt": "2026-11-09T08:01:05.324001+08:00",
+  "window": "2026-11-03..2026-11-09",
   "topProjects": [
     {
       "repo": "vercel-labs/agent-desktop",
@@ -42,16 +42,16 @@
       "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
-      "repo": "pingdotgg/t3code",
-      "url": "https://github.com/pingdotgg/t3code",
+      "repo": "sherlock-project/sherlock",
+      "url": "https://github.com/sherlock-project/sherlock",
       "tagsCn": [
-        "AI Agent",
-        "Dev Tool",
-        "远程控制"
+        "Security",
+        "OSINT",
+        "CLI"
       ],
       "appearances": 2,
       "bestRank": 1,
-      "latestDate": "2026-11-03",
+      "latestDate": "2026-11-09",
       "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
@@ -96,14 +96,14 @@
       "track": "11-06#3 -> 11-07#2"
     },
     {
-      "repo": "pingdotgg/t3code",
+      "repo": "milind-soni/OpenMausBot",
       "days": 2,
-      "track": "11-02#1 -> 11-03#1"
+      "track": "11-08#2 -> 11-09#2"
     },
     {
-      "repo": "thedotmack/claude-mem",
+      "repo": "sherlock-project/sherlock",
       "days": 2,
-      "track": "11-02#2 -> 11-03#3"
+      "track": "11-08#3 -> 11-09#1"
     }
   ]
 }

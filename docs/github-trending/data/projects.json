@@ -1,6 +1,42 @@
 {
-  "generatedAt": "2026-11-08T08:01:08.654026+08:00",
+  "generatedAt": "2026-11-09T08:01:05.324001+08:00",
   "projects": [
+    {
+      "repo": "sherlock-project/sherlock",
+      "url": "https://github.com/sherlock-project/sherlock",
+      "latestDate": "2026-11-09",
+      "latestRank": 1,
+      "tagsCn": [
+        "Security",
+        "OSINT",
+        "CLI"
+      ],
+      "lastTagline": "按用户名批量比对 400+ 站点，输出账号是否存在线索"
+    },
+    {
+      "repo": "milind-soni/OpenMausBot",
+      "url": "https://github.com/milind-soni/OpenMausBot",
+      "latestDate": "2026-11-09",
+      "latestRank": 2,
+      "tagsCn": [
+        "AI Agent",
+        "Dev Tool",
+        "Self-hosted"
+      ],
+      "lastTagline": "本地 CLI 驱动的多机器人代理，自带云桌面与人工审批"
+    },
+    {
+      "repo": "meta/astryx",
+      "url": "https://github.com/meta/astryx",
+      "latestDate": "2026-11-09",
+      "latestRank": 3,
+      "tagsCn": [
+        "Dev Tool",
+        "AI Agent",
+        "Design System"
+      ],
+      "lastTagline": "Meta 开源的 React 19 设计系统，附 CLI 与 150+ 无障碍组件"
+    },
     {
       "repo": "cloudflare/security-audit-skill",
       "url": "https://github.com/cloudflare/security-audit-skill",
@@ -12,30 +48,6 @@
         "Code Audit"
       ],
       "lastTagline": "把编码代理变成六阶段安全审计流程，产出可校验的结构化发现"
-    },
-    {
-      "repo": "milind-soni/OpenMausBot",
-      "url": "https://github.com/milind-soni/OpenMausBot",
-      "latestDate": "2026-11-08",
-      "latestRank": 2,
-      "tagsCn": [
-        "AI Agent",
-        "Computer Use",
-        "Self-hosted"
-      ],
-      "lastTagline": "本地自建多机器人桌面代理，每个带虚拟机、关键操作人工审批"
-    },
-    {
-      "repo": "sherlock-project/sherlock",
-      "url": "https://github.com/sherlock-project/sherlock",
-      "latestDate": "2026-11-08",
-      "latestRank": 3,
-      "tagsCn": [
-        "Security",
-        "OSINT",
-        "CLI"
-      ],
-      "lastTagline": "按用户名在 400+ 社交网络批量比对账号是否存在"
     },
     {
       "repo": "mattpocock/skills",
