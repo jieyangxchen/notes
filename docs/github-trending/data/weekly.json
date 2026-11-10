@@ -1,20 +1,7 @@
 {
-  "generatedAt": "2026-11-09T08:01:05.324001+08:00",
-  "window": "2026-11-03..2026-11-09",
+  "generatedAt": "2026-11-10T08:00:52.308086+08:00",
+  "window": "2026-11-04..2026-11-10",
   "topProjects": [
-    {
-      "repo": "vercel-labs/agent-desktop",
-      "url": "https://github.com/vercel-labs/agent-desktop",
-      "tagsCn": [
-        "AI Agent",
-        "Computer Use",
-        "Dev Tool"
-      ],
-      "appearances": 4,
-      "bestRank": 1,
-      "latestDate": "2026-11-06",
-      "judgement": "近 7 次记录中出现 4 次，最佳排名第 1，适合优先复盘详情。"
-    },
     {
       "repo": "NVIDIA/auto-ontology",
       "url": "https://github.com/NVIDIA/auto-ontology",
@@ -29,6 +16,45 @@
       "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
+      "repo": "sherlock-project/sherlock",
+      "url": "https://github.com/sherlock-project/sherlock",
+      "tagsCn": [
+        "Security",
+        "OSINT",
+        "CLI"
+      ],
+      "appearances": 3,
+      "bestRank": 1,
+      "latestDate": "2026-11-10",
+      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
+    },
+    {
+      "repo": "vercel-labs/agent-desktop",
+      "url": "https://github.com/vercel-labs/agent-desktop",
+      "tagsCn": [
+        "AI Agent",
+        "Computer Use",
+        "Dev Tool"
+      ],
+      "appearances": 3,
+      "bestRank": 1,
+      "latestDate": "2026-11-06",
+      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
+    },
+    {
+      "repo": "milind-soni/OpenMausBot",
+      "url": "https://github.com/milind-soni/OpenMausBot",
+      "tagsCn": [
+        "AI Agent",
+        "Computer Use",
+        "Self-hosted"
+      ],
+      "appearances": 3,
+      "bestRank": 2,
+      "latestDate": "2026-11-10",
+      "judgement": "近 7 次记录中出现 3 次，最佳排名第 2，适合优先复盘详情。"
+    },
+    {
       "repo": "cloudflare/security-audit-skill",
       "url": "https://github.com/cloudflare/security-audit-skill",
       "tagsCn": [
@@ -40,45 +66,28 @@
       "bestRank": 1,
       "latestDate": "2026-11-08",
       "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
-    },
-    {
-      "repo": "sherlock-project/sherlock",
-      "url": "https://github.com/sherlock-project/sherlock",
-      "tagsCn": [
-        "Security",
-        "OSINT",
-        "CLI"
-      ],
-      "appearances": 2,
-      "bestRank": 1,
-      "latestDate": "2026-11-09",
-      "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
-    },
-    {
-      "repo": "D4Vinci/Scrapling",
-      "url": "https://github.com/D4Vinci/Scrapling",
-      "tagsCn": [
-        "浏览器",
-        "Scraping",
-        "Python",
-        "MCP"
-      ],
-      "appearances": 2,
-      "bestRank": 2,
-      "latestDate": "2026-11-05",
-      "judgement": "近 7 次记录中出现 2 次，最佳排名第 2，适合优先复盘详情。"
     }
   ],
   "streaks": [
     {
-      "repo": "vercel-labs/agent-desktop",
-      "days": 4,
-      "track": "11-03#2 -> 11-04#1 -> 11-05#1 -> 11-06#2"
-    },
-    {
       "repo": "NVIDIA/auto-ontology",
       "days": 3,
       "track": "11-05#2 -> 11-06#1 -> 11-07#3"
+    },
+    {
+      "repo": "milind-soni/OpenMausBot",
+      "days": 3,
+      "track": "11-08#2 -> 11-09#2 -> 11-10#3"
+    },
+    {
+      "repo": "sherlock-project/sherlock",
+      "days": 3,
+      "track": "11-08#3 -> 11-09#1 -> 11-10#1"
+    },
+    {
+      "repo": "vercel-labs/agent-desktop",
+      "days": 3,
+      "track": "11-04#1 -> 11-05#1 -> 11-06#2"
     },
     {
       "repo": "D4Vinci/Scrapling",
@@ -96,14 +105,9 @@
       "track": "11-06#3 -> 11-07#2"
     },
     {
-      "repo": "milind-soni/OpenMausBot",
+      "repo": "meta/astryx",
       "days": 2,
-      "track": "11-08#2 -> 11-09#2"
-    },
-    {
-      "repo": "sherlock-project/sherlock",
-      "days": 2,
-      "track": "11-08#3 -> 11-09#1"
+      "track": "11-09#3 -> 11-10#2"
     }
   ]
 }

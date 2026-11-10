@@ -1,41 +1,41 @@
 {
-  "generatedAt": "2026-11-09T08:01:05.324001+08:00",
+  "generatedAt": "2026-11-10T08:00:52.308086+08:00",
   "projects": [
     {
       "repo": "sherlock-project/sherlock",
       "url": "https://github.com/sherlock-project/sherlock",
-      "latestDate": "2026-11-09",
+      "latestDate": "2026-11-10",
       "latestRank": 1,
       "tagsCn": [
         "Security",
         "OSINT",
         "CLI"
       ],
-      "lastTagline": "按用户名批量比对 400+ 站点，输出账号是否存在线索"
-    },
-    {
-      "repo": "milind-soni/OpenMausBot",
-      "url": "https://github.com/milind-soni/OpenMausBot",
-      "latestDate": "2026-11-09",
-      "latestRank": 2,
-      "tagsCn": [
-        "AI Agent",
-        "Dev Tool",
-        "Self-hosted"
-      ],
-      "lastTagline": "本地 CLI 驱动的多机器人代理，自带云桌面与人工审批"
+      "lastTagline": "一条命令按用户名探测 400+ 站点注册痕迹，输出线索清单"
     },
     {
       "repo": "meta/astryx",
       "url": "https://github.com/meta/astryx",
-      "latestDate": "2026-11-09",
+      "latestDate": "2026-11-10",
+      "latestRank": 2,
+      "tagsCn": [
+        "AI Agent",
+        "Design System",
+        "Frontend"
+      ],
+      "lastTagline": "React 19 设计系统，150+ 组件可 swizzle，文档人机共用"
+    },
+    {
+      "repo": "milind-soni/OpenMausBot",
+      "url": "https://github.com/milind-soni/OpenMausBot",
+      "latestDate": "2026-11-10",
       "latestRank": 3,
       "tagsCn": [
-        "Dev Tool",
         "AI Agent",
-        "Design System"
+        "Computer Use",
+        "Self-hosted"
       ],
-      "lastTagline": "Meta 开源的 React 19 设计系统，附 CLI 与 150+ 无障碍组件"
+      "lastTagline": "本地 Claude/Codex 驱动的多机器人，各带云桌面并需人工审批"
     },
     {
       "repo": "cloudflare/security-audit-skill",

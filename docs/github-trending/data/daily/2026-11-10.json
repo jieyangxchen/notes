@@ -1,0 +1,151 @@
+{
+  "date": "2026-11-10",
+  "generatedAt": "2026-11-10T08:00:52.308086+08:00",
+  "source": "https://github.com/trending?since=daily",
+  "tags": [
+    "Security",
+    "OSINT",
+    "CLI",
+    "AI Agent",
+    "Design System",
+    "Frontend"
+  ],
+  "observation": "今日 TOP3 都在让自动化动手操作外部环境：sherlock 用 CLI 把用户名映射到 400+ 站点，astryx 让设计系统同时服务人和编码代理，OpenMausBot 给每个机器人配独立云桌面。共同点是需要脚本化、可审计和人工确认；差异在维护主体与成熟度：10 万星老项目靠站点适配维持热度，却一个月未发新版；Meta 组织下的 Beta 设计系统单日占比冲到 16.66%，但版本节奏未变；个人 0.1.x 项目一天一版，open issues 涨到 910。热度不等于可上生产。",
+  "projects": [
+    {
+      "rank": 1,
+      "repo": "sherlock-project/sherlock",
+      "url": "https://github.com/sherlock-project/sherlock",
+      "tags": [
+        "Security",
+        "OSINT",
+        "CLI"
+      ],
+      "tagsCn": [
+        "Security",
+        "OSINT",
+        "CLI"
+      ],
+      "tagline": "一条命令按用户名探测 400+ 站点注册痕迹，输出线索清单",
+      "starsToday": 4294,
+      "totalStars": 106967,
+      "starTodayRatio": 4.01,
+      "rankingStatus": "连续 3 次日报 TOP3",
+      "rankingTrack": "11-08#3 -> 11-09#1 -> 11-10#1",
+      "activity": "1 天前有提交",
+      "license": "MIT",
+      "maintainer": "组织/公司/社区项目（Sherlock Project）；有主页/组织资料，可进一步核实官方性",
+      "positioning": "面向有书面授权的红队、CTI 与取证人员：用 CLI 按用户名批量确认 400+ 站点是否疑似注册，产出可导入工单的线索清单。边界是只判“疑似注册”，不做身份认定、不抓取内容、不做跨站关联；站点改版与同名账号造成的误报需人工剔除。",
+      "whyWatch": "今日 +4294、占总 Star 4.01%（上次 2.29%），10 万星体量仍冲进 TOP3，属老项目持续回热；1 天前有提交，但 release 仍停在 v0.16.2（2026-09-08），近一个月未发新版；30 天 issue/PR 更新 19/57，较上次 14/42 回暖，open 却升至 400，站点适配积压仍在扩大。",
+      "changedSinceLast": "上次记录日增 2373、占比 2.29%、open 382、30 天 issue/PR 14/42。今日日增升至 4294、占比 4.01%，总 Star 破 10.6 万；open 增至 400，30 天更新升到 19/57，但 release 仍是 v0.16.2，热度涨幅快于维护吞吐。",
+      "suitableFor": "适合红队、CTI、数字取证与安全教学人员在书面授权范围内做账号面收敛，把命中结果当线索清单逐条核验；也适合需要离线、可脚本化 CLI 并愿用 Docker 固定版本的团队。",
+      "notSuitableFor": "不适合对第三方个人做无授权批量画像、骚扰式追踪或自动举报；不能用于身份认定与内容抓取；不愿处理误报与站点失效、或期望开箱高准确率的人会失望；对命令行与容器隔离不熟者门槛偏高。",
+      "risk": "双用途高风险：仅限授权、合法目的与最小必要范围，个人信息处理与跨境查询须符合当地法律；命中仅代表疑似注册，不得作为身份认定或对外指控依据；README 提示 ParrotOS/Ubuntu 24.04 第三方包已损坏，非官方渠道安装有供应链风险。",
+      "bestPractice": "在授权项目里用 Docker 固定版本跑小批量比对，站点限定必要范围并加请求延时；结果只作线索进入工单，由分析员逐条人工确认，同时归档授权邮件、用户名清单与请求日志，形成可复核的 OSINT 记录。",
+      "trialPlan": {
+        "install": "优先 docker run -it --rm sherlock/sherlock 或 pipx install sherlock-project 固定版本，避开 ParrotOS/Ubuntu 24.04 第三方包；在隔离环境运行，输出目录与个人数据分离。",
+        "pilot": "选 1–2 个获授权的用户名，站点收窄到 20 个以内并加延时，跑通一次结果导出与工单导入，记录命中情况与误报类型。",
+        "evaluation": "统计有效命中比例、误报来源（站点改版或同名账号）、单次耗时与是否触发封禁；对比人工核验每条线索的平均成本是否下降。",
+        "exit": "若误报率持续偏高需人工逐条推翻、站点失效频繁，或无法留存授权与日志证据，则停止使用并改回人工核查。"
+      },
+      "signals": {
+        "recentCommit": "2026-11-09",
+        "issuesUpdated30d": 19,
+        "prsUpdated30d": 57,
+        "latestRelease": "v0.16.2（2026-09-08）",
+        "readmeMaturity": "成熟",
+        "readmeSignals": "1,396 字符 / 5 个标题 / 有安装说明 / 有 Demo/示例 / 有文档入口"
+      }
+    },
+    {
+      "rank": 2,
+      "repo": "meta/astryx",
+      "url": "https://github.com/meta/astryx",
+      "tags": [
+        "AI Agent",
+        "Design System",
+        "Frontend"
+      ],
+      "tagsCn": [
+        "AI Agent",
+        "Design System",
+        "Frontend"
+      ],
+      "tagline": "React 19 设计系统，150+ 组件可 swizzle，文档人机共用",
+      "starsToday": 3324,
+      "totalStars": 19954,
+      "starTodayRatio": 16.66,
+      "rankingStatus": "连续 2 次日报 TOP3",
+      "rankingTrack": "11-09#3 -> 11-10#2",
+      "activity": "1 天前有提交",
+      "license": "MIT",
+      "maintainer": "组织/公司/社区项目（Meta）；有主页/组织资料，可进一步核实官方性",
+      "positioning": "面向已用 React 19、需要可深度改造组件库的前端团队与设计系统维护者：导入预制 CSS 即得 150+ 类型化组件，主题用 CSS 变量覆盖，可 swizzle 出源码自持；CLI 与文档同时供人和编码代理读取。边界是 Beta、绑定 React 19 与 StyleX。",
+      "whyWatch": "今日 +3324、占总 Star 16.66%（上次 5.25%），单日占比在新项目中偏高，总 Star 已近 2 万；1 天前有提交，release 仍为 v0.7.11（2026-11-07），仍在 0.x Beta；30 天 PR 更新 3659、issue 306，open 升至 679，PR 计数异常高，宜自行核对仓库流水而非当作质量信号。",
+      "changedSinceLast": "上次记录日增 875、占比 5.25%、open 658、30 天 issue/PR 315/3509、release v0.7.11。今日日增 3324、占比升至 16.66%，总 Star 从约 1.67 万涨到近 2 万；open 微增至 679，release 未更新，热度跳升但版本节奏未变。",
+      "suitableFor": "适合已升级 React 19、既要避免样式锁定又需完整组件与无障碍支持的前端团队；也适合正在搭建内部设计系统、希望组件可 swizzle 并让编码代理读同一份文档协作的团队做候选评估。",
+      "notSuitableFor": "不适合停留在 React 18 及以下、或不愿在 Beta 期承担 API 变动的项目；小页面引入 150+ 组件与整套主题体系显得过重；需要长期稳定版本、明确支持等级或国内合规承诺的团队，应先自行核实再决定。",
+      "risk": "Beta 阶段组件 API 与主题变量可能调整，升级需回归测试；虽托管在 meta 组织账号下，README 未承诺官方支持级别，不应等同内部版本；StyleX 对使用方透明，仍可能影响构建与调试习惯；近 30 天 PR 计数极高，issue 是否收敛需自行核对。",
+      "bestPractice": "在一个内部中台项目先只替换表单与表格类组件，用主题变量覆盖品牌色，挑 1–2 个组件 swizzle 验证可维护性；同时让编码代理通过 astryx CLI 读同一份文档生成代码，人工 review 后再合并。",
+      "trialPlan": {
+        "install": "在 React 19 项目安装 @astryxdesign/core 与主题包，或全局装一次 CLI 让 astryx 可用；先核对 npm 包名、版本与 LICENSE，锁定版本，避免自动升级到新 Beta。",
+        "pilot": "选一个非核心页面替换 2–3 类高频组件，定制品牌色，试一次 swizzle 与现有 Tailwind/CSS 覆盖，并跑无障碍检查。",
+        "evaluation": "对比改造前后代码量、无障碍通过率、构建体积与升级成本；统计 CLI 与代理生成代码的可用率及人工返工比例。",
+        "exit": "若组件覆盖不足需大量自研、主题定制被迫改源码，或连续两个小版本出现破坏性变更，则回退原组件库并保留评估结论。"
+      },
+      "signals": {
+        "recentCommit": "2026-11-09",
+        "issuesUpdated30d": 306,
+        "prsUpdated30d": 3659,
+        "latestRelease": "v0.7.11（2026-11-07）",
+        "readmeMaturity": "成熟",
+        "readmeSignals": "7,864 字符 / 15 个标题 / 有安装说明 / 有 Demo/示例 / 有文档入口"
+      }
+    },
+    {
+      "rank": 3,
+      "repo": "milind-soni/OpenMausBot",
+      "url": "https://github.com/milind-soni/OpenMausBot",
+      "tags": [
+        "AI Agent",
+        "Computer Use",
+        "Self-hosted"
+      ],
+      "tagsCn": [
+        "AI Agent",
+        "Computer Use",
+        "Self-hosted"
+      ],
+      "tagline": "本地 Claude/Codex 驱动的多机器人，各带云桌面并需人工审批",
+      "starsToday": 1589,
+      "totalStars": 19641,
+      "starTodayRatio": 8.09,
+      "rankingStatus": "连续 3 次日报 TOP3",
+      "rankingTrack": "11-08#2 -> 11-09#2 -> 11-10#3",
+      "activity": "1 天前有提交",
+      "license": "Apache-2.0",
+      "maintainer": "个人项目；官方性未见强信号",
+      "positioning": "面向已在本机登录 Claude/Codex CLI、想把长任务分给多个代理并行的开发者与小团队：每个机器人有独立人设、模型、线程记忆与云桌面，写操作在聊天中逐条人工审批。边界是 0.1.x、桌面操作受平台安全策略限制、权限模型仍在演进。",
+      "whyWatch": "今日 +1589、占总 Star 8.09%，小基数高热度延续；1 天前有提交，v0.1.151（2026-11-09）保持一天一版；30 天 PR 更新 2007、issue 639，流水远高于同类早期项目，但 open 升到 910，需求与缺陷同时涌入；README 2.7 万字符，含安装、Demo 与竞品对比。",
+      "changedSinceLast": "上次记录日增 1439、占比 7.9%、总 Star 18,215、open 827、release v0.1.149、30 天 issue/PR 635/1934。今日日增 1589、占比 8.09%，总 Star 19,641，release 推进到 v0.1.151；open 增至 910，积压扩大快于关闭。",
+      "suitableFor": "适合已配置 Claude、Codex 本地 CLI、想用聊天界面并行管理多个长任务代理的开发者；也适合愿在隔离虚拟机做 computer-use 实验、能接受每天跟版本并从 issue 自行排障的技术爱好者与小团队。",
+      "notSuitableFor": "不适合需要稳定 API、SLA 与长期兼容承诺的生产系统或客户数据处理；不熟 Electron、虚拟机与密钥管理者门槛偏高；指望开箱即用、不愿读两万多字符文档、无法接受一天一版频繁变动的人容易受挫。",
+      "risk": "0.1.x 早期版本，配置与接口可能随时变动；机器人可操作云桌面乃至本机，提示注入或误操作可能改动文件、账号与已连接应用，须限定隔离环境、最小权限与逐条人工审批并留日志；项目与 xAI、Meta、OpenAI、Manus 无隶属关系，README 亦提示同名代币与项目无关，警惕借名钓鱼。",
+      "bestPractice": "在独立测试机或本地虚拟机部署，只接一个低风险仓库与只读型应用，让机器人整理 issue、起草改动但禁止 push 与生产账号访问；所有写操作走聊天内人工审批并留存日志，观察一周再决定是否放开。",
+      "trialPlan": {
+        "install": "从官网或 release 页下载对应平台安装包，装在独立测试机；复用已有 CLI 登录不新开账号，检查 ~/.openmausbot 配置目录权限与密钥存放位置。",
+        "pilot": "配 1–2 个机器人，只连本地虚拟机与单一测试仓库，任务限定为整理 issue、起草补丁，禁止 push、删除与生产账号访问。",
+        "evaluation": "记录任务完成率、需人工审批与回滚次数、误操作与越权尝试、token 成本；观察一周 open issues 与版本是否仍快速变动。",
+        "exit": "若出现无法回滚的误操作、密钥外泄迹象，或连续两个版本破坏配置兼容性且 issue 无人响应，则停用并迁回自建脚本。"
+      },
+      "signals": {
+        "recentCommit": "2026-11-09",
+        "issuesUpdated30d": 639,
+        "prsUpdated30d": 2007,
+        "latestRelease": "v0.1.151（2026-11-09）",
+        "readmeMaturity": "成熟",
+        "readmeSignals": "27,743 字符 / 27 个标题 / 有安装说明 / 有 Demo/示例 / 有文档入口"
+      }
+    }
+  ]
+}
