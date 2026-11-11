@@ -1,0 +1,151 @@
+{
+  "date": "2026-11-11",
+  "generatedAt": "2026-11-11T08:12:18.924328+08:00",
+  "source": "https://github.com/trending?since=daily",
+  "tags": [
+    "Dev Tool",
+    "AI Agent",
+    "Design System",
+    "Security",
+    "OSINT",
+    "CLI"
+  ],
+  "observation": "今日 TOP3 呈现两条不同的热度曲线：astryx 与 sherlock 均为连续上榜，但热度走向分化——astryx 日增从 3324 回落到 3108、占比由 16.66% 降到 13.67%，同时把 release 推进到 v0.7.13，说明版本节奏正在跟上热度；sherlock 日增从 4294 降到 2393、release 仍停在 9 月，回热快于维护速度。新进榜的 anthropics/skills 以 19.2 万星、0.87% 占比缓慢回热，指向 Agent 技能标准化。三者共同点是把『人与代理共用的接口层』产品化：组件文档、OSINT 线索、技能说明书；差异在合规边界——设计系统是 Beta 风险，OSINT 需书面授权，skills 仓库许可证未声明。",
+  "projects": [
+    {
+      "rank": 1,
+      "repo": "meta/astryx",
+      "url": "https://github.com/meta/astryx",
+      "tags": [
+        "Dev Tool",
+        "AI Agent",
+        "Design System"
+      ],
+      "tagsCn": [
+        "Dev Tool",
+        "AI Agent",
+        "Design System"
+      ],
+      "tagline": "Meta 开源 React 设计系统，组件可深度改造",
+      "starsToday": 3108,
+      "totalStars": 22739,
+      "starTodayRatio": 13.67,
+      "rankingStatus": "连续 3 次日报 TOP3",
+      "rankingTrack": "11-09#3 -> 11-10#2 -> 11-11#1",
+      "activity": "0 天前有提交",
+      "license": "MIT",
+      "maintainer": "组织/公司/社区项目（Meta）；有主页/组织资料，可进一步核实官方性",
+      "positioning": "面向已升级 React 19、既需要 150+ 无障碍组件又想把源码留在自己手里的前端与设计系统团队：导入预制 CSS 即得类型化组件，主题用 CSS 变量覆盖，可用 swizzle 拆出组件源码自持，CLI 与文档同供人和编码代理读取。边界是仍处 Beta，绑定 React 19 与 StyleX，主题变量与组件 API 都可能调整，未承诺稳定版或官方支持等级。",
+      "whyWatch": "今日 +3108 星、占总 Star 13.67%，单日占比仍属高位；0 天前有提交，release 今日推进到 v0.7.13（2026-11-10），是三天内第二次发版，说明除热度之外版本节奏在跟。open issues 684、近 30 天 issue 更新 313，但 PR 更新高达 3829，该计数异常，宜自行核对仓库流水而非当作质量信号；README 7,864 字符，带 Storybook 与 Sandbox，成熟度较高。",
+      "changedSinceLast": "上次记录为 2026-11-09 第 3 名：日增 3324、占比 16.66%、release v0.7.11、open 679、30 天 issue/PR 306/3659。今日日增 3108、占比降至 13.67%，总 Star 从约 2.0 万升至 2.27 万；最值得注意的是 release 连推两版到 v0.7.13 且 0 天前有提交，open 微增至 684——热度略退，维护节奏反而加快。",
+      "suitableFor": "适合已升级 React 19、希望组件可 swizzle 自持源码的前端平台团队，以及要让人和编码代理共用同一份组件文档的设计系统维护者；也适合把 Meta 内部八年沉淀当参考样本、愿意在 Beta 期跟进版本做回归测试的团队。",
+      "notSuitableFor": "不适合停在 React 18 及以下、或无法承担 Beta 期 API 与主题变量变动的项目；单个营销页引入 150+ 组件与整套主题体系过重；需要明确 SLA、官方支持等级或国内合规承诺的团队，不能因托管在 meta 组织账号下就默认等同内部版本。",
+      "risk": "Beta 阶段组件 API 与主题变量可能调整，升级须配套回归测试；托管在 Meta 组织账号不等于官方支持承诺，README 未写明支持级别；StyleX 虽对使用方透明，仍可能影响构建与调试习惯；近 30 天 PR 更新 3829 属异常计数，issue 是否收敛需自行核对；无障碍与暗色模式应在自有页面实测，不能只信 Storybook。",
+      "bestPractice": "在一个内部中台项目先只替换表单与表格两类高频组件，用 CSS 变量覆盖品牌色与暗色模式，挑 1 个组件 swizzle 出源码验证可维护性；同时让编码代理通过 astryx CLI 读取同一份文档生成页面骨架，产出只进 PR 草案、人工 review 后再合并，避免代理直接改主干。",
+      "trialPlan": {
+        "install": "在 React 19 项目锁定版本安装 @astryxdesign/core 与主题包，或全局装 CLI 供代理调用；先核对 npm 包名、版本与 MIT LICENSE，关闭自动升级，在独立分支接入。",
+        "pilot": "选一个非核心页面替换 2–3 类组件，完成品牌色覆盖、暗色模式与一次 swizzle，记录改动行数与构建时间变化；代理生成代码只走草稿 PR。",
+        "evaluation": "看三项：接入到可用的工时、v0.7.x 升级后需回归的组件数量、无障碍与视觉回归用例通过率；再观察 issue 修复响应速度，判断社区吞吐能否跟上发版节奏。",
+        "exit": "若出现无法用主题变量绕开的 API 破坏、业务需要长期稳定版本，或回归成本超过自研封装时，保留原组件库，只借鉴其文档与 CLI 协作模式，停止深度引入。"
+      },
+      "signals": {
+        "recentCommit": "2026-11-11",
+        "issuesUpdated30d": 313,
+        "prsUpdated30d": 3829,
+        "latestRelease": "v0.7.13（2026-11-10）",
+        "readmeMaturity": "成熟",
+        "readmeSignals": "7,864 字符 / 15 个标题 / 有安装说明 / 有 Demo/示例 / 有文档入口"
+      }
+    },
+    {
+      "rank": 2,
+      "repo": "sherlock-project/sherlock",
+      "url": "https://github.com/sherlock-project/sherlock",
+      "tags": [
+        "Security",
+        "OSINT",
+        "CLI"
+      ],
+      "tagsCn": [
+        "Security",
+        "OSINT",
+        "CLI"
+      ],
+      "tagline": "按用户名在 400+ 社交站点批量排查账号的 CLI",
+      "starsToday": 2393,
+      "totalStars": 108935,
+      "starTodayRatio": 2.2,
+      "rankingStatus": "连续 4 次日报 TOP3",
+      "rankingTrack": "11-08#3 -> 11-09#1 -> 11-10#1 -> 11-11#2",
+      "activity": "1 天前有提交",
+      "license": "MIT",
+      "maintainer": "组织/公司/社区项目（Sherlock Project）；有主页/组织资料，可进一步核实官方性",
+      "positioning": "面向有书面授权的红队、CTI、数字取证与安全教学人员：用一条命令按用户名在 400+ 站点批量探测是否疑似注册，输出可导入工单的线索清单。边界很明确——只判疑似注册，不做身份认定、不抓取内容、不做跨站关联；站点改版与同名账号造成的误报必须由人工逐条剔除。",
+      "whyWatch": "今日 +2393 星、占比 2.20%，10.9 万星体量仍留在 TOP3，属老项目持续回热；1 天前有提交，但 release 仍是 v0.16.2（2026-09-08），近两月未发新版。近 30 天 issue/PR 更新 21/62，较上次略回暖，open 却升至 409，站点适配积压仍在扩大；README 仅 1,396 字符，但安装、用法与第三方包警告齐全。",
+      "changedSinceLast": "上次记录为 2026-11-09 第 1 名：日增 4294、占比 4.01%、open 400、30 天 issue/PR 19/57。今日日增 2393、占比 2.20%，从第 1 退到第 2，热度接近腰斩；release 依旧停在 v0.16.2，open 增至 409，30 天更新微升到 21/62——回热速度仍快于维护吞吐，站点失效类问题没有明显收敛。",
+      "suitableFor": "适合红队、CTI、取证与安全教学人员在书面授权范围内做账号面收敛，把命中结果当线索清单逐条核验；也适合需要离线、可脚本化、能用 Docker 固定版本的团队，把输出接入自有工单系统做二次分析并留存日志。",
+      "notSuitableFor": "不适合对第三方个人做无授权批量画像、骚扰式追踪或自动举报；不能用于身份认定与内容抓取；不愿处理误报与站点失效、期待开箱即高准确率的人会失望；不熟悉命令行与容器隔离、无法保证请求日志留存的团队也不建议上手。",
+      "risk": "双用途高风险工具：仅限授权、合法目的与最小必要范围使用，个人信息处理与跨境查询须符合当地法律与公司合规要求；命中只代表疑似注册，不得作为指控或对外结论。README 明确提示 ParrotOS 与 Ubuntu 24.04 的第三方包已损坏，走非官方渠道存在供应链风险，应优先 Docker 或 pipx 锁定版本。",
+      "bestPractice": "在授权项目里用 Docker 固定版本跑小批量比对，站点收窄到必要范围并加请求延时；结果只作线索导入工单，由分析员逐条人工确认，同时归档授权邮件、用户名清单与请求日志，形成可复核、可审计的 OSINT 记录，避免结果外流。",
+      "trialPlan": {
+        "install": "优先 docker run -it --rm sherlock/sherlock 或 pipx install sherlock-project 固定版本，避开 ParrotOS 与 Ubuntu 24.04 第三方包；在隔离环境运行，输出目录与个人数据物理分离。",
+        "pilot": "选 1–2 个已获书面授权的用户名，站点收窄到 20 个以内并加延时，跑通一次结果导出与工单导入，记录命中情况、误报类型与单次耗时。",
+        "evaluation": "统计有效命中比例、误报来源（站点改版或同名账号）、单次运行耗时与封禁触发率；核对 open issue 中站点失效问题的修复速度，判断维护是否可持续。",
+        "exit": "若授权范围无法覆盖目标站点、误报量超出人工可处理上限，或站点适配长期不更新导致命中率持续下滑，则停止使用，改用人工核验或采购合规商业数据源。"
+      },
+      "signals": {
+        "recentCommit": "2026-11-10",
+        "issuesUpdated30d": 21,
+        "prsUpdated30d": 62,
+        "latestRelease": "v0.16.2（2026-09-08）",
+        "readmeMaturity": "成熟",
+        "readmeSignals": "1,396 字符 / 5 个标题 / 有安装说明 / 有 Demo/示例 / 有文档入口"
+      }
+    },
+    {
+      "rank": 3,
+      "repo": "anthropics/skills",
+      "url": "https://github.com/anthropics/skills",
+      "tags": [
+        "AI Agent",
+        "Dev Tool",
+        "Agent Skills"
+      ],
+      "tagsCn": [
+        "AI Agent",
+        "Dev Tool",
+        "Agent Skills"
+      ],
+      "tagline": "Anthropic 公开的 Agent Skills 示例库、规范与模板",
+      "starsToday": 1679,
+      "totalStars": 192289,
+      "starTodayRatio": 0.87,
+      "rankingStatus": "新进 TOP3",
+      "rankingTrack": "新上榜",
+      "activity": "5 天前有提交",
+      "license": "未声明",
+      "maintainer": "组织/公司/社区项目（Anthropic）；有主页/组织资料，可进一步核实官方性",
+      "positioning": "面向想让 Claude 或编码代理按固定流程完成专项任务的团队与个人：用 SKILL.md 把指令、脚本与资源打包成可动态加载的技能，仓库含创意、开发、企业与文档四类示例及规范草案。边界是演示与教学用途，README 明确行为可能与企业线上版本不一致，根仓库未声明许可证，仅部分子目录标注 Apache 2.0。",
+      "whyWatch": "19.2 万星、今日 +1679、占比 0.87%，属超高星体量的慢速回热；5 天前有提交，但无任何公开 release，说明仍在滚动演进而非版本化交付。open issues 1,516 偏高，近 30 天 issue/PR 更新 69/162，反馈积压明显；README 5,041 字符，含 Plugin Marketplace 安装方式与 Claude Code、Claude.ai、API 三种入口，成熟度高。",
+      "changedSinceLast": "今日新进 TOP3，暂无昨日同榜对比",
+      "suitableFor": "适合已在 Claude Code、Claude.ai 或 API 上跑代理，想把内部 SOP、品牌规范或文档流程固化成可复用技能包的团队；也适合研究者对照 spec 与官方示例，理解 Agent Skills 的组织方式、加载机制与能力边界。",
+      "notSuitableFor": "不适合指望开箱即用于生产关键流程、或需要明确许可证与支持承诺的团队；不用 Claude 生态、只想找通用 Agent 框架的人收益有限；把示例技能直接接生产写权限、又不设人工复核的项目风险过高，不应采用。",
+      "risk": "根仓库未声明许可证，仅部分子目录标注 Apache 2.0，商用前须逐目录核对；README 自述为演示与教学用途，行为可能与线上 Claude 不一致。技能内含可执行脚本，需最小权限、沙箱运行并留存日志；open issues 1,516 说明反馈积压，问题是否被回应需自行观察，不能把高星等同稳定。",
+      "bestPractice": "把团队一份已有 SOP（如发布前检查清单）写成 SKILL.md，附只读脚本与示例输入，先在沙箱里让代理重复执行同一任务，对比有无技能时的输出稳定性与人工返工量；验证通过后再逐步扩展技能库，全程保留人工复核与快速回滚路径。",
+      "trialPlan": {
+        "install": "在 Claude Code 中把仓库注册为 Plugin Marketplace，按需安装 document-skills 或 example-skills；同时克隆一份到本地，逐目录查看 SKILL.md 与许可证声明，确认可复用范围与商用边界。",
+        "pilot": "挑一个低风险场景（如按模板生成会议纪要），在只读权限下让代理执行 20 次，记录输出一致性、人工修改比例与耗时；不接生产写操作。",
+        "evaluation": "看输出一致性、人工返工率、技能加载后的 token 与耗时开销，以及失败案例能否被人工快速识别；同时观察社区 issue 的响应速度与 spec 更新频率。",
+        "exit": "若许可证无法覆盖预期用途、技能行为随模型更新漂移导致结果不可复现，或返工率高于现有手写流程，则退回自有 prompt 与 SOP，仅保留 spec 作为内部技能格式参考。"
+      },
+      "signals": {
+        "recentCommit": "2026-11-06",
+        "issuesUpdated30d": 69,
+        "prsUpdated30d": 162,
+        "latestRelease": "暂无公开 release",
+        "readmeMaturity": "成熟",
+        "readmeSignals": "5,041 字符 / 13 个标题 / 有安装说明 / 有 Demo/示例 / 有文档入口"
+      }
+    }
+  ]
+}

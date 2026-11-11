@@ -1,29 +1,41 @@
 {
-  "generatedAt": "2026-11-10T08:00:52.308086+08:00",
+  "generatedAt": "2026-11-11T08:12:18.924328+08:00",
   "projects": [
+    {
+      "repo": "meta/astryx",
+      "url": "https://github.com/meta/astryx",
+      "latestDate": "2026-11-11",
+      "latestRank": 1,
+      "tagsCn": [
+        "Dev Tool",
+        "AI Agent",
+        "Design System"
+      ],
+      "lastTagline": "Meta 开源 React 设计系统，组件可深度改造"
+    },
     {
       "repo": "sherlock-project/sherlock",
       "url": "https://github.com/sherlock-project/sherlock",
-      "latestDate": "2026-11-10",
-      "latestRank": 1,
+      "latestDate": "2026-11-11",
+      "latestRank": 2,
       "tagsCn": [
         "Security",
         "OSINT",
         "CLI"
       ],
-      "lastTagline": "一条命令按用户名探测 400+ 站点注册痕迹，输出线索清单"
+      "lastTagline": "按用户名在 400+ 社交站点批量排查账号的 CLI"
     },
     {
-      "repo": "meta/astryx",
-      "url": "https://github.com/meta/astryx",
-      "latestDate": "2026-11-10",
-      "latestRank": 2,
+      "repo": "anthropics/skills",
+      "url": "https://github.com/anthropics/skills",
+      "latestDate": "2026-11-11",
+      "latestRank": 3,
       "tagsCn": [
         "AI Agent",
-        "Design System",
-        "Frontend"
+        "Dev Tool",
+        "Agent Skills"
       ],
-      "lastTagline": "React 19 设计系统，150+ 组件可 swizzle，文档人机共用"
+      "lastTagline": "Anthropic 公开的 Agent Skills 示例库、规范与模板"
     },
     {
       "repo": "milind-soni/OpenMausBot",
