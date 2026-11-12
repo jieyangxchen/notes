@@ -1,17 +1,41 @@
 {
-  "generatedAt": "2026-11-11T08:12:18.924328+08:00",
+  "generatedAt": "2026-11-12T08:00:55.851535+08:00",
   "projects": [
     {
       "repo": "meta/astryx",
       "url": "https://github.com/meta/astryx",
-      "latestDate": "2026-11-11",
+      "latestDate": "2026-11-12",
       "latestRank": 1,
       "tagsCn": [
-        "Dev Tool",
+        "Design System",
         "AI Agent",
-        "Design System"
+        "Dev Tool"
       ],
-      "lastTagline": "Meta 开源 React 设计系统，组件可深度改造"
+      "lastTagline": "150+ React 19 组件，源码可 swizzle 自持"
+    },
+    {
+      "repo": "we-promise/sure",
+      "url": "https://github.com/we-promise/sure",
+      "latestDate": "2026-11-12",
+      "latestRank": 2,
+      "tagsCn": [
+        "金融",
+        "Self-hosted",
+        "AGPL"
+      ],
+      "lastTagline": "个人财务应用 Maybe 社区 fork，Docker 自托管"
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "latestDate": "2026-11-12",
+      "latestRank": 3,
+      "tagsCn": [
+        "AI Agent",
+        "Dev Tool",
+        "Workflow"
+      ],
+      "lastTagline": "9 个斜杠命令，把 spec 到 ship 的规范交给代理"
     },
     {
       "repo": "sherlock-project/sherlock",
@@ -610,18 +634,6 @@
         "React"
       ],
       "lastTagline": "让 Agent 与 UI 共用同一套 action 的 TypeScript 框架"
-    },
-    {
-      "repo": "addyosmani/agent-skills",
-      "url": "https://github.com/addyosmani/agent-skills",
-      "latestDate": "2026-09-20",
-      "latestRank": 3,
-      "tagsCn": [
-        "AI Agent",
-        "Dev Tool",
-        "Dev Workflow"
-      ],
-      "lastTagline": "给编码 Agent 装上生产级工程规范与斜杠命令"
     },
     {
       "repo": "alibaba/open-code-review",
