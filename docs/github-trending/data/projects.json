@@ -1,41 +1,41 @@
 {
-  "generatedAt": "2026-11-12T08:00:55.851535+08:00",
+  "generatedAt": "2026-11-13T08:06:20.737987+08:00",
   "projects": [
     {
       "repo": "meta/astryx",
       "url": "https://github.com/meta/astryx",
-      "latestDate": "2026-11-12",
+      "latestDate": "2026-11-13",
       "latestRank": 1,
       "tagsCn": [
-        "Design System",
         "AI Agent",
-        "Dev Tool"
+        "Design System",
+        "React"
       ],
-      "lastTagline": "150+ React 19 组件，源码可 swizzle 自持"
+      "lastTagline": "Meta 开源设计系统，150+ 组件可 swizzle 自持源码"
     },
     {
       "repo": "we-promise/sure",
       "url": "https://github.com/we-promise/sure",
-      "latestDate": "2026-11-12",
+      "latestDate": "2026-11-13",
       "latestRank": 2,
       "tagsCn": [
         "金融",
         "Self-hosted",
-        "AGPL"
+        "隐私"
       ],
-      "lastTagline": "个人财务应用 Maybe 社区 fork，Docker 自托管"
+      "lastTagline": "Maybe Finance 停更后的社区 fork，Docker 自托管记账"
     },
     {
       "repo": "addyosmani/agent-skills",
       "url": "https://github.com/addyosmani/agent-skills",
-      "latestDate": "2026-11-12",
+      "latestDate": "2026-11-13",
       "latestRank": 3,
       "tagsCn": [
         "AI Agent",
         "Dev Tool",
         "Workflow"
       ],
-      "lastTagline": "9 个斜杠命令，把 spec 到 ship 的规范交给代理"
+      "lastTagline": "把资深工程师的工作流固化成 9 个代理斜杠命令"
     },
     {
       "repo": "sherlock-project/sherlock",
