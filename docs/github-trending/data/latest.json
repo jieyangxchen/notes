@@ -1,60 +1,60 @@
 {
-  "date": "2026-11-13",
-  "generatedAt": "2026-11-13T08:06:20.737987+08:00",
+  "date": "2026-11-14",
+  "generatedAt": "2026-11-14T08:04:28.698004+08:00",
   "source": "https://github.com/trending?since=daily",
   "tags": [
+    "Browser",
+    "Dev Tool",
     "AI Agent",
-    "Design System",
-    "React",
     "Finance",
-    "Self-hosted",
-    "Privacy"
+    "自托管",
+    "Security"
   ],
-  "observation": "今日 TOP3 分属三条线。Astryx 把设计系统源码与组件文档同时开放给人和编码代理，日增 1830 但占比已从 11% 降到 6.9%，热度连续回落而发版仍在推进；sure 以 AGPL 自托管接住 Maybe Finance 停更后的记账需求，刚发 hotfix，open issues 905 仍偏高；agent-skills 用 9 个斜杠命令固化代理开发流程，0.70% 的占比说明它是 11 万星基数上的回热。共同点是把“代理可用性”当成新交付面，差异在于前两者交付可运行系统，第三个只交付规范与提示，缺少强制校验，依赖团队自觉。",
+  "observation": "今日 TOP3 分别对应三条方向：给编码代理补 Web 知识、自托管个人账本、用代理做安全审查。Chrome 牵头的 modern-web-guidance-src 日增 1925、占比 40%，是新项目爆发，成熟度靠文档和评估面板支撑，而非靠发版推进；sure 与 codex-security 属稳定升温，日增 925 与 751。sure 是 Maybe 停更后的社区 fork，靠 hotfix 消化积压；codex-security 由 OpenAI 维护，有 npm 版本与 TypeScript SDK，可进 CI。共同点是把能力封装成代理或流水线能调用的接口；差异在许可证（Apache-2.0 与 AGPL-3.0）和风险面：浏览器兼容建议、个人金融数据、漏洞扫描误报。",
   "projects": [
     {
       "rank": 1,
-      "repo": "meta/astryx",
-      "url": "https://github.com/meta/astryx",
+      "repo": "GoogleChrome/modern-web-guidance-src",
+      "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
       "tags": [
-        "AI Agent",
-        "Design System",
-        "React"
+        "Browser",
+        "Dev Tool",
+        "AI Agent"
       ],
       "tagsCn": [
-        "AI Agent",
-        "Design System",
-        "React"
+        "浏览器",
+        "Dev Tool",
+        "AI Agent"
       ],
-      "tagline": "Meta 开源设计系统，150+ 组件可 swizzle 自持源码",
-      "starsToday": 1830,
-      "totalStars": 26499,
-      "starTodayRatio": 6.91,
-      "rankingStatus": "连续 5 次日报 TOP3",
-      "rankingTrack": "11-09#3 -> 11-10#2 -> 11-11#1 -> 11-12#1 -> 11-13#1",
+      "tagline": "把现代 Web 最佳实践注入编码代理上下文",
+      "starsToday": 1925,
+      "totalStars": 4812,
+      "starTodayRatio": 40.0,
+      "rankingStatus": "新进 TOP3",
+      "rankingTrack": "新上榜",
       "activity": "1 天前有提交",
-      "license": "MIT",
-      "maintainer": "组织/公司/社区项目（Meta）；有主页/组织资料，可进一步核实官方性",
-      "positioning": "面向已升级 React 19、希望把 Meta 内部用了八年的设计系统整体搬进自家仓库的前端平台团队：150+ 组件、品牌主题与暗色模式现成可用，需要时可用 swizzle 把组件源码拆出来改，文档同时面向人和编码代理。能力边界是仍处 Beta，强绑 React 19 与 StyleX，主题变量与组件 API 未冻结，也不承诺官方支持等级。",
-      "whyWatch": "日增 1830、占总星 6.91%，较此前 2776/11.14% 明显退潮但仍在万级星基数上稳定升温；1 天前有提交，release 从 v0.7.14 推进到 v0.7.15（2026-11-12），维持连发节奏；open issues 由 680 降到 620，连续第二次回落；README 7,864 字符、15 个标题，带 Storybook 与 Sandbox。近 30 天 PR 更新 4028 属异常计数，不宜当作质量信号。",
-      "changedSinceLast": "上次记录为 2026-11-11 第 1 名：日增 2776、占比 11.14%、总星约 2.49 万、release v0.7.14、open 680。今日日增与占比双双续降至 1830/6.91%，总星升至 2.65 万；但 release 再推一版到 v0.7.15 且 1 天前仍有提交，open issues 680→620 二次回落，维护节奏没有随热度一起放缓。",
-      "suitableFor": "适合已升级 React 19、希望组件源码可 swizzle 自持的中台与设计系统团队；也适合要让人和编码代理共用同一份组件文档、并愿意在 Beta 期跟版本做回归测试的团队。",
-      "notSuitableFor": "不适合仍停留在 React 18 及以下、或无法承担 Beta 期组件 API 与主题变量变动的项目；单页营销站引入 150+ 组件过重；需要明确 SLA 或官方支持等级的团队也不宜采用。",
-      "risk": "Beta 期组件 API 与主题变量可能调整，升级须配回归测试；托管在 Meta 组织账号不等于官方支持承诺，README 未写支持级别；StyleX 会改变构建与调试习惯；近 30 天 PR 更新 4028 属异常计数，issue 是否收敛需自行核对流水；无障碍与暗色模式必须在自有页面实测。",
-      "bestPractice": "在内部中台先只替换表单与表格两类高频组件，用 CSS 变量覆盖品牌色与暗色模式，挑 1 个组件 swizzle 出源码验证可维护性，再把组件文档放到编码代理可读的位置，让代理按同一份示例生成页面。",
+      "license": "Apache-2.0",
+      "maintainer": "组织/公司/社区项目；有主页/组织资料，可进一步核实官方性",
+      "positioning": "面向已在用 Claude Code、Codex 等编码代理的前端与全栈团队：通过 CLI 把 Chrome、Edge、Firefox 与 MDN 共同维护的现代 Web 规范写进代理上下文，减少代理生成旧式写法和臃肿 polyfill。边界是提供策展建议与参考，不替代目标浏览器实测，兼容性结论仍需自己核验。",
+      "whyWatch": "日增 1925、占总星 40%，是新项目爆发中扩散最快的项目；1 天前仍有提交，近 30 天 issue 更新 1432、PR 更新 560，外部反馈量远超常规维护节奏；README 约 10 万字符、22 个标题，含安装说明与公开评估面板，成熟度较高；但暂无公开 release，缺少版本化与回滚保护，385 个 open issues 是明显压力点。",
+      "changedSinceLast": "今日新进 TOP3，暂无昨日同榜对比",
+      "suitableFor": "适合已把编码代理接入日常前端开发的团队，用来统一现代 API 写法；也适合组件库与框架作者对照兼容性建议做取舍，以及需要评估代理输出质量、希望借助公开评估面板建立内部基线的技术负责人。",
+      "notSuitableFor": "不适合没有代理工作流、仍以手写代码为主的小项目；也不适合要求锁定版本、需要 SLA 或长期支持承诺的生产依赖，以及希望工具直接产出可上线代码、而非只给出建议与参考的场景。",
+      "risk": "浏览器类需注意：建议来自策展内容与模型评估，可能与你的目标浏览器矩阵不一致，误用会引入旧设备无法运行的写法；项目暂无公开 release，主线变动缺乏语义化版本保护；385 个 open issues 说明反馈积压，采纳前应检索其中带具体浏览器版本的反例；它不是 W3C 标准，也不构成官方兼容性保证。",
+      "bestPractice": "在组件库升级窗口内，用 CLI 针对具体模块拉取 View Transitions、container queries 等条目，让代理重写旧实现，再由人工在目标浏览器跑回归，并把不采纳的条目记入团队规范。",
       "trialPlan": {
-        "install": "在 React 19 + StyleX 可用的分支按 README 安装 @astryxdesign/core，导入预制 CSS，跑通 Storybook 与 Sandbox 示例，不动主干分支。",
-        "pilot": "选一个内部中台页面，只替换表单与表格组件，主题改用 CSS 变量覆盖，记录改动文件数与构建报错。",
-        "evaluation": "看组件替换后回归用例通过率、构建体积变化、暗色模式与无障碍抽检结果，以及升级一次的实际耗时。",
-        "exit": "若一周内构建或样式冲突无法收敛、或必须大范围重写主题变量才能上线，则退回原组件库。"
+        "install": "按 README Quickstart 用交互式向导安装，或在隔离目录里用免安装方式试跑，避免直接改动主分支配置。",
+        "pilot": "选一个内部组件库的 2-3 个模块，让代理按拉取到的条目重写旧式实现，保留改写前后 diff。",
+        "evaluation": "记录代理输出中新 API 采纳率、代码体积变化、目标浏览器回归通过率与人工返工次数，同时统计 issue 区反例命中情况。",
+        "exit": "若目标浏览器回归失败率上升、建议与实测冲突频繁，或项目长期不发 release 导致无法锁定版本，则停止推广并回退到自维护规范清单。"
       },
       "signals": {
-        "recentCommit": "2026-11-12",
-        "issuesUpdated30d": 322,
-        "prsUpdated30d": 4028,
-        "latestRelease": "v0.7.15（2026-11-12）",
+        "recentCommit": "2026-11-13",
+        "issuesUpdated30d": 1432,
+        "prsUpdated30d": 560,
+        "latestRelease": "暂无公开 release",
         "readmeMaturity": "成熟",
-        "readmeSignals": "7,864 字符 / 15 个标题 / 有安装说明 / 有 Demo/示例 / 有文档入口"
+        "readmeSignals": "100,878 字符 / 22 个标题 / 有安装说明 / 有 Demo/示例 / 有文档入口"
       }
     },
     {
@@ -63,40 +63,40 @@
       "url": "https://github.com/we-promise/sure",
       "tags": [
         "Finance",
-        "Self-hosted",
-        "Privacy"
+        "自托管",
+        "Dev Tool"
       ],
       "tagsCn": [
         "金融",
-        "Self-hosted",
-        "隐私"
+        "自托管",
+        "Dev Tool"
       ],
-      "tagline": "Maybe Finance 停更后的社区 fork，Docker 自托管记账",
-      "starsToday": 967,
-      "totalStars": 13891,
-      "starTodayRatio": 6.96,
-      "rankingStatus": "连续 2 次日报 TOP3",
-      "rankingTrack": "11-12#2 -> 11-13#2",
+      "tagline": "Maybe 停更后的社区 fork，自托管个人账本",
+      "starsToday": 925,
+      "totalStars": 14725,
+      "starTodayRatio": 6.28,
+      "rankingStatus": "连续 3 次日报 TOP3",
+      "rankingTrack": "11-12#2 -> 11-13#2 -> 11-14#2",
       "activity": "1 天前有提交",
       "license": "AGPL-3.0",
       "maintainer": "组织/公司/社区项目；有主页/组织资料，可进一步核实官方性",
-      "positioning": "面向想完全掌控账本数据的个人与小团队：Maybe Finance 停更后的社区 fork，用 Docker 自托管，可通过浏览器、macOS 桌面端、移动端、API 与 LLM 代理访问，做账户聚合、预算与净值追踪。边界是只负责记录与呈现，不给投资建议，也不含官方托管服务与数据源合约，数据准确性依赖自己导入。",
-      "whyWatch": "日增 967、占总星 6.96%，仍在破圈区间但较上次的 1078/8.33% 略降；1 天前有提交，release 从 v0.7.6（2026-10-31）推进到 v0.7.6-hotfix.1（2026-11-12），说明上个版本有需紧急修补的回归；近 30 天 issue 更新 262、PR 更新 964，代码面活跃；但 open issues 905 继续走高，积压未消化；README 6,607 字符，带多语言与 Docker 托管文档。",
-      "changedSinceLast": "上次记录：日增 1078、占比 8.33%、open 902、release 为 v0.7.6（2026-10-31）。今日日增降至 967、占比 6.96%，总星升至 1.39 万；最值得注意的是新发 v0.7.6-hotfix.1，说明 0.7.6 存在需紧急修补的问题，升级前应先看该 hotfix 的改动范围；open issues 902→905，积压仍在增加。",
-      "suitableFor": "适合愿意自己维护服务器、在意账本数据不出内网的个人或小团队；也适合以 AGPL 代码为底做二次开发，或需要一个可被 API 与 LLM 客户端只读访问的财务数据后端的开发者。",
-      "notSuitableFor": "不适合不想管 Docker、备份与升级的非技术用户；不适合需要持牌投顾、自动交易或银行级托管承诺的场景；也不适合无法接受 AGPL 传染性条款、或想在 fork 中继续使用 Maybe 商标与 Logo 的商业项目。",
-      "risk": "金融类须明确：仅作记账与呈现，输出不构成投资建议，资产配置与报税判断必须人工复核；自托管意味着备份、加密与访问控制全由自己负责，多设备与 LLM 代理接入会放大泄露面；AGPL-3.0 对分发有源码开放要求，fork 须保留原许可证并声明与 Maybe Finance 无关联；open issues 905 走高，hotfix 本身也提示回归风险。",
-      "bestPractice": "在内网用 Docker Compose 起实例，只连两三个确实需要的账户做只读导入，不开放公网端口，LLM 代理只授予只读接口，每月导出账本快照并异地备份，升级前先读 hotfix 变更说明再决定是否跟进。",
+      "positioning": "面向希望账本数据不出内网的个人与小团队：以 Docker 自托管方式聚合账户、做预算与净值追踪，并提供浏览器、桌面端、移动端、API 与 LLM 代理入口。边界是只负责记录与呈现，不提供投资建议，也没有官方托管服务与数据源合约，数据准确性取决于自己导入。",
+      "whyWatch": "日增 925、占总星 6.28%，仍处破圈区间但较上次记录继续回落；1 天前有提交，近 30 天 PR 更新 996、issue 更新 258，代码面非常活跃；release 停在 v0.7.6-hotfix.1（2026-11-12），说明 0.7.6 之后仍在修补回归；README 6,607 字符、12 个标题，含多语言与 Docker 托管文档；但 open issues 已升至 920，积压未消化。",
+      "changedSinceLast": "上次记录于 2026-11-12 排第 2：日增 967、占比 6.96%、open issues 905、近 30 天 PR 更新 964。今日日增降至 925、占比 6.28%，总星升至 1.47 万，热度继续放缓；open issues 由 905 增至 920，积压未减；PR 更新升至 996，维护者仍在高频合并；release 仍为 v0.7.6-hotfix.1，未见新版本，升级前应先读该 hotfix 的改动范围。",
+      "suitableFor": "适合愿意自己维护服务器、在意账本数据不出内网的个人或小团队；也适合以 AGPL 代码为底做二次开发，或需要一个能被 API 与 LLM 客户端只读访问的财务数据后端的开发者。",
+      "notSuitableFor": "不适合不想管 Docker、备份与升级的非技术用户；不适合需要持牌投顾、自动交易或银行级托管承诺的场景；也不适合无法接受 AGPL 传染性条款，或想在 fork 中继续使用 Maybe 商标与 Logo 的商业项目。",
+      "risk": "金融类须明确：仅作记账与呈现，输出不构成投资建议，资产配置与报税判断必须人工复核；自托管意味着备份、加密与访问控制全由自己负责，多设备与 LLM 代理接入会放大泄露面；AGPL-3.0 对分发有源码开放要求，fork 须保留许可证并声明与 Maybe Finance 无关联；open issues 升至 920，且 hotfix 版本本身提示存在回归风险。",
+      "bestPractice": "在内网用 Docker Compose 起实例，只连两三个确实需要的账户做只读导入，不开放公网端口，LLM 代理仅授予只读接口，每月导出账本快照异地备份，升级前先读 hotfix 变更说明再决定是否跟进。",
       "trialPlan": {
-        "install": "按仓库托管文档用 Docker Compose 起实例，部署在内网或仅本机可访问的地址，先不接入任何真实银行账户。",
-        "pilot": "导入一份对账单或手动录入一个月流水，验证分类、预算与净值计算是否符合预期，再决定是否接入账户聚合。",
-        "evaluation": "看导入准确率、月度对账耗时、备份与恢复是否可复现、升级到下一版是否需要手工迁移数据库。",
-        "exit": "若一周内出现无法定位的对账错误、备份恢复失败、或必须开放公网才能正常使用，则放弃自托管改用现成记账工具。"
+        "install": "按仓库托管文档用 Docker Compose 在内网起单实例，默认不映射公网端口，先只绑定一个测试账户。",
+        "pilot": "用两三个账户做只读导入，跑一次月度预算与净值统计，并按文档配置一次账本导出与恢复演练。",
+        "evaluation": "看导入对账差异率、页面响应与导出完整性，记录 open issues 中与自身部署方式相关的故障是否复现。",
+        "exit": "若对账差异无法解释、升级 hotfix 后出现数据异常，或备份恢复演练失败，则停止使用并回退到本地表格记账。"
       },
       "signals": {
-        "recentCommit": "2026-11-12",
-        "issuesUpdated30d": 262,
-        "prsUpdated30d": 964,
+        "recentCommit": "2026-11-13",
+        "issuesUpdated30d": 258,
+        "prsUpdated30d": 996,
         "latestRelease": "v0.7.6-hotfix.1（2026-11-12）",
         "readmeMaturity": "成熟",
         "readmeSignals": "6,607 字符 / 12 个标题 / 有安装说明 / 有 Demo/示例 / 有文档入口"
@@ -104,47 +104,47 @@
     },
     {
       "rank": 3,
-      "repo": "addyosmani/agent-skills",
-      "url": "https://github.com/addyosmani/agent-skills",
+      "repo": "openai/codex-security",
+      "url": "https://github.com/openai/codex-security",
       "tags": [
+        "Security",
         "AI Agent",
-        "Dev Tool",
-        "Workflow"
+        "Dev Tool"
       ],
       "tagsCn": [
+        "Security",
         "AI Agent",
-        "Dev Tool",
-        "Workflow"
+        "Dev Tool"
       ],
-      "tagline": "把资深工程师的工作流固化成 9 个代理斜杠命令",
-      "starsToday": 816,
-      "totalStars": 116657,
-      "starTodayRatio": 0.7,
-      "rankingStatus": "连续 2 次日报 TOP3",
-      "rankingTrack": "11-12#3 -> 11-13#3",
-      "activity": "12 天前有提交",
-      "license": "MIT",
-      "maintainer": "个人项目（维护者资料公司：Google）；有主页/组织资料，可进一步核实官方性",
-      "positioning": "面向已把 Claude Code、Cursor 等编码代理接进日常开发的团队：把 spec→plan→build→test→review→ship 拆成 9 个斜杠命令，每个阶段挂对应技能与质量门禁，减少重复交代。边界是只交付规范与提示，没有强制校验，也不绑定任何 CI，代理跳步时它不会拦截，效果取决于是否有人真的调用。",
-      "whyWatch": "日增 816、占总星 0.70%，是 11.67 万星基数上的老项目回热，绝对量不小但相对占比低；release 停在 0.6.15（2026-10-31），README 达 20,934 字符、21 个标题，安装说明与示例齐全。需要留意节奏：最近提交已拉到 12 天前，近 30 天 issue 更新降到 17、PR 更新 112，open 微增至 137，维护重心压在 PR 侧、issue 消化进一步变慢。",
-      "changedSinceLast": "上次记录：日增 787、占比 0.68%、总星约 11.59 万、最近提交 11 天前、open 136。今日日增与占比微升至 816/0.70%，总星 11.67 万；但提交间隔从 11 天拉长到 12 天，30 天 issue 更新 19→17、PR 更新 129→112，release 仍停在 0.6.15，维护活跃度继续小幅走低，与热度回升方向相反。",
-      "suitableFor": "适合已把 Claude Code、Cursor 等代理接进日常开发、想统一 spec→review→ship 流程的中小团队；也适合把口头规范写成可读文件、减少重复审查的人，多代理混用时收益更明显。",
-      "notSuitableFor": "不适合不信任代理改写代码、坚持全程人工审查的团队；非编码任务无效；几个人的小项目容易被 9 个命令的流程压得过重；若没人主动调用命令、也没人维护规范文件，装完基本不会生效。",
-      "risk": "技能靠代理与开发者自觉执行，没有强制校验，规范被跳过会引入难以察觉的缺陷；与 Claude Code 等代理版本强耦合，升级后命令行为可能变化，建议锁定版本；“生产级”为作者定位，缺广泛企业验证，不能替代代码评审与测试；/build auto 去掉的是任务间停顿，仍须一次人工审批计划并保留失败即停。",
-      "bestPractice": "新需求先用 /spec 产出规格让产品确认，再用 /build auto 一次审批后按 TDD 小步提交、失败即停，合并前用 /review 检查代码健康，并把反复出现的问题写进 /constraints 成为团队约束。",
+      "tagline": "OpenAI 的漏洞扫描 CLI 与 TypeScript SDK",
+      "starsToday": 751,
+      "totalStars": 13122,
+      "starTodayRatio": 5.72,
+      "rankingStatus": "新进 TOP3",
+      "rankingTrack": "新上榜",
+      "activity": "1 天前有提交",
+      "license": "Apache-2.0",
+      "maintainer": "组织/公司/社区项目（OpenAI）；有主页/组织资料，可进一步核实官方性",
+      "positioning": "面向应用安全工程师与 DevSecOps：以 CLI、TypeScript SDK 或 GitHub Action 扫描仓库、指定路径与 Git 变更，做候选漏洞验证、补丁生成与修复核验，可导出 SARIF、JSON、CSV 并对接 Jira、Linear。边界是扫描覆盖有上限、结论含误报，须人工复核，且依赖账号与 API Key，部分能力指向云端发布。",
+      "whyWatch": "日增 751、占总星 5.72%，属稳定升温；1 天前有提交，release 为 npm-v0.10.0（2026-11-12），版本节奏清晰；近 30 天 PR 更新 1104，迭代密度高；README 9,028 字符、17 个标题，含安装、扫描范围与认证说明；open issues 仅 165，积压相对可控，但安全结论的准确性仍需自行抽检。",
+      "changedSinceLast": "今日新进 TOP3，暂无昨日同榜对比",
+      "suitableFor": "适合已有代码扫描流程、想把候选漏洞验证与补丁建议并入 CI 的安全团队；也适合希望用 CLI 或 SDK 把扫描结果标准化为 SARIF 再汇入现有平台、并愿意对每条结论做人工复核的中大型研发组织。",
+      "notSuitableFor": "不适合没有明确授权边界、打算扫描第三方或客户代码库的团队；也不适合想把扫描结果直接当审计结论、或期望自动合并补丁替代人工评审的组织，以及对代码不得离开自有环境有硬性要求的场景。",
+      "risk": "安全类须明确授权边界：只扫描自有或已获书面授权的仓库，扫描范围与账号权限最小化；模型结论存在误报与漏报，补丁须人工评审后再合并，不能作为合规审计的唯一依据；代码与扫描结果可能上传云端，需先评估数据分级与保密要求；凭据应放入密钥管理，避免写进 CI 明文变量。",
+      "bestPractice": "先在 CI 中对 PR 变更做 Standard 范围扫描，把 SARIF 导入现有平台与历史结果去重，高危项由安全负责人逐条复核证据与覆盖范围，确认后再由此生成补丁走正常评审流程。",
       "trialPlan": {
-        "install": "在 Claude Code 中按 README 以插件方式安装，遇到与内置同名命令（如 /review）改用 /agent-skills:review 形式，先在一台机器验证命令能被正确调起。",
-        "pilot": "挑一个小需求走完整链路：/spec→/plan→/build auto→/test→/review，记录代理跳步、误判或需要人工纠正的次数。",
-        "evaluation": "对比试点前后同类需求的评审返工次数、测试覆盖率变化、从规格到合并的实际耗时。",
-        "exit": "若两周内代理频繁跳过测试步骤、或代理升级后命令失效且无替代方案，则停止推广、回到原有手工流程。"
+        "install": "在隔离环境按 README 安装 Node.js 22.13+/24/26 与 Python 3.10+，用 npm 全局装 CLI 或改用 npx，通过设备码或 SSH 登录，Key 只放本地密钥管理。",
+        "pilot": "选一个已授权、非核心的自有仓库，先跑改动范围扫描，再跑一次含时间上限的 Standard 扫描，保留报告与排除范围说明。",
+        "evaluation": "统计高危命中中被人工确认为真的比例、误报率、扫描耗时与成本上限触发次数，并核对其与现有扫描器的结果重叠度。",
+        "exit": "若误报率过高导致复核成本超过现有工具、扫描需上传不允许外发的代码，或无法在授权范围内界定扫描边界，则停止试点并保留原有流程。"
       },
       "signals": {
-        "recentCommit": "2026-11-01",
-        "issuesUpdated30d": 17,
-        "prsUpdated30d": 112,
-        "latestRelease": "0.6.15（2026-10-31）",
+        "recentCommit": "2026-11-13",
+        "issuesUpdated30d": 90,
+        "prsUpdated30d": 1104,
+        "latestRelease": "npm-v0.10.0（2026-11-12）",
         "readmeMaturity": "成熟",
-        "readmeSignals": "20,934 字符 / 21 个标题 / 有安装说明 / 有 Demo/示例 / 有文档入口"
+        "readmeSignals": "9,028 字符 / 17 个标题 / 有安装说明 / 有 Demo/示例 / 有文档入口"
       }
     }
   ]

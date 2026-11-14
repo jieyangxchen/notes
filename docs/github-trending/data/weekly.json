@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-13T08:06:20.737987+08:00",
-  "window": "2026-11-07..2026-11-13",
+  "generatedAt": "2026-11-14T08:04:28.698004+08:00",
+  "window": "2026-11-08..2026-11-14",
   "topProjects": [
     {
       "repo": "meta/astryx",
@@ -42,30 +42,30 @@
       "judgement": "近 7 次记录中出现 3 次，最佳排名第 2，适合优先复盘详情。"
     },
     {
-      "repo": "cloudflare/security-audit-skill",
-      "url": "https://github.com/cloudflare/security-audit-skill",
-      "tagsCn": [
-        "AI Agent",
-        "Security",
-        "Code Audit"
-      ],
-      "appearances": 2,
-      "bestRank": 1,
-      "latestDate": "2026-11-08",
-      "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
-    },
-    {
       "repo": "we-promise/sure",
       "url": "https://github.com/we-promise/sure",
       "tagsCn": [
         "金融",
-        "Self-hosted",
-        "隐私"
+        "自托管",
+        "Dev Tool"
+      ],
+      "appearances": 3,
+      "bestRank": 2,
+      "latestDate": "2026-11-14",
+      "judgement": "近 7 次记录中出现 3 次，最佳排名第 2，适合优先复盘详情。"
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "tagsCn": [
+        "AI Agent",
+        "Dev Tool",
+        "Workflow"
       ],
       "appearances": 2,
-      "bestRank": 2,
+      "bestRank": 3,
       "latestDate": "2026-11-13",
-      "judgement": "近 7 次记录中出现 2 次，最佳排名第 2，适合优先复盘详情。"
+      "judgement": "近 7 次记录中出现 2 次，最佳排名第 3，适合优先复盘详情。"
     }
   ],
   "streaks": [
@@ -85,19 +85,14 @@
       "track": "11-08#2 -> 11-09#2 -> 11-10#3"
     },
     {
+      "repo": "we-promise/sure",
+      "days": 3,
+      "track": "11-12#2 -> 11-13#2 -> 11-14#2"
+    },
+    {
       "repo": "addyosmani/agent-skills",
       "days": 2,
       "track": "11-12#3 -> 11-13#3"
-    },
-    {
-      "repo": "cloudflare/security-audit-skill",
-      "days": 2,
-      "track": "11-07#1 -> 11-08#1"
-    },
-    {
-      "repo": "we-promise/sure",
-      "days": 2,
-      "track": "11-12#2 -> 11-13#2"
     }
   ]
 }

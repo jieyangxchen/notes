@@ -1,0 +1,151 @@
+{
+  "date": "2026-11-14",
+  "generatedAt": "2026-11-14T08:04:28.698004+08:00",
+  "source": "https://github.com/trending?since=daily",
+  "tags": [
+    "Browser",
+    "Dev Tool",
+    "AI Agent",
+    "Finance",
+    "自托管",
+    "Security"
+  ],
+  "observation": "今日 TOP3 分别对应三条方向：给编码代理补 Web 知识、自托管个人账本、用代理做安全审查。Chrome 牵头的 modern-web-guidance-src 日增 1925、占比 40%，是新项目爆发，成熟度靠文档和评估面板支撑，而非靠发版推进；sure 与 codex-security 属稳定升温，日增 925 与 751。sure 是 Maybe 停更后的社区 fork，靠 hotfix 消化积压；codex-security 由 OpenAI 维护，有 npm 版本与 TypeScript SDK，可进 CI。共同点是把能力封装成代理或流水线能调用的接口；差异在许可证（Apache-2.0 与 AGPL-3.0）和风险面：浏览器兼容建议、个人金融数据、漏洞扫描误报。",
+  "projects": [
+    {
+      "rank": 1,
+      "repo": "GoogleChrome/modern-web-guidance-src",
+      "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+      "tags": [
+        "Browser",
+        "Dev Tool",
+        "AI Agent"
+      ],
+      "tagsCn": [
+        "浏览器",
+        "Dev Tool",
+        "AI Agent"
+      ],
+      "tagline": "把现代 Web 最佳实践注入编码代理上下文",
+      "starsToday": 1925,
+      "totalStars": 4812,
+      "starTodayRatio": 40.0,
+      "rankingStatus": "新进 TOP3",
+      "rankingTrack": "新上榜",
+      "activity": "1 天前有提交",
+      "license": "Apache-2.0",
+      "maintainer": "组织/公司/社区项目；有主页/组织资料，可进一步核实官方性",
+      "positioning": "面向已在用 Claude Code、Codex 等编码代理的前端与全栈团队：通过 CLI 把 Chrome、Edge、Firefox 与 MDN 共同维护的现代 Web 规范写进代理上下文，减少代理生成旧式写法和臃肿 polyfill。边界是提供策展建议与参考，不替代目标浏览器实测，兼容性结论仍需自己核验。",
+      "whyWatch": "日增 1925、占总星 40%，是新项目爆发中扩散最快的项目；1 天前仍有提交，近 30 天 issue 更新 1432、PR 更新 560，外部反馈量远超常规维护节奏；README 约 10 万字符、22 个标题，含安装说明与公开评估面板，成熟度较高；但暂无公开 release，缺少版本化与回滚保护，385 个 open issues 是明显压力点。",
+      "changedSinceLast": "今日新进 TOP3，暂无昨日同榜对比",
+      "suitableFor": "适合已把编码代理接入日常前端开发的团队，用来统一现代 API 写法；也适合组件库与框架作者对照兼容性建议做取舍，以及需要评估代理输出质量、希望借助公开评估面板建立内部基线的技术负责人。",
+      "notSuitableFor": "不适合没有代理工作流、仍以手写代码为主的小项目；也不适合要求锁定版本、需要 SLA 或长期支持承诺的生产依赖，以及希望工具直接产出可上线代码、而非只给出建议与参考的场景。",
+      "risk": "浏览器类需注意：建议来自策展内容与模型评估，可能与你的目标浏览器矩阵不一致，误用会引入旧设备无法运行的写法；项目暂无公开 release，主线变动缺乏语义化版本保护；385 个 open issues 说明反馈积压，采纳前应检索其中带具体浏览器版本的反例；它不是 W3C 标准，也不构成官方兼容性保证。",
+      "bestPractice": "在组件库升级窗口内，用 CLI 针对具体模块拉取 View Transitions、container queries 等条目，让代理重写旧实现，再由人工在目标浏览器跑回归，并把不采纳的条目记入团队规范。",
+      "trialPlan": {
+        "install": "按 README Quickstart 用交互式向导安装，或在隔离目录里用免安装方式试跑，避免直接改动主分支配置。",
+        "pilot": "选一个内部组件库的 2-3 个模块，让代理按拉取到的条目重写旧式实现，保留改写前后 diff。",
+        "evaluation": "记录代理输出中新 API 采纳率、代码体积变化、目标浏览器回归通过率与人工返工次数，同时统计 issue 区反例命中情况。",
+        "exit": "若目标浏览器回归失败率上升、建议与实测冲突频繁，或项目长期不发 release 导致无法锁定版本，则停止推广并回退到自维护规范清单。"
+      },
+      "signals": {
+        "recentCommit": "2026-11-13",
+        "issuesUpdated30d": 1432,
+        "prsUpdated30d": 560,
+        "latestRelease": "暂无公开 release",
+        "readmeMaturity": "成熟",
+        "readmeSignals": "100,878 字符 / 22 个标题 / 有安装说明 / 有 Demo/示例 / 有文档入口"
+      }
+    },
+    {
+      "rank": 2,
+      "repo": "we-promise/sure",
+      "url": "https://github.com/we-promise/sure",
+      "tags": [
+        "Finance",
+        "自托管",
+        "Dev Tool"
+      ],
+      "tagsCn": [
+        "金融",
+        "自托管",
+        "Dev Tool"
+      ],
+      "tagline": "Maybe 停更后的社区 fork，自托管个人账本",
+      "starsToday": 925,
+      "totalStars": 14725,
+      "starTodayRatio": 6.28,
+      "rankingStatus": "连续 3 次日报 TOP3",
+      "rankingTrack": "11-12#2 -> 11-13#2 -> 11-14#2",
+      "activity": "1 天前有提交",
+      "license": "AGPL-3.0",
+      "maintainer": "组织/公司/社区项目；有主页/组织资料，可进一步核实官方性",
+      "positioning": "面向希望账本数据不出内网的个人与小团队：以 Docker 自托管方式聚合账户、做预算与净值追踪，并提供浏览器、桌面端、移动端、API 与 LLM 代理入口。边界是只负责记录与呈现，不提供投资建议，也没有官方托管服务与数据源合约，数据准确性取决于自己导入。",
+      "whyWatch": "日增 925、占总星 6.28%，仍处破圈区间但较上次记录继续回落；1 天前有提交，近 30 天 PR 更新 996、issue 更新 258，代码面非常活跃；release 停在 v0.7.6-hotfix.1（2026-11-12），说明 0.7.6 之后仍在修补回归；README 6,607 字符、12 个标题，含多语言与 Docker 托管文档；但 open issues 已升至 920，积压未消化。",
+      "changedSinceLast": "上次记录于 2026-11-12 排第 2：日增 967、占比 6.96%、open issues 905、近 30 天 PR 更新 964。今日日增降至 925、占比 6.28%，总星升至 1.47 万，热度继续放缓；open issues 由 905 增至 920，积压未减；PR 更新升至 996，维护者仍在高频合并；release 仍为 v0.7.6-hotfix.1，未见新版本，升级前应先读该 hotfix 的改动范围。",
+      "suitableFor": "适合愿意自己维护服务器、在意账本数据不出内网的个人或小团队；也适合以 AGPL 代码为底做二次开发，或需要一个能被 API 与 LLM 客户端只读访问的财务数据后端的开发者。",
+      "notSuitableFor": "不适合不想管 Docker、备份与升级的非技术用户；不适合需要持牌投顾、自动交易或银行级托管承诺的场景；也不适合无法接受 AGPL 传染性条款，或想在 fork 中继续使用 Maybe 商标与 Logo 的商业项目。",
+      "risk": "金融类须明确：仅作记账与呈现，输出不构成投资建议，资产配置与报税判断必须人工复核；自托管意味着备份、加密与访问控制全由自己负责，多设备与 LLM 代理接入会放大泄露面；AGPL-3.0 对分发有源码开放要求，fork 须保留许可证并声明与 Maybe Finance 无关联；open issues 升至 920，且 hotfix 版本本身提示存在回归风险。",
+      "bestPractice": "在内网用 Docker Compose 起实例，只连两三个确实需要的账户做只读导入，不开放公网端口，LLM 代理仅授予只读接口，每月导出账本快照异地备份，升级前先读 hotfix 变更说明再决定是否跟进。",
+      "trialPlan": {
+        "install": "按仓库托管文档用 Docker Compose 在内网起单实例，默认不映射公网端口，先只绑定一个测试账户。",
+        "pilot": "用两三个账户做只读导入，跑一次月度预算与净值统计，并按文档配置一次账本导出与恢复演练。",
+        "evaluation": "看导入对账差异率、页面响应与导出完整性，记录 open issues 中与自身部署方式相关的故障是否复现。",
+        "exit": "若对账差异无法解释、升级 hotfix 后出现数据异常，或备份恢复演练失败，则停止使用并回退到本地表格记账。"
+      },
+      "signals": {
+        "recentCommit": "2026-11-13",
+        "issuesUpdated30d": 258,
+        "prsUpdated30d": 996,
+        "latestRelease": "v0.7.6-hotfix.1（2026-11-12）",
+        "readmeMaturity": "成熟",
+        "readmeSignals": "6,607 字符 / 12 个标题 / 有安装说明 / 有 Demo/示例 / 有文档入口"
+      }
+    },
+    {
+      "rank": 3,
+      "repo": "openai/codex-security",
+      "url": "https://github.com/openai/codex-security",
+      "tags": [
+        "Security",
+        "AI Agent",
+        "Dev Tool"
+      ],
+      "tagsCn": [
+        "Security",
+        "AI Agent",
+        "Dev Tool"
+      ],
+      "tagline": "OpenAI 的漏洞扫描 CLI 与 TypeScript SDK",
+      "starsToday": 751,
+      "totalStars": 13122,
+      "starTodayRatio": 5.72,
+      "rankingStatus": "新进 TOP3",
+      "rankingTrack": "新上榜",
+      "activity": "1 天前有提交",
+      "license": "Apache-2.0",
+      "maintainer": "组织/公司/社区项目（OpenAI）；有主页/组织资料，可进一步核实官方性",
+      "positioning": "面向应用安全工程师与 DevSecOps：以 CLI、TypeScript SDK 或 GitHub Action 扫描仓库、指定路径与 Git 变更，做候选漏洞验证、补丁生成与修复核验，可导出 SARIF、JSON、CSV 并对接 Jira、Linear。边界是扫描覆盖有上限、结论含误报，须人工复核，且依赖账号与 API Key，部分能力指向云端发布。",
+      "whyWatch": "日增 751、占总星 5.72%，属稳定升温；1 天前有提交，release 为 npm-v0.10.0（2026-11-12），版本节奏清晰；近 30 天 PR 更新 1104，迭代密度高；README 9,028 字符、17 个标题，含安装、扫描范围与认证说明；open issues 仅 165，积压相对可控，但安全结论的准确性仍需自行抽检。",
+      "changedSinceLast": "今日新进 TOP3，暂无昨日同榜对比",
+      "suitableFor": "适合已有代码扫描流程、想把候选漏洞验证与补丁建议并入 CI 的安全团队；也适合希望用 CLI 或 SDK 把扫描结果标准化为 SARIF 再汇入现有平台、并愿意对每条结论做人工复核的中大型研发组织。",
+      "notSuitableFor": "不适合没有明确授权边界、打算扫描第三方或客户代码库的团队；也不适合想把扫描结果直接当审计结论、或期望自动合并补丁替代人工评审的组织，以及对代码不得离开自有环境有硬性要求的场景。",
+      "risk": "安全类须明确授权边界：只扫描自有或已获书面授权的仓库，扫描范围与账号权限最小化；模型结论存在误报与漏报，补丁须人工评审后再合并，不能作为合规审计的唯一依据；代码与扫描结果可能上传云端，需先评估数据分级与保密要求；凭据应放入密钥管理，避免写进 CI 明文变量。",
+      "bestPractice": "先在 CI 中对 PR 变更做 Standard 范围扫描，把 SARIF 导入现有平台与历史结果去重，高危项由安全负责人逐条复核证据与覆盖范围，确认后再由此生成补丁走正常评审流程。",
+      "trialPlan": {
+        "install": "在隔离环境按 README 安装 Node.js 22.13+/24/26 与 Python 3.10+，用 npm 全局装 CLI 或改用 npx，通过设备码或 SSH 登录，Key 只放本地密钥管理。",
+        "pilot": "选一个已授权、非核心的自有仓库，先跑改动范围扫描，再跑一次含时间上限的 Standard 扫描，保留报告与排除范围说明。",
+        "evaluation": "统计高危命中中被人工确认为真的比例、误报率、扫描耗时与成本上限触发次数，并核对其与现有扫描器的结果重叠度。",
+        "exit": "若误报率过高导致复核成本超过现有工具、扫描需上传不允许外发的代码，或无法在授权范围内界定扫描边界，则停止试点并保留原有流程。"
+      },
+      "signals": {
+        "recentCommit": "2026-11-13",
+        "issuesUpdated30d": 90,
+        "prsUpdated30d": 1104,
+        "latestRelease": "npm-v0.10.0（2026-11-12）",
+        "readmeMaturity": "成熟",
+        "readmeSignals": "9,028 字符 / 17 个标题 / 有安装说明 / 有 Demo/示例 / 有文档入口"
+      }
+    }
+  ]
+}

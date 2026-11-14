@@ -1,6 +1,42 @@
 {
-  "generatedAt": "2026-11-13T08:06:20.737987+08:00",
+  "generatedAt": "2026-11-14T08:04:28.698004+08:00",
   "projects": [
+    {
+      "repo": "GoogleChrome/modern-web-guidance-src",
+      "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+      "latestDate": "2026-11-14",
+      "latestRank": 1,
+      "tagsCn": [
+        "浏览器",
+        "Dev Tool",
+        "AI Agent"
+      ],
+      "lastTagline": "把现代 Web 最佳实践注入编码代理上下文"
+    },
+    {
+      "repo": "we-promise/sure",
+      "url": "https://github.com/we-promise/sure",
+      "latestDate": "2026-11-14",
+      "latestRank": 2,
+      "tagsCn": [
+        "金融",
+        "自托管",
+        "Dev Tool"
+      ],
+      "lastTagline": "Maybe 停更后的社区 fork，自托管个人账本"
+    },
+    {
+      "repo": "openai/codex-security",
+      "url": "https://github.com/openai/codex-security",
+      "latestDate": "2026-11-14",
+      "latestRank": 3,
+      "tagsCn": [
+        "Security",
+        "AI Agent",
+        "Dev Tool"
+      ],
+      "lastTagline": "OpenAI 的漏洞扫描 CLI 与 TypeScript SDK"
+    },
     {
       "repo": "meta/astryx",
       "url": "https://github.com/meta/astryx",
@@ -12,18 +48,6 @@
         "React"
       ],
       "lastTagline": "Meta 开源设计系统，150+ 组件可 swizzle 自持源码"
-    },
-    {
-      "repo": "we-promise/sure",
-      "url": "https://github.com/we-promise/sure",
-      "latestDate": "2026-11-13",
-      "latestRank": 2,
-      "tagsCn": [
-        "金融",
-        "Self-hosted",
-        "隐私"
-      ],
-      "lastTagline": "Maybe Finance 停更后的社区 fork，Docker 自托管记账"
     },
     {
       "repo": "addyosmani/agent-skills",
