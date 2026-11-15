@@ -1,17 +1,41 @@
 {
-  "generatedAt": "2026-11-14T08:04:28.698004+08:00",
+  "generatedAt": "2026-11-15T08:01:00.607913+08:00",
   "projects": [
     {
       "repo": "GoogleChrome/modern-web-guidance-src",
       "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
-      "latestDate": "2026-11-14",
+      "latestDate": "2026-11-15",
       "latestRank": 1,
       "tagsCn": [
         "浏览器",
         "Dev Tool",
         "AI Agent"
       ],
-      "lastTagline": "把现代 Web 最佳实践注入编码代理上下文"
+      "lastTagline": "把现代 Web 规范注入编码代理，减少旧式写法"
+    },
+    {
+      "repo": "alibaba/open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "latestDate": "2026-11-15",
+      "latestRank": 2,
+      "tagsCn": [
+        "AI Agent",
+        "Dev Tool",
+        "Code Review"
+      ],
+      "lastTagline": "阿里开源的行级 AI 代码审查 CLI，精确率优先"
+    },
+    {
+      "repo": "ChromeDevTools/chrome-devtools-mcp",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "latestDate": "2026-11-15",
+      "latestRank": 3,
+      "tagsCn": [
+        "浏览器",
+        "AI Agent",
+        "Dev Tool"
+      ],
+      "lastTagline": "以 MCP 服务器让编码代理操控真实 Chrome 调试"
     },
     {
       "repo": "we-promise/sure",
@@ -658,18 +682,6 @@
         "React"
       ],
       "lastTagline": "让 Agent 与 UI 共用同一套 action 的 TypeScript 框架"
-    },
-    {
-      "repo": "alibaba/open-code-review",
-      "url": "https://github.com/alibaba/open-code-review",
-      "latestDate": "2026-09-19",
-      "latestRank": 2,
-      "tagsCn": [
-        "AI Agent",
-        "Dev Tool",
-        "Code Review"
-      ],
-      "lastTagline": "阿里验证的 AI 代码审查 CLI：流水线加 Agent 行级评论"
     },
     {
       "repo": "Tencent/BrowserSkill",

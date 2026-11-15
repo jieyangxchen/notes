@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-14T08:04:28.698004+08:00",
-  "window": "2026-11-08..2026-11-14",
+  "generatedAt": "2026-11-15T08:01:00.607913+08:00",
+  "window": "2026-11-09..2026-11-15",
   "topProjects": [
     {
       "repo": "meta/astryx",
@@ -23,23 +23,10 @@
         "OSINT",
         "CLI"
       ],
-      "appearances": 4,
+      "appearances": 3,
       "bestRank": 1,
       "latestDate": "2026-11-11",
-      "judgement": "近 7 次记录中出现 4 次，最佳排名第 1，适合优先复盘详情。"
-    },
-    {
-      "repo": "milind-soni/OpenMausBot",
-      "url": "https://github.com/milind-soni/OpenMausBot",
-      "tagsCn": [
-        "AI Agent",
-        "Computer Use",
-        "Self-hosted"
-      ],
-      "appearances": 3,
-      "bestRank": 2,
-      "latestDate": "2026-11-10",
-      "judgement": "近 7 次记录中出现 3 次，最佳排名第 2，适合优先复盘详情。"
+      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
       "repo": "we-promise/sure",
@@ -55,17 +42,30 @@
       "judgement": "近 7 次记录中出现 3 次，最佳排名第 2，适合优先复盘详情。"
     },
     {
-      "repo": "addyosmani/agent-skills",
-      "url": "https://github.com/addyosmani/agent-skills",
+      "repo": "GoogleChrome/modern-web-guidance-src",
+      "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
       "tagsCn": [
-        "AI Agent",
+        "浏览器",
         "Dev Tool",
-        "Workflow"
+        "AI Agent"
       ],
       "appearances": 2,
-      "bestRank": 3,
-      "latestDate": "2026-11-13",
-      "judgement": "近 7 次记录中出现 2 次，最佳排名第 3，适合优先复盘详情。"
+      "bestRank": 1,
+      "latestDate": "2026-11-15",
+      "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
+    },
+    {
+      "repo": "milind-soni/OpenMausBot",
+      "url": "https://github.com/milind-soni/OpenMausBot",
+      "tagsCn": [
+        "AI Agent",
+        "Computer Use",
+        "Self-hosted"
+      ],
+      "appearances": 2,
+      "bestRank": 2,
+      "latestDate": "2026-11-10",
+      "judgement": "近 7 次记录中出现 2 次，最佳排名第 2，适合优先复盘详情。"
     }
   ],
   "streaks": [
@@ -76,13 +76,8 @@
     },
     {
       "repo": "sherlock-project/sherlock",
-      "days": 4,
-      "track": "11-08#3 -> 11-09#1 -> 11-10#1 -> 11-11#2"
-    },
-    {
-      "repo": "milind-soni/OpenMausBot",
       "days": 3,
-      "track": "11-08#2 -> 11-09#2 -> 11-10#3"
+      "track": "11-09#1 -> 11-10#1 -> 11-11#2"
     },
     {
       "repo": "we-promise/sure",
@@ -90,9 +85,19 @@
       "track": "11-12#2 -> 11-13#2 -> 11-14#2"
     },
     {
+      "repo": "GoogleChrome/modern-web-guidance-src",
+      "days": 2,
+      "track": "11-14#1 -> 11-15#1"
+    },
+    {
       "repo": "addyosmani/agent-skills",
       "days": 2,
       "track": "11-12#3 -> 11-13#3"
+    },
+    {
+      "repo": "milind-soni/OpenMausBot",
+      "days": 2,
+      "track": "11-09#2 -> 11-10#3"
     }
   ]
 }

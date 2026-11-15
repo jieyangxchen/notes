@@ -1,0 +1,149 @@
+{
+  "date": "2026-11-15",
+  "generatedAt": "2026-11-15T08:01:00.607913+08:00",
+  "source": "https://github.com/trending?since=daily",
+  "tags": [
+    "Browser",
+    "Dev Tool",
+    "AI Agent",
+    "Code Review"
+  ],
+  "observation": "今日 TOP3 有两个来自 Chrome 生态：modern-web-guidance 把现代 Web 规范注入编码代理，chrome-devtools-mcp 让代理直连真实浏览器调试；阿里 open-code-review 把 LLM 审查落到 CI 行级评论。共同趋势是给编码代理补上下文与工具边界，而不是再训模型。差异在热度结构：前者日增占比 20% 仍属新项目但已从 40% 回落，后两者是总星五万级的老项目回热，增长靠版本迭代与 PR 流转。三者 README 成熟、均为 Apache-2.0，但都不提供 SLA 或官方兼容性承诺。",
+  "projects": [
+    {
+      "rank": 1,
+      "repo": "GoogleChrome/modern-web-guidance-src",
+      "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+      "tags": [
+        "Browser",
+        "Dev Tool",
+        "AI Agent"
+      ],
+      "tagsCn": [
+        "浏览器",
+        "Dev Tool",
+        "AI Agent"
+      ],
+      "tagline": "把现代 Web 规范注入编码代理，减少旧式写法",
+      "starsToday": 1231,
+      "totalStars": 6013,
+      "starTodayRatio": 20.47,
+      "rankingStatus": "连续 2 次日报 TOP3",
+      "rankingTrack": "11-14#1 -> 11-15#1",
+      "activity": "1 天前有提交",
+      "license": "Apache-2.0",
+      "maintainer": "组织/公司/社区项目；有主页/组织资料，可进一步核实官方性",
+      "positioning": "面向已用 Claude Code、Codex 等代理的前端与全栈团队：用 CLI 把 Chrome、Edge、Firefox 与 MDN 共同维护的现代 Web 建议写进代理上下文，减少旧式写法和冗余 polyfill。边界是只提供策展建议与兼容性参考，不替代目标浏览器实测，也不是 W3C 标准。",
+      "whyWatch": "日增 1231、占比 20.47%，仍属新项目扩散但较上次 40% 明显回落；1 天前有提交，近 30 天 issue 更新 1360、PR 554，外部反馈量远超常规节奏；README 约 10 万字符、22 个标题，含安装说明与公开评估面板；但暂无公开 release，缺少版本化回滚保护，390 个 open issues 是明确压力点。",
+      "changedSinceLast": "上次记录日增 1925、占比 40.00%、open issues 385、issue 更新 1432、PR 560、无 release。今日日增 1231、占比降至 20.47%、总星约 6013，issue 更新降至 1360、PR 降至 554，open issues 由 385 升到 390，热度从爆发期转为高位回落；仍未发布 release，版本化缺失问题没有改善。",
+      "suitableFor": "适合已把编码代理接入日常前端开发、希望统一现代 API 写法的团队；也适合组件库与框架作者对照兼容性建议做取舍，以及想借公开评估面板建立代理输出质量基线的技术负责人。",
+      "notSuitableFor": "不适合没有代理工作流、仍以手写代码为主的小项目；也不适合要求锁定版本、需要 SLA 或长期支持承诺的生产依赖，以及希望工具直接产出可上线代码而非只给建议与参考的场景。",
+      "risk": "浏览器类需划清边界：建议来自策展内容与模型评估，可能与你的目标浏览器矩阵不一致，误用会引入旧设备无法运行的写法；项目无公开 release，主线变动缺乏语义化版本保护；390 个 open issues 说明反馈积压。它不是 W3C 标准，不构成官方兼容性保证，采纳前须人工在目标浏览器核验。",
+      "bestPractice": "在组件库升级窗口内，用 CLI 针对具体模块拉取 View Transitions、container queries 等条目，让代理重写旧实现，再由人工在目标浏览器跑回归，并把不采纳的条目记入团队规范，形成可复用的取舍清单。",
+      "trialPlan": {
+        "install": "按 README Quickstart 用交互式向导安装，或在隔离目录用免安装方式试跑，避免直接改动主分支配置。",
+        "pilot": "选内部组件库 2-3 个模块，让代理按拉取到的条目重写旧式实现，保留改写前后 diff 与触发条目记录。",
+        "evaluation": "统计新 API 采纳率、代码体积变化、目标浏览器回归通过率、人工返工次数，以及 issue 区反例命中数。",
+        "exit": "若目标浏览器回归失败率上升、建议与实测频繁冲突，或长期不发 release 导致无法锁定版本，则停止推广并回退到自维护规范清单。"
+      },
+      "signals": {
+        "recentCommit": "2026-11-14",
+        "issuesUpdated30d": 1360,
+        "prsUpdated30d": 554,
+        "latestRelease": "暂无公开 release",
+        "readmeMaturity": "成熟",
+        "readmeSignals": "100,878 字符 / 22 个标题 / 有安装说明 / 有 Demo/示例 / 有文档入口"
+      }
+    },
+    {
+      "rank": 2,
+      "repo": "alibaba/open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "tags": [
+        "AI Agent",
+        "Dev Tool",
+        "Code Review"
+      ],
+      "tagsCn": [
+        "AI Agent",
+        "Dev Tool",
+        "Code Review"
+      ],
+      "tagline": "阿里开源的行级 AI 代码审查 CLI，精确率优先",
+      "starsToday": 893,
+      "totalStars": 51415,
+      "starTodayRatio": 1.74,
+      "rankingStatus": "非连续；上次 09-19 第2",
+      "rankingTrack": "09-19#2 -> 11-15#2",
+      "activity": "1 天前有提交",
+      "license": "Apache-2.0",
+      "maintainer": "组织/公司/社区项目（Alibaba）；有主页/组织资料，可进一步核实官方性",
+      "positioning": "面向已有 CI 的中大型研发团队：读取 Git diff，由可配置 LLM Agent 结合全文与跨文件上下文输出带行号评论，内置 NPE、线程安全、XSS、SQL 注入规则，ocr scan 可对无 diff 目录做全量审计。边界是精确率优先、召回偏低，只作人工评审第二意见。",
+      "whyWatch": "日增 893、总星 5.14 万、占比仅 1.74%，属老项目回热而非新爆发；1 天前有提交，Release 推进到 v1.13.9（2026-11-13），近 30 天 PR 251 高于 issue 88，迭代仍活跃；README 约 9200 字符含安装说明与文档入口，Apache-2.0 且有官网；342 个 open issues 需关注消化能力。",
+      "changedSinceLast": "上次记录为 2026-09-18：日增 2704、占比 7.38%、总星 3.66 万、Release v1.12.6、open issues 231、issue 更新 175、PR 339。今日日增降至 893、占比 1.74%、总星升至 5.14 万、Release 到 v1.13.9（11-13）、open issues 升到 342，但 issue 更新降到 88、PR 降到 251，热度与社区交互同步降温。",
+      "suitableFor": "适合已有 CI、代码不便外发、想低成本引入行级 AI 审查的中大型团队，尤其关注空指针、线程安全、XSS、SQL 注入等缺陷，并能把模型端点指向企业内网兼容服务的组织，可先小范围 PR 灰度。",
+      "notSuitableFor": "不适合指望 AI 替代人工评审的团队，其召回率偏低；也不适合没有 CI 基础、无法配置模型端点或难承担 token 成本与调用延迟的小团队，更不能把自动评论直接当合并门禁。",
+      "risk": "AI 行级建议可能误判，必须保留人工复核，不得自动合入或作为唯一质量门禁；精确率优先意味着存在漏报。规则集源自阿里内部实践，未必适配所有代码规范；调用外部 LLM 端点会带来延迟、成本波动与代码外发风险，须做合规与私有化评估。342 个 open issues 需警惕修复时效。",
+      "bestPractice": "在 CI 中由 PR 触发运行 ocr，只对改动行发表评论且默认非阻断，按仓库语言开启对应规则集；把模型端点指向企业内网兼容服务，结果作为 reviewer 的第二意见并入人工评审，高敏仓库保持代码不出内网。",
+      "trialPlan": {
+        "install": "按 README 安装 ocr CLI，配置模型端点与 API Key，先在测试仓库验证连通性与单次审查的 token 消耗。",
+        "pilot": "选 2-3 个中低敏仓库，开启非阻断评论模式，只审查改动行，与现有人工评审结论并行运行两周。",
+        "evaluation": "对比行级评论采纳率、误报率、抽样漏报情况、单 PR 耗时与 token 成本，并统计开发者对评论噪音的接受度。",
+        "exit": "若误报多到干扰评审节奏、token 成本超预算，或代码外发无法通过合规评估，则停止试点并回退到纯人工评审。"
+      },
+      "signals": {
+        "recentCommit": "2026-11-14",
+        "issuesUpdated30d": 88,
+        "prsUpdated30d": 251,
+        "latestRelease": "v1.13.9（2026-11-13）",
+        "readmeMaturity": "成熟",
+        "readmeSignals": "9,196 字符 / 19 个标题 / 有安装说明 / Demo 不明显 / 有文档入口"
+      }
+    },
+    {
+      "rank": 3,
+      "repo": "ChromeDevTools/chrome-devtools-mcp",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "tags": [
+        "Browser",
+        "AI Agent",
+        "Dev Tool"
+      ],
+      "tagsCn": [
+        "浏览器",
+        "AI Agent",
+        "Dev Tool"
+      ],
+      "tagline": "以 MCP 服务器让编码代理操控真实 Chrome 调试",
+      "starsToday": 664,
+      "totalStars": 56283,
+      "starTodayRatio": 1.18,
+      "rankingStatus": "新进 TOP3",
+      "rankingTrack": "新上榜",
+      "activity": "2 天前有提交",
+      "license": "Apache-2.0",
+      "maintainer": "组织/公司/社区项目；有主页/组织资料，可进一步核实官方性",
+      "positioning": "面向使用 Claude、Cursor、Copilot 等编码代理的前端与 QA 团队：以 MCP 服务器或 CLI 让代理操控并检查真实 Chrome，做网络请求分析、截图、控制台报错与 trace 性能洞察。边界是官方仅支持 Chrome 与 Chrome for Testing，其他 Chromium 浏览器不保证行为。",
+      "whyWatch": "日增 664、总星 5.63 万、占比 1.18%，属老项目回热而非爆发；2 天前有提交，Release 为 v1.13.0（2026-11-11），近 30 天 PR 289 明显高于 issue 150，维护活跃；README 约 8400 字符含安装、示例与工具参考，Apache-2.0；127 个 open issues 相对可控，但用量统计默认开启与 CrUX 外发需先评估。",
+      "changedSinceLast": "今日新进 TOP3，暂无昨日同榜对比",
+      "suitableFor": "适合已用编码代理做前端开发、需要自动化回归与性能排查的团队，尤其是要复现线上控制台报错、抓 trace 定位性能问题，或让代理自动验证交互结果的工程与 QA 场景。",
+      "notSuitableFor": "不适合对数据外发极敏感、无法关闭用量统计与 CrUX 请求的团队；也不适合依赖 Safari、Firefox 或自研 Chromium 分支的兼容性测试，以及只需静态代码审查、无须真实浏览器的场景。",
+      "risk": "浏览器类必须守住授权边界：MCP 会把浏览器与 DevTools 中的任意数据暴露给客户端，禁止在含个人敏感信息的登录态浏览器上直接运行；用量统计默认开启，性能工具可能把 trace URL 发往 CrUX，须用 --no-usage-statistics、--no-performance-crux 关闭并内部报备；官方仅支持 Chrome 与 Chrome for Testing，自动化访问仍须遵守站点条款与频率限制。",
+      "bestPractice": "在 CI 或隔离的测试账号环境里，用 MCP 让代理打开目标页面、抓 trace 与控制台报错，定位性能瓶颈和前端异常，结论由人工复核后再提 PR，避免在真实登录态浏览器上执行调试。",
+      "trialPlan": {
+        "install": "用 npx 安装 chrome-devtools-mcp 并接入现有代理客户端，启动时加 --no-usage-statistics 与 --no-performance-crux，使用独立测试用 Chrome 配置文件。",
+        "pilot": "在一个内部测试环境选 2 个页面，让代理复现已知控制台报错并抓取一次 trace，与人工 DevTools 结论对照。",
+        "evaluation": "记录问题复现成功率、trace 定位与人工结论一致率、单次会话耗时与 token 消耗，并核查是否有敏感数据被读取。",
+        "exit": "若代理频繁读到无关敏感数据、定位结论与人工差异大，或合规上无法接受残留外发请求，则停止接入并回退到人工 DevTools 调试。"
+      },
+      "signals": {
+        "recentCommit": "2026-11-13",
+        "issuesUpdated30d": 150,
+        "prsUpdated30d": 289,
+        "latestRelease": "chrome-devtools-mcp-v1.13.0（2026-11-11）",
+        "readmeMaturity": "成熟",
+        "readmeSignals": "8,444 字符 / 19 个标题 / 有安装说明 / 有 Demo/示例 / 有文档入口"
+      }
+    }
+  ]
+}
