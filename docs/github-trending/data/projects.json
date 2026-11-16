@@ -1,17 +1,42 @@
 {
-  "generatedAt": "2026-11-15T08:01:00.607913+08:00",
+  "generatedAt": "2026-11-16T08:01:07.067800+08:00",
   "projects": [
     {
       "repo": "GoogleChrome/modern-web-guidance-src",
       "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
-      "latestDate": "2026-11-15",
+      "latestDate": "2026-11-16",
       "latestRank": 1,
       "tagsCn": [
-        "浏览器",
         "Dev Tool",
-        "AI Agent"
+        "AI Agent",
+        "浏览器"
       ],
-      "lastTagline": "把现代 Web 规范注入编码代理，减少旧式写法"
+      "lastTagline": "把现代 Web 最佳实践注入编码代理，压低旧式写法"
+    },
+    {
+      "repo": "dream-num/univer",
+      "url": "https://github.com/dream-num/univer",
+      "latestDate": "2026-11-16",
+      "latestRank": 2,
+      "tagsCn": [
+        "AI Agent",
+        "Dev Tool",
+        "Collaboration"
+      ],
+      "lastTagline": "可嵌入的 Office SDK，给人和代理同一套表格文档编辑面"
+    },
+    {
+      "repo": "backnotprop/plannotator",
+      "url": "https://github.com/backnotprop/plannotator",
+      "latestDate": "2026-11-16",
+      "latestRank": 3,
+      "tagsCn": [
+        "AI Agent",
+        "Dev Tool",
+        "浏览器",
+        "Code Review"
+      ],
+      "lastTagline": "本地浏览器复核层，把批注与决定一键回传给编码代理"
     },
     {
       "repo": "alibaba/open-code-review",
@@ -585,18 +610,6 @@
         "Orchestration"
       ],
       "lastTagline": "把多个编码智能体当团队管：目标、预算与审批关卡"
-    },
-    {
-      "repo": "dream-num/univer",
-      "url": "https://github.com/dream-num/univer",
-      "latestDate": "2026-09-27",
-      "latestRank": 3,
-      "tagsCn": [
-        "Dev Tool",
-        "Office SDK",
-        "AI Agent"
-      ],
-      "lastTagline": "可嵌入的表格、文档、演示 SDK，为智能体提供读写"
     },
     {
       "repo": "google/ax",

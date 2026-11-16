@@ -1,0 +1,152 @@
+{
+  "date": "2026-11-16",
+  "generatedAt": "2026-11-16T08:01:07.067800+08:00",
+  "source": "https://github.com/trending?since=daily",
+  "tags": [
+    "Dev Tool",
+    "AI Agent",
+    "Browser",
+    "Collaboration",
+    "Code Review"
+  ],
+  "observation": "今日 TOP3 的共同方向，是把编码代理从“能写”推向“可控可审”：guidance 为代理补充现代 Web 知识与兼容性参考，univer 提供可嵌入的表格、文档运行时，plannotator 在人机之间加入本地复核层。差异在成熟度与热度结构：guidance 日增占比 17.08% 仍最高，但连续回落且无 release；univer 占比 3.86% 温和升温，刚发 v1.5.0，PR 吞吐明显放大；plannotator 占比 7.33%，是新面孔，由个人账号维护且为 0.x 版本。三者都不承诺 SLA，采纳前均需人工核验。",
+  "projects": [
+    {
+      "rank": 1,
+      "repo": "GoogleChrome/modern-web-guidance-src",
+      "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+      "tags": [
+        "Dev Tool",
+        "AI Agent",
+        "Browser"
+      ],
+      "tagsCn": [
+        "Dev Tool",
+        "AI Agent",
+        "浏览器"
+      ],
+      "tagline": "把现代 Web 最佳实践注入编码代理，压低旧式写法",
+      "starsToday": 1219,
+      "totalStars": 7135,
+      "starTodayRatio": 17.08,
+      "rankingStatus": "连续 3 次日报 TOP3",
+      "rankingTrack": "11-14#1 -> 11-15#1 -> 11-16#1",
+      "activity": "1 天前有提交",
+      "license": "Apache-2.0",
+      "maintainer": "组织/公司/社区项目；有主页/组织资料，可进一步核实官方性",
+      "positioning": "面向已把 Claude Code、Codex 等代理接入日常前端开发的团队。本仓是 guidance 的源仓，负责撰写、校准与评估建议条目，通过 CLI 把条目喂给代理，抑制旧式写法与冗余 polyfill。边界：只提供经人工筛选的建议与兼容性参考，不是 W3C 标准，也不替代目标浏览器实测；供代理安装的运行时在同组织另一仓库。",
+      "whyWatch": "日增 1219、占总星 17.08%，在三个项目里占比最高但已连续回落；1 天前有提交，近 30 天 issue 更新 1353、PR 更新 555，外部反馈量远超常规节奏；README 约 10 万字符、22 个标题，含安装说明与公开评估面板，便于自建代理输出质量基线。压力点同样明确：open issues 升至 398，且始终没有公开 release，缺少版本化回滚保护。",
+      "changedSinceLast": "上次记录为 2026-11-14 第 1 名：日增 1925→1219，占比 40.00%→17.08%，总星约 6013→7135，从爆发期转入高位回落；open issues 390→398 继续走高，30 天 issue 更新 1360→1353、PR 554→555 基本持平，无 release 的问题没有改善。另需注意本次上榜的是 -src 源仓，用于撰写、校准与评估，而非供代理安装的运行时仓。",
+      "suitableFor": "已经将编码代理嵌入前端日常开发、希望统一团队现代 API 写法的工程团队；组件库与框架作者可对照条目做兼容性取舍；想借公开评估面板建立代理输出质量基线的技术负责人，也可用来校准提示与规则。",
+      "notSuitableFor": "没有代理工作流、以手写代码为主的小型项目；要求锁定版本、需要 SLA 或长期支持承诺的生产依赖；期待工具直接产出可上线代码，而不是建议与参考的场景；以及无法投入人力在目标浏览器做回归验证的团队。",
+      "risk": "浏览器相关建议来自经人工筛选的内容与模型评估，可能与你的目标浏览器矩阵不一致；误用会引入旧设备无法运行的写法，采纳前必须在目标浏览器人工核验。项目无公开 release，主线变动缺乏语义化版本保护，398 个 open issues 说明存在反馈积压。它不是 W3C 标准，不构成官方兼容性保证。",
+      "bestPractice": "在组件库升级窗口内，用 CLI 针对具体模块拉取 container queries、View Transitions 等条目，让代理重写旧实现，再由人工在目标浏览器跑回归；把不采纳的条目与理由写进团队规范，形成可复用的取舍清单，避免同一争议反复讨论。",
+      "trialPlan": {
+        "install": "按 README Quickstart 用交互式向导安装，或在隔离目录用免安装方式试跑，不改动主分支配置；确认拉取的是运行时仓的安装入口而非本源仓。",
+        "pilot": "选内部组件库 2-3 个模块，让代理按条目重写旧式实现，保留改写前后 diff 与触发条目记录。",
+        "evaluation": "统计改写后代码量变化、polyfill 依赖减少数、目标浏览器回归用例通过率与人工返工次数，并记录误报条目占比。",
+        "exit": "若回归失败率高于基线、或关键条目与目标浏览器矩阵冲突而无法收敛，则停止在主干推广，退回仅在文档与评审环节参考。"
+      },
+      "signals": {
+        "recentCommit": "2026-11-15",
+        "issuesUpdated30d": 1353,
+        "prsUpdated30d": 555,
+        "latestRelease": "暂无公开 release",
+        "readmeMaturity": "成熟",
+        "readmeSignals": "100,878 字符 / 22 个标题 / 有安装说明 / 有 Demo/示例 / 有文档入口"
+      }
+    },
+    {
+      "rank": 2,
+      "repo": "dream-num/univer",
+      "url": "https://github.com/dream-num/univer",
+      "tags": [
+        "AI Agent",
+        "Dev Tool",
+        "Collaboration"
+      ],
+      "tagsCn": [
+        "AI Agent",
+        "Dev Tool",
+        "Collaboration"
+      ],
+      "tagline": "可嵌入的 Office SDK，给人和代理同一套表格文档编辑面",
+      "starsToday": 988,
+      "totalStars": 25593,
+      "starTodayRatio": 3.86,
+      "rankingStatus": "非连续；上次 09-27 第3",
+      "rankingTrack": "09-27#3 -> 11-16#2",
+      "activity": "1 天前有提交",
+      "license": "Apache-2.0",
+      "maintainer": "组织/公司/社区项目（DreamNum）；有主页/组织资料，可进一步核实官方性",
+      "positioning": "面向要把表格、文档、演示嵌入自有产品、并给代理结构化读写能力的 SaaS、内部工具与 AI 团队：开源核加插件架构与统一 Facade API，浏览器与 Node 共用一套实现。边界是构建底座而非成品办公套件，PDF 与高级排版能力需自行核实；部分能力位于商业扩展，须先读 scope and licensing。",
+      "whyWatch": "日增 988、占比 3.86%，属稳定升温；1 天前有提交并发布 v1.5.0（2026-11-14），近 30 天 PR 更新 262，相对 issue 更新 54 明显更活跃，说明维护方在密集合并；README 25,815 字符、22 个标题，含安装说明、Demo 与文档入口，并新增 CLI、代理集成与开发者 skills 章节，Apache-2.0 允许商用。open issues 升至 175，插件化 API 稳定性仍待验证。",
+      "changedSinceLast": "上次记录停在 v1.0.2 时期：release 由 v1.0.2 升至 v1.5.0（2026-11-14），README 从 19,519 字符增至 25,815，主线表述从 Office Harness 转为 Univer Office SDK，并补上 CLI 与代理集成章节；30 天 PR 更新 140→262，issue 更新 42→54；open issues 149→175 继续走高；日增 849→988，但占比 4.42%→3.86% 略降，总星约 1.92 万→2.56 万。榜单类目由 Browser 改为 AI Agent，与定位更贴。",
+      "suitableFor": "需要把表格、文档或演示编辑嵌入自有 SaaS、内部工具、BI 或 AI 应用，并希望前后端共用一套架构的研发团队；想用插件按需裁剪功能、避免被托管办公套件绑定的产品团队；要给代理提供结构化表格与公式计算能力的工程师。",
+      "notSuitableFor": "想直接拿开箱即用、完整兼容微软格式与复杂排版的在线 Office 成品的企业用户；没有前端或 Node 工程能力、只想开账号使用的个人用户；对 API 稳定与长期升级成本敏感，却没有自建回归测试能力的团队。",
+      "risk": "在接入代理时，公式、脚本执行与外部数据引用可能带来数据外泄或注入风险，需限制可访问数据源，并对自动生成内容做人工复核。Apache-2.0 允许商用，但开源 SDK 不等于官方背书或 SLA，需核实许可证义务、开源核心与商业扩展的边界以及安全响应渠道；表格含财务或个人信息时须满足相应合规要求。",
+      "bestPractice": "在内部 BI 或 CRM 中嵌入 Univer 表格作为代理的结构化数据工作台：代理只写沙箱副本、产出公式与透视结果，关键单元格变更进评审队列，人工抽检数值与导入导出结果后再合并回主表。",
+      "trialPlan": {
+        "install": "按官方 Quickstart 在隔离分支用 npm 安装开源 Sheets 包，跑通最小可编辑表格，同时核对 scope and licensing 页确认所需能力的授权范围。",
+        "pilot": "选一个内部报表场景接入 Facade API，让代理生成与修改表格，保留操作日志与前后快照。",
+        "evaluation": "观察大表渲染与公式重算耗时、代理改写的正确率、升级到 v1.5.0 后的破坏性变更数与人工返工次数。",
+        "exit": "若核心场景必须依赖商业扩展才能达标，或升级需大幅重写接入层、且无稳定回归基线，则退回只读展示或更换方案。"
+      },
+      "signals": {
+        "recentCommit": "2026-11-15",
+        "issuesUpdated30d": 54,
+        "prsUpdated30d": 262,
+        "latestRelease": "v1.5.0（2026-11-14）",
+        "readmeMaturity": "成熟",
+        "readmeSignals": "25,815 字符 / 22 个标题 / 有安装说明 / 有 Demo/示例 / 有文档入口"
+      }
+    },
+    {
+      "rank": 3,
+      "repo": "backnotprop/plannotator",
+      "url": "https://github.com/backnotprop/plannotator",
+      "tags": [
+        "AI Agent",
+        "Dev Tool",
+        "Browser",
+        "Code Review"
+      ],
+      "tagsCn": [
+        "AI Agent",
+        "Dev Tool",
+        "浏览器",
+        "Code Review"
+      ],
+      "tagline": "本地浏览器复核层，把批注与决定一键回传给编码代理",
+      "starsToday": 866,
+      "totalStars": 11820,
+      "starTodayRatio": 7.33,
+      "rankingStatus": "新进 TOP3",
+      "rankingTrack": "新上榜",
+      "activity": "1 天前有提交",
+      "license": "Apache-2.0",
+      "maintainer": "个人项目；有主页/组织资料，可进一步核实官方性",
+      "positioning": "面向同时跑多个编码代理的开发者与小队：当代理提出计划、文档、HTML 产物或改完代码时，在本地浏览器里批注 diff 与 PR，并把反馈作为代理的下一轮输入。边界是它提供复核与反馈通道，不替你做技术判断，也不保证代理会正确执行；个人账号加 0.x 版本，长期支持与安全响应渠道仍需观察。",
+      "whyWatch": "日增 866、占总星 7.33%，总星 11,820，属稳定升温；1 天前有提交，且 v0.28.65（2026-11-15）显示发版频率很高；README 22,698 字符、29 个标题，含安装说明、Demo 与文档入口，明示支持 Claude Code、Codex、Copilot CLI、Gemini CLI、OpenCode 等；近 30 天 PR 更新 1400 对应 issue 更新 234，社区吞吐活跃，但 open issues 已达 220。",
+      "changedSinceLast": "今日新进 TOP3，暂无昨日同榜对比",
+      "suitableFor": "同时使用多个编码代理、需要对计划和 diff 做人工把关的开发者或小队；已用 Claude Code、Codex、Copilot CLI 等，且厌倦把评审意见复制回终端的团队；希望把评审过程沉淀为结构化反馈、而不是散落在聊天记录里的技术负责人。",
+      "notSuitableFor": "单人或脚本级小改动、代理只做补全无需复核的场景；要求成熟版本号、SLA 与安全响应承诺的企业采购；无法接受在本地浏览器装插件、挂 hook 或改写代理命令的严格管控环境；以及不愿承担人工评审成本的团队。",
+      "risk": "个人账号维护且版本仍为 0.x，发版频繁说明接口可能变动；30 天 PR 更新 1400 与 220 个 open issues 显示节奏快、稳定性尚未证明。插件与 hook 会把代理输出送到本地浏览器，代码与计划可能含敏感信息，需确认本地数据目录、分享链接与团队协作的权限边界；“一键回传”可能让代理直接改代码，必须保留人工确认与回滚，且它不构成审计或合规证据。",
+      "bestPractice": "把流程固定为“先计划后改码”：让代理只出计划与改动清单，团队在浏览器里逐条批注并回传，代理据此改完后再用同一界面复核 diff，最后把高频评审意见沉淀成团队检查清单，减少重复往返。",
+      "trialPlan": {
+        "install": "在个人开发环境按 README 安装插件或 CLI，绑定单个代理与单个仓库，先确认本地数据目录位置与默认权限。",
+        "pilot": "选一个非敏感仓库的 2-3 个小 PR，走完计划批注、代码复核、反馈回传的闭环，记录往返轮次。",
+        "evaluation": "比较采用前后每 PR 的评审往返次数、漏审缺陷数、代理改错后回滚次数与耗时；同时检查本地存储中是否出现不应落盘的敏感内容。",
+        "exit": "若反馈回传经常被代理误执行、或插件升级导致工作流中断且无替代入口，则停用并退回终端评审与普通 diff 工具。"
+      },
+      "signals": {
+        "recentCommit": "2026-11-15",
+        "issuesUpdated30d": 234,
+        "prsUpdated30d": 1400,
+        "latestRelease": "v0.28.65（2026-11-15）",
+        "readmeMaturity": "成熟",
+        "readmeSignals": "22,698 字符 / 29 个标题 / 有安装说明 / 有 Demo/示例 / 有文档入口"
+      }
+    }
+  ]
+}
