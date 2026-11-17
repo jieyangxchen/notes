@@ -1,20 +1,7 @@
 {
-  "generatedAt": "2026-11-16T08:01:07.067800+08:00",
-  "window": "2026-11-10..2026-11-16",
+  "generatedAt": "2026-11-17T08:00:49.272223+08:00",
+  "window": "2026-11-11..2026-11-17",
   "topProjects": [
-    {
-      "repo": "meta/astryx",
-      "url": "https://github.com/meta/astryx",
-      "tagsCn": [
-        "AI Agent",
-        "Design System",
-        "React"
-      ],
-      "appearances": 4,
-      "bestRank": 1,
-      "latestDate": "2026-11-13",
-      "judgement": "近 7 次记录中出现 4 次，最佳排名第 1，适合优先复盘详情。"
-    },
     {
       "repo": "GoogleChrome/modern-web-guidance-src",
       "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
@@ -26,6 +13,19 @@
       "appearances": 3,
       "bestRank": 1,
       "latestDate": "2026-11-16",
+      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
+    },
+    {
+      "repo": "meta/astryx",
+      "url": "https://github.com/meta/astryx",
+      "tagsCn": [
+        "AI Agent",
+        "Design System",
+        "React"
+      ],
+      "appearances": 3,
+      "bestRank": 1,
+      "latestDate": "2026-11-13",
       "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
@@ -42,42 +42,42 @@
       "judgement": "近 7 次记录中出现 3 次，最佳排名第 2，适合优先复盘详情。"
     },
     {
-      "repo": "sherlock-project/sherlock",
-      "url": "https://github.com/sherlock-project/sherlock",
+      "repo": "dream-num/univer",
+      "url": "https://github.com/dream-num/univer",
       "tagsCn": [
-        "Security",
-        "OSINT",
-        "CLI"
+        "AI Agent",
+        "Office SDK",
+        "Collaboration"
       ],
       "appearances": 2,
       "bestRank": 1,
-      "latestDate": "2026-11-11",
+      "latestDate": "2026-11-17",
       "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
-      "repo": "addyosmani/agent-skills",
-      "url": "https://github.com/addyosmani/agent-skills",
+      "repo": "alibaba/open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
       "tagsCn": [
         "AI Agent",
         "Dev Tool",
-        "Workflow"
+        "Code Review"
       ],
       "appearances": 2,
-      "bestRank": 3,
-      "latestDate": "2026-11-13",
-      "judgement": "近 7 次记录中出现 2 次，最佳排名第 3，适合优先复盘详情。"
+      "bestRank": 2,
+      "latestDate": "2026-11-17",
+      "judgement": "近 7 次记录中出现 2 次，最佳排名第 2，适合优先复盘详情。"
     }
   ],
   "streaks": [
     {
-      "repo": "meta/astryx",
-      "days": 4,
-      "track": "11-10#2 -> 11-11#1 -> 11-12#1 -> 11-13#1"
-    },
-    {
       "repo": "GoogleChrome/modern-web-guidance-src",
       "days": 3,
       "track": "11-14#1 -> 11-15#1 -> 11-16#1"
+    },
+    {
+      "repo": "meta/astryx",
+      "days": 3,
+      "track": "11-11#1 -> 11-12#1 -> 11-13#1"
     },
     {
       "repo": "we-promise/sure",
@@ -90,9 +90,9 @@
       "track": "11-12#3 -> 11-13#3"
     },
     {
-      "repo": "sherlock-project/sherlock",
+      "repo": "dream-num/univer",
       "days": 2,
-      "track": "11-10#1 -> 11-11#2"
+      "track": "11-16#2 -> 11-17#1"
     }
   ]
 }

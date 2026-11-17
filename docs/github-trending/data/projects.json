@@ -1,6 +1,42 @@
 {
-  "generatedAt": "2026-11-16T08:01:07.067800+08:00",
+  "generatedAt": "2026-11-17T08:00:49.272223+08:00",
   "projects": [
+    {
+      "repo": "dream-num/univer",
+      "url": "https://github.com/dream-num/univer",
+      "latestDate": "2026-11-17",
+      "latestRank": 1,
+      "tagsCn": [
+        "AI Agent",
+        "Office SDK",
+        "Collaboration"
+      ],
+      "lastTagline": "把表格、文档、演示嵌进自有产品，并给代理结构化读写接口"
+    },
+    {
+      "repo": "alibaba/open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "latestDate": "2026-11-17",
+      "latestRank": 2,
+      "tagsCn": [
+        "AI Agent",
+        "Dev Tool",
+        "Code Review"
+      ],
+      "lastTagline": "混合流水线加 LLM 的代码评审 CLI，输出行级评论并内置安全规则"
+    },
+    {
+      "repo": "NVIDIA/SkillEvaluator",
+      "url": "https://github.com/NVIDIA/SkillEvaluator",
+      "latestDate": "2026-11-17",
+      "latestRank": 3,
+      "tagsCn": [
+        "AI Agent",
+        "学术研究",
+        "Security"
+      ],
+      "lastTagline": "给 agent 技能做质量门禁与有无对比评测，量化其对任务的影响"
+    },
     {
       "repo": "GoogleChrome/modern-web-guidance-src",
       "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
@@ -14,18 +50,6 @@
       "lastTagline": "把现代 Web 最佳实践注入编码代理，压低旧式写法"
     },
     {
-      "repo": "dream-num/univer",
-      "url": "https://github.com/dream-num/univer",
-      "latestDate": "2026-11-16",
-      "latestRank": 2,
-      "tagsCn": [
-        "AI Agent",
-        "Dev Tool",
-        "Collaboration"
-      ],
-      "lastTagline": "可嵌入的 Office SDK，给人和代理同一套表格文档编辑面"
-    },
-    {
       "repo": "backnotprop/plannotator",
       "url": "https://github.com/backnotprop/plannotator",
       "latestDate": "2026-11-16",
@@ -37,18 +61,6 @@
         "Code Review"
       ],
       "lastTagline": "本地浏览器复核层，把批注与决定一键回传给编码代理"
-    },
-    {
-      "repo": "alibaba/open-code-review",
-      "url": "https://github.com/alibaba/open-code-review",
-      "latestDate": "2026-11-15",
-      "latestRank": 2,
-      "tagsCn": [
-        "AI Agent",
-        "Dev Tool",
-        "Code Review"
-      ],
-      "lastTagline": "阿里开源的行级 AI 代码审查 CLI，精确率优先"
     },
     {
       "repo": "ChromeDevTools/chrome-devtools-mcp",
