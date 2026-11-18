@@ -1,17 +1,41 @@
 {
-  "generatedAt": "2026-11-17T08:00:49.272223+08:00",
+  "generatedAt": "2026-11-18T08:04:24.029439+08:00",
   "projects": [
     {
-      "repo": "dream-num/univer",
-      "url": "https://github.com/dream-num/univer",
-      "latestDate": "2026-11-17",
+      "repo": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "latestDate": "2026-11-18",
       "latestRank": 1,
       "tagsCn": [
         "AI Agent",
-        "Office SDK",
-        "Collaboration"
+        "Dev Tool",
+        "方法论"
       ],
-      "lastTagline": "把表格、文档、演示嵌进自有产品，并给代理结构化读写接口"
+      "lastTagline": "给编码代理装上规格先行与 TDD 流程的技能框架，节点需人工审批"
+    },
+    {
+      "repo": "dream-num/univer",
+      "url": "https://github.com/dream-num/univer",
+      "latestDate": "2026-11-18",
+      "latestRank": 2,
+      "tagsCn": [
+        "AI Agent",
+        "Office SDK",
+        "Dev Tool"
+      ],
+      "lastTagline": "Apache-2.0 开源表格文档核心，用 Facade API 把编辑能力嵌进自有产品"
+    },
+    {
+      "repo": "ag-ui-protocol/ag-ui",
+      "url": "https://github.com/ag-ui-protocol/ag-ui",
+      "latestDate": "2026-11-18",
+      "latestRank": 3,
+      "tagsCn": [
+        "AI Agent",
+        "Protocol",
+        "Dev Tool"
+      ],
+      "lastTagline": "冻结 1.0 规范的代理到前端事件协议，让任意框架的 Agent 直连 UI"
     },
     {
       "repo": "alibaba/open-code-review",
@@ -1149,19 +1173,6 @@
         "Vector Search"
       ],
       "lastTagline": "团队级智能体记忆中枢：对话、文档、代码沉淀为四种可复用资产"
-    },
-    {
-      "repo": "obra/superpowers",
-      "url": "https://github.com/obra/superpowers",
-      "latestDate": "2026-08-06",
-      "latestRank": 3,
-      "tagsCn": [
-        "AI Agent",
-        "Dev Tool",
-        "Workflow",
-        "TDD"
-      ],
-      "lastTagline": "给编码智能体立规矩：强制先规格、测试与子代理驱动开发"
     },
     {
       "repo": "zhaoxuya520/reverse-skill",

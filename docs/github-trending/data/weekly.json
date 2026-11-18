@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-17T08:00:49.272223+08:00",
-  "window": "2026-11-11..2026-11-17",
+  "generatedAt": "2026-11-18T08:04:24.029439+08:00",
+  "window": "2026-11-12..2026-11-18",
   "topProjects": [
     {
       "repo": "GoogleChrome/modern-web-guidance-src",
@@ -16,16 +16,16 @@
       "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
-      "repo": "meta/astryx",
-      "url": "https://github.com/meta/astryx",
+      "repo": "dream-num/univer",
+      "url": "https://github.com/dream-num/univer",
       "tagsCn": [
         "AI Agent",
-        "Design System",
-        "React"
+        "Office SDK",
+        "Dev Tool"
       ],
       "appearances": 3,
       "bestRank": 1,
-      "latestDate": "2026-11-13",
+      "latestDate": "2026-11-18",
       "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
@@ -42,16 +42,16 @@
       "judgement": "近 7 次记录中出现 3 次，最佳排名第 2，适合优先复盘详情。"
     },
     {
-      "repo": "dream-num/univer",
-      "url": "https://github.com/dream-num/univer",
+      "repo": "meta/astryx",
+      "url": "https://github.com/meta/astryx",
       "tagsCn": [
         "AI Agent",
-        "Office SDK",
-        "Collaboration"
+        "Design System",
+        "React"
       ],
       "appearances": 2,
       "bestRank": 1,
-      "latestDate": "2026-11-17",
+      "latestDate": "2026-11-13",
       "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
@@ -75,9 +75,9 @@
       "track": "11-14#1 -> 11-15#1 -> 11-16#1"
     },
     {
-      "repo": "meta/astryx",
+      "repo": "dream-num/univer",
       "days": 3,
-      "track": "11-11#1 -> 11-12#1 -> 11-13#1"
+      "track": "11-16#2 -> 11-17#1 -> 11-18#2"
     },
     {
       "repo": "we-promise/sure",
@@ -90,9 +90,9 @@
       "track": "11-12#3 -> 11-13#3"
     },
     {
-      "repo": "dream-num/univer",
+      "repo": "meta/astryx",
       "days": 2,
-      "track": "11-16#2 -> 11-17#1"
+      "track": "11-12#1 -> 11-13#1"
     }
   ]
 }

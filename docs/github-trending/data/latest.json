@@ -1,150 +1,149 @@
 {
-  "date": "2026-11-17",
-  "generatedAt": "2026-11-17T08:00:49.272223+08:00",
+  "date": "2026-11-18",
+  "generatedAt": "2026-11-18T08:04:24.029439+08:00",
   "source": "https://github.com/trending?since=daily",
   "tags": [
     "AI Agent",
-    "Office SDK",
-    "Collaboration",
     "Dev Tool",
-    "Code Review",
-    "Research"
+    "方法论",
+    "Office SDK",
+    "Protocol"
   ],
-  "observation": "今日 TOP3 都被 AI Agent 生态占据，但分别处于三个阶段：Univer 提供代理可读写的表格与文档内核，Open Code Review 把 LLM 接入 CI 做行级评审，SkillEvaluator 则回过头来评测技能本身是否值得上线。热度结构差异明显——Univer 日增 1828、占比 6.59%，属于稳定升温；阿里项目总星 5.29 万，但占比仅 1.8%，属于老项目回热；NVIDIA 新项目日增 873、占比 32.73%，属于小基数爆发。共同信号是行业从追求为 agent 增加能力，转向为 agent 设定边界、支持回滚并可度量。",
+  "observation": "三个项目都落在 AI Agent 方向，但分工清晰：superpowers 管代理“怎么干活”，用技能与开发方法论约束编码代理先出规格再实现；univer 管“在哪里干活”，以 SDK 把表格、文档编辑能力嵌进自有产品；ag-ui 管“怎么把代理接到用户面前”，用一条双向事件流定义代理与前端的通信。共同点是都在补代理落地所需的工程化中间层，而非再造模型；差异在于 superpowers 强绑定特定代理生态且流程刚性，univer 有开源核心与商业扩展边界，ag-ui 是刚冻结 1.0 的开放协议、仍依赖生态适配。三者热度含情绪成分，需结合提交与版本节奏判断。",
   "projects": [
     {
       "rank": 1,
+      "repo": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "tags": [
+        "AI Agent",
+        "Dev Tool",
+        "方法论"
+      ],
+      "tagsCn": [
+        "AI Agent",
+        "Dev Tool",
+        "方法论"
+      ],
+      "tagline": "给编码代理装上规格先行与 TDD 流程的技能框架，节点需人工审批",
+      "starsToday": 1917,
+      "totalStars": 319308,
+      "starTodayRatio": 0.6,
+      "rankingStatus": "非连续；上次 08-06 第3",
+      "rankingTrack": "08-06#3 -> 11-18#1",
+      "activity": "15 天前有提交",
+      "license": "MIT",
+      "maintainer": "个人项目（维护者资料公司：Prime Radiant）；有主页/组织资料，可进一步核实官方性",
+      "positioning": "面向要求规格先行、测试驱动与人工审批的软件团队，让 Claude Code、Cursor、Copilot CLI 等代理在动手前先澄清需求、产出分块规格与实现计划，再交由子代理逐任务实现并测试，关键节点人工签核。边界：强依赖受支持代理生态，流程刚性高，不适合快速原型；v7.0.2 主要扩展代理支持与技能编排，方法论主体未变。",
+      "whyWatch": "今日新增 1917 星、占总星 0.6%，绝对值居三者之首；README 扩至 12,860 字符、31 个标题，安装与多代理入口更完整；Release 由 v6.2.0 直接跳到 v7.0.2（2026-11-03）；近 30 天 issue 更新 294、PR 更新 188，open issues 359，讨论体量大。但最近提交为 15 天前，大版本之后的维护节奏值得继续观察。",
+      "changedSinceLast": "上次记录停在 v6.2.0（2026-07-24）、当日新增 931 星、占比 0.35%；今日版本已到 v7.0.2（2026-11-03），日增 931→1917、占比 0.35%→0.6%；README 从 9,437 字符/25 个标题扩到 12,860/31；30 天 issue 更新 126→294、PR 153→188，open issues 325→359。但最近提交由 1 天前变为 15 天前，热度上行与迭代放缓并存。",
+      "suitableFor": "适合中大型团队在引入 AI 编码后仍要求规格先行、TDD 与人工审批的工程文化；适合已使用 Claude Code、Cursor、Copilot CLI 等受支持代理、能接受较长前置规划的开发者；适合把代理视为可审计开发成员而非黑盒工具的组织。",
+      "notSuitableFor": "不适合原型优先、喜欢快速试错的个人开发者；不适合不接受强流程约束或缺少测试文化的团队；不适合安全关键系统，代理自主执行仍须人工审查且审计成本高；对不支持技能注入的代理工具用户几乎没有价值。",
+      "risk": "方法论强势，小任务易被过度流程化而降低效率；深度绑定主流代理工具，代理升级可能打断技能链；社区技能质量参差，可能引入不稳定或安全隐患；代理在计划框架内可自主运行数小时，规格出错会在多模块扩散，必须保留人工审批、最小权限与回滚；v7.0.2 后 15 天无提交，维护节奏存在不确定性。",
+      "bestPractice": "新功能（预计 3-5 天）启动时，先让代理产出一页分块规格与实现计划，团队评审通过后再拆成工单交子代理逐个实现，每个任务走红绿 TDD 循环并留下审批与回滚记录，形成可复盘的中型交付节奏。",
+      "trialPlan": {
+        "install": "按 README 在受支持代理中安装插件（如 Claude Code 执行 claude plugins install obra/superpowers），确认版本为 v7.0.2 并记录更新方式。",
+        "pilot": "选 1 个 3-5 天的功能，开启 /superpowers:on，完整走规格—计划—子代理实现流程，全程保留审批记录。",
+        "evaluation": "对比试点与常规流程的返工率、评审轮次、缺陷数与人均耗时，并统计代理自主运行段的人工干预次数。",
+        "exit": "若前置规划耗时占比过高，或小任务效率明显下降，则回退到人工计划并仅在局部任务使用技能。"
+      },
+      "signals": {
+        "recentCommit": "2026-11-03",
+        "issuesUpdated30d": 294,
+        "prsUpdated30d": 188,
+        "latestRelease": "v7.0.2（2026-11-03）",
+        "readmeMaturity": "成熟",
+        "readmeSignals": "12,860 字符 / 31 个标题 / 有安装说明 / Demo 不明显 / 有文档入口"
+      }
+    },
+    {
+      "rank": 2,
       "repo": "dream-num/univer",
       "url": "https://github.com/dream-num/univer",
       "tags": [
         "AI Agent",
         "Office SDK",
-        "Collaboration"
+        "Dev Tool"
       ],
       "tagsCn": [
         "AI Agent",
         "Office SDK",
-        "Collaboration"
+        "Dev Tool"
       ],
-      "tagline": "把表格、文档、演示嵌进自有产品，并给代理结构化读写接口",
-      "starsToday": 1828,
-      "totalStars": 27760,
-      "starTodayRatio": 6.59,
-      "rankingStatus": "连续 2 次日报 TOP3",
-      "rankingTrack": "11-16#2 -> 11-17#1",
+      "tagline": "Apache-2.0 开源表格文档核心，用 Facade API 把编辑能力嵌进自有产品",
+      "starsToday": 1774,
+      "totalStars": 28887,
+      "starTodayRatio": 6.14,
+      "rankingStatus": "连续 3 次日报 TOP3",
+      "rankingTrack": "11-16#2 -> 11-17#1 -> 11-18#2",
       "activity": "1 天前有提交",
       "license": "Apache-2.0",
       "maintainer": "组织/公司/社区项目（DreamNum）；有主页/组织资料，可进一步核实官方性",
-      "positioning": "面向要把表格、文档、演示编辑嵌入自有 SaaS、内部工具或 AI 应用的研发团队：开源核心加插件架构与 Facade API，浏览器与 Node 共用一套实现，代理可通过 API 与事件做结构化读写。边界是构建底座而非成品办公套件，PDF、复杂排版与部分高级能力位于商业扩展，接入前须先读 scope and licensing。",
-      "whyWatch": "日增 1828、占比 6.59%，热度较上次明显抬升；1 天前仍有提交，Release 推进到 v1.5.2（2026-11-16）；近 30 天 PR 更新 277，高于 issue 更新 58，说明维护方仍在密集合并；README 25,829 字符、22 个标题，含安装、Demo 与文档入口；open issues 184 小幅走高，插件化 API 的稳定性仍需自建回归验证。",
-      "changedSinceLast": "上次记录停在 v1.5.0（2026-11-14）：今日 Release 已到 v1.5.2，日增 988→1828、占比 3.86%→6.59%，名次升至第 1；30 天 PR 更新 262→277、issue 更新 54→58，open issues 175→184 继续累积；总星约 2.56 万→2.78 万。定位表述未变，变化主要在热度和版本节奏。",
-      "suitableFor": "需要把表格、文档或演示编辑嵌入自有 SaaS、内部工具、BI 与 AI 应用的研发团队；希望用插件裁剪功能、前后端共用一套架构、避免被托管办公套件绑定的产品团队；要给代理提供结构化表格与公式计算能力的工程师。",
-      "notSuitableFor": "想直接拿开箱即用、完整兼容微软格式与复杂排版的在线 Office 成品的企业；没有前端或 Node 工程能力、只想开号使用的个人；对 API 稳定性与长期升级成本敏感，却没有自建回归测试能力的团队。",
-      "risk": "接入代理时，公式、脚本执行与外部数据引用可能带来数据外泄或注入风险，须限制可访问数据源，并对自动生成内容做人工复核；Apache-2.0 允许商用，但不等于官方背书或 SLA，需核实开源核心与商业扩展的边界；表格含财务或个人信息时，须满足相应合规要求。",
-      "bestPractice": "在内部 BI 或 CRM 中嵌入 Univer 表格作为代理的结构化工作台：代理只写沙箱副本，产出公式与透视草稿，人工确认后再回写主表，并用 Facade 事件记录每次改动以便回滚。",
+      "positioning": "面向要把表格、文档、演示编辑嵌入自有 SaaS、内部工具或 AI 应用的研发团队，提供开源核心加插件架构与 Facade API，浏览器与 Node 共用一套实现，代理可通过 API 与事件做结构化读写。边界是构建底座而非成品办公套件，PDF、复杂排版等高级能力位于商业扩展，接入前须先核对 scope and licensing。",
+      "whyWatch": "今日新增 1774 星、占比 6.14%，绝对量与占比都高于上次记录；1 天前仍有提交，Release 停在 v1.5.2（2026-11-16）；近 30 天 PR 更新 326，远高于 issue 更新 63，说明维护方仍在密集合并；README 25,829 字符，含安装、Demo 与文档入口；open issues 升至 206，插件化 API 的稳定性仍需自建回归验证。",
+      "changedSinceLast": "版本与上次记录同为 v1.5.2（2026-11-16），今日未再前进；日增 1828→1774、占比 6.59%→6.14%，属高位小幅回落；总星约 2.78 万→2.89 万；30 天 PR 更新 277→326 继续走高，issue 更新 58→63，open issues 184→206 同步累积。变化主要在热度微降而合并节奏加速、待办积压增加。",
+      "suitableFor": "适合要把表格、文档或演示编辑嵌入自有 SaaS、内部工具、BI 与 AI 应用的研发团队；适合希望用插件裁剪功能、前后端共用一套实现、避免被托管办公套件绑定的产品团队；适合需要给代理提供结构化表格与公式计算能力的工程师。",
+      "notSuitableFor": "不适合想直接拿到开箱即用、完整兼容微软格式与复杂排版的在线 Office 成品的企业；不适合没有前端或 Node 工程能力、只想开号使用的个人；不适合对 API 稳定性敏感却没有自建回归测试能力的团队。",
+      "risk": "接入代理后，公式、脚本执行与外部数据引用可能带来注入或数据外泄，须限制可访问数据源并对自动生成内容做人工复核；Apache-2.0 允许商用，但不等于官方背书或 SLA，须核实开源核心与商业扩展边界；表格含财务或个人信息时须满足相应合规与审计要求；open issues 累积也意味着升级可能带来隐性回归。",
+      "bestPractice": "在内部 BI 或 CRM 中嵌入 Univer 表格作为代理的结构化工作台：代理只写沙箱副本并产出公式与透视草稿，人工确认后再回写主表，用 Facade 事件记录每次改动以便回滚与追责。",
       "trialPlan": {
-        "install": "按 README Quick start 用包管理器装入开源 Sheets/Docs 核心，跑通本地 Demo，确认浏览器与 Node 运行时版本兼容。",
-        "pilot": "选 1 个内部工具做嵌入试点，只开放只读展示与沙箱编辑两条链路，代理的写操作全部落到副本。",
-        "evaluation": "记录首次集成工时、渲染与公式兼容性通过率、代理写入错误率与人工回改比例，并核对插件包体积与许可证义务。",
-        "exit": "若关键格式兼容缺口无法在两周内补齐，或商业扩展条款与预算冲突，则退回自研轻量表格或采购成品。"
+        "install": "按 README Quick start 装入开源 Sheets/Docs 核心，跑通本地 Demo，确认浏览器与 Node 运行时版本兼容，并核对 scope and licensing。",
+        "pilot": "选 1 个内部工具做嵌入试点，限定代理只写沙箱副本，产出公式与透视草稿，人工确认后回写主表。",
+        "evaluation": "观测嵌入构建成本、公式与导入导出正确率、越权数据访问尝试数，以及版本升级后回归用例通过率。",
+        "exit": "若所需高级能力被商业扩展挡住，或每次升级都需大量回归修复而团队无力承担，则退回只读展示或评估替代方案。"
       },
       "signals": {
-        "recentCommit": "2026-11-16",
-        "issuesUpdated30d": 58,
-        "prsUpdated30d": 277,
+        "recentCommit": "2026-11-17",
+        "issuesUpdated30d": 63,
+        "prsUpdated30d": 326,
         "latestRelease": "v1.5.2（2026-11-16）",
         "readmeMaturity": "成熟",
         "readmeSignals": "25,829 字符 / 22 个标题 / 有安装说明 / 有 Demo/示例 / 有文档入口"
       }
     },
     {
-      "rank": 2,
-      "repo": "alibaba/open-code-review",
-      "url": "https://github.com/alibaba/open-code-review",
-      "tags": [
-        "AI Agent",
-        "Dev Tool",
-        "Code Review"
-      ],
-      "tagsCn": [
-        "AI Agent",
-        "Dev Tool",
-        "Code Review"
-      ],
-      "tagline": "混合流水线加 LLM 的代码评审 CLI，输出行级评论并内置安全规则",
-      "starsToday": 951,
-      "totalStars": 52917,
-      "starTodayRatio": 1.8,
-      "rankingStatus": "非连续；上次 11-15 第2",
-      "rankingTrack": "11-15#2 -> 11-17#2",
-      "activity": "1 天前有提交",
-      "license": "Apache-2.0",
-      "maintainer": "组织/公司/社区项目（Alibaba）；有主页/组织资料，可进一步核实官方性",
-      "positioning": "面向已有 CI 的中大型研发团队：读取 Git diff，由可配置 LLM Agent 结合全文与跨文件上下文输出带行号的评论，内置 NPE、线程安全、XSS、SQL 注入规则，ocr scan 可对无 diff 的目录做全量审计。边界是优先保证精确率、召回偏低，只能作人工评审的第二意见，不能当合并门禁。",
-      "whyWatch": "日增 951、总星 5.29 万，占比仅 1.8%，仍是老项目回热而非新爆发；1 天前有提交，Release 推进到 v1.13.10（2026-11-15）；近 30 天 PR 更新 254，高于 issue 更新 90，迭代活跃；open issues 335，需关注消化能力；README 约 9200 字符，含安装说明与文档入口，另附 50 个仓库、200 个 PR 的自建基准。",
-      "changedSinceLast": "上次记录为 v1.13.9、日增 893、占比 1.74%、open issues 342。今日 Release 到 v1.13.10（11-15），日增 951、占比 1.8% 小幅回升，open issues 降至 335，issue 更新 88→90、PR 更新 251→254，总星 5.14 万→5.29 万；整体仍是降温后的缓慢回暖，未见结构性变化。",
-      "suitableFor": "已有 CI、代码不便外发、想低成本引入行级 AI 审查的中大型团队，尤其关注空指针、线程安全、XSS、SQL 注入等缺陷，并能把模型端点指向企业内网兼容服务的组织，可先小范围 PR 灰度。",
-      "notSuitableFor": "指望 AI 替代人工评审的团队——其召回率刻意偏低；没有 CI 基础、无法配置模型端点或难承担 token 成本与调用延迟的小团队；想把自动评论直接当合并门禁的项目。",
-      "risk": "行级建议可能误判或漏报，必须保留人工复核，不得自动合入或作为唯一质量门禁；规则集源自阿里内部实践，未必适配所有编码规范；调用外部 LLM 端点存在代码外发、延迟与成本波动，须做合规与私有化评估；335 个 open issues 需警惕修复时效。",
-      "bestPractice": "在 CI 中由 PR 触发 ocr，只对改动行发评论且默认非阻断，按仓库语言开启对应规则集；模型端点指向内网兼容服务，结果作为 reviewer 第二意见并入人工评审，高敏仓库保持代码不出内网。",
-      "trialPlan": {
-        "install": "按 README 安装 ocr CLI，配置模型端点与 API Key，先在测试仓库验证连通性与单次审查的 token 消耗。",
-        "pilot": "选 2-3 个中低敏仓库开启非阻断评论，只审改动行，与现有评审记录并行比对两周。",
-        "evaluation": "统计行级评论采纳率、误报率、漏报抽样、单 PR 平均耗时与 token 成本，对比人工评审节省的时长。",
-        "exit": "若采纳率长期低于三成、误报干扰评审节奏，或合规评估不允许代码外发且内网模型不可用，则停止推广。"
-      },
-      "signals": {
-        "recentCommit": "2026-11-16",
-        "issuesUpdated30d": 90,
-        "prsUpdated30d": 254,
-        "latestRelease": "v1.13.10（2026-11-15）",
-        "readmeMaturity": "成熟",
-        "readmeSignals": "9,196 字符 / 19 个标题 / 有安装说明 / Demo 不明显 / 有文档入口"
-      }
-    },
-    {
       "rank": 3,
-      "repo": "NVIDIA/SkillEvaluator",
-      "url": "https://github.com/NVIDIA/SkillEvaluator",
+      "repo": "ag-ui-protocol/ag-ui",
+      "url": "https://github.com/ag-ui-protocol/ag-ui",
       "tags": [
         "AI Agent",
-        "Research",
-        "Security"
+        "Protocol",
+        "Dev Tool"
       ],
       "tagsCn": [
         "AI Agent",
-        "学术研究",
-        "Security"
+        "Protocol",
+        "Dev Tool"
       ],
-      "tagline": "给 agent 技能做质量门禁与有无对比评测，量化其对任务的影响",
-      "starsToday": 873,
-      "totalStars": 2667,
-      "starTodayRatio": 32.73,
+      "tagline": "冻结 1.0 规范的代理到前端事件协议，让任意框架的 Agent 直连 UI",
+      "starsToday": 1445,
+      "totalStars": 19981,
+      "starTodayRatio": 7.23,
       "rankingStatus": "新进 TOP3",
       "rankingTrack": "新上榜",
       "activity": "1 天前有提交",
-      "license": "Apache-2.0",
-      "maintainer": "组织/公司/社区项目（NVIDIA Corporation）；有主页/组织资料，可进一步核实官方性",
-      "positioning": "面向正在维护自有 agent 技能或插件库的平台与研发效能团队：先用静态质量检查和语义重叠检测筛选技能，再用合成数据集与启用/未启用对比的实际运行评估，衡量技能对任务结果的影响。边界是评测框架而非技能市场，模型打分与合成数据不能替代线上真实效果验证。",
-      "whyWatch": "日增 873、总星仅 2667、占比 32.73%，属典型的小基数新项目爆发，热度易回落；1 天前有提交，Release v0.9.0（2026-11-13）仍属 0.x；近 30 天 PR 更新 461，远高于 issue 更新 48，open issues 仅 20，迭代快但接口可能变动；README 9,162 字符，含安装说明、Demo 与文档入口，并有 arXiv 论文与 PyPI 包，支持无 API Key 跑静态质量分。",
-      "changedSinceLast": "今日新进 TOP3，暂无昨日同榜对比。",
-      "suitableFor": "已有内部技能或插件目录、需要在上线前设置质量门禁的平台团队；正在用 Claude Code、Codex 等 agent，并想量化某个技能是否真的提升任务表现的研究与效能团队；愿意在 CI 中固化技能评测流程的工程组织。",
-      "notSuitableFor": "只有零星几个技能、没有评测数据积累的个人开发者；期望开箱即得权威排行榜或直接替代人工验收的团队；无法提供模型端点、GPU 或扫描器的离线环境，以及不接受合成数据集结论的业务方。",
-      "risk": "0.x 版本接口与评分口径可能变动，静态分不等于真实收益；合成评测集可能过拟合，必须用线上 A/B 或人工抽检复核；安全扫描依赖外部 scanner，未配置时相关结论不完整；第三方技能本身存在供应链风险，安装即执行需权限隔离与白名单。",
-      "bestPractice": "在仓库 CI 中把 skills 目录变更接到评测模板：质量分低于阈值，或与既有技能语义重叠过高，即阻断合并；技能上线后再用启用/未启用对比确认它对任务成功率的实际增益。",
+      "license": "MIT",
+      "maintainer": "组织/公司/社区项目；有主页/组织资料，可进一步核实官方性",
+      "positioning": "面向要把代理接进 Web、移动端、终端或 Slack 前端的产品与前端团队，用一条双向事件流替代各家自定义接线：代理发出类型化事件，任意客户端渲染。边界是协议与 SDK，不含代理编排与模型能力；1.0 规范已冻结、TS/Python/.NET SDK 由其生成，与 A2UI 等生成式 UI 规范属不同层，需自行组合。",
+      "whyWatch": "今日新增 1445 星、占总星 7.23%，为三者中占比最高，属新进榜的高热度项目；1 天前有提交，Release 为 2026-11-17 的滚动版本；近 30 天 PR 更新 308、issue 更新 117，open issues 588 偏高，说明协议落地中仍有大量未决讨论；README 11,852 字符，含 1.0 规范、JSON Schema 与 Dojo 在线示例，成熟度尚可。",
+      "changedSinceLast": "今日新进 TOP3，暂无昨日同榜对比；可记为基线：1.0 规范已冻结并有 JSON Schema 与多语言 SDK，Release 为 2026-11-17 滚动版本，今日新增 1445 星、占比 7.23%，open issues 588 偏高。",
+      "suitableFor": "适合要把 Agent 接入 Web、移动端、终端或 Slack 的产品与前端团队；适合已用 LangChain、CrewAI、Google ADK 等框架、想统一前后端接线方式的团队；适合需要流式 token、工具调用中状态更新、人工介入暂停与子代理事件的一体化传递的工程团队。",
+      "notSuitableFor": "不适合只想调一个现成聊天组件、不打算维护前后端事件契约的前端团队；不适合把协议当作代理编排或模型能力方案的用户；不适合无法跟进 1.0 规范演进、缺少前端工程能力的团队；对纯后端批处理场景收益有限。",
+      "risk": "协议开源不等于安全默认，事件流可能夹带工具调用与状态变更，客户端须做渲染白名单与权限校验；1.0 虽冻结但生态适配与 SDK 质量参差，open issues 588 表明边界情况较多；用户数据回传代理须明确授权、留存与人审边界，敏感行业还需自行做合规评估，不可视为官方背书。",
+      "bestPractice": "用 AG-UI CLI 脚手架起一个 CopilotKit/Next.js 前端接自家代理，先只接入流式文本与工具调用事件并做类型映射，再逐步加入状态同步与人审暂停，前端仅渲染白名单事件类型。",
       "trialPlan": {
-        "install": "用 pip 或 uv 安装 skillevaluator，先用自带 text-analyzer 示例在无 API Key 下跑出静态质量分，再按需接 NVIDIA Build 或其他模型端点。",
-        "pilot": "挑选 3-5 个在用技能，跑静态检查与语义重叠检测，再选 1 个技能做启用与未启用的对比实跑评估。",
-        "evaluation": "记录质量分、重叠告警数、技能启用前后任务成功率与人工评分差异，以及单次评测耗时与模型调用成本。",
-        "exit": "若评分与实际使用效果长期不相关，或评测成本高于人工评审收益，则保留静态检查而放弃实跑评测。"
+        "install": "用 AG-UI CLI 脚手架起示例前端（CopilotKit/Next.js）与示例代理服务，跑通 README 中 30 行的 agent server + client 流式 Hello。",
+        "pilot": "选 1 个内部前端页面接入自家代理，只启用文本流与工具调用事件，记录事件契约并测量前端渲染改造量。",
+        "evaluation": "观测首字延迟、事件丢失率、跨框架替换成本、人审暂停与恢复成功率，以及 SDK 与 1.0 规范的兼容问题数。",
+        "exit": "若事件模型与现有后端差异过大，或 1.0 生态适配不足导致需大量私有补丁，则暂缓接入并保留自建事件层。"
       },
       "signals": {
-        "recentCommit": "2026-11-16",
-        "issuesUpdated30d": 48,
-        "prsUpdated30d": 461,
-        "latestRelease": "v0.9.0（2026-11-13）",
+        "recentCommit": "2026-11-17",
+        "issuesUpdated30d": 117,
+        "prsUpdated30d": 308,
+        "latestRelease": "release/2026-11-17（2026-11-17）",
         "readmeMaturity": "成熟",
-        "readmeSignals": "9,162 字符 / 16 个标题 / 有安装说明 / 有 Demo/示例 / 有文档入口"
+        "readmeSignals": "11,852 字符 / 13 个标题 / 有安装说明 / 有 Demo/示例 / 有文档入口"
       }
     }
   ]
