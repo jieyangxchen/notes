@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-18T08:04:24.029439+08:00",
-  "window": "2026-11-12..2026-11-18",
+  "generatedAt": "2026-11-19T08:03:12.112664+08:00",
+  "window": "2026-11-13..2026-11-19",
   "topProjects": [
     {
       "repo": "GoogleChrome/modern-web-guidance-src",
@@ -29,32 +29,6 @@
       "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
-      "repo": "we-promise/sure",
-      "url": "https://github.com/we-promise/sure",
-      "tagsCn": [
-        "金融",
-        "自托管",
-        "Dev Tool"
-      ],
-      "appearances": 3,
-      "bestRank": 2,
-      "latestDate": "2026-11-14",
-      "judgement": "近 7 次记录中出现 3 次，最佳排名第 2，适合优先复盘详情。"
-    },
-    {
-      "repo": "meta/astryx",
-      "url": "https://github.com/meta/astryx",
-      "tagsCn": [
-        "AI Agent",
-        "Design System",
-        "React"
-      ],
-      "appearances": 2,
-      "bestRank": 1,
-      "latestDate": "2026-11-13",
-      "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
-    },
-    {
       "repo": "alibaba/open-code-review",
       "url": "https://github.com/alibaba/open-code-review",
       "tagsCn": [
@@ -66,6 +40,32 @@
       "bestRank": 2,
       "latestDate": "2026-11-17",
       "judgement": "近 7 次记录中出现 2 次，最佳排名第 2，适合优先复盘详情。"
+    },
+    {
+      "repo": "we-promise/sure",
+      "url": "https://github.com/we-promise/sure",
+      "tagsCn": [
+        "金融",
+        "自托管",
+        "Dev Tool"
+      ],
+      "appearances": 2,
+      "bestRank": 2,
+      "latestDate": "2026-11-14",
+      "judgement": "近 7 次记录中出现 2 次，最佳排名第 2，适合优先复盘详情。"
+    },
+    {
+      "repo": "google-research/paper-orchestra",
+      "url": "https://github.com/google-research/paper-orchestra",
+      "tagsCn": [
+        "学术研究",
+        "AI Agent",
+        "学术写作"
+      ],
+      "appearances": 1,
+      "bestRank": 1,
+      "latestDate": "2026-11-19",
+      "judgement": "近 7 次记录中出现 1 次，最佳排名第 1，适合优先复盘详情。"
     }
   ],
   "streaks": [
@@ -81,18 +81,8 @@
     },
     {
       "repo": "we-promise/sure",
-      "days": 3,
-      "track": "11-12#2 -> 11-13#2 -> 11-14#2"
-    },
-    {
-      "repo": "addyosmani/agent-skills",
       "days": 2,
-      "track": "11-12#3 -> 11-13#3"
-    },
-    {
-      "repo": "meta/astryx",
-      "days": 2,
-      "track": "11-12#1 -> 11-13#1"
+      "track": "11-13#2 -> 11-14#2"
     }
   ]
 }

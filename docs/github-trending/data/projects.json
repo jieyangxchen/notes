@@ -1,6 +1,42 @@
 {
-  "generatedAt": "2026-11-18T08:04:24.029439+08:00",
+  "generatedAt": "2026-11-19T08:03:12.112664+08:00",
   "projects": [
+    {
+      "repo": "google-research/paper-orchestra",
+      "url": "https://github.com/google-research/paper-orchestra",
+      "latestDate": "2026-11-19",
+      "latestRank": 1,
+      "tagsCn": [
+        "学术研究",
+        "AI Agent",
+        "学术写作"
+      ],
+      "lastTagline": "多智能体把实验日志转成投稿级 LaTeX 论文"
+    },
+    {
+      "repo": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "latestDate": "2026-11-19",
+      "latestRank": 2,
+      "tagsCn": [
+        "AI Agent",
+        "Dev Tool",
+        "Security"
+      ],
+      "lastTagline": "统一多套 Agent Harness 的技能、记忆与权限治理"
+    },
+    {
+      "repo": "mvanhorn/last30days-skill",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "latestDate": "2026-11-19",
+      "latestRank": 3,
+      "tagsCn": [
+        "AI Agent",
+        "学术研究",
+        "信息聚合"
+      ],
+      "lastTagline": "跨 50+ 平台的 AI 调研技能，按真实互动排序"
+    },
     {
       "repo": "obra/superpowers",
       "url": "https://github.com/obra/superpowers",
@@ -596,19 +632,6 @@
         "学术研究"
       ],
       "lastTagline": "一条 CLI 让 AI 代理读推特、Reddit、B 站与小红书，免付费 API"
-    },
-    {
-      "repo": "affaan-m/ECC",
-      "url": "https://github.com/affaan-m/ECC",
-      "latestDate": "2026-10-04",
-      "latestRank": 3,
-      "tagsCn": [
-        "AI Agent",
-        "Dev Tool",
-        "Security",
-        "学术研究"
-      ],
-      "lastTagline": "给多套 Agent Harness 统一技能、记忆与安全策略"
     },
     {
       "repo": "t8y2/dbx",

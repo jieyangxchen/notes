@@ -1,149 +1,150 @@
 {
-  "date": "2026-11-18",
-  "generatedAt": "2026-11-18T08:04:24.029439+08:00",
+  "date": "2026-11-19",
+  "generatedAt": "2026-11-19T08:03:12.112664+08:00",
   "source": "https://github.com/trending?since=daily",
   "tags": [
+    "Research",
     "AI Agent",
+    "学术写作",
     "Dev Tool",
-    "方法论",
-    "Office SDK",
-    "Protocol"
+    "Security",
+    "信息聚合"
   ],
-  "observation": "三个项目都落在 AI Agent 方向，但分工清晰：superpowers 管代理“怎么干活”，用技能与开发方法论约束编码代理先出规格再实现；univer 管“在哪里干活”，以 SDK 把表格、文档编辑能力嵌进自有产品；ag-ui 管“怎么把代理接到用户面前”，用一条双向事件流定义代理与前端的通信。共同点是都在补代理落地所需的工程化中间层，而非再造模型；差异在于 superpowers 强绑定特定代理生态且流程刚性，univer 有开源核心与商业扩展边界，ag-ui 是刚冻结 1.0 的开放协议、仍依赖生态适配。三者热度含情绪成分，需结合提交与版本节奏判断。",
+  "observation": "今日 TOP3 全落在 Research 类，共同点是把 LLM 代理编排成可复用工作流而非单一模型能力：PaperOrchestra 把实验材料推到 LaTeX 投稿稿，ECC 治理多套 Agent Harness 的技能、记忆与权限，last30days 用真实互动信号给跨平台信息排序。差异在成熟度曲线：前者属新项目爆发，日增占比 35.83%、无公开 release；后两者是回热老项目，占比仅 0.36% 与 1.51%，但体量已达 30.65 万与 7 万星并保持发版。三者都强调人在环，却都不做强制事实核查，输出必须人工复核后方可用于对外场景。",
   "projects": [
     {
       "rank": 1,
-      "repo": "obra/superpowers",
-      "url": "https://github.com/obra/superpowers",
+      "repo": "google-research/paper-orchestra",
+      "url": "https://github.com/google-research/paper-orchestra",
       "tags": [
+        "Research",
         "AI Agent",
-        "Dev Tool",
-        "方法论"
+        "学术写作"
       ],
       "tagsCn": [
+        "学术研究",
         "AI Agent",
-        "Dev Tool",
-        "方法论"
+        "学术写作"
       ],
-      "tagline": "给编码代理装上规格先行与 TDD 流程的技能框架，节点需人工审批",
-      "starsToday": 1917,
-      "totalStars": 319308,
-      "starTodayRatio": 0.6,
-      "rankingStatus": "非连续；上次 08-06 第3",
-      "rankingTrack": "08-06#3 -> 11-18#1",
-      "activity": "15 天前有提交",
-      "license": "MIT",
-      "maintainer": "个人项目（维护者资料公司：Prime Radiant）；有主页/组织资料，可进一步核实官方性",
-      "positioning": "面向要求规格先行、测试驱动与人工审批的软件团队，让 Claude Code、Cursor、Copilot CLI 等代理在动手前先澄清需求、产出分块规格与实现计划，再交由子代理逐任务实现并测试，关键节点人工签核。边界：强依赖受支持代理生态，流程刚性高，不适合快速原型；v7.0.2 主要扩展代理支持与技能编排，方法论主体未变。",
-      "whyWatch": "今日新增 1917 星、占总星 0.6%，绝对值居三者之首；README 扩至 12,860 字符、31 个标题，安装与多代理入口更完整；Release 由 v6.2.0 直接跳到 v7.0.2（2026-11-03）；近 30 天 issue 更新 294、PR 更新 188，open issues 359，讨论体量大。但最近提交为 15 天前，大版本之后的维护节奏值得继续观察。",
-      "changedSinceLast": "上次记录停在 v6.2.0（2026-07-24）、当日新增 931 星、占比 0.35%；今日版本已到 v7.0.2（2026-11-03），日增 931→1917、占比 0.35%→0.6%；README 从 9,437 字符/25 个标题扩到 12,860/31；30 天 issue 更新 126→294、PR 153→188，open issues 325→359。但最近提交由 1 天前变为 15 天前，热度上行与迭代放缓并存。",
-      "suitableFor": "适合中大型团队在引入 AI 编码后仍要求规格先行、TDD 与人工审批的工程文化；适合已使用 Claude Code、Cursor、Copilot CLI 等受支持代理、能接受较长前置规划的开发者；适合把代理视为可审计开发成员而非黑盒工具的组织。",
-      "notSuitableFor": "不适合原型优先、喜欢快速试错的个人开发者；不适合不接受强流程约束或缺少测试文化的团队；不适合安全关键系统，代理自主执行仍须人工审查且审计成本高；对不支持技能注入的代理工具用户几乎没有价值。",
-      "risk": "方法论强势，小任务易被过度流程化而降低效率；深度绑定主流代理工具，代理升级可能打断技能链；社区技能质量参差，可能引入不稳定或安全隐患；代理在计划框架内可自主运行数小时，规格出错会在多模块扩散，必须保留人工审批、最小权限与回滚；v7.0.2 后 15 天无提交，维护节奏存在不确定性。",
-      "bestPractice": "新功能（预计 3-5 天）启动时，先让代理产出一页分块规格与实现计划，团队评审通过后再拆成工单交子代理逐个实现，每个任务走红绿 TDD 循环并留下审批与回滚记录，形成可复盘的中型交付节奏。",
+      "tagline": "多智能体把实验日志转成投稿级 LaTeX 论文",
+      "starsToday": 1524,
+      "totalStars": 4253,
+      "starTodayRatio": 35.83,
+      "rankingStatus": "新进 TOP3",
+      "rankingTrack": "新上榜",
+      "activity": "4 天前有提交",
+      "license": "Apache-2.0",
+      "maintainer": "组织/公司/社区项目（Google Research）；有主页/组织资料，可进一步核实官方性",
+      "positioning": "面向已有实验材料、需要快速产出结构化初稿的研究者与工程团队：把想法与实验日志转成含文献综述、图表和会议模板的 LaTeX 稿件。边界是它只做写作与排版编排，不替代真实实验与结论；论文数据集未随仓库发布，文献检索依赖外部 API，引用与数据仍需作者逐条核对。",
+      "whyWatch": "日增 1524 星、占总星 35.83%，是典型新项目爆发，4 天前仍有提交；41 个 open issue、近 30 天 41 次 PR 更新，说明社区已开始试用并暴露问题；README 3,259 字符、12 个标题，安装说明与 Streamlit Demo 齐全，但无独立文档入口、无公开 release，版本可追溯性偏弱。",
+      "changedSinceLast": "今日新进 TOP3，暂无昨日同榜对比",
+      "suitableFor": "适合已有完整实验数据、需要把零散 idea 与实验日志快速整理成投稿框架的高年级博士生和实验室工程团队；也适合研究自动化写作评测、愿意用小样本对比原文与生成稿差异的研究者。",
+      "notSuitableFor": "不适合尚无实验结论、指望它凭空产出可投稿论文的用户；不适合要求引用百分百可溯源、或所在单位对 AI 生成学术内容有明确禁令的场景；无 API 预算、无力承担生成费用与人工校核成本的个人也不适用。",
+      "risk": "README 明确标注「非 Google 官方支持产品」，官方性与长期维护不能按 Google 产品预期推断；自动文献综述存在引用幻觉，图表由代码生成也可能与结论不一致。用于投稿前必须人工核查引用、数据与作者贡献，并遵守目标会议及所属机构关于 AI 使用的披露与署名规定。",
+      "bestPractice": "把已有实验日志放进 raw_materials_dir，指定目标会议 LaTeX 模板，先只生成 outline 与 literature review 两份中间产物，由作者逐条核对引用与实验数据，确认无误后再决定是否继续生成正文与图表。",
       "trialPlan": {
-        "install": "按 README 在受支持代理中安装插件（如 Claude Code 执行 claude plugins install obra/superpowers），确认版本为 v7.0.2 并记录更新方式。",
-        "pilot": "选 1 个 3-5 天的功能，开启 /superpowers:on，完整走规格—计划—子代理实现流程，全程保留审批记录。",
-        "evaluation": "对比试点与常规流程的返工率、评审轮次、缺陷数与人均耗时，并统计代理自主运行段的人工干预次数。",
-        "exit": "若前置规划耗时占比过高，或小任务效率明显下降，则回退到人工计划并仅在局部任务使用技能。"
+        "install": "按 README 用 Python 3.11 建 conda 环境 paper_orchestra 并安装依赖，在根目录 .env 填入模型 API key；仓库不含数据集，需自备实验日志与模板目录。",
+        "pilot": "取一篇已发表论文，用其公开实验日志与同款会议模板跑一遍，只生成提纲与文献综述，保留全部中间产物用于比对。",
+        "evaluation": "统计引用中真实存在且相关的比例、图表与数据是否一致、LaTeX 能否一次编译通过、单篇耗时与 token 成本，人工抽查 20 条引用。",
+        "exit": "引用可核验率低于 80%、编译反复失败，或成本高于人工起草收益时，停止试用并退回只做提纲的轻量用法。"
       },
       "signals": {
-        "recentCommit": "2026-11-03",
-        "issuesUpdated30d": 294,
-        "prsUpdated30d": 188,
-        "latestRelease": "v7.0.2（2026-11-03）",
+        "recentCommit": "2026-11-15",
+        "issuesUpdated30d": 11,
+        "prsUpdated30d": 41,
+        "latestRelease": "暂无公开 release",
         "readmeMaturity": "成熟",
-        "readmeSignals": "12,860 字符 / 31 个标题 / 有安装说明 / Demo 不明显 / 有文档入口"
+        "readmeSignals": "3,259 字符 / 12 个标题 / 有安装说明 / 有 Demo/示例 / 文档入口不明显"
       }
     },
     {
       "rank": 2,
-      "repo": "dream-num/univer",
-      "url": "https://github.com/dream-num/univer",
+      "repo": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
       "tags": [
         "AI Agent",
-        "Office SDK",
-        "Dev Tool"
+        "Dev Tool",
+        "Security"
       ],
       "tagsCn": [
         "AI Agent",
-        "Office SDK",
-        "Dev Tool"
+        "Dev Tool",
+        "Security"
       ],
-      "tagline": "Apache-2.0 开源表格文档核心，用 Facade API 把编辑能力嵌进自有产品",
-      "starsToday": 1774,
-      "totalStars": 28887,
-      "starTodayRatio": 6.14,
-      "rankingStatus": "连续 3 次日报 TOP3",
-      "rankingTrack": "11-16#2 -> 11-17#1 -> 11-18#2",
-      "activity": "1 天前有提交",
-      "license": "Apache-2.0",
-      "maintainer": "组织/公司/社区项目（DreamNum）；有主页/组织资料，可进一步核实官方性",
-      "positioning": "面向要把表格、文档、演示编辑嵌入自有 SaaS、内部工具或 AI 应用的研发团队，提供开源核心加插件架构与 Facade API，浏览器与 Node 共用一套实现，代理可通过 API 与事件做结构化读写。边界是构建底座而非成品办公套件，PDF、复杂排版等高级能力位于商业扩展，接入前须先核对 scope and licensing。",
-      "whyWatch": "今日新增 1774 星、占比 6.14%，绝对量与占比都高于上次记录；1 天前仍有提交，Release 停在 v1.5.2（2026-11-16）；近 30 天 PR 更新 326，远高于 issue 更新 63，说明维护方仍在密集合并；README 25,829 字符，含安装、Demo 与文档入口；open issues 升至 206，插件化 API 的稳定性仍需自建回归验证。",
-      "changedSinceLast": "版本与上次记录同为 v1.5.2（2026-11-16），今日未再前进；日增 1828→1774、占比 6.59%→6.14%，属高位小幅回落；总星约 2.78 万→2.89 万；30 天 PR 更新 277→326 继续走高，issue 更新 58→63，open issues 184→206 同步累积。变化主要在热度微降而合并节奏加速、待办积压增加。",
-      "suitableFor": "适合要把表格、文档或演示编辑嵌入自有 SaaS、内部工具、BI 与 AI 应用的研发团队；适合希望用插件裁剪功能、前后端共用一套实现、避免被托管办公套件绑定的产品团队；适合需要给代理提供结构化表格与公式计算能力的工程师。",
-      "notSuitableFor": "不适合想直接拿到开箱即用、完整兼容微软格式与复杂排版的在线 Office 成品的企业；不适合没有前端或 Node 工程能力、只想开号使用的个人；不适合对 API 稳定性敏感却没有自建回归测试能力的团队。",
-      "risk": "接入代理后，公式、脚本执行与外部数据引用可能带来注入或数据外泄，须限制可访问数据源并对自动生成内容做人工复核；Apache-2.0 允许商用，但不等于官方背书或 SLA，须核实开源核心与商业扩展边界；表格含财务或个人信息时须满足相应合规与审计要求；open issues 累积也意味着升级可能带来隐性回归。",
-      "bestPractice": "在内部 BI 或 CRM 中嵌入 Univer 表格作为代理的结构化工作台：代理只写沙箱副本并产出公式与透视草稿，人工确认后再回写主表，用 Facade 事件记录每次改动以便回滚与追责。",
+      "tagline": "统一多套 Agent Harness 的技能、记忆与权限治理",
+      "starsToday": 1108,
+      "totalStars": 306478,
+      "starTodayRatio": 0.36,
+      "rankingStatus": "非连续；上次 10-04 第3",
+      "rankingTrack": "10-04#3 -> 11-19#2",
+      "activity": "2 天前有提交",
+      "license": "MIT",
+      "maintainer": "个人项目（维护者资料公司：Jump Trading）；有主页/组织资料，可进一步核实官方性",
+      "positioning": "面向同时跑 Claude Code、Codex、Cursor、Opencode 等多套 Harness 的团队：用插件层统一技能、instincts、记忆回填、安全扫描与 token 开销治理，不替换底层模型。边界是 hooks 与配置会放大权限并把审计责任转移给接入方；开源版 MIT 免费，私有仓库相关能力走付费 ECC Pro，功能边界需自行甄别。",
+      "whyWatch": "今日 1108 星、占总星仅 0.36%，总星约 30.65 万，绝对量最大而占比最低；2 天前有提交，release 仍停在 v2.2.3（2026-10-01）；README 由 6.7 万字符扩到 7.65 万、标题 89 增至 94，文档持续加厚；近 30 天 issue 更新 182、PR 更新 412、open issue 169，反馈量大，维护吞吐需继续观察。",
+      "changedSinceLast": "较上次记录：日增 897 升至 1108，占比 0.33% 升至 0.36%，总星约 27.22 万增至 30.65 万；README 继续扩容；本次 PR 更新数据补齐为 412，open issues 显示 169，与上次「open issues/PR 合计 340」口径不同，不宜直接判为积压下降；release 仍为 v2.2.3，未见新版本。",
+      "suitableFor": "适合已同时使用 Claude Code、Codex、Cursor 等多套 Harness、想统一技能库与记忆并治理 token 与权限的团队；适合具备 Node 环境、能审读 hooks 配置与 GitHub App 授权范围的平台工程师，先在隔离仓库验证再逐步放量。",
+      "notSuitableFor": "不适合偏好零配置的脚本级个人用户；私有仓库数据合规与出境评估未完成前不应接入 GitHub App；第三方镜像或旧 Node 环境不可用；只用单一技能的小团队收益低于学习成本；对开源与付费 ECC Pro 边界敏感、要求完全免费者应先观察。",
+      "risk": "README 强调只从官方渠道（GitHub 仓库、npm ecc-universal 与 ecc-agentshield、ecc-tools GitHub App、ecc@ecc 插件、ecc.tools）安装，第三方重打包可能含恶意代码；hooks 存在权限放大风险，接入前须人工审 diff 并限定可写范围；安全扫描与记忆不是唯一防线，私有仓库走付费 Pro，合规与授权责任由接入方承担。",
+      "bestPractice": "在只读的测试仓库安装 ecc@ecc 插件，开启安全扫描与记忆回填，跑一周常规编码任务，核对 hook 触发日志与 token 消耗，确认没有越权写入后，再推广到团队共享仓库并确立变更评审流程。",
       "trialPlan": {
-        "install": "按 README Quick start 装入开源 Sheets/Docs 核心，跑通本地 Demo，确认浏览器与 Node 运行时版本兼容，并核对 scope and licensing。",
-        "pilot": "选 1 个内部工具做嵌入试点，限定代理只写沙箱副本，产出公式与透视草稿，人工确认后回写主表。",
-        "evaluation": "观测嵌入构建成本、公式与导入导出正确率、越权数据访问尝试数，以及版本升级后回归用例通过率。",
-        "exit": "若所需高级能力被商业扩展挡住，或每次升级都需大量回归修复而团队无力承担，则退回只读展示或评估替代方案。"
+        "install": "只从官方渠道安装：按 README 用 Claude Code 引导式安装 ecc@ecc 插件，或 npm 全局安装 ecc-universal；Node 版本按文档要求，暂不接入 GitHub App。",
+        "pilot": "在隔离测试仓库启用技能与安全扫描，跑 2 至 3 个常规编码任务，记录 hook 触发的读写行为与 token 消耗。",
+        "evaluation": "对比接入前后 token 用量、重复解释成本、hook 越权写入次数与扫描误报率，并核对最近 release 与 issue 响应节奏是否跟得上。",
+        "exit": "出现无法解释的越权写入、token 反而上升，或连续两周无提交、issue 积压继续扩大时，回滚插件并暂停推广。"
       },
       "signals": {
         "recentCommit": "2026-11-17",
-        "issuesUpdated30d": 63,
-        "prsUpdated30d": 326,
-        "latestRelease": "v1.5.2（2026-11-16）",
+        "issuesUpdated30d": 182,
+        "prsUpdated30d": 412,
+        "latestRelease": "v2.2.3（2026-10-01）",
         "readmeMaturity": "成熟",
-        "readmeSignals": "25,829 字符 / 22 个标题 / 有安装说明 / 有 Demo/示例 / 有文档入口"
+        "readmeSignals": "76,531 字符 / 94 个标题 / 有安装说明 / 有 Demo/示例 / 有文档入口"
       }
     },
     {
       "rank": 3,
-      "repo": "ag-ui-protocol/ag-ui",
-      "url": "https://github.com/ag-ui-protocol/ag-ui",
+      "repo": "mvanhorn/last30days-skill",
+      "url": "https://github.com/mvanhorn/last30days-skill",
       "tags": [
         "AI Agent",
-        "Protocol",
-        "Dev Tool"
+        "Research",
+        "信息聚合"
       ],
       "tagsCn": [
         "AI Agent",
-        "Protocol",
-        "Dev Tool"
+        "学术研究",
+        "信息聚合"
       ],
-      "tagline": "冻结 1.0 规范的代理到前端事件协议，让任意框架的 Agent 直连 UI",
-      "starsToday": 1445,
-      "totalStars": 19981,
-      "starTodayRatio": 7.23,
-      "rankingStatus": "新进 TOP3",
-      "rankingTrack": "新上榜",
-      "activity": "1 天前有提交",
+      "tagline": "跨 50+ 平台的 AI 调研技能，按真实互动排序",
+      "starsToday": 1059,
+      "totalStars": 69974,
+      "starTodayRatio": 1.51,
+      "rankingStatus": "非连续；上次 06-11 第1",
+      "rankingTrack": "06-11#1 -> 11-19#3",
+      "activity": "2 天前有提交",
       "license": "MIT",
-      "maintainer": "组织/公司/社区项目；有主页/组织资料，可进一步核实官方性",
-      "positioning": "面向要把代理接进 Web、移动端、终端或 Slack 前端的产品与前端团队，用一条双向事件流替代各家自定义接线：代理发出类型化事件，任意客户端渲染。边界是协议与 SDK，不含代理编排与模型能力；1.0 规范已冻结、TS/Python/.NET SDK 由其生成，与 A2UI 等生成式 UI 规范属不同层，需自行组合。",
-      "whyWatch": "今日新增 1445 星、占总星 7.23%，为三者中占比最高，属新进榜的高热度项目；1 天前有提交，Release 为 2026-11-17 的滚动版本；近 30 天 PR 更新 308、issue 更新 117，open issues 588 偏高，说明协议落地中仍有大量未决讨论；README 11,852 字符，含 1.0 规范、JSON Schema 与 Dojo 在线示例，成熟度尚可。",
-      "changedSinceLast": "今日新进 TOP3，暂无昨日同榜对比；可记为基线：1.0 规范已冻结并有 JSON Schema 与多语言 SDK，Release 为 2026-11-17 滚动版本，今日新增 1445 星、占比 7.23%，open issues 588 偏高。",
-      "suitableFor": "适合要把 Agent 接入 Web、移动端、终端或 Slack 的产品与前端团队；适合已用 LangChain、CrewAI、Google ADK 等框架、想统一前后端接线方式的团队；适合需要流式 token、工具调用中状态更新、人工介入暂停与子代理事件的一体化传递的工程团队。",
-      "notSuitableFor": "不适合只想调一个现成聊天组件、不打算维护前后端事件契约的前端团队；不适合把协议当作代理编排或模型能力方案的用户；不适合无法跟进 1.0 规范演进、缺少前端工程能力的团队；对纯后端批处理场景收益有限。",
-      "risk": "协议开源不等于安全默认，事件流可能夹带工具调用与状态变更，客户端须做渲染白名单与权限校验；1.0 虽冻结但生态适配与 SDK 质量参差，open issues 588 表明边界情况较多；用户数据回传代理须明确授权、留存与人审边界，敏感行业还需自行做合规评估，不可视为官方背书。",
-      "bestPractice": "用 AG-UI CLI 脚手架起一个 CopilotKit/Next.js 前端接自家代理，先只接入流式文本与工具调用事件并做类型映射，再逐步加入状态同步与人审暂停，前端仅渲染白名单事件类型。",
+      "maintainer": "个人项目；官方性未见强信号",
+      "positioning": "面向市场、公关与个人研究者：一个装在 Claude Code、Codex、Cursor 等 50+ 宿主里的技能，并行抓取 Reddit、X、YouTube、HN、Polymarket 等信号，按点赞与真实下注排序后合成摘要。边界是不做事实核查；Reddit、HN 等免令牌源可零配置运行，X、YouTube 等需自备令牌，摘要质量受模型幻觉影响。",
+      "whyWatch": "今日 1059 星、占总星 1.51%，总星近 7 万；版本已从上次记录的 v3.3.0 推进到 v4.3.2（2026-11-17），README 明确跟随 v4 管线并以 SKILL.md 为规范来源；近 30 天 PR 更新 226、issue 更新 30、open issue 22，反馈处理相对轻；2 天前有提交，README 3.19 万字符、多语言版本与安装说明齐全。",
+      "changedSinceLast": "较上次记录：日增 2535 降至 1059、占比 6.49% 降至 1.51%，属基数变大后的回落；总星约 4 万增至约 7 万；主版本从 v3.3.0 跃迁到 v4.3.2（2026-11-17），README 改为跟随 v4 管线；README 由 2.2 万字符扩到 3.19 万；open issues 由「issue/PR 合计 146」变为 open issue 22，口径不同不宜直接对比。",
+      "suitableFor": "适合需要每天快速掌握行业动态、竞品舆情或社区讨论热度的市场与内容团队；适合已用 Claude Code、Cursor 等宿主、能接受零配置先跑 Reddit 与 HN 的开发者；适合把摘要当作线索源、再回原文核验的个人研究者。",
+      "notSuitableFor": "不适合法律合规、金融审计等要求来源可追责、结论可复现场景；不适合不允许 API 中断或模型幻觉进入决策链的关键业务系统；多平台令牌集中存放会扩大安全暴露面，安全审核严格的环境不宜直接接入；完全不接受人工复核成本的团队也不适用。",
+      "risk": "平台 API 政策收缩或改价可能导致部分源失效；AI 摘要存在模型幻觉，可能生成错误事实或无出处结论；排序依赖点赞、下注等互动信号，可能被水军或虚假热度操纵；自管令牌有泄露风险。用于对外发布或研究引用时必须标注「AI 生成、未经人工核实」并保留原始链接供人审。",
+      "bestPractice": "每天晨会前用一个行业关键词跑一次，把摘要当线索清单使用，指定专人回查 3 至 5 条关键事件的原帖与日期，再在简报底部注明生成方式与核验人，形成可追溯的动态监测流。",
       "trialPlan": {
-        "install": "用 AG-UI CLI 脚手架起示例前端（CopilotKit/Next.js）与示例代理服务，跑通 README 中 30 行的 agent server + client 流式 Hello。",
-        "pilot": "选 1 个内部前端页面接入自家代理，只启用文本流与工具调用事件，记录事件契约并测量前端渲染改造量。",
-        "evaluation": "观测首字延迟、事件丢失率、跨框架替换成本、人审暂停与恢复成功率，以及 SDK 与 1.0 规范的兼容问题数。",
-        "exit": "若事件模型与现有后端差异过大，或 1.0 生态适配不足导致需大量私有补丁，则暂缓接入并保留自建事件层。"
+        "install": "在 Claude Code 市场安装 last30days-skill，或执行 skills install last30days-skill -g；先只用免令牌的 Reddit、HN、Polymarket、GitHub 源。",
+        "pilot": "对一个长期关注的行业关键词连跑 5 天，保存每日摘要与原始链接，与团队人工收集的信息做对照。",
+        "evaluation": "统计多源覆盖度、关键事件日期与事实准确率、幻觉与遗漏条数、单次生成耗时，以人工抽查 10 条关键信息为准。",
+        "exit": "关键信息准确率低于 90% 或出现凭空捏造的重大事实时，停用摘要只做链接聚合；令牌集中风险未解决前不接入 X 等付费源。"
       },
       "signals": {
         "recentCommit": "2026-11-17",
-        "issuesUpdated30d": 117,
-        "prsUpdated30d": 308,
-        "latestRelease": "release/2026-11-17（2026-11-17）",
+        "issuesUpdated30d": 30,
+        "prsUpdated30d": 226,
+        "latestRelease": "v4.3.2（2026-11-17）",
         "readmeMaturity": "成熟",
-        "readmeSignals": "11,852 字符 / 13 个标题 / 有安装说明 / 有 Demo/示例 / 有文档入口"
+        "readmeSignals": "31,912 字符 / 26 个标题 / 有安装说明 / 有 Demo/示例 / 有文档入口"
       }
     }
   ]

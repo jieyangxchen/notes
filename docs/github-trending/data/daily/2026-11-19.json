@@ -1,0 +1,151 @@
+{
+  "date": "2026-11-19",
+  "generatedAt": "2026-11-19T08:03:12.112664+08:00",
+  "source": "https://github.com/trending?since=daily",
+  "tags": [
+    "Research",
+    "AI Agent",
+    "学术写作",
+    "Dev Tool",
+    "Security",
+    "信息聚合"
+  ],
+  "observation": "今日 TOP3 全落在 Research 类，共同点是把 LLM 代理编排成可复用工作流而非单一模型能力：PaperOrchestra 把实验材料推到 LaTeX 投稿稿，ECC 治理多套 Agent Harness 的技能、记忆与权限，last30days 用真实互动信号给跨平台信息排序。差异在成熟度曲线：前者属新项目爆发，日增占比 35.83%、无公开 release；后两者是回热老项目，占比仅 0.36% 与 1.51%，但体量已达 30.65 万与 7 万星并保持发版。三者都强调人在环，却都不做强制事实核查，输出必须人工复核后方可用于对外场景。",
+  "projects": [
+    {
+      "rank": 1,
+      "repo": "google-research/paper-orchestra",
+      "url": "https://github.com/google-research/paper-orchestra",
+      "tags": [
+        "Research",
+        "AI Agent",
+        "学术写作"
+      ],
+      "tagsCn": [
+        "学术研究",
+        "AI Agent",
+        "学术写作"
+      ],
+      "tagline": "多智能体把实验日志转成投稿级 LaTeX 论文",
+      "starsToday": 1524,
+      "totalStars": 4253,
+      "starTodayRatio": 35.83,
+      "rankingStatus": "新进 TOP3",
+      "rankingTrack": "新上榜",
+      "activity": "4 天前有提交",
+      "license": "Apache-2.0",
+      "maintainer": "组织/公司/社区项目（Google Research）；有主页/组织资料，可进一步核实官方性",
+      "positioning": "面向已有实验材料、需要快速产出结构化初稿的研究者与工程团队：把想法与实验日志转成含文献综述、图表和会议模板的 LaTeX 稿件。边界是它只做写作与排版编排，不替代真实实验与结论；论文数据集未随仓库发布，文献检索依赖外部 API，引用与数据仍需作者逐条核对。",
+      "whyWatch": "日增 1524 星、占总星 35.83%，是典型新项目爆发，4 天前仍有提交；41 个 open issue、近 30 天 41 次 PR 更新，说明社区已开始试用并暴露问题；README 3,259 字符、12 个标题，安装说明与 Streamlit Demo 齐全，但无独立文档入口、无公开 release，版本可追溯性偏弱。",
+      "changedSinceLast": "今日新进 TOP3，暂无昨日同榜对比",
+      "suitableFor": "适合已有完整实验数据、需要把零散 idea 与实验日志快速整理成投稿框架的高年级博士生和实验室工程团队；也适合研究自动化写作评测、愿意用小样本对比原文与生成稿差异的研究者。",
+      "notSuitableFor": "不适合尚无实验结论、指望它凭空产出可投稿论文的用户；不适合要求引用百分百可溯源、或所在单位对 AI 生成学术内容有明确禁令的场景；无 API 预算、无力承担生成费用与人工校核成本的个人也不适用。",
+      "risk": "README 明确标注「非 Google 官方支持产品」，官方性与长期维护不能按 Google 产品预期推断；自动文献综述存在引用幻觉，图表由代码生成也可能与结论不一致。用于投稿前必须人工核查引用、数据与作者贡献，并遵守目标会议及所属机构关于 AI 使用的披露与署名规定。",
+      "bestPractice": "把已有实验日志放进 raw_materials_dir，指定目标会议 LaTeX 模板，先只生成 outline 与 literature review 两份中间产物，由作者逐条核对引用与实验数据，确认无误后再决定是否继续生成正文与图表。",
+      "trialPlan": {
+        "install": "按 README 用 Python 3.11 建 conda 环境 paper_orchestra 并安装依赖，在根目录 .env 填入模型 API key；仓库不含数据集，需自备实验日志与模板目录。",
+        "pilot": "取一篇已发表论文，用其公开实验日志与同款会议模板跑一遍，只生成提纲与文献综述，保留全部中间产物用于比对。",
+        "evaluation": "统计引用中真实存在且相关的比例、图表与数据是否一致、LaTeX 能否一次编译通过、单篇耗时与 token 成本，人工抽查 20 条引用。",
+        "exit": "引用可核验率低于 80%、编译反复失败，或成本高于人工起草收益时，停止试用并退回只做提纲的轻量用法。"
+      },
+      "signals": {
+        "recentCommit": "2026-11-15",
+        "issuesUpdated30d": 11,
+        "prsUpdated30d": 41,
+        "latestRelease": "暂无公开 release",
+        "readmeMaturity": "成熟",
+        "readmeSignals": "3,259 字符 / 12 个标题 / 有安装说明 / 有 Demo/示例 / 文档入口不明显"
+      }
+    },
+    {
+      "rank": 2,
+      "repo": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "tags": [
+        "AI Agent",
+        "Dev Tool",
+        "Security"
+      ],
+      "tagsCn": [
+        "AI Agent",
+        "Dev Tool",
+        "Security"
+      ],
+      "tagline": "统一多套 Agent Harness 的技能、记忆与权限治理",
+      "starsToday": 1108,
+      "totalStars": 306478,
+      "starTodayRatio": 0.36,
+      "rankingStatus": "非连续；上次 10-04 第3",
+      "rankingTrack": "10-04#3 -> 11-19#2",
+      "activity": "2 天前有提交",
+      "license": "MIT",
+      "maintainer": "个人项目（维护者资料公司：Jump Trading）；有主页/组织资料，可进一步核实官方性",
+      "positioning": "面向同时跑 Claude Code、Codex、Cursor、Opencode 等多套 Harness 的团队：用插件层统一技能、instincts、记忆回填、安全扫描与 token 开销治理，不替换底层模型。边界是 hooks 与配置会放大权限并把审计责任转移给接入方；开源版 MIT 免费，私有仓库相关能力走付费 ECC Pro，功能边界需自行甄别。",
+      "whyWatch": "今日 1108 星、占总星仅 0.36%，总星约 30.65 万，绝对量最大而占比最低；2 天前有提交，release 仍停在 v2.2.3（2026-10-01）；README 由 6.7 万字符扩到 7.65 万、标题 89 增至 94，文档持续加厚；近 30 天 issue 更新 182、PR 更新 412、open issue 169，反馈量大，维护吞吐需继续观察。",
+      "changedSinceLast": "较上次记录：日增 897 升至 1108，占比 0.33% 升至 0.36%，总星约 27.22 万增至 30.65 万；README 继续扩容；本次 PR 更新数据补齐为 412，open issues 显示 169，与上次「open issues/PR 合计 340」口径不同，不宜直接判为积压下降；release 仍为 v2.2.3，未见新版本。",
+      "suitableFor": "适合已同时使用 Claude Code、Codex、Cursor 等多套 Harness、想统一技能库与记忆并治理 token 与权限的团队；适合具备 Node 环境、能审读 hooks 配置与 GitHub App 授权范围的平台工程师，先在隔离仓库验证再逐步放量。",
+      "notSuitableFor": "不适合偏好零配置的脚本级个人用户；私有仓库数据合规与出境评估未完成前不应接入 GitHub App；第三方镜像或旧 Node 环境不可用；只用单一技能的小团队收益低于学习成本；对开源与付费 ECC Pro 边界敏感、要求完全免费者应先观察。",
+      "risk": "README 强调只从官方渠道（GitHub 仓库、npm ecc-universal 与 ecc-agentshield、ecc-tools GitHub App、ecc@ecc 插件、ecc.tools）安装，第三方重打包可能含恶意代码；hooks 存在权限放大风险，接入前须人工审 diff 并限定可写范围；安全扫描与记忆不是唯一防线，私有仓库走付费 Pro，合规与授权责任由接入方承担。",
+      "bestPractice": "在只读的测试仓库安装 ecc@ecc 插件，开启安全扫描与记忆回填，跑一周常规编码任务，核对 hook 触发日志与 token 消耗，确认没有越权写入后，再推广到团队共享仓库并确立变更评审流程。",
+      "trialPlan": {
+        "install": "只从官方渠道安装：按 README 用 Claude Code 引导式安装 ecc@ecc 插件，或 npm 全局安装 ecc-universal；Node 版本按文档要求，暂不接入 GitHub App。",
+        "pilot": "在隔离测试仓库启用技能与安全扫描，跑 2 至 3 个常规编码任务，记录 hook 触发的读写行为与 token 消耗。",
+        "evaluation": "对比接入前后 token 用量、重复解释成本、hook 越权写入次数与扫描误报率，并核对最近 release 与 issue 响应节奏是否跟得上。",
+        "exit": "出现无法解释的越权写入、token 反而上升，或连续两周无提交、issue 积压继续扩大时，回滚插件并暂停推广。"
+      },
+      "signals": {
+        "recentCommit": "2026-11-17",
+        "issuesUpdated30d": 182,
+        "prsUpdated30d": 412,
+        "latestRelease": "v2.2.3（2026-10-01）",
+        "readmeMaturity": "成熟",
+        "readmeSignals": "76,531 字符 / 94 个标题 / 有安装说明 / 有 Demo/示例 / 有文档入口"
+      }
+    },
+    {
+      "rank": 3,
+      "repo": "mvanhorn/last30days-skill",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "tags": [
+        "AI Agent",
+        "Research",
+        "信息聚合"
+      ],
+      "tagsCn": [
+        "AI Agent",
+        "学术研究",
+        "信息聚合"
+      ],
+      "tagline": "跨 50+ 平台的 AI 调研技能，按真实互动排序",
+      "starsToday": 1059,
+      "totalStars": 69974,
+      "starTodayRatio": 1.51,
+      "rankingStatus": "非连续；上次 06-11 第1",
+      "rankingTrack": "06-11#1 -> 11-19#3",
+      "activity": "2 天前有提交",
+      "license": "MIT",
+      "maintainer": "个人项目；官方性未见强信号",
+      "positioning": "面向市场、公关与个人研究者：一个装在 Claude Code、Codex、Cursor 等 50+ 宿主里的技能，并行抓取 Reddit、X、YouTube、HN、Polymarket 等信号，按点赞与真实下注排序后合成摘要。边界是不做事实核查；Reddit、HN 等免令牌源可零配置运行，X、YouTube 等需自备令牌，摘要质量受模型幻觉影响。",
+      "whyWatch": "今日 1059 星、占总星 1.51%，总星近 7 万；版本已从上次记录的 v3.3.0 推进到 v4.3.2（2026-11-17），README 明确跟随 v4 管线并以 SKILL.md 为规范来源；近 30 天 PR 更新 226、issue 更新 30、open issue 22，反馈处理相对轻；2 天前有提交，README 3.19 万字符、多语言版本与安装说明齐全。",
+      "changedSinceLast": "较上次记录：日增 2535 降至 1059、占比 6.49% 降至 1.51%，属基数变大后的回落；总星约 4 万增至约 7 万；主版本从 v3.3.0 跃迁到 v4.3.2（2026-11-17），README 改为跟随 v4 管线；README 由 2.2 万字符扩到 3.19 万；open issues 由「issue/PR 合计 146」变为 open issue 22，口径不同不宜直接对比。",
+      "suitableFor": "适合需要每天快速掌握行业动态、竞品舆情或社区讨论热度的市场与内容团队；适合已用 Claude Code、Cursor 等宿主、能接受零配置先跑 Reddit 与 HN 的开发者；适合把摘要当作线索源、再回原文核验的个人研究者。",
+      "notSuitableFor": "不适合法律合规、金融审计等要求来源可追责、结论可复现场景；不适合不允许 API 中断或模型幻觉进入决策链的关键业务系统；多平台令牌集中存放会扩大安全暴露面，安全审核严格的环境不宜直接接入；完全不接受人工复核成本的团队也不适用。",
+      "risk": "平台 API 政策收缩或改价可能导致部分源失效；AI 摘要存在模型幻觉，可能生成错误事实或无出处结论；排序依赖点赞、下注等互动信号，可能被水军或虚假热度操纵；自管令牌有泄露风险。用于对外发布或研究引用时必须标注「AI 生成、未经人工核实」并保留原始链接供人审。",
+      "bestPractice": "每天晨会前用一个行业关键词跑一次，把摘要当线索清单使用，指定专人回查 3 至 5 条关键事件的原帖与日期，再在简报底部注明生成方式与核验人，形成可追溯的动态监测流。",
+      "trialPlan": {
+        "install": "在 Claude Code 市场安装 last30days-skill，或执行 skills install last30days-skill -g；先只用免令牌的 Reddit、HN、Polymarket、GitHub 源。",
+        "pilot": "对一个长期关注的行业关键词连跑 5 天，保存每日摘要与原始链接，与团队人工收集的信息做对照。",
+        "evaluation": "统计多源覆盖度、关键事件日期与事实准确率、幻觉与遗漏条数、单次生成耗时，以人工抽查 10 条关键信息为准。",
+        "exit": "关键信息准确率低于 90% 或出现凭空捏造的重大事实时，停用摘要只做链接聚合；令牌集中风险未解决前不接入 X 等付费源。"
+      },
+      "signals": {
+        "recentCommit": "2026-11-17",
+        "issuesUpdated30d": 30,
+        "prsUpdated30d": 226,
+        "latestRelease": "v4.3.2（2026-11-17）",
+        "readmeMaturity": "成熟",
+        "readmeSignals": "31,912 字符 / 26 个标题 / 有安装说明 / 有 Demo/示例 / 有文档入口"
+      }
+    }
+  ]
+}
