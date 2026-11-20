@@ -1,6 +1,42 @@
 {
-  "generatedAt": "2026-11-19T08:03:12.112664+08:00",
+  "generatedAt": "2026-11-20T08:00:57.084065+08:00",
   "projects": [
+    {
+      "repo": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "latestDate": "2026-11-20",
+      "latestRank": 1,
+      "tagsCn": [
+        "AI Agent",
+        "Dev Tool",
+        "方法论"
+      ],
+      "lastTagline": "让编码代理先出规格与计划、再分块实现并人工签核"
+    },
+    {
+      "repo": "elementalsouls/Claude-BugHunter",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter",
+      "latestDate": "2026-11-20",
+      "latestRank": 2,
+      "tagsCn": [
+        "Security",
+        "AI Agent",
+        "Claude Code"
+      ],
+      "lastTagline": "把 681 份公开漏洞报告模式打包成 Claude Code 红队技能"
+    },
+    {
+      "repo": "mvanhorn/last30days-skill",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "latestDate": "2026-11-20",
+      "latestRank": 3,
+      "tagsCn": [
+        "学术研究",
+        "AI Agent",
+        "信息聚合"
+      ],
+      "lastTagline": "并行抓取 Reddit、X、HN 等信号，按互动量合成选题简报"
+    },
     {
       "repo": "google-research/paper-orchestra",
       "url": "https://github.com/google-research/paper-orchestra",
@@ -24,30 +60,6 @@
         "Security"
       ],
       "lastTagline": "统一多套 Agent Harness 的技能、记忆与权限治理"
-    },
-    {
-      "repo": "mvanhorn/last30days-skill",
-      "url": "https://github.com/mvanhorn/last30days-skill",
-      "latestDate": "2026-11-19",
-      "latestRank": 3,
-      "tagsCn": [
-        "AI Agent",
-        "学术研究",
-        "信息聚合"
-      ],
-      "lastTagline": "跨 50+ 平台的 AI 调研技能，按真实互动排序"
-    },
-    {
-      "repo": "obra/superpowers",
-      "url": "https://github.com/obra/superpowers",
-      "latestDate": "2026-11-18",
-      "latestRank": 1,
-      "tagsCn": [
-        "AI Agent",
-        "Dev Tool",
-        "方法论"
-      ],
-      "lastTagline": "给编码代理装上规格先行与 TDD 流程的技能框架，节点需人工审批"
     },
     {
       "repo": "dream-num/univer",

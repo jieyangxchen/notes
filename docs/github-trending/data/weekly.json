@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-19T08:03:12.112664+08:00",
-  "window": "2026-11-13..2026-11-19",
+  "generatedAt": "2026-11-20T08:00:57.084065+08:00",
+  "window": "2026-11-14..2026-11-20",
   "topProjects": [
     {
       "repo": "GoogleChrome/modern-web-guidance-src",
@@ -29,6 +29,19 @@
       "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
+      "repo": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "tagsCn": [
+        "AI Agent",
+        "Dev Tool",
+        "方法论"
+      ],
+      "appearances": 2,
+      "bestRank": 1,
+      "latestDate": "2026-11-20",
+      "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
+    },
+    {
       "repo": "alibaba/open-code-review",
       "url": "https://github.com/alibaba/open-code-review",
       "tagsCn": [
@@ -42,30 +55,17 @@
       "judgement": "近 7 次记录中出现 2 次，最佳排名第 2，适合优先复盘详情。"
     },
     {
-      "repo": "we-promise/sure",
-      "url": "https://github.com/we-promise/sure",
-      "tagsCn": [
-        "金融",
-        "自托管",
-        "Dev Tool"
-      ],
-      "appearances": 2,
-      "bestRank": 2,
-      "latestDate": "2026-11-14",
-      "judgement": "近 7 次记录中出现 2 次，最佳排名第 2，适合优先复盘详情。"
-    },
-    {
-      "repo": "google-research/paper-orchestra",
-      "url": "https://github.com/google-research/paper-orchestra",
+      "repo": "mvanhorn/last30days-skill",
+      "url": "https://github.com/mvanhorn/last30days-skill",
       "tagsCn": [
         "学术研究",
         "AI Agent",
-        "学术写作"
+        "信息聚合"
       ],
-      "appearances": 1,
-      "bestRank": 1,
-      "latestDate": "2026-11-19",
-      "judgement": "近 7 次记录中出现 1 次，最佳排名第 1，适合优先复盘详情。"
+      "appearances": 2,
+      "bestRank": 3,
+      "latestDate": "2026-11-20",
+      "judgement": "近 7 次记录中出现 2 次，最佳排名第 3，适合优先复盘详情。"
     }
   ],
   "streaks": [
@@ -80,9 +80,9 @@
       "track": "11-16#2 -> 11-17#1 -> 11-18#2"
     },
     {
-      "repo": "we-promise/sure",
+      "repo": "mvanhorn/last30days-skill",
       "days": 2,
-      "track": "11-13#2 -> 11-14#2"
+      "track": "11-19#3 -> 11-20#3"
     }
   ]
 }
