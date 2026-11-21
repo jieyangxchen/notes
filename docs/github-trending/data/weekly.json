@@ -1,20 +1,7 @@
 {
-  "generatedAt": "2026-11-20T08:00:57.084065+08:00",
-  "window": "2026-11-14..2026-11-20",
+  "generatedAt": "2026-11-21T08:04:20.921722+08:00",
+  "window": "2026-11-15..2026-11-21",
   "topProjects": [
-    {
-      "repo": "GoogleChrome/modern-web-guidance-src",
-      "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
-      "tagsCn": [
-        "Dev Tool",
-        "AI Agent",
-        "浏览器"
-      ],
-      "appearances": 3,
-      "bestRank": 1,
-      "latestDate": "2026-11-16",
-      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
-    },
     {
       "repo": "dream-num/univer",
       "url": "https://github.com/dream-num/univer",
@@ -27,6 +14,33 @@
       "bestRank": 1,
       "latestDate": "2026-11-18",
       "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
+    },
+    {
+      "repo": "GoogleChrome/modern-web-guidance-src",
+      "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+      "tagsCn": [
+        "Dev Tool",
+        "AI Agent",
+        "浏览器"
+      ],
+      "appearances": 2,
+      "bestRank": 1,
+      "latestDate": "2026-11-16",
+      "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
+    },
+    {
+      "repo": "elementalsouls/Claude-BugHunter",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter",
+      "tagsCn": [
+        "Security",
+        "AI Agent",
+        "Claude Code",
+        "学术研究"
+      ],
+      "appearances": 2,
+      "bestRank": 1,
+      "latestDate": "2026-11-21",
+      "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
       "repo": "obra/superpowers",
@@ -53,31 +67,23 @@
       "bestRank": 2,
       "latestDate": "2026-11-17",
       "judgement": "近 7 次记录中出现 2 次，最佳排名第 2，适合优先复盘详情。"
-    },
-    {
-      "repo": "mvanhorn/last30days-skill",
-      "url": "https://github.com/mvanhorn/last30days-skill",
-      "tagsCn": [
-        "学术研究",
-        "AI Agent",
-        "信息聚合"
-      ],
-      "appearances": 2,
-      "bestRank": 3,
-      "latestDate": "2026-11-20",
-      "judgement": "近 7 次记录中出现 2 次，最佳排名第 3，适合优先复盘详情。"
     }
   ],
   "streaks": [
     {
-      "repo": "GoogleChrome/modern-web-guidance-src",
-      "days": 3,
-      "track": "11-14#1 -> 11-15#1 -> 11-16#1"
-    },
-    {
       "repo": "dream-num/univer",
       "days": 3,
       "track": "11-16#2 -> 11-17#1 -> 11-18#2"
+    },
+    {
+      "repo": "GoogleChrome/modern-web-guidance-src",
+      "days": 2,
+      "track": "11-15#1 -> 11-16#1"
+    },
+    {
+      "repo": "elementalsouls/Claude-BugHunter",
+      "days": 2,
+      "track": "11-20#2 -> 11-21#1"
     },
     {
       "repo": "mvanhorn/last30days-skill",

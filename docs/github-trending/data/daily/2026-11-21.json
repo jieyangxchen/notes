@@ -1,0 +1,155 @@
+{
+  "date": "2026-11-21",
+  "generatedAt": "2026-11-21T08:04:20.921722+08:00",
+  "source": "https://github.com/trending?since=daily",
+  "tags": [
+    "Security",
+    "AI Agent",
+    "Claude Code",
+    "Research",
+    "Browser",
+    "Dev Tool"
+  ],
+  "observation": "今日三项目都在把分散能力收拢成一个入口：Claude-BugHunter 用技能包统一红队方法论与报告流程，Firecrawl 把抓取、搜索与 MCP 服务做成单一 API 乃至本地单个二进制，Ghost-Downloader-3 用一款客户端覆盖 HTTP、BT、流媒体等协议。差异主要在受众与合规风险：前者面向已获授权的红队，边界最明确；Firecrawl 面向 Agent 开发者，受 AGPL 与目标站点条款约束；Ghost 面向终端用户，版权与平台规则最直接。热度结构也不同：11.41% 的小基数快速破圈、0.6% 的老项目回热、7.91% 的稳定升温，不能等同于质量高低。",
+  "projects": [
+    {
+      "rank": 1,
+      "repo": "elementalsouls/Claude-BugHunter",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter",
+      "tags": [
+        "Security",
+        "AI Agent",
+        "Claude Code",
+        "Research"
+      ],
+      "tagsCn": [
+        "Security",
+        "AI Agent",
+        "Claude Code",
+        "学术研究"
+      ],
+      "tagline": "Claude Code 红队技能包：82 项技能与 681 份公开报告模式",
+      "starsToday": 1622,
+      "totalStars": 14218,
+      "starTodayRatio": 11.41,
+      "rankingStatus": "连续 2 次日报 TOP3",
+      "rankingTrack": "11-20#2 -> 11-21#1",
+      "activity": "1 天前有提交",
+      "license": "MIT",
+      "maintainer": "个人项目；有主页/组织资料，可进一步核实官方性",
+      "positioning": "面向持有书面授权的红队与漏洞赏金研究者：把 24 类漏洞的检测模式、身份与边界设备攻击链、报告与证据脱敏流程做成按需加载的技能，省去查资料和写报告的时间。能力边界是只提供基于公开报告归纳的模式与提示，不保证在具体目标上有效，也不替代人工验证与授权流程。",
+      "whyWatch": "今日新增 1622 星，占总星的 11.41%，在三者中占比最高，属于小基数下的快速破圈；1 天前仍有提交，近 30 天 PR 更新 92、issue 更新 14，当前 open issues 仅 9，说明外部反馈入口窄，但维护响应较快。README 达 20,515 字符，并有 Demo 与文档入口；但最新 release 仍停在 v2.1（2026-06-05），与高频提交不匹配，版本可追溯性偏弱。",
+      "changedSinceLast": "热度继续加速：今日新增 1622 星（上次为 1349 星），占总星比例从 10.80% 升至 11.41%；近 30 天 PR 更新从 87 增至 92，issue 从 8 增至 14，open issues 仍为 9。仍需注意 README 主标题写 83 项技能，仓库简介却写 82 项技能，两处不一致；release 依旧停在 v2.1，与 1 天前的提交不同步。",
+      "suitableFor": "适合已有授权项目、熟悉 HackerOne 与 Bugcrowd 流程的赏金猎人与红队成员；适合想用 Claude Code 统一测试方法论、报告模板与证据脱敏流程的安全服务团队；也适合在 DVWA、OWASP Juice Shop 等靶场做教学的讲师与学员。",
+      "notSuitableFor": "不适合没有书面授权就想对真实目标做扫描验证的人，因为技能包不解决合法性问题；不适合把模型输出直接当作漏洞结论提交的初学者；不适合禁止把目标资产信息交给第三方模型的环境；也不适合只想学基础 Web 安全的人。",
+      "risk": "越界风险最高：这些技能面向攻击面，一旦用于未授权目标就会涉及违法，必须逐目标确认授权范围与 OOS（范围外资产）。模式来自公开报告，可能过时或误报，需要人工复现验证。release 停在 v2.1 而提交频繁，安装到的内容与版本号可能不一致；目标资产、凭据与 PII 交给模型前须脱敏，HackerOne 令牌应最小权限存放。",
+      "bestPractice": "在自有或明确授权的靶场走一遍完整流程：用脚手架建立 engagement 目录，让技能按阶段给出测试思路与检测模式，由人工复现并判定真伪，再用内置 triage 与证据脱敏流程产出报告，全程记录 scope 与操作时间线，用于新人带教与复盘。",
+      "trialPlan": {
+        "install": "在隔离测试机安装 Claude Code，以插件方式安装，并核对实际加载的技能数到底是 82 还是 83；HackerOne 令牌先留空，不配置真实凭据。",
+        "pilot": "只在授权靶场或自家资产上挑 2 到 3 个漏洞类别，从侦察、验证到报告跑完整流程，并保留操作留痕。",
+        "evaluation": "统计有效发现数、误报率、报告撰写耗时与越界请求次数，每条结论均需人工复核，并与纯人工基线对照。",
+        "exit": "出现要求超出授权范围的指令、无法确认授权，或误报率高于人工基线时，立即停用并清理技能目录与令牌。"
+      },
+      "signals": {
+        "recentCommit": "2026-11-20",
+        "issuesUpdated30d": 14,
+        "prsUpdated30d": 92,
+        "latestRelease": "v2.1（2026-06-05）",
+        "readmeMaturity": "成熟",
+        "readmeSignals": "20,515 字符 / 22 个标题 / 有安装说明 / 有 Demo/示例 / 有文档入口"
+      }
+    },
+    {
+      "rank": 2,
+      "repo": "firecrawl/firecrawl",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "tags": [
+        "Browser",
+        "AI Agent",
+        "Dev Tool",
+        "数据抓取"
+      ],
+      "tagsCn": [
+        "浏览器",
+        "AI Agent",
+        "Dev Tool",
+        "数据抓取"
+      ],
+      "tagline": "网站转 Markdown 的本地二进制与 MCP 服务，也可走云 API",
+      "starsToday": 1241,
+      "totalStars": 205248,
+      "starTodayRatio": 0.6,
+      "rankingStatus": "新进 TOP3",
+      "rankingTrack": "新上榜",
+      "activity": "1 天前有提交",
+      "license": "AGPL-3.0",
+      "maintainer": "组织/公司/社区项目（Firecrawl）；有主页/组织资料，可进一步核实官方性",
+      "positioning": "面向要给 Agent 补充外部知识的开发者与团队：一个 API 完成搜索、抓取、爬站与页面转 Markdown，本地版一个二进制即可接入 Claude Code、Cursor 等 MCP 客户端。能力边界是本地版主要覆盖 scrape、crawl、map 与批量抓取，结构化 JSON、Interact、Agent 与规模化调度需转到云端。",
+      "whyWatch": "今日新增 1241 星，但只占总星的 0.6%，属于 20 万星老项目回热，不能按快速破圈看待；1 天前有提交，近 30 天 PR 更新 660、issue 更新 40，当前 open issues 达 883，迭代快但积压也重。release v2.11.0（2026-06-19）节奏稳定，README 用能力表明确区分本地、云端、自托管三条路径，成熟度高。",
+      "changedSinceLast": "今日新进 TOP3，暂无昨日同榜对比",
+      "suitableFor": "适合需要用统一接口给 RAG 或 Agent 补充网页知识的开发者；适合想在本地用单个二进制完成抓取、并通过 MCP 接入 Claude Code、Cursor 的个人与团队；也适合需要自托管、对数据出境敏感且具备运维能力的组织。",
+      "notSuitableFor": "不适合把 883 个 open issues 视为零风险、并直接接入生产关键链路的团队；不适合没有运维能力却要自托管队列与数据库的组织；不适合需要绕过登录墙或违反站点条款的抓取需求；对 AGPL-3.0 传染性敏感的商业分发也需谨慎。",
+      "risk": "AGPL-3.0 对网络服务与再分发有传染性，商业闭源集成前须经法务确认；抓取行为须遵守目标站点的 robots 与条款，频率控制与反爬边界不可越。883 个 open issues 与高频 PR 并存，存在回归风险。自托管 serve 虽有默认安全设置，暴露到公网前仍需复核鉴权与端口配置。",
+      "bestPractice": "在内部知识库试点：用本地版的 serve 在 localhost 启动 v2 API，先在隔离环境抓取自家文档站与公开技术博客并转成 Markdown 入库，把 SDK 的 API 地址指向本地，跑通检索效果后，再评估是否迁移云端获取结构化输出。",
+      "trialPlan": {
+        "install": "macOS 装 Rust 与 Xcode 命令行工具、Debian/Ubuntu 装 build-essential，从 crates.io 装本地版；用 init 自动写入 MCP 配置前先备份各客户端配置文件。",
+        "pilot": "选 20 到 30 个自家或公开页面跑 scrape、crawl、map，记录无浏览器时的告警比例与 Markdown 质量。",
+        "evaluation": "观察抓取成功率、JS 渲染页占比、Markdown 结构完整性、单页耗时，以及每个站点条款核对是否有记录。",
+        "exit": "若目标站点明令禁止抓取、AGPL 义务无法满足，或结构化能力成为必需而云端预算不批，即停用并退回内部解析方案。"
+      },
+      "signals": {
+        "recentCommit": "2026-11-20",
+        "issuesUpdated30d": 40,
+        "prsUpdated30d": 660,
+        "latestRelease": "v2.11.0（2026-06-19）",
+        "readmeMaturity": "成熟",
+        "readmeSignals": "11,318 字符 / 31 个标题 / 有安装说明 / 有 Demo/示例 / 有文档入口"
+      }
+    },
+    {
+      "rank": 3,
+      "repo": "XiaoYouChR/Ghost-Downloader-3",
+      "url": "https://github.com/XiaoYouChR/Ghost-Downloader-3",
+      "tags": [
+        "Browser",
+        "跨平台",
+        "桌面工具"
+      ],
+      "tagsCn": [
+        "浏览器",
+        "跨平台",
+        "桌面工具"
+      ],
+      "tagline": "一款客户端吃下 HTTP、BT、流媒体等多协议的跨平台下载器",
+      "starsToday": 1082,
+      "totalStars": 13677,
+      "starTodayRatio": 7.91,
+      "rankingStatus": "新进 TOP3",
+      "rankingTrack": "新上榜",
+      "activity": "1 天前有提交",
+      "license": "GPL-3.0",
+      "maintainer": "个人项目；有主页/组织资料，可进一步核实官方性",
+      "positioning": "面向需要统一管理多协议下载的个人用户与小团队：把 HTTP、磁力/BT、FTP、M3U8、MPEG-DASH、eD2k 与 B 站、YouTube 解析收进一个 Qt 客户端，并配浏览器扩展嗅探页面媒体。能力边界是偏桌面与安卓客户端，反检测 TLS 与镜像加速只对可达站点有效，不解决版权与平台条款授权。",
+      "whyWatch": "今日新增 1082 星，占总星 7.91%，属稳定升温而非爆发；1 天前有提交，release v4.5.11（2026-11-20）与提交节奏基本对齐，版本可追溯性好于同榜同类工具；近 30 天 issue 更新 182、PR 更新 39，open issues 94，反馈量真实。README 有安装说明、文档与视频演示，但首屏含代理商赞助位，需自行甄别。",
+      "changedSinceLast": "今日新进 TOP3，暂无昨日同榜对比",
+      "suitableFor": "适合经常在桌面端处理多协议下载、需要断点续传与中途修改 URL 或代理的用户；适合把 B 站、YouTube 的播放列表与字幕批量归档、且素材确有授权的创作者与内容运营；也适合想通过 aria2 兼容 RPC 把下载接进自动化流水线的开发者。",
+      "notSuitableFor": "不适合用它下载无授权的影视、课程或付费内容，工具本身不提供版权许可；不适合要求服务端无头部署与集群调度的团队，它是桌面与安卓客户端；不适合必须完全无广告、无赞助位的严格合规环境；也不适合不愿核对 GPL-3.0 义务的二次分发者。",
+      "risk": "版权与平台条款是首要风险：BT、视频站解析与“真实浏览器 TLS 指纹”容易被用于绕过反爬或付费墙，使用场景须自证合规。GPL-3.0 对二次分发有源码开放要求。README 顶部为代理商赞助与折扣码，属商业推广而非官方背书，勿混为项目能力。移动端后台录制流媒体也可能触及平台规则。",
+      "bestPractice": "把授权范围内的公开课程、开源发布会视频与自有素材集中管理：用浏览器扩展在页面直接捕获媒体，配合分片下载与断点续传归档，再通过 aria2 兼容 RPC 把批量任务接到脚本里，统一做校验与命名规则。",
+      "trialPlan": {
+        "install": "在 Windows 或 macOS 从 Release 下载对应架构安装包（注意 Qt 6.6+ 需 AVX 指令集），Linux 用户可走 AUR；先不接入生产网络环境。",
+        "pilot": "选 3 到 5 个自有或明确授权的大文件加一个流媒体页面，覆盖 HTTP、磁力、M3U8 三条路径，测试弱网限速与中途改代理。",
+        "evaluation": "观察限速环境下的实际吞吐、断点续传成功率、协议覆盖是否与描述一致，以及每次下载的授权依据是否留有记录。",
+        "exit": "若出现下载内容授权不明、平台条款禁止，或弱网吞吐低于现有工具基线、崩溃导致进度丢失，则回退原工具并清理配置。"
+      },
+      "signals": {
+        "recentCommit": "2026-11-20",
+        "issuesUpdated30d": 182,
+        "prsUpdated30d": 39,
+        "latestRelease": "v4.5.11（2026-11-20）",
+        "readmeMaturity": "成熟",
+        "readmeSignals": "9,908 字符 / 18 个标题 / 有安装说明 / 有 Demo/示例 / 有文档入口"
+      }
+    }
+  ]
+}
