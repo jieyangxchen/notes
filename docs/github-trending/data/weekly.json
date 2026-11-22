@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-21T08:04:20.921722+08:00",
-  "window": "2026-11-15..2026-11-21",
+  "generatedAt": "2026-11-22T08:00:51.818098+08:00",
+  "window": "2026-11-16..2026-11-22",
   "topProjects": [
     {
       "repo": "dream-num/univer",
@@ -16,57 +16,55 @@
       "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
-      "repo": "GoogleChrome/modern-web-guidance-src",
-      "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
-      "tagsCn": [
-        "Dev Tool",
-        "AI Agent",
-        "浏览器"
-      ],
-      "appearances": 2,
-      "bestRank": 1,
-      "latestDate": "2026-11-16",
-      "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
-    },
-    {
       "repo": "elementalsouls/Claude-BugHunter",
       "url": "https://github.com/elementalsouls/Claude-BugHunter",
       "tagsCn": [
         "Security",
         "AI Agent",
-        "Claude Code",
         "学术研究"
       ],
-      "appearances": 2,
+      "appearances": 3,
       "bestRank": 1,
-      "latestDate": "2026-11-21",
-      "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
+      "latestDate": "2026-11-22",
+      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
       "repo": "obra/superpowers",
       "url": "https://github.com/obra/superpowers",
       "tagsCn": [
         "AI Agent",
-        "Dev Tool",
-        "方法论"
+        "Dev Tool"
       ],
-      "appearances": 2,
+      "appearances": 3,
       "bestRank": 1,
-      "latestDate": "2026-11-20",
-      "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
+      "latestDate": "2026-11-22",
+      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
-      "repo": "alibaba/open-code-review",
-      "url": "https://github.com/alibaba/open-code-review",
+      "repo": "firecrawl/firecrawl",
+      "url": "https://github.com/firecrawl/firecrawl",
       "tagsCn": [
+        "浏览器",
         "AI Agent",
-        "Dev Tool",
-        "Code Review"
+        "Dev Tool"
       ],
       "appearances": 2,
       "bestRank": 2,
-      "latestDate": "2026-11-17",
+      "latestDate": "2026-11-22",
       "judgement": "近 7 次记录中出现 2 次，最佳排名第 2，适合优先复盘详情。"
+    },
+    {
+      "repo": "mvanhorn/last30days-skill",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "tagsCn": [
+        "学术研究",
+        "AI Agent",
+        "信息聚合"
+      ],
+      "appearances": 2,
+      "bestRank": 3,
+      "latestDate": "2026-11-20",
+      "judgement": "近 7 次记录中出现 2 次，最佳排名第 3，适合优先复盘详情。"
     }
   ],
   "streaks": [
@@ -76,14 +74,14 @@
       "track": "11-16#2 -> 11-17#1 -> 11-18#2"
     },
     {
-      "repo": "GoogleChrome/modern-web-guidance-src",
-      "days": 2,
-      "track": "11-15#1 -> 11-16#1"
+      "repo": "elementalsouls/Claude-BugHunter",
+      "days": 3,
+      "track": "11-20#2 -> 11-21#1 -> 11-22#1"
     },
     {
-      "repo": "elementalsouls/Claude-BugHunter",
+      "repo": "firecrawl/firecrawl",
       "days": 2,
-      "track": "11-20#2 -> 11-21#1"
+      "track": "11-21#2 -> 11-22#2"
     },
     {
       "repo": "mvanhorn/last30days-skill",

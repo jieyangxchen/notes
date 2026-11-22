@@ -1,0 +1,148 @@
+{
+  "date": "2026-11-22",
+  "generatedAt": "2026-11-22T08:00:51.818098+08:00",
+  "source": "https://github.com/trending?since=daily",
+  "tags": [
+    "Security",
+    "AI Agent",
+    "Research",
+    "Browser",
+    "Dev Tool"
+  ],
+  "observation": "今日 TOP3 的共同点是给 Agent「外挂能力」：Claude-BugHunter 与 superpowers 都用技能包把领域方法论固化成可调用流程，firecrawl 则提供抓取与搜索的知识入口，说明关注重点正从模型本身转向技能链与数据管道。差异在方向与风险：前者面向授权红队，攻击面属性最强；中间者面向软件交付流程，强调规格先行与人工签核；后者是基础设施，受 AGPL 与站点条款约束。热度上，两个十万星级仓库属于回热，日增占比不足 0.5%，不宜按快速破圈解读；只有 Claude-BugHunter 属于小基数快速扩散。",
+  "projects": [
+    {
+      "rank": 1,
+      "repo": "elementalsouls/Claude-BugHunter",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter",
+      "tags": [
+        "Security",
+        "AI Agent",
+        "Research"
+      ],
+      "tagsCn": [
+        "Security",
+        "AI Agent",
+        "学术研究"
+      ],
+      "tagline": "把 24 类漏洞检测模式与报告脱敏做成 Claude Code 技能包",
+      "starsToday": 1803,
+      "totalStars": 16018,
+      "starTodayRatio": 11.26,
+      "rankingStatus": "连续 3 次日报 TOP3",
+      "rankingTrack": "11-20#2 -> 11-21#1 -> 11-22#1",
+      "activity": "1 天前有提交",
+      "license": "MIT",
+      "maintainer": "个人项目；有主页/组织资料，可进一步核实官方性",
+      "positioning": "面向持有书面授权的红队与赏金猎人：把 24 类漏洞的检测模式、身份与边界设备攻击链、报告与证据脱敏流程做成按需加载的技能，减少查资料与写报告的时间。边界是只提供基于公开报告归纳的模式与提示，不保证在具体目标上有效，也不替代人工复现、授权确认与合规判断。",
+      "whyWatch": "今日新增 1803 星、占总星 11.26%，仍为三者中最高的日增占比，属小基数快速扩散；1 天前仍有提交，近 30 天 PR 更新 99、issue 更新 15，维护响应快但 open issues 仅 16，外部反馈入口窄。README 20,515 字符、22 个标题，含安装、示例与文档入口；但 release 仍停在 v2.1（2026-06-05），与高频提交不同步，版本可追溯性偏弱。",
+      "changedSinceLast": "上次记录为 2026-11-20 第 2 名、日增 1622（占比 11.41%）。今日升至第 1 名，日增 1803，占比略降至 11.26%（总星同步增长）；近 30 天 PR 更新由 92 增至 99、issue 由 14 增至 15。open issues/PR 由合计 9 升至 16，反馈入口略有打开。release 仍为 v2.1，README 写 83 项技能而仓库简介仍写 82 项，不一致未修。",
+      "suitableFor": "适合已有书面授权项目、熟悉 HackerOne 与 Bugcrowd 流程的赏金猎人与红队成员；适合想用 Claude Code 统一测试方法论、报告模板与证据脱敏流程的安全服务团队；也适合在 DVWA、OWASP Juice Shop、Hacker101 等公开靶场做教学的讲师与学员。",
+      "notSuitableFor": "不适合没有书面授权就想对真实目标做扫描验证的人，技能包无法解决合法性问题；不适合把模型输出直接当漏洞结论提交的初学者；不适合禁止将目标资产、凭据或 PII 交给第三方模型的环境；也不适合只想学基础 Web 安全、需要系统课程的人。",
+      "risk": "越界风险最高：技能面向真实攻击面，用于未授权目标即涉违法，须逐目标确认 scope 与 OOS。模式来自公开报告，可能过时或误报，必须人工复现验证。release 停在 v2.1 而提交频繁，安装内容与版本号可能不一致；凭据、令牌与目标信息交给模型前须脱敏，HackerOne 令牌按最小权限存放。",
+      "bestPractice": "在自有或明确授权的靶场走完整闭环：用脚手架建立 engagement 目录并记录 scope 与时间线，按阶段调用技能获取测试思路与检测模式，由人工复现判定真伪，再用内置 triage 与证据脱敏流程产出报告，最后把误报与漏报整理成内部清单，用于新人带教与复盘。",
+      "trialPlan": {
+        "install": "在隔离测试机安装 Claude Code，以插件方式装入技能包；核对实际加载的技能数（README 写 83、简介写 82）与 slash 命令是否齐全，安装前后备份配置。",
+        "pilot": "只在书面授权靶场（DVWA、Juice Shop、Hacker101）跑 2-3 个漏洞类别的完整流程，禁用真实客户资产，全程记录操作日志与授权凭证。",
+        "evaluation": "统计每类漏洞从技能提示到人工确认的耗时、有效线索率与误报率，检查产出报告是否满足平台提交格式与证据脱敏要求。",
+        "exit": "若加载技能数与文档不符、误报率高于人工基线，或出现越界提示、脱敏流程失效，则停用并回退到原生人工测试流程。"
+      },
+      "signals": {
+        "recentCommit": "2026-11-21",
+        "issuesUpdated30d": 15,
+        "prsUpdated30d": 99,
+        "latestRelease": "v2.1（2026-06-05）",
+        "readmeMaturity": "成熟",
+        "readmeSignals": "20,515 字符 / 22 个标题 / 有安装说明 / 有 Demo/示例 / 有文档入口"
+      }
+    },
+    {
+      "rank": 2,
+      "repo": "firecrawl/firecrawl",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "tags": [
+        "Browser",
+        "AI Agent",
+        "Dev Tool"
+      ],
+      "tagsCn": [
+        "浏览器",
+        "AI Agent",
+        "Dev Tool"
+      ],
+      "tagline": "一个 API 把网页搜、抓、爬成 Markdown 喂给 Agent",
+      "starsToday": 1006,
+      "totalStars": 206167,
+      "starTodayRatio": 0.49,
+      "rankingStatus": "连续 2 次日报 TOP3",
+      "rankingTrack": "11-21#2 -> 11-22#2",
+      "activity": "1 天前有提交",
+      "license": "AGPL-3.0",
+      "maintainer": "组织/公司/社区项目（Firecrawl）；有主页/组织资料，可进一步核实官方性",
+      "positioning": "面向要给 Agent 与 RAG 补充外部知识的开发者：本地版单二进制即可完成 scrape、crawl、map 与页面转 Markdown，并通过 MCP 接入 Claude Code、Cursor；云端再补搜索、结构化输出与 550+ 数据源。边界是本地版不含队列与数据库，规模化调度、Interact 与结构化抽取需转到云端或自托管。",
+      "whyWatch": "今日新增 1006 星，但仅占总星 0.49%，属 20 万星量级的老项目回热，不能按快速扩散解读；1 天前有提交，近 30 天 PR 更新 633、issue 更新 45，迭代快但 open issues 达 907，积压明显。release v2.11.0（2026-06-19）节奏稳定，README 用能力表清晰区分本地、云端、自托管三条路径，含安装、示例与文档入口。",
+      "changedSinceLast": "上次记录日增 1241、占比 0.60%，今日回落至 1006 与 0.49%，热度降温但仍进 TOP3。open issues 由 883 升至 907，近 30 天 PR 更新由 660 降至 633，合并节奏略缓；release 仍为 v2.11.0（2026-06-19），无新版本。README 三条路径划分与本地版 crates.io 安装方式未变。",
+      "suitableFor": "适合需要统一接口给 RAG 或 Agent 补充网页知识的开发者；适合想在本地用单个二进制完成抓取、并通过 MCP 接入 Claude Code 与 Cursor 的个人与小团队；也适合具备运维能力、对数据出境敏感而需自托管队列与数据库的组织。",
+      "notSuitableFor": "不适合把 907 个 open issues 当作零风险、直接接入生产关键链路的团队；不适合无运维能力却要自托管队列与数据库的组织；不适合需要绕过登录墙、验证码或违反站点条款的抓取需求；对 AGPL-3.0 传染性敏感的商业分发也需谨慎。",
+      "risk": "AGPL-3.0 对网络服务与再分发有传染性，商业闭源集成前须经法务确认。抓取须遵守目标站点 robots、条款与频率限制，不得绕过登录与反爬措施。907 个 open issues 与高频 PR 并存，存在回归风险；自托管服务暴露到公网前须复核鉴权、端口与最小权限，抓取内容涉及个人信息时须做合规评估。",
+      "bestPractice": "在内部知识库试点：用本地版 serve 在 localhost 启动 API，先抓自家文档站与公开技术博客转成 Markdown 入库，SDK 指向本地地址，用 20-30 个页面评估 JS 渲染页成功率与 Markdown 质量，再决定是否迁移云端取结构化输出。",
+      "trialPlan": {
+        "install": "macOS 先装 Rust 与 xcode-select，Debian/Ubuntu 装 build-essential，从 crates.io 安装本地版；用 init 写 MCP 配置前先备份 Claude Code、Cursor 等客户端配置文件。",
+        "pilot": "在隔离网络内选 20-30 个自家或公开页面跑 scrape、crawl、map，记录无浏览器告警、超时与失败页面，全程控制请求频率并留存 robots 依据。",
+        "evaluation": "看抓取成功率、JS 渲染页占比、Markdown 结构与噪声比例、单页耗时，以及内容入库后检索命中率是否较基线提升。",
+        "exit": "若失败率与噪声不可接受、目标站点条款或 robots 不允许，或法务对 AGPL 与数据出境给出否定结论，则停止并改用人工整理或站点官方 API。"
+      },
+      "signals": {
+        "recentCommit": "2026-11-21",
+        "issuesUpdated30d": 45,
+        "prsUpdated30d": 633,
+        "latestRelease": "v2.11.0（2026-06-19）",
+        "readmeMaturity": "成熟",
+        "readmeSignals": "11,318 字符 / 31 个标题 / 有安装说明 / 有 Demo/示例 / 有文档入口"
+      }
+    },
+    {
+      "rank": 3,
+      "repo": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "tags": [
+        "AI Agent",
+        "Dev Tool"
+      ],
+      "tagsCn": [
+        "AI Agent",
+        "Dev Tool"
+      ],
+      "tagline": "把规格先行与子代理 TDD 固化成编码代理技能链",
+      "starsToday": 883,
+      "totalStars": 323708,
+      "starTodayRatio": 0.27,
+      "rankingStatus": "非连续；上次 11-20 第1",
+      "rankingTrack": "11-20#1 -> 11-22#3",
+      "activity": "19 天前有提交",
+      "license": "MIT",
+      "maintainer": "个人项目（维护者资料公司：Prime Radiant）；有主页/组织资料，可进一步核实官方性",
+      "positioning": "面向已部署 Claude Code、Cursor、Codex 等受支持代理、且已有测试与评审文化的团队：把「澄清需求→分块规格→实现计划→子代理逐任务做 TDD」固化成技能链，关键节点由人签核。边界是强依赖宿主插件机制、流程刚性高，小改动会被放大成多轮评审，项目本身不提供模型或托管服务。",
+      "whyWatch": "今日新增 883 星，占总星 0.27%，属 32 万星老项目回热，绝对增量已明显回落；README 12,860 字符、31 个标题，列出 18 个宿主安装入口。近 30 天 issue 更新 125、PR 更新 100，open issues 增至 363，讨论体量大；但最近提交停在 19 天前，release 仍为 v7.0.2（2026-11-03），热度与迭代节奏背离。",
+      "changedSinceLast": "上次记录为 2026-11-18 第 1 名：日增 2028、占比 0.63%、最近提交 17 天前、open issues 352、近 30 天 issue 更新 296 与 PR 184。今日日增至 883、占比降至 0.27%，排名退至第 3，最近提交延到 19 天前，issue 更新降到 125、PR 降到 100，open issues 升至 363，静默期延长，需观察是休整还是维护放缓。",
+      "suitableFor": "适合已有单测与评审流程的中大型团队，把 AI 编码从随手生成收敛为可审计交付；适合已部署受支持代理、能接受 1-2 天前置规划与规格签核的工程负责人；也适合想把代理当作可审计成员而非黑盒工具的组织。",
+      "notSuitableFor": "不适合以原型速度和试错为主的个人或小团队，强流程会拖慢小改动；不适合缺少单测与评审习惯的组织，技能链难以落地；不适合使用自研或不受支持代理的团队，装不上就没有价值；也不适合安全关键系统，自主执行仍需高额审计成本。",
+      "risk": "方法论强势，小任务被过度流程化反而降低效率；技能依赖代理插件机制，宿主升级可能打断技能链；社区技能质量参差，注入的技能带来稳定性与安全暴露。子代理可长时间自主运行，规格一旦出错会在多个模块扩散，须保留人工审批、最小权限与回滚。19 天无提交，维护节奏待观察。",
+      "bestPractice": "拿一个预计 3-5 天的新功能试点：先让代理产出一页分块规格与实现计划，团队评审通过后拆成任务交子代理逐个实现，每个任务走红绿循环并留下审批与回滚记录，最后与人工直写同批任务对比耗时与缺陷率。",
+      "trialPlan": {
+        "install": "在 Claude Code 或 Cursor 中按 README 对应宿主入口安装技能包，先备份配置并在隔离分支试装，核对加载的技能清单与 v7.0.2 版本是否一致。",
+        "pilot": "选一个 3-5 天的新功能，在独立分支走规格、计划、子代理 TDD 全流程，限定子代理权限与单次运行时长，每个阶段人工签核。",
+        "evaluation": "记录前置规划耗时、任务返工次数、单测覆盖率、缺陷率与评审意见数量，与同规模人工直写基线对比。",
+        "exit": "若小改动被放大成多轮评审、宿主升级导致技能链失效，或缺陷率高于人工基线，则回退原有流程，只保留规格与计划两个环节。"
+      },
+      "signals": {
+        "recentCommit": "2026-11-03",
+        "issuesUpdated30d": 125,
+        "prsUpdated30d": 100,
+        "latestRelease": "v7.0.2（2026-11-03）",
+        "readmeMaturity": "成熟",
+        "readmeSignals": "12,860 字符 / 31 个标题 / 有安装说明 / Demo 不明显 / 有文档入口"
+      }
+    }
+  ]
+}

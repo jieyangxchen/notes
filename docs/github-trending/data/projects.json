@@ -1,31 +1,40 @@
 {
-  "generatedAt": "2026-11-21T08:04:20.921722+08:00",
+  "generatedAt": "2026-11-22T08:00:51.818098+08:00",
   "projects": [
     {
       "repo": "elementalsouls/Claude-BugHunter",
       "url": "https://github.com/elementalsouls/Claude-BugHunter",
-      "latestDate": "2026-11-21",
+      "latestDate": "2026-11-22",
       "latestRank": 1,
       "tagsCn": [
         "Security",
         "AI Agent",
-        "Claude Code",
         "学术研究"
       ],
-      "lastTagline": "Claude Code 红队技能包：82 项技能与 681 份公开报告模式"
+      "lastTagline": "把 24 类漏洞检测模式与报告脱敏做成 Claude Code 技能包"
     },
     {
       "repo": "firecrawl/firecrawl",
       "url": "https://github.com/firecrawl/firecrawl",
-      "latestDate": "2026-11-21",
+      "latestDate": "2026-11-22",
       "latestRank": 2,
       "tagsCn": [
         "浏览器",
         "AI Agent",
-        "Dev Tool",
-        "数据抓取"
+        "Dev Tool"
       ],
-      "lastTagline": "网站转 Markdown 的本地二进制与 MCP 服务，也可走云 API"
+      "lastTagline": "一个 API 把网页搜、抓、爬成 Markdown 喂给 Agent"
+    },
+    {
+      "repo": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "latestDate": "2026-11-22",
+      "latestRank": 3,
+      "tagsCn": [
+        "AI Agent",
+        "Dev Tool"
+      ],
+      "lastTagline": "把规格先行与子代理 TDD 固化成编码代理技能链"
     },
     {
       "repo": "XiaoYouChR/Ghost-Downloader-3",
@@ -38,18 +47,6 @@
         "桌面工具"
       ],
       "lastTagline": "一款客户端吃下 HTTP、BT、流媒体等多协议的跨平台下载器"
-    },
-    {
-      "repo": "obra/superpowers",
-      "url": "https://github.com/obra/superpowers",
-      "latestDate": "2026-11-20",
-      "latestRank": 1,
-      "tagsCn": [
-        "AI Agent",
-        "Dev Tool",
-        "方法论"
-      ],
-      "lastTagline": "让编码代理先出规格与计划、再分块实现并人工签核"
     },
     {
       "repo": "mvanhorn/last30days-skill",
