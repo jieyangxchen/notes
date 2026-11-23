@@ -1,40 +1,41 @@
 {
-  "generatedAt": "2026-11-22T08:00:51.818098+08:00",
+  "generatedAt": "2026-11-23T08:00:56.767950+08:00",
   "projects": [
     {
       "repo": "elementalsouls/Claude-BugHunter",
       "url": "https://github.com/elementalsouls/Claude-BugHunter",
-      "latestDate": "2026-11-22",
+      "latestDate": "2026-11-23",
       "latestRank": 1,
       "tagsCn": [
         "Security",
         "AI Agent",
         "学术研究"
       ],
-      "lastTagline": "把 24 类漏洞检测模式与报告脱敏做成 Claude Code 技能包"
+      "lastTagline": "把红队方法论与 681 条公开报告模式装进 Claude Code"
     },
     {
       "repo": "firecrawl/firecrawl",
       "url": "https://github.com/firecrawl/firecrawl",
-      "latestDate": "2026-11-22",
+      "latestDate": "2026-11-23",
       "latestRank": 2,
       "tagsCn": [
         "浏览器",
         "AI Agent",
         "Dev Tool"
       ],
-      "lastTagline": "一个 API 把网页搜、抓、爬成 Markdown 喂给 Agent"
+      "lastTagline": "把网页抓成干净 Markdown 喂给 Agent 的本地二进制"
     },
     {
       "repo": "obra/superpowers",
       "url": "https://github.com/obra/superpowers",
-      "latestDate": "2026-11-22",
+      "latestDate": "2026-11-23",
       "latestRank": 3,
       "tagsCn": [
         "AI Agent",
-        "Dev Tool"
+        "Dev Tool",
+        "SDLC"
       ],
-      "lastTagline": "把规格先行与子代理 TDD 固化成编码代理技能链"
+      "lastTagline": "给编码代理装一套带人工签核的 TDD 开发方法论"
     },
     {
       "repo": "XiaoYouChR/Ghost-Downloader-3",

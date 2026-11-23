@@ -1,20 +1,7 @@
 {
-  "generatedAt": "2026-11-22T08:00:51.818098+08:00",
-  "window": "2026-11-16..2026-11-22",
+  "generatedAt": "2026-11-23T08:00:56.767950+08:00",
+  "window": "2026-11-17..2026-11-23",
   "topProjects": [
-    {
-      "repo": "dream-num/univer",
-      "url": "https://github.com/dream-num/univer",
-      "tagsCn": [
-        "AI Agent",
-        "Office SDK",
-        "Dev Tool"
-      ],
-      "appearances": 3,
-      "bestRank": 1,
-      "latestDate": "2026-11-18",
-      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
-    },
     {
       "repo": "elementalsouls/Claude-BugHunter",
       "url": "https://github.com/elementalsouls/Claude-BugHunter",
@@ -23,22 +10,23 @@
         "AI Agent",
         "学术研究"
       ],
-      "appearances": 3,
+      "appearances": 4,
       "bestRank": 1,
-      "latestDate": "2026-11-22",
-      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
+      "latestDate": "2026-11-23",
+      "judgement": "近 7 次记录中出现 4 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
       "repo": "obra/superpowers",
       "url": "https://github.com/obra/superpowers",
       "tagsCn": [
         "AI Agent",
-        "Dev Tool"
+        "Dev Tool",
+        "SDLC"
       ],
-      "appearances": 3,
+      "appearances": 4,
       "bestRank": 1,
-      "latestDate": "2026-11-22",
-      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
+      "latestDate": "2026-11-23",
+      "judgement": "近 7 次记录中出现 4 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
       "repo": "firecrawl/firecrawl",
@@ -48,10 +36,23 @@
         "AI Agent",
         "Dev Tool"
       ],
-      "appearances": 2,
+      "appearances": 3,
       "bestRank": 2,
-      "latestDate": "2026-11-22",
-      "judgement": "近 7 次记录中出现 2 次，最佳排名第 2，适合优先复盘详情。"
+      "latestDate": "2026-11-23",
+      "judgement": "近 7 次记录中出现 3 次，最佳排名第 2，适合优先复盘详情。"
+    },
+    {
+      "repo": "dream-num/univer",
+      "url": "https://github.com/dream-num/univer",
+      "tagsCn": [
+        "AI Agent",
+        "Office SDK",
+        "Dev Tool"
+      ],
+      "appearances": 2,
+      "bestRank": 1,
+      "latestDate": "2026-11-18",
+      "judgement": "近 7 次记录中出现 2 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
       "repo": "mvanhorn/last30days-skill",
@@ -69,24 +70,29 @@
   ],
   "streaks": [
     {
-      "repo": "dream-num/univer",
-      "days": 3,
-      "track": "11-16#2 -> 11-17#1 -> 11-18#2"
-    },
-    {
       "repo": "elementalsouls/Claude-BugHunter",
-      "days": 3,
-      "track": "11-20#2 -> 11-21#1 -> 11-22#1"
+      "days": 4,
+      "track": "11-20#2 -> 11-21#1 -> 11-22#1 -> 11-23#1"
     },
     {
       "repo": "firecrawl/firecrawl",
+      "days": 3,
+      "track": "11-21#2 -> 11-22#2 -> 11-23#2"
+    },
+    {
+      "repo": "dream-num/univer",
       "days": 2,
-      "track": "11-21#2 -> 11-22#2"
+      "track": "11-17#1 -> 11-18#2"
     },
     {
       "repo": "mvanhorn/last30days-skill",
       "days": 2,
       "track": "11-19#3 -> 11-20#3"
+    },
+    {
+      "repo": "obra/superpowers",
+      "days": 2,
+      "track": "11-22#3 -> 11-23#3"
     }
   ]
 }
