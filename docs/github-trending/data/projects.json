@@ -1,29 +1,41 @@
 {
-  "generatedAt": "2026-11-23T08:00:56.767950+08:00",
+  "generatedAt": "2026-11-24T08:00:46.032501+08:00",
   "projects": [
     {
       "repo": "elementalsouls/Claude-BugHunter",
       "url": "https://github.com/elementalsouls/Claude-BugHunter",
-      "latestDate": "2026-11-23",
+      "latestDate": "2026-11-24",
       "latestRank": 1,
       "tagsCn": [
         "Security",
         "AI Agent",
-        "学术研究"
+        "Claude Code"
       ],
-      "lastTagline": "把红队方法论与 681 条公开报告模式装进 Claude Code"
+      "lastTagline": "把 24 类漏洞检测模式与企业攻击链封进 Claude Code 技能包"
+    },
+    {
+      "repo": "XiaoYouChR/Ghost-Downloader-3",
+      "url": "https://github.com/XiaoYouChR/Ghost-Downloader-3",
+      "latestDate": "2026-11-24",
+      "latestRank": 2,
+      "tagsCn": [
+        "Downloader",
+        "桌面端",
+        "Dev Tool"
+      ],
+      "lastTagline": "多协议桌面下载器，统一管理 HTTP、磁力与流媒体解析"
     },
     {
       "repo": "firecrawl/firecrawl",
       "url": "https://github.com/firecrawl/firecrawl",
-      "latestDate": "2026-11-23",
-      "latestRank": 2,
+      "latestDate": "2026-11-24",
+      "latestRank": 3,
       "tagsCn": [
         "浏览器",
         "AI Agent",
-        "Dev Tool"
+        "RAG"
       ],
-      "lastTagline": "把网页抓成干净 Markdown 喂给 Agent 的本地二进制"
+      "lastTagline": "把网页清洗成 Markdown，经 MCP 提供给 Agent 与 RAG"
     },
     {
       "repo": "obra/superpowers",
@@ -36,18 +48,6 @@
         "SDLC"
       ],
       "lastTagline": "给编码代理装一套带人工签核的 TDD 开发方法论"
-    },
-    {
-      "repo": "XiaoYouChR/Ghost-Downloader-3",
-      "url": "https://github.com/XiaoYouChR/Ghost-Downloader-3",
-      "latestDate": "2026-11-21",
-      "latestRank": 3,
-      "tagsCn": [
-        "浏览器",
-        "跨平台",
-        "桌面工具"
-      ],
-      "lastTagline": "一款客户端吃下 HTTP、BT、流媒体等多协议的跨平台下载器"
     },
     {
       "repo": "mvanhorn/last30days-skill",
