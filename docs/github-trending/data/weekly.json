@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-24T08:00:46.032501+08:00",
-  "window": "2026-11-18..2026-11-24",
+  "generatedAt": "2026-11-25T08:01:04.852970+08:00",
+  "window": "2026-11-19..2026-11-25",
   "topProjects": [
     {
       "repo": "elementalsouls/Claude-BugHunter",
@@ -8,25 +8,13 @@
       "tagsCn": [
         "Security",
         "AI Agent",
-        "Claude Code"
+        "Red Team",
+        "Bug Bounty"
       ],
-      "appearances": 5,
+      "appearances": 6,
       "bestRank": 1,
-      "latestDate": "2026-11-24",
-      "judgement": "近 7 次记录中出现 5 次，最佳排名第 1，适合优先复盘详情。"
-    },
-    {
-      "repo": "obra/superpowers",
-      "url": "https://github.com/obra/superpowers",
-      "tagsCn": [
-        "AI Agent",
-        "Dev Tool",
-        "SDLC"
-      ],
-      "appearances": 4,
-      "bestRank": 1,
-      "latestDate": "2026-11-23",
-      "judgement": "近 7 次记录中出现 4 次，最佳排名第 1，适合优先复盘详情。"
+      "latestDate": "2026-11-25",
+      "judgement": "近 7 次记录中出现 6 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
       "repo": "firecrawl/firecrawl",
@@ -42,17 +30,30 @@
       "judgement": "近 7 次记录中出现 4 次，最佳排名第 2，适合优先复盘详情。"
     },
     {
+      "repo": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "tagsCn": [
+        "AI Agent",
+        "Dev Tool",
+        "SDLC"
+      ],
+      "appearances": 3,
+      "bestRank": 1,
+      "latestDate": "2026-11-23",
+      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
+    },
+    {
       "repo": "XiaoYouChR/Ghost-Downloader-3",
       "url": "https://github.com/XiaoYouChR/Ghost-Downloader-3",
       "tagsCn": [
-        "Downloader",
-        "桌面端",
-        "Dev Tool"
+        "浏览器",
+        "Dev Tool",
+        "Downloader"
       ],
-      "appearances": 2,
+      "appearances": 3,
       "bestRank": 2,
-      "latestDate": "2026-11-24",
-      "judgement": "近 7 次记录中出现 2 次，最佳排名第 2，适合优先复盘详情。"
+      "latestDate": "2026-11-25",
+      "judgement": "近 7 次记录中出现 3 次，最佳排名第 2，适合优先复盘详情。"
     },
     {
       "repo": "mvanhorn/last30days-skill",
@@ -71,13 +72,18 @@
   "streaks": [
     {
       "repo": "elementalsouls/Claude-BugHunter",
-      "days": 5,
-      "track": "11-20#2 -> 11-21#1 -> 11-22#1 -> 11-23#1 -> 11-24#1"
+      "days": 6,
+      "track": "11-20#2 -> 11-21#1 -> 11-22#1 -> 11-23#1 -> 11-24#1 -> 11-25#1"
     },
     {
       "repo": "firecrawl/firecrawl",
       "days": 4,
       "track": "11-21#2 -> 11-22#2 -> 11-23#2 -> 11-24#3"
+    },
+    {
+      "repo": "XiaoYouChR/Ghost-Downloader-3",
+      "days": 2,
+      "track": "11-24#2 -> 11-25#2"
     },
     {
       "repo": "mvanhorn/last30days-skill",

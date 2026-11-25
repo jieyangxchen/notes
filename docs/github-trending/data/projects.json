@@ -1,29 +1,43 @@
 {
-  "generatedAt": "2026-11-24T08:00:46.032501+08:00",
+  "generatedAt": "2026-11-25T08:01:04.852970+08:00",
   "projects": [
     {
       "repo": "elementalsouls/Claude-BugHunter",
       "url": "https://github.com/elementalsouls/Claude-BugHunter",
-      "latestDate": "2026-11-24",
+      "latestDate": "2026-11-25",
       "latestRank": 1,
       "tagsCn": [
         "Security",
         "AI Agent",
-        "Claude Code"
+        "Red Team",
+        "Bug Bounty"
       ],
-      "lastTagline": "把 24 类漏洞检测模式与企业攻击链封进 Claude Code 技能包"
+      "lastTagline": "84 个 Claude Code 技能，把授权红队方法论与报告流程装进终端"
     },
     {
       "repo": "XiaoYouChR/Ghost-Downloader-3",
       "url": "https://github.com/XiaoYouChR/Ghost-Downloader-3",
-      "latestDate": "2026-11-24",
+      "latestDate": "2026-11-25",
       "latestRank": 2,
       "tagsCn": [
-        "Downloader",
-        "桌面端",
-        "Dev Tool"
+        "浏览器",
+        "Dev Tool",
+        "Downloader"
       ],
-      "lastTagline": "多协议桌面下载器，统一管理 HTTP、磁力与流媒体解析"
+      "lastTagline": "Qt 桌面客户端统一管理 HTTP、BT、FTP 与流媒体下载，附浏览器嗅探扩展"
+    },
+    {
+      "repo": "HKUDS/CLI-Anything",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "latestDate": "2026-11-25",
+      "latestRank": 3,
+      "tagsCn": [
+        "AI Agent",
+        "Dev Tool",
+        "CLI",
+        "开源"
+      ],
+      "lastTagline": "把桌面与专业软件封装成 CLI，让 AI agent 直接调用并产出文件"
     },
     {
       "repo": "firecrawl/firecrawl",

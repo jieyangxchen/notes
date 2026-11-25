@@ -1,16 +1,16 @@
 {
-  "date": "2026-11-24",
-  "generatedAt": "2026-11-24T08:00:46.032501+08:00",
+  "date": "2026-11-25",
+  "generatedAt": "2026-11-25T08:01:04.852970+08:00",
   "source": "https://github.com/trending?since=daily",
   "tags": [
     "Security",
     "AI Agent",
-    "Claude Code",
-    "Downloader",
-    "Desktop",
+    "Red Team",
+    "Bug Bounty",
+    "Browser",
     "Dev Tool"
   ],
-  "observation": "三个项目里有两个在给 AI Agent 补充输入材料：Claude-BugHunter 把 24 类漏洞的公开报告模式打包成 Claude Code 技能，firecrawl 把网页清洗成 Markdown 并通过 MCP 提供给 RAG；Ghost-Downloader-3 是面向普通用户的桌面下载工具，与另外两个项目不属于同一类。三个项目的热度结构差异明显：Claude-BugHunter 日增占总星 10.29%，属于小基数快速破圈；Ghost-Downloader-3 为 6.67%，属于稳定升温；firecrawl 为 0.44%，是 20 万星量级老项目回热。因此不能把日增直接当成质量结论。三个项目都需自行核对授权、站点条款与许可证。",
+  "observation": "今日 TOP3 共同点是「把能力打包后交给 agent 或单一入口」：Claude-BugHunter 把安全方法论拆成 Claude Code 技能，Ghost-Downloader-3 把多协议下载收进一个 Qt 客户端，CLI-Anything 把任意软件转成 agent 可调用的 CLI。差异在热度结构：前两者日增占比 8.52% 与 6.31%，属小基数快速扩散，且都有同榜历史可比；CLI-Anything 六万多星但占比仅 1.66%、提交节奏偏慢，靠存量回热。三者都不是即插即用的生产力，落地都依赖人工复核、权限控制与合规边界。",
   "projects": [
     {
       "rank": 1,
@@ -19,39 +19,41 @@
       "tags": [
         "Security",
         "AI Agent",
-        "Claude Code"
+        "Red Team",
+        "Bug Bounty"
       ],
       "tagsCn": [
         "Security",
         "AI Agent",
-        "Claude Code"
+        "Red Team",
+        "Bug Bounty"
       ],
-      "tagline": "把 24 类漏洞检测模式与企业攻击链封进 Claude Code 技能包",
-      "starsToday": 2029,
-      "totalStars": 19714,
-      "starTodayRatio": 10.29,
-      "rankingStatus": "连续 5 次日报 TOP3",
-      "rankingTrack": "11-20#2 -> 11-21#1 -> 11-22#1 -> 11-23#1 -> 11-24#1",
+      "tagline": "84 个 Claude Code 技能，把授权红队方法论与报告流程装进终端",
+      "starsToday": 1826,
+      "totalStars": 21430,
+      "starTodayRatio": 8.52,
+      "rankingStatus": "连续 6 次日报 TOP3",
+      "rankingTrack": "11-20#2 -> 11-21#1 -> 11-22#1 -> 11-23#1 -> 11-24#1 -> 11-25#1",
       "activity": "1 天前有提交",
       "license": "MIT",
       "maintainer": "个人项目；有主页/组织资料，可进一步核实官方性",
-      "positioning": "面向持有书面授权的红队成员与赏金猎人：把 24 类漏洞的检测模式、企业身份与边界设备攻击链、证据脱敏与报告流程拆成按需加载技能，减少查资料与写报告的时间。能力边界在于它只提供公开披露报告归纳出的思路与提示，不保证在具体目标上生效，也不替代人工复现、授权确认与合规判断，本身不是扫描器或自动化利用链。",
-      "whyWatch": "今日新增 2029 星，占总星 10.29%，高于昨日 1803 的日增，但占比由 11.26% 回落，属小基数快速传播。1 天前有提交，近 30 天 PR 更新 115（昨 106）、issue 更新 20（昨 16），open issues 12，反馈消化较快。README 20,798 字符、22 个标题，含安装、示例与文档入口；但 release 仍停在 v2.1（2026-06-05），与高频提交不同步，版本可追溯性偏弱。",
-      "changedSinceLast": "上次记录为第 1 名、日增 1803、占比 11.26%、PR 更新 106、issue 更新 16、open issues/PR 合计 16。今日日增至 2029 但占比降至 10.29%，仍居首位；PR 更新升至 115、issue 更新升至 20，open issues 为 12，说明新增反馈与关闭基本同步。release 仍为 v2.1，README 写 83 项技能而仓库简介仍写 82 项，该不一致今日仍未修。",
+      "positioning": "面向持有书面授权的红队成员与赏金猎人：把 24 类漏洞的检测模式、企业身份与边界设备攻击链、证据脱敏与报告流程拆成按需加载的技能，减少查资料和写报告的时间。边界是它只提供公开披露报告归纳出的思路与提示，不保证在具体目标上生效，也不替代人工复现、授权确认与合规判断，本身不是扫描器或自动化利用链。",
+      "whyWatch": "今日新增 1826 星，占总星 8.52%，总量 21,430，仍在快速扩散区间但已较高点回落。1 天前有提交，近 30 天 PR 更新 120、issue 更新 20，open issues 仅 13，反馈消化速度明显快于积压。README 20,798 字符、22 个标题，含安装说明、示例与文档入口，属于「文档先行」的安全技能包；但 release 仍停在 v2.1，与高频提交不同步，版本可追溯性偏弱。",
+      "changedSinceLast": "上次记录为第 1 名、日增 2029、占比 10.29%、open issues 12。今日日增降至 1826、占比 8.52%，热度峰值已过但仍居首位；open issues 升至 13，PR 更新 115→120，issue 更新持平 20。最值得注意的是简介与 README 的技能数从此前的 82/83 不一致统一为 84，该疑点今日已消解；release 仍未从 v2.1 前移。",
       "suitableFor": "适合已有书面授权项目、熟悉 HackerOne 与 Bugcrowd 流程的赏金猎人与红队成员；适合希望用 Claude Code 统一测试方法论、报告模板与证据脱敏流程的安全服务团队；也适合在 DVWA、OWASP Juice Shop、Hacker101 等公开靶场做教学的讲师与学员。",
-      "notSuitableFor": "不适合没有书面授权就想对真实目标做扫描验证的人，技能包解决不了合法性问题；不适合把模型输出直接当漏洞结论提交的初学者；不适合禁止将目标资产、凭据或 PII 交给第三方模型的环境；也不适合只想系统学习基础 Web 安全课程的人。",
-      "risk": "越界风险最高：技能面向真实攻击面，用于未授权目标即涉违法，须逐目标确认 scope 与 OOS 并留存授权凭证。模式来自公开报告，可能过时或误报，必须人工复现后才能提交。release 停在 v2.1 而提交频繁，安装内容与版本号可能不一致；凭据、令牌与目标信息交给模型前须脱敏，平台 API 令牌按最小权限存放。",
-      "bestPractice": "在自有或明确授权的靶场走完整闭环：用脚手架建立 engagement 目录并记录 scope 与时间线，按阶段调用技能获取测试思路与检测模式，由人工复现判定真伪，再用内置 triage 与证据脱敏流程产出报告，最后把误报与漏报整理成内部清单，用于新人带教与复盘。",
+      "notSuitableFor": "不适合没有书面授权就想对真实目标做验证的人，技能包解决不了合法性问题；不适合把模型输出直接当漏洞结论提交的初学者；不适合禁止将目标资产、凭据或 PII 交给第三方模型的环境；也不适合只想系统学习基础 Web 安全课程的人。",
+      "risk": "越界风险最高：技能面向真实攻击面，用于未授权目标即涉违法，须逐目标确认 scope 与 OOS 并留存授权凭证。模式来自公开报告，可能过时或误报，必须人工复现后才能提交。release 停在 v2.1 而提交频繁，安装内容与版本号可能不一致；令牌与目标信息交给模型前须脱敏，平台 API 令牌按最小权限存放。",
+      "bestPractice": "在自有或明确授权的靶场走完整闭环：用脚手架建立 engagement 目录并记录 scope 与时间线，按阶段调用技能获取测试思路与检测模式，由人工复现判定真伪，再用内置 triage 与证据脱敏生成报告，最后把授权凭证与结论一起归档备查。",
       "trialPlan": {
-        "install": "在隔离测试机按 README 安装 Claude Code 技能包，固定 v2.1 版本的提交哈希并记录安装来源；不接入生产网络，不预置任何真实目标凭据或平台令牌。",
-        "pilot": "在 DVWA 或 OWASP Juice Shop 上挑 3 到 5 类漏洞（如 XSS、IDOR、SSRF），走完方法论提示、人工复现、报告成文全流程，同时记录技能输出的可用率。",
-        "evaluation": "统计每个目标的真实漏洞命中数、误报数与人工复现耗时，核对技能描述与实际文件数是否一致，并检查报告中证据是否完成脱敏。",
-        "exit": "若技能输出误报率明显高于人工经验、安装内容与版本标签不符、或出现要求提交真实凭据与未脱敏数据的场景，则停止使用并回滚到纯人工流程。"
+        "install": "在隔离测试机安装 Claude Code，按 README 将技能包放入 skills 目录，先用本地 DVWA 或 Juice Shop 实例验证技能加载与 slash 命令可用。",
+        "pilot": "选一个授权靶场或自有资产，只限定一类漏洞（如 IDOR 或 XSS）走完从枚举到报告的全流程，逐步记录技能调用与人工判定。",
+        "evaluation": "看三项指标：人工复现确认的有效发现数、误报率、报告整理耗时相对手工流程的降幅；同时统计越界提示被正确拦截的次数。",
+        "exit": "若连续两轮试点有效发现为零、误报超过半数，或出现任何未授权目标被触达的迹象，立即停用并回收技能包与相关令牌。"
       },
       "signals": {
-        "recentCommit": "2026-11-23",
+        "recentCommit": "2026-11-24",
         "issuesUpdated30d": 20,
-        "prsUpdated30d": 115,
+        "prsUpdated30d": 120,
         "latestRelease": "v2.1（2026-06-05）",
         "readmeMaturity": "成熟",
         "readmeSignals": "20,798 字符 / 22 个标题 / 有安装说明 / 有 Demo/示例 / 有文档入口"
@@ -62,41 +64,41 @@
       "repo": "XiaoYouChR/Ghost-Downloader-3",
       "url": "https://github.com/XiaoYouChR/Ghost-Downloader-3",
       "tags": [
-        "Downloader",
-        "Desktop",
-        "Dev Tool"
+        "Browser",
+        "Dev Tool",
+        "Downloader"
       ],
       "tagsCn": [
-        "Downloader",
-        "桌面端",
-        "Dev Tool"
+        "浏览器",
+        "Dev Tool",
+        "Downloader"
       ],
-      "tagline": "多协议桌面下载器，统一管理 HTTP、磁力与流媒体解析",
-      "starsToday": 1087,
-      "totalStars": 16287,
-      "starTodayRatio": 6.67,
-      "rankingStatus": "非连续；上次 11-21 第3",
-      "rankingTrack": "11-21#3 -> 11-24#2",
+      "tagline": "Qt 桌面客户端统一管理 HTTP、BT、FTP 与流媒体下载，附浏览器嗅探扩展",
+      "starsToday": 1092,
+      "totalStars": 17300,
+      "starTodayRatio": 6.31,
+      "rankingStatus": "连续 2 次日报 TOP3",
+      "rankingTrack": "11-24#2 -> 11-25#2",
       "activity": "1 天前有提交",
       "license": "GPL-3.0",
       "maintainer": "个人项目；有主页/组织资料，可进一步核实官方性",
-      "positioning": "面向需要在一个界面内统一管理多协议下载的个人用户与小团队：把 HTTP、磁力/BT、FTP、M3U8、MPEG-DASH、eD2k 以及 B 站、YouTube 解析收进 Qt 客户端，并配浏览器扩展嗅探页面媒体。能力边界是桌面与安卓客户端，反检测 TLS 与镜像加速只对可达站点有效，不解决版权与平台条款授权，也不提供服务端无头调度。",
-      "whyWatch": "今日新增 1087 星、占总星 6.67%，属稳定升温而非爆发。1 天前有提交，release v4.5.11（2026-11-20）与提交节奏基本对齐，版本可追溯性好于同榜同类工具；近 30 天 issue 更新 216、PR 更新 45，反馈真实但 open issues 已升到 107。README 含安装说明、文档与视频演示，但首屏有代理商赞助与折扣码，需自行甄别。",
-      "changedSinceLast": "上次记录显示它为新进 TOP3、日增 1082、占比 7.91%、open issues 94。今日日增微升至 1087，占比却降至 6.67%；open issues 由 94 升至 107，近 30 天 issue 更新 182→216、PR 39→45，反馈与积压同步增长。release 仍为 v4.5.11，没有新版本，赞助位与 GPL-3.0 说明未变。",
-      "suitableFor": "适合经常在桌面端处理多协议下载、需要断点续传与中途修改 URL 或代理的用户；适合把 B 站、YouTube 播放列表与字幕批量归档、且素材确有授权的创作者与内容运营；也适合用 aria2 兼容 RPC 把下载接进自动化流水线的开发者。",
+      "positioning": "面向需要在单一界面管理多协议下载的个人用户与小团队：把 HTTP、磁力/BT、FTP、M3U8、MPEG-DASH、eD2k 以及视频站解析收进 Qt 客户端，并配浏览器扩展嗅探页面媒体。边界是桌面与安卓客户端，反检测 TLS 与镜像加速只对可达站点有效，不解决版权与平台条款授权，也不提供服务端无头调度与集群分发能力。",
+      "whyWatch": "今日新增 1092 星，占总星 6.31%，总量 17,300，属稳定升温而非爆发。1 天前有提交，release v4.5.11 与提交节奏基本对齐，版本可追溯性好于同榜同类工具。近 30 天 issue 更新 223、PR 更新 47，反馈真实但 open issues 已升至 113，积压与活跃同步走高。README 含安装、文档与视频演示，但首屏为代理商赞助与折扣码，需自行甄别。",
+      "changedSinceLast": "上次记录为第 3 名，日增 1087、占比 6.67%、open issues 107。今日日增微升至 1092，占比却降至 6.31%，说明总量增长快于日增；open issues 由 107 升至 113，30 天 issue 更新 216→223、PR 45→47，反馈与积压同步增长。release 仍为 v4.5.11，没有新版本，赞助位与 GPL-3.0 说明未变。",
+      "suitableFor": "适合经常在桌面端处理多协议下载、需要断点续传与中途修改 URL 或代理的用户；适合把有授权的视频播放列表与字幕批量归档的创作者与内容运营；也适合用 aria2 兼容 RPC 把下载接进自动化流水线的开发者。",
       "notSuitableFor": "不适合用它下载无授权的影视、课程或付费内容，工具本身不提供版权许可；不适合要求服务端无头部署与集群调度的团队，它是桌面与安卓客户端；不适合必须完全无广告、无赞助位的严格合规环境；也不适合不愿核对 GPL-3.0 义务的二次分发者。",
-      "risk": "版权与平台条款是首要风险：BT、视频站解析与真实浏览器 TLS 指纹容易被用于绕过反爬或付费墙，使用场景须自证合规。GPL-3.0 对二次分发有源码开放要求。README 顶部为代理商赞助与折扣码，属商业推广而非官方背书。移动端后台录制流媒体也可能触及平台规则，open issues 上升需留意回归。",
+      "risk": "版权与平台条款是首要风险：BT、视频站解析与真实浏览器 TLS 指纹容易被用于绕过反爬或付费墙，使用场景须自证合规。GPL-3.0 对二次分发有源码开放要求。README 顶部为代理商赞助与折扣码，属商业推广而非官方背书。移动端后台录制流媒体也可能触及平台规则，open issues 持续上升需留意回归。",
       "bestPractice": "把授权范围内的公开课程、开源发布会视频与自有素材集中管理：用浏览器扩展在页面直接捕获媒体，配合分片下载与断点续传归档，再通过 aria2 兼容 RPC 把批量任务接入脚本，统一做校验、命名与授权依据登记。",
       "trialPlan": {
-        "install": "在 Windows 或 macOS 从 Release 下载对应架构安装包（注意 Qt 6.6+ 需 AVX 指令集），Linux 可走 AUR；先在非生产网络环境安装，暂不使用赞助代理入口。",
-        "pilot": "选 3 到 5 个自有或明确授权的大文件加一个流媒体页面，覆盖 HTTP、磁力、M3U8 三条路径，测试弱网限速与下载中途切换代理。",
-        "evaluation": "观察限速环境实际吞吐、断点续传成功率、协议覆盖是否与描述一致，以及每个下载任务的授权依据是否留有记录。",
-        "exit": "若出现下载内容授权不明、平台条款禁止，或弱网吞吐低于现有工具基线、崩溃导致进度丢失，则回退原工具并清理配置。"
+        "install": "从 Release 下载对应架构安装包（Windows 或 macOS，注意 Qt 运行库要求），同时从商店或仓库安装浏览器扩展，先只下载公开测试文件验证连通性。",
+        "pilot": "选 3–5 个确有授权的素材源，跑一遍嗅探、分片下载、断点续传与 aria2 RPC 批量调用，观察失败重试与代理切换表现。",
+        "evaluation": "看下载成功率与平均速度、断点续传恢复是否完整、open issues 中与你环境相关的回归问题数量，以及任务日志能否满足授权登记需要。",
+        "exit": "若出现大量校验失败、扩展被站点规则限制，或团队无法承担 GPL-3.0 分发义务，则退回浏览器原生下载或更轻量的命令行方案。"
       },
       "signals": {
-        "recentCommit": "2026-11-23",
-        "issuesUpdated30d": 216,
-        "prsUpdated30d": 45,
+        "recentCommit": "2026-11-24",
+        "issuesUpdated30d": 223,
+        "prsUpdated30d": 47,
         "latestRelease": "v4.5.11（2026-11-20）",
         "readmeMaturity": "成熟",
         "readmeSignals": "9,977 字符 / 18 个标题 / 有安装说明 / 有 Demo/示例 / 有文档入口"
@@ -104,47 +106,49 @@
     },
     {
       "rank": 3,
-      "repo": "firecrawl/firecrawl",
-      "url": "https://github.com/firecrawl/firecrawl",
+      "repo": "HKUDS/CLI-Anything",
+      "url": "https://github.com/HKUDS/CLI-Anything",
       "tags": [
-        "Browser",
         "AI Agent",
-        "RAG"
+        "Dev Tool",
+        "CLI",
+        "Open Source"
       ],
       "tagsCn": [
-        "浏览器",
         "AI Agent",
-        "RAG"
+        "Dev Tool",
+        "CLI",
+        "开源"
       ],
-      "tagline": "把网页清洗成 Markdown，经 MCP 提供给 Agent 与 RAG",
-      "starsToday": 924,
-      "totalStars": 207895,
-      "starTodayRatio": 0.44,
-      "rankingStatus": "连续 4 次日报 TOP3",
-      "rankingTrack": "11-21#2 -> 11-22#2 -> 11-23#2 -> 11-24#3",
-      "activity": "1 天前有提交",
-      "license": "AGPL-3.0",
-      "maintainer": "组织/公司/社区项目（Firecrawl）；有主页/组织资料，可进一步核实官方性",
-      "positioning": "面向需要给 Agent 与 RAG 补充外部知识的开发者：本地版单个二进制即可完成 scrape、crawl、map 与页面转 Markdown，并通过 MCP 接入 Claude Code、Cursor；云端再补搜索与 550+ 数据源。边界是本地版不含队列与数据库，规模化调度与结构化抽取需转云端或自托管，且不承诺突破登录墙与反爬。",
-      "whyWatch": "今日新增 924 星，仅占总星 0.44%，属 20 万星量级的老项目回热，不能按快速扩散解读。1 天前有提交，近 30 天 PR 更新 660（昨 634）、issue 更新 51，合并节奏加快，但 open issues 已达 922，积压明显。release 仍为 v2.11.0（2026-06-19）；README 用能力表清晰区分本地、云端、自托管三条路径，含安装与文档入口。",
-      "changedSinceLast": "上次记录为第 2 名、日增 915、占比 0.49%、open issues 918、PR 更新 634、issue 更新 46。今日降至第 3 名，日增 924 但占比 0.44%，热度连续第三日降温；open issues 由 918 升至 922，近 30 天 PR 更新 634→660、issue 更新 46→51。release 仍为 v2.11.0，无新版本，README 三条路径划分与本地版 crates.io 安装方式未变。",
-      "suitableFor": "适合需要统一接口给 RAG 或 Agent 补充网页知识的开发者；适合想在本机用单个二进制完成抓取、并通过 MCP 接入 Claude Code 与 Cursor 的个人与小团队；也适合具备运维能力、对数据出境敏感而需自托管队列与数据库的组织。",
-      "notSuitableFor": "不适合把 900 多个 open issues 当作零风险、直接接入生产关键链路的团队；不适合无运维能力却要自托管队列与数据库的组织；不适合需要绕过登录墙、验证码或违反站点条款的抓取需求；对 AGPL-3.0 传染性敏感的商业分发也需谨慎。",
-      "risk": "AGPL-3.0 对网络服务与再分发有传染性，商业闭源集成前须经法务确认。抓取须遵守目标站点 robots、服务条款与频率限制，不得绕过登录与反爬措施，涉及个人信息时须做合规评估。open issues 长期在 900 量级与高频 PR 并存，存在回归风险；自托管服务暴露公网前须复核鉴权、端口与最小权限。",
-      "bestPractice": "在内部知识库试点：用本地版在 localhost 启动 API，先抓自家文档站与公开技术博客转成 Markdown 入库，SDK 指向本地地址，用 20 到 30 个页面评估 JS 渲染页成功率与字段完整性，再决定是否迁移到云端或自托管扩容。",
+      "tagline": "把桌面与专业软件封装成 CLI，让 AI agent 直接调用并产出文件",
+      "starsToday": 1074,
+      "totalStars": 64722,
+      "starTodayRatio": 1.66,
+      "rankingStatus": "新进 TOP3",
+      "rankingTrack": "新上榜",
+      "activity": "5 天前有提交",
+      "license": "Apache-2.0",
+      "maintainer": "组织/公司/社区项目（✨Data Intelligence Lab@HKU✨）；有主页/组织资料，可进一步核实官方性",
+      "positioning": "面向希望把专业软件接入 agent 工作流的开发者与研究团队：为每款软件生成 CLI harness，让 Cursor、Claude Code 等 agent 通过命令行完成建模、转换、导出等操作，并用 CLI-Hub 统一安装分发。边界是覆盖面取决于社区贡献与软件本身可脚本化的程度，生成结果不保证功能完整，也不能替代 GUI 下的专业判断与授权审查。",
+      "whyWatch": "总量 64,722 星但今日仅 1074，占比 1.66%，属老项目回热而非新爆发。5 天前有提交，节奏慢于同榜前两名；近 30 天 PR 更新 125，说明社区贡献密集，但 issue 更新仅 21、open issues 高达 294，响应与积压比例失衡，遇到问题未必能及时得到维护者回复。README 49,340 字符、112 个标题，文档极重且有 Demo 与 CLI-Hub 入口，release 为 v0.4.0，版本仍处早期。",
+      "changedSinceLast": "今日新进 TOP3，暂无昨日同榜对比。",
+      "suitableFor": "适合想把 CAD、3D、文档转换、音视频等专业软件接进 agent 流水线的开发者；适合愿意读代码、能自行验证 CLI harness 质量的工程团队；也适合研究 agent 工具调用与轨迹回放的研究者做实验平台。",
+      "notSuitableFor": "不适合希望开箱即用、不接受命令行调试的非技术用户；不适合要求功能覆盖完整、与 GUI 逐项对齐的生产环境；不适合禁止 agent 在本机执行写文件与调用外部程序的高敏感内网；也不适合指望维护者快速响应 issue 的团队。",
+      "risk": "agent 通过生成的 CLI 直接操作本机软件与文件，涉及写权限、覆盖与令牌存放，须在隔离环境先跑并审查 harness 代码，不可默认信任社区提交。CLI-Hub 安装应固定版本与校验来源，防范路径穿越一类问题。当前 open issues 294 而 30 天 issue 更新仅 21，问题可能长期悬置；release 仍为 v0.4.0，接口存在变动风险。",
+      "bestPractice": "在容器或独立用户下用 CLI-Hub 安装一个已合并且有测试覆盖的 harness，让 agent 完成一批低风险转换任务（如格式互转或模型检查），产物落到独立目录，人工抽检后再进入正式流程。",
       "trialPlan": {
-        "install": "安装 Rust 与 C 编译器（macOS 用 xcode-select --install，Debian/Ubuntu 用 build-essential），从 crates.io 装本地版，默认只监听 localhost，不暴露到内网。",
-        "pilot": "选取自家文档站与 2 到 3 个公开技术博客，跑 scrape、crawl、map 三类任务，接一次 MCP 到本地 Agent，验证 Markdown 质量与链接完整性。",
-        "evaluation": "统计目标页抓取成功率、JS 渲染页与纯静态页的差异、Markdown 结构完整性，以及单页平均耗时与失败重试次数。",
-        "exit": "若目标站点条款禁止抓取、成功率低于可接受阈值，或自托管版本无法在现有人力下维护鉴权与升级，则回退到手工整理或改用云端方案。"
+        "install": "在隔离环境 pip 安装 cli-anything-hub，只挑选已合并、带单元测试与 E2E 证据的 harness，锁版本并记录来源与提交哈希。",
+        "pilot": "选一款低风险软件（如格式转换类），让 agent 通过 CLI 完成 10 个已知正确答案的任务，全程保留命令与轨迹日志。",
+        "evaluation": "看任务成功率、产物与 GUI 手工结果的一致性、需要人工介入的频次，以及 harness 代码审查中发现的写权限或路径问题数量。",
+        "exit": "若成功率低于预期、产物不可校验，或审查发现未受控的文件写入与令牌暴露路径，则停止推广，仅保留在离线实验环境使用。"
       },
       "signals": {
-        "recentCommit": "2026-11-23",
-        "issuesUpdated30d": 51,
-        "prsUpdated30d": 660,
-        "latestRelease": "v2.11.0（2026-06-19）",
+        "recentCommit": "2026-11-20",
+        "issuesUpdated30d": 21,
+        "prsUpdated30d": 125,
+        "latestRelease": "v0.4.0（2026-06-25）",
         "readmeMaturity": "成熟",
-        "readmeSignals": "11,318 字符 / 31 个标题 / 有安装说明 / 有 Demo/示例 / 有文档入口"
+        "readmeSignals": "49,340 字符 / 112 个标题 / 有安装说明 / 有 Demo/示例 / 有文档入口"
       }
     }
   ]
