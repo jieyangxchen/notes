@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-25T08:01:04.852970+08:00",
-  "window": "2026-11-19..2026-11-25",
+  "generatedAt": "2026-11-26T08:04:34.725348+08:00",
+  "window": "2026-11-20..2026-11-26",
   "topProjects": [
     {
       "repo": "elementalsouls/Claude-BugHunter",
@@ -8,13 +8,12 @@
       "tagsCn": [
         "Security",
         "AI Agent",
-        "Red Team",
-        "Bug Bounty"
+        "学术研究"
       ],
-      "appearances": 6,
+      "appearances": 7,
       "bestRank": 1,
-      "latestDate": "2026-11-25",
-      "judgement": "近 7 次记录中出现 6 次，最佳排名第 1，适合优先复盘详情。"
+      "latestDate": "2026-11-26",
+      "judgement": "近 7 次记录中出现 7 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
       "repo": "firecrawl/firecrawl",
@@ -22,12 +21,12 @@
       "tagsCn": [
         "浏览器",
         "AI Agent",
-        "RAG"
+        "Dev Tool"
       ],
-      "appearances": 4,
+      "appearances": 5,
       "bestRank": 2,
-      "latestDate": "2026-11-24",
-      "judgement": "近 7 次记录中出现 4 次，最佳排名第 2，适合优先复盘详情。"
+      "latestDate": "2026-11-26",
+      "judgement": "近 7 次记录中出现 5 次，最佳排名第 2，适合优先复盘详情。"
     },
     {
       "repo": "obra/superpowers",
@@ -56,39 +55,29 @@
       "judgement": "近 7 次记录中出现 3 次，最佳排名第 2，适合优先复盘详情。"
     },
     {
-      "repo": "mvanhorn/last30days-skill",
-      "url": "https://github.com/mvanhorn/last30days-skill",
+      "repo": "cathrynlavery/diagram-design",
+      "url": "https://github.com/cathrynlavery/diagram-design",
       "tagsCn": [
-        "学术研究",
         "AI Agent",
-        "信息聚合"
+        "Dev Tool",
+        "Data Viz"
       ],
-      "appearances": 2,
-      "bestRank": 3,
-      "latestDate": "2026-11-20",
-      "judgement": "近 7 次记录中出现 2 次，最佳排名第 3，适合优先复盘详情。"
+      "appearances": 1,
+      "bestRank": 2,
+      "latestDate": "2026-11-26",
+      "judgement": "近 7 次记录中出现 1 次，最佳排名第 2，适合优先复盘详情。"
     }
   ],
   "streaks": [
     {
       "repo": "elementalsouls/Claude-BugHunter",
-      "days": 6,
-      "track": "11-20#2 -> 11-21#1 -> 11-22#1 -> 11-23#1 -> 11-24#1 -> 11-25#1"
-    },
-    {
-      "repo": "firecrawl/firecrawl",
-      "days": 4,
-      "track": "11-21#2 -> 11-22#2 -> 11-23#2 -> 11-24#3"
+      "days": 7,
+      "track": "11-20#2 -> 11-21#1 -> 11-22#1 -> 11-23#1 -> 11-24#1 -> 11-25#1 -> 11-26#1"
     },
     {
       "repo": "XiaoYouChR/Ghost-Downloader-3",
       "days": 2,
       "track": "11-24#2 -> 11-25#2"
-    },
-    {
-      "repo": "mvanhorn/last30days-skill",
-      "days": 2,
-      "track": "11-19#3 -> 11-20#3"
     },
     {
       "repo": "obra/superpowers",
