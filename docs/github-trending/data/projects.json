@@ -1,41 +1,41 @@
 {
-  "generatedAt": "2026-11-26T08:04:34.725348+08:00",
+  "generatedAt": "2026-11-27T08:00:54.206589+08:00",
   "projects": [
     {
       "repo": "elementalsouls/Claude-BugHunter",
       "url": "https://github.com/elementalsouls/Claude-BugHunter",
-      "latestDate": "2026-11-26",
+      "latestDate": "2026-11-27",
       "latestRank": 1,
       "tagsCn": [
         "Security",
         "AI Agent",
         "学术研究"
       ],
-      "lastTagline": "为 Claude Code 装 85 个红队技能，按授权范围走查漏洞"
-    },
-    {
-      "repo": "cathrynlavery/diagram-design",
-      "url": "https://github.com/cathrynlavery/diagram-design",
-      "latestDate": "2026-11-26",
-      "latestRank": 2,
-      "tagsCn": [
-        "AI Agent",
-        "Dev Tool",
-        "Data Viz"
-      ],
-      "lastTagline": "让编码 Agent 按编辑级规范输出自包含 HTML+SVG 图表"
+      "lastTagline": "把85个红队技能装进Claude Code，覆盖24类漏洞与报告流程"
     },
     {
       "repo": "firecrawl/firecrawl",
       "url": "https://github.com/firecrawl/firecrawl",
-      "latestDate": "2026-11-26",
-      "latestRank": 3,
+      "latestDate": "2026-11-27",
+      "latestRank": 2,
       "tagsCn": [
         "浏览器",
         "AI Agent",
         "Dev Tool"
       ],
-      "lastTagline": "一个二进制把网页转 Markdown，给 Agent 补外部知识"
+      "lastTagline": "单个二进制把网页转成Markdown，并通过MCP接入编码Agent"
+    },
+    {
+      "repo": "cathrynlavery/diagram-design",
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "latestDate": "2026-11-27",
+      "latestRank": 3,
+      "tagsCn": [
+        "AI Agent",
+        "Dev Tool",
+        "Visualization"
+      ],
+      "lastTagline": "让编码Agent按编辑级规范输出52类自包含图表"
     },
     {
       "repo": "XiaoYouChR/Ghost-Downloader-3",

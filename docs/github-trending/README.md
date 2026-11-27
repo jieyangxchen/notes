@@ -27,6 +27,7 @@
 
 ## 最近记录
 
+- [2026-11-27](/github-trending/2026-11-27.md)
 - [2026-11-26](/github-trending/2026-11-26.md)
 - [2026-11-25](/github-trending/2026-11-25.md)
 - [2026-11-24](/github-trending/2026-11-24.md)
@@ -46,7 +47,6 @@
 - [2026-11-10](/github-trending/2026-11-10.md)
 - [2026-11-09](/github-trending/2026-11-09.md)
 - [2026-11-08](/github-trending/2026-11-08.md)
-- [2026-11-07](/github-trending/2026-11-07.md)
 
 ## 阅读建议
 

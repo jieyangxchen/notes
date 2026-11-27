@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-26T08:04:34.725348+08:00",
-  "window": "2026-11-20..2026-11-26",
+  "generatedAt": "2026-11-27T08:00:54.206589+08:00",
+  "window": "2026-11-21..2026-11-27",
   "topProjects": [
     {
       "repo": "elementalsouls/Claude-BugHunter",
@@ -12,7 +12,7 @@
       ],
       "appearances": 7,
       "bestRank": 1,
-      "latestDate": "2026-11-26",
+      "latestDate": "2026-11-27",
       "judgement": "近 7 次记录中出现 7 次，最佳排名第 1，适合优先复盘详情。"
     },
     {
@@ -23,23 +23,10 @@
         "AI Agent",
         "Dev Tool"
       ],
-      "appearances": 5,
+      "appearances": 6,
       "bestRank": 2,
-      "latestDate": "2026-11-26",
-      "judgement": "近 7 次记录中出现 5 次，最佳排名第 2，适合优先复盘详情。"
-    },
-    {
-      "repo": "obra/superpowers",
-      "url": "https://github.com/obra/superpowers",
-      "tagsCn": [
-        "AI Agent",
-        "Dev Tool",
-        "SDLC"
-      ],
-      "appearances": 3,
-      "bestRank": 1,
-      "latestDate": "2026-11-23",
-      "judgement": "近 7 次记录中出现 3 次，最佳排名第 1，适合优先复盘详情。"
+      "latestDate": "2026-11-27",
+      "judgement": "近 7 次记录中出现 6 次，最佳排名第 2，适合优先复盘详情。"
     },
     {
       "repo": "XiaoYouChR/Ghost-Downloader-3",
@@ -60,24 +47,47 @@
       "tagsCn": [
         "AI Agent",
         "Dev Tool",
-        "Data Viz"
+        "Visualization"
       ],
-      "appearances": 1,
+      "appearances": 2,
       "bestRank": 2,
-      "latestDate": "2026-11-26",
-      "judgement": "近 7 次记录中出现 1 次，最佳排名第 2，适合优先复盘详情。"
+      "latestDate": "2026-11-27",
+      "judgement": "近 7 次记录中出现 2 次，最佳排名第 2，适合优先复盘详情。"
+    },
+    {
+      "repo": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "tagsCn": [
+        "AI Agent",
+        "Dev Tool",
+        "SDLC"
+      ],
+      "appearances": 2,
+      "bestRank": 3,
+      "latestDate": "2026-11-23",
+      "judgement": "近 7 次记录中出现 2 次，最佳排名第 3，适合优先复盘详情。"
     }
   ],
   "streaks": [
     {
       "repo": "elementalsouls/Claude-BugHunter",
       "days": 7,
-      "track": "11-20#2 -> 11-21#1 -> 11-22#1 -> 11-23#1 -> 11-24#1 -> 11-25#1 -> 11-26#1"
+      "track": "11-21#1 -> 11-22#1 -> 11-23#1 -> 11-24#1 -> 11-25#1 -> 11-26#1 -> 11-27#1"
     },
     {
       "repo": "XiaoYouChR/Ghost-Downloader-3",
       "days": 2,
       "track": "11-24#2 -> 11-25#2"
+    },
+    {
+      "repo": "cathrynlavery/diagram-design",
+      "days": 2,
+      "track": "11-26#2 -> 11-27#3"
+    },
+    {
+      "repo": "firecrawl/firecrawl",
+      "days": 2,
+      "track": "11-26#3 -> 11-27#2"
     },
     {
       "repo": "obra/superpowers",
