@@ -1,16 +1,16 @@
 {
-  "date": "2026-11-27",
-  "generatedAt": "2026-11-27T08:00:54.206589+08:00",
+  "date": "2026-11-28",
+  "generatedAt": "2026-11-28T08:04:18.463075+08:00",
   "source": "https://github.com/trending?since=daily",
   "tags": [
     "Security",
     "AI Agent",
-    "Research",
-    "Browser",
+    "Red Team",
     "Dev Tool",
-    "Visualization"
+    "SDLC",
+    "Downloader"
   ],
-  "observation": "三个项目都被编码 Agent 生态带动，但性质明显分化：Claude-BugHunter 把红队方法论打包成 Claude Code 技能，日增 1597、占比 6.51%，热度最高，但 open issues 从 11 升到 31，反馈积压开始出现；firecrawl 是 21 万星的老项目回热，日增 1046 只占 0.5%，价值在本地二进制加 MCP 接入，榜单名次意义有限；diagram-design 用技能约束模型输出编辑级 HTML+SVG 图表，日增 955、占比 1.29%，至今没有公开 release。共同点是能力都在向 Agent 技能层集中，差异在合规敏感度与工程成熟度。",
+  "observation": "今日 TOP3 全是个人维护的高星项目：Claude-BugHunter 与 superpowers 同走把技能包植入编码代理的路线，前者偏授权红队与漏洞报告，后者偏软件开发流程；Ghost-Downloader-3 是唯一的传统桌面客户端，靠多协议聚合与版本迭代吸引新增星标。三者今日新增星标占各自总星数的比例分别为 6.17%、0.28%、4.21%，热度量级差异明显；共同信号是维护者仍在高频响应 issue，且都缺少机构背书，落地前须自行证明授权与流程边界。",
   "projects": [
     {
       "rank": 1,
@@ -19,132 +19,132 @@
       "tags": [
         "Security",
         "AI Agent",
-        "Research"
+        "Red Team"
       ],
       "tagsCn": [
         "Security",
         "AI Agent",
-        "学术研究"
+        "Red Team"
       ],
-      "tagline": "把85个红队技能装进Claude Code，覆盖24类漏洞与报告流程",
-      "starsToday": 1597,
-      "totalStars": 24537,
-      "starTodayRatio": 6.51,
-      "rankingStatus": "连续 8 次日报 TOP3",
-      "rankingTrack": "11-20#2 -> 11-21#1 -> 11-22#1 -> 11-23#1 -> 11-24#1 -> 11-25#1 -> 11-26#1 -> 11-27#1",
+      "tagline": "把 85 个红队技能装进 Claude Code，按授权范围取用",
+      "starsToday": 1608,
+      "totalStars": 26051,
+      "starTodayRatio": 6.17,
+      "rankingStatus": "连续 9 次日报 TOP3",
+      "rankingTrack": "11-20#2 -> 11-21#1 -> 11-22#1 -> 11-23#1 -> 11-24#1 -> 11-25#1 -> 11-26#1 -> 11-27#1 -> 11-28#1",
       "activity": "1 天前有提交",
       "license": "MIT",
       "maintainer": "个人项目；有主页/组织资料，可进一步核实官方性",
-      "positioning": "面向持有书面授权的红队成员与赏金猎人：把 24 类漏洞的检测模式、企业身份与边界设备攻击链、证据脱敏与报告模板拆成按需加载的技能，减少翻资料和写报告的时间。边界是只提供基于公开披露报告归纳的思路与提示，不保证在具体目标生效，也不替代人工复现与授权确认，本身不是扫描器或自动化利用链。",
-      "whyWatch": "今日新增 1597 星、占总星 6.51%，总量 24537，仍处高位但较上次 7.19% 回落。1 天前有提交，近 30 天 PR 更新 148、issue 更新 29，合并节奏加快；但 open issues 由 11 升至 31，是连续多日收敛后首次回升，需观察是否转化。README 20,798 字符，含安装、示例与文档入口；release 仍停在 v2.1（2026-06-05），与高频提交不同步。",
-      "changedSinceLast": "上次记录为 2026-11-25 第 1 名、日增 1652、占比 7.19%、open issues 11。今日日增 1597、占比 6.51%，热度小幅缓降但仍在 TOP3；最值得注意的变化是 open issues 11→31 明显回升，PR 更新 135→148、issue 更新 22→29，反馈进入量加快；技能数仍为 85、slash 命令 16、681 条模式，release 仍为 v2.1 未动。",
-      "suitableFor": "适合已有书面授权项目、熟悉 HackerOne 与 Bugcrowd 流程的赏金猎人与红队成员；适合想用 Claude Code 统一测试方法论、报告模板与证据脱敏流程的安全服务团队；也适合在 DVWA、OWASP Juice Shop、Hacker101 等公开靶场做教学演练的讲师与学员。",
-      "notSuitableFor": "不适合没有书面授权就想对真实目标做验证的人，技能包解决不了合法性问题；不适合把模型输出直接当漏洞结论提交的初学者；不适合禁止将目标资产、凭据或 PII 交给第三方模型的环境；也不适合只想系统学习基础 Web 安全课程、需要循序渐进教材的人。",
-      "risk": "越界风险最高：技能面向真实攻击面，用于未授权目标即涉违法，须逐目标确认 scope 与 OOS 并留存授权凭证。模式源自公开报告，可能过时或误报，必须人工复现后才能提交；open issues 近期回升，release 停在 v2.1 而提交频繁，版本可追溯性弱；令牌与目标信息交给模型前须脱敏并按最小权限存放。",
-      "bestPractice": "在自有或明确授权的靶场走完整闭环：用 engagement 脚手架建立目录并记录 scope 与时间线，按阶段调用技能获取检测模式与链模板，由人工复现判定真伪，再用内置 triage 与证据脱敏生成报告，最后把授权凭证与结论一并归档备查，供合规审计追溯。",
+      "positioning": "面向持有书面授权的红队成员与赏金猎人：把 24 类漏洞的检测模式、企业身份与边界设备攻击链、证据脱敏与报告模板拆成按需加载的技能，减少翻资料与写报告的时间。边界是只提供思路与提示，不保证在具体目标生效，也不是扫描器或自动化利用链。",
+      "whyWatch": "今日新增 1608 星、占总星数的 6.17%，总量达 26051，仍在 TOP3，但占比连续回落；1 天前有提交，近 30 天 PR 更新 158 次（上次为 148 次）、issue 更新 32 次，合并节奏仍快；open issues 由 31 降至 23，积压首次缓解。README 篇幅达 20,855 字符，含安装、示例与文档入口，但 release 仍停在 v2.1（2026-06-05），与高频提交不同步，版本可追溯性偏弱。",
+      "changedSinceLast": "上次记录为 2026-11-26 TOP3，日增 1597、占比 6.51%、open issues 31、总量 24537。今日日增微升至 1608，占比降至 6.17%，总量增至 26051；最值得注意的是 open issues 从 31 降到 23，首次回落，PR 更新从 148 增至 158、issue 更新从 29 增至 32，说明反馈处理开始跟上；技能仍为 85 个、slash 命令 16 个、681 条模式，release 仍为 v2.1，没有变化。",
+      "suitableFor": "适合已拿到书面授权、熟悉 HackerOne、Bugcrowd 流程的赏金猎人与红队成员；适合想用 Claude Code 统一测试方法、证据脱敏与报告模板的安全服务团队；也适合在 DVWA、OWASP Juice Shop 等公开靶场做演练教学的讲师与学员。",
+      "notSuitableFor": "不适合没有书面授权就想验证真实目标的人，技能包解决不了合法性问题；不适合把模型输出直接当漏洞结论提交的新手；不适合禁止将目标资产、凭据或 PII 交给第三方模型的环境；也不适合需要循序渐进基础教材的自学者。",
+      "risk": "越界是首要风险：用于未授权目标即涉违法，必须逐目标确认 scope 与 OOS 并留存授权凭证。模式取自公开披露报告，可能过时或误报，必须人工复现后才能提交；release 停在 v2.1，但提交频繁，版本可追溯性弱；令牌与目标信息喂给模型前须脱敏，并按最小权限存放。",
+      "bestPractice": "在自有或明确授权的靶场走完整闭环：用 engagement 脚手架建目录，并记录 scope 与时间线，按阶段调用技能获取检测模式与链模板，由人工复现判定真伪，再用内置 triage 与证据脱敏生成报告，最后把授权凭证、结论与复现步骤归档，便于复盘与合规审计。",
       "trialPlan": {
-        "install": "按 README 在 Claude Code skills 目录安装技能包，先核对 v2.1 与当前 commit 差异，在隔离环境中初始化 engagement 目录。",
-        "pilot": "选 OWASP Juice Shop 或 DVWA 一个靶场，限定 2 到 3 类漏洞，跑方法论、检测、triage、报告四个阶段，全程人工复现。",
-        "evaluation": "记录每个发现的可复现率、误报率、报告生成耗时与人工核对工时，与团队现有手工流程做对照，同时统计 issue 反馈是否被及时响应。",
-        "exit": "若误报率高于团队可接受阈值、或关键技能依赖已失效的报告模式，则回退到原有流程并锁定上一可用 commit。"
+        "install": "在隔离机器按 README 将技能包放入 Claude Code 技能目录，先备份原有配置，确认不携带生产环境凭据。",
+        "pilot": "选 DVWA 或 Juice Shop 的一个漏洞类别，限定单目标单时间窗，输出全部人工复核。",
+        "evaluation": "记录有效发现数、误报率、人工复核耗时、报告生成节省时间，以及是否越出 scope。",
+        "exit": "出现越界建议、来源无法追溯或误报率持续偏高即停用并回滚配置。"
       },
       "signals": {
-        "recentCommit": "2026-11-26",
-        "issuesUpdated30d": 29,
-        "prsUpdated30d": 148,
+        "recentCommit": "2026-11-27",
+        "issuesUpdated30d": 32,
+        "prsUpdated30d": 158,
         "latestRelease": "v2.1（2026-06-05）",
         "readmeMaturity": "成熟",
-        "readmeSignals": "20,798 字符 / 22 个标题 / 有安装说明 / 有 Demo/示例 / 有文档入口"
+        "readmeSignals": "20,855 字符 / 22 个标题 / 有安装说明 / 有 Demo/示例 / 有文档入口"
       }
     },
     {
       "rank": 2,
-      "repo": "firecrawl/firecrawl",
-      "url": "https://github.com/firecrawl/firecrawl",
+      "repo": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
       "tags": [
-        "Browser",
         "AI Agent",
-        "Dev Tool"
+        "Dev Tool",
+        "SDLC"
       ],
       "tagsCn": [
-        "浏览器",
         "AI Agent",
-        "Dev Tool"
+        "Dev Tool",
+        "SDLC"
       ],
-      "tagline": "单个二进制把网页转成Markdown，并通过MCP接入编码Agent",
-      "starsToday": 1046,
-      "totalStars": 210921,
-      "starTodayRatio": 0.5,
-      "rankingStatus": "连续 2 次日报 TOP3",
-      "rankingTrack": "11-26#3 -> 11-27#2",
-      "activity": "1 天前有提交",
-      "license": "AGPL-3.0",
-      "maintainer": "组织/公司/社区项目（Firecrawl）；有主页/组织资料，可进一步核实官方性",
-      "positioning": "面向需要给 Agent 与 RAG 补充外部知识的开发者：本地版单个二进制即可完成 scrape、crawl、map 与页面转 Markdown，并通过 MCP 接入 Claude Code、Cursor；云端再补搜索与 550+ 数据源。边界是本地版不含队列与数据库，规模化调度与结构化抽取需转云端或自托管，不承诺突破登录墙与反爬。",
-      "whyWatch": "今日新增 1046 星、占总星仅 0.5%，21 万星量级下属老项目回热，不应读作质量跃升。1 天前有提交（上次为 0 天前），近 30 天 PR 更新 721、issue 更新 54，合并节奏维持高位，但 open issues 930 长期高企。release 仍为 v2.11.0（2026-06-19）；README 用能力表清晰区分本地、云端、自托管三条路径，接入成本判断依据充分。",
-      "changedSinceLast": "上次记录为 2026-11-24 第 3 名、日增 1135、占比 0.54%、open issues 923、PR 更新 715。今日日增 1046 小幅回落、占比 0.5%，名次仍为第 3；open issues 923→930、issue 更新 51→54、PR 更新 715→721，均属温和增长，未见集中清理。最近提交由 0 天前变为 1 天前，未影响版本节奏，release 与三条路径说明保持未变。",
-      "suitableFor": "适合需要统一接口给 RAG 或 Agent 补充网页知识的开发者；适合想用单个二进制在本机完成抓取、并通过 MCP 接入 Claude Code 与 Cursor 的个人与小团队；也适合对数据出境敏感、有运维能力需自托管队列与数据库的组织做内部知识库。",
-      "notSuitableFor": "不适合无视 900 多个 open issues 就接入生产关键链路的团队；不适合无运维能力却要自托管队列与数据库的组织；不适合需要绕过登录墙、验证码或违反站点条款的抓取需求；对 AGPL-3.0 传染性敏感的商业分发场景也需谨慎评估。",
-      "risk": "AGPL-3.0 对网络服务与再分发有传染性，商业闭源集成前须经法务确认。抓取须遵守目标站点 robots、服务条款与频率限制，不得绕过登录与反爬，涉及个人信息须做合规评估。open issues 长期在 900 量级与高频 PR 并存，存在回归风险；自托管服务暴露公网前须复核鉴权、限流与端口配置。",
-      "bestPractice": "在内部知识库试点：用本地版在 localhost 启动 API，先抓自家文档站与公开技术博客转 Markdown 入库，SDK 指向本地地址，用 20 到 30 个页面评估 JS 渲染与正文抽取质量，再决定是否迁移到自托管或云端。",
+      "tagline": "把需求澄清到 TDD 交付固化成代理技能链，关键节点需人签核",
+      "starsToday": 922,
+      "totalStars": 328292,
+      "starTodayRatio": 0.28,
+      "rankingStatus": "非连续；上次 11-23 第3",
+      "rankingTrack": "11-23#3 -> 11-28#2",
+      "activity": "2 天前有提交",
+      "license": "MIT",
+      "maintainer": "个人项目（维护者资料公司：Prime Radiant）；有主页/组织资料，可进一步核实官方性",
+      "positioning": "面向已部署受支持编码代理、且有测试与评审文化的团队：把澄清需求、分块规格、实现计划、子代理逐任务 TDD 固化成技能链，关键节点由人签核。边界是强依赖宿主插件机制、流程刚性高，本身不提供模型或算力，效果取决于团队既有工程纪律。",
+      "whyWatch": "今日新增 922 星，但仅占总星数的 0.28%，属于 32 万星老项目回热；最关键的信号是最近提交时间由 20 天前回到 2 天前，静默期结束；近 30 天 issue 更新 133 次、PR 更新 102 次，open issues 达 374 个，体量偏大；README 有 12,860 字符、31 个标题，列出十余个宿主安装入口，但 Demo 不明显；release 仍为 v7.0.2（2026-11-03）。",
+      "changedSinceLast": "上次记录为 2026-11-22、日增 883、占比 0.27%、open issues 363、最近提交停在 20 天前。今日日增回升至 922，占比从 0.27% 升至 0.28%；最重要的变化是维护者恢复提交（2 天前），静默期结束；issue 更新从 129 增至 133，PR 更新从 95 增至 102；open issues 从 363 升至 374，继续走高；release 仍未超过 v7.0.2。",
+      "suitableFor": "适合已部署 Claude Code、Cursor、Codex 等受支持代理，且已有单测与代码评审文化的中大型团队；适合想把 AI 编码收敛为可审计交付、愿意接受 1-2 天前置规格签核的工程负责人；也适合维护内部技能清单的平台团队。",
+      "notSuitableFor": "不适合以原型速度为主的个人或小团队，强流程会拖慢小改动；不适合缺少单测与评审习惯的组织，技能链难以落地；不适合使用自研或未受支持代理的团队；也不适合安全关键系统，子代理自主执行仍需高额人工审计。",
+      "risk": "方法论强势，小任务被过度流程化，反而降低效率；技能依赖宿主插件机制，宿主升级可能打断技能链。社区技能质量参差，外部注入的技能带来稳定性与安全暴露风险；子代理可长时间自主运行，规格一旦出错会在多个模块扩散，须保留人工审批、最小权限与回滚通道；open issues 达 374 个，响应未必及时。",
+      "bestPractice": "拿一个预计 3-5 天的新功能试点：先让代理产出一页分块规格与实现计划，团队评审通过后拆成任务，交子代理逐个实现，每个任务走红绿循环并留下审批与回滚记录，最后与人工直接编写同批任务，对比耗时、返工次数与缺陷率。",
       "trialPlan": {
-        "install": "按 README 从 crates.io 安装本地版，准备 Rust 与 C 编译器；如需 MCP 接入，同步在 Claude Code 或 Cursor 中注册本地地址。",
-        "pilot": "挑 20 到 30 页自家文档与公开技术博客做 scrape 与 crawl，验证 JS 渲染、Markdown 结构保留与链接还原效果。",
-        "evaluation": "统计正文抽取准确率、JS 渲染页面成功率、单页耗时与失败重试比例；同时评估是否需要队列与结构化抽取，判断是否转自托管。",
-        "exit": "若关键页面抽取错误率高、或团队无法承担 AGPL 合规与自托管运维成本，则改用云端或回退到现有抓取方案。"
+        "install": "按 README 对应宿主入口（Claude Code、Cursor 等）安装，先在隔离分支与备份配置下试装，核对加载的技能清单。",
+        "pilot": "选一个内部小需求，完整走一遍规格、计划、子代理实现、人工审查合并。",
+        "evaluation": "对比前置规划耗时、返工次数、单测覆盖率变化与缺陷率。",
+        "exit": "流程开销超过收益、技能链被宿主升级打断或出现越权改动即回退。"
       },
       "signals": {
         "recentCommit": "2026-11-26",
-        "issuesUpdated30d": 54,
-        "prsUpdated30d": 721,
-        "latestRelease": "v2.11.0（2026-06-19）",
+        "issuesUpdated30d": 133,
+        "prsUpdated30d": 102,
+        "latestRelease": "v7.0.2（2026-11-03）",
         "readmeMaturity": "成熟",
-        "readmeSignals": "11,318 字符 / 31 个标题 / 有安装说明 / 有 Demo/示例 / 有文档入口"
+        "readmeSignals": "12,860 字符 / 31 个标题 / 有安装说明 / Demo 不明显 / 有文档入口"
       }
     },
     {
       "rank": 3,
-      "repo": "cathrynlavery/diagram-design",
-      "url": "https://github.com/cathrynlavery/diagram-design",
+      "repo": "XiaoYouChR/Ghost-Downloader-3",
+      "url": "https://github.com/XiaoYouChR/Ghost-Downloader-3",
       "tags": [
-        "AI Agent",
-        "Dev Tool",
-        "Visualization"
+        "Downloader",
+        "Browser",
+        "Desktop"
       ],
       "tagsCn": [
-        "AI Agent",
-        "Dev Tool",
-        "Visualization"
+        "Downloader",
+        "浏览器",
+        "桌面端"
       ],
-      "tagline": "让编码Agent按编辑级规范输出52类自包含图表",
-      "starsToday": 955,
-      "totalStars": 73831,
-      "starTodayRatio": 1.29,
-      "rankingStatus": "连续 2 次日报 TOP3",
-      "rankingTrack": "11-26#2 -> 11-27#3",
-      "activity": "1 天前有提交",
-      "license": "MIT",
+      "tagline": "多协议桌面下载器，v4.6.1 发布，扩展可嗅探页面媒体",
+      "starsToday": 836,
+      "totalStars": 19836,
+      "starTodayRatio": 4.21,
+      "rankingStatus": "非连续；上次 11-25 第2",
+      "rankingTrack": "11-25#2 -> 11-28#3",
+      "activity": "2 天前有提交",
+      "license": "GPL-3.0",
       "maintainer": "个人项目；有主页/组织资料，可进一步核实官方性",
-      "positioning": "面向使用 Claude Code、Codex、Copilot、Cursor 等编码 Agent 的开发者、技术写作者与文档团队：让模型按内置编辑级图表规范输出自包含 HTML+SVG，替代默认 Mermaid 风格，并支持从 drawio、Mermaid、Excalidraw、PlantUML 导入。边界是不支持 Figma 原生二次编辑，语义层级由模型临时判断，复杂系统边界仍需人工核对，默认只出静态图。",
-      "whyWatch": "今日新增 955 星、占总星 1.29%，7.3 万星体量下属老项目回热。1 天前有提交，近 30 天 PR 更新 65、issue 更新 23，open issues 由 38 降至 33，积压继续收敛。README 35,141 字符 / 30 个标题，含安装、Demo 与文档入口，并有 plugin.json 版本徽章与 CI 状态；但仓库仍无公开 release，版本可追溯性依赖 CHANGELOG。",
-      "changedSinceLast": "上次记录为 2026-10-13 第 3 名、日增 1141、占比 1.56%、open issues 38、issue 更新 25。今日日增 955、占比 1.29%，热度延续回落但基数扩大至 73831；open issues 38→33 继续收敛，issue 更新 25→23 基本持平，PR 更新维持 65。52 类图表口径、导入导出能力与无 release 状态均未变化。",
-      "suitableFor": "适合对文档视觉有要求、想摆脱 Mermaid 默认样式的 AI 重度用户；适合需要统一架构图、流程图与用户旅程风格的技术文档团队；也适合设计师与工程师以 HTML/SVG 作为中间交付物协作，减少人工调图与来回返工的时间。",
-      "notSuitableFor": "不适合需要复杂交互、动画或数据驱动实时可视化的场景；不适合必须交付 Figma 或 draw.io 源文件供团队二次编辑的流程；也不适合要求官方支持、版本合规采购与长期维护承诺的企业环境，模型误判系统边界时图表更难被察觉。",
-      "risk": "无公开 release，虽有 plugin.json 版本与 CHANGELOG，生产采用前仍应锁定 commit 并自行验证；LLM 生成的图在系统依赖、网络边界上出错比 Mermaid 更难察觉，须强制人工评审；内嵌脚本的 HTML/SVG 对外发布时需遵守 CSP 等策略；MIT 但为个人维护，无官方支持承诺。",
-      "bestPractice": "文档站改版时用 npx skills add 安装，把现有 Mermaid 架构图批量重绘为统一品牌风格的 HTML/SVG 并嵌入站点；由资深工程师核对层级与依赖连线，把生成的 SVG 纳入代码评审，避免错误图表进入对外文档。",
+      "positioning": "面向在桌面与安卓端管理多协议下载的个人与小团队：把 HTTP、磁力、BT、FTP、M3U8、MPEG-DASH 收进 Qt 客户端，并用浏览器扩展嗅探页面媒体。边界是桌面客户端，不解决版权与平台条款授权，也不提供服务端无头调度与集群分发能力。",
+      "whyWatch": "今日新增 836 星、占总星数的 4.21%，总量达 19,836，绝对增量仍高，但比上次的 1092 明显回落；2 天前有提交，且 release 由 v4.5.11 更新至 v4.6.1（2026-11-26），版本与提交同步性好于同日榜单多数项目；近 30 天 issue 更新 217 次、PR 更新 63 次，open issues 达 120 个，仍偏高；README 首屏为代理商赞助与折扣码，需自行甄别，不代表官方背书。",
+      "changedSinceLast": "上次记录为 2026-11-24、日增 1092、占比 6.31%、open issues 113、release v4.5.11。今日日增降至 836、占比 4.21%，总量由 17,300 增至 19,836；最值得注意的变化是发布 v4.6.1（2026-11-26），版本可追溯性改善；PR 更新由 47 增至 63，提交流更活跃；open issues 由 113 增至 120，积压未缓解；赞助位与 GPL-3.0 说明未变。",
+      "suitableFor": "适合经常在桌面处理多协议下载、需要断点续传与中途修改 URL 或代理的个人用户；适合把有授权的公开课、发布会视频与自有素材批量归档的创作者与内容运营；也适合用 aria2 兼容 RPC 把下载接入自动化脚本的开发者。",
+      "notSuitableFor": "不适合用它下载无授权的影视、课程或付费内容，工具本身不提供版权许可；不适合要求服务端无头部署与集群调度的团队，它是桌面与安卓客户端；不适合必须零赞助位展示的严格合规环境；不愿承担 GPL-3.0 义务的二次分发者也需回避。",
+      "risk": "版权与平台条款是首要风险：BT、视频站解析与真实浏览器 TLS 指纹易被用于绕过反爬或付费墙，使用场景须自证授权并控制请求频率。GPL-3.0 对二次分发有源码开放要求；README 顶部为代理商赞助与折扣码，属商业推广而非官方背书；open issues 升至 120，回归问题需持续观察。",
+      "bestPractice": "把授权范围内的公开课程、开源发布会视频与自有素材集中管理：用浏览器扩展在页面直接嗅探媒体，配合分片下载与断点续传归档，再通过 aria2 兼容 RPC 把批量任务接入脚本，统一做校验、命名与授权依据登记，避免混入无授权内容。",
       "trialPlan": {
-        "install": "执行 npx skills add cathrynlavery/diagram-design 安装技能，记录当前 commit 与 CHANGELOG 版本号作为回退基线。",
-        "pilot": "选 3 到 5 张现有 Mermaid 架构图重绘，覆盖前端、后端、数据库、缓存与外部依赖，观察品牌样式匹配度。",
-        "evaluation": "评估重绘后人工修改量、层级与连线正确率、跨 Agent（Claude Code 与 Cursor）输出一致性，以及是否满足文档站 CSP 要求。",
-        "exit": "若人工核对工时高于手绘、或模型频繁误判系统边界且难以发现，则停止推广并回退到原 Mermaid 流程。"
+        "install": "从 Release 下载对应架构安装包（Windows、macOS、Linux 或安卓），核对版本号与来源，首次启动使用独立下载目录。",
+        "pilot": "用 3-5 个自有或明确授权的媒体链接测试 HTTP、磁力与 HLS 分片下载及断点续传。",
+        "evaluation": "记录成功率、平均速度、断点续传可靠性、崩溃次数与 RPC 接入是否顺畅。",
+        "exit": "出现下载失败率高、疑似触发平台风控或 GPL 合规无法满足即停用。"
       },
       "signals": {
         "recentCommit": "2026-11-26",
-        "issuesUpdated30d": 23,
-        "prsUpdated30d": 65,
-        "latestRelease": "暂无公开 release",
+        "issuesUpdated30d": 217,
+        "prsUpdated30d": 63,
+        "latestRelease": "v4.6.1（2026-11-26）",
         "readmeMaturity": "成熟",
-        "readmeSignals": "35,141 字符 / 30 个标题 / 有安装说明 / 有 Demo/示例 / 有文档入口"
+        "readmeSignals": "10,662 字符 / 18 个标题 / 有安装说明 / 有 Demo/示例 / 有文档入口"
       }
     }
   ]

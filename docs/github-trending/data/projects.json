@@ -1,17 +1,41 @@
 {
-  "generatedAt": "2026-11-27T08:00:54.206589+08:00",
+  "generatedAt": "2026-11-28T08:04:18.463075+08:00",
   "projects": [
     {
       "repo": "elementalsouls/Claude-BugHunter",
       "url": "https://github.com/elementalsouls/Claude-BugHunter",
-      "latestDate": "2026-11-27",
+      "latestDate": "2026-11-28",
       "latestRank": 1,
       "tagsCn": [
         "Security",
         "AI Agent",
-        "学术研究"
+        "Red Team"
       ],
-      "lastTagline": "把85个红队技能装进Claude Code，覆盖24类漏洞与报告流程"
+      "lastTagline": "把 85 个红队技能装进 Claude Code，按授权范围取用"
+    },
+    {
+      "repo": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "latestDate": "2026-11-28",
+      "latestRank": 2,
+      "tagsCn": [
+        "AI Agent",
+        "Dev Tool",
+        "SDLC"
+      ],
+      "lastTagline": "把需求澄清到 TDD 交付固化成代理技能链，关键节点需人签核"
+    },
+    {
+      "repo": "XiaoYouChR/Ghost-Downloader-3",
+      "url": "https://github.com/XiaoYouChR/Ghost-Downloader-3",
+      "latestDate": "2026-11-28",
+      "latestRank": 3,
+      "tagsCn": [
+        "Downloader",
+        "浏览器",
+        "桌面端"
+      ],
+      "lastTagline": "多协议桌面下载器，v4.6.1 发布，扩展可嗅探页面媒体"
     },
     {
       "repo": "firecrawl/firecrawl",
@@ -38,18 +62,6 @@
       "lastTagline": "让编码Agent按编辑级规范输出52类自包含图表"
     },
     {
-      "repo": "XiaoYouChR/Ghost-Downloader-3",
-      "url": "https://github.com/XiaoYouChR/Ghost-Downloader-3",
-      "latestDate": "2026-11-25",
-      "latestRank": 2,
-      "tagsCn": [
-        "浏览器",
-        "Dev Tool",
-        "Downloader"
-      ],
-      "lastTagline": "Qt 桌面客户端统一管理 HTTP、BT、FTP 与流媒体下载，附浏览器嗅探扩展"
-    },
-    {
       "repo": "HKUDS/CLI-Anything",
       "url": "https://github.com/HKUDS/CLI-Anything",
       "latestDate": "2026-11-25",
@@ -61,18 +73,6 @@
         "开源"
       ],
       "lastTagline": "把桌面与专业软件封装成 CLI，让 AI agent 直接调用并产出文件"
-    },
-    {
-      "repo": "obra/superpowers",
-      "url": "https://github.com/obra/superpowers",
-      "latestDate": "2026-11-23",
-      "latestRank": 3,
-      "tagsCn": [
-        "AI Agent",
-        "Dev Tool",
-        "SDLC"
-      ],
-      "lastTagline": "给编码代理装一套带人工签核的 TDD 开发方法论"
     },
     {
       "repo": "mvanhorn/last30days-skill",
